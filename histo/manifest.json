@@ -1,0 +1,18 @@
+{
+  "name": "조직학 땡시험",
+  "short_name": "조직땡",
+  "description": "조직학 땡시험 기출문제 학습 앱",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#4361ee",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%234361ee'/><text x='50' y='65' font-size='40' text-anchor='middle' fill='white'>H</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
