@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta name="robots" content="noindex, nofollow">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -2549,6 +2548,38 @@ if (!localStorage.getItem('histo_visited')) {
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js').catch(() => {});
 }
+
+// Background pre-cache all images (runs quietly after page load)
+setTimeout(function() {
+  const allImgUrls = [];
+  // Collect all question images
+  ALL_QUESTIONS.forEach(function(q) {
+    if (q.images) q.images.forEach(function(img) { allImgUrls.push('img/' + img); });
+  });
+  // Collect all dopan images
+  if (typeof DOPAN_FILES !== 'undefined') {
+    DOPAN_FILES.forEach(function(f) { allImgUrls.push('img/dopan/' + f); });
+  }
+  // Deduplicate
+  const unique = [...new Set(allImgUrls)];
+  let loaded = 0;
+  const batch = 6; // concurrent downloads
+  function loadNext() {
+    const urls = unique.splice(0, batch);
+    if (!urls.length) return;
+    urls.forEach(function(url) {
+      const img = new Image();
+      img.onload = img.onerror = function() {
+        loaded++;
+        if (unique.length) loadNext();
+      };
+      img.src = url;
+    });
+  }
+  // Start pre-caching with low priority
+  if (navigator.connection && navigator.connection.saveData) return; // respect data saver
+  loadNext();
+}, 3000); // wait 3s after page load
 </script>
 </body>
 </html>
