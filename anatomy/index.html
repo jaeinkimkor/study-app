@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta name="robots" content="noindex, nofollow">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -3056,17 +3055,29 @@ document.addEventListener('click', function(e) {
 })();
 
 // ========== IMAGE PRELOAD (background) ==========
-// 2023/2022 먼저, 나머지는 지연 로드
+// All years + tissue - load everything for offline use
 setTimeout(function(){
   loadImages(2023, function(){});
   loadImages(2022, function(){});
 }, 2000);
 setTimeout(function(){
   loadImages(2021, function(){});
-}, 5000);
-setTimeout(function(){
   loadImages(2020, function(){});
-}, 10000);
+}, 4000);
+setTimeout(function(){
+  // Also pre-cache tissue images
+  var tissueFile = 'img_tissue_2022.json';
+  if (!imgCache[tissueFile]) {
+    fetch(tissueFile).then(function(r){ return r.json(); }).then(function(data){
+      imgCache[tissueFile] = data;
+    }).catch(function(){});
+  }
+}, 6000);
+
+// Register service worker for offline caching
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js').catch(function(){});
+}
 
 </script>
 </body>
