@@ -967,7 +967,7 @@ function loadYear() {
     // 빈출 TOP: frequency >= 2인 문제만, 빈출 높은 순
     currentYear = 'freq';
     yearQuestions = ALL_QUESTIONS.filter(function(q) { return q.frequency >= 2 && q.answer_text; })
-      .sort(function(a,b) { return (b.frequency||0) - (a.frequency||0); });
+      .sort(function(a,b) { return (b.frequency||0) - (a.frequency||0) || b.year - a.year; });
   } else {
     currentYear = parseInt(selVal);
     yearQuestions = ALL_QUESTIONS.filter(function(q) { return q.year === currentYear; });
@@ -2531,9 +2531,11 @@ function showWelcomeFromSettings() {
   const years = [...new Set(ALL_QUESTIONS.map(q => q.year))].sort((a,b) => b - a);
   const sel = document.getElementById('yearSelect');
   sel.innerHTML = '<option value="freq">⭐ 빈출 TOP (시험 필수!)</option>' + years.map(y => `<option value="${y}">${y}</option>`).join('');
-  // Restore last studied year
-  const lastYear = getStore('lastYear', years[0]);
-  if (years.includes(lastYear)) sel.value = lastYear;
+  // Restore last studied year, default to most recent
+  const lastYear = getStore('lastYear', String(years[0]));
+  const validOpts = ['freq', ...years.map(String)];
+  if (validOpts.includes(String(lastYear))) sel.value = String(lastYear);
+  else sel.value = String(years[0]);
 })();
 
 setupQuestionModeRow();
