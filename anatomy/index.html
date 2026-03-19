@@ -141,6 +141,20 @@ input,select{font-family:inherit;}
 .critical-list{display:flex;flex-direction:column;gap:6px;}
 .cl-item{padding:10px;border-radius:6px;background:rgba(239,68,68,.05);border:1px solid rgba(239,68,68,.15);font-size:.84rem;line-height:1.6;}
 .cl-item strong{color:var(--danger);}
+/* ===== Browse Mode (공부 모드) ===== */
+.browse-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:16px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,.05);}
+.browse-card-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:6px;}
+.browse-q-text{font-size:.95rem;font-weight:600;line-height:1.65;margin-bottom:12px;}
+.browse-choices{display:flex;flex-direction:column;gap:6px;margin-bottom:10px;}
+.browse-choice{padding:9px 14px 9px 40px;border-radius:8px;background:var(--bg);border:1px solid var(--border);font-size:.88rem;line-height:1.5;position:relative;color:var(--text);}
+.browse-choice-num{position:absolute;left:10px;top:50%;transform:translateY(-50%);width:22px;height:22px;border-radius:6px;background:var(--border);display:flex;align-items:center;justify-content:center;font-size:.72rem;font-weight:700;color:var(--text2);}
+.browse-choice.browse-answer{border-color:var(--success);background:rgba(16,185,129,.1);font-weight:700;color:#065f46;}
+.browse-choice.browse-answer .browse-choice-num{background:var(--success);color:#fff;}
+.browse-choice.browse-answer .browse-choice-num.ans{background:var(--success);color:#fff;}
+.browse-explanation{background:rgba(108,92,231,.06);border:1px solid rgba(108,92,231,.18);border-radius:var(--radius);padding:12px 14px;margin-top:8px;line-height:1.7;font-size:.86rem;color:var(--text);}
+.browse-explanation strong{color:var(--accent);}
+.browse-img-wrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin:10px 0;}
+@media(max-width:480px){.browse-card{padding:14px 12px;}.browse-q-text{font-size:.9rem;}.browse-choice{padding:8px 12px 8px 36px;font-size:.84rem;}}
 @media print{body{background:#fff;color:#000;}.nav,.tab-btn,.btn,.fc-btns,.filter-row,.q-nav{display:none!important;}.main{padding:10px;}.card,.lm-item,.prof-bubble,.frac-card,.cl-item{border:1px solid #ccc;background:#fff;color:#000;break-inside:avoid;}.explanation{display:block!important;}}
 
 /* ===== iOS Safari 완벽 호환 ===== */
@@ -310,9 +324,10 @@ details.study-section>.study-section-body{padding-top:10px;}
 <nav class="nav"><div class="nav-inner">
 <span class="nav-title">ANAT</span>
 <button class="tab-btn active" data-tab="quiz">Quiz</button>
+<button class="tab-btn" data-tab="browse">공부</button>
 <button class="tab-btn" data-tab="freq">★ 빈출</button>
 <button class="tab-btn" data-tab="flash">Flashcard</button>
-<button class="tab-btn" data-tab="study">Study</button>
+<button class="tab-btn" data-tab="study">분석</button>
 <button class="tab-btn" data-tab="review">Review</button>
 </div></nav>
 <div class="main">
@@ -346,6 +361,18 @@ details.study-section>.study-section-body{padding-top:10px;}
 <div class="card" id="wrong-list"></div>
 <div style="display:flex;gap:10px;flex-wrap:wrap;"><button class="btn btn-danger" id="retry-wrong">Retry Wrong</button><button class="btn btn-outline" id="retry-all">New Quiz</button></div>
 </div></div>
+<div id="tab-browse" class="hidden">
+<div class="card"><div class="card-title">공부 모드</div>
+<div class="filter-row">
+<select id="browse-year"><option value="all">전체 연도</option><option value="2026">2026</option><option value="2023">2023</option><option value="2022">2022</option><option value="2021">2021</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option></select>
+<select id="browse-type"><option value="all">전체 유형</option><option value="빈출">빈출만</option><option value="짤기">짤기만</option><option value="기변">기변만</option><option value="탈기">탈기만</option><option value="예상">예상문제</option><option value="조직땡">조직땡</option></select>
+<select id="browse-unit"><option value="all">전체 단원</option><option value="Upper Limb">UL</option><option value="Lower Limb">LL</option><option value="Back">Back</option><option value="특수감각기">특수감각기</option><option value="발생학">발생학</option><option value="조직땡">조직땡</option></select>
+</div>
+<div id="browse-count" style="font-size:.82rem;color:var(--text2);margin-top:-6px;"></div>
+</div>
+<div id="browse-content"></div>
+<div style="text-align:center;padding:16px;"><button class="btn btn-outline" id="browse-more" style="display:none;width:100%;">더 보기 (20개씩)</button></div>
+</div>
 <div id="tab-flash" class="hidden">
 <div class="card"><div class="card-title">Flashcard Mode</div>
 <div class="chapter-tabs fc-mode-tabs" id="fc-mode-tabs">
@@ -2109,12 +2136,13 @@ document.querySelectorAll('.tab-btn').forEach(btn=>{
     document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
     btn.classList.add('active');
     const tab=btn.dataset.tab;
-    ['quiz','freq','flash','study','review'].forEach(t=>{
+    ['quiz','browse','freq','flash','study','review'].forEach(t=>{
       $('tab-'+t).classList.toggle('hidden',tab!==t);
     });
     // 플래시카드 하단 버튼 표시/숨김
     var fcBtns=document.querySelector('.fc-btns');
     if(fcBtns)fcBtns.style.display=(tab==='flash')?'flex':'none';
+    if(tab==='browse')renderBrowse();
     if(tab==='freq')renderFreq();
     if(tab==='flash')initFC();
     if(tab==='study')renderStudy();
@@ -2693,6 +2721,106 @@ $('fc-shuffle').addEventListener('click',function(){
 $('fc-mode-core').addEventListener('click',function(){setFCMode('core');});
 $('fc-mode-jjalgi').addEventListener('click',function(){setFCMode('jjalgi');});
 
+// ========== BROWSE MODE (공부 모드) ==========
+var browseState={filtered:[],rendered:0,batchSize:20};
+
+function getBrowseFiltered(){
+  var year=$('browse-year').value;
+  var type=$('browse-type').value;
+  var unit=$('browse-unit').value;
+  return allQuestions.filter(function(q){
+    if(year!=='all'&&String(q.year)!==year)return false;
+    if(type!=='all'&&q.type!==type)return false;
+    if(unit!=='all'&&q.unit!==unit)return false;
+    return true;
+  });
+}
+
+function renderBrowse(){
+  browseState.filtered=getBrowseFiltered();
+  browseState.rendered=0;
+  $('browse-content').innerHTML='';
+  $('browse-count').textContent='총 '+browseState.filtered.length+'문제';
+  renderBrowseBatch();
+}
+
+function renderBrowseBatch(){
+  var el=$('browse-content');
+  var start=browseState.rendered;
+  var end=Math.min(start+browseState.batchSize,browseState.filtered.length);
+  var frag=document.createDocumentFragment();
+  for(var i=start;i<end;i++){
+    var q=browseState.filtered[i];
+    var card=document.createElement('div');
+    card.className='browse-card';
+    var answerIdx=q.answer;
+    var choicesHtml='';
+    if(q.choices&&q.choices.length){
+      choicesHtml='<div class="browse-choices">';
+      for(var j=0;j<q.choices.length;j++){
+        var isAns=(j===answerIdx);
+        choicesHtml+='<div class="browse-choice'+(isAns?' browse-answer':'')+'"><span class="browse-choice-num'+(isAns?' ans':'')+'">'+String.fromCharCode(65+j)+'</span>'+q.choices[j]+'</div>';
+      }
+      choicesHtml+='</div>';
+    }
+    var expHtml='';
+    if(q.explanation){
+      expHtml='<div class="browse-explanation">'+q.explanation+'</div>';
+    }
+    var tipHtml='';
+    if(q.profTip){
+      tipHtml='<div class="prof-tip" style="margin-top:8px;">'+q.profTip+'</div>';
+    }
+    var imgPlaceholder='';
+    if(hasQuestionImage(q)){
+      imgPlaceholder='<div class="browse-img-wrap" data-browse-qid="'+q.id+'"><div class="q-image-note" style="cursor:pointer;">이미지 보기</div></div>';
+    }
+    card.innerHTML='<div class="browse-card-header"><div><span class="q-badge year">'+q.year+'</span> <span class="q-badge unit">'+q.unit+'</span> <span class="q-badge type">'+q.type+'</span></div><span class="q-num">Q'+q.id+'</span></div>'
+      +'<div class="browse-q-text">'+q.q+'</div>'
+      +imgPlaceholder
+      +choicesHtml
+      +expHtml
+      +tipHtml;
+    frag.appendChild(card);
+  }
+  el.appendChild(frag);
+  browseState.rendered=end;
+  var moreBtn=$('browse-more');
+  if(end<browseState.filtered.length){
+    moreBtn.style.display='block';
+    moreBtn.textContent='더 보기 ('+(browseState.filtered.length-end)+'문제 남음)';
+  }else{
+    moreBtn.style.display='none';
+  }
+  // Bind image-load clicks for newly rendered cards
+  el.querySelectorAll('.browse-img-wrap[data-browse-qid]').forEach(function(wrap){
+    if(wrap._bound)return;
+    wrap._bound=true;
+    wrap.addEventListener('click',function(){
+      var qid=parseInt(this.getAttribute('data-browse-qid'));
+      var qq=allQuestions.find(function(x){return x.id===qid;});
+      if(!qq)return;
+      this.innerHTML='<div class="q-image-note">이미지 로딩 중...</div>';
+      var self=this;
+      loadImagesForQuestion(qq,function(data){
+        if(!data){self.innerHTML='<div class="q-image-note">이미지를 불러오지 못했습니다.</div>';return;}
+        var keys=resolveQuestionImageKeys(qq,data);
+        if(keys.length===0){self.innerHTML='<div class="q-image-note">이 문제에 연결된 이미지를 찾지 못했습니다.</div>';return;}
+        fillImageWrap(self,data,keys,'q-inline-image');
+        self.removeAttribute('data-browse-qid');
+      });
+    });
+  });
+}
+
+// Browse filter change listeners
+(function(){
+  ['browse-year','browse-type','browse-unit'].forEach(function(id){
+    $(id).addEventListener('change',function(){renderBrowse();});
+  });
+  $('browse-more').addEventListener('click',function(){renderBrowseBatch();});
+})();
+
 // ========== STUDY MODE ==========
 const studyUnits=["Upper Limb","Lower Limb","Back","\ud2b9\uc218\uac10\uac01\uae30","\ubc1c\uc0dd\ud559"];
 let currentStudyUnit="Upper Limb";
@@ -2851,7 +2979,7 @@ function renderFreq(){
       // Quiz 탭으로 전환 후 시작
       document.querySelectorAll('.tab-btn').forEach(function(b){b.classList.remove('active');});
       document.querySelector('[data-tab="quiz"]').classList.add('active');
-      ['quiz','freq','flash','study','review'].forEach(function(t){
+      ['quiz','browse','freq','flash','study','review'].forEach(function(t){
         $('tab-'+t).classList.toggle('hidden',t!=='quiz');
       });
       startQuiz(qs);
@@ -3054,25 +3182,10 @@ document.addEventListener('click', function(e) {
   }catch(e){}
 })();
 
-// ========== IMAGE PRELOAD (background) ==========
-// All years + tissue - load everything for offline use
-setTimeout(function(){
-  loadImages(2023, function(){});
-  loadImages(2022, function(){});
-}, 2000);
-setTimeout(function(){
-  loadImages(2021, function(){});
-  loadImages(2020, function(){});
-}, 4000);
-setTimeout(function(){
-  // Also pre-cache tissue images
-  var tissueFile = 'img_tissue_2022.json';
-  if (!imgCache[tissueFile]) {
-    fetch(tissueFile).then(function(r){ return r.json(); }).then(function(data){
-      imgCache[tissueFile] = data;
-    }).catch(function(){});
-  }
-}, 6000);
+// ========== IMAGE LOADING ==========
+// Images are loaded on-demand when needed (quiz, flashcard, browse mode).
+// imgCache ensures each JSON is fetched only once.
+// Service Worker caches files for fast repeat visits.
 
 // Register service worker for offline caching
 if ('serviceWorker' in navigator) {
