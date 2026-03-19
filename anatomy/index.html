@@ -3187,6 +3187,30 @@ document.addEventListener('click', function(e) {
 // imgCache ensures each JSON is fetched only once.
 // Service Worker caches files for fast repeat visits.
 
+// Smart background preload: one file at a time, idle-first, smallest first
+(function(){
+  var queue=['img_2021.json','img_2023.json','img_2022.json','img_tissue_2022.json','img_2020.json'];
+  var idx=0;
+  function preloadNext(){
+    if(idx>=queue.length)return;
+    var file=queue[idx++];
+    if(imgCache[file]){preloadNext();return;}
+    fetch(file).then(function(r){return r.ok?r.json():null;}).then(function(data){
+      if(data)imgCache[file]=data;
+    }).catch(function(){}).finally(function(){
+      setTimeout(preloadNext,3000);
+    });
+  }
+  // Start after 5s, use requestIdleCallback if available
+  setTimeout(function(){
+    if(window.requestIdleCallback){
+      requestIdleCallback(function(){preloadNext();});
+    }else{
+      preloadNext();
+    }
+  },5000);
+})();
+
 // Register service worker for offline caching
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js').catch(function(){});
