@@ -154,8 +154,29 @@ input,select{font-family:inherit;}
 .browse-explanation{background:rgba(108,92,231,.06);border:1px solid rgba(108,92,231,.18);border-radius:var(--radius);padding:12px 14px;margin-top:8px;line-height:1.7;font-size:.86rem;color:var(--text);}
 .browse-explanation strong{color:var(--accent);}
 .browse-img-wrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin:10px 0;}
+.browse-freq-badge{display:inline-flex;align-items:center;gap:4px;font-size:.7rem;font-weight:700;padding:3px 9px;border-radius:12px;margin-left:6px;}
+.browse-freq-badge.high{background:rgba(239,68,68,.15);color:var(--danger);}
+.browse-freq-badge.mid{background:rgba(234,179,8,.15);color:var(--warning);}
+.browse-freq-badge.low{background:rgba(124,108,240,.12);color:var(--accent);}
+.browse-years{font-size:.7rem;color:var(--text3);margin-left:auto;}
 @media(max-width:480px){.browse-card{padding:14px 12px;}.browse-q-text{font-size:.9rem;}.browse-choice{padding:8px 12px 8px 36px;font-size:.84rem;}}
-@media print{body{background:#fff;color:#000;}.nav,.tab-btn,.btn,.fc-btns,.filter-row,.q-nav{display:none!important;}.main{padding:10px;}.card,.lm-item,.prof-bubble,.frac-card,.cl-item{border:1px solid #ccc;background:#fff;color:#000;break-inside:avoid;}.explanation{display:block!important;}}
+@media print{
+  body{background:#fff!important;color:#000!important;font-size:11pt!important;}
+  .nav,.fc-btns,.filter-row,.q-nav,#ios-help,#quiz-setup,#browse-print,#browse-more,.btn,.tab-btn{display:none!important;}
+  .main{padding:4px!important;max-width:100%!important;}
+  #tab-browse{display:block!important;}
+  .hidden{display:block!important;}
+  .browse-card{border:1px solid #ccc!important;background:#fff!important;color:#000!important;break-inside:avoid;page-break-inside:avoid;padding:12px!important;margin-bottom:8px!important;box-shadow:none!important;}
+  .browse-card-header{margin-bottom:4px!important;}
+  .browse-choice{background:#f5f5f5!important;border:1px solid #ddd!important;}
+  .browse-choice.browse-answer{background:#d1fae5!important;border:1px solid #10b981!important;font-weight:700!important;}
+  .browse-explanation{display:block!important;background:#f0f0ff!important;border:1px solid #ccc!important;}
+  .prof-tip{background:#fef3c7!important;border:1px solid #f59e0b!important;}
+  .card{border:none!important;box-shadow:none!important;padding:4px!important;}
+  .q-inline-image,.browse-img-wrap img{max-height:150px!important;max-width:200px!important;}
+  .explanation{display:block!important;}
+  .card,.lm-item,.prof-bubble,.frac-card,.cl-item{border:1px solid #ccc;background:#fff;color:#000;break-inside:avoid;}
+}
 
 /* ===== iOS Safari 완벽 호환 ===== */
 * {
@@ -364,14 +385,19 @@ details.study-section>.study-section-body{padding-top:10px;}
 <div id="tab-browse" class="hidden">
 <div class="card"><div class="card-title">공부 모드</div>
 <div class="filter-row">
-<select id="browse-year"><option value="all">전체 연도</option><option value="2026">2026</option><option value="2023">2023</option><option value="2022">2022</option><option value="2021">2021</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option></select>
-<select id="browse-type"><option value="all">전체 유형</option><option value="빈출">빈출만</option><option value="짤기">짤기만</option><option value="기변">기변만</option><option value="탈기">탈기만</option><option value="예상">예상문제</option><option value="조직땡">조직땡</option></select>
 <select id="browse-unit"><option value="all">전체 단원</option><option value="Upper Limb">UL</option><option value="Lower Limb">LL</option><option value="Back">Back</option><option value="특수감각기">특수감각기</option><option value="발생학">발생학</option><option value="조직땡">조직땡</option></select>
+<select id="browse-type"><option value="all">전체 유형</option><option value="짤기">짤기만</option><option value="기변">기변만</option><option value="탈기">탈기만</option><option value="예상">예상문제</option><option value="조직땡">조직땡</option></select>
+<select id="browse-sort"><option value="freq">빈출순</option><option value="year">최신순</option><option value="id">번호순</option></select>
+</div>
+<div class="filter-row">
+<label><input type="checkbox" id="browse-dedup" checked> 중복 제거</label>
+<label><input type="checkbox" id="browse-freq-only"> 2회 이상 출제만</label>
 </div>
 <div id="browse-count" style="font-size:.82rem;color:var(--text2);margin-top:-6px;"></div>
+<button class="btn btn-sm btn-outline" id="browse-print" style="margin-top:8px;">인쇄 / PDF 저장</button>
 </div>
 <div id="browse-content"></div>
-<div style="text-align:center;padding:16px;"><button class="btn btn-outline" id="browse-more" style="display:none;width:100%;">더 보기 (20개씩)</button></div>
+<div style="text-align:center;padding:16px;"><button class="btn btn-outline" id="browse-more" style="display:none;width:100%;">더 보기</button></div>
 </div>
 <div id="tab-flash" class="hidden">
 <div class="card"><div class="card-title">Flashcard Mode</div>
@@ -2724,23 +2750,79 @@ $('fc-mode-jjalgi').addEventListener('click',function(){setFCMode('jjalgi');});
 // ========== BROWSE MODE (공부 모드) ==========
 var browseState={filtered:[],rendered:0,batchSize:20};
 
+// Normalize question text for dedup
+function normQ(text){return text.toLowerCase().replace(/[^a-z가-힣\s]/g,'').replace(/\s+/g,' ').trim();}
+
 function getBrowseFiltered(){
-  var year=$('browse-year').value;
   var type=$('browse-type').value;
   var unit=$('browse-unit').value;
-  return allQuestions.filter(function(q){
-    if(year!=='all'&&String(q.year)!==year)return false;
+  var dedup=$('browse-dedup').checked;
+  var freqOnly=$('browse-freq-only').checked;
+  var sortBy=$('browse-sort').value;
+
+  // Step 1: filter by type/unit
+  var filtered=allQuestions.filter(function(q){
     if(type!=='all'&&q.type!==type)return false;
     if(unit!=='all'&&q.unit!==unit)return false;
     return true;
   });
+
+  // Step 2: compute frequency for each question group
+  var freqMap={};
+  filtered.forEach(function(q){
+    var key=normQ(q.choices[q.answer]||'')+'/'+normQ(q.q).substring(0,40);
+    if(!freqMap[key])freqMap[key]={count:0,years:[],items:[]};
+    freqMap[key].count++;
+    if(freqMap[key].years.indexOf(q.year)<0)freqMap[key].years.push(q.year);
+    freqMap[key].items.push(q);
+  });
+
+  // Attach freq info to each question
+  filtered.forEach(function(q){
+    var key=normQ(q.choices[q.answer]||'')+'/'+normQ(q.q).substring(0,40);
+    q._freq=freqMap[key].count;
+    q._years=freqMap[key].years.slice().sort(function(a,b){return b-a;});
+  });
+
+  // Step 3: dedup - keep most recent version of each group
+  if(dedup){
+    var seen={};
+    var deduped=[];
+    // Sort by year desc first so we keep the newest
+    filtered.slice().sort(function(a,b){return b.year-a.year;}).forEach(function(q){
+      var key=normQ(q.choices[q.answer]||'')+'/'+normQ(q.q).substring(0,40);
+      if(!seen[key]){seen[key]=true;deduped.push(q);}
+    });
+    filtered=deduped;
+  }
+
+  // Step 4: freq filter
+  if(freqOnly){
+    filtered=filtered.filter(function(q){return q._freq>=2;});
+  }
+
+  // Step 5: sort
+  if(sortBy==='freq'){
+    filtered.sort(function(a,b){return b._freq-a._freq||b.year-a.year;});
+  }else if(sortBy==='year'){
+    filtered.sort(function(a,b){return b.year-a.year||a.id-b.id;});
+  }else{
+    filtered.sort(function(a,b){return a.id-b.id;});
+  }
+
+  return filtered;
 }
 
 function renderBrowse(){
   browseState.filtered=getBrowseFiltered();
   browseState.rendered=0;
   $('browse-content').innerHTML='';
-  $('browse-count').textContent='총 '+browseState.filtered.length+'문제';
+  var freqOnly=$('browse-freq-only').checked;
+  var dedup=$('browse-dedup').checked;
+  var label='총 '+browseState.filtered.length+'문제';
+  if(dedup)label+=' (중복 제거)';
+  if(freqOnly)label+=' · 빈출만';
+  $('browse-count').textContent=label;
   renderBrowseBatch();
 }
 
@@ -2754,6 +2836,19 @@ function renderBrowseBatch(){
     var card=document.createElement('div');
     card.className='browse-card';
     var answerIdx=q.answer;
+
+    // Frequency badge
+    var freqHtml='';
+    if(q._freq>=2){
+      var cls=q._freq>=4?'high':q._freq>=3?'mid':'low';
+      freqHtml='<span class="browse-freq-badge '+cls+'">'+q._freq+'회 출제</span>';
+    }
+    var yearsHtml='';
+    if(q._years&&q._years.length>1){
+      yearsHtml='<span class="browse-years">'+q._years.join(', ')+'</span>';
+    }
+
+    // Choices
     var choicesHtml='';
     if(q.choices&&q.choices.length){
       choicesHtml='<div class="browse-choices">';
@@ -2763,21 +2858,19 @@ function renderBrowseBatch(){
       }
       choicesHtml+='</div>';
     }
-    var expHtml='';
-    if(q.explanation){
-      expHtml='<div class="browse-explanation">'+q.explanation+'</div>';
-    }
-    var tipHtml='';
-    if(q.profTip){
-      tipHtml='<div class="prof-tip" style="margin-top:8px;">'+q.profTip+'</div>';
-    }
-    var imgPlaceholder='';
+
+    var expHtml=q.explanation?'<div class="browse-explanation">'+q.explanation+'</div>':'';
+    var tipHtml=q.profTip?'<div class="prof-tip" style="margin-top:8px;">'+q.profTip+'</div>':'';
+
+    // Image placeholder (will auto-load)
+    var imgHtml='';
     if(hasQuestionImage(q)){
-      imgPlaceholder='<div class="browse-img-wrap" data-browse-qid="'+q.id+'"><div class="q-image-note" style="cursor:pointer;">이미지 보기</div></div>';
+      imgHtml='<div class="browse-img-wrap" data-browse-qid="'+q.id+'"><div class="q-image-note">이미지 로딩 중...</div></div>';
     }
-    card.innerHTML='<div class="browse-card-header"><div><span class="q-badge year">'+q.year+'</span> <span class="q-badge unit">'+q.unit+'</span> <span class="q-badge type">'+q.type+'</span></div><span class="q-num">Q'+q.id+'</span></div>'
+
+    card.innerHTML='<div class="browse-card-header"><div><span class="q-badge year">'+q.year+'</span> <span class="q-badge unit">'+q.unit+'</span> <span class="q-badge type">'+q.type+'</span>'+freqHtml+'</div><div style="display:flex;align-items:center;gap:6px;">'+yearsHtml+'<span class="q-num">Q'+q.id+'</span></div></div>'
       +'<div class="browse-q-text">'+q.q+'</div>'
-      +imgPlaceholder
+      +imgHtml
       +choicesHtml
       +expHtml
       +tipHtml;
@@ -2792,33 +2885,54 @@ function renderBrowseBatch(){
   }else{
     moreBtn.style.display='none';
   }
-  // Bind image-load clicks for newly rendered cards
+
+  // Auto-load images for visible cards
   el.querySelectorAll('.browse-img-wrap[data-browse-qid]').forEach(function(wrap){
-    if(wrap._bound)return;
-    wrap._bound=true;
-    wrap.addEventListener('click',function(){
-      var qid=parseInt(this.getAttribute('data-browse-qid'));
-      var qq=allQuestions.find(function(x){return x.id===qid;});
-      if(!qq)return;
-      this.innerHTML='<div class="q-image-note">이미지 로딩 중...</div>';
-      var self=this;
-      loadImagesForQuestion(qq,function(data){
-        if(!data){self.innerHTML='<div class="q-image-note">이미지를 불러오지 못했습니다.</div>';return;}
-        var keys=resolveQuestionImageKeys(qq,data);
-        if(keys.length===0){self.innerHTML='<div class="q-image-note">이 문제에 연결된 이미지를 찾지 못했습니다.</div>';return;}
-        fillImageWrap(self,data,keys,'q-inline-image');
-        self.removeAttribute('data-browse-qid');
-      });
+    if(wrap._loading)return;
+    wrap._loading=true;
+    var qid=parseInt(wrap.getAttribute('data-browse-qid'));
+    var qq=allQuestions.find(function(x){return x.id===qid;});
+    if(!qq)return;
+    loadImagesForQuestion(qq,function(data){
+      if(!data){wrap.innerHTML='<div class="q-image-note">이미지 없음</div>';return;}
+      var keys=resolveQuestionImageKeys(qq,data);
+      if(keys.length===0){wrap.innerHTML='';return;}
+      fillImageWrap(wrap,data,keys,'q-inline-image');
+      wrap.removeAttribute('data-browse-qid');
     });
   });
 }
 
-// Browse filter change listeners
+// Browse filter/sort change listeners
 (function(){
-  ['browse-year','browse-type','browse-unit'].forEach(function(id){
+  ['browse-type','browse-unit','browse-sort'].forEach(function(id){
     $(id).addEventListener('change',function(){renderBrowse();});
   });
+  $('browse-dedup').addEventListener('change',function(){renderBrowse();});
+  $('browse-freq-only').addEventListener('change',function(){renderBrowse();});
   $('browse-more').addEventListener('click',function(){renderBrowseBatch();});
+  $('browse-print').addEventListener('click',function(){
+    // Load all visible, then print
+    var wraps=document.querySelectorAll('.browse-img-wrap[data-browse-qid]');
+    if(wraps.length>0){
+      var pending=wraps.length;
+      wraps.forEach(function(wrap){
+        var qid=parseInt(wrap.getAttribute('data-browse-qid'));
+        var qq=allQuestions.find(function(x){return x.id===qid;});
+        if(!qq){pending--;if(pending<=0)window.print();return;}
+        loadImagesForQuestion(qq,function(data){
+          if(data){
+            var keys=resolveQuestionImageKeys(qq,data);
+            if(keys.length>0)fillImageWrap(wrap,data,keys,'q-inline-image');
+          }
+          pending--;
+          if(pending<=0)setTimeout(function(){window.print();},300);
+        });
+      });
+    }else{
+      window.print();
+    }
+  });
 })();
 
 // ========== STUDY MODE ==========
