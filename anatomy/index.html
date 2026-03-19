@@ -2750,37 +2750,83 @@ $('fc-mode-jjalgi').addEventListener('click',function(){setFCMode('jjalgi');});
 // ========== BROWSE MODE (공부 모드) ==========
 var browseState={filtered:[],rendered:0,batchSize:20};
 
-// Aggressive answer normalization for dedup
-function normAns(text){
-  return text.toLowerCase()
-    .replace(/\s*m\.\s*$/,'').replace(/\s*n\.\s*$/,'').replace(/\s*a\.\s*$/,'')
-    .replace(/\s*lig\.\s*$/,'').replace(/\s*mm\.\s*$/,'')
-    .replace(/med\.\s*/g,'medial ').replace(/lat\.\s*/g,'lateral ')
-    .replace(/ant\.\s*/g,'anterior ').replace(/post\.\s*/g,'posterior ')
-    .replace(/supf\.\s*/g,'superficial ')
-    .replace(/[^a-z가-힣\s]/g,'').replace(/\s+/g,' ').trim();
-}
-
-// Pre-compute global frequency map (across ALL years, by answer)
-var _globalFreqMap=null;
-function getGlobalFreqMap(){
-  if(_globalFreqMap)return _globalFreqMap;
-  _globalFreqMap={};
-  allQuestions.forEach(function(q){
-    var key=normAns(q.choices[q.answer]||'');
-    if(key.length<3)return;
-    if(!_globalFreqMap[key])_globalFreqMap[key]={count:0,years:[],bestId:q.id};
-    _globalFreqMap[key].count++;
-    if(_globalFreqMap[key].years.indexOf(q.year)<0)_globalFreqMap[key].years.push(q.year);
-    // Keep the most recent question as "best"
-    var bestQ=allQuestions.find(function(x){return x.id===_globalFreqMap[key].bestId;});
-    if(bestQ&&q.year>bestQ.year)_globalFreqMap[key].bestId=q.id;
-  });
-  for(var k in _globalFreqMap){
-    _globalFreqMap[k].years.sort(function(a,b){return b-a;});
-  }
-  return _globalFreqMap;
-}
+// ========== MANUAL DUPLICATE GROUPS ==========
+// Each sub-array contains IDs of the same question repeated across years.
+// Built by matching answer + question topic across 2016-2023 data.
+var DUPE_GROUPS = [
+  [1,103],                           // Pectoralis/subclavius/deltoid blood -> Thoracoacromial a.
+  [2,104,210,432],                   // DIP flexion -> FDP/Ant. interosseous n.
+  [3,105,205],                       // Shoulder lat. rotation -> Infraspinatus m.
+  [4,106,206],                       // Infraspinatus nerve -> Suprascapular n.
+  [5,107],                           // Wrist drop -> Radial n.
+  [6,108,208,426],                   // Med. epicondyle fracture -> Ulnar n.
+  [7,109,209,408],                   // Scaphoid/FCR -> Flex. carpi radialis m.
+  [8,110],                           // Thumb-index dorsal muscle -> Dorsal interossei m.
+  [9,111,211,412,433],               // Radial a. -> Princeps pollicis a.
+  [10,113,213,419,439],              // Clavicle separation -> Coracohumeral lig.
+  [11,114],                          // Med. rotation -> Subscapularis m.
+  [12,115,215,394,413],              // Axillary a./pec minor -> Thoracoacromial a.
+  [13,116,216,305,321,377],          // Head of talus -> Med. longitudinal arch
+  [15,118,218,395,415,436],          // Elbow pain+supination -> Radial+Musculocutaneous n.
+  [16,120,220],                      // Spinoglenoid notch -> Infraspinatus+Trapezius
+  [17,119],                          // Arm medial rotation pain -> Deltoid m.
+  [18,121,221,307,324,362,378],      // Suboccipital -> Splenius capitis
+  [19,122,222,328,345],              // Flexion+abduction+lat.rot -> Sartorius m.
+  [20,123,223,417,438],              // Brachial a. ligation -> Post. circumflex humeral a.
+  [21,124,224,326,364,380,396],      // Supf br transverse cervical -> Trapezius m.
+  [22,125,225,308,338,397],          // Trapezius+rhomboid blood -> Dorsal scapular a.
+  [23,126,226],                      // Supinator blood supply -> Ant./Common interosseous a.
+  [24,127,227],                      // Carpal tunnel -> Median n.
+  [25,101,201],                      // Deltoid/abduction test -> Axillary n.
+  [26,129,229,334,342],              // Med. malleolus -> Tibial n.
+  [27,132,232,314,329,347],          // 3,4 toe + plantarflexion -> Supf. peroneal n.
+  [28,133,233],                      // Winged scapula -> Root
+  [29,135,235,331,350],              // Lateral leg blood -> Peroneal a.
+  [30,134,234,310,349],              // Dorsiflexion+inversion -> Tibialis ant. m.
+  [31,136,236,351],                  // AVN -> Med. circumflex femoral a.
+  [32,137,237,311,315,333,352],      // Hyperinversion -> Ant. talofibular lig.
+  [33,139,239,335,355,369],          // Obturator+sciatic -> Adductor magnus m.
+  [34,141,241,312,318,337,359],      // Thigh ext+leg flex -> Semitendinosus m.
+  [36,142,242],                      // Med. malleolus ligament -> Deltoid lig.
+  [38,143,243],                      // Thumb-middle deep -> Adductor pollicis m.
+  [48,254,444,447,449,452,457],      // Tectorial membrane -> Limbus of spiral lamina
+  [57,102],                          // Sit-up -> Rectus femoris
+  [58,146,246],                      // Hip abd+lat.rot -> Piriformis m.
+  [59,145,245],                      // Hip add+flex+ext -> Adductor magnus m.
+  [60,144,244],                      // Inv+plantarflex+med.rot -> Post. tibialis m.
+  [47,253,443,445],                  // Glaucoma -> Schlemm's canal
+  [49,454],                          // Elevator/saccule -> Saccule
+  [112,212,304,325,363,416],         // Scapula adduction test -> Dorsal scapular n.
+  [117,217],                         // Posterior cord -> Teres minor m.
+  [131,231,346],                     // Fibula damage -> Eversion
+  [138,238,316],                     // Ankle injury -> Inversion
+  [140,240],                         // MRI knee (fibular side) -> Fibular collateral lig.
+  [130,327,344],                     // MRI anterior leg -> Deep peroneal n.
+  [203,320],                         // Subscapularis/teres blood -> Circumflex scapular a.
+  [204,404,440],                     // Finger adduction -> Palmar interossei m.
+  [207,303],                         // Lat dorsi/thoracodorsal adduction test
+  [250,446,448],                     // INL ganglion cell modulation -> Amacrine cell
+  [251,451],                         // Sound last reaches -> Scala tympani
+  [252,453],                         // Corneal transparency -> Corneal endothelium
+  [301,341,411,430],                 // Shoulder abduction nerves -> Suprascapular+Axillary n.
+  [302,317,336,356,357],             // MRI knee (medial side) -> Med. meniscus
+  [306,322,360],                     // Dorsal primary rami -> Iliocostalis
+  [309,330,348],                     // Supf peroneal n. muscle -> Peroneus longus m.
+  [313,319],                         // Foot injury -> Talonavicular lig.
+  [323,361],                         // Sup angle scapula -> Rhomboid+Trapezius
+  [332,373],                         // Obturator a. identification
+  [339,340,425],                     // Adduction impaired -> Latissimus dorsi m.
+  [393,431],                         // PIP joint flexion -> FDS
+  [400,414,435],                     // Lat cord -> Pectoralis major m.
+  [401,420],                         // Lumbrical m.
+  [409,428],                         // Flexor retinaculum -> Ulnar a.+Ulnar n.
+  [410,429],                         // CTS muscles -> Opponens+Lat.lumbricals
+  [365,418]                          // Supf br (different answer) -> Rhomboid major m.
+];
+var dupeMap = {};
+DUPE_GROUPS.forEach(function(group, i){
+  group.forEach(function(id){ dupeMap[id] = i; });
+});
 
 function getBrowseFiltered(){
   var type=$('browse-type').value;
@@ -2788,35 +2834,37 @@ function getBrowseFiltered(){
   var dedup=$('browse-dedup').checked;
   var freqOnly=$('browse-freq-only').checked;
   var sortBy=$('browse-sort').value;
-  var gfm=getGlobalFreqMap();
 
-  // Step 1: filter - default to 2021-2023 (clean data), exclude broken 2016-2020
+  // Step 1: filter by type/unit (include ALL years)
   var filtered=allQuestions.filter(function(q){
-    if(q.year<2021)return false; // exclude broken old data
     if(type!=='all'&&q.type!==type)return false;
     if(unit!=='all'&&q.unit!==unit)return false;
     return true;
   });
 
-  // Step 2: attach freq info from global map (counts ALL years including old)
+  // Step 2: compute frequency using dupeMap
   filtered.forEach(function(q){
-    var key=normAns(q.choices[q.answer]||'');
-    var info=gfm[key];
-    if(info){
-      q._freq=info.years.length; // unique years, not raw count
-      q._years=info.years.slice();
-    }else{
-      q._freq=1;
-      q._years=[q.year];
+    if(dupeMap[q.id] !== undefined) {
+      var group = DUPE_GROUPS[dupeMap[q.id]];
+      q._freq = group.length;
+      q._years = [];
+      group.forEach(function(gid){
+        var gq = allQuestions.find(function(x){return x.id===gid;});
+        if(gq && q._years.indexOf(gq.year)<0) q._years.push(gq.year);
+      });
+      q._years.sort(function(a,b){return b-a;});
+    } else {
+      q._freq = 1;
+      q._years = [q.year];
     }
   });
 
-  // Step 3: dedup - by normalized answer (keeps most recent)
+  // Step 3: dedup - keep most recent version of each dupe group
   if(dedup){
     var seen={};
     var deduped=[];
-    filtered.slice().sort(function(a,b){return b.year-a.year;}).forEach(function(q){
-      var key=normAns(q.choices[q.answer]||'');
+    filtered.slice().sort(function(a,b){return b.year-a.year||a.id-b.id;}).forEach(function(q){
+      var key = (dupeMap[q.id] !== undefined) ? 'dupe_'+dupeMap[q.id] : 'unique_'+q.id;
       if(!seen[key]){seen[key]=true;deduped.push(q);}
     });
     filtered=deduped;
@@ -2845,8 +2893,8 @@ function renderBrowse(){
   $('browse-content').innerHTML='';
   var freqOnly=$('browse-freq-only').checked;
   var dedup=$('browse-dedup').checked;
-  var label='총 '+browseState.filtered.length+'문제 (2021-2023)';
-  if(dedup)label+=' · 중복 제거';
+  var label='총 '+browseState.filtered.length+'문제';
+  if(dedup)label+=' (중복 제거)';
   if(freqOnly)label+=' · 빈출만';
   $('browse-count').textContent=label;
   renderBrowseBatch();
@@ -3054,25 +3102,25 @@ function extractTopics(q){
 // ========== FREQUENT QUESTIONS MODE ==========
 function renderFreq(){
   var el=$('freq-content');
-  // 정답 텍스트 정규화
-  function normAns(text){return text.toLowerCase().replace(/[^a-z가-힣\s\.]/g,'').replace(/\s+/g,' ').trim();}
-  // 정답별 그룹핑 (조직땡 제외)
+  // dupeMap-based grouping (조직땡 제외)
   var nonTissue=allQuestions.filter(function(q){return q.unit!=='조직땡';});
-  var groups={};
+  var groupsByIdx={};
+  var ungrouped=[];
   nonTissue.forEach(function(q){
-    var key=normAns(q.choices[q.answer]||'');
-    if(key.length<4)return;
-    if(!groups[key])groups[key]={answer:q.choices[q.answer],items:[],years:{}};
-    groups[key].items.push(q);
-    groups[key].years[q.year]=true;
+    if(dupeMap[q.id] !== undefined) {
+      var gi=dupeMap[q.id];
+      if(!groupsByIdx[gi])groupsByIdx[gi]={answer:q.choices[q.answer],items:[],years:{}};
+      groupsByIdx[gi].items.push(q);
+      groupsByIdx[gi].years[q.year]=true;
+    } else {
+      ungrouped.push(q);
+    }
   });
-  // 2회 이상 + 최소 1회는 2021년 이후
+  // 2회 이상 출제 그룹만
   var repeated=[];
-  for(var k in groups){
-    var g=groups[k];
+  for(var k in groupsByIdx){
+    var g=groupsByIdx[k];
     if(g.items.length<2)continue;
-    var hasRecent=g.items.some(function(q){return q.year>=2021;});
-    if(!hasRecent)continue;
     repeated.push(g);
   }
   repeated.sort(function(a,b){return b.items.length-a.items.length;});
