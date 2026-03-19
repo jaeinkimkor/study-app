@@ -2750,8 +2750,37 @@ $('fc-mode-jjalgi').addEventListener('click',function(){setFCMode('jjalgi');});
 // ========== BROWSE MODE (공부 모드) ==========
 var browseState={filtered:[],rendered:0,batchSize:20};
 
-// Normalize question text for dedup
-function normQ(text){return text.toLowerCase().replace(/[^a-z가-힣\s]/g,'').replace(/\s+/g,' ').trim();}
+// Aggressive answer normalization for dedup
+function normAns(text){
+  return text.toLowerCase()
+    .replace(/\s*m\.\s*$/,'').replace(/\s*n\.\s*$/,'').replace(/\s*a\.\s*$/,'')
+    .replace(/\s*lig\.\s*$/,'').replace(/\s*mm\.\s*$/,'')
+    .replace(/med\.\s*/g,'medial ').replace(/lat\.\s*/g,'lateral ')
+    .replace(/ant\.\s*/g,'anterior ').replace(/post\.\s*/g,'posterior ')
+    .replace(/supf\.\s*/g,'superficial ')
+    .replace(/[^a-z가-힣\s]/g,'').replace(/\s+/g,' ').trim();
+}
+
+// Pre-compute global frequency map (across ALL years, by answer)
+var _globalFreqMap=null;
+function getGlobalFreqMap(){
+  if(_globalFreqMap)return _globalFreqMap;
+  _globalFreqMap={};
+  allQuestions.forEach(function(q){
+    var key=normAns(q.choices[q.answer]||'');
+    if(key.length<3)return;
+    if(!_globalFreqMap[key])_globalFreqMap[key]={count:0,years:[],bestId:q.id};
+    _globalFreqMap[key].count++;
+    if(_globalFreqMap[key].years.indexOf(q.year)<0)_globalFreqMap[key].years.push(q.year);
+    // Keep the most recent question as "best"
+    var bestQ=allQuestions.find(function(x){return x.id===_globalFreqMap[key].bestId;});
+    if(bestQ&&q.year>bestQ.year)_globalFreqMap[key].bestId=q.id;
+  });
+  for(var k in _globalFreqMap){
+    _globalFreqMap[k].years.sort(function(a,b){return b-a;});
+  }
+  return _globalFreqMap;
+}
 
 function getBrowseFiltered(){
   var type=$('browse-type').value;
@@ -2759,38 +2788,35 @@ function getBrowseFiltered(){
   var dedup=$('browse-dedup').checked;
   var freqOnly=$('browse-freq-only').checked;
   var sortBy=$('browse-sort').value;
+  var gfm=getGlobalFreqMap();
 
-  // Step 1: filter by type/unit
+  // Step 1: filter - default to 2021-2023 (clean data), exclude broken 2016-2020
   var filtered=allQuestions.filter(function(q){
+    if(q.year<2021)return false; // exclude broken old data
     if(type!=='all'&&q.type!==type)return false;
     if(unit!=='all'&&q.unit!==unit)return false;
     return true;
   });
 
-  // Step 2: compute frequency for each question group
-  var freqMap={};
+  // Step 2: attach freq info from global map (counts ALL years including old)
   filtered.forEach(function(q){
-    var key=normQ(q.choices[q.answer]||'')+'/'+normQ(q.q).substring(0,40);
-    if(!freqMap[key])freqMap[key]={count:0,years:[],items:[]};
-    freqMap[key].count++;
-    if(freqMap[key].years.indexOf(q.year)<0)freqMap[key].years.push(q.year);
-    freqMap[key].items.push(q);
+    var key=normAns(q.choices[q.answer]||'');
+    var info=gfm[key];
+    if(info){
+      q._freq=info.years.length; // unique years, not raw count
+      q._years=info.years.slice();
+    }else{
+      q._freq=1;
+      q._years=[q.year];
+    }
   });
 
-  // Attach freq info to each question
-  filtered.forEach(function(q){
-    var key=normQ(q.choices[q.answer]||'')+'/'+normQ(q.q).substring(0,40);
-    q._freq=freqMap[key].count;
-    q._years=freqMap[key].years.slice().sort(function(a,b){return b-a;});
-  });
-
-  // Step 3: dedup - keep most recent version of each group
+  // Step 3: dedup - by normalized answer (keeps most recent)
   if(dedup){
     var seen={};
     var deduped=[];
-    // Sort by year desc first so we keep the newest
     filtered.slice().sort(function(a,b){return b.year-a.year;}).forEach(function(q){
-      var key=normQ(q.choices[q.answer]||'')+'/'+normQ(q.q).substring(0,40);
+      var key=normAns(q.choices[q.answer]||'');
       if(!seen[key]){seen[key]=true;deduped.push(q);}
     });
     filtered=deduped;
@@ -2819,8 +2845,8 @@ function renderBrowse(){
   $('browse-content').innerHTML='';
   var freqOnly=$('browse-freq-only').checked;
   var dedup=$('browse-dedup').checked;
-  var label='총 '+browseState.filtered.length+'문제';
-  if(dedup)label+=' (중복 제거)';
+  var label='총 '+browseState.filtered.length+'문제 (2021-2023)';
+  if(dedup)label+=' · 중복 제거';
   if(freqOnly)label+=' · 빈출만';
   $('browse-count').textContent=label;
   renderBrowseBatch();
