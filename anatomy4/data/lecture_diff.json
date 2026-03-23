@@ -1,0 +1,2443 @@
+{
+  "analysis_date": "2026-03-24",
+  "description": "2026 강의 PDF vs 2025 야마 비교 분석 - 탈기 가능성 분석",
+  "topics": [
+    {
+      "topic_id": "head",
+      "lecture_source": "Head-2026.pdf",
+      "professor": "강태천",
+      "mapped_yama_topics": [
+        "Head (1)",
+        "Head(2)",
+        "Head (3)"
+      ],
+      "lecture_only_terms_by_category": {
+        "arteries": [
+          "ascending pharyngeal",
+          "descending palatine",
+          "facial a",
+          "greater palatine",
+          "internal\ncarotid",
+          "lesser palatine",
+          "lingual a",
+          "maxillary a",
+          "middle cerebral",
+          "middle meningeal",
+          "occipital a",
+          "ophthalmic a",
+          "sphenopalatine",
+          "vertebral a"
+        ],
+        "autonomic": [
+          "edinger-westphal",
+          "salivatory nucleus"
+        ],
+        "bones_foramina": [
+          "foramen\novale",
+          "foramen lacerum",
+          "foramen ovale",
+          "foramen rotundum",
+          "hypoglossal canal",
+          "infraorbital foramen",
+          "infratemporal fossa",
+          "jugular foramen",
+          "optic canal",
+          "pterygoid canal",
+          "pterygopalatine\nfossa",
+          "pterygopalatine fossa",
+          "stylomastoid\nforamen",
+          "stylomastoid foramen",
+          "superior orbital fissure",
+          "temporal fossa"
+        ],
+        "clinical": [
+          "bell’s palsy",
+          "diplopia",
+          "ptosis",
+          "strabismus"
+        ],
+        "cns_structures": [
+          "fornix"
+        ],
+        "cranial_nerves": [
+          "abducens\nn",
+          "abducens n",
+          "abducent n",
+          "accessory n",
+          "auriculotemporal",
+          "buccal n",
+          "chorda tympani",
+          "cn i",
+          "cn ii",
+          "cn iv",
+          "cn ix",
+          "cn v",
+          "cn vi",
+          "cn vii",
+          "cn viii",
+          "cn x",
+          "cn xi",
+          "cn xii",
+          "cranial nerv",
+          "deep petrosal",
+          "ethmoidal",
+          "frontal n",
+          "glossopharyngeal n",
+          "greater petrosal",
+          "hypoglossal n",
+          "infraorbital",
+          "lacrimal n",
+          "lesser petrosal",
+          "lingual n",
+          "long ciliary",
+          "mandibular\nn",
+          "mandibular n",
+          "maxillary n",
+          "mental n",
+          "mylohyoid",
+          "nasociliary",
+          "oculomotor n",
+          "ophthalmic n",
+          "optic n",
+          "recurrent laryngeal",
+          "short ciliary",
+          "supraorbital",
+          "supratrochlear",
+          "trigeminal n",
+          "trochlear n",
+          "v3",
+          "vagus n",
+          "vestibulocochlear n",
+          "zygomaticofacial",
+          "zygomaticotemporal"
+        ],
+        "development": [
+          "pharyngeal arch",
+          "somite"
+        ],
+        "ear": [
+          "auricle",
+          "cochlea",
+          "mastoid",
+          "tympanic\nmembrane"
+        ],
+        "eye": [
+          "aqueous\nhumor",
+          "aqueous humor",
+          "cataract",
+          "choroid",
+          "ciliary\nbody",
+          "conjunctiva",
+          "cornea",
+          "edinger-westphal",
+          "fovea",
+          "glaucoma",
+          "iris",
+          "lens",
+          "light reflex",
+          "nasolacrimal",
+          "optic disc",
+          "retina",
+          "sclera",
+          "tenon’s capsule",
+          "vitreous"
+        ],
+        "ganglia": [
+          "ciliary gang",
+          "otic\ngang",
+          "otic gang",
+          "pterygopalatine\ngang",
+          "submandibular\ngang",
+          "trigeminal gang"
+        ],
+        "muscles": [
+          "buccinator",
+          "digastric",
+          "inferior oblique",
+          "masseter",
+          "medial rectus",
+          "mylohyoid",
+          "orbicularis oculi",
+          "orbicularis oris",
+          "pterygoid",
+          "sternocleidomastoid",
+          "temporalis",
+          "tensor tympani",
+          "tensor veli palatini",
+          "trapezius",
+          "zygomaticus"
+        ],
+        "neck": [
+          "ansa\ncervicalis",
+          "cervical fascia",
+          "deep\ncervical",
+          "deep cervical"
+        ],
+        "nose_mouth": [
+          "palate",
+          "parotid gland",
+          "taste bud",
+          "tongue",
+          "tonsil"
+        ],
+        "pathways": [
+          "optic chiasm",
+          "propriocepti"
+        ],
+        "veins_sinuses": [
+          "emissary v",
+          "facial v",
+          "jugular v",
+          "pterygoid plexus",
+          "retromandibular",
+          "transverse\nsinus"
+        ]
+      },
+      "common_terms_by_category": {
+        "arteries": [
+          "lacrimal a"
+        ],
+        "autonomic": [
+          "parasympathetic",
+          "sympathetic"
+        ],
+        "cranial_nerves": [
+          "cn iii",
+          "facial n",
+          "v1",
+          "v2"
+        ],
+        "eye": [
+          "pupil"
+        ],
+        "ganglia": [
+          "geniculate gang",
+          "pterygopalatine gang",
+          "submandibular gang"
+        ],
+        "veins_sinuses": [
+          "cavernous sinus",
+          "confluence of sinus",
+          "straight sinus",
+          "transverse sinus"
+        ]
+      },
+      "yama_only_terms_by_category": {
+        "autonomic": [
+          "sympathetic trunk"
+        ],
+        "bones_foramina": [
+          "sella turcica"
+        ],
+        "cns_structures": [
+          "reticular formation"
+        ]
+      },
+      "lecture_only_count": 150,
+      "common_count": 15,
+      "talgi_risk": "high",
+      "summary": "[강태천] Head-2026.pdf에서 야마에 없는 용어 150개 발견 (공통 15개). 주요 누락 분야: arteries: ascending pharyngeal, descending palatine, facial a, greater palatine, internal\ncarotid; bones_foramina: foramen\novale, foramen lacerum, foramen ovale, foramen rotundum, hypoglossal canal; clinical: bell’s palsy, diplopia, ptosis, strabismus; cranial_nerves: abducens\nn, abducens n, abducent n, accessory n, auriculotemporal; ear: auricle, cochlea, mastoid, tympanic\nmembrane.",
+      "potential_talgi_content": [
+        {
+          "sentence": "에 다양한 신경이 상호 연결되어 있음 • 눈, 귀, 얼굴? ons: oronasohypophyseal septum = primary palate",
+          "unique_terms": [
+            "oronasohypophyseal",
+            "palate",
+            "primary",
+            "septum"
+          ]
+        },
+        {
+          "sentence": "(V3) Secondary Primary",
+          "unique_terms": [
+            "primary",
+            "secondary"
+          ]
+        },
+        {
+          "sentence": "• ascending pharyngeal a",
+          "unique_terms": [
+            "ascending",
+            "pharyngeal"
+          ]
+        },
+        {
+          "sentence": "– 2nd division (pterygoid",
+          "unique_terms": [
+            "division",
+            "pterygoid"
+          ]
+        },
+        {
+          "sentence": "• descending palatine a",
+          "unique_terms": [
+            "descending",
+            "palatine"
+          ]
+        },
+        {
+          "sentence": "• Mandible이 생기면서 mandibular n",
+          "unique_terms": [
+            "mandible",
+            "mandibular"
+          ]
+        },
+        {
+          "sentence": "• I: CN V (mandibular arch)",
+          "unique_terms": [
+            "arch",
+            "mandibular"
+          ]
+        },
+        {
+          "sentence": "• II: CN VII (hyoid arch)",
+          "unique_terms": [
+            "arch",
+            "hyoid"
+          ]
+        },
+        {
+          "sentence": "• II: CN VII (hyoid arch)",
+          "unique_terms": [
+            "arch",
+            "hyoid"
+          ]
+        },
+        {
+          "sentence": "– Tongue Expression mm",
+          "unique_terms": [
+            "expression",
+            "tongue"
+          ]
+        },
+        {
+          "sentence": "(눈돌림[동안]신경): superior orbital fissure",
+          "unique_terms": [
+            "fissure",
+            "superior"
+          ]
+        },
+        {
+          "sentence": "(도르레신경): superior orbital fissure",
+          "unique_terms": [
+            "fissure",
+            "superior"
+          ]
+        },
+        {
+          "sentence": "(눈신경): superior orbital fissure",
+          "unique_terms": [
+            "fissure",
+            "superior"
+          ]
+        },
+        {
+          "sentence": "(위턱[상악]신경): foramen rotundum",
+          "unique_terms": [
+            "foramen",
+            "rotundum"
+          ]
+        },
+        {
+          "sentence": "(아래턱[하악]신경): foramen ovale",
+          "unique_terms": [
+            "foramen",
+            "ovale"
+          ]
+        },
+        {
+          "sentence": "(갓돌림[외향]신경): superior orbital fissure",
+          "unique_terms": [
+            "fissure",
+            "superior"
+          ]
+        },
+        {
+          "sentence": "stylomastoid foramen",
+          "unique_terms": [
+            "foramen",
+            "stylomastoid"
+          ]
+        },
+        {
+          "sentence": "(혀인두[설인]신경): jugular foramen",
+          "unique_terms": [
+            "foramen",
+            "jugular"
+          ]
+        },
+        {
+          "sentence": "(미주신경): jugular foramen",
+          "unique_terms": [
+            "foramen",
+            "jugular"
+          ]
+        },
+        {
+          "sentence": "(부[더부]신경): jugular foramen",
+          "unique_terms": [
+            "foramen",
+            "jugular"
+          ]
+        }
+      ],
+      "lecture_only_terms": [
+        "ascending pharyngeal",
+        "descending palatine",
+        "facial a",
+        "greater palatine",
+        "internal\ncarotid",
+        "lesser palatine",
+        "lingual a",
+        "maxillary a",
+        "middle cerebral",
+        "middle meningeal",
+        "occipital a",
+        "ophthalmic a",
+        "sphenopalatine",
+        "vertebral a",
+        "edinger-westphal",
+        "salivatory nucleus",
+        "foramen\novale",
+        "foramen lacerum",
+        "foramen ovale",
+        "foramen rotundum",
+        "hypoglossal canal",
+        "infraorbital foramen",
+        "infratemporal fossa",
+        "jugular foramen",
+        "optic canal",
+        "pterygoid canal",
+        "pterygopalatine\nfossa",
+        "pterygopalatine fossa",
+        "stylomastoid\nforamen",
+        "stylomastoid foramen",
+        "superior orbital fissure",
+        "temporal fossa",
+        "bell’s palsy",
+        "diplopia",
+        "ptosis",
+        "strabismus",
+        "fornix",
+        "abducens\nn",
+        "abducens n",
+        "abducent n",
+        "accessory n",
+        "auriculotemporal",
+        "buccal n",
+        "chorda tympani",
+        "cn i",
+        "cn ii",
+        "cn iv",
+        "cn ix",
+        "cn v",
+        "cn vi",
+        "cn vii",
+        "cn viii",
+        "cn x",
+        "cn xi",
+        "cn xii",
+        "cranial nerv",
+        "deep petrosal",
+        "ethmoidal",
+        "frontal n",
+        "glossopharyngeal n",
+        "greater petrosal",
+        "hypoglossal n",
+        "infraorbital",
+        "lacrimal n",
+        "lesser petrosal",
+        "lingual n",
+        "long ciliary",
+        "mandibular\nn",
+        "mandibular n",
+        "maxillary n",
+        "mental n",
+        "mylohyoid",
+        "nasociliary",
+        "oculomotor n",
+        "ophthalmic n",
+        "optic n",
+        "recurrent laryngeal",
+        "short ciliary",
+        "supraorbital",
+        "supratrochlear",
+        "trigeminal n",
+        "trochlear n",
+        "v3",
+        "vagus n",
+        "vestibulocochlear n",
+        "zygomaticofacial",
+        "zygomaticotemporal",
+        "pharyngeal arch",
+        "somite",
+        "auricle",
+        "cochlea",
+        "mastoid",
+        "tympanic\nmembrane",
+        "aqueous\nhumor",
+        "aqueous humor",
+        "cataract",
+        "choroid",
+        "ciliary\nbody",
+        "conjunctiva",
+        "cornea",
+        "edinger-westphal",
+        "fovea",
+        "glaucoma",
+        "iris",
+        "lens",
+        "light reflex",
+        "nasolacrimal",
+        "optic disc",
+        "retina",
+        "sclera",
+        "tenon’s capsule",
+        "vitreous",
+        "ciliary gang",
+        "otic\ngang",
+        "otic gang",
+        "pterygopalatine\ngang",
+        "submandibular\ngang",
+        "trigeminal gang",
+        "buccinator",
+        "digastric",
+        "inferior oblique",
+        "masseter",
+        "medial rectus",
+        "mylohyoid",
+        "orbicularis oculi",
+        "orbicularis oris",
+        "pterygoid",
+        "sternocleidomastoid",
+        "temporalis",
+        "tensor tympani",
+        "tensor veli palatini",
+        "trapezius",
+        "zygomaticus",
+        "ansa\ncervicalis",
+        "cervical fascia",
+        "deep\ncervical",
+        "deep cervical",
+        "palate",
+        "parotid gland",
+        "taste bud",
+        "tongue",
+        "tonsil",
+        "optic chiasm",
+        "propriocepti",
+        "emissary v",
+        "facial v",
+        "jugular v",
+        "pterygoid plexus",
+        "retromandibular",
+        "transverse\nsinus"
+      ],
+      "common_terms": [
+        "lacrimal a",
+        "parasympathetic",
+        "sympathetic",
+        "cn iii",
+        "facial n",
+        "v1",
+        "v2",
+        "pupil",
+        "geniculate gang",
+        "pterygopalatine gang",
+        "submandibular gang",
+        "cavernous sinus",
+        "confluence of sinus",
+        "straight sinus",
+        "transverse sinus"
+      ],
+      "yama_only_terms": [
+        "sympathetic trunk",
+        "sella turcica",
+        "reticular formation"
+      ]
+    },
+    {
+      "topic_id": "back_(cns_related)",
+      "lecture_source": "Back-2026.pdf",
+      "professor": "강태천",
+      "mapped_yama_topics": [],
+      "lecture_only_terms_by_category": {
+        "cranial_nerves": [
+          "accessory n"
+        ],
+        "muscles": [
+          "rectus capitis",
+          "trapezius"
+        ]
+      },
+      "common_terms_by_category": {},
+      "yama_only_terms_by_category": {},
+      "lecture_only_count": 3,
+      "common_count": 0,
+      "talgi_risk": "high",
+      "summary": "[강태천] Back-2026.pdf에서 야마에 없는 용어 3개 발견 (공통 0개). 큰 차이 없음.",
+      "lecture_only_terms": [
+        "accessory n",
+        "rectus capitis",
+        "trapezius"
+      ],
+      "common_terms": [],
+      "yama_only_terms": []
+    },
+    {
+      "topic_id": "special_sensory_(eye_ear)",
+      "lecture_source": "특수감각기-2026.pdf",
+      "professor": "강태천",
+      "mapped_yama_topics": [
+        "Special sensory system_eyeball"
+      ],
+      "lecture_only_terms_by_category": {
+        "clinical": [
+          "nystagmus",
+          "otitis media"
+        ],
+        "cranial_nerves": [
+          "facial n",
+          "mandibular n",
+          "oculomotor n",
+          "trigeminal n",
+          "vestibulocochlear n"
+        ],
+        "ear": [
+          "auditory tube",
+          "bony labyrinth",
+          "cochlea",
+          "crista ampullaris",
+          "endolymph",
+          "hair\ncell",
+          "hair cell",
+          "incus",
+          "macula",
+          "malleus",
+          "organ of corti",
+          "perilymph",
+          "reissner",
+          "saccule",
+          "scala media",
+          "scala tympani",
+          "scala vestibuli",
+          "semicircular canal",
+          "stapes",
+          "tectorial membrane",
+          "tympanic cavity",
+          "utricle"
+        ],
+        "eye": [
+          "choroid",
+          "ciliary body",
+          "cornea",
+          "fovea",
+          "ganglion cell",
+          "iris",
+          "pupil",
+          "retina",
+          "sclera",
+          "tenon's capsule"
+        ],
+        "ganglia": [
+          "spiral gang"
+        ],
+        "muscles": [
+          "stapedius",
+          "tensor tympani"
+        ]
+      },
+      "common_terms_by_category": {
+        "eye": [
+          "bipolar cell",
+          "cone cell",
+          "rod cell"
+        ]
+      },
+      "yama_only_terms_by_category": {
+        "pathways": [
+          "auditory pathway",
+          "olfactory pathway"
+        ]
+      },
+      "lecture_only_count": 42,
+      "common_count": 3,
+      "talgi_risk": "high",
+      "summary": "[강태천] 특수감각기-2026.pdf에서 야마에 없는 용어 42개 발견 (공통 3개). 주요 누락 분야: cranial_nerves: facial n, mandibular n, oculomotor n, trigeminal n, vestibulocochlear n; ear: auditory tube, bony labyrinth, cochlea, crista ampullaris, endolymph; eye: choroid, ciliary body, cornea, fovea, ganglion cell.",
+      "potential_talgi_content": [
+        {
+          "sentence": "- 안구근막 (Tenon's capsule): 안구",
+          "unique_terms": [
+            "capsule",
+            "tenon"
+          ]
+        },
+        {
+          "sentence": "을 싸고, 섬모체 ciliary body가 있",
+          "unique_terms": [
+            "body",
+            "ciliary"
+          ]
+        },
+        {
+          "sentence": "(1) 앞상피 corneal epithelium",
+          "unique_terms": [
+            "corneal",
+            "epithelium"
+          ]
+        },
+        {
+          "sentence": "(5) 뒤상피 corneal endothelium",
+          "unique_terms": [
+            "corneal",
+            "endothelium"
+          ]
+        },
+        {
+          "sentence": "cornea에 공막고랑 scleral",
+          "unique_terms": [
+            "cornea",
+            "scleral"
+          ]
+        },
+        {
+          "sentence": "성되어 scleral venous sinus",
+          "unique_terms": [
+            "scleral",
+            "sinus",
+            "venous"
+          ]
+        },
+        {
+          "sentence": "- 망막 retina와는 바닥복합층 basal complex (Bruch's) membrane으로 분리",
+          "unique_terms": [
+            "basal",
+            "bruch",
+            "complex",
+            "membrane",
+            "retina"
+          ]
+        },
+        {
+          "sentence": "며, 나머지는 공막박차 scleral spur에",
+          "unique_terms": [
+            "scleral",
+            "spur"
+          ]
+        },
+        {
+          "sentence": "- 동공가장자리 pupillary margin: 동공을 형성하는 부분",
+          "unique_terms": [
+            "margin",
+            "pupillary"
+          ]
+        },
+        {
+          "sentence": "근 dilator pupillae m",
+          "unique_terms": [
+            "dilator",
+            "pupillae"
+          ]
+        },
+        {
+          "sentence": "ganglion cell의 fiber가 형성",
+          "unique_terms": [
+            "fiber",
+            "ganglion"
+          ]
+        },
+        {
+          "sentence": "8) 신경절세포층 ganglion cell layer",
+          "unique_terms": [
+            "ganglion",
+            "layer"
+          ]
+        },
+        {
+          "sentence": "NKCC Cone cell (iodopsin) : Rod cell (rhodopsin) = 1:20 (number ratio)",
+          "unique_terms": [
+            "nkcc",
+            "number",
+            "ratio"
+          ]
+        },
+        {
+          "sentence": "R (large cone cell): G (medium cone cell): B (small cone cell) = 40:20:1 Purkinje shift (effect) 천문학, 색각이상 교정에 응용 노시환, 어마어마한 힘으로 만루 홈런 작렬 / 7회초 (naver",
+          "unique_terms": [
+            "effect",
+            "naver",
+            "purkinje",
+            "shift"
+          ]
+        },
+        {
+          "sentence": "Macular Degeneration Diabetic retinopathy 2",
+          "unique_terms": [
+            "degeneration",
+            "diabetic",
+            "macular",
+            "retinopathy"
+          ]
+        },
+        {
+          "sentence": "가운데귀 middle ear, tympanic cavity",
+          "unique_terms": [
+            "cavity",
+            "middle",
+            "tympanic"
+          ]
+        },
+        {
+          "sentence": "1) 뼈미로 bony labyrinth",
+          "unique_terms": [
+            "bony",
+            "labyrinth"
+          ]
+        },
+        {
+          "sentence": "• Malleus: tensor tympani m",
+          "unique_terms": [
+            "malleus",
+            "tensor",
+            "tympani"
+          ]
+        },
+        {
+          "sentence": "• Stapes: stapedius m",
+          "unique_terms": [
+            "stapedius",
+            "stapes"
+          ]
+        },
+        {
+          "sentence": "창) round (cochlear) window가 있음",
+          "unique_terms": [
+            "cochlear",
+            "round",
+            "window"
+          ]
+        }
+      ],
+      "lecture_only_terms": [
+        "nystagmus",
+        "otitis media",
+        "facial n",
+        "mandibular n",
+        "oculomotor n",
+        "trigeminal n",
+        "vestibulocochlear n",
+        "auditory tube",
+        "bony labyrinth",
+        "cochlea",
+        "crista ampullaris",
+        "endolymph",
+        "hair\ncell",
+        "hair cell",
+        "incus",
+        "macula",
+        "malleus",
+        "organ of corti",
+        "perilymph",
+        "reissner",
+        "saccule",
+        "scala media",
+        "scala tympani",
+        "scala vestibuli",
+        "semicircular canal",
+        "stapes",
+        "tectorial membrane",
+        "tympanic cavity",
+        "utricle",
+        "choroid",
+        "ciliary body",
+        "cornea",
+        "fovea",
+        "ganglion cell",
+        "iris",
+        "pupil",
+        "retina",
+        "sclera",
+        "tenon's capsule",
+        "spiral gang",
+        "stapedius",
+        "tensor tympani"
+      ],
+      "common_terms": [
+        "bipolar cell",
+        "cone cell",
+        "rod cell"
+      ],
+      "yama_only_terms": [
+        "auditory pathway",
+        "olfactory pathway"
+      ]
+    },
+    {
+      "topic_id": "ear_pharynx_larynx",
+      "lecture_source": "0326_김민주_ear pharynx larynx.pdf",
+      "professor": "김민주",
+      "mapped_yama_topics": [
+        "Ear, Pharynx, Larynx"
+      ],
+      "lecture_only_terms_by_category": {
+        "arteries": [
+          "ascending pharyngeal",
+          "descending palatine",
+          "facial a"
+        ],
+        "autonomic": [
+          "parasympathetic",
+          "sympathetic"
+        ],
+        "bones_foramina": [
+          "internal acoustic meatus",
+          "jugular foramen",
+          "petrous part"
+        ],
+        "clinical": [
+          "otitis media",
+          "sensorineural"
+        ],
+        "cns_structures": [
+          "aqueduct",
+          "ventricle"
+        ],
+        "cranial_nerves": [
+          "cn vii",
+          "cn viii",
+          "external laryngeal",
+          "internal laryngeal",
+          "maxillary n",
+          "mylohyoid",
+          "pharyngeal\nplexus",
+          "pharyngeal plexus",
+          "recurrent laryngeal",
+          "v2",
+          "vestibulocochlear n"
+        ],
+        "development": [
+          "otic\nplacode",
+          "otic vesicle",
+          "pharyngeal cleft",
+          "rhombencephalon",
+          "somite"
+        ],
+        "ear": [
+          "aditus",
+          "auditory tube",
+          "basilar membrane",
+          "bony labyrinth",
+          "cochlea",
+          "endolymph",
+          "eustachian",
+          "hair cell",
+          "macula",
+          "mastoid",
+          "membranous labyrinth",
+          "organ of corti",
+          "oval window",
+          "perilymph",
+          "pharyngotympanic",
+          "round window",
+          "saccule",
+          "scala tympani",
+          "semicircular canal",
+          "tegmen tympani",
+          "tympanic\nmembrane",
+          "utricle",
+          "vestibule"
+        ],
+        "ganglia": [
+          "vestibular gang"
+        ],
+        "muscles": [
+          "cricothyroid",
+          "levator veli palatini",
+          "mylohyoid",
+          "oblique arytenoid",
+          "palatopharyngeus",
+          "pterygoid",
+          "stylohyoid",
+          "stylopharyngeus",
+          "tensor veli palatini",
+          "vocalis"
+        ],
+        "nose_mouth": [
+          "arytenoid cartilage",
+          "cricoid\ncartilage",
+          "cricoid cartilage",
+          "hard palate",
+          "hyoid bone",
+          "laryngeal inlet",
+          "laryngopharynx",
+          "nasopharynx",
+          "oropharynx",
+          "palate",
+          "palatine tonsil",
+          "pharyngeal tonsil",
+          "piriform",
+          "rima glottidis",
+          "soft palate",
+          "thyrohyoid",
+          "thyroid cartilage",
+          "tongue",
+          "tonsil",
+          "vestibular fold",
+          "vocal fold",
+          "waldeyer"
+        ]
+      },
+      "common_terms_by_category": {
+        "clinical": [
+          "flaccid"
+        ],
+        "cranial_nerves": [
+          "auriculotemporal",
+          "chorda tympani",
+          "cn ix",
+          "cn v",
+          "cn x",
+          "facial n",
+          "glossopharyngeal n",
+          "v3",
+          "vagus n"
+        ],
+        "development": [
+          "pharyngeal arch"
+        ],
+        "ear": [
+          "auricle",
+          "external acoustic meatus",
+          "incus",
+          "malleus",
+          "stapes",
+          "tympanic cavity",
+          "tympanic membrane"
+        ],
+        "muscles": [
+          "stapedius",
+          "tensor tympani"
+        ],
+        "nose_mouth": [
+          "epiglottis"
+        ]
+      },
+      "yama_only_terms_by_category": {
+        "cranial_nerves": [
+          "cnvii"
+        ]
+      },
+      "lecture_only_count": 84,
+      "common_count": 21,
+      "talgi_risk": "high",
+      "summary": "[김민주] 0326_김민주_ear pharynx larynx.pdf에서 야마에 없는 용어 84개 발견 (공통 21개). 주요 누락 분야: arteries: ascending pharyngeal, descending palatine, facial a; bones_foramina: internal acoustic meatus, jugular foramen, petrous part; cranial_nerves: cn vii, cn viii, external laryngeal, internal laryngeal, maxillary n; development: otic\nplacode, otic vesicle, pharyngeal cleft, rhombencephalon, somite; ear: aditus, auditory tube, basilar membrane, bony labyrinth, cochlea.",
+      "potential_talgi_content": [
+        {
+          "sentence": "** Pharyngotympanic tube: between middle ear to the nasopharynx",
+          "unique_terms": [
+            "between",
+            "nasopharynx",
+            "pharyngotympanic",
+            "tube"
+          ]
+        },
+        {
+          "sentence": "the fibers are absent in flaccid part)",
+          "unique_terms": [
+            "absent",
+            "fibers",
+            "flaccid",
+            "part"
+          ]
+        },
+        {
+          "sentence": "(CN X)], internal surface [glosspharyngeal n",
+          "unique_terms": [
+            "glosspharyngeal",
+            "internal"
+          ]
+        },
+        {
+          "sentence": "1) Tegmental wall (roof) - tegmen tympani",
+          "unique_terms": [
+            "roof",
+            "tegmen",
+            "tegmental",
+            "wall"
+          ]
+        },
+        {
+          "sentence": "wall) - mostly tympanic membrane, small sup",
+          "unique_terms": [
+            "mostly",
+            "small",
+            "wall"
+          ]
+        },
+        {
+          "sentence": "[basal turn] of the cochlea)",
+          "unique_terms": [
+            "basal",
+            "cochlea",
+            "turn"
+          ]
+        },
+        {
+          "sentence": "5) Mastoid wall (post",
+          "unique_terms": [
+            "mastoid",
+            "post",
+            "wall"
+          ]
+        },
+        {
+          "sentence": "aditus to the mastoid antrum, canal for the",
+          "unique_terms": [
+            "aditus",
+            "antrum",
+            "canal",
+            "mastoid"
+          ]
+        },
+        {
+          "sentence": "carotid wall - opening of the pharyngotympanic tube and the canal for the",
+          "unique_terms": [
+            "canal",
+            "carotid",
+            "opening",
+            "pharyngotympanic",
+            "tube",
+            "wall"
+          ]
+        },
+        {
+          "sentence": "• Pharyngotympanic tube –",
+          "unique_terms": [
+            "pharyngotympanic",
+            "tube"
+          ]
+        },
+        {
+          "sentence": "between tympanic cavity and nasophrynx",
+          "unique_terms": [
+            "between",
+            "nasophrynx"
+          ]
+        },
+        {
+          "sentence": "→ free movement of tympanic membrane 가능하게 함",
+          "unique_terms": [
+            "free",
+            "movement"
+          ]
+        },
+        {
+          "sentence": "[opening by levator veli palatini & tensor veli palatini] Middle ear – (2)",
+          "unique_terms": [
+            "levator",
+            "opening",
+            "palatini",
+            "veli"
+          ]
+        },
+        {
+          "sentence": "- Head: epitympanic recess, articulation with incus",
+          "unique_terms": [
+            "articulation",
+            "epitympanic",
+            "head",
+            "recess",
+            "with"
+          ]
+        },
+        {
+          "sentence": "- Neck: flaccid part of the tympanic membrane, inserted by tendon of the tensor tympani,",
+          "unique_terms": [
+            "flaccid",
+            "inserted",
+            "neck",
+            "part",
+            "tendon"
+          ]
+        },
+        {
+          "sentence": "- Body: epitympanic recess, articulation with head of malleus",
+          "unique_terms": [
+            "articulation",
+            "body",
+            "epitympanic",
+            "head",
+            "recess",
+            "with"
+          ]
+        },
+        {
+          "sentence": "- Long limb: parallel to the handle of malleus, interior end",
+          "unique_terms": [
+            "interior",
+            "limb",
+            "long",
+            "parallel"
+          ]
+        },
+        {
+          "sentence": "→ articulation with stapes via lenticular process",
+          "unique_terms": [
+            "articulation",
+            "lenticular",
+            "process",
+            "with"
+          ]
+        },
+        {
+          "sentence": "- Short limb: connection by a ligament to post wall of tympanic cavity",
+          "unique_terms": [
+            "connection",
+            "ligament",
+            "limb",
+            "post",
+            "short",
+            "wall"
+          ]
+        },
+        {
+          "sentence": "- Head: articulation with incus",
+          "unique_terms": [
+            "articulation",
+            "head",
+            "with"
+          ]
+        }
+      ],
+      "lecture_only_terms": [
+        "ascending pharyngeal",
+        "descending palatine",
+        "facial a",
+        "parasympathetic",
+        "sympathetic",
+        "internal acoustic meatus",
+        "jugular foramen",
+        "petrous part",
+        "otitis media",
+        "sensorineural",
+        "aqueduct",
+        "ventricle",
+        "cn vii",
+        "cn viii",
+        "external laryngeal",
+        "internal laryngeal",
+        "maxillary n",
+        "mylohyoid",
+        "pharyngeal\nplexus",
+        "pharyngeal plexus",
+        "recurrent laryngeal",
+        "v2",
+        "vestibulocochlear n",
+        "otic\nplacode",
+        "otic vesicle",
+        "pharyngeal cleft",
+        "rhombencephalon",
+        "somite",
+        "aditus",
+        "auditory tube",
+        "basilar membrane",
+        "bony labyrinth",
+        "cochlea",
+        "endolymph",
+        "eustachian",
+        "hair cell",
+        "macula",
+        "mastoid",
+        "membranous labyrinth",
+        "organ of corti",
+        "oval window",
+        "perilymph",
+        "pharyngotympanic",
+        "round window",
+        "saccule",
+        "scala tympani",
+        "semicircular canal",
+        "tegmen tympani",
+        "tympanic\nmembrane",
+        "utricle",
+        "vestibule",
+        "vestibular gang",
+        "cricothyroid",
+        "levator veli palatini",
+        "mylohyoid",
+        "oblique arytenoid",
+        "palatopharyngeus",
+        "pterygoid",
+        "stylohyoid",
+        "stylopharyngeus",
+        "tensor veli palatini",
+        "vocalis",
+        "arytenoid cartilage",
+        "cricoid\ncartilage",
+        "cricoid cartilage",
+        "hard palate",
+        "hyoid bone",
+        "laryngeal inlet",
+        "laryngopharynx",
+        "nasopharynx",
+        "oropharynx",
+        "palate",
+        "palatine tonsil",
+        "pharyngeal tonsil",
+        "piriform",
+        "rima glottidis",
+        "soft palate",
+        "thyrohyoid",
+        "thyroid cartilage",
+        "tongue",
+        "tonsil",
+        "vestibular fold",
+        "vocal fold",
+        "waldeyer"
+      ],
+      "common_terms": [
+        "flaccid",
+        "auriculotemporal",
+        "chorda tympani",
+        "cn ix",
+        "cn v",
+        "cn x",
+        "facial n",
+        "glossopharyngeal n",
+        "v3",
+        "vagus n",
+        "pharyngeal arch",
+        "auricle",
+        "external acoustic meatus",
+        "incus",
+        "malleus",
+        "stapes",
+        "tympanic cavity",
+        "tympanic membrane",
+        "stapedius",
+        "tensor tympani",
+        "epiglottis"
+      ],
+      "yama_only_terms": [
+        "cnvii"
+      ]
+    },
+    {
+      "topic_id": "mouth_&_nose",
+      "lecture_source": "0326_김민주_mouth nose.pdf",
+      "professor": "김민주",
+      "mapped_yama_topics": [
+        "Mouth _ Nose"
+      ],
+      "lecture_only_terms_by_category": {
+        "arteries": [
+          "facial a",
+          "greater palatine",
+          "lesser palatine",
+          "lingual a",
+          "maxillary a",
+          "ophthalmic a",
+          "sphenopalatine"
+        ],
+        "autonomic": [
+          "parasympathetic",
+          "sympathetic"
+        ],
+        "bones_foramina": [
+          "cribriform plate",
+          "foramen cecum",
+          "palatine foramen"
+        ],
+        "clinical": [
+          "cleft lip",
+          "cleft palate",
+          "thyroglossal"
+        ],
+        "cranial_nerves": [
+          "chorda tympani",
+          "cn ix",
+          "cn v",
+          "cn vii",
+          "cn x",
+          "cn xii",
+          "ethmoidal",
+          "facial n",
+          "glossopharyngeal\nn",
+          "glossopharyngeal n",
+          "hypoglossal n",
+          "internal laryngeal",
+          "lingual n",
+          "mandibular n",
+          "maxillary n",
+          "nasociliary",
+          "ophthalmic n",
+          "pharyngeal plexus",
+          "supraorbital",
+          "v1",
+          "v2",
+          "v3",
+          "vagus n"
+        ],
+        "development": [
+          "frontonasal",
+          "mandibular prominence",
+          "maxillary prominence",
+          "nasal placode",
+          "neural crest",
+          "pharyngeal\narch",
+          "pharyngeal arch",
+          "somite",
+          "stomodeum"
+        ],
+        "ear": [
+          "pharyngotympanic"
+        ],
+        "eye": [
+          "lacrimal sac",
+          "nasolacrimal"
+        ],
+        "muscles": [
+          "extrinsic muscle",
+          "genioglossus",
+          "hyoglossus",
+          "intrinsic muscle",
+          "palatoglossus",
+          "palatopharyngeus",
+          "pterygoid",
+          "styloglossus",
+          "stylohyoid",
+          "tensor veli\npalatini"
+        ],
+        "nose_mouth": [
+          "epiglottis",
+          "filiform",
+          "frontal sinus",
+          "fungiform",
+          "hard palate",
+          "hyoid bone",
+          "maxillary sinus",
+          "nasal\nseptum",
+          "nasal septum",
+          "olfactory bulb",
+          "olfactory epithelium",
+          "palate",
+          "paranasal sinus",
+          "soft palate",
+          "taste bud",
+          "tongue",
+          "tonsil",
+          "uvula"
+        ]
+      },
+      "common_terms_by_category": {
+        "ear": [
+          "vestibule"
+        ]
+      },
+      "yama_only_terms_by_category": {},
+      "lecture_only_count": 78,
+      "common_count": 1,
+      "talgi_risk": "high",
+      "summary": "[김민주] 0326_김민주_mouth nose.pdf에서 야마에 없는 용어 78개 발견 (공통 1개). 주요 누락 분야: arteries: facial a, greater palatine, lesser palatine, lingual a, maxillary a; bones_foramina: cribriform plate, foramen cecum, palatine foramen; clinical: cleft lip, cleft palate, thyroglossal; cranial_nerves: chorda tympani, cn ix, cn v, cn vii, cn x; development: frontonasal, mandibular prominence, maxillary prominence, nasal placode, neural crest.",
+      "potential_talgi_content": [
+        {
+          "sentence": "• Sublingual absorptioin of drug",
+          "unique_terms": [
+            "absorptioin",
+            "drug"
+          ]
+        },
+        {
+          "sentence": "Lips & cheek, gingiva or gum, teeth, tongue, palate, salivary",
+          "unique_terms": [
+            "cheek",
+            "gingiva",
+            "lips",
+            "palate",
+            "salivary",
+            "tongue"
+          ]
+        },
+        {
+          "sentence": "• 입안상피와 neural crest 유래의 mesenchyme에 의해 형성 (3-stages)",
+          "unique_terms": [
+            "crest",
+            "mesenchyme",
+            "neural",
+            "stages"
+          ]
+        },
+        {
+          "sentence": "- Greater palatine foramen: greater palatine vessels & n",
+          "unique_terms": [
+            "foramen",
+            "greater",
+            "palatine",
+            "vessels"
+          ]
+        },
+        {
+          "sentence": "- Lesser palatine foramina: lesser palatine a",
+          "unique_terms": [
+            "foramina",
+            "lesser",
+            "palatine"
+          ]
+        },
+        {
+          "sentence": ">>> soft palate & its",
+          "unique_terms": [
+            "palate",
+            "soft"
+          ]
+        },
+        {
+          "sentence": "(muscular part, uvula), lat",
+          "unique_terms": [
+            "muscular",
+            "part",
+            "uvula"
+          ]
+        },
+        {
+          "sentence": "(palatoglossal and palatopharyngeal arches)",
+          "unique_terms": [
+            "arches",
+            "palatoglossal",
+            "palatopharyngeal"
+          ]
+        },
+        {
+          "sentence": "- Fauces (throat) Palate - muscles (2)",
+          "unique_terms": [
+            "fauces",
+            "muscles",
+            "palate",
+            "throat"
+          ]
+        },
+        {
+          "sentence": "‘Veli’ ≈ soft palate",
+          "unique_terms": [
+            "palate",
+            "soft",
+            "veli"
+          ]
+        },
+        {
+          "sentence": "oid plate, spine of sphenoid bo tense soft palate during swallow",
+          "unique_terms": [
+            "during",
+            "palate",
+            "plate",
+            "soft",
+            "sphenoid",
+            "spine",
+            "swallow",
+            "tense"
+          ]
+        },
+        {
+          "sentence": "Tensor velipalatini mandibular n",
+          "unique_terms": [
+            "mandibular",
+            "tensor",
+            "velipalatini"
+          ]
+        },
+        {
+          "sentence": "cartilage of pharyngotympanic",
+          "unique_terms": [
+            "cartilage",
+            "pharyngotympanic"
+          ]
+        },
+        {
+          "sentence": "elevates soft palate during swall",
+          "unique_terms": [
+            "during",
+            "elevates",
+            "palate",
+            "soft",
+            "swall"
+          ]
+        },
+        {
+          "sentence": "Palatoglossus palatine aponeurosis side of tongue",
+          "unique_terms": [
+            "aponeurosis",
+            "palatine",
+            "palatoglossus",
+            "side",
+            "tongue"
+          ]
+        },
+        {
+          "sentence": "draws soft palate onto tongue",
+          "unique_terms": [
+            "draws",
+            "onto",
+            "palate",
+            "soft",
+            "tongue"
+          ]
+        },
+        {
+          "sentence": "tenses soft palate & pulls walls",
+          "unique_terms": [
+            "palate",
+            "pulls",
+            "soft",
+            "tenses",
+            "walls"
+          ]
+        },
+        {
+          "sentence": "hard palate * palatine aponeru",
+          "unique_terms": [
+            "aponeru",
+            "hard",
+            "palate",
+            "palatine"
+          ]
+        },
+        {
+          "sentence": "nasal spien* palatine ap shortens uvula * pulls it superior",
+          "unique_terms": [
+            "nasal",
+            "palatine",
+            "pulls",
+            "shortens",
+            "spien",
+            "superior",
+            "uvula"
+          ]
+        },
+        {
+          "sentence": "Musculusuvulae mucosa of uvula",
+          "unique_terms": [
+            "mucosa",
+            "musculusuvulae",
+            "uvula"
+          ]
+        }
+      ],
+      "lecture_only_terms": [
+        "facial a",
+        "greater palatine",
+        "lesser palatine",
+        "lingual a",
+        "maxillary a",
+        "ophthalmic a",
+        "sphenopalatine",
+        "parasympathetic",
+        "sympathetic",
+        "cribriform plate",
+        "foramen cecum",
+        "palatine foramen",
+        "cleft lip",
+        "cleft palate",
+        "thyroglossal",
+        "chorda tympani",
+        "cn ix",
+        "cn v",
+        "cn vii",
+        "cn x",
+        "cn xii",
+        "ethmoidal",
+        "facial n",
+        "glossopharyngeal\nn",
+        "glossopharyngeal n",
+        "hypoglossal n",
+        "internal laryngeal",
+        "lingual n",
+        "mandibular n",
+        "maxillary n",
+        "nasociliary",
+        "ophthalmic n",
+        "pharyngeal plexus",
+        "supraorbital",
+        "v1",
+        "v2",
+        "v3",
+        "vagus n",
+        "frontonasal",
+        "mandibular prominence",
+        "maxillary prominence",
+        "nasal placode",
+        "neural crest",
+        "pharyngeal\narch",
+        "pharyngeal arch",
+        "somite",
+        "stomodeum",
+        "pharyngotympanic",
+        "lacrimal sac",
+        "nasolacrimal",
+        "extrinsic muscle",
+        "genioglossus",
+        "hyoglossus",
+        "intrinsic muscle",
+        "palatoglossus",
+        "palatopharyngeus",
+        "pterygoid",
+        "styloglossus",
+        "stylohyoid",
+        "tensor veli\npalatini",
+        "epiglottis",
+        "filiform",
+        "frontal sinus",
+        "fungiform",
+        "hard palate",
+        "hyoid bone",
+        "maxillary sinus",
+        "nasal\nseptum",
+        "nasal septum",
+        "olfactory bulb",
+        "olfactory epithelium",
+        "palate",
+        "paranasal sinus",
+        "soft palate",
+        "taste bud",
+        "tongue",
+        "tonsil",
+        "uvula"
+      ],
+      "common_terms": [
+        "vestibule"
+      ],
+      "yama_only_terms": []
+    },
+    {
+      "topic_id": "development_(head_neck_cns)",
+      "lecture_source": "0408_김민주_Head&Neck CNS 발생.pdf",
+      "professor": "김민주",
+      "mapped_yama_topics": [
+        "Development of Head Neck",
+        "Development of nervous system"
+      ],
+      "lecture_only_terms_by_category": {
+        "arteries": [
+          "facial a",
+          "vertebral a"
+        ],
+        "autonomic": [
+          "sympathetic"
+        ],
+        "bones_foramina": [
+          "foramen cecum",
+          "foramen magnum",
+          "sella turcica",
+          "squamous part"
+        ],
+        "clinical": [
+          "anencephaly",
+          "arnold-chiari",
+          "hydrocephalus",
+          "meningocele",
+          "spina bifida",
+          "thyroglossal"
+        ],
+        "cns_structures": [
+          "aqueduct",
+          "corpus callosum",
+          "medulla oblongata"
+        ],
+        "cranial_nerves": [
+          "optic n",
+          "recurrent\nlaryngeal",
+          "vagus\nn",
+          "vagus n"
+        ],
+        "development": [
+          "digeorge",
+          "holoprosencephaly",
+          "lens placode",
+          "meckel’s cartilage",
+          "neural\ncrest",
+          "neural fold",
+          "neural plate",
+          "neural tube",
+          "optic cup",
+          "pharyngeal membrane",
+          "stomodeum"
+        ],
+        "ear": [
+          "auditory tube",
+          "cochlea",
+          "mastoid",
+          "tympanic cavity"
+        ],
+        "eye": [
+          "cataract",
+          "choroid",
+          "ciliary\nbody",
+          "ciliary body",
+          "cone cell",
+          "cornea",
+          "ganglion cell",
+          "iris",
+          "lens",
+          "pupil",
+          "retina",
+          "sclera",
+          "vitreous"
+        ],
+        "muscles": [
+          "sternocleidomastoid"
+        ],
+        "neck": [
+          "thyroid gland"
+        ],
+        "nose_mouth": [
+          "olfactory bulb",
+          "palate",
+          "palatine tonsil",
+          "soft palate",
+          "tongue",
+          "tonsil"
+        ]
+      },
+      "common_terms_by_category": {
+        "cns_structures": [
+          "cerebellum",
+          "hypothalamus",
+          "midbrain",
+          "pons",
+          "thalamus",
+          "ventricle"
+        ],
+        "cranial_nerves": [
+          "facial n",
+          "trigeminal n",
+          "v3"
+        ],
+        "development": [
+          "diencephalon",
+          "mandibular prominence",
+          "maxillary prominence",
+          "mesencephalon",
+          "metencephalon",
+          "myelencephalon",
+          "neural crest",
+          "pharyngeal arch",
+          "pharyngeal cleft",
+          "pharyngeal pouch",
+          "prosencephalon",
+          "reichert cartilage",
+          "rhombencephalon",
+          "somite",
+          "telencephalon"
+        ],
+        "ear": [
+          "incus",
+          "malleus",
+          "stapes"
+        ],
+        "muscles": [
+          "cricothyroid",
+          "stapedius",
+          "stylohyoid",
+          "stylopharyngeus"
+        ],
+        "nose_mouth": [
+          "hyoid bone",
+          "thyroid cartilage"
+        ]
+      },
+      "yama_only_terms_by_category": {
+        "cranial_nerves": [
+          "cn ix",
+          "cn v",
+          "cn vii",
+          "cn x",
+          "glossopharyngeal n"
+        ],
+        "development": [
+          "meckel's cartilage"
+        ],
+        "muscles": [
+          "masseter",
+          "tensor tympani"
+        ]
+      },
+      "lecture_only_count": 56,
+      "common_count": 33,
+      "talgi_risk": "high",
+      "summary": "[김민주] 0408_김민주_Head&Neck CNS 발생.pdf에서 야마에 없는 용어 56개 발견 (공통 33개). 주요 누락 분야: bones_foramina: foramen cecum, foramen magnum, sella turcica, squamous part; clinical: anencephaly, arnold-chiari, hydrocephalus, meningocele, spina bifida; cns_structures: aqueduct, corpus callosum, medulla oblongata; cranial_nerves: optic n, recurrent\nlaryngeal, vagus\nn, vagus n; development: digeorge, holoprosencephaly, lens placode, meckel’s cartilage, neural\ncrest.",
+      "potential_talgi_content": [
+        {
+          "sentence": "pharyngeal arch skeletal structures, surrounding tissues (cartilage,",
+          "unique_terms": [
+            "skeletal",
+            "structures",
+            "surrounding",
+            "tissues"
+          ]
+        },
+        {
+          "sentence": "(blue: future face & pharyngeal arch의 neural",
+          "unique_terms": [
+            "blue",
+            "face",
+            "future"
+          ]
+        },
+        {
+          "sentence": "• Pharyngeal pouch: foregut (endoderm)의 가장 앞",
+          "unique_terms": [
+            "endoderm",
+            "foregut"
+          ]
+        },
+        {
+          "sentence": "래됨 (tongue, eye, pharingeal arch의 근육들 포함)",
+          "unique_terms": [
+            "pharingeal",
+            "tongue"
+          ]
+        },
+        {
+          "sentence": "X: pharynx, larynx (intrinsic), palate, upper esophagus",
+          "unique_terms": [
+            "esophagus",
+            "intrinsic",
+            "larynx",
+            "palate",
+            "pharynx",
+            "upper"
+          ]
+        },
+        {
+          "sentence": "Pharyngeal arch & related nerve 4 week",
+          "unique_terms": [
+            "nerve",
+            "related",
+            "week"
+          ]
+        },
+        {
+          "sentence": "& final structure Pharyngeal Pouch & Cleft",
+          "unique_terms": [
+            "final",
+            "structure"
+          ]
+        },
+        {
+          "sentence": "• Tubotympanic recess: 1st pharyngeal cleft (→ future ext",
+          "unique_terms": [
+            "future",
+            "recess",
+            "tubotympanic"
+          ]
+        },
+        {
+          "sentence": "meatus) 와 닿음 , primitive tympanic cavity, auditory tube 형성",
+          "unique_terms": [
+            "auditory",
+            "cavity",
+            "meatus",
+            "primitive",
+            "tube",
+            "tympanic"
+          ]
+        },
+        {
+          "sentence": "• 2nd pharyngeal pouch: proliferation & invasion → palatine tonsil",
+          "unique_terms": [
+            "invasion",
+            "palatine",
+            "tonsil"
+          ]
+        },
+        {
+          "sentence": "적 구조 형성 (cervical sinus)하나 성인에서는 사라짐 Pharyngeal Pouch & Cleft",
+          "unique_terms": [
+            "cervical",
+            "sinus"
+          ]
+        },
+        {
+          "sentence": "• Tubotympanic recess: 1st pharyngeal cleft (→ future ext",
+          "unique_terms": [
+            "future",
+            "recess",
+            "tubotympanic"
+          ]
+        },
+        {
+          "sentence": "meatus) 와 닿음 , primitive tympanic cavity, auditory tube 형성",
+          "unique_terms": [
+            "auditory",
+            "cavity",
+            "meatus",
+            "primitive",
+            "tube",
+            "tympanic"
+          ]
+        },
+        {
+          "sentence": "• 2nd pharyngeal pouch: proliferation & invasion → palatine tonsil",
+          "unique_terms": [
+            "invasion",
+            "palatine",
+            "tonsil"
+          ]
+        },
+        {
+          "sentence": "pharyngeal pouch (from foregut [pharyngeal gut])",
+          "unique_terms": [
+            "foregut",
+            "from"
+          ]
+        },
+        {
+          "sentence": "• Fistula는 sternocleidomastoid m",
+          "unique_terms": [
+            "fistula",
+            "sternocleidomastoid"
+          ]
+        },
+        {
+          "sentence": "• DiGeorge anomaly: 여러 neural crest cell기원 기관 defect",
+          "unique_terms": [
+            "anomaly",
+            "digeorge"
+          ]
+        },
+        {
+          "sentence": "• Neural crest cell의 이상 ( facial skeleton, conotruncal positioning)",
+          "unique_terms": [
+            "conotruncal",
+            "positioning",
+            "skeleton"
+          ]
+        },
+        {
+          "sentence": "• Facial anomaly는 종종 persistent truncus arteriosus, TOF, transposition of",
+          "unique_terms": [
+            "anomaly",
+            "arteriosus",
+            "persistent",
+            "transposition",
+            "truncus"
+          ]
+        },
+        {
+          "sentence": "• Neural crest cell은 alcohol이나 retinoic acid (Vit",
+          "unique_terms": [
+            "acid",
+            "alcohol",
+            "retinoic"
+          ]
+        }
+      ],
+      "lecture_only_terms": [
+        "facial a",
+        "vertebral a",
+        "sympathetic",
+        "foramen cecum",
+        "foramen magnum",
+        "sella turcica",
+        "squamous part",
+        "anencephaly",
+        "arnold-chiari",
+        "hydrocephalus",
+        "meningocele",
+        "spina bifida",
+        "thyroglossal",
+        "aqueduct",
+        "corpus callosum",
+        "medulla oblongata",
+        "optic n",
+        "recurrent\nlaryngeal",
+        "vagus\nn",
+        "vagus n",
+        "digeorge",
+        "holoprosencephaly",
+        "lens placode",
+        "meckel’s cartilage",
+        "neural\ncrest",
+        "neural fold",
+        "neural plate",
+        "neural tube",
+        "optic cup",
+        "pharyngeal membrane",
+        "stomodeum",
+        "auditory tube",
+        "cochlea",
+        "mastoid",
+        "tympanic cavity",
+        "cataract",
+        "choroid",
+        "ciliary\nbody",
+        "ciliary body",
+        "cone cell",
+        "cornea",
+        "ganglion cell",
+        "iris",
+        "lens",
+        "pupil",
+        "retina",
+        "sclera",
+        "vitreous",
+        "sternocleidomastoid",
+        "thyroid gland",
+        "olfactory bulb",
+        "palate",
+        "palatine tonsil",
+        "soft palate",
+        "tongue",
+        "tonsil"
+      ],
+      "common_terms": [
+        "cerebellum",
+        "hypothalamus",
+        "midbrain",
+        "pons",
+        "thalamus",
+        "ventricle",
+        "facial n",
+        "trigeminal n",
+        "v3",
+        "diencephalon",
+        "mandibular prominence",
+        "maxillary prominence",
+        "mesencephalon",
+        "metencephalon",
+        "myelencephalon",
+        "neural crest",
+        "pharyngeal arch",
+        "pharyngeal cleft",
+        "pharyngeal pouch",
+        "prosencephalon",
+        "reichert cartilage",
+        "rhombencephalon",
+        "somite",
+        "telencephalon",
+        "incus",
+        "malleus",
+        "stapes",
+        "cricothyroid",
+        "stapedius",
+        "stylohyoid",
+        "stylopharyngeus",
+        "hyoid bone",
+        "thyroid cartilage"
+      ],
+      "yama_only_terms": [
+        "cn ix",
+        "cn v",
+        "cn vii",
+        "cn x",
+        "glossopharyngeal n",
+        "meckel's cartilage",
+        "masseter",
+        "tensor tympani"
+      ]
+    }
+  ],
+  "detailed_talgi_analysis": [
+    {
+      "lecture": "Head-2026.pdf (강태천)",
+      "risk_level": "HIGH",
+      "lecture_only_count": 150,
+      "common_count": 15,
+      "key_gaps": [
+        {
+          "category": "cranial_nerves (50개 누락)",
+          "details": "야마에 비해 강의에서 훨씬 더 많은 뇌신경 분지 상세 내용을 다룸. 특히 CN V의 V1/V2/V3 분지별 상세 경로, CN VII chorda tympani/greater petrosal 경로, CN IX/X/XI/XII의 세부 가지가 야마에 불충분.",
+          "must_study": [
+            "V1 (ophthalmic n.) 세부 분지: supraorbital, supratrochlear, nasociliary, ethmoidal",
+            "V2 (maxillary n.) 세부 분지: infraorbital, zygomaticotemporal, zygomaticofacial",
+            "V3 (mandibular n.) 세부 분지: auriculotemporal, buccal n, lingual n, inferior alveolar n, mental n",
+            "CN VII: chorda tympani, greater petrosal n의 경로와 기능",
+            "CN IX-XII 각각의 세부 가지와 기능"
+          ]
+        },
+        {
+          "category": "bones_foramina (16개 누락)",
+          "details": "두개골 구멍(foramen)들과 그것을 통과하는 구조물 매칭이 야마에 부족",
+          "must_study": [
+            "foramen ovale (V3), foramen rotundum (V2), foramen spinosum (middle meningeal a.)",
+            "jugular foramen (CN IX, X, XI, IJV)",
+            "hypoglossal canal (CN XII)",
+            "pterygoid canal (nerve of pterygoid canal)",
+            "superior orbital fissure (CN III, IV, V1, VI)"
+          ]
+        },
+        {
+          "category": "arteries (14개 누락)",
+          "details": "External carotid artery의 분지들, Internal carotid의 분지들이 야마에 부족",
+          "must_study": [
+            "ECA 8개 분지: superior thyroid, lingual, facial, ascending pharyngeal, occipital, posterior auricular, maxillary, superficial temporal",
+            "maxillary artery의 3개 part별 분지",
+            "middle meningeal artery (epidural hematoma와 연관)",
+            "descending/greater/lesser palatine arteries"
+          ]
+        },
+        {
+          "category": "muscles (15개 누락)",
+          "details": "저작근, 안면 표정근, 안구근 등의 상세 내용 부족",
+          "must_study": [
+            "저작근 4개: temporalis, masseter, medial/lateral pterygoid - 기능과 신경지배",
+            "안면 표정근: orbicularis oculi, orbicularis oris, buccinator 등",
+            "외안근 6개: superior/inferior/medial/lateral rectus, superior/inferior oblique - 기능과 CN 지배"
+          ]
+        },
+        {
+          "category": "eye (19개 누락)",
+          "details": "강의에 안구 해부학이 상당 부분 포함되어 있으나 야마 Head 파트에 안구 내용이 빠져 있음",
+          "must_study": [
+            "안구 구조: sclera, cornea, choroid, ciliary body, iris, retina",
+            "방수(aqueous humor) 순환, Schlemm canal",
+            "망막 세포층: rod/cone, bipolar, ganglion cell",
+            "Edinger-Westphal nucleus와 동공반사"
+          ]
+        },
+        {
+          "category": "ganglia (6개 누락)",
+          "details": "부교감 신경절의 상세 연결이 야마에 부족",
+          "must_study": [
+            "ciliary ganglion (CN III -> 동공수축, 조절)",
+            "pterygopalatine ganglion (CN VII -> 누선, 비점막)",
+            "otic ganglion (CN IX -> 이하선)",
+            "submandibular ganglion (CN VII -> 악하선, 설하선)"
+          ]
+        },
+        {
+          "category": "clinical (4개 누락)",
+          "details": "임상 연관 내용",
+          "must_study": [
+            "Bell palsy (CN VII 마비 - upper vs lower motor neuron 구분)",
+            "사시(strabismus), 복시(diplopia), 안검하수(ptosis)의 원인"
+          ]
+        }
+      ]
+    },
+    {
+      "lecture": "특수감각기-2026.pdf (강태천)",
+      "risk_level": "HIGH",
+      "lecture_only_count": 42,
+      "common_count": 3,
+      "key_gaps": [
+        {
+          "category": "ear (22개 누락)",
+          "details": "야마 특수감각계_안구는 눈 위주이나, 강의 특수감각기는 귀 해부학도 상세히 다룸",
+          "must_study": [
+            "Bony labyrinth: cochlea, vestibule, semicircular canals",
+            "Membranous labyrinth: cochlear duct, utricle, saccule",
+            "Organ of Corti: hair cell, basilar membrane, tectorial membrane",
+            "Crista ampullaris (회전 감각), macula (선형 가속/중력)",
+            "Endolymph vs perilymph",
+            "Scala tympani, vestibuli, media"
+          ]
+        },
+        {
+          "category": "eye (10개 누락)",
+          "details": "안구의 해부학적 구조 상세 내용이 야마 신경경로 위주 설명과 갭이 있음",
+          "must_study": [
+            "Sclera, cornea 구조 상세",
+            "Choroid, ciliary body 기능",
+            "Retina 층 구조: rod/cone -> bipolar -> ganglion cell",
+            "Tenon capsule (안구근막)",
+            "Fovea centralis 구조와 기능"
+          ]
+        },
+        {
+          "category": "muscles & clinical (4개 누락)",
+          "details": "중이 근육과 임상",
+          "must_study": [
+            "Stapedius (CN VII 지배), tensor tympani (CN V3 지배)",
+            "Nystagmus (안진) 유형과 원인",
+            "Otitis media (중이염) 해부학적 이해"
+          ]
+        }
+      ]
+    },
+    {
+      "lecture": "0326_김민주_ear pharynx larynx.pdf (김민주)",
+      "risk_level": "HIGH",
+      "lecture_only_count": 84,
+      "common_count": 21,
+      "key_gaps": [
+        {
+          "category": "ear (23개 누락)",
+          "details": "야마에 귀의 기본 구조는 있으나, 김민주 교수님 강의의 상세 해부학 내용이 누락",
+          "must_study": [
+            "Middle ear walls (6 walls) 각각의 구조와 통과하는 구조물",
+            "Tegmen tympani (천장벽), mastoid wall, carotid wall",
+            "Pharyngotympanic (auditory/Eustachian) tube 상세 구조",
+            "Cochlea 구조: scala tympani/vestibuli/media, basilar membrane",
+            "Semicircular canals: anterior/posterior/lateral, ampulla"
+          ]
+        },
+        {
+          "category": "nose_mouth/pharynx/larynx (22개 누락)",
+          "details": "인두와 후두 해부학이 야마에 매우 부족",
+          "must_study": [
+            "인두 3부분: nasopharynx, oropharynx, laryngopharynx",
+            "후두 연골: thyroid, cricoid, arytenoid cartilage",
+            "후두 근육: cricothyroid, post/lat cricoarytenoid, thyroarytenoid, vocalis",
+            "후두 인대/막: quadrangular membrane, cricothyroid membrane",
+            "Rima glottidis, laryngeal inlet, piriform fossa",
+            "Waldeyer tonsillar ring"
+          ]
+        },
+        {
+          "category": "cranial_nerves (11개 누락)",
+          "details": "후두/인두 관련 신경 상세 내용",
+          "must_study": [
+            "Superior laryngeal nerve (internal/external branches)",
+            "Recurrent laryngeal nerve 경로와 지배 근육",
+            "Pharyngeal plexus (CN IX, X, XI)",
+            "CN VIII (vestibulocochlear) 세부 가지"
+          ]
+        },
+        {
+          "category": "muscles (10개 누락)",
+          "details": "인두/후두/구개 근육",
+          "must_study": [
+            "인두 수축근: superior/middle/inferior constrictor",
+            "구개 근육: levator/tensor veli palatini, palatoglossus, palatopharyngeus",
+            "후두 내재근 기능 (approximation, tension, relaxation of vocal folds)",
+            "Stylopharyngeus (유일하게 CN IX 지배 - 기출 빈출)"
+          ]
+        },
+        {
+          "category": "development (5개 누락)",
+          "details": "귀의 발생학적 내용",
+          "must_study": [
+            "Otic placode -> otic vesicle -> membranous labyrinth",
+            "Pharyngeal cleft와 귀의 발생",
+            "1st pharyngeal arch -> malleus, incus / 2nd arch -> stapes"
+          ]
+        }
+      ]
+    },
+    {
+      "lecture": "0326_김민주_mouth nose.pdf (김민주)",
+      "risk_level": "CRITICAL - 야마 커버리지 거의 없음",
+      "lecture_only_count": 78,
+      "common_count": 1,
+      "key_gaps": [
+        {
+          "category": "cranial_nerves (23개 누락)",
+          "details": "구강/비강 관련 신경 분포가 야마에 거의 없음. 야마 #6 Mouth_Nose의 key_terms가 1개뿐.",
+          "must_study": [
+            "혀의 신경 지배: CN V3 (일반감각 ant 2/3), CN VII chorda tympani (미각 ant 2/3), CN IX (일반감각+미각 post 1/3), CN XII (운동)",
+            "구개의 신경: greater/lesser palatine nerves (V2), nasopalatine nerve",
+            "비강의 신경: olfactory nn (CN I), ethmoidal nn, nasopalatine n",
+            "침샘 신경 지배: parotid (CN IX->otic ganglion), submandibular/sublingual (CN VII->submandibular ganglion)"
+          ]
+        },
+        {
+          "category": "nose_mouth (18개 누락)",
+          "details": "구강과 비강의 구체적 해부학이 야마에 매우 부족",
+          "must_study": [
+            "Palate: hard palate vs soft palate, 구개의 근육 5개, fauces",
+            "혀의 근육: intrinsic (4종) + extrinsic (genioglossus, hyoglossus, styloglossus, palatoglossus)",
+            "침샘 3대: parotid (Stensen duct), submandibular (Wharton duct), sublingual",
+            "비강: nasal septum, 3 conchae, paranasal sinuses (4종: maxillary, frontal, ethmoid, sphenoid)",
+            "Olfactory epithelium and bulb 구조",
+            "치아(teeth) 구조와 신경/혈관 분포"
+          ]
+        },
+        {
+          "category": "development (9개 누락)",
+          "details": "얼굴/구강/비강 발생학",
+          "must_study": [
+            "Frontonasal prominence, maxillary/mandibular prominences",
+            "Nasal placode -> nasal pit -> nasal cavity",
+            "Palate 발생: primary palate, secondary palate, fusion",
+            "Cleft lip vs cleft palate의 발생학적 차이와 기전",
+            "Neural crest의 얼굴 형성 기여"
+          ]
+        },
+        {
+          "category": "arteries (7개 누락)",
+          "details": "구강/비강 혈관",
+          "must_study": [
+            "구강/비강 동맥: lingual a, facial a, maxillary a의 분지들",
+            "Sphenopalatine a, greater/lesser palatine a",
+            "Kiesselbach plexus (Little area) - 비출혈(epistaxis) 호발 부위"
+          ]
+        }
+      ]
+    },
+    {
+      "lecture": "0408_김민주_Head&Neck CNS 발생.pdf (김민주)",
+      "risk_level": "HIGH",
+      "lecture_only_count": 56,
+      "common_count": 33,
+      "key_gaps": [
+        {
+          "category": "development (11개 누락)",
+          "details": "야마 발생학 내용이 매우 간략한 반면, 강의는 상세",
+          "must_study": [
+            "Pharyngeal arch별 유도체: 뼈, 근육, 신경, 동맥 (1st-6th)",
+            "Meckel cartilage (1st arch), Reichert cartilage (2nd arch)",
+            "Pharyngeal pouch별 유도체: 1st->middle ear, 2nd->palatine tonsil, 3rd->inferior parathyroid+thymus, 4th->superior parathyroid+C cells",
+            "Neural crest cells의 두경부 이동과 분화",
+            "DiGeorge syndrome (22q11.2 deletion)",
+            "Holoprosencephaly"
+          ]
+        },
+        {
+          "category": "eye development (13개 누락)",
+          "details": "눈의 발생학이 야마에 부족",
+          "must_study": [
+            "Optic cup -> retina 발생",
+            "Lens placode -> lens vesicle -> lens 발생",
+            "Choroid fissure 폐쇄 (coloboma와 연관)",
+            "Cornea, iris, ciliary body 발생 기원"
+          ]
+        },
+        {
+          "category": "clinical/malformations (6개 누락)",
+          "details": "발생학 관련 임상/기형",
+          "must_study": [
+            "Spina bifida (spina bifida occulta, meningocele, myelomeningocele)",
+            "Anencephaly (무뇌증)",
+            "Arnold-Chiari malformation",
+            "Hydrocephalus (수두증)",
+            "Thyroglossal duct cyst"
+          ]
+        },
+        {
+          "category": "CNS development (추가)",
+          "details": "신경계 발생 상세 내용",
+          "must_study": [
+            "Neural plate -> neural fold -> neural tube 과정",
+            "Primary brain vesicles (3) -> Secondary brain vesicles (5)",
+            "Prosencephalon -> telencephalon + diencephalon",
+            "Rhombencephalon -> metencephalon + myelencephalon",
+            "Corpus callosum 발생",
+            "뇌실(ventricle) 발생과 연관"
+          ]
+        }
+      ]
+    }
+  ],
+  "quick_reference_summary": {
+    "총평": "모든 강의 PDF가 야마 대비 HIGH 위험으로 분석됨. 야마가 작년(2025) 기출 위주로 작성되어 2026년 강의의 새로운/상세 내용이 상당히 누락되어 있음. 특히 김민주 교수님의 Mouth & Nose 야마는 key_terms가 1개뿐으로, 강의 내용과 야마 사이 갭이 가장 큼.",
+    "가장_위험한_영역_순위": [
+      "1. [CRITICAL] Mouth & Nose (김민주): 야마 커버리지 거의 0%. 구강/비강 해부학 전체가 탈기 위험 (78개 용어 누락, 공통 1개)",
+      "2. [HIGH] Head (강태천): 뇌신경 분지 세부사항, 두개골 foramen-신경 매칭, ECA 분지 (150개 용어 누락)",
+      "3. [HIGH] Ear/Pharynx/Larynx (김민주): 인두/후두 해부학, 중이 상세구조 (84개 누락)",
+      "4. [HIGH] Head&Neck/CNS 발생 (김민주): pharyngeal arch/pouch 유도체, 눈/귀 발생, 기형 (56개 누락)",
+      "5. [HIGH] 특수감각기 (강태천): 귀 해부학(특히 내이), 안구 구조 상세 (42개 누락)"
+    ],
+    "필수_암기_우선순위_TOP10": [
+      "1순위: 구강/비강 전체 해부학 (야마에 거의 없음!) - 혀 신경지배, 침샘, palate 구조",
+      "2순위: CN V 분지별 경로 & foramen 통과 (V1/V2/V3) - 상세 가지명과 지배영역",
+      "3순위: 인두/후두 해부학 (근육, 신경, 연골) - 특히 후두 내재근과 신경지배",
+      "4순위: 안구/귀 해부학 구조 상세 - retina layers, cochlea structure",
+      "5순위: Pharyngeal arch/pouch 별 유도체 (발생학) - arch별 뼈/근육/신경/동맥",
+      "6순위: ECA 분지 8개 & maxillary artery 분지",
+      "7순위: 부교감 신경절 4개 (ciliary, pterygopalatine, otic, submandibular) - 연결 경로",
+      "8순위: 두개골 foramen과 통과 구조물 매칭표",
+      "9순위: 발생학적 기형 (spina bifida, cleft palate/lip, DiGeorge, holoprosencephaly)",
+      "10순위: Middle ear walls와 내이 구조 (bony/membranous labyrinth)"
+    ]
+  }
+}

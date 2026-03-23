@@ -1,0 +1,6581 @@
+[
+  {
+    "id": 1,
+    "topic_id": "head_1",
+    "front_ko": "CN I의 한국어 명칭과 정의는?",
+    "front_en": "CN I",
+    "back": "[head_1] CN I - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 2,
+    "topic_id": "head_1",
+    "front_ko": "CN II의 한국어 명칭과 정의는?",
+    "front_en": "CN II",
+    "back": "[head_1] CN II - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 3,
+    "topic_id": "head_1",
+    "front_ko": "CN IV의 한국어 명칭과 정의는?",
+    "front_en": "CN IV",
+    "back": "[head_1] CN IV - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 4,
+    "topic_id": "head_1",
+    "front_ko": "CN IX의 한국어 명칭과 정의는?",
+    "front_en": "CN IX",
+    "back": "[head_1] CN IX - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 5,
+    "topic_id": "head_1",
+    "front_ko": "CN V의 한국어 명칭과 정의는?",
+    "front_en": "CN V",
+    "back": "[head_1] CN V - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 6,
+    "topic_id": "head_1",
+    "front_ko": "CN VII의 한국어 명칭과 정의는?",
+    "front_en": "CN VII",
+    "back": "[head_1] CN VII - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 7,
+    "topic_id": "head_1",
+    "front_ko": "CN VII, IX의 한국어 명칭과 정의는?",
+    "front_en": "CN VII, IX",
+    "back": "[head_1] CN VII, IX - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 8,
+    "topic_id": "head_1",
+    "front_ko": "CN VIII의 한국어 명칭과 정의는?",
+    "front_en": "CN VIII",
+    "back": "[head_1] CN VIII - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 9,
+    "topic_id": "head_1",
+    "front_ko": "Geniculate ganglion의 한국어 명칭과 정의는?",
+    "front_en": "Geniculate ganglion",
+    "back": "[head_1] Geniculate ganglion - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 10,
+    "topic_id": "head_1",
+    "front_ko": "Optic canal의 한국어 명칭과 정의는?",
+    "front_en": "Optic canal",
+    "back": "[head_1] Optic canal - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 11,
+    "topic_id": "head_1",
+    "front_ko": "Radial artery의 한국어 명칭과 정의는?",
+    "front_en": "Radial artery",
+    "back": "[head_1] Radial artery - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 12,
+    "topic_id": "head_1",
+    "front_ko": "Trigeminal nerve의 한국어 명칭과 정의는?",
+    "front_en": "Trigeminal nerve",
+    "back": "[head_1] Trigeminal nerve - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 13,
+    "topic_id": "head_1",
+    "front_ko": "general senses(일반감각의 정의/기능은?",
+    "front_en": "",
+    "back": "[head_1] general senses(일반감각 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 14,
+    "topic_id": "head_1",
+    "front_ko": "special senses(특수감각의 정의/기능은?",
+    "front_en": "",
+    "back": "[head_1] special senses(특수감각 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 15,
+    "topic_id": "head_1",
+    "front_ko": "감각(Afferent의 정의/기능은?",
+    "front_en": "",
+    "back": "[head_1] 감각(Afferent - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 16,
+    "topic_id": "head_1",
+    "front_ko": "관여(SSA의 정의/기능은?",
+    "front_en": "",
+    "back": "[head_1] 관여(SSA - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 17,
+    "topic_id": "head_1",
+    "front_ko": "시각(CN II의 정의/기능은?",
+    "front_en": "",
+    "back": "[head_1] 시각(CN II - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 18,
+    "topic_id": "head_1",
+    "front_ko": "청각(CN VIII의 정의/기능은?",
+    "front_en": "",
+    "back": "[head_1] 청각(CN VIII - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 19,
+    "topic_id": "head_1",
+    "front_ko": "후각(CN I의 정의/기능은?",
+    "front_en": "",
+    "back": "[head_1] 후각(CN I - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 20,
+    "topic_id": "head_3",
+    "front_ko": "Arachnoid (거미막의 정의/기능은?",
+    "front_en": "",
+    "back": "[head_3] Arachnoid (거미막 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 21,
+    "topic_id": "head_3",
+    "front_ko": "CN II의 한국어 명칭과 정의는?",
+    "front_en": "CN II",
+    "back": "[head_3] CN II - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 22,
+    "topic_id": "head_3",
+    "front_ko": "CN III의 한국어 명칭과 정의는?",
+    "front_en": "CN III",
+    "back": "[head_3] CN III - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 23,
+    "topic_id": "head_3",
+    "front_ko": "CN III, IV의 한국어 명칭과 정의는?",
+    "front_en": "CN III, IV",
+    "back": "[head_3] CN III, IV - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 24,
+    "topic_id": "head_3",
+    "front_ko": "CN III, IV, VI의 한국어 명칭과 정의는?",
+    "front_en": "CN III, IV, VI",
+    "back": "[head_3] CN III, IV, VI - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 25,
+    "topic_id": "head_3",
+    "front_ko": "CN IX의 한국어 명칭과 정의는?",
+    "front_en": "CN IX",
+    "back": "[head_3] CN IX - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 26,
+    "topic_id": "head_3",
+    "front_ko": "CN V의 한국어 명칭과 정의는?",
+    "front_en": "CN V",
+    "back": "[head_3] CN V - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 27,
+    "topic_id": "head_3",
+    "front_ko": "CN VI의 한국어 명칭과 정의는?",
+    "front_en": "CN VI",
+    "back": "[head_3] CN VI - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 28,
+    "topic_id": "head_3",
+    "front_ko": "CN VII의 한국어 명칭과 정의는?",
+    "front_en": "CN VII",
+    "back": "[head_3] CN VII - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 29,
+    "topic_id": "head_3",
+    "front_ko": "CNIII의 한국어 명칭과 정의는?",
+    "front_en": "CNIII",
+    "back": "[head_3] CNIII - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 30,
+    "topic_id": "head_3",
+    "front_ko": "CNIV의 한국어 명칭과 정의는?",
+    "front_en": "CNIV",
+    "back": "[head_3] CNIV - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 31,
+    "topic_id": "head_3",
+    "front_ko": "CNVI의 한국어 명칭과 정의는?",
+    "front_en": "CNVI",
+    "back": "[head_3] CNVI - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 32,
+    "topic_id": "head_3",
+    "front_ko": "Calvaria Epidural space Dura mater (경막의 정의/기능은?",
+    "front_en": "",
+    "back": "[head_3] Calvaria Epidural space Dura mater (경막 - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 33,
+    "topic_id": "head_3",
+    "front_ko": "Ciliary ganglion의 한국어 명칭과 정의는?",
+    "front_en": "Ciliary ganglion",
+    "back": "[head_3] Ciliary ganglion - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 34,
+    "topic_id": "head_3",
+    "front_ko": "Ciliary muscle의 한국어 명칭과 정의는?",
+    "front_en": "Ciliary muscle",
+    "back": "[head_3] Ciliary muscle - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 35,
+    "topic_id": "head_3",
+    "front_ko": "Dura mater (경질막의 정의/기능은?",
+    "front_en": "",
+    "back": "[head_3] Dura mater (경질막 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 36,
+    "topic_id": "head_3",
+    "front_ko": "Epidural space의 한국어 명칭과 정의는?",
+    "front_en": "Epidural space",
+    "back": "[head_3] Epidural space - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 37,
+    "topic_id": "head_3",
+    "front_ko": "Eyelid (추가의 정의/기능은?",
+    "front_en": "",
+    "back": "[head_3] Eyelid (추가 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 38,
+    "topic_id": "head_3",
+    "front_ko": "Frontal bone의 한국어 명칭과 정의는?",
+    "front_en": "Frontal bone",
+    "back": "[head_3] Frontal bone - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 39,
+    "topic_id": "head_3",
+    "front_ko": "Infratemporal fossa의 한국어 명칭과 정의는?",
+    "front_en": "Infratemporal fossa",
+    "back": "[head_3] Infratemporal fossa - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 40,
+    "topic_id": "head_3",
+    "front_ko": "Infratentorial region의 한국어 명칭과 정의는?",
+    "front_en": "Infratentorial region",
+    "back": "[head_3] Infratentorial region - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 41,
+    "topic_id": "head_3",
+    "front_ko": "Meninges Subarachnoid space Pia mater (연질막의 정의/기능은?",
+    "front_en": "",
+    "back": "[head_3] Meninges Subarachnoid space Pia mater (연질막 - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 42,
+    "topic_id": "head_3",
+    "front_ko": "Occipital bone의 한국어 명칭과 정의는?",
+    "front_en": "Occipital bone",
+    "back": "[head_3] Occipital bone - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 43,
+    "topic_id": "head_3",
+    "front_ko": "Optic canal의 한국어 명칭과 정의는?",
+    "front_en": "Optic canal",
+    "back": "[head_3] Optic canal - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 44,
+    "topic_id": "head_3",
+    "front_ko": "Orbital region의 한국어 명칭과 정의는?",
+    "front_en": "Orbital region",
+    "back": "[head_3] Orbital region - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 45,
+    "topic_id": "head_3",
+    "front_ko": "Otic ganglion의 한국어 명칭과 정의는?",
+    "front_en": "Otic ganglion",
+    "back": "[head_3] Otic ganglion - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 46,
+    "topic_id": "head_3",
+    "front_ko": "Palatine bone의 한국어 명칭과 정의는?",
+    "front_en": "Palatine bone",
+    "back": "[head_3] Palatine bone - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 47,
+    "topic_id": "head_3",
+    "front_ko": "Pia mater (연질막의 정의/기능은?",
+    "front_en": "",
+    "back": "[head_3] Pia mater (연질막 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 48,
+    "topic_id": "head_3",
+    "front_ko": "Sphenoid bone의 한국어 명칭과 정의는?",
+    "front_en": "Sphenoid bone",
+    "back": "[head_3] Sphenoid bone - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 49,
+    "topic_id": "head_3",
+    "front_ko": "Subarachnoid space의 한국어 명칭과 정의는?",
+    "front_en": "Subarachnoid space",
+    "back": "[head_3] Subarachnoid space - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 50,
+    "topic_id": "head_3",
+    "front_ko": "Supratentorial region의 한국어 명칭과 정의는?",
+    "front_en": "Supratentorial region",
+    "back": "[head_3] Supratentorial region - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 51,
+    "topic_id": "head_3",
+    "front_ko": "Temporal fossa의 한국어 명칭과 정의는?",
+    "front_en": "Temporal fossa",
+    "back": "[head_3] Temporal fossa - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 52,
+    "topic_id": "head_3",
+    "front_ko": "Temporal region의 한국어 명칭과 정의는?",
+    "front_en": "Temporal region",
+    "back": "[head_3] Temporal region - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 53,
+    "topic_id": "head_3",
+    "front_ko": "내사시 (medial squint의 정의/기능은?",
+    "front_en": "",
+    "back": "[head_3] 내사시 (medial squint - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 54,
+    "topic_id": "head_3",
+    "front_ko": "복시 (diplopia의 정의/기능은?",
+    "front_en": "",
+    "back": "[head_3] 복시 (diplopia - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 55,
+    "topic_id": "head_3",
+    "front_ko": "수직복시 (vertical diplopia의 정의/기능은?",
+    "front_en": "",
+    "back": "[head_3] 수직복시 (vertical diplopia - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 56,
+    "topic_id": "head_3",
+    "front_ko": "원근조절(accomodation의 정의/기능은?",
+    "front_en": "",
+    "back": "[head_3] 원근조절(accomodation - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 57,
+    "topic_id": "head_3",
+    "front_ko": "중증근무력증 (Myasthenia gravis의 정의/기능은?",
+    "front_en": "",
+    "back": "[head_3] 중증근무력증 (Myasthenia gravis - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 58,
+    "topic_id": "head_3",
+    "front_ko": "처짐 (ptosis의 정의/기능은?",
+    "front_en": "",
+    "back": "[head_3] 처짐 (ptosis - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 59,
+    "topic_id": "head_3",
+    "front_ko": "천막(tentorium cerebelli의 정의/기능은?",
+    "front_en": "",
+    "back": "[head_3] 천막(tentorium cerebelli - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 60,
+    "topic_id": "head_3",
+    "front_ko": "편두통 (migraine의 정의/기능은?",
+    "front_en": "",
+    "back": "[head_3] 편두통 (migraine - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 61,
+    "topic_id": "head_3",
+    "front_ko": "해면정맥굴(cavernous sinus의 정의/기능은?",
+    "front_en": "",
+    "back": "[head_3] 해면정맥굴(cavernous sinus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 62,
+    "topic_id": "head_3",
+    "front_ko": "Arachnoid (거미막의 정의/기능은?",
+    "front_en": "",
+    "back": "[head_3] Arachnoid (거미막 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 63,
+    "topic_id": "head_3",
+    "front_ko": "Dura mater (경막의 정의/기능은?",
+    "front_en": "",
+    "back": "[head_3] Dura mater (경막 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 64,
+    "topic_id": "head_3",
+    "front_ko": "Dura mater (경질막의 정의/기능은?",
+    "front_en": "",
+    "back": "[head_3] Dura mater (경질막 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 65,
+    "topic_id": "head_3",
+    "front_ko": "Pia mater (연질막의 정의/기능은?",
+    "front_en": "",
+    "back": "[head_3] Pia mater (연질막 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 66,
+    "topic_id": "neck",
+    "front_ko": "Arteries in cervical region의 한국어 명칭과 정의는?",
+    "front_en": "Arteries in cervical region",
+    "back": "[neck] Arteries in cervical region - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 67,
+    "topic_id": "neck",
+    "front_ko": "Arteries in cervical region (다한번씩은봤던내용이네요의 정의/기능은?",
+    "front_en": "",
+    "back": "[neck] Arteries in cervical region (다한번씩은봤던내용이네요 - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 68,
+    "topic_id": "neck",
+    "front_ko": "CN IX의 한국어 명칭과 정의는?",
+    "front_en": "CN IX",
+    "back": "[neck] CN IX - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 69,
+    "topic_id": "neck",
+    "front_ko": "CN IX, X의 한국어 명칭과 정의는?",
+    "front_en": "CN IX, X",
+    "back": "[neck] CN IX, X - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 70,
+    "topic_id": "neck",
+    "front_ko": "CN VII의 한국어 명칭과 정의는?",
+    "front_en": "CN VII",
+    "back": "[neck] CN VII - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 71,
+    "topic_id": "neck",
+    "front_ko": "CN X의 한국어 명칭과 정의는?",
+    "front_en": "CN X",
+    "back": "[neck] CN X - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 72,
+    "topic_id": "neck",
+    "front_ko": "CN XI의 한국어 명칭과 정의는?",
+    "front_en": "CN XI",
+    "back": "[neck] CN XI - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 73,
+    "topic_id": "neck",
+    "front_ko": "CN XII의 한국어 명칭과 정의는?",
+    "front_en": "CN XII",
+    "back": "[neck] CN XII - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 74,
+    "topic_id": "neck",
+    "front_ko": "Cervical plexus의 한국어 명칭과 정의는?",
+    "front_en": "Cervical plexus",
+    "back": "[neck] Cervical plexus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 75,
+    "topic_id": "neck",
+    "front_ko": "Cervical region의 한국어 명칭과 정의는?",
+    "front_en": "Cervical region",
+    "back": "[neck] Cervical region - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 76,
+    "topic_id": "neck",
+    "front_ko": "Prevertebral muscles muscle의 한국어 명칭과 정의는?",
+    "front_en": "Prevertebral muscles muscle",
+    "back": "[neck] Prevertebral muscles muscle - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 77,
+    "topic_id": "neck",
+    "front_ko": "Torticollis (사경의 정의/기능은?",
+    "front_en": "",
+    "back": "[neck] Torticollis (사경 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 78,
+    "topic_id": "neck",
+    "front_ko": "brachial plexus (상지의 정의/기능은?",
+    "front_en": "",
+    "back": "[neck] brachial plexus (상지 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 79,
+    "topic_id": "neck",
+    "front_ko": "diaphragm(횡격막의 정의/기능은?",
+    "front_en": "",
+    "back": "[neck] diaphragm(횡격막 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 80,
+    "topic_id": "neck",
+    "front_ko": "syncope (실신의 정의/기능은?",
+    "front_en": "",
+    "back": "[neck] syncope (실신 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 81,
+    "topic_id": "neck",
+    "front_ko": "산소분압이낮아지는것을감지(chemoreceptor의 정의/기능은?",
+    "front_en": "",
+    "back": "[neck] 산소분압이낮아지는것을감지(chemoreceptor - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 82,
+    "topic_id": "neck",
+    "front_ko": "지배 (motor의 정의/기능은?",
+    "front_en": "",
+    "back": "[neck] 지배 (motor - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 83,
+    "topic_id": "neck",
+    "front_ko": "혈압감지(baroreceptor의 정의/기능은?",
+    "front_en": "",
+    "back": "[neck] 혈압감지(baroreceptor - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 84,
+    "topic_id": "neck",
+    "front_ko": "횡격막의운동(GSE의 정의/기능은?",
+    "front_en": "",
+    "back": "[neck] 횡격막의운동(GSE - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 85,
+    "topic_id": "neck",
+    "front_ko": "Arteries in cervical region (다한번씩은봤던내용이네요의 정의/기능은?",
+    "front_en": "",
+    "back": "[neck] Arteries in cervical region (다한번씩은봤던내용이네요 - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 86,
+    "topic_id": "neck",
+    "front_ko": "Torticollis (사경의 정의/기능은?",
+    "front_en": "",
+    "back": "[neck] Torticollis (사경 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 87,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "속삭임의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] 속삭임 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 88,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "어캐할건데의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] 어캐할건데 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 89,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "Auricle(귓바퀴의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] Auricle(귓바퀴 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 90,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "CN IX의 한국어 명칭과 정의는?",
+    "front_en": "CN IX",
+    "back": "[ear_pharynx_larynx] CN IX - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 91,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "CN V의 한국어 명칭과 정의는?",
+    "front_en": "CN V",
+    "back": "[ear_pharynx_larynx] CN V - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 92,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "CN VII의 한국어 명칭과 정의는?",
+    "front_en": "CN VII",
+    "back": "[ear_pharynx_larynx] CN VII - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 93,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "CN X의 한국어 명칭과 정의는?",
+    "front_en": "CN X",
+    "back": "[ear_pharynx_larynx] CN X - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 94,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "CN XI의 한국어 명칭과 정의는?",
+    "front_en": "CN XI",
+    "back": "[ear_pharynx_larynx] CN XI - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 95,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "CN XII의 한국어 명칭과 정의는?",
+    "front_en": "CN XII",
+    "back": "[ear_pharynx_larynx] CN XII - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 96,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "CNVII의 한국어 명칭과 정의는?",
+    "front_en": "CNVII",
+    "back": "[ear_pharynx_larynx] CNVII - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 97,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "Cricoid ligament의 한국어 명칭과 정의는?",
+    "front_en": "Cricoid ligament",
+    "back": "[ear_pharynx_larynx] Cricoid ligament - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 98,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "External layer의 한국어 명칭과 정의는?",
+    "front_en": "External layer",
+    "back": "[ear_pharynx_larynx] External layer - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 99,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "Inner ear Bony labyrinth(뼈미로의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] Inner ear Bony labyrinth(뼈미로 - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 100,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "Internal layer의 한국어 명칭과 정의는?",
+    "front_en": "Internal layer",
+    "back": "[ear_pharynx_larynx] Internal layer - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 101,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "Otoscope(빛의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] Otoscope(빛 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 102,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "Perforation of tympanic membrane의 한국어 명칭과 정의는?",
+    "front_en": "Perforation of tympanic membrane",
+    "back": "[ear_pharynx_larynx] Perforation of tympanic membrane - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 103,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "Piriform fossa의 한국어 명칭과 정의는?",
+    "front_en": "Piriform fossa",
+    "back": "[ear_pharynx_larynx] Piriform fossa - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 104,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "Quadrangular membrane의 한국어 명칭과 정의는?",
+    "front_en": "Quadrangular membrane",
+    "back": "[ear_pharynx_larynx] Quadrangular membrane - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 105,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "Saccule(수직의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] Saccule(수직 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 106,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "Tympanic membrane의 한국어 명칭과 정의는?",
+    "front_en": "Tympanic membrane",
+    "back": "[ear_pharynx_larynx] Tympanic membrane - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 107,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "Tympanic plexus의 한국어 명칭과 정의는?",
+    "front_en": "Tympanic plexus",
+    "back": "[ear_pharynx_larynx] Tympanic plexus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 108,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "aditus(입구의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] aditus(입구 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 109,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "bulging(부음의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] bulging(부음 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 110,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "membranous labyrinth(막미로의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] membranous labyrinth(막미로 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 111,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "membranous ossification(연골골화의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] membranous ossification(연골골화 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 112,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "opening of Pharyngotympanic tube(유스타키오관의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] opening of Pharyngotympanic tube(유스타키오관 - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 113,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "pharyngeal tonsil(인두편도의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] pharyngeal tonsil(인두편도 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 114,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "preauricular appendage (쥐젖의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] preauricular appendage (쥐젖 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 115,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "rhombencephalon(숨뇌의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] rhombencephalon(숨뇌 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 116,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "rima glottidis(공기통로의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] rima glottidis(공기통로 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 117,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "trauma(귀싸대기의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] trauma(귀싸대기 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 118,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "utricle(수평의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] utricle(수평 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 119,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "귓바퀴(external ear의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] 귓바퀴(external ear - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 120,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "되며(adenoid face의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] 되며(adenoid face - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 121,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "등자뼈(stapes의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] 등자뼈(stapes - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 122,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "뚫고(myringotomy의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] 뚫고(myringotomy - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 123,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "망치뼈(malleus의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] 망치뼈(malleus - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 124,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "모루뼈(incus의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] 모루뼈(incus - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 125,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "반투명(semitransparent의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] 반투명(semitransparent - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 126,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "뼈(bone의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] 뼈(bone - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 127,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "뼈전도(bone conduction의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] 뼈전도(bone conduction - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 128,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "삽입(tympanostomy의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] 삽입(tympanostomy - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 129,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "아래쪽(pars tensa의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] 아래쪽(pars tensa - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 130,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "연골(Elastic cartilage의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] 연골(Elastic cartilage - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 131,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "연골(cartilage의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] 연골(cartilage - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 132,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "위쪽(pars flaccida의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] 위쪽(pars flaccida - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 133,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "조절 (approximating, tensing, relaxing의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] 조절 (approximating, tensing, relaxing - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 134,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "Auricle (귓바퀴의 정의/기능은?",
+    "front_en": "",
+    "back": "[ear_pharynx_larynx] Auricle (귓바퀴 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 135,
+    "topic_id": "mouth_nose",
+    "front_ko": "이빨(teeth의 정의/기능은?",
+    "front_en": "",
+    "back": "[mouth_nose] 이빨(teeth - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 136,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Acquired achromatopsia (후천완전색맹의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_1] Acquired achromatopsia (후천완전색맹 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 137,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Affective disorder (정동장애의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_1] Affective disorder (정동장애 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 138,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Agnosia (인식불능증의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_1] Agnosia (인식불능증 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 139,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Agraphia (쓰기언어장애의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_1] Agraphia (쓰기언어장애 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 140,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Akinetic mutism (무동무언증의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_1] Akinetic mutism (무동무언증 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 141,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Angular gyrus의 한국어 명칭과 정의는?",
+    "front_en": "Angular gyrus",
+    "back": "[cns_gross_1] Angular gyrus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 142,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Anterior cingulate cortex의 한국어 명칭과 정의는?",
+    "front_en": "Anterior cingulate cortex",
+    "back": "[cns_gross_1] Anterior cingulate cortex - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 143,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Apraxia motor area의 한국어 명칭과 정의는?",
+    "front_en": "Apraxia motor area",
+    "back": "[cns_gross_1] Apraxia motor area - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 144,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Apraxia (행위상실증의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_1] Apraxia (행위상실증 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 145,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Arcuate fasciculus의 한국어 명칭과 정의는?",
+    "front_en": "Arcuate fasciculus",
+    "back": "[cns_gross_1] Arcuate fasciculus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 146,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Auditory agnosia (청각인식불능증의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_1] Auditory agnosia (청각인식불능증 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 147,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Brodmann area의 한국어 명칭과 정의는?",
+    "front_en": "Brodmann area",
+    "back": "[cns_gross_1] Brodmann area - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 148,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Central gyrus의 한국어 명칭과 정의는?",
+    "front_en": "Central gyrus",
+    "back": "[cns_gross_1] Central gyrus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 149,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Cerebral cortex의 한국어 명칭과 정의는?",
+    "front_en": "Cerebral cortex",
+    "back": "[cns_gross_1] Cerebral cortex - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 150,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Cingulate gyrus의 한국어 명칭과 정의는?",
+    "front_en": "Cingulate gyrus",
+    "back": "[cns_gross_1] Cingulate gyrus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 151,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Corticospinal tract의 한국어 명칭과 정의는?",
+    "front_en": "Corticospinal tract",
+    "back": "[cns_gross_1] Corticospinal tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 152,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Dorsolateral prefrontal cortex의 한국어 명칭과 정의는?",
+    "front_en": "Dorsolateral prefrontal cortex",
+    "back": "[cns_gross_1] Dorsolateral prefrontal cortex - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 153,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Entorhinal area의 한국어 명칭과 정의는?",
+    "front_en": "Entorhinal area",
+    "back": "[cns_gross_1] Entorhinal area - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 154,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Expressive aphasia (표현언어상실증의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_1] Expressive aphasia (표현언어상실증 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 155,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Frontal gyrus의 한국어 명칭과 정의는?",
+    "front_en": "Frontal gyrus",
+    "back": "[cns_gross_1] Frontal gyrus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 156,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Frontal lobe의 한국어 명칭과 정의는?",
+    "front_en": "Frontal lobe",
+    "back": "[cns_gross_1] Frontal lobe - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 157,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Fusiform gyrus의 한국어 명칭과 정의는?",
+    "front_en": "Fusiform gyrus",
+    "back": "[cns_gross_1] Fusiform gyrus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 158,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Gustatory area의 한국어 명칭과 정의는?",
+    "front_en": "Gustatory area",
+    "back": "[cns_gross_1] Gustatory area - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 159,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Insular lobe의 한국어 명칭과 정의는?",
+    "front_en": "Insular lobe",
+    "back": "[cns_gross_1] Insular lobe - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 160,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Lateral occipitotemporal gyrus의 한국어 명칭과 정의는?",
+    "front_en": "Lateral occipitotemporal gyrus",
+    "back": "[cns_gross_1] Lateral occipitotemporal gyrus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 161,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Limbic lobe의 한국어 명칭과 정의는?",
+    "front_en": "Limbic lobe",
+    "back": "[cns_gross_1] Limbic lobe - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 162,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Lingual gyrus의 한국어 명칭과 정의는?",
+    "front_en": "Lingual gyrus",
+    "back": "[cns_gross_1] Lingual gyrus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 163,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Longitudinal fasciculus의 한국어 명칭과 정의는?",
+    "front_en": "Longitudinal fasciculus",
+    "back": "[cns_gross_1] Longitudinal fasciculus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 164,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Medial longitudinal fasciculus의 한국어 명칭과 정의는?",
+    "front_en": "Medial longitudinal fasciculus",
+    "back": "[cns_gross_1] Medial longitudinal fasciculus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 165,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Nigrostriatal tract의 한국어 명칭과 정의는?",
+    "front_en": "Nigrostriatal tract",
+    "back": "[cns_gross_1] Nigrostriatal tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 166,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Occipital lobe의 한국어 명칭과 정의는?",
+    "front_en": "Occipital lobe",
+    "back": "[cns_gross_1] Occipital lobe - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 167,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Occipital lobe의 한국어 명칭과 정의는?",
+    "front_en": "Occipital lobe",
+    "back": "[cns_gross_1] Occipital lobe - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 168,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Occipitofrontal fasciculus의 한국어 명칭과 정의는?",
+    "front_en": "Occipitofrontal fasciculus",
+    "back": "[cns_gross_1] Occipitofrontal fasciculus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 169,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Occipitotemporal gyrus의 한국어 명칭과 정의는?",
+    "front_en": "Occipitotemporal gyrus",
+    "back": "[cns_gross_1] Occipitotemporal gyrus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 170,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Ocular apraxia (안구행위상실증의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_1] Ocular apraxia (안구행위상실증 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 171,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Olfactory cortex의 한국어 명칭과 정의는?",
+    "front_en": "Olfactory cortex",
+    "back": "[cns_gross_1] Olfactory cortex - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 172,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Optic ataxia (시각조화운동불능의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_1] Optic ataxia (시각조화운동불능 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 173,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Optic pathway의 한국어 명칭과 정의는?",
+    "front_en": "Optic pathway",
+    "back": "[cns_gross_1] Optic pathway - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 174,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Orbital gyrus의 한국어 명칭과 정의는?",
+    "front_en": "Orbital gyrus",
+    "back": "[cns_gross_1] Orbital gyrus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 175,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Orbitofrontal cortex의 한국어 명칭과 정의는?",
+    "front_en": "Orbitofrontal cortex",
+    "back": "[cns_gross_1] Orbitofrontal cortex - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 176,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Parahippocampal gyrus의 한국어 명칭과 정의는?",
+    "front_en": "Parahippocampal gyrus",
+    "back": "[cns_gross_1] Parahippocampal gyrus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 177,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Paralimbic cortex의 한국어 명칭과 정의는?",
+    "front_en": "Paralimbic cortex",
+    "back": "[cns_gross_1] Paralimbic cortex - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 178,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Parietal association area의 한국어 명칭과 정의는?",
+    "front_en": "Parietal association area",
+    "back": "[cns_gross_1] Parietal association area - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 179,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Parietal lobe의 한국어 명칭과 정의는?",
+    "front_en": "Parietal lobe",
+    "back": "[cns_gross_1] Parietal lobe - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 180,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Postcentral gyrus의 한국어 명칭과 정의는?",
+    "front_en": "Postcentral gyrus",
+    "back": "[cns_gross_1] Postcentral gyrus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 181,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Precentral gyrus의 한국어 명칭과 정의는?",
+    "front_en": "Precentral gyrus",
+    "back": "[cns_gross_1] Precentral gyrus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 182,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Prefrontal cortex의 한국어 명칭과 정의는?",
+    "front_en": "Prefrontal cortex",
+    "back": "[cns_gross_1] Prefrontal cortex - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 183,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Prefrotnal cortex의 한국어 명칭과 정의는?",
+    "front_en": "Prefrotnal cortex",
+    "back": "[cns_gross_1] Prefrotnal cortex - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 184,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Premotor and supplementary motor area의 한국어 명칭과 정의는?",
+    "front_en": "Premotor and supplementary motor area",
+    "back": "[cns_gross_1] Premotor and supplementary motor area - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 185,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Basal forebrain (대뇌 + 간뇌의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_1] Basal forebrain (대뇌 + 간뇌 - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 186,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Lateral lemniscus (청각 관련의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_1] Lateral lemniscus (청각 관련 - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 187,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Medial lemniscus (고유감각(proprioception의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_1] Medial lemniscus (고유감각(proprioception - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 188,
+    "topic_id": "cns_gross_2",
+    "front_ko": "바깥쪽의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] 바깥쪽 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 189,
+    "topic_id": "cns_gross_2",
+    "front_ko": "Abducent nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Abducent nucleus",
+    "back": "[cns_gross_2] Abducent nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 190,
+    "topic_id": "cns_gross_2",
+    "front_ko": "Caudate nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Caudate nucleus",
+    "back": "[cns_gross_2] Caudate nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 191,
+    "topic_id": "cns_gross_2",
+    "front_ko": "Chief sensory nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Chief sensory nucleus",
+    "back": "[cns_gross_2] Chief sensory nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 192,
+    "topic_id": "cns_gross_2",
+    "front_ko": "Corticospinal tract의 한국어 명칭과 정의는?",
+    "front_en": "Corticospinal tract",
+    "back": "[cns_gross_2] Corticospinal tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 193,
+    "topic_id": "cns_gross_2",
+    "front_ko": "Dorsal motor nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Dorsal motor nucleus",
+    "back": "[cns_gross_2] Dorsal motor nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 194,
+    "topic_id": "cns_gross_2",
+    "front_ko": "Gelastic seizure(홍소발작의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] Gelastic seizure(홍소발작 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 195,
+    "topic_id": "cns_gross_2",
+    "front_ko": "Geniculate body의 한국어 명칭과 정의는?",
+    "front_en": "Geniculate body",
+    "back": "[cns_gross_2] Geniculate body - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 196,
+    "topic_id": "cns_gross_2",
+    "front_ko": "Geniculate body (시각의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] Geniculate body (시각 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 197,
+    "topic_id": "cns_gross_2",
+    "front_ko": "Geniculate body (청각의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] Geniculate body (청각 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 198,
+    "topic_id": "cns_gross_2",
+    "front_ko": "Genu (무릎의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] Genu (무릎 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 199,
+    "topic_id": "cns_gross_2",
+    "front_ko": "Genu(얼굴의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] Genu(얼굴 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 200,
+    "topic_id": "cns_gross_2",
+    "front_ko": "Interpeduncular fossa의 한국어 명칭과 정의는?",
+    "front_en": "Interpeduncular fossa",
+    "back": "[cns_gross_2] Interpeduncular fossa - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 201,
+    "topic_id": "cns_gross_2",
+    "front_ko": "Lentiform nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Lentiform nucleus",
+    "back": "[cns_gross_2] Lentiform nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 202,
+    "topic_id": "cns_gross_2",
+    "front_ko": "Limb (뒷다리의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] Limb (뒷다리 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 203,
+    "topic_id": "cns_gross_2",
+    "front_ko": "Mammilothalamic tract의 한국어 명칭과 정의는?",
+    "front_en": "Mammilothalamic tract",
+    "back": "[cns_gross_2] Mammilothalamic tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 204,
+    "topic_id": "cns_gross_2",
+    "front_ko": "Medial area의 한국어 명칭과 정의는?",
+    "front_en": "Medial area",
+    "back": "[cns_gross_2] Medial area - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 205,
+    "topic_id": "cns_gross_2",
+    "front_ko": "Mesencephalic nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Mesencephalic nucleus",
+    "back": "[cns_gross_2] Mesencephalic nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 206,
+    "topic_id": "cns_gross_2",
+    "front_ko": "Oculomotor nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Oculomotor nucleus",
+    "back": "[cns_gross_2] Oculomotor nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 207,
+    "topic_id": "cns_gross_2",
+    "front_ko": "Olivary nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Olivary nucleus",
+    "back": "[cns_gross_2] Olivary nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 208,
+    "topic_id": "cns_gross_2",
+    "front_ko": "Spinal cord의 한국어 명칭과 정의는?",
+    "front_en": "Spinal cord",
+    "back": "[cns_gross_2] Spinal cord - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 209,
+    "topic_id": "cns_gross_2",
+    "front_ko": "Spinal trigeminal nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Spinal trigeminal nucleus",
+    "back": "[cns_gross_2] Spinal trigeminal nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 210,
+    "topic_id": "cns_gross_2",
+    "front_ko": "Thalamic radiation (시상부챗살의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] Thalamic radiation (시상부챗살 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 211,
+    "topic_id": "cns_gross_2",
+    "front_ko": "Westphal nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Westphal nucleus",
+    "back": "[cns_gross_2] Westphal nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 212,
+    "topic_id": "cns_gross_2",
+    "front_ko": "habenular nuclei (고삐핵의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] habenular nuclei (고삐핵 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 213,
+    "topic_id": "cns_gross_2",
+    "front_ko": "limb (앞다리의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] limb (앞다리 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 214,
+    "topic_id": "cns_gross_2",
+    "front_ko": "motor nucleus(주황색의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] motor nucleus(주황색 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 215,
+    "topic_id": "cns_gross_2",
+    "front_ko": "palsy(넘어감의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] palsy(넘어감 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 216,
+    "topic_id": "cns_gross_2",
+    "front_ko": "peduncle (아래시상부챗살의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] peduncle (아래시상부챗살 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 217,
+    "topic_id": "cns_gross_2",
+    "front_ko": "peduncle (위시상부챗살의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] peduncle (위시상부챗살 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 218,
+    "topic_id": "cns_gross_2",
+    "front_ko": "peduncle(뒤시상부챗살의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] peduncle(뒤시상부챗살 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 219,
+    "topic_id": "cns_gross_2",
+    "front_ko": "peduncle(앞시상부챗살의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] peduncle(앞시상부챗살 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 220,
+    "topic_id": "cns_gross_2",
+    "front_ko": "substantia nigra (흑색질의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] substantia nigra (흑색질 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 221,
+    "topic_id": "cns_gross_2",
+    "front_ko": "trigeminal neuralgia (삼차신경통의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] trigeminal neuralgia (삼차신경통 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 222,
+    "topic_id": "cns_gross_2",
+    "front_ko": "간뇌 (Diencephalon의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] 간뇌 (Diencephalon - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 223,
+    "topic_id": "cns_gross_2",
+    "front_ko": "간뇌(Diencephalon의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] 간뇌(Diencephalon - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 224,
+    "topic_id": "cns_gross_2",
+    "front_ko": "교뇌(Pons의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] 교뇌(Pons - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 225,
+    "topic_id": "cns_gross_2",
+    "front_ko": "교차(optic chiasm의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] 교차(optic chiasm - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 226,
+    "topic_id": "cns_gross_2",
+    "front_ko": "그물구성체(Reticular Formation의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] 그물구성체(Reticular Formation - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 227,
+    "topic_id": "cns_gross_2",
+    "front_ko": "깔대기(infundibulum의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] 깔대기(infundibulum - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 228,
+    "topic_id": "cns_gross_2",
+    "front_ko": "뇌궁 (fornix의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] 뇌궁 (fornix - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 229,
+    "topic_id": "cns_gross_2",
+    "front_ko": "멜라토닌(melatonin의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] 멜라토닌(melatonin - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 230,
+    "topic_id": "cns_gross_2",
+    "front_ko": "배쪽시상 (Subthalamus의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] 배쪽시상 (Subthalamus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 231,
+    "topic_id": "cns_gross_2",
+    "front_ko": "배쪽시상 (subthalamus, ventral thalamus의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] 배쪽시상 (subthalamus, ventral thalamus - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 232,
+    "topic_id": "cns_gross_2",
+    "front_ko": "상부 (epithalamus의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] 상부 (epithalamus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 233,
+    "topic_id": "cns_gross_2",
+    "front_ko": "성분(oculomotor nucleus의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] 성분(oculomotor nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 234,
+    "topic_id": "cns_gross_2",
+    "front_ko": "세로토닌(serotonin의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] 세로토닌(serotonin - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 235,
+    "topic_id": "cns_gross_2",
+    "front_ko": "송과샘 (pineal gland의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] 송과샘 (pineal gland - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 236,
+    "topic_id": "cns_gross_2",
+    "front_ko": "수직복시 (vertical diplopia의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_2] 수직복시 (vertical diplopia - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 237,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Acquired achromatopsia (후천완전색맹의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_3] Acquired achromatopsia (후천완전색맹 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 238,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Affective disorder (정동장애의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_3] Affective disorder (정동장애 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 239,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Agnosia (인식불능증의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_3] Agnosia (인식불능증 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 240,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Agraphia (쓰기언어장애의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_3] Agraphia (쓰기언어장애 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 241,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Akinetic mutism (무동무언증의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_3] Akinetic mutism (무동무언증 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 242,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Allo cortex의 한국어 명칭과 정의는?",
+    "front_en": "Allo cortex",
+    "back": "[cns_gross_3] Allo cortex - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 243,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Amygdaloid body의 한국어 명칭과 정의는?",
+    "front_en": "Amygdaloid body",
+    "back": "[cns_gross_3] Amygdaloid body - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 244,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Angular gyrus의 한국어 명칭과 정의는?",
+    "front_en": "Angular gyrus",
+    "back": "[cns_gross_3] Angular gyrus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 245,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Apraxia motor area의 한국어 명칭과 정의는?",
+    "front_en": "Apraxia motor area",
+    "back": "[cns_gross_3] Apraxia motor area - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 246,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Apraxia (행위상실증의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_3] Apraxia (행위상실증 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 247,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Arcuate fasciculus의 한국어 명칭과 정의는?",
+    "front_en": "Arcuate fasciculus",
+    "back": "[cns_gross_3] Arcuate fasciculus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 248,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Auditory agnosia (청각인식불능증의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_3] Auditory agnosia (청각인식불능증 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 249,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Basal ganglia globus nigra pallidus subthalamic nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Basal ganglia globus nigra pallidus subthalamic nucleus",
+    "back": "[cns_gross_3] Basal ganglia globus nigra pallidus subthalamic nucleus - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 250,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Brodmann area의 한국어 명칭과 정의는?",
+    "front_en": "Brodmann area",
+    "back": "[cns_gross_3] Brodmann area - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 251,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Caudate nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Caudate nucleus",
+    "back": "[cns_gross_3] Caudate nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 252,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Central gyrus의 한국어 명칭과 정의는?",
+    "front_en": "Central gyrus",
+    "back": "[cns_gross_3] Central gyrus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 253,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Cerebellar lobe의 한국어 명칭과 정의는?",
+    "front_en": "Cerebellar lobe",
+    "back": "[cns_gross_3] Cerebellar lobe - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 254,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Cerebellum (소뇌의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_3] Cerebellum (소뇌 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 255,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Cingulate gyrus의 한국어 명칭과 정의는?",
+    "front_en": "Cingulate gyrus",
+    "back": "[cns_gross_3] Cingulate gyrus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 256,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Cingulum (띠다발의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_3] Cingulum (띠다발 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 257,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Corticospinal tract의 한국어 명칭과 정의는?",
+    "front_en": "Corticospinal tract",
+    "back": "[cns_gross_3] Corticospinal tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 258,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Dorsolateral prefrontal cortex의 한국어 명칭과 정의는?",
+    "front_en": "Dorsolateral prefrontal cortex",
+    "back": "[cns_gross_3] Dorsolateral prefrontal cortex - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 259,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Entorhinal area의 한국어 명칭과 정의는?",
+    "front_en": "Entorhinal area",
+    "back": "[cns_gross_3] Entorhinal area - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 260,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Expressive aphasia (표현언어상실증의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_3] Expressive aphasia (표현언어상실증 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 261,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Frontal gyrus의 한국어 명칭과 정의는?",
+    "front_en": "Frontal gyrus",
+    "back": "[cns_gross_3] Frontal gyrus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 262,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Frontal lobe의 한국어 명칭과 정의는?",
+    "front_en": "Frontal lobe",
+    "back": "[cns_gross_3] Frontal lobe - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 263,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Fusiform gyrus의 한국어 명칭과 정의는?",
+    "front_en": "Fusiform gyrus",
+    "back": "[cns_gross_3] Fusiform gyrus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 264,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Gustatory area의 한국어 명칭과 정의는?",
+    "front_en": "Gustatory area",
+    "back": "[cns_gross_3] Gustatory area - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 265,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Insular lobe의 한국어 명칭과 정의는?",
+    "front_en": "Insular lobe",
+    "back": "[cns_gross_3] Insular lobe - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 266,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Limbic lobe의 한국어 명칭과 정의는?",
+    "front_en": "Limbic lobe",
+    "back": "[cns_gross_3] Limbic lobe - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 267,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Lingual gyrus의 한국어 명칭과 정의는?",
+    "front_en": "Lingual gyrus",
+    "back": "[cns_gross_3] Lingual gyrus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 268,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Longitudinal fasciculus의 한국어 명칭과 정의는?",
+    "front_en": "Longitudinal fasciculus",
+    "back": "[cns_gross_3] Longitudinal fasciculus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 269,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Occipital lobe의 한국어 명칭과 정의는?",
+    "front_en": "Occipital lobe",
+    "back": "[cns_gross_3] Occipital lobe - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 270,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Occipital lobe의 한국어 명칭과 정의는?",
+    "front_en": "Occipital lobe",
+    "back": "[cns_gross_3] Occipital lobe - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 271,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Occipitofrontal fasciculus의 한국어 명칭과 정의는?",
+    "front_en": "Occipitofrontal fasciculus",
+    "back": "[cns_gross_3] Occipitofrontal fasciculus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 272,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Occipitotemporal gyrus의 한국어 명칭과 정의는?",
+    "front_en": "Occipitotemporal gyrus",
+    "back": "[cns_gross_3] Occipitotemporal gyrus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 273,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Ocular apraxia (안구행위상실증의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_3] Ocular apraxia (안구행위상실증 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 274,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Olfactory cortex의 한국어 명칭과 정의는?",
+    "front_en": "Olfactory cortex",
+    "back": "[cns_gross_3] Olfactory cortex - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 275,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Optic ataxia (시각조화운동불능의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_3] Optic ataxia (시각조화운동불능 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 276,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Orbital gyrus의 한국어 명칭과 정의는?",
+    "front_en": "Orbital gyrus",
+    "back": "[cns_gross_3] Orbital gyrus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 277,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Orbitofrontal cortex의 한국어 명칭과 정의는?",
+    "front_en": "Orbitofrontal cortex",
+    "back": "[cns_gross_3] Orbitofrontal cortex - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 278,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Parahippocampal gyrus의 한국어 명칭과 정의는?",
+    "front_en": "Parahippocampal gyrus",
+    "back": "[cns_gross_3] Parahippocampal gyrus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 279,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Parietal association area의 한국어 명칭과 정의는?",
+    "front_en": "Parietal association area",
+    "back": "[cns_gross_3] Parietal association area - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 280,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Parietal lobe의 한국어 명칭과 정의는?",
+    "front_en": "Parietal lobe",
+    "back": "[cns_gross_3] Parietal lobe - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 281,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Postcentral gyrus의 한국어 명칭과 정의는?",
+    "front_en": "Postcentral gyrus",
+    "back": "[cns_gross_3] Postcentral gyrus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 282,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Precentral gyrus의 한국어 명칭과 정의는?",
+    "front_en": "Precentral gyrus",
+    "back": "[cns_gross_3] Precentral gyrus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 283,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Prefrontal cortex의 한국어 명칭과 정의는?",
+    "front_en": "Prefrontal cortex",
+    "back": "[cns_gross_3] Prefrontal cortex - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 284,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Cerebellum (소뇌의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_3] Cerebellum (소뇌 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 285,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Vermis (좌우 두 개의 소뇌를 연결하는 부위의 정의/기능은?",
+    "front_en": "",
+    "back": "[cns_gross_3] Vermis (좌우 두 개의 소뇌를 연결하는 부위 - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 286,
+    "topic_id": "motor_pathway",
+    "front_ko": "Central tegmental tract의 한국어 명칭과 정의는?",
+    "front_en": "Central tegmental tract",
+    "back": "[motor_pathway] Central tegmental tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 287,
+    "topic_id": "motor_pathway",
+    "front_ko": "Chorea(무도병의 정의/기능은?",
+    "front_en": "",
+    "back": "[motor_pathway] Chorea(무도병 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 288,
+    "topic_id": "motor_pathway",
+    "front_ko": "Corticobulbar fiber의 한국어 명칭과 정의는?",
+    "front_en": "Corticobulbar fiber",
+    "back": "[motor_pathway] Corticobulbar fiber - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 289,
+    "topic_id": "motor_pathway",
+    "front_ko": "Corticobulbar tract의 한국어 명칭과 정의는?",
+    "front_en": "Corticobulbar tract",
+    "back": "[motor_pathway] Corticobulbar tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 290,
+    "topic_id": "motor_pathway",
+    "front_ko": "Corticonuclear fiber의 한국어 명칭과 정의는?",
+    "front_en": "Corticonuclear fiber",
+    "back": "[motor_pathway] Corticonuclear fiber - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 291,
+    "topic_id": "motor_pathway",
+    "front_ko": "Corticoreticulospinal tract의 한국어 명칭과 정의는?",
+    "front_en": "Corticoreticulospinal tract",
+    "back": "[motor_pathway] Corticoreticulospinal tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 292,
+    "topic_id": "motor_pathway",
+    "front_ko": "Corticospinal tract의 한국어 명칭과 정의는?",
+    "front_en": "Corticospinal tract",
+    "back": "[motor_pathway] Corticospinal tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 293,
+    "topic_id": "motor_pathway",
+    "front_ko": "Corticospinal tract의 한국어 명칭과 정의는?",
+    "front_en": "Corticospinal tract",
+    "back": "[motor_pathway] Corticospinal tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 294,
+    "topic_id": "motor_pathway",
+    "front_ko": "Corticostriatal pathway의 한국어 명칭과 정의는?",
+    "front_en": "Corticostriatal pathway",
+    "back": "[motor_pathway] Corticostriatal pathway - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 295,
+    "topic_id": "motor_pathway",
+    "front_ko": "Corticostriatal tract의 한국어 명칭과 정의는?",
+    "front_en": "Corticostriatal tract",
+    "back": "[motor_pathway] Corticostriatal tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 296,
+    "topic_id": "motor_pathway",
+    "front_ko": "Dentate nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Dentate nucleus",
+    "back": "[motor_pathway] Dentate nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 297,
+    "topic_id": "motor_pathway",
+    "front_ko": "Direct pathway의 한국어 명칭과 정의는?",
+    "front_en": "Direct pathway",
+    "back": "[motor_pathway] Direct pathway - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 298,
+    "topic_id": "motor_pathway",
+    "front_ko": "Extrafusal muscle fiber의 한국어 명칭과 정의는?",
+    "front_en": "Extrafusal muscle fiber",
+    "back": "[motor_pathway] Extrafusal muscle fiber - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 299,
+    "topic_id": "motor_pathway",
+    "front_ko": "Extrapyramidal tract의 한국어 명칭과 정의는?",
+    "front_en": "Extrapyramidal tract",
+    "back": "[motor_pathway] Extrapyramidal tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 300,
+    "topic_id": "motor_pathway",
+    "front_ko": "Fastigial nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Fastigial nucleus",
+    "back": "[motor_pathway] Fastigial nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 301,
+    "topic_id": "motor_pathway",
+    "front_ko": "General motor pathway의 한국어 명칭과 정의는?",
+    "front_en": "General motor pathway",
+    "back": "[motor_pathway] General motor pathway - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 302,
+    "topic_id": "motor_pathway",
+    "front_ko": "General sensory pathway의 한국어 명칭과 정의는?",
+    "front_en": "General sensory pathway",
+    "back": "[motor_pathway] General sensory pathway - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 303,
+    "topic_id": "motor_pathway",
+    "front_ko": "Ia fiber의 한국어 명칭과 정의는?",
+    "front_en": "Ia fiber",
+    "back": "[motor_pathway] Ia fiber - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 304,
+    "topic_id": "motor_pathway",
+    "front_ko": "Indirect pathway의 한국어 명칭과 정의는?",
+    "front_en": "Indirect pathway",
+    "back": "[motor_pathway] Indirect pathway - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 305,
+    "topic_id": "motor_pathway",
+    "front_ko": "Interpose nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Interpose nucleus",
+    "back": "[motor_pathway] Interpose nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 306,
+    "topic_id": "motor_pathway",
+    "front_ko": "Intrafusal muscle fiber의 한국어 명칭과 정의는?",
+    "front_en": "Intrafusal muscle fiber",
+    "back": "[motor_pathway] Intrafusal muscle fiber - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 307,
+    "topic_id": "motor_pathway",
+    "front_ko": "Intrafusal muscle fiber(방추속근섬유의 정의/기능은?",
+    "front_en": "",
+    "back": "[motor_pathway] Intrafusal muscle fiber(방추속근섬유 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 308,
+    "topic_id": "motor_pathway",
+    "front_ko": "Intrafusal muscle fiber의 한국어 명칭과 정의는?",
+    "front_en": "Intrafusal muscle fiber",
+    "back": "[motor_pathway] Intrafusal muscle fiber - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 309,
+    "topic_id": "motor_pathway",
+    "front_ko": "Lenticular fasciculus의 한국어 명칭과 정의는?",
+    "front_en": "Lenticular fasciculus",
+    "back": "[motor_pathway] Lenticular fasciculus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 310,
+    "topic_id": "motor_pathway",
+    "front_ko": "Lower motor neuron(하위운동신경원의 정의/기능은?",
+    "front_en": "",
+    "back": "[motor_pathway] Lower motor neuron(하위운동신경원 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 311,
+    "topic_id": "motor_pathway",
+    "front_ko": "Motor cortex의 한국어 명칭과 정의는?",
+    "front_en": "Motor cortex",
+    "back": "[motor_pathway] Motor cortex - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 312,
+    "topic_id": "motor_pathway",
+    "front_ko": "Motor pathway의 한국어 명칭과 정의는?",
+    "front_en": "Motor pathway",
+    "back": "[motor_pathway] Motor pathway - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 313,
+    "topic_id": "motor_pathway",
+    "front_ko": "Muscle spindle(근육방추의 정의/기능은?",
+    "front_en": "",
+    "back": "[motor_pathway] Muscle spindle(근육방추 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 314,
+    "topic_id": "motor_pathway",
+    "front_ko": "Pontoreticulospinal tract의 한국어 명칭과 정의는?",
+    "front_en": "Pontoreticulospinal tract",
+    "back": "[motor_pathway] Pontoreticulospinal tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 315,
+    "topic_id": "motor_pathway",
+    "front_ko": "Primary motor cortex의 한국어 명칭과 정의는?",
+    "front_en": "Primary motor cortex",
+    "back": "[motor_pathway] Primary motor cortex - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 316,
+    "topic_id": "motor_pathway",
+    "front_ko": "Primary motor cortex의 한국어 명칭과 정의는?",
+    "front_en": "Primary motor cortex",
+    "back": "[motor_pathway] Primary motor cortex - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 317,
+    "topic_id": "motor_pathway",
+    "front_ko": "Primary somatosensory area의 한국어 명칭과 정의는?",
+    "front_en": "Primary somatosensory area",
+    "back": "[motor_pathway] Primary somatosensory area - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 318,
+    "topic_id": "motor_pathway",
+    "front_ko": "Pyramidal tract의 한국어 명칭과 정의는?",
+    "front_en": "Pyramidal tract",
+    "back": "[motor_pathway] Pyramidal tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 319,
+    "topic_id": "motor_pathway",
+    "front_ko": "Pyramidal tract의 한국어 명칭과 정의는?",
+    "front_en": "Pyramidal tract",
+    "back": "[motor_pathway] Pyramidal tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 320,
+    "topic_id": "motor_pathway",
+    "front_ko": "Red nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Red nucleus",
+    "back": "[motor_pathway] Red nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 321,
+    "topic_id": "motor_pathway",
+    "front_ko": "Reticulospinal tract의 한국어 명칭과 정의는?",
+    "front_en": "Reticulospinal tract",
+    "back": "[motor_pathway] Reticulospinal tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 322,
+    "topic_id": "motor_pathway",
+    "front_ko": "Reticulospinal tract의 한국어 명칭과 정의는?",
+    "front_en": "Reticulospinal tract",
+    "back": "[motor_pathway] Reticulospinal tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 323,
+    "topic_id": "motor_pathway",
+    "front_ko": "Rigidity(강직의 정의/기능은?",
+    "front_en": "",
+    "back": "[motor_pathway] Rigidity(강직 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 324,
+    "topic_id": "motor_pathway",
+    "front_ko": "Rubrospinal tract의 한국어 명칭과 정의는?",
+    "front_en": "Rubrospinal tract",
+    "back": "[motor_pathway] Rubrospinal tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 325,
+    "topic_id": "motor_pathway",
+    "front_ko": "Spasticity(경직의 정의/기능은?",
+    "front_en": "",
+    "back": "[motor_pathway] Spasticity(경직 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 326,
+    "topic_id": "motor_pathway",
+    "front_ko": "Spinal cord의 한국어 명칭과 정의는?",
+    "front_en": "Spinal cord",
+    "back": "[motor_pathway] Spinal cord - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 327,
+    "topic_id": "motor_pathway",
+    "front_ko": "Spinocerebellar pathway의 한국어 명칭과 정의는?",
+    "front_en": "Spinocerebellar pathway",
+    "back": "[motor_pathway] Spinocerebellar pathway - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 328,
+    "topic_id": "motor_pathway",
+    "front_ko": "Spinocerebellar tract의 한국어 명칭과 정의는?",
+    "front_en": "Spinocerebellar tract",
+    "back": "[motor_pathway] Spinocerebellar tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 329,
+    "topic_id": "motor_pathway",
+    "front_ko": "Spinomesencephalic tract의 한국어 명칭과 정의는?",
+    "front_en": "Spinomesencephalic tract",
+    "back": "[motor_pathway] Spinomesencephalic tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 330,
+    "topic_id": "motor_pathway",
+    "front_ko": "Spinoreticular tract의 한국어 명칭과 정의는?",
+    "front_en": "Spinoreticular tract",
+    "back": "[motor_pathway] Spinoreticular tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 331,
+    "topic_id": "motor_pathway",
+    "front_ko": "Spinothalamic tract의 한국어 명칭과 정의는?",
+    "front_en": "Spinothalamic tract",
+    "back": "[motor_pathway] Spinothalamic tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 332,
+    "topic_id": "motor_pathway",
+    "front_ko": "Supplementary area의 한국어 명칭과 정의는?",
+    "front_en": "Supplementary area",
+    "back": "[motor_pathway] Supplementary area - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 333,
+    "topic_id": "motor_pathway",
+    "front_ko": "Tectospinal tract의 한국어 명칭과 정의는?",
+    "front_en": "Tectospinal tract",
+    "back": "[motor_pathway] Tectospinal tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 334,
+    "topic_id": "motor_pathway",
+    "front_ko": "Lower motor neuron (하위운동신경원의 정의/기능은?",
+    "front_en": "",
+    "back": "[motor_pathway] Lower motor neuron (하위운동신경원 - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 335,
+    "topic_id": "motor_pathway",
+    "front_ko": "Upper motor neuron (상위운동신경원의 정의/기능은?",
+    "front_en": "",
+    "back": "[motor_pathway] Upper motor neuron (상위운동신경원 - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 336,
+    "topic_id": "sensory_system",
+    "front_ko": "Anterolateral pathway의 한국어 명칭과 정의는?",
+    "front_en": "Anterolateral pathway",
+    "back": "[sensory_system] Anterolateral pathway - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 337,
+    "topic_id": "sensory_system",
+    "front_ko": "Clarke nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Clarke nucleus",
+    "back": "[sensory_system] Clarke nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 338,
+    "topic_id": "sensory_system",
+    "front_ko": "General motor system의 한국어 명칭과 정의는?",
+    "front_en": "General motor system",
+    "back": "[sensory_system] General motor system - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 339,
+    "topic_id": "sensory_system",
+    "front_ko": "General sensory system의 한국어 명칭과 정의는?",
+    "front_en": "General sensory system",
+    "back": "[sensory_system] General sensory system - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 340,
+    "topic_id": "sensory_system",
+    "front_ko": "Medial lemniscus system의 한국어 명칭과 정의는?",
+    "front_en": "Medial lemniscus system",
+    "back": "[sensory_system] Medial lemniscus system - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 341,
+    "topic_id": "sensory_system",
+    "front_ko": "Mesencephalic trigeminal nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Mesencephalic trigeminal nucleus",
+    "back": "[sensory_system] Mesencephalic trigeminal nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 342,
+    "topic_id": "sensory_system",
+    "front_ko": "Rostral spinocerebellar tract의 한국어 명칭과 정의는?",
+    "front_en": "Rostral spinocerebellar tract",
+    "back": "[sensory_system] Rostral spinocerebellar tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 343,
+    "topic_id": "sensory_system",
+    "front_ko": "Spinocerebellar tract의 한국어 명칭과 정의는?",
+    "front_en": "Spinocerebellar tract",
+    "back": "[sensory_system] Spinocerebellar tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 344,
+    "topic_id": "sensory_system",
+    "front_ko": "Spinoreticular tract의 한국어 명칭과 정의는?",
+    "front_en": "Spinoreticular tract",
+    "back": "[sensory_system] Spinoreticular tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 345,
+    "topic_id": "sensory_system",
+    "front_ko": "Spinoreticulothalamic tract의 한국어 명칭과 정의는?",
+    "front_en": "Spinoreticulothalamic tract",
+    "back": "[sensory_system] Spinoreticulothalamic tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 346,
+    "topic_id": "sensory_system",
+    "front_ko": "Spinothalamic pathway의 한국어 명칭과 정의는?",
+    "front_en": "Spinothalamic pathway",
+    "back": "[sensory_system] Spinothalamic pathway - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 347,
+    "topic_id": "sensory_system",
+    "front_ko": "Spinothalamic tract의 한국어 명칭과 정의는?",
+    "front_en": "Spinothalamic tract",
+    "back": "[sensory_system] Spinothalamic tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 348,
+    "topic_id": "sensory_system",
+    "front_ko": "Trigeminothalamic pathway의 한국어 명칭과 정의는?",
+    "front_en": "Trigeminothalamic pathway",
+    "back": "[sensory_system] Trigeminothalamic pathway - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 349,
+    "topic_id": "sensory_system",
+    "front_ko": "cuneate(상체의 정의/기능은?",
+    "front_en": "",
+    "back": "[sensory_system] cuneate(상체 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 350,
+    "topic_id": "sensory_system",
+    "front_ko": "gracile(하체의 정의/기능은?",
+    "front_en": "",
+    "back": "[sensory_system] gracile(하체 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 351,
+    "topic_id": "sensory_system",
+    "front_ko": "기계적수용기 (deep mechanoreceptor의 정의/기능은?",
+    "front_en": "",
+    "back": "[sensory_system] 기계적수용기 (deep mechanoreceptor - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 352,
+    "topic_id": "sensory_system",
+    "front_ko": "마취제(opioid, serotonin의 정의/기능은?",
+    "front_en": "",
+    "back": "[sensory_system] 마취제(opioid, serotonin - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 353,
+    "topic_id": "sensory_system",
+    "front_ko": "몸통(Spinothalamic pathway의 정의/기능은?",
+    "front_en": "",
+    "back": "[sensory_system] 몸통(Spinothalamic pathway - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 354,
+    "topic_id": "sensory_system",
+    "front_ko": "온도감각소실 (spinothalamic tract의 정의/기능은?",
+    "front_en": "",
+    "back": "[sensory_system] 온도감각소실 (spinothalamic tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 355,
+    "topic_id": "sensory_system",
+    "front_ko": "외측 (VPL의 정의/기능은?",
+    "front_en": "",
+    "back": "[sensory_system] 외측 (VPL - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 356,
+    "topic_id": "sensory_system",
+    "front_ko": "입구(gate의 정의/기능은?",
+    "front_en": "",
+    "back": "[sensory_system] 입구(gate - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 357,
+    "topic_id": "sensory_system",
+    "front_ko": "전달(memory의 정의/기능은?",
+    "front_en": "",
+    "back": "[sensory_system] 전달(memory - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 358,
+    "topic_id": "sensory_system",
+    "front_ko": "피부온도수용기 (cutaneous thermoreceptor의 정의/기능은?",
+    "front_en": "",
+    "back": "[sensory_system] 피부온도수용기 (cutaneous thermoreceptor - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 359,
+    "topic_id": "memory_system",
+    "front_ko": "거짓말(confabulation의 정의/기능은?",
+    "front_en": "",
+    "back": "[memory_system] 거짓말(confabulation - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 360,
+    "topic_id": "memory_system",
+    "front_ko": "일시적(transient의 정의/기능은?",
+    "front_en": "",
+    "back": "[memory_system] 일시적(transient - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 361,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "불수의적의 정의/기능은?",
+    "front_en": "",
+    "back": "[special_sensory_eyeball] 불수의적 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 362,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "수의적의 정의/기능은?",
+    "front_en": "",
+    "back": "[special_sensory_eyeball] 수의적 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 363,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Abducens nerve의 한국어 명칭과 정의는?",
+    "front_en": "Abducens nerve",
+    "back": "[special_sensory_eyeball] Abducens nerve - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 364,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Abducens nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Abducens nucleus",
+    "back": "[special_sensory_eyeball] Abducens nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 365,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Abducent nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Abducent nucleus",
+    "back": "[special_sensory_eyeball] Abducent nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 366,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Accessory optic tract의 한국어 명칭과 정의는?",
+    "front_en": "Accessory optic tract",
+    "back": "[special_sensory_eyeball] Accessory optic tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 367,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Alert (명료의 정의/기능은?",
+    "front_en": "",
+    "back": "[special_sensory_eyeball] Alert (명료 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 368,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Auditory association cortex의 한국어 명칭과 정의는?",
+    "front_en": "Auditory association cortex",
+    "back": "[special_sensory_eyeball] Auditory association cortex - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 369,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Auditory pathway의 한국어 명칭과 정의는?",
+    "front_en": "Auditory pathway",
+    "back": "[special_sensory_eyeball] Auditory pathway - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 370,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Bipolar cell의 한국어 명칭과 정의는?",
+    "front_en": "Bipolar cell",
+    "back": "[special_sensory_eyeball] Bipolar cell - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 371,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Blindsight (맹시의 정의/기능은?",
+    "front_en": "",
+    "back": "[special_sensory_eyeball] Blindsight (맹시 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 372,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Brodmann area의 한국어 명칭과 정의는?",
+    "front_en": "Brodmann area",
+    "back": "[special_sensory_eyeball] Brodmann area - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 373,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "CN III의 한국어 명칭과 정의는?",
+    "front_en": "CN III",
+    "back": "[special_sensory_eyeball] CN III - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 374,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "CN III, IV, VI의 한국어 명칭과 정의는?",
+    "front_en": "CN III, IV, VI",
+    "back": "[special_sensory_eyeball] CN III, IV, VI - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 375,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "CN IV의 한국어 명칭과 정의는?",
+    "front_en": "CN IV",
+    "back": "[special_sensory_eyeball] CN IV - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 376,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "CN VI의 한국어 명칭과 정의는?",
+    "front_en": "CN VI",
+    "back": "[special_sensory_eyeball] CN VI - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 377,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Central tegmental tract의 한국어 명칭과 정의는?",
+    "front_en": "Central tegmental tract",
+    "back": "[special_sensory_eyeball] Central tegmental tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 378,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Central tegmentum tract의 한국어 명칭과 정의는?",
+    "front_en": "Central tegmentum tract",
+    "back": "[special_sensory_eyeball] Central tegmentum tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 379,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Cerebral cortex의 한국어 명칭과 정의는?",
+    "front_en": "Cerebral cortex",
+    "back": "[special_sensory_eyeball] Cerebral cortex - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 380,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Cochlear nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Cochlear nucleus",
+    "back": "[special_sensory_eyeball] Cochlear nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 381,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Cone cell의 한국어 명칭과 정의는?",
+    "front_en": "Cone cell",
+    "back": "[special_sensory_eyeball] Cone cell - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 382,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Cornea(각막의 정의/기능은?",
+    "front_en": "",
+    "back": "[special_sensory_eyeball] Cornea(각막 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 383,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Drowsy (기면의 정의/기능은?",
+    "front_en": "",
+    "back": "[special_sensory_eyeball] Drowsy (기면 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 384,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Frontal eye field (암기의 정의/기능은?",
+    "front_en": "",
+    "back": "[special_sensory_eyeball] Frontal eye field (암기 - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 385,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Infratentorial region의 한국어 명칭과 정의는?",
+    "front_en": "Infratentorial region",
+    "back": "[special_sensory_eyeball] Infratentorial region - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 386,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Interstitial nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Interstitial nucleus",
+    "back": "[special_sensory_eyeball] Interstitial nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 387,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Lens(수정체의 정의/기능은?",
+    "front_en": "",
+    "back": "[special_sensory_eyeball] Lens(수정체 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 388,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Light reflex (암기의 정의/기능은?",
+    "front_en": "",
+    "back": "[special_sensory_eyeball] Light reflex (암기 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 389,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Lingual gyrus의 한국어 명칭과 정의는?",
+    "front_en": "Lingual gyrus",
+    "back": "[special_sensory_eyeball] Lingual gyrus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 390,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Main visual tract의 한국어 명칭과 정의는?",
+    "front_en": "Main visual tract",
+    "back": "[special_sensory_eyeball] Main visual tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 391,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Medial longitudinal fasciculus의 한국어 명칭과 정의는?",
+    "front_en": "Medial longitudinal fasciculus",
+    "back": "[special_sensory_eyeball] Medial longitudinal fasciculus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 392,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Occipital lobe의 한국어 명칭과 정의는?",
+    "front_en": "Occipital lobe",
+    "back": "[special_sensory_eyeball] Occipital lobe - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 393,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Ocular motor system의 한국어 명칭과 정의는?",
+    "front_en": "Ocular motor system",
+    "back": "[special_sensory_eyeball] Ocular motor system - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 394,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Oculomotor nerve의 한국어 명칭과 정의는?",
+    "front_en": "Oculomotor nerve",
+    "back": "[special_sensory_eyeball] Oculomotor nerve - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 395,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Oculomotor nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Oculomotor nucleus",
+    "back": "[special_sensory_eyeball] Oculomotor nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 396,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Olfactory pathway의 한국어 명칭과 정의는?",
+    "front_en": "Olfactory pathway",
+    "back": "[special_sensory_eyeball] Olfactory pathway - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 397,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Olivary nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Olivary nucleus",
+    "back": "[special_sensory_eyeball] Olivary nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 398,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Optic tract의 한국어 명칭과 정의는?",
+    "front_en": "Optic tract",
+    "back": "[special_sensory_eyeball] Optic tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 399,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Other visual tract의 한국어 명칭과 정의는?",
+    "front_en": "Other visual tract",
+    "back": "[special_sensory_eyeball] Other visual tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 400,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Parietal eye field (암기의 정의/기능은?",
+    "front_en": "",
+    "back": "[special_sensory_eyeball] Parietal eye field (암기 - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 401,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Parietal lobe의 한국어 명칭과 정의는?",
+    "front_en": "Parietal lobe",
+    "back": "[special_sensory_eyeball] Parietal lobe - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 402,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Pineal gland (송과샘의 정의/기능은?",
+    "front_en": "",
+    "back": "[special_sensory_eyeball] Pineal gland (송과샘 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 403,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Primary visual cortex의 한국어 명칭과 정의는?",
+    "front_en": "Primary visual cortex",
+    "back": "[special_sensory_eyeball] Primary visual cortex - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 404,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Retinohypothalamic tract의 한국어 명칭과 정의는?",
+    "front_en": "Retinohypothalamic tract",
+    "back": "[special_sensory_eyeball] Retinohypothalamic tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 405,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Retinohypothalamic tract (암기의 정의/기능은?",
+    "front_en": "",
+    "back": "[special_sensory_eyeball] Retinohypothalamic tract (암기 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 406,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Rod cell의 한국어 명칭과 정의는?",
+    "front_en": "Rod cell",
+    "back": "[special_sensory_eyeball] Rod cell - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 407,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Semicoma (반혼수의 정의/기능은?",
+    "front_en": "",
+    "back": "[special_sensory_eyeball] Semicoma (반혼수 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 408,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Solitary tract의 한국어 명칭과 정의는?",
+    "front_en": "Solitary tract",
+    "back": "[special_sensory_eyeball] Solitary tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 409,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Spiral ganglion의 한국어 명칭과 정의는?",
+    "front_en": "Spiral ganglion",
+    "back": "[special_sensory_eyeball] Spiral ganglion - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 410,
+    "topic_id": "autonomic_ns",
+    "front_ko": "그물척수로의 정의/기능은?",
+    "front_en": "",
+    "back": "[autonomic_ns] 그물척수로 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 411,
+    "topic_id": "autonomic_ns",
+    "front_ko": "Afferent fiber의 한국어 명칭과 정의는?",
+    "front_en": "Afferent fiber",
+    "back": "[autonomic_ns] Afferent fiber - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 412,
+    "topic_id": "autonomic_ns",
+    "front_ko": "Autonomic nervous system의 한국어 명칭과 정의는?",
+    "front_en": "Autonomic nervous system",
+    "back": "[autonomic_ns] Autonomic nervous system - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 413,
+    "topic_id": "autonomic_ns",
+    "front_ko": "CN III의 한국어 명칭과 정의는?",
+    "front_en": "CN III",
+    "back": "[autonomic_ns] CN III - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 414,
+    "topic_id": "autonomic_ns",
+    "front_ko": "CN III, VII, IX의 한국어 명칭과 정의는?",
+    "front_en": "CN III, VII, IX",
+    "back": "[autonomic_ns] CN III, VII, IX - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 415,
+    "topic_id": "autonomic_ns",
+    "front_ko": "CN IX의 한국어 명칭과 정의는?",
+    "front_en": "CN IX",
+    "back": "[autonomic_ns] CN IX - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 416,
+    "topic_id": "autonomic_ns",
+    "front_ko": "CN VII의 한국어 명칭과 정의는?",
+    "front_en": "CN VII",
+    "back": "[autonomic_ns] CN VII - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 417,
+    "topic_id": "autonomic_ns",
+    "front_ko": "CN VII, IX, X의 한국어 명칭과 정의는?",
+    "front_en": "CN VII, IX, X",
+    "back": "[autonomic_ns] CN VII, IX, X - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 418,
+    "topic_id": "autonomic_ns",
+    "front_ko": "CN X의 한국어 명칭과 정의는?",
+    "front_en": "CN X",
+    "back": "[autonomic_ns] CN X - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 419,
+    "topic_id": "autonomic_ns",
+    "front_ko": "Dorsal motor nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Dorsal motor nucleus",
+    "back": "[autonomic_ns] Dorsal motor nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 420,
+    "topic_id": "autonomic_ns",
+    "front_ko": "Dorsal nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Dorsal nucleus",
+    "back": "[autonomic_ns] Dorsal nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 421,
+    "topic_id": "autonomic_ns",
+    "front_ko": "Emesis(구토의 정의/기능은?",
+    "front_en": "",
+    "back": "[autonomic_ns] Emesis(구토 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 422,
+    "topic_id": "autonomic_ns",
+    "front_ko": "Hypothalamospinal fiber의 한국어 명칭과 정의는?",
+    "front_en": "Hypothalamospinal fiber",
+    "back": "[autonomic_ns] Hypothalamospinal fiber - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 423,
+    "topic_id": "autonomic_ns",
+    "front_ko": "Inf salivatory nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Inf salivatory nucleus",
+    "back": "[autonomic_ns] Inf salivatory nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 424,
+    "topic_id": "autonomic_ns",
+    "front_ko": "Lacrimal nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Lacrimal nucleus",
+    "back": "[autonomic_ns] Lacrimal nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 425,
+    "topic_id": "autonomic_ns",
+    "front_ko": "Mammiliothalamic tract의 한국어 명칭과 정의는?",
+    "front_en": "Mammiliothalamic tract",
+    "back": "[autonomic_ns] Mammiliothalamic tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 426,
+    "topic_id": "autonomic_ns",
+    "front_ko": "Mammillary body의 한국어 명칭과 정의는?",
+    "front_en": "Mammillary body",
+    "back": "[autonomic_ns] Mammillary body - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 427,
+    "topic_id": "autonomic_ns",
+    "front_ko": "Memory system의 한국어 명칭과 정의는?",
+    "front_en": "Memory system",
+    "back": "[autonomic_ns] Memory system - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 428,
+    "topic_id": "autonomic_ns",
+    "front_ko": "Preoptic nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Preoptic nucleus",
+    "back": "[autonomic_ns] Preoptic nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 429,
+    "topic_id": "autonomic_ns",
+    "front_ko": "Salivatory nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Salivatory nucleus",
+    "back": "[autonomic_ns] Salivatory nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 430,
+    "topic_id": "autonomic_ns",
+    "front_ko": "Spinothalamic tract의 한국어 명칭과 정의는?",
+    "front_en": "Spinothalamic tract",
+    "back": "[autonomic_ns] Spinothalamic tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 431,
+    "topic_id": "autonomic_ns",
+    "front_ko": "Sympathetic trunk의 한국어 명칭과 정의는?",
+    "front_en": "Sympathetic trunk",
+    "back": "[autonomic_ns] Sympathetic trunk - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 432,
+    "topic_id": "autonomic_ns",
+    "front_ko": "Visceral plexus의 한국어 명칭과 정의는?",
+    "front_en": "Visceral plexus",
+    "back": "[autonomic_ns] Visceral plexus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 433,
+    "topic_id": "autonomic_ns",
+    "front_ko": "Viscerosensory tract의 한국어 명칭과 정의는?",
+    "front_en": "Viscerosensory tract",
+    "back": "[autonomic_ns] Viscerosensory tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 434,
+    "topic_id": "autonomic_ns",
+    "front_ko": "Westphal nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Westphal nucleus",
+    "back": "[autonomic_ns] Westphal nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 435,
+    "topic_id": "autonomic_ns",
+    "front_ko": "orexin (식욕증가의 정의/기능은?",
+    "front_en": "",
+    "back": "[autonomic_ns] orexin (식욕증가 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 436,
+    "topic_id": "autonomic_ns",
+    "front_ko": "경유 (visceral afferent fibers의 정의/기능은?",
+    "front_en": "",
+    "back": "[autonomic_ns] 경유 (visceral afferent fibers - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 437,
+    "topic_id": "autonomic_ns",
+    "front_ko": "관여(Motor의 정의/기능은?",
+    "front_en": "",
+    "back": "[autonomic_ns] 관여(Motor - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 438,
+    "topic_id": "autonomic_ns",
+    "front_ko": "구조물 (Mammillary body의 정의/기능은?",
+    "front_en": "",
+    "back": "[autonomic_ns] 구조물 (Mammillary body - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 439,
+    "topic_id": "autonomic_ns",
+    "front_ko": "깔때기핵 (infundibular nucleus의 정의/기능은?",
+    "front_en": "",
+    "back": "[autonomic_ns] 깔때기핵 (infundibular nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 440,
+    "topic_id": "autonomic_ns",
+    "front_ko": "뇌실옆핵(paraventricular nucleus의 정의/기능은?",
+    "front_en": "",
+    "back": "[autonomic_ns] 뇌실옆핵(paraventricular nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 441,
+    "topic_id": "autonomic_ns",
+    "front_ko": "들어옴 (hippocampohypothalamic fibers의 정의/기능은?",
+    "front_en": "",
+    "back": "[autonomic_ns] 들어옴 (hippocampohypothalamic fibers - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 442,
+    "topic_id": "autonomic_ns",
+    "front_ko": "등쪽내측핵 (dorsomedial nucleus의 정의/기능은?",
+    "front_en": "",
+    "back": "[autonomic_ns] 등쪽내측핵 (dorsomedial nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 443,
+    "topic_id": "autonomic_ns",
+    "front_ko": "배쪽내측핵 (ventromedial nucleus의 정의/기능은?",
+    "front_en": "",
+    "back": "[autonomic_ns] 배쪽내측핵 (ventromedial nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 444,
+    "topic_id": "autonomic_ns",
+    "front_ko": "부분 (Median eminence의 정의/기능은?",
+    "front_en": "",
+    "back": "[autonomic_ns] 부분 (Median eminence - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 445,
+    "topic_id": "autonomic_ns",
+    "front_ko": "분계선조 (stria terminalis의 정의/기능은?",
+    "front_en": "",
+    "back": "[autonomic_ns] 분계선조 (stria terminalis - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 446,
+    "topic_id": "autonomic_ns",
+    "front_ko": "송과체오목 (pineal recess의 정의/기능은?",
+    "front_en": "",
+    "back": "[autonomic_ns] 송과체오목 (pineal recess - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 447,
+    "topic_id": "autonomic_ns",
+    "front_ko": "시각교차앞핵(Preoptic nucleus의 정의/기능은?",
+    "front_en": "",
+    "back": "[autonomic_ns] 시각교차앞핵(Preoptic nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 448,
+    "topic_id": "autonomic_ns",
+    "front_ko": "시각교차위핵(suprachiasmatic nucleus의 정의/기능은?",
+    "front_en": "",
+    "back": "[autonomic_ns] 시각교차위핵(suprachiasmatic nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 449,
+    "topic_id": "autonomic_ns",
+    "front_ko": "시각신경위핵(suparoptic nucleus의 정의/기능은?",
+    "front_en": "",
+    "back": "[autonomic_ns] 시각신경위핵(suparoptic nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 450,
+    "topic_id": "autonomic_ns",
+    "front_ko": "시상하부(Hypothalamus의 정의/기능은?",
+    "front_en": "",
+    "back": "[autonomic_ns] 시상하부(Hypothalamus - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 451,
+    "topic_id": "autonomic_ns",
+    "front_ko": "연결 (Tuber cinerum의 정의/기능은?",
+    "front_en": "",
+    "back": "[autonomic_ns] 연결 (Tuber cinerum - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 452,
+    "topic_id": "autonomic_ns",
+    "front_ko": "유래 (corticohypothamamic fibers의 정의/기능은?",
+    "front_en": "",
+    "back": "[autonomic_ns] 유래 (corticohypothamamic fibers - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 453,
+    "topic_id": "autonomic_ns",
+    "front_ko": "융기유두핵 (tuberomammilary nucleus의 정의/기능은?",
+    "front_en": "",
+    "back": "[autonomic_ns] 융기유두핵 (tuberomammilary nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 454,
+    "topic_id": "autonomic_ns",
+    "front_ko": "종말판 (lamina terminalis의 정의/기능은?",
+    "front_en": "",
+    "back": "[autonomic_ns] 종말판 (lamina terminalis - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 455,
+    "topic_id": "autonomic_ns",
+    "front_ko": "체성수입섬유 (somatic afferent fibers의 정의/기능은?",
+    "front_en": "",
+    "back": "[autonomic_ns] 체성수입섬유 (somatic afferent fibers - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 456,
+    "topic_id": "autonomic_ns",
+    "front_ko": "체온상승 (hyperthermia의 정의/기능은?",
+    "front_en": "",
+    "back": "[autonomic_ns] 체온상승 (hyperthermia - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 457,
+    "topic_id": "autonomic_ns",
+    "front_ko": "체온저하 (hypothermia의 정의/기능은?",
+    "front_en": "",
+    "back": "[autonomic_ns] 체온저하 (hypothermia - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 458,
+    "topic_id": "autonomic_ns",
+    "front_ko": "체온조절(cooling의 정의/기능은?",
+    "front_en": "",
+    "back": "[autonomic_ns] 체온조절(cooling - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 459,
+    "topic_id": "autonomic_ns",
+    "front_ko": "피개섬유 (tegmental fibers의 정의/기능은?",
+    "front_en": "",
+    "back": "[autonomic_ns] 피개섬유 (tegmental fibers - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 460,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Addiction (중독의 정의/기능은?",
+    "front_en": "",
+    "back": "[higher_cns_functions] Addiction (중독 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 461,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Anxiety (불안장애의 정의/기능은?",
+    "front_en": "",
+    "back": "[higher_cns_functions] Anxiety (불안장애 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 462,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Aphasia (실어증의 정의/기능은?",
+    "front_en": "",
+    "back": "[higher_cns_functions] Aphasia (실어증 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 463,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Arcuate fasciculus의 한국어 명칭과 정의는?",
+    "front_en": "Arcuate fasciculus",
+    "back": "[higher_cns_functions] Arcuate fasciculus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 464,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Auditory association area의 한국어 명칭과 정의는?",
+    "front_en": "Auditory association area",
+    "back": "[higher_cns_functions] Auditory association area - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 465,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Auditory hallucination (환청의 정의/기능은?",
+    "front_en": "",
+    "back": "[higher_cns_functions] Auditory hallucination (환청 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 466,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Delusion (망상의 정의/기능은?",
+    "front_en": "",
+    "back": "[higher_cns_functions] Delusion (망상 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 467,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Depression (우울증의 정의/기능은?",
+    "front_en": "",
+    "back": "[higher_cns_functions] Depression (우울증 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 468,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Dopaminergic system의 한국어 명칭과 정의는?",
+    "front_en": "Dopaminergic system",
+    "back": "[higher_cns_functions] Dopaminergic system - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 469,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Frontal association cortex의 한국어 명칭과 정의는?",
+    "front_en": "Frontal association cortex",
+    "back": "[higher_cns_functions] Frontal association cortex - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 470,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Frontal lobe의 한국어 명칭과 정의는?",
+    "front_en": "Frontal lobe",
+    "back": "[higher_cns_functions] Frontal lobe - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 471,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Mirror Neuron (동병상련의 정의/기능은?",
+    "front_en": "",
+    "back": "[higher_cns_functions] Mirror Neuron (동병상련 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 472,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Motor cortex의 한국어 명칭과 정의는?",
+    "front_en": "Motor cortex",
+    "back": "[higher_cns_functions] Motor cortex - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 473,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Nigrostriatal tract의 한국어 명칭과 정의는?",
+    "front_en": "Nigrostriatal tract",
+    "back": "[higher_cns_functions] Nigrostriatal tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 474,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Schizophrenia (정신분열증의 정의/기능은?",
+    "front_en": "",
+    "back": "[higher_cns_functions] Schizophrenia (정신분열증 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 475,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Subcortical connection between speech area의 한국어 명칭과 정의는?",
+    "front_en": "Subcortical connection between speech area",
+    "back": "[higher_cns_functions] Subcortical connection between speech area - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 476,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Supplementary motor cortex의 한국어 명칭과 정의는?",
+    "front_en": "Supplementary motor cortex",
+    "back": "[higher_cns_functions] Supplementary motor cortex - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 477,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Temporal lobe의 한국어 명칭과 정의는?",
+    "front_en": "Temporal lobe",
+    "back": "[higher_cns_functions] Temporal lobe - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 478,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Ventral tegmental area의 한국어 명칭과 정의는?",
+    "front_en": "Ventral tegmental area",
+    "back": "[higher_cns_functions] Ventral tegmental area - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 479,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "mesolimbic dopaminergic system (쾌락중추의 정의/기능은?",
+    "front_en": "",
+    "back": "[higher_cns_functions] mesolimbic dopaminergic system (쾌락중추 - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 480,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Addiction (중독의 정의/기능은?",
+    "front_en": "",
+    "back": "[higher_cns_functions] Addiction (중독 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 481,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Agnosia (실인증, 인식결여증의 정의/기능은?",
+    "front_en": "",
+    "back": "[higher_cns_functions] Agnosia (실인증, 인식결여증 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 482,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Anosognosia (질병 불각증의 정의/기능은?",
+    "front_en": "",
+    "back": "[higher_cns_functions] Anosognosia (질병 불각증 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 483,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Aphasia (실어증의 정의/기능은?",
+    "front_en": "",
+    "back": "[higher_cns_functions] Aphasia (실어증 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 484,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Astereognosis (입체감각 실인증의 정의/기능은?",
+    "front_en": "",
+    "back": "[higher_cns_functions] Astereognosis (입체감각 실인증 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 485,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Autotopagnosia (자가국소 실인증의 정의/기능은?",
+    "front_en": "",
+    "back": "[higher_cns_functions] Autotopagnosia (자가국소 실인증 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 486,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Neuron (동병상련의 정의/기능은?",
+    "front_en": "",
+    "back": "[higher_cns_functions] Neuron (동병상련 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 487,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "요실금의 정의/기능은?",
+    "front_en": "",
+    "back": "[blood_supply_brain] 요실금 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 488,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "CN III의 한국어 명칭과 정의는?",
+    "front_en": "CN III",
+    "back": "[blood_supply_brain] CN III - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 489,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "CN XII의 한국어 명칭과 정의는?",
+    "front_en": "CN XII",
+    "back": "[blood_supply_brain] CN XII - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 490,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "Corticospinal tract의 한국어 명칭과 정의는?",
+    "front_en": "Corticospinal tract",
+    "back": "[blood_supply_brain] Corticospinal tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 491,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "Dentate nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Dentate nucleus",
+    "back": "[blood_supply_brain] Dentate nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 492,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "Fastigial nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Fastigial nucleus",
+    "back": "[blood_supply_brain] Fastigial nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 493,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "Frontal lobe의 한국어 명칭과 정의는?",
+    "front_en": "Frontal lobe",
+    "back": "[blood_supply_brain] Frontal lobe - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 494,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "Interposed nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Interposed nucleus",
+    "back": "[blood_supply_brain] Interposed nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 495,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "Lentiform nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Lentiform nucleus",
+    "back": "[blood_supply_brain] Lentiform nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 496,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "Prefrontal cortex의 한국어 명칭과 정의는?",
+    "front_en": "Prefrontal cortex",
+    "back": "[blood_supply_brain] Prefrontal cortex - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 497,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "Vestibular nucleus의 한국어 명칭과 정의는?",
+    "front_en": "Vestibular nucleus",
+    "back": "[blood_supply_brain] Vestibular nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 498,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "s syndrome (교감신경의 정의/기능은?",
+    "front_en": "",
+    "back": "[blood_supply_brain] s syndrome (교감신경 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 499,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "내측(limbic system의 정의/기능은?",
+    "front_en": "",
+    "back": "[blood_supply_brain] 내측(limbic system - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 500,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "내측사시 (abducent nerve의 정의/기능은?",
+    "front_en": "",
+    "back": "[blood_supply_brain] 내측사시 (abducent nerve - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 501,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "동공확대 (CN III의 정의/기능은?",
+    "front_en": "",
+    "back": "[blood_supply_brain] 동공확대 (CN III - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 502,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "뒤쪽 (occipital lobe의 정의/기능은?",
+    "front_en": "",
+    "back": "[blood_supply_brain] 뒤쪽 (occipital lobe - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 503,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "반신마비 (corticospinal tract의 정의/기능은?",
+    "front_en": "",
+    "back": "[blood_supply_brain] 반신마비 (corticospinal tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 504,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "발생 (CN XII의 정의/기능은?",
+    "front_en": "",
+    "back": "[blood_supply_brain] 발생 (CN XII - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 505,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "불완전마비 (facial nerve의 정의/기능은?",
+    "front_en": "",
+    "back": "[blood_supply_brain] 불완전마비 (facial nerve - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 506,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "사지마비 (corticospinal tract의 정의/기능은?",
+    "front_en": "",
+    "back": "[blood_supply_brain] 사지마비 (corticospinal tract - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 507,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "사지마비 (corticospinal tract, facial nerve의 정의/기능은?",
+    "front_en": "",
+    "back": "[blood_supply_brain] 사지마비 (corticospinal tract, facial nerve - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 508,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "소실 (medial lemniscus system의 정의/기능은?",
+    "front_en": "",
+    "back": "[blood_supply_brain] 소실 (medial lemniscus system - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 509,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "손상 (MLF의 정의/기능은?",
+    "front_en": "",
+    "back": "[blood_supply_brain] 손상 (MLF - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 510,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "손상 (abducent nucleus의 정의/기능은?",
+    "front_en": "",
+    "back": "[blood_supply_brain] 손상 (abducent nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 511,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "손상 (red nucleus의 정의/기능은?",
+    "front_en": "",
+    "back": "[blood_supply_brain] 손상 (red nucleus - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 512,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "앞쪽(frontal lobe의 정의/기능은?",
+    "front_en": "",
+    "back": "[blood_supply_brain] 앞쪽(frontal lobe - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 513,
+    "topic_id": "dev_head_neck",
+    "front_ko": "CN IX의 한국어 명칭과 정의는?",
+    "front_en": "CN IX",
+    "back": "[dev_head_neck] CN IX - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 514,
+    "topic_id": "dev_head_neck",
+    "front_ko": "CN V의 한국어 명칭과 정의는?",
+    "front_en": "CN V",
+    "back": "[dev_head_neck] CN V - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 515,
+    "topic_id": "dev_head_neck",
+    "front_ko": "CN V, VII, IX, X의 한국어 명칭과 정의는?",
+    "front_en": "CN V, VII, IX, X",
+    "back": "[dev_head_neck] CN V, VII, IX, X - 야마 참조",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 516,
+    "topic_id": "dev_head_neck",
+    "front_ko": "CN VII의 한국어 명칭과 정의는?",
+    "front_en": "CN VII",
+    "back": "[dev_head_neck] CN VII - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 517,
+    "topic_id": "dev_head_neck",
+    "front_ko": "CN X의 한국어 명칭과 정의는?",
+    "front_en": "CN X",
+    "back": "[dev_head_neck] CN X - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 518,
+    "topic_id": "dev_head_neck",
+    "front_ko": "auditory tube(유스타키오관의 정의/기능은?",
+    "front_en": "",
+    "back": "[dev_head_neck] auditory tube(유스타키오관 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 519,
+    "topic_id": "dev_head_neck",
+    "front_ko": "maternal MD(당뇨의 정의/기능은?",
+    "front_en": "",
+    "back": "[dev_head_neck] maternal MD(당뇨 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 520,
+    "topic_id": "dev_nervous_system",
+    "front_ko": "Colobomairidis(홍채결손의 정의/기능은?",
+    "front_en": "",
+    "back": "[dev_nervous_system] Colobomairidis(홍채결손 - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 521,
+    "topic_id": "dev_nervous_system",
+    "front_ko": "Spinal cord의 한국어 명칭과 정의는?",
+    "front_en": "Spinal cord",
+    "back": "[dev_nervous_system] Spinal cord - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 522,
+    "topic_id": "dev_nervous_system",
+    "front_ko": "끝나야 (afterendofneuroblastproduction의 정의/기능은?",
+    "front_en": "",
+    "back": "[dev_nervous_system] 끝나야 (afterendofneuroblastproduction - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 523,
+    "topic_id": "dev_nervous_system",
+    "front_ko": "여드름약(hypervitaminosisA의 정의/기능은?",
+    "front_en": "",
+    "back": "[dev_nervous_system] 여드름약(hypervitaminosisA - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 524,
+    "topic_id": "dev_nervous_system",
+    "front_ko": "째 (Apperanceofprimarybrainvesicle의 정의/기능은?",
+    "front_en": "",
+    "back": "[dev_nervous_system] 째 (Apperanceofprimarybrainvesicle - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 525,
+    "topic_id": "dev_nervous_system",
+    "front_ko": "풍진(rubellaorGermanmeasles의 정의/기능은?",
+    "front_en": "",
+    "back": "[dev_nervous_system] 풍진(rubellaorGermanmeasles - 야마 참조",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 526,
+    "topic_id": "dev_nervous_system",
+    "front_ko": "Glialcells (Gliablast 유래의 정의/기능은?",
+    "front_en": "",
+    "back": "[dev_nervous_system] Glialcells (Gliablast 유래 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 527,
+    "topic_id": "dev_nervous_system",
+    "front_ko": "Neurons (Neuroblast 유래의 정의/기능은?",
+    "front_en": "",
+    "back": "[dev_nervous_system] Neurons (Neuroblast 유래 - 야마 참조",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 528,
+    "topic_id": "head_2",
+    "front_ko": "CN V (Trigeminal) vs CN VII (Facial)의 차이점은?",
+    "front_en": "CN V (Trigeminal) vs CN VII (Facial)",
+    "back": "V=감각+저작근, VII=표정근+미각(전2/3)+타액선. V3와 VII 모두 귀 주변 지나감",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 529,
+    "topic_id": "head_2",
+    "front_ko": "CN VII (Facial)의 특징은? (CN V (Trigeminal)와 비교하여)",
+    "front_en": "CN VII (Facial)",
+    "back": "V=감각+저작근, VII=표정근+미각(전2/3)+타액선. V3와 VII 모두 귀 주변 지나감",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 530,
+    "topic_id": "head_2",
+    "front_ko": "CN IX (Glossopharyngeal) vs CN X (Vagus)의 차이점은?",
+    "front_en": "CN IX (Glossopharyngeal) vs CN X (Vagus)",
+    "back": "IX=인두 감각+이하선+경동맥체, X=인두/후두 운동+부교감. 둘 다 경정맥공 통과",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 531,
+    "topic_id": "head_2",
+    "front_ko": "CN X (Vagus)의 특징은? (CN IX (Glossopharyngeal)와 비교하여)",
+    "front_en": "CN X (Vagus)",
+    "back": "IX=인두 감각+이하선+경동맥체, X=인두/후두 운동+부교감. 둘 다 경정맥공 통과",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 532,
+    "topic_id": "head_2",
+    "front_ko": "CN III (Oculomotor) vs CN IV (Trochlear)의 차이점은?",
+    "front_en": "CN III (Oculomotor) vs CN IV (Trochlear)",
+    "back": "III=대부분 외안근+동공수축, IV=상사근만(SO4). III=상안와틈새, IV도 상안와틈새지만 유일한 배측 출현",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 533,
+    "topic_id": "head_2",
+    "front_ko": "CN IV (Trochlear)의 특징은? (CN III (Oculomotor)와 비교하여)",
+    "front_en": "CN IV (Trochlear)",
+    "back": "III=대부분 외안근+동공수축, IV=상사근만(SO4). III=상안와틈새, IV도 상안와틈새지만 유일한 배측 출현",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 534,
+    "topic_id": "head_2",
+    "front_ko": "CN XI (Accessory) vs CN XII (Hypoglossal)의 차이점은?",
+    "front_en": "CN XI (Accessory) vs CN XII (Hypoglossal)",
+    "back": "XI=SCM+Trapezius, XII=혀 근육. XI=경정맥공, XII=설하신경관",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 535,
+    "topic_id": "head_2",
+    "front_ko": "CN XII (Hypoglossal)의 특징은? (CN XI (Accessory)와 비교하여)",
+    "front_en": "CN XII (Hypoglossal)",
+    "back": "XI=SCM+Trapezius, XII=혀 근육. XI=경정맥공, XII=설하신경관",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 536,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Corticospinal tract vs Corticobulbar tract의 차이점은?",
+    "front_en": "Corticospinal tract vs Corticobulbar tract",
+    "back": "Spinal=사지/몸통 수의운동(연수 교차), Bulbar=뇌신경 운동핵으로(양측지배 많음)",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 537,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Corticobulbar tract의 특징은? (Corticospinal tract와 비교하여)",
+    "front_en": "Corticobulbar tract",
+    "back": "Spinal=사지/몸통 수의운동(연수 교차), Bulbar=뇌신경 운동핵으로(양측지배 많음)",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 538,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Dorsal column pathway vs Spinothalamic tract의 차이점은?",
+    "front_en": "Dorsal column pathway vs Spinothalamic tract",
+    "back": "Dorsal=촉각+고유감각+진동(동측→연수교차), Spinothalamic=통각+온도(척수서 교차)",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 539,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Spinothalamic tract의 특징은? (Dorsal column pathway와 비교하여)",
+    "front_en": "Spinothalamic tract",
+    "back": "Dorsal=촉각+고유감각+진동(동측→연수교차), Spinothalamic=통각+온도(척수서 교차)",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 540,
+    "topic_id": "cns_gross_1",
+    "front_ko": "UMN lesion vs LMN lesion의 차이점은?",
+    "front_en": "UMN lesion vs LMN lesion",
+    "back": "UMN=경직마비+반사항진+바빈스키+, LMN=이완마비+반사감소+근위축+섬유속연축",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 541,
+    "topic_id": "cns_gross_1",
+    "front_ko": "LMN lesion의 특징은? (UMN lesion와 비교하여)",
+    "front_en": "LMN lesion",
+    "back": "UMN=경직마비+반사항진+바빈스키+, LMN=이완마비+반사감소+근위축+섬유속연축",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 542,
+    "topic_id": "head_2",
+    "front_ko": "Internal carotid a. vs External carotid a.의 차이점은?",
+    "front_en": "Internal carotid a. vs External carotid a.",
+    "back": "Internal=뇌+안구(가지없이 올라감), External=얼굴+두피(8개 가지)",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 543,
+    "topic_id": "head_2",
+    "front_ko": "External carotid a.의 특징은? (Internal carotid a.와 비교하여)",
+    "front_en": "External carotid a.",
+    "back": "Internal=뇌+안구(가지없이 올라감), External=얼굴+두피(8개 가지)",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 544,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Middle cerebral a. vs Anterior cerebral a.의 차이점은?",
+    "front_en": "Middle cerebral a. vs Anterior cerebral a.",
+    "back": "MCA=외측면(운동/감각 팔/얼굴, Broca/Wernicke), ACA=내측면(운동/감각 다리)",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 545,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Anterior cerebral a.의 특징은? (Middle cerebral a.와 비교하여)",
+    "front_en": "Anterior cerebral a.",
+    "back": "MCA=외측면(운동/감각 팔/얼굴, Broca/Wernicke), ACA=내측면(운동/감각 다리)",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 546,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Vertebral a. vs Basilar a.의 차이점은?",
+    "front_en": "Vertebral a. vs Basilar a.",
+    "back": "Vertebral=PICA+전척수동맥, Basilar=AICA+SCA+PCA. Vertebral 합쳐서 Basilar",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 547,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Basilar a.의 특징은? (Vertebral a.와 비교하여)",
+    "front_en": "Basilar a.",
+    "back": "Vertebral=PICA+전척수동맥, Basilar=AICA+SCA+PCA. Vertebral 합쳐서 Basilar",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 548,
+    "topic_id": "neck",
+    "front_ko": "Anterior triangle vs Posterior triangle의 차이점은?",
+    "front_en": "Anterior triangle vs Posterior triangle",
+    "back": "전삼각=SCM전방(경동맥,뇌신경), 후삼각=SCM후방(부신경,상완신경총,쇄골하동맥)",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 549,
+    "topic_id": "neck",
+    "front_ko": "Posterior triangle의 특징은? (Anterior triangle와 비교하여)",
+    "front_en": "Posterior triangle",
+    "back": "전삼각=SCM전방(경동맥,뇌신경), 후삼각=SCM후방(부신경,상완신경총,쇄골하동맥)",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 550,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Sympathetic vs Parasympathetic의 차이점은?",
+    "front_en": "Sympathetic vs Parasympathetic",
+    "back": "교감=T1-L2, 짧은절전+긴절후, fight/flight. 부교감=CN III,VII,IX,X+S2-4, 긴절전+짧은절후, rest/digest",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 551,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Parasympathetic의 특징은? (Sympathetic와 비교하여)",
+    "front_en": "Parasympathetic",
+    "back": "교감=T1-L2, 짧은절전+긴절후, fight/flight. 부교감=CN III,VII,IX,X+S2-4, 긴절전+짧은절후, rest/digest",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 552,
+    "topic_id": "head_2",
+    "front_ko": "Foramen rotundum vs Foramen ovale의 차이점은?",
+    "front_en": "Foramen rotundum vs Foramen ovale",
+    "back": "Rotundum=V2(상악신경), Ovale=V3(하악신경). 둘 다 중두개와→익구개와/측두하와",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 553,
+    "topic_id": "head_2",
+    "front_ko": "Foramen ovale의 특징은? (Foramen rotundum와 비교하여)",
+    "front_en": "Foramen ovale",
+    "back": "Rotundum=V2(상악신경), Ovale=V3(하악신경). 둘 다 중두개와→익구개와/측두하와",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 554,
+    "topic_id": "head_2",
+    "front_ko": "Superior orbital fissure vs Inferior orbital fissure의 차이점은?",
+    "front_en": "Superior orbital fissure vs Inferior orbital fissure",
+    "back": "SOF=CN III,IV,V1,VI+안정맥, IOF=V2+하안정맥. SOF=중두개와↔안와, IOF=익구개와↔안와",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 555,
+    "topic_id": "head_2",
+    "front_ko": "Inferior orbital fissure의 특징은? (Superior orbital fissure와 비교하여)",
+    "front_en": "Inferior orbital fissure",
+    "back": "SOF=CN III,IV,V1,VI+안정맥, IOF=V2+하안정맥. SOF=중두개와↔안와, IOF=익구개와↔안와",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 556,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Broca area vs Wernicke area의 차이점은?",
+    "front_en": "Broca area vs Wernicke area",
+    "back": "Broca=전두엽(44,45)=운동실어증(비유창), Wernicke=측두엽(22)=감각실어증(유창하지만 무의미)",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 557,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Wernicke area의 특징은? (Broca area와 비교하여)",
+    "front_en": "Wernicke area",
+    "back": "Broca=전두엽(44,45)=운동실어증(비유창), Wernicke=측두엽(22)=감각실어증(유창하지만 무의미)",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 558,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "Recurrent laryngeal n. vs Superior laryngeal n.의 차이점은?",
+    "front_en": "Recurrent laryngeal n. vs Superior laryngeal n.",
+    "back": "RLN(=inferior)=후두 대부분 운동+성문하 감각, SLN 외지=윤상갑상근, SLN 내지=성문상 감각",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 559,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "Superior laryngeal n.의 특징은? (Recurrent laryngeal n.와 비교하여)",
+    "front_en": "Superior laryngeal n.",
+    "back": "RLN(=inferior)=후두 대부분 운동+성문하 감각, SLN 외지=윤상갑상근, SLN 내지=성문상 감각",
+    "difficulty": 2,
+    "source": "confusion_pair"
+  },
+  {
+    "id": 560,
+    "topic_id": "head_1",
+    "front_ko": "뇌신경(Cranial nerves)의 총 개수는?",
+    "front_en": "Cranial nerves",
+    "back": "12쌍의 뇌신경 (CN I ~ CN XII)",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 561,
+    "topic_id": "head_1",
+    "front_ko": "얼굴의 부교감 신경절 4개를 나열하시오",
+    "front_en": "Parasympathetic ganglia of face",
+    "back": "Ciliary ggl.(CN III), Pterygopalatine ggl.(CN VII), Otic ggl.(CN IX), Submandibular ggl.(CN VII)",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 562,
+    "topic_id": "head_1",
+    "front_ko": "CN I (Olfactory n.)의 기능은?",
+    "front_en": "CN I Olfactory nerve",
+    "back": "후각(smell) 전달, 특수감각신경(SVA)",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 563,
+    "topic_id": "head_1",
+    "front_ko": "CN II (Optic n.)의 기능은?",
+    "front_en": "CN II Optic nerve",
+    "back": "시각(vision) 전달, 특수감각신경(SSA), Optic canal 통과",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 564,
+    "topic_id": "head_1",
+    "front_ko": "일반감각(general senses)과 특수감각(special senses)의 차이는?",
+    "front_en": "General vs Special senses",
+    "back": "일반감각: 촉각,통각,온도감각,고유감각. 특수감각: 시각,청각,미각,후각,평형감각",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 565,
+    "topic_id": "head_1",
+    "front_ko": "감각신경절(sensory ganglion)과 자율신경절(autonomic ganglion)의 차이는?",
+    "front_en": "Sensory vs Autonomic ganglion",
+    "back": "감각신경절: 감각신경 세포체 모임(pseudounipolar), 자율신경절: 절전-절후 사이 시냅스 장소",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 566,
+    "topic_id": "head_1",
+    "front_ko": "Geniculate ganglion은 어떤 신경의 감각신경절인가?",
+    "front_en": "Geniculate ganglion",
+    "back": "CN VII (Facial n.)의 감각신경절. 미각(전2/3 혀)과 외이도 감각 담당",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 567,
+    "topic_id": "head_1",
+    "front_ko": "Trigeminal nerve (CN V)의 3개 분지는?",
+    "front_en": "Trigeminal nerve divisions",
+    "back": "V1 Ophthalmic, V2 Maxillary, V3 Mandibular. 얼굴 감각의 대부분 담당",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 568,
+    "topic_id": "head_1",
+    "front_ko": "CN V의 감각신경절 이름은?",
+    "front_en": "Trigeminal ganglion",
+    "back": "Trigeminal ganglion (= Semilunar ganglion = Gasserian ganglion)",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 569,
+    "topic_id": "head_1",
+    "front_ko": "Optic canal을 통과하는 구조물은?",
+    "front_en": "Optic canal contents",
+    "back": "CN II (Optic n.), Ophthalmic a.",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 570,
+    "topic_id": "head_2",
+    "front_ko": "Facial nerve (CN VII)의 5개 말단 분지는?",
+    "front_en": "Facial nerve branches",
+    "back": "Temporal, Zygomatic, Buccal, Marginal mandibular, Cervical (Two Zombies Bit My Cat)",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 571,
+    "topic_id": "head_2",
+    "front_ko": "Bell's palsy란?",
+    "front_en": "Bell's palsy",
+    "back": "CN VII 마비. 동측 얼굴 전체 표정근 마비, 이마 주름 불가, 각막반사 소실(원심성), 미각상실(전2/3)",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 572,
+    "topic_id": "head_2",
+    "front_ko": "UMN facial palsy와 LMN facial palsy의 차이는?",
+    "front_en": "UMN vs LMN facial palsy",
+    "back": "UMN: 반대측 하안면만 마비(이마는 양측지배로 보존). LMN: 동측 전체 안면마비(이마 포함)",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 573,
+    "topic_id": "head_2",
+    "front_ko": "Glossopharyngeal n. (CN IX)의 주요 기능은?",
+    "front_en": "CN IX functions",
+    "back": "인두 감각(후1/3 혀 미각+일반감각), 이하선 분비(부교감-otic ggl.), 경동맥체/동 감지",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 574,
+    "topic_id": "head_2",
+    "front_ko": "Vagus n. (CN X)의 주요 기능은?",
+    "front_en": "CN X functions",
+    "back": "인두/후두 운동, 후두 감각, 부교감(흉복강 장기), 경정맥공 통과",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 575,
+    "topic_id": "head_2",
+    "front_ko": "Accessory n. (CN XI)이 지배하는 근육은?",
+    "front_en": "CN XI muscles",
+    "back": "SCM (Sternocleidomastoid), Trapezius. 순수 운동신경",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 576,
+    "topic_id": "head_2",
+    "front_ko": "Hypoglossal n. (CN XII)의 기능은?",
+    "front_en": "CN XII function",
+    "back": "혀 근육 운동지배(genioglossus 등). 손상 시 혀가 병변 쪽으로 편향",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 577,
+    "topic_id": "head_2",
+    "front_ko": "Chorda tympani의 기능과 경로는?",
+    "front_en": "Chorda tympani",
+    "back": "CN VII 분지. 전2/3 혀 미각 + submandibular/sublingual 타액선 부교감. 중이강 통과",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 578,
+    "topic_id": "head_2",
+    "front_ko": "Gag reflex의 구심성/원심성 신경은?",
+    "front_en": "Gag reflex pathway",
+    "back": "구심성: CN IX (glossopharyngeal), 원심성: CN X (vagus)",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 579,
+    "topic_id": "head_2",
+    "front_ko": "Parotid gland의 부교감 신경경로는?",
+    "front_en": "Parotid parasympathetic pathway",
+    "back": "CN IX → inferior salivatory nucleus → lesser petrosal n. → otic ggl. → auriculotemporal n. → parotid",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 580,
+    "topic_id": "head_3",
+    "front_ko": "Meninges의 3층 구조는?",
+    "front_en": "Three layers of meninges",
+    "back": "Dura mater(경질막) → Arachnoid(거미막) → Pia mater(연질막)",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 581,
+    "topic_id": "head_3",
+    "front_ko": "Dural infolding 4가지는?",
+    "front_en": "Dural infoldings",
+    "back": "Falx cerebri, Falx cerebelli, Tentorium cerebelli, Diaphragma sellae",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 582,
+    "topic_id": "head_3",
+    "front_ko": "Cavernous sinus를 통과하는 뇌신경은?",
+    "front_en": "Cavernous sinus CN",
+    "back": "CN III, IV, V1, V2, VI. 내경동맥(ICA)도 통과",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 583,
+    "topic_id": "head_3",
+    "front_ko": "Superior orbital fissure를 통과하는 구조물은?",
+    "front_en": "SOF contents",
+    "back": "CN III, IV, V1, VI, 안정맥(ophthalmic v.)",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 584,
+    "topic_id": "head_3",
+    "front_ko": "Epidural space에 출혈 시 가장 영향받기 쉬운 sinus는?",
+    "front_en": "Epidural hemorrhage",
+    "back": "Superior sagittal sinus (epidural space에 가장 가까움)",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 585,
+    "topic_id": "head_3",
+    "front_ko": "Tentorial herniation이란?",
+    "front_en": "Tentorial herniation",
+    "back": "뇌부종 등으로 uncus가 tentorium cerebelli를 통해 탈출, CN III 압박 → 동측 동공산대",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 586,
+    "topic_id": "head_3",
+    "front_ko": "Abducent n. (CN VI) 손상 시 증상은?",
+    "front_en": "CN VI palsy",
+    "back": "내사시(medial squint) - lateral rectus 마비로 외전 불가",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 587,
+    "topic_id": "head_3",
+    "front_ko": "CN III 손상 시 증상은?",
+    "front_en": "CN III palsy",
+    "back": "안검하수(ptosis), 외하사시, 동공산대(mydriasis), 조절마비",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 588,
+    "topic_id": "head_3",
+    "front_ko": "Arachnoid granulation의 기능은?",
+    "front_en": "Arachnoid granulation",
+    "back": "과잉 CSF를 venous sinus(특히 sup. sagittal sinus)로 배출하는 밸브 역할",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 589,
+    "topic_id": "head_3",
+    "front_ko": "Temporal fossa와 Infratemporal fossa의 경계는?",
+    "front_en": "Temporal vs Infratemporal fossa",
+    "back": "Zygomatic arch를 기준으로 위=Temporal fossa, 아래=Infratemporal fossa",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 590,
+    "topic_id": "neck",
+    "front_ko": "Cervical fascia의 층은?",
+    "front_en": "Cervical fascia layers",
+    "back": "Investing layer, Pretracheal layer, Prevertebral layer, Carotid sheath",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 591,
+    "topic_id": "neck",
+    "front_ko": "Carotid sheath 내 구조물은?",
+    "front_en": "Carotid sheath contents",
+    "back": "Common carotid a., Internal jugular v., Vagus n. (CN X)",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 592,
+    "topic_id": "neck",
+    "front_ko": "SCM의 신경지배는?",
+    "front_en": "SCM innervation",
+    "back": "운동: Spinal accessory n. (CN XI), 감각: C2-C3",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 593,
+    "topic_id": "neck",
+    "front_ko": "Anterior triangle과 Posterior triangle의 경계는?",
+    "front_en": "Neck triangles",
+    "back": "SCM을 기준으로 앞=Anterior triangle, 뒤=Posterior triangle",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 594,
+    "topic_id": "neck",
+    "front_ko": "External carotid a.의 8개 분지는? (SALF OPMS)",
+    "front_en": "ECA branches",
+    "back": "Sup.thyroid, Ascending pharyngeal, Lingual, Facial, Occipital, Post.auricular, Maxillary, Supf.temporal",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 595,
+    "topic_id": "neck",
+    "front_ko": "Carotid sinus와 Carotid body의 차이는?",
+    "front_en": "Carotid sinus vs body",
+    "back": "Sinus: 압력수용체(baroreceptor), Body: 화학수용체(chemoreceptor). 둘 다 CN IX,X 지배",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 596,
+    "topic_id": "neck",
+    "front_ko": "Torticollis의 원인과 증상은?",
+    "front_en": "Torticollis",
+    "back": "SCM 손상/마비 → 손상측 side flexion + 반대측 rotation",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 597,
+    "topic_id": "neck",
+    "front_ko": "Ansa cervicalis가 지배하는 근육은?",
+    "front_en": "Ansa cervicalis",
+    "back": "Infrahyoid muscles (sternohyoid, omohyoid, sternothyroid). C1-C3",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 598,
+    "topic_id": "neck",
+    "front_ko": "Scalene muscles의 임상적 중요성은?",
+    "front_en": "Scalene muscles",
+    "back": "Ant.+Middle scalene 사이로 brachial plexus, subclavian a. 통과. Scalene syndrome 유발 가능",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 599,
+    "topic_id": "neck",
+    "front_ko": "Retropharyngeal space란?",
+    "front_en": "Retropharyngeal space",
+    "back": "Prevertebral layer와 Pretracheal layer 사이 공간. 감염 시 종격동으로 파급 위험",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 600,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "Recurrent laryngeal n.의 기능은?",
+    "front_en": "Recurrent laryngeal nerve",
+    "back": "후두 대부분 근육 운동(cricothyroid 제외) + 성문하부 감각",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 601,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "Superior laryngeal n.의 두 가지는?",
+    "front_en": "Superior laryngeal nerve",
+    "back": "외지(external): cricothyroid m. 운동, 내지(internal): 성문상부 감각",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 602,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "Recurrent laryngeal n. 손상 시 증상은?",
+    "front_en": "RLN injury",
+    "back": "쉰 목소리(hoarseness), 양측 손상 시 호흡곤란(성대 정중위 고정)",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 603,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "중이(Middle ear)의 이소골 3개는?",
+    "front_en": "Auditory ossicles",
+    "back": "Malleus(추골), Incus(침골), Stapes(등골)",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 604,
+    "topic_id": "ear_pharynx_larynx",
+    "front_ko": "Tympanic nerve의 기원과 기능은?",
+    "front_en": "Tympanic nerve",
+    "back": "CN IX 분지. 중이강 감각 + lesser petrosal n.으로 이어져 otic ggl.에 부교감 전달",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 605,
+    "topic_id": "mouth_nose",
+    "front_ko": "혀의 앞 2/3 미각 신경은?",
+    "front_en": "Anterior 2/3 tongue taste",
+    "back": "CN VII (Facial n.) - chorda tympani 경유",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 606,
+    "topic_id": "mouth_nose",
+    "front_ko": "혀의 뒤 1/3 미각 신경은?",
+    "front_en": "Posterior 1/3 tongue taste",
+    "back": "CN IX (Glossopharyngeal n.)",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 607,
+    "topic_id": "mouth_nose",
+    "front_ko": "혀의 앞 2/3 일반감각 신경은?",
+    "front_en": "Anterior 2/3 tongue sensation",
+    "back": "CN V3 (Lingual n.)",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 608,
+    "topic_id": "mouth_nose",
+    "front_ko": "Foramen rotundum을 통과하는 신경은?",
+    "front_en": "Foramen rotundum",
+    "back": "CN V2 (Maxillary n.)",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 609,
+    "topic_id": "mouth_nose",
+    "front_ko": "Foramen ovale를 통과하는 신경은?",
+    "front_en": "Foramen ovale",
+    "back": "CN V3 (Mandibular n.)",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 610,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Internal capsule의 구조는?",
+    "front_en": "Internal capsule",
+    "back": "Anterior limb, Genu, Posterior limb. Corticospinal tract는 post.limb 통과",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 611,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Hypothalamus의 주요 기능은?",
+    "front_en": "Hypothalamus functions",
+    "back": "체온조절, 식욕, 갈증, 자율신경 조절, 호르몬 분비, 수면-각성 주기",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 612,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Thalamus의 주요 핵과 기능은?",
+    "front_en": "Thalamus nuclei",
+    "back": "VPL: 체성감각, VPM: 안면감각, LGB: 시각, MGB: 청각, VA/VL: 운동, DM: 변연계",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 613,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Cerebral peduncle의 위치와 구성은?",
+    "front_en": "Cerebral peduncle",
+    "back": "중뇌에 위치. Crus cerebri(corticospinal/bulbar tract 포함) + Tegmentum",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 614,
+    "topic_id": "cns_gross_1",
+    "front_ko": "Medulla oblongata의 주요 구조물은?",
+    "front_en": "Medulla oblongata",
+    "back": "Pyramid(추체), Olive, Gracile/Cuneate tubercle, CN IX-XII 핵",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 615,
+    "topic_id": "cns_gross_2",
+    "front_ko": "Pons의 주요 구조물은?",
+    "front_en": "Pons structures",
+    "back": "Middle cerebellar peduncle, CN V-VIII 핵, 호흡조절중추",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 616,
+    "topic_id": "cns_gross_2",
+    "front_ko": "Medial lemniscus의 경로는?",
+    "front_en": "Medial lemniscus",
+    "back": "Gracile/Cuneate nucleus → 교차 → 반대측 시상(VPL) → 감각피질",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 617,
+    "topic_id": "cns_gross_3",
+    "front_ko": "척수의 Gray matter 구조는?",
+    "front_en": "Spinal cord gray matter",
+    "back": "Anterior horn(운동), Posterior horn(감각), Lateral horn(T1-L2 교감, S2-4 부교감)",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 618,
+    "topic_id": "cns_gross_3",
+    "front_ko": "Lateral corticospinal tract의 경로는?",
+    "front_en": "Lateral CST pathway",
+    "back": "Motor cortex → Internal capsule → Cerebral peduncle → Pyramid → 교차(decussation) → Lateral CST",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 619,
+    "topic_id": "motor_pathway",
+    "front_ko": "Corticospinal tract의 교차 위치는?",
+    "front_en": "Pyramidal decussation",
+    "back": "연수(medulla)의 추체교차(pyramidal decussation)에서 약 85% 교차",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 620,
+    "topic_id": "motor_pathway",
+    "front_ko": "Corticobulbar tract의 특징은?",
+    "front_en": "Corticobulbar tract",
+    "back": "뇌신경 운동핵으로 가는 경로. 대부분 양측지배(안면 하부는 반대측만)",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 621,
+    "topic_id": "motor_pathway",
+    "front_ko": "UMN lesion의 징후는?",
+    "front_en": "UMN signs",
+    "back": "경직마비(spastic), 반사항진(hyperreflexia), 바빈스키(+), 근위축 없음",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 622,
+    "topic_id": "motor_pathway",
+    "front_ko": "LMN lesion의 징후는?",
+    "front_en": "LMN signs",
+    "back": "이완마비(flaccid), 반사감소(hyporeflexia), 근위축(atrophy), 섬유속연축(fasciculation)",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 623,
+    "topic_id": "motor_pathway",
+    "front_ko": "Basal ganglia의 구성은?",
+    "front_en": "Basal ganglia components",
+    "back": "Caudate nucleus, Putamen, Globus pallidus (+ Subthalamic nucleus, Substantia nigra)",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 624,
+    "topic_id": "motor_pathway",
+    "front_ko": "소뇌(Cerebellum)의 3가지 기능 구역은?",
+    "front_en": "Cerebellar divisions",
+    "back": "Vestibulocerebellum(평형), Spinocerebellum(자세/보행), Cerebrocerebellum(계획/조율)",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 625,
+    "topic_id": "motor_pathway",
+    "front_ko": "Decerebrate rigidity와 관련된 경로는?",
+    "front_en": "Decerebrate rigidity",
+    "back": "Red nucleus 위 절단 → reticulospinal/vestibulospinal tract 우세 → 신전근 과활성",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 626,
+    "topic_id": "motor_pathway",
+    "front_ko": "Parkinson병의 병리는?",
+    "front_en": "Parkinson disease",
+    "back": "Substantia nigra pars compacta의 도파민 신경세포 퇴행 → 기저핵 직접경로 억제",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 627,
+    "topic_id": "sensory_system",
+    "front_ko": "Dorsal column pathway가 전달하는 감각은?",
+    "front_en": "Dorsal column modalities",
+    "back": "정밀촉각, 고유감각(proprioception), 진동감각. 동측→연수에서 교차",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 628,
+    "topic_id": "sensory_system",
+    "front_ko": "Spinothalamic tract가 전달하는 감각은?",
+    "front_en": "Spinothalamic modalities",
+    "back": "통각(pain), 온도감각(temperature), 조촉각. 척수에서 교차",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 629,
+    "topic_id": "sensory_system",
+    "front_ko": "Brown-Sequard syndrome의 증상은?",
+    "front_en": "Brown-Sequard syndrome",
+    "back": "동측: 운동마비+고유감각/진동 소실(후주), 반대측: 통각/온도 소실(척수시상로)",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 630,
+    "topic_id": "sensory_system",
+    "front_ko": "Gracile fasciculus와 Cuneate fasciculus의 차이는?",
+    "front_en": "Gracile vs Cuneate",
+    "back": "Gracile: T6 이하(하지), Cuneate: T6 이상(상지). 둘 다 후주경로",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 631,
+    "topic_id": "sensory_system",
+    "front_ko": "VPL nucleus와 VPM nucleus의 차이는?",
+    "front_en": "VPL vs VPM",
+    "back": "VPL: 체성감각(몸통/사지), VPM: 안면감각(삼차신경). 둘 다 시상에 위치",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 632,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Bitemporal hemianopsia의 병변 위치는?",
+    "front_en": "Bitemporal hemianopsia",
+    "back": "Optic chiasm 병변 (예: 뇌하수체 종양)",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 633,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "동공반사(Pupillary light reflex)의 경로는?",
+    "front_en": "Pupillary light reflex",
+    "back": "망막 → CN II → pretectal nucleus → 양측 Edinger-Westphal nucleus → CN III → ciliary ggl. → 동공축소",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 634,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "직접동공반사와 간접(맞)동공반사의 차이는?",
+    "front_en": "Direct vs Consensual reflex",
+    "back": "직접: 빛 비춘 눈의 축동. 간접: 반대쪽 눈의 축동. CN II 손상→양쪽 반사 없음, CN III 손상→동측만 없음",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 635,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "MLF (Medial Longitudinal Fasciculus)의 기능은?",
+    "front_en": "MLF function",
+    "back": "안구의 수평 공동운동(conjugate gaze) 조절. CN III, IV, VI 핵 연결. 손상→INO",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 636,
+    "topic_id": "special_sensory_eyeball",
+    "front_ko": "Homonymous hemianopsia의 병변 위치는?",
+    "front_en": "Homonymous hemianopsia",
+    "back": "Optic tract, LGB, Optic radiation, 또는 시각피질의 편측 병변",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 637,
+    "topic_id": "autonomic_ns",
+    "front_ko": "교감신경의 기원은?",
+    "front_en": "Sympathetic origin",
+    "back": "T1-L2 (thoracolumbar). 짧은 절전신경 + 긴 절후신경",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 638,
+    "topic_id": "autonomic_ns",
+    "front_ko": "부교감신경의 기원은?",
+    "front_en": "Parasympathetic origin",
+    "back": "CN III, VII, IX, X + S2-S4 (craniosacral). 긴 절전신경 + 짧은 절후신경",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 639,
+    "topic_id": "autonomic_ns",
+    "front_ko": "Horner syndrome의 3대 징후는?",
+    "front_en": "Horner syndrome",
+    "back": "동공축소(miosis), 안검하수(ptosis), 무한증(anhidrosis) - 교감신경 손상",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 640,
+    "topic_id": "autonomic_ns",
+    "front_ko": "Ciliary ganglion의 부교감 경로는?",
+    "front_en": "Ciliary ganglion pathway",
+    "back": "CN III → Edinger-Westphal nucleus → ciliary ggl. → 동공괄약근(축동) + 모양체근(조절)",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 641,
+    "topic_id": "autonomic_ns",
+    "front_ko": "Superior cervical ganglion의 기능은?",
+    "front_en": "Superior cervical ganglion",
+    "back": "머리/얼굴의 교감신경 공급 (모든 뇌신경의 교감성분은 여기서 출발)",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 642,
+    "topic_id": "memory_system",
+    "front_ko": "Papez circuit의 구성은?",
+    "front_en": "Papez circuit",
+    "back": "Hippocampus → Fornix → Mammillary body → Mammillothalamic tract → Anterior thalamic nucleus → Cingulate gyrus → Hippocampus",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 643,
+    "topic_id": "memory_system",
+    "front_ko": "해마(Hippocampus)의 주요 기능은?",
+    "front_en": "Hippocampus function",
+    "back": "단기기억→장기기억 전환(memory consolidation). 양측 손상 → 선행성 기억상실증",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 644,
+    "topic_id": "memory_system",
+    "front_ko": "작화증(Confabulation)과 관련된 구조는?",
+    "front_en": "Confabulation",
+    "back": "Mammillary body 손상 (Korsakoff syndrome). 기억 공백을 거짓 기억으로 채움",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 645,
+    "topic_id": "memory_system",
+    "front_ko": "Amygdala의 기능은?",
+    "front_en": "Amygdala function",
+    "back": "감정(공포, 분노) 처리, 감정 기억 형성, 자율신경 반응 조절",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 646,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Broca area의 위치와 기능은?",
+    "front_en": "Broca area",
+    "back": "Brodmann 44,45 (전두엽). 운동성 실어증 - 말 이해 가능, 유창한 발화 불가",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 647,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Wernicke area의 위치와 기능은?",
+    "front_en": "Wernicke area",
+    "back": "Brodmann 22 (측두엽). 감각성 실어증 - 유창하게 말하나 의미 없음, 이해 불가",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 648,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Brodmann area 4의 기능은?",
+    "front_en": "Brodmann area 4",
+    "back": "일차운동피질(Primary motor cortex). Precentral gyrus에 위치",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 649,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Brodmann area 3,1,2의 기능은?",
+    "front_en": "Brodmann area 3,1,2",
+    "back": "일차체성감각피질(Primary somatosensory cortex). Postcentral gyrus에 위치",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 650,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Brodmann area 17의 기능은?",
+    "front_en": "Brodmann area 17",
+    "back": "일차시각피질(Primary visual cortex). Calcarine sulcus 주변",
+    "difficulty": 1,
+    "source": "yama"
+  },
+  {
+    "id": 651,
+    "topic_id": "higher_cns_functions",
+    "front_ko": "Visual agnosia란?",
+    "front_en": "Visual agnosia",
+    "back": "시각 자체는 정상이나 보이는 것을 인식 못함. 양측 시각 연합영역(18,19) 손상",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 652,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "Circle of Willis의 구성은?",
+    "front_en": "Circle of Willis",
+    "back": "ACA, ACoA, ICA, PCoA, PCA, Basilar a.로 구성된 뇌저부 동맥환",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 653,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "MCA가 공급하는 주요 영역은?",
+    "front_en": "MCA territory",
+    "back": "대뇌 외측면: 운동/감각피질(상지/얼굴), Broca area, Wernicke area",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 654,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "ACA가 공급하는 주요 영역은?",
+    "front_en": "ACA territory",
+    "back": "대뇌 내측면: 운동/감각피질(하지)",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 655,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "PICA 손상 시 발생하는 증후군은?",
+    "front_en": "PICA syndrome",
+    "back": "Lateral medullary syndrome (Wallenberg): 동측 안면감각소실, 반대측 체성감각소실, 연하장애, Horner 등",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 656,
+    "topic_id": "blood_supply_brain",
+    "front_ko": "Vertebral a.와 Basilar a.의 관계는?",
+    "front_en": "Vertebral-Basilar system",
+    "back": "양측 Vertebral a.가 합쳐져 Basilar a. 형성. PICA(vertebral)→AICA→SCA→PCA(basilar)",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 657,
+    "topic_id": "dev_head_neck",
+    "front_ko": "3rd pharyngeal pouch에서 유래하는 구조는?",
+    "front_en": "3rd pharyngeal pouch",
+    "back": "Inferior parathyroid gland, Thymus",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 658,
+    "topic_id": "dev_head_neck",
+    "front_ko": "4th pharyngeal pouch에서 유래하는 구조는?",
+    "front_en": "4th pharyngeal pouch",
+    "back": "Superior parathyroid gland, Ultimobranchial body(C cells)",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 659,
+    "topic_id": "dev_head_neck",
+    "front_ko": "DiGeorge syndrome의 원인과 증상은?",
+    "front_en": "DiGeorge syndrome",
+    "back": "22q11.2 deletion. 3rd/4th pouch 이상 → 흉선/부갑상선 무형성 → 면역결핍+저칼슘혈증",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 660,
+    "topic_id": "dev_head_neck",
+    "front_ko": "Thyroglossal duct cyst란?",
+    "front_en": "Thyroglossal cyst",
+    "back": "갑상선이 foramen cecum에서 하강 시 thyroglossal duct 잔존 → 정중선 낭종",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 661,
+    "topic_id": "dev_nervous_system",
+    "front_ko": "Neural tube의 발생 과정은?",
+    "front_en": "Neural tube development",
+    "back": "Neural plate → Neural fold → Neural tube (neurulation). 결함 시 spina bifida, anencephaly",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 662,
+    "topic_id": "dev_nervous_system",
+    "front_ko": "Neural crest cell의 유래 구조는?",
+    "front_en": "Neural crest derivatives",
+    "back": "DRG, 자율신경절, Schwann cell, melanocyte, 부신수질, 두개안면 뼈/연골 일부",
+    "difficulty": 3,
+    "source": "yama"
+  },
+  {
+    "id": 663,
+    "topic_id": "dev_nervous_system",
+    "front_ko": "Optic vesicle의 발생 기원은?",
+    "front_en": "Optic vesicle origin",
+    "back": "Forebrain (prosencephalon)에서 함입되어 형성. Lens placode는 표면 외배엽에서 유래",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "id": 664,
+    "topic_id": "dev_nervous_system",
+    "front_ko": "Alar plate와 Basal plate의 차이는?",
+    "front_en": "Alar vs Basal plate",
+    "back": "Alar plate: 감각신경 → 후각(posterior horn). Basal plate: 운동신경 → 전각(anterior horn)",
+    "difficulty": 2,
+    "source": "yama"
+  },
+  {
+    "front_ko": "혀의 운동신경 지배는? (palatoglossus 제외)",
+    "front_en": "Motor innervation of tongue (except palatoglossus)",
+    "back": "CN XII (Hypoglossal n.) - 모든 외래근(extrinsic) 및 내재근(intrinsic) 지배 (palatoglossus 제외)",
+    "difficulty": 1,
+    "id": 665,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Palatoglossus m.의 신경지배는?",
+    "front_en": "Innervation of palatoglossus m.",
+    "back": "CN X (Vagus n.) - pharyngeal plexus를 통해 지배",
+    "difficulty": 2,
+    "id": 666,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "혀 후방 1/3의 일반감각(general sensation)을 담당하는 신경은?",
+    "front_en": "General sensation of posterior 1/3 tongue",
+    "back": "CN IX (Glossopharyngeal n.) - lingual branch",
+    "difficulty": 1,
+    "id": 667,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Internal laryngeal n.이 혀에서 담당하는 역할은?",
+    "front_en": "Role of internal laryngeal n. in tongue",
+    "back": "혀의 후방 소영역 및 후두개(epiglottis) 부근의 일반감각 + 미각 담당 (CN X의 branch)",
+    "difficulty": 3,
+    "id": 668,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "혀의 부교감 secretomotor fiber는 어떤 뇌신경에서 유래하는가?",
+    "front_en": "Parasympathetic secretomotor fibers of tongue",
+    "back": "CN VII (Facial n.) & CN IX (Glossopharyngeal n.) - 혀의 작은 serous gland에 분포",
+    "difficulty": 2,
+    "id": 669,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "혀의 4개 외래근(extrinsic muscle)을 모두 나열하시오",
+    "front_en": "4 extrinsic muscles of tongue",
+    "back": "Genioglossus, Hyoglossus, Styloglossus, Palatoglossus",
+    "difficulty": 1,
+    "id": 670,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "혀의 4개 내재근(intrinsic muscle)을 모두 나열하시오",
+    "front_en": "4 intrinsic muscles of tongue",
+    "back": "Superior longitudinal, Inferior longitudinal, Transverse, Vertical",
+    "difficulty": 1,
+    "id": 671,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Genioglossus m.의 주요 작용은?",
+    "front_en": "Actions of genioglossus m.",
+    "back": "뒤쪽 섬유: 혀를 내밈(protrusion), 앞쪽 섬유: 혀를 들임, 전체: 혀를 내림. 기시: mandible의 mental spine",
+    "difficulty": 2,
+    "id": 672,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Hyoglossus m.의 기시와 작용은?",
+    "front_en": "Hyoglossus m. origin and action",
+    "back": "기시: body & greater horn of hyoid bone. 작용: 혀 모서리를 아래로 당기고, genioglossus와 함께 혀를 내림",
+    "difficulty": 2,
+    "id": 673,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Styloglossus m.의 작용은?",
+    "front_en": "Action of styloglossus m.",
+    "back": "혀를 들임(genioglossus와 함께), 혀를 올림(palatoglossus와 함께). 기시: styloid process",
+    "difficulty": 2,
+    "id": 674,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Terminal sulcus의 앞에 위치하는 가장 큰 유두는?",
+    "front_en": "Largest papillae anterior to terminal sulcus",
+    "back": "Vallate papillae (성곽유두/유곽유두) - taste buds를 가짐, V자 형태로 배열",
+    "difficulty": 1,
+    "id": 675,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "혀 유두 중 가장 많고 긴 것은? 그리고 그 기능은?",
+    "front_en": "Most common and longest lingual papillae",
+    "back": "Filiform papillae (실유두/사상유두) - 가장 많고, afferent nerve ending (촉각), terminal sulcus에 평행하게 배열. 미각 없음",
+    "difficulty": 2,
+    "id": 676,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Fungiform papillae의 특징은?",
+    "front_en": "Characteristics of fungiform papillae",
+    "back": "버섯모양, 분홍/빨간색 점, 혀끝(apex)에 가장 많음",
+    "difficulty": 2,
+    "id": 677,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Foramen cecum은 무엇의 잔존물인가?",
+    "front_en": "Foramen cecum is a remnant of what?",
+    "back": "Thyroglossal duct의 배아 잔존물 (갑상샘이 혀에서 하강한 경로의 흔적)",
+    "difficulty": 2,
+    "id": 678,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "혀의 발생에서 body(ant. 2/3)는 어떤 pharyngeal arch에서 유래하는가?",
+    "front_en": "Embryonic origin of tongue body (ant. 2/3)",
+    "back": "1st pharyngeal arch - two lateral lingual swelling + median lingual swelling (tuberculum impar). 그래서 일반감각이 CN V3",
+    "difficulty": 2,
+    "id": 679,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "혀의 root(post. 1/3)는 어떤 pharyngeal arch에서 유래하는가?",
+    "front_en": "Embryonic origin of tongue root (post. 1/3)",
+    "back": "2nd/3rd pharyngeal arch의 copula에서 유래. 3rd arch가 2nd arch를 덮어 자라므로 감각이 CN IX",
+    "difficulty": 2,
+    "id": 680,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "혀 근육은 발생학적으로 어디에서 유래하는가?",
+    "front_en": "Embryonic origin of tongue muscles",
+    "back": "Occipital somite의 myoblast가 이동하여 형성. 따라서 CN XII 지배",
+    "difficulty": 3,
+    "id": 681,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Parotid gland의 분비물을 유도하는 부교감신경 경로는?",
+    "front_en": "Parasympathetic pathway to parotid gland",
+    "back": "CN IX: inferior salivatory nucleus -> tympanic n. -> lesser petrosal n. -> otic ganglion -> auriculotemporal n. -> parotid gland",
+    "difficulty": 2,
+    "id": 682,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Submandibular & sublingual gland의 부교감신경 경로는?",
+    "front_en": "Parasympathetic pathway to submandibular/sublingual glands",
+    "back": "CN VII: superior salivatory nucleus -> chorda tympani n. -> lingual n.과 합류 -> submandibular ganglion -> submandibular & sublingual glands",
+    "difficulty": 2,
+    "id": 683,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Parotid gland를 관통하는 주요 구조물 3가지는?",
+    "front_en": "3 major structures passing through parotid gland",
+    "back": "1) Facial n. (CN VII), 2) Retromandibular v., 3) External carotid a. (가장 깊은 곳에서 얕은 곳 순: artery -> vein -> nerve)",
+    "difficulty": 2,
+    "id": 684,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Sublingual caruncle은 무엇이 열리는 곳인가?",
+    "front_en": "What opens at the sublingual caruncle?",
+    "back": "Submandibular duct (Wharton's duct)의 개구부 - 혀의 하면(inferior surface)에 위치",
+    "difficulty": 2,
+    "id": 685,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Hard palate의 뼈 구성은?",
+    "front_en": "Bones forming hard palate",
+    "back": "전방 2/3: maxillae의 palatine processes, 후방 1/3: palatine bones의 horizontal plates",
+    "difficulty": 1,
+    "id": 686,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Soft palate 근육 중 유일하게 CN V3가 지배하는 것은?",
+    "front_en": "Which soft palate muscle is innervated by CN V3?",
+    "back": "Tensor veli palatini m. - CN V3 (mandibular n.)의 medial pterygoid n.을 통해, otic ganglion 경유",
+    "difficulty": 1,
+    "id": 687,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Soft palate 근육의 신경지배 원칙은?",
+    "front_en": "Innervation rule for soft palate muscles",
+    "back": "Tensor veli palatini만 CN V3, 나머지 모두(levator veli palatini, palatoglossus, palatopharyngeus, musculus uvulae) CN X (pharyngeal plexus)",
+    "difficulty": 1,
+    "id": 688,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Greater palatine foramen을 통과하는 구조물은?",
+    "front_en": "Structures through greater palatine foramen",
+    "back": "Greater palatine vessels & nerve -> hard palate를 따라 전방으로 주행",
+    "difficulty": 2,
+    "id": 689,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Lesser palatine foramen을 통과하는 구조물과 그 분포 영역은?",
+    "front_en": "Structures through lesser palatine foramina",
+    "back": "Lesser palatine a. & n. -> soft palate와 그 관련 구조에 분포",
+    "difficulty": 2,
+    "id": 690,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "구개(palate)의 감각신경은 어디에서 오는가?",
+    "front_en": "Sensory innervation of palate",
+    "back": "CN V2 (maxillary n.)의 branches via pterygopalatine ganglion: greater palatine n. (hard palate), nasopalatine n. (전방 hard palate), lesser palatine n. (soft palate)",
+    "difficulty": 2,
+    "id": 691,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Levator veli palatini m.의 작용은?",
+    "front_en": "Action of levator veli palatini m.",
+    "back": "연인두를 올려 삼킴과 하품 시 비강으로 음식이 넘어가는 것을 방지",
+    "difficulty": 2,
+    "id": 692,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Palatoglossus m.의 작용은?",
+    "front_en": "Action of palatoglossus m.",
+    "back": "혀의 후방을 올리고, soft palate를 혀 위로 당김 (palatoglossal arch를 형성)",
+    "difficulty": 2,
+    "id": 693,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "유치(deciduous teeth)의 총 개수와 구성은? (1/4 region)",
+    "front_en": "Deciduous teeth count and formula",
+    "back": "총 20개. 1/4 region: I2, C1, M2 (앞니2, 송곳니1, 어금니2 = 5개)",
+    "difficulty": 1,
+    "id": 694,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "영구치(permanent teeth)의 총 개수와 구성은? (1/4 region)",
+    "front_en": "Permanent teeth count and formula",
+    "back": "총 32개. 1/4 region: I2, C1, PM2, M3 (앞니2, 송곳니1, 작은어금니2, 큰어금니3 = 8개)",
+    "difficulty": 1,
+    "id": 695,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "윗니(maxillary teeth)의 혈관 공급과 신경 지배는?",
+    "front_en": "Vascular supply and innervation of maxillary teeth",
+    "back": "혈관: superior alveolar a. (maxillary a.의 branch). 신경: superior alveolar n. (CN V2) -> dental plexus",
+    "difficulty": 2,
+    "id": 696,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "아랫니(mandibular teeth)의 혈관 공급과 신경 지배는?",
+    "front_en": "Vascular supply and innervation of mandibular teeth",
+    "back": "혈관: inferior alveolar a. (maxillary a.의 branch). 신경: inferior alveolar n. (CN V3) -> dental plexus",
+    "difficulty": 2,
+    "id": 697,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "치아 발생의 3단계는?",
+    "front_en": "3 stages of tooth development",
+    "back": "1) Dental bud stage (발생 6주), 2) Cap stage (dental papilla 형성), 3) Bell stage (odontoblast->dentin, ameloblast->enamel 형성)",
+    "difficulty": 2,
+    "id": 698,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Odontoblast와 ameloblast는 각각 무엇을 형성하는가?",
+    "front_en": "What do odontoblasts and ameloblasts form?",
+    "back": "Odontoblast -> dentin (상아질), Ameloblast -> enamel (법랑질). 둘 다 bell stage에서 inner dental epithelium으로부터 분화",
+    "difficulty": 2,
+    "id": 699,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Nasal septum을 구성하는 3가지 구조물은?",
+    "front_en": "3 structures forming nasal septum",
+    "back": "1) Perpendicular plate of ethmoid bone, 2) Vomer, 3) Septal cartilage",
+    "difficulty": 1,
+    "id": 700,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Nasal cavity의 lateral wall에 있는 conchae는 몇 개이며, 각각의 meatus에 열리는 구조물은?",
+    "front_en": "Nasal conchae and their meatus openings",
+    "back": "3개 (sup./middle/inf.). Sup. meatus: post. ethmoidal sinus. Middle meatus: frontal sinus (via ethmoidal infundibulum), middle ethmoidal sinus (ethmoidal bulla), maxillary sinus (semilunar hiatus). Inf. meatus: nasolacrimal duct",
+    "difficulty": 2,
+    "id": 701,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Sphenoethmoidal recess에 열리는 부비동은?",
+    "front_en": "Sinus opening into sphenoethmoidal recess",
+    "back": "Sphenoidal sinus",
+    "difficulty": 2,
+    "id": 702,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Maxillary sinus가 열리는 위치는?",
+    "front_en": "Opening of maxillary sinus",
+    "back": "Middle nasal meatus의 semilunar hiatus -> maxillary ostium을 통해 열림",
+    "difficulty": 1,
+    "id": 703,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Frontal sinus의 배출 경로는?",
+    "front_en": "Drainage pathway of frontal sinus",
+    "back": "Frontal sinus -> frontonasal duct -> ethmoidal infundibulum -> semilunar hiatus (middle meatus)",
+    "difficulty": 2,
+    "id": 704,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Nasolacrimal duct는 어디서 시작하여 어디로 열리는가?",
+    "front_en": "Course of nasolacrimal duct",
+    "back": "Lacrimal sac에서 시작 -> inferior nasal meatus로 열림",
+    "difficulty": 1,
+    "id": 705,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Kiesselbach area (Little's area)란 무엇이며 어디에 위치하는가?",
+    "front_en": "What and where is Kiesselbach area?",
+    "back": "Nasal septum의 전방부, 5개 동맥의 문합(anastomosis) 부위. 코피(epistaxis)가 가장 흔하게 발생하는 곳",
+    "difficulty": 1,
+    "id": 706,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Kiesselbach area에 문합하는 5개의 동맥을 모두 나열하시오",
+    "front_en": "5 arteries anastomosing at Kiesselbach area",
+    "back": "1) Ant. ethmoidal a. (from ophthalmic a.), 2) Post. ethmoidal a. (from ophthalmic a.), 3) Sphenopalatine a. (from maxillary a.), 4) Greater palatine a. (from maxillary a.), 5) Septal br. of sup. labial a. (from facial a.)",
+    "difficulty": 2,
+    "id": 707,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "코(nose)의 후하방 점막의 감각신경은?",
+    "front_en": "Sensory innervation of posteroinferior nasal mucosa",
+    "back": "CN V2 (Maxillary n.) -> nasopalatine n. (nasal septum), post. sup. nasal br. & inf. lat. nasal br. of greater palatine n.",
+    "difficulty": 2,
+    "id": 708,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "코(nose)의 전상방 점막의 감각신경은?",
+    "front_en": "Sensory innervation of anterosuperior nasal mucosa",
+    "back": "CN V1 (Ophthalmic n.) -> ant. & post. ethmoidal n. (nasociliary n.의 branches)",
+    "difficulty": 2,
+    "id": 709,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "후각상피(olfactory epithelium)의 위치는?",
+    "front_en": "Location of olfactory epithelium",
+    "back": "Nasal cavity의 superior part - lateral wall & septal wall의 상부. Cribriform plate를 통해 olfactory bulb로 전달 (CN I)",
+    "difficulty": 2,
+    "id": 710,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "4개의 부비동(paranasal sinuses)과 각각의 신경지배를 나열하시오",
+    "front_en": "4 paranasal sinuses and their innervation",
+    "back": "1) Frontal: supraorbital n. (CN V1), 2) Ethmoidal: nasociliary n. (CN V1), 3) Sphenoidal: post. ethmoidal n. (CN V1), 4) Maxillary: ant./middle/post. sup. alveolar nn. (CN V2)",
+    "difficulty": 2,
+    "id": 711,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "가장 흔히 감염되는 부비동은? 그 이유는?",
+    "front_en": "Most commonly infected paranasal sinus and why",
+    "back": "Maxillary sinus - opening이 작고 너무 높은 곳에 위치하여 배출이 잘 안 됨",
+    "difficulty": 1,
+    "id": 712,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Ethmoidal sinus의 3부분과 각각 열리는 곳은?",
+    "front_en": "3 parts of ethmoidal sinus and their openings",
+    "back": "Ant. ethmoidal cells -> middle meatus (ethmoidal infundibulum), Middle ethmoidal cells -> middle meatus (ethmoidal bulla), Post. ethmoidal cells -> superior meatus",
+    "difficulty": 3,
+    "id": 713,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Cleft lip의 발생 원인은?",
+    "front_en": "Cause of cleft lip",
+    "back": "Maxillary prominence와 medial nasal prominence의 융합 실패. 발생빈도 1/1,000, 남성 80%",
+    "difficulty": 2,
+    "id": 714,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Cleft palate와 cleft lip의 해부학적 기준점은?",
+    "front_en": "Anatomical landmark dividing cleft lip and cleft palate",
+    "back": "Incisive foramen - 전방: cleft lip (primary palate 결함), 후방: cleft palate (secondary palate 결함)",
+    "difficulty": 2,
+    "id": 715,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Primary palate와 secondary palate는 각각 어떻게 형성되는가?",
+    "front_en": "Formation of primary vs secondary palate",
+    "back": "Primary: medial nasal prominence 안쪽 융합(intermaxillary segment의 palatal component). Secondary: 발생 6주경 maxillary prominence에서 palatine shelf가 안쪽으로 자라 형성",
+    "difficulty": 3,
+    "id": 716,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Intermaxillary segment의 3가지 구성요소는?",
+    "front_en": "3 components of intermaxillary segment",
+    "back": "1) Labial component (인중/philtrum 포함), 2) Upper jaw component (4개 앞니 포함), 3) Palatal component (primary palate 형성)",
+    "difficulty": 3,
+    "id": 717,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "인두(pharynx)의 3개 부분을 나열하시오",
+    "front_en": "3 parts of pharynx",
+    "back": "1) Nasopharynx (호흡기능), 2) Oropharynx (소화기능), 3) Laryngopharynx (C4-C6 level)",
+    "difficulty": 1,
+    "id": 718,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "인두 수축근(pharyngeal constrictor)의 신경지배 원칙은?",
+    "front_en": "Innervation of pharyngeal constrictors",
+    "back": "모두 CN X (vagus n.) - pharyngeal plexus를 통해 지배. Inf. pharyngeal constrictor는 추가로 external & recurrent laryngeal nn.의 branches도 받음",
+    "difficulty": 2,
+    "id": 719,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Stylopharyngeus m.의 신경지배는? (예외 중요!)",
+    "front_en": "Innervation of stylopharyngeus m.",
+    "back": "CN IX (Glossopharyngeal n.) - 인두/구개 근육 중 유일하게 CN IX가 지배하는 근육",
+    "difficulty": 1,
+    "id": 720,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Waldeyer's tonsillar ring을 구성하는 편도들은?",
+    "front_en": "Components of Waldeyer's tonsillar ring",
+    "back": "Pharyngeal tonsil (인두편도/adenoid), Tubal tonsil (이관편도), Palatine tonsil (구개편도), Lingual tonsil (혀편도)",
+    "difficulty": 2,
+    "id": 721,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Palatine tonsil에 혈액을 공급하는 주요 동맥은?",
+    "front_en": "Main artery supplying palatine tonsil",
+    "back": "Tonsillar a. (facial a.의 branch) -> sup. pharyngeal constrictor를 관통하여 inf. pole에 도달. 추가: ascending palatine, lingual, descending palatine, ascending pharyngeal a.도 공급",
+    "difficulty": 3,
+    "id": 722,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Gag reflex에 관여하는 뇌신경은?",
+    "front_en": "Cranial nerves involved in gag reflex",
+    "back": "CN IX (afferent/감각) & CN X (efferent/운동) -> 인두 근육 수축을 유발",
+    "difficulty": 1,
+    "id": 723,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Epistaxis(코피)가 가장 흔히 발생하는 부위는?",
+    "front_en": "Most common site of epistaxis",
+    "back": "코 점막의 전방 1/3 (Kiesselbach area/Little's area) - nasal septum의 전방부",
+    "difficulty": 1,
+    "id": 724,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Sublingual absorption of drug의 원리와 예시는?",
+    "front_en": "Sublingual drug absorption principle",
+    "back": "혀 아래 점막을 통한 빠른 약물 흡수 (1분 이내). 예: 협심증(angina pectoris)에서 nitroglycerin 투여",
+    "difficulty": 2,
+    "id": 725,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Parotid gland 감염(parotiditis)이 심한 통증을 유발하는 이유는?",
+    "front_en": "Why is parotid infection painful?",
+    "back": "Parotid sheath (deep cervical fascia 연속)가 gland를 단단히 감싸고 있어 부종 시 압력이 증가하여 심한 통증 발생",
+    "difficulty": 2,
+    "id": 726,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Sinusitis에서 maxillary sinus가 가장 흔히 감염되는 이유는?",
+    "front_en": "Why is maxillary sinusitis most common?",
+    "back": "Opening이 작고 높은 위치에 있어 자연 배출이 어려움. 옆으로 누운 자세도 알레르기/감기 환자에게 좋지 않음",
+    "difficulty": 2,
+    "id": 727,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Lingual n.은 어떤 뇌신경의 branch인가?",
+    "front_en": "Lingual n. is a branch of which CN?",
+    "back": "CN V3 (Mandibular n.)의 posterior trunk에서 분지. Chorda tympani n. (CN VII)과 합류하여 혀에 분포",
+    "difficulty": 1,
+    "id": 728,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Chorda tympani n.이 lingual n.과 합류한 후 전달하는 2가지 정보는?",
+    "front_en": "Two types of information carried by chorda tympani via lingual n.",
+    "back": "1) 혀 전방 2/3의 미각(taste), 2) Submandibular ganglion으로 가는 부교감 신경절이전섬유(preganglionic parasympathetic fiber)",
+    "difficulty": 2,
+    "id": 729,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Nasal cavity의 floor를 구성하는 뼈는?",
+    "front_en": "Bones forming the floor of nasal cavity",
+    "back": "Maxillae의 palatine processes + palatine bone의 horizontal plates (= hard palate)",
+    "difficulty": 2,
+    "id": 730,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  },
+  {
+    "front_ko": "Nasal cavity의 roof를 구성하는 3부분은?",
+    "front_en": "3 parts of nasal cavity roof",
+    "back": "Frontonasal, Ethmoidal (cribriform plate), Sphenoidal (body of sphenoid) 부분",
+    "difficulty": 3,
+    "id": 731,
+    "topic_id": "mouth_nose",
+    "source": "lecture_补充"
+  }
+]
