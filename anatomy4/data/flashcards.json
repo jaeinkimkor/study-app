@@ -184,7 +184,7 @@
     "topic_id": "head_3",
     "front_ko": "CN II의 한국어 명칭과 정의는?",
     "front_en": "CN II",
-    "back": "시신경 (Optic nerve). 순수 감각신경(SSA)으로, 망막 신경절세포 축삭이 모여 형성. Optic canal을 통과하며, 시교차(optic chiasm)에서 비측 섬유가 교차.",
+    "back": "CN II 시각경로와 임상: 시신경 손상 -> 동측 단안맹(monocular blindness). 시교차 정중부 압박(뇌하수체종양) -> 양이측반맹(bitemporal hemianopia). 시삭 손상 -> 반대측 동측반맹. Marcus Gunn pupil(RAPD): 일측 시신경 병변의 진단적 징후.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -220,7 +220,7 @@
     "topic_id": "head_3",
     "front_ko": "CN IX의 한국어 명칭과 정의는?",
     "front_en": "CN IX",
-    "back": "혀인두신경 (Glossopharyngeal nerve). 혀 후방1/3 미각·감각, 인두감각, 이하선 타액분비(부교감), 경동맥소체/동 감각을 담당하는 혼합신경. Jugular foramen 통과.",
+    "back": "CN IX 경로 (Glossopharyngeal pathway): 연수(medulla) -> jugular foramen -> tympanic n.(중이 고실신경총) -> lesser petrosal n. -> otic ganglion -> 이하선(parotid gland). 설인두신경은 pharyngeal branch를 통해 인두 감각도 담당.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -229,7 +229,7 @@
     "topic_id": "head_3",
     "front_ko": "CN V의 한국어 명칭과 정의는?",
     "front_en": "CN V",
-    "back": "삼차신경 (Trigeminal nerve). 얼굴의 감각(V1 ophthalmic, V2 maxillary, V3 mandibular)과 저작근 운동을 담당하는 혼합신경. 가장 큰 뇌신경.",
+    "back": "CN V 분지별 통과 구조: V1(ophthalmic) -> superior orbital fissure, V2(maxillary) -> foramen rotundum, V3(mandibular) -> foramen ovale. 감각신경절=trigeminal(semilunar/Gasserian) ganglion, Meckel's cave에 위치.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -247,7 +247,7 @@
     "topic_id": "head_3",
     "front_ko": "CN VII의 한국어 명칭과 정의는?",
     "front_en": "CN VII",
-    "back": "얼굴신경 (Facial nerve). 표정근 운동, 혀 전방 2/3 미각(SVA), 악하선·설하선 타액분비, 눈물분비(부교감)를 담당하는 혼합신경. Internal acoustic meatus → stylomastoid foramen 통과.",
+    "back": "CN VII 경로 상세: Motor nucleus(pons) -> internal acoustic meatus -> facial canal(geniculate ganglion에서 굴곡) -> 분지: Greater petrosal n.(눈물+비강), Nerve to stapedius, Chorda tympani(미각+타액) -> stylomastoid foramen -> 이하선 관통 -> 5개 말단분지(T-Z-B-M-C).",
     "difficulty": 2,
     "source": "yama"
   },
@@ -382,7 +382,7 @@
     "topic_id": "head_3",
     "front_ko": "Optic canal의 한국어 명칭과 정의는?",
     "front_en": "Optic canal",
-    "back": "시신경관. 나비뼈(sphenoid bone)의 작은날개에 위치한 통로로, 시신경(CN II)과 안동맥(ophthalmic artery)이 통과. 안와와 중두개와를 연결.",
+    "back": "시신경관 임상적 의의: 전두골 골절 시 시신경관 파급 -> 외상성 시신경 손상(traumatic optic neuropathy). 안동맥(ophthalmic a.)이 함께 통과하므로 동맥류/압박 시 시력장애+안구 허혈. 접형골 날개수막종(sphenoid wing meningioma)이 시신경관을 침범 가능.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -553,7 +553,7 @@
     "topic_id": "head_3",
     "front_ko": "Arachnoid (거미막의 정의/기능은?",
     "front_en": "",
-    "back": "거미막 (Arachnoid mater). 뇌수막 중간층. 무혈관성 반투명 막으로 경막 안쪽에 밀착. 거미막과립(arachnoid granulation)을 통해 CSF가 정맥동으로 흡수됨.",
+    "back": "거미막 임상: 지주막하출혈(SAH) - 동맥류 파열로 거미막하공간에 출혈 -> 갑작스러운 극심한 두통(thunderclap headache). 거미막과립 기능부전 -> 교통성 수두증(communicating hydrocephalus). 거미막낭종(arachnoid cyst)은 발생학적 거미막 분리로 형성.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -571,7 +571,7 @@
     "topic_id": "head_3",
     "front_ko": "Dura mater (경질막의 정의/기능은?",
     "front_en": "",
-    "back": "경질막/경막 (Dura mater). 뇌수막 최외층으로 두 층(골막층+수막층)으로 구성. 정맥동(venous sinus)이 두 층 사이에 위치. 삼차신경(V)이 경막의 감각을 전달.",
+    "back": "경질막 임상: 경막외혈종(EDH) - 중경막동맥(MMA) 파열, 볼록렌즈형, lucid interval 후 급격 악화. 경막하혈종(SDH) - 교정맥(bridging vein) 파열, 초승달형. 경막의 통증 감각은 CN V1(전두개와), V2/V3(중두개와), C2-3/CN X(후두개와) 담당.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -580,7 +580,7 @@
     "topic_id": "head_3",
     "front_ko": "Pia mater (연질막의 정의/기능은?",
     "front_en": "",
-    "back": "연질막 (Pia mater). 뇌수막 최내층으로, 뇌와 척수 표면에 직접 붙어있는 섬세한 혈관성 막. 거미막밑공간을 지주막과 함께 형성하며 CSF와 접촉.",
+    "back": "연질막의 구조적 역할: 뇌 표면의 혈관(cortical arteries/veins)이 연질막 위를 지나감. 뇌 틈새(sulcus)까지 따라 들어감. Virchow-Robin space: 혈관이 연질막을 관통하며 형성되는 혈관주변공간, CSF가 순환하며 뇌 노폐물 제거(glymphatic system)에 관여.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -598,7 +598,7 @@
     "topic_id": "neck",
     "front_ko": "Arteries in cervical region (다한번씩은봤던내용이네요의 정의/기능은?",
     "front_en": "",
-    "back": "경부 동맥 (Cervical arteries). 총경동맥(CCA)→내경동맥(ICA)+외경동맥(ECA), 쇄골하동맥(subclavian a.)→척추동맥(vertebral a.). 경동맥분기부(carotid bifurcation)는 C4 높이.",
+    "back": "경부 동맥 분지 상세: ECA 8분지=SALF OPMS(Sup. thyroid, Ascending pharyngeal, Lingual, Facial, Occipital, Post. auricular, Maxillary, Superficial temporal). ICA는 경부에서 분지 없이 두개내로 진입. Vertebral a.는 C6-C1 횡돌기공 통과.",
     "difficulty": 3,
     "source": "yama"
   },
@@ -607,7 +607,7 @@
     "topic_id": "neck",
     "front_ko": "CN IX의 한국어 명칭과 정의는?",
     "front_en": "CN IX",
-    "back": "혀인두신경 (Glossopharyngeal nerve). 혀 후방1/3 미각·감각, 인두감각, 이하선 타액분비(부교감), 경동맥소체/동 감각을 담당하는 혼합신경. Jugular foramen 통과.",
+    "back": "CN IX 임상 (Glossopharyngeal clinical): 손상 시 구역반사(gag reflex) 소실(구심성), 혀 후방1/3 미각 소실, 이하선 분비 감소. Glossopharyngeal neuralgia: 삼킴/말하기 시 인두-귀 주변 극심한 통증. Eagle syndrome과 감별 필요.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -625,7 +625,7 @@
     "topic_id": "neck",
     "front_ko": "CN VII의 한국어 명칭과 정의는?",
     "front_en": "CN VII",
-    "back": "얼굴신경 (Facial nerve). 표정근 운동, 혀 전방 2/3 미각(SVA), 악하선·설하선 타액분비, 눈물분비(부교감)를 담당하는 혼합신경. Internal acoustic meatus → stylomastoid foramen 통과.",
+    "back": "CN VII 임상 (Bell's palsy): 말초성 안면마비로 동측 전체 표정근 마비(이마주름 불가). 중추성 마비와 달리 이마가 마비됨(상부 표정근은 양측 지배이므로 중추성에서는 보존). Ramsay Hunt syndrome: VZV에 의한 CN VII 마비+이통+수포.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -760,7 +760,7 @@
     "topic_id": "neck",
     "front_ko": "Arteries in cervical region (다한번씩은봤던내용이네요의 정의/기능은?",
     "front_en": "",
-    "back": "경부 동맥 (Cervical arteries). 총경동맥(CCA)→내경동맥(ICA)+외경동맥(ECA), 쇄골하동맥(subclavian a.)→척추동맥(vertebral a.). 경동맥분기부(carotid bifurcation)는 C4 높이.",
+    "back": "경동맥동/경동맥소체: Carotid sinus(경동맥동)=ICA 기시부 팽대, baroreceptor(혈압 감지), CN IX(주)+X 지배. Carotid body(경동맥소체)=분기부 후면, chemoreceptor(O2감소/CO2증가 감지), CN IX(주)+X 지배. Carotid sinus massage -> 서맥+혈압하강(미주신경 반사).",
     "difficulty": 3,
     "source": "yama"
   },
@@ -769,7 +769,7 @@
     "topic_id": "neck",
     "front_ko": "Torticollis (사경의 정의/기능은?",
     "front_en": "",
-    "back": "사경 (Torticollis/Wry neck). 흉쇄유돌근(SCM) 경련이나 선천적 단축으로 목이 한쪽으로 기울고 반대쪽으로 회전하는 상태. 선천성 근성사경은 출생 시 SCM 손상으로 발생. CN XI가 SCM을 지배.",
+    "back": "사경 유형과 치료: 선천성 사경 - 출생 시 SCM 섬유종에 의해 근육 단축, 조기 물리치료로 호전. 경직성 사경(spasmodic torticollis) - 기저핵 이상으로 인한 국소 근긴장이상증(focal dystonia), 보톡스 주사 치료. 안성 사경 - CN IV 마비 보상을 위한 머리 기울임.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -805,7 +805,7 @@
     "topic_id": "ear_pharynx_larynx",
     "front_ko": "CN IX의 한국어 명칭과 정의는?",
     "front_en": "CN IX",
-    "back": "혀인두신경 (Glossopharyngeal nerve). 혀 후방1/3 미각·감각, 인두감각, 이하선 타액분비(부교감), 경동맥소체/동 감각을 담당하는 혼합신경. Jugular foramen 통과.",
+    "back": "CN IX과 중이 관계: Tympanic nerve(Jacobson's nerve)가 중이 점막 감각 담당, 고실신경총(tympanic plexus) 형성. Lesser petrosal nerve로 이어져 otic ganglion 경유 이하선 부교감 분비. 중이염 시 이 경로 손상 가능.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -814,7 +814,7 @@
     "topic_id": "ear_pharynx_larynx",
     "front_ko": "CN V의 한국어 명칭과 정의는?",
     "front_en": "CN V",
-    "back": "삼차신경 (Trigeminal nerve). 얼굴의 감각(V1 ophthalmic, V2 maxillary, V3 mandibular)과 저작근 운동을 담당하는 혼합신경. 가장 큰 뇌신경.",
+    "back": "CN V와 귀/인두 관계: V3의 auriculotemporal nerve가 이개 전방-측두부 감각, 이하선 부교감 섬유 전달(otic ganglion 경유). Tensor tympani m.은 V3가 지배(고막 긴장 조절). Tensor veli palatini m.도 V3 지배.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -823,7 +823,7 @@
     "topic_id": "ear_pharynx_larynx",
     "front_ko": "CN VII의 한국어 명칭과 정의는?",
     "front_en": "CN VII",
-    "back": "얼굴신경 (Facial nerve). 표정근 운동, 혀 전방 2/3 미각(SVA), 악하선·설하선 타액분비, 눈물분비(부교감)를 담당하는 혼합신경. Internal acoustic meatus → stylomastoid foramen 통과.",
+    "back": "CN VII과 귀 관계: Facial canal이 중이 내벽을 지남. Stapedius m. 지배(nerve to stapedius) -> 큰 소리에 대한 dampening reflex. Chorda tympani가 고막의 pars flaccida 부근을 지남 -> 중이 수술 시 손상 주의. Hyperacusis: stapedius 마비 시 소리 과민.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -832,7 +832,7 @@
     "topic_id": "ear_pharynx_larynx",
     "front_ko": "CN X의 한국어 명칭과 정의는?",
     "front_en": "CN X",
-    "back": "미주신경 (Vagus nerve). 가장 분포범위가 넓은 뇌신경. 인두·후두 운동, 흉복부 내장 부교감 지배. Jugular foramen 통과. 반회후두신경(recurrent laryngeal n.)이 분지.",
+    "back": "CN X과 인두/후두 관계: Pharyngeal branch -> 인두 수축근(pharyngeal constrictors) 대부분 지배. Superior laryngeal n. -> 외분지(cricothyroid m.지배) + 내분지(성문상부 감각). Recurrent laryngeal n. -> 후두 내근 대부분 + 성문하부 감각.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -841,7 +841,7 @@
     "topic_id": "ear_pharynx_larynx",
     "front_ko": "CN XI의 한국어 명칭과 정의는?",
     "front_en": "CN XI",
-    "back": "더부신경/부신경 (Accessory nerve). 승모근(trapezius)과 흉쇄유돌근(SCM)을 지배하는 운동신경. 척수부(spinal root)가 foramen magnum을 거쳐 jugular foramen으로 나감.",
+    "back": "CN XI 임상: 손상 시 승모근(trapezius) 마비 -> 어깨 처짐, 팔 거상 장애. SCM 마비 -> 반대측으로 고개 돌리기 어려움. 후삼각(posterior triangle)에서 표재하여 림프절 생검/경부수술 시 손상 위험. Jugular foramen syndrome(Vernet): CN IX, X, XI 동시 마비.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -850,7 +850,7 @@
     "topic_id": "ear_pharynx_larynx",
     "front_ko": "CN XII의 한국어 명칭과 정의는?",
     "front_en": "CN XII",
-    "back": "혀밑신경 (Hypoglossal nerve). 혀의 내재근·외재근(palatoglossus 제외)을 지배하는 순수 운동신경. Hypoglossal canal 통과. 손상 시 혀가 병변 쪽으로 편위.",
+    "back": "CN XII 경로와 혀 운동: Hypoglossal nucleus(medulla) -> hypoglossal canal -> 혀 내근(종근, 횡근, 수직근)과 외근(genioglossus, hyoglossus, styloglossus) 지배. Genioglossus가 혀를 전방으로 돌출. C1 섬유가 일부 합류하여 ansa cervicalis로 분지.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -1201,7 +1201,7 @@
     "topic_id": "ear_pharynx_larynx",
     "front_ko": "Auricle (귓바퀴의 정의/기능은?",
     "front_en": "",
-    "back": "이개/이바퀴 (Auricle/Pinna). 외이의 탄성연골 구조물. 이륜, 대이륜, 이주, 대이주, 이갑, 귓볼로 구성. 음파 수집. 감각: 대이개신경(C2-C3), CN V3, VII, X의 이개분지가 지배.",
+    "back": "이개 임상: 이개혈종(auricular hematoma) -> 방치 시 cauliflower ear(연골괴사+섬유화). Preauricular appendage(부이)=1st pharyngeal arch 잔여물. Preauricular pit/sinus=1st pharyngeal cleft 폐쇄 불완전. Microtia(소이증)=1st+2nd pharyngeal arch 발생이상.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -1498,7 +1498,7 @@
     "topic_id": "cns_gross_1",
     "front_ko": "Occipital lobe의 한국어 명칭과 정의는?",
     "front_en": "Occipital lobe",
-    "back": "후두엽 (Occipital lobe). 대뇌 최후방 영역. 1차 시각피질(V1, Brodmann area 17)이 새발톱고랑(calcarine sulcus) 주위에 위치. 시각연합피질(V2-V5)에서 형태, 색, 운동, 깊이 등 고위 시각 처리.",
+    "back": "후두엽 시각영역 상세: V1(area 17, 일차시각)=선, 방향, 대비. V2(area 18)=윤곽, 입체시. V3=동적 형태. V4(fusiform gyrus area)=색상. V5/MT(area 19)=움직임. Ventral stream(what)=V1->V4->측두엽, Dorsal stream(where)=V1->V5->두정엽.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -1723,7 +1723,7 @@
     "topic_id": "cns_gross_2",
     "front_ko": "Corticospinal tract의 한국어 명칭과 정의는?",
     "front_en": "Corticospinal tract",
-    "back": "피질척수로 (Corticospinal tract). 1차 운동피질에서 척수 전각세포까지의 수의운동 전달 경로. 연수 추체에서 약 85% 교차(pyramidal decussation). 상위운동뉴런(UMN) 경로의 핵심.",
+    "back": "피질척수로 경로 상세: Primary motor cortex(area 4) -> corona radiata -> posterior limb of internal capsule -> cerebral peduncle(crus cerebri) -> basilar pons -> medullary pyramid -> pyramidal decussation(85% 교차) -> lateral corticospinal tract. 비교차 15%는 anterior corticospinal tract.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -1948,7 +1948,7 @@
     "topic_id": "cns_gross_2",
     "front_ko": "peduncle (위시상부챗살의 정의/기능은?",
     "front_en": "",
-    "back": "소뇌다리/대뇌각 (Peduncle). 소뇌다리: SCP(상, 원심성), MCP(중간, 대뇌-교뇌-소뇌), ICP(하, 구심성). 대뇌각(cerebral peduncle): 중뇌의 하행 섬유.",
+    "back": "상소뇌다리 (Superior cerebellar peduncle, SCP): 소뇌에서 나가는 주요 출력 경로. 치아핵(dentate nucleus) -> SCP -> 적핵(red nucleus) + 시상 VL핵. 주로 원심성(efferent). SCP 교차(decussation of SCP)는 중뇌 하부에서 발생.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -1957,7 +1957,7 @@
     "topic_id": "cns_gross_2",
     "front_ko": "peduncle(뒤시상부챗살의 정의/기능은?",
     "front_en": "",
-    "back": "소뇌다리/대뇌각 (Peduncle). 소뇌다리: SCP(상, 원심성), MCP(중간, 대뇌-교뇌-소뇌), ICP(하, 구심성). 대뇌각(cerebral peduncle): 중뇌의 하행 섬유.",
+    "back": "중간소뇌다리 (Middle cerebellar peduncle, MCP): 3개 중 가장 큼. 교뇌핵(pontine nuclei)에서 반대측 소뇌 피질로 입력 전달. Corticopontocerebellar pathway의 일부: 대뇌피질 -> 교뇌핵 -> MCP -> 소뇌. 주로 구심성(afferent).",
     "difficulty": 1,
     "source": "yama"
   },
@@ -1966,7 +1966,7 @@
     "topic_id": "cns_gross_2",
     "front_ko": "peduncle(앞시상부챗살의 정의/기능은?",
     "front_en": "",
-    "back": "소뇌다리/대뇌각 (Peduncle). 소뇌다리: SCP(상, 원심성), MCP(중간, 대뇌-교뇌-소뇌), ICP(하, 구심성). 대뇌각(cerebral peduncle): 중뇌의 하행 섬유.",
+    "back": "하소뇌다리 (Inferior cerebellar peduncle, ICP): 척수소뇌로(spinocerebellar tract), 올리브소뇌로(olivocerebellar tract) 등이 통과. 주로 구심성(afferent). Restiform body + juxtarestiform body로 구성. 전정소뇌 연결도 이 경로를 이용.",
     "difficulty": 1,
     "source": "yama"
   },
@@ -2074,7 +2074,7 @@
     "topic_id": "cns_gross_2",
     "front_ko": "배쪽시상 (subthalamus, ventral thalamus의 정의/기능은?",
     "front_en": "",
-    "back": "시상밑부 (Subthalamus). 간뇌의 일부. 시상밑핵(STN)이 주요 구조. 기저핵 간접경로의 핵심. STN 손상 시 반측발리즘(hemiballismus).",
+    "back": "시상하핵 임상: STN 손상 -> hemiballismus(반대측 격렬한 투척 운동). STN은 간접경로의 핵심, 운동 억제 관여. Deep brain stimulation(DBS): 파킨슨병에서 STN에 전극 삽입하여 증상 완화. Lenticulostriate arteries가 공급.",
     "difficulty": 3,
     "source": "yama"
   },
@@ -2119,7 +2119,7 @@
     "topic_id": "cns_gross_2",
     "front_ko": "수직복시 (vertical diplopia의 정의/기능은?",
     "front_en": "",
-    "back": "수직방향복시 (Vertical diplopia). 물체가 위아래로 겹쳐 보이는 복시. CN IV(도르래신경) 마비 시 상사근 기능 상실로 발생. 계단을 내려갈 때나 독서 시 악화. 보상적 사경(머리 기울임).",
+    "back": "수직복시 감별진단: CN IV 마비(가장 흔한 원인)=계단 내려갈 때 악화, 고개 기울임 보상. CN III 마비=수직+수평 복시+동공산대+안검하수. Skew deviation=뇌간/소뇌 병변에 의한 비대칭 전정입력. 갑상선 안병증(thyroid eye disease)=하직근 비대 -> 상방주시 제한.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2128,7 +2128,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Acquired achromatopsia (후천완전색맹의 정의/기능은?",
     "front_en": "",
-    "back": "후천 색각이상 (Acquired achromatopsia). V4 영역(방추상이랑) 손상으로 색상 인지 불능. 양측 손상 시 완전 색맹.",
+    "back": "후천색맹 경로와 기전: V4 영역(fusiform/lingual gyrus)이 색상 처리 담당. LGN의 Parvocellular layer -> V1의 blob -> V2의 thin stripe -> V4로 이어지는 색상 경로. 망막/시신경은 정상이나 피질 수준에서 색상 인식 불가.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2137,7 +2137,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Affective disorder (정동장애의 정의/기능은?",
     "front_en": "",
-    "back": "감정장애 (Affective disorder). 기분의 이상을 특징으로 하는 정신질환. 전전두피질, 대상회, 편도체 등 변연계 관련 구조의 기능 이상과 관련.",
+    "back": "정동장애 신경해부: 변연계 핵심 구조의 기능 이상. 전대상회(anterior cingulate) -> 정서 조절, 편도체(amygdala) -> 공포/불안, 해마(hippocampus) -> 스트레스 반응. 주요우울장애에서 해마 위축, 편도체 과활성. 세로토닌, 노르에피네프린 경로 관련.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2146,7 +2146,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Agnosia (인식불능증의 정의/기능은?",
     "front_en": "",
-    "back": "인식불능증 (Agnosia). 감각 자체는 정상이나 대상을 인식하지 못하는 상태. 시각실인증(두정-후두엽), 청각실인증(측두엽), 촉각실인증(두정엽) 등. 연합피질 손상으로 발생.",
+    "back": "인식불능증 유형 상세: 시각인식불능(visual agnosia) - 통각형(apperceptive)과 연합형(associative). 안면인식불능(prosopagnosia) - fusiform gyrus 손상. 청각인식불능 - 양측 측두엽. 촉각인식불능(astereognosis) - 두정엽 손상.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2155,7 +2155,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Agraphia (쓰기언어장애의 정의/기능은?",
     "front_en": "",
-    "back": "실서증 (Agraphia). 글 쓰기 능력의 상실. 우성반구 angular gyrus 또는 Exner's area(전두엽) 손상으로 발생.",
+    "back": "실서증 유형: 순수 실서(pure agraphia) - Exner's area(좌 MFG 후부). Gerstmann syndrome의 일부(angular gyrus) - 실서+실산+좌우혼동+손가락인식불능. Alexia with agraphia - angular gyrus. Alexia without agraphia(순수실독) - 좌 후두엽+뇌량팽대부 손상.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2164,7 +2164,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Akinetic mutism (무동무언증의 정의/기능은?",
     "front_en": "",
-    "back": "운동무언증 (Akinetic mutism). 의식은 있으나 자발적 운동이나 발화가 없는 상태. 전대상회(anterior cingulate) 양측 손상이나 내측 전두엽 병변에서 발생.",
+    "back": "무동무언증 병변 부위: (1) 전대상회(bilateral anterior cingulate) -> 가장 흔한 원인, ACA 양측 경색. (2) 양측 내측 전두엽 광범위 손상. (3) 망상활성계(reticular activating system) 상부 손상. Abulia(의지상실)는 경한 형태.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2191,7 +2191,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Angular gyrus의 한국어 명칭과 정의는?",
     "front_en": "Angular gyrus",
-    "back": "각이랑/모서리이랑 (Angular gyrus). 두정엽 하부, Brodmann area 39. 읽기·쓰기·계산과 시각-언어 연합에 관여. 우성반구 손상 시 Gerstmann syndrome(실서증, 실산증, 좌우혼동, 손가락실인증).",
+    "back": "각이랑 기능과 연결: Inferior parietal lobule의 일부, TPO junction 위치. 읽기 시 시각정보를 언어로 변환하는 중추. Supramarginal gyrus(area 40)와 함께 언어이해에 관여. 좌측 손상 -> Gerstmann syndrome, 우측 손상 -> 반측공간무시.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2200,7 +2200,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Apraxia motor area의 한국어 명칭과 정의는?",
     "front_en": "Apraxia motor area",
-    "back": "행위상실증 관련 운동영역. 좌측 두정엽(운동계획)과 보충운동영역(SMA)이 주로 관여. 관념운동행위상실증은 좌측 두정엽, 관념행위상실증은 좌측 두정-측두 접합부 손상.",
+    "back": "행위상실증 관련 운동영역의 연결: 좌측 전운동영역(PM)이 양손 행위 계획의 우세반구. PM -> SMA -> M1 순으로 운동 프로그램 전달. Callosal apraxia: 뇌량 손상 시 좌측 PM의 명령이 우측으로 전달 불가 -> 좌측 상지만 행위상실증.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2209,7 +2209,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Apraxia (행위상실증의 정의/기능은?",
     "front_en": "",
-    "back": "행위상실증 (Apraxia). 운동 기능은 정상이나 학습된 의도적 동작 수행 불능. 관념운동(ideomotor): 지시에 따른 동작 불가, 관념(ideational): 동작 계획 자체의 장애. 우성반구 두정엽 손상.",
+    "back": "행위상실증 검사와 감별: 관념운동(ideomotor) - 도구 사용 행위 모방 요청. 관념(ideational) - 다단계 행위 수행. 구성(constructional) - 그림 그리기 불가, 우측 두정엽. 착의(dressing) - 옷 입기 불가, 우측 두정엽 손상.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2218,7 +2218,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Arcuate fasciculus의 한국어 명칭과 정의는?",
     "front_en": "Arcuate fasciculus",
-    "back": "활꼴다발/궁상속 (Arcuate fasciculus). Broca 영역과 Wernicke 영역을 연결하는 백질 섬유다발. 손상 시 전도실어증(conduction aphasia) 발생: 따라말하기 장애, 이해와 발화는 비교적 보존.",
+    "back": "활모양다발 해부학적 위치: 외측열구(lateral sulcus) 주변, extreme capsule과 external capsule 부근을 주행. Superior longitudinal fasciculus(SLF)의 일부로 분류되기도 함. DTI(확산텐서영상)로 생체에서 추적 가능.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2227,7 +2227,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Auditory agnosia (청각인식불능증의 정의/기능은?",
     "front_en": "",
-    "back": "청각인식불능증 (Auditory agnosia). 청력은 정상이나 소리의 의미를 인식하지 못하는 상태. 양측 측두엽 청각연합피질 손상으로 발생. 언어적 청각실인증(순수어농, pure word deafness)이 대표적.",
+    "back": "청각인식불능증과 언어: 순수어농(pure word deafness)은 양측 STG 또는 좌측 STG+청각방사 손상. 말소리를 못 알아듣지만 읽기/쓰기는 가능. 비언어적 청각인식불능(환경음 불가)은 우측 측두엽 손상. Amusia(음악인식불능)도 우측 측두엽.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2245,7 +2245,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Brodmann area의 한국어 명칭과 정의는?",
     "front_en": "Brodmann area",
-    "back": "브로드만 영역 (Brodmann area). 대뇌피질을 세포구축학적으로 구분한 52개 영역. 주요 영역: 4(1차 운동), 3,1,2(1차 체성감각), 17(1차 시각), 41,42(1차 청각), 44,45(Broca), 22(Wernicke).",
+    "back": "주요 Brodmann area 기능 상세: Area 1,2,3=체성감각(SI), Area 5,7=체성감각연합, Area 6=전운동/SMA, Area 8=전두안야, Area 9,46=DLPFC, Area 10=전두극(prospective memory), Area 11,47=OFC, Area 17=V1, Area 18,19=시각연합, Area 22=Wernicke, Area 28=내후각피질, Area 39=각이랑, Area 40=모서리위이랑.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2254,7 +2254,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Caudate nucleus의 한국어 명칭과 정의는?",
     "front_en": "Caudate nucleus",
-    "back": "미상핵 (Caudate nucleus). 기저핵(basal ganglia)의 구성요소. C자 모양으로 측뇌실을 따라 주행. 두부(head), 체부(body), 미부(tail)로 구분. 피각(putamen)과 함께 선조체(striatum)를 구성. 수의운동 조절.",
+    "back": "미상핵 기능적 의의: Head는 전두엽 회로(cognitive)와 연결 -> DLPFC circuit(집행기능). Body는 두정엽 정보 처리. Tail은 측두엽/편도체와 연결 -> 정서/학습. 헌팅턴병에서 미상핵 위축이 특징적. Caudate infarction -> abulia, 언어장애.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2263,7 +2263,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Central gyrus의 한국어 명칭과 정의는?",
     "front_en": "Central gyrus",
-    "back": "중심이랑 (Central gyrus). 중심고랑(central sulcus) 앞뒤의 이랑. 중심앞이랑(precentral gyrus)=1차 운동피질(Brodmann area 4), 중심뒤이랑(postcentral gyrus)=1차 체성감각피질(area 3,1,2).",
+    "back": "중심이랑 체성지도(somatotopy): 중심전이랑(M1)과 중심후이랑(S1) 모두 homunculus 존재. 내측(종열)=하지/발, 외측 상부=체간/상지, 외측 하부=얼굴/혀/인두. 손과 얼굴 영역이 불균형적으로 큼. Jacksonian march: 국소 발작이 체성지도 따라 확산.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2290,7 +2290,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Cingulate gyrus의 한국어 명칭과 정의는?",
     "front_en": "Cingulate gyrus",
-    "back": "대상회/띠이랑 (Cingulate gyrus). 뇌량(corpus callosum) 위를 감싸는 이랑. 변연계의 핵심 구조로, 감정 조절, 동기부여, 통증 인지, 자율신경 조절에 관여. Brodmann area 23, 24, 31, 32.",
+    "back": "대상회 기능적 세분화: 전대상회(anterior, area 24,32) -> 갈등 모니터링, 오류 감지, 동기/의욕, 통증의 정서적 측면. 후대상회(posterior, area 23,31) -> 자기참조 사고, 공간기억, default mode network의 핵심 허브. Cingulum bundle이 변연계의 주요 백질 경로.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2308,7 +2308,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Corticospinal tract의 한국어 명칭과 정의는?",
     "front_en": "Corticospinal tract",
-    "back": "피질척수로 (Corticospinal tract). 1차 운동피질에서 척수 전각세포까지의 수의운동 전달 경로. 연수 추체에서 약 85% 교차(pyramidal decussation). 상위운동뉴런(UMN) 경로의 핵심.",
+    "back": "피질척수로 임상적 의의: UMN 병변 시 - 경직(spasticity), 반사항진(hyperreflexia), Babinski sign(+), clonus. 초기에는 척수쇼크로 이완성 마비 후 경직성으로 전환. Internal capsule 뇌졸중 시 반대측 편마비(contralateral hemiplegia).",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2317,7 +2317,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Dorsolateral prefrontal cortex의 한국어 명칭과 정의는?",
     "front_en": "Dorsolateral prefrontal cortex",
-    "back": "배외측 전전두피질 (Dorsolateral prefrontal cortex, DLPFC). 작업기억, 계획, 판단, 추상적 사고 등 실행 기능(executive function)의 핵심 영역. Brodmann area 9, 46. 손상 시 주의력·계획능력 저하.",
+    "back": "DLPFC 신경회로: Dorsolateral prefrontal circuit(DLPFC -> caudate head -> GPi/SNr -> VA/VL thalamus -> DLPFC). 조현병에서 DLPFC 기능저하와 음성증상 관련. Working memory의 phonological loop과 visuospatial sketchpad를 관장.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2326,7 +2326,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Entorhinal area의 한국어 명칭과 정의는?",
     "front_en": "Entorhinal area",
-    "back": "내후각피질/후각뒤피질 (Entorhinal area). 해마곁이랑(parahippocampal gyrus) 전방부, Brodmann area 28. 해마(hippocampus)로의 주요 입력 경로(perforant pathway). 기억 형성과 공간 인지에 핵심.",
+    "back": "내후각영역과 기억: 해마로의 주요 입력 관문(gateway). Perforant pathway: entorhinal cortex layer II -> dentate gyrus -> CA3 -> CA1 -> subiculum -> entorhinal cortex (trisynaptic circuit). 알츠하이머병에서 가장 초기에 NFT 출현. Grid cell(격자세포) 존재하여 공간 탐색 담당.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2335,7 +2335,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Expressive aphasia (표현언어상실증의 정의/기능은?",
     "front_en": "",
-    "back": "표현성실어증/Broca 실어증 (Expressive aphasia). Broca 영역(좌측 IFG, area 44,45) 손상. 언어 이해는 보존되나 유창한 말 산출이 어려움. 비유창형 실어증.",
+    "back": "Broca 실어증 상세: 전보문체(telegraphic speech) - 조사/접속사 생략. 말 더듬거림(non-fluent), 운율 감소. 단어이해는 보존되나 복잡한 문법구조는 어려움. Broca area는 행동 모방, 음악 리듬 처리에도 관여. 동반증상: 우측 편마비(MCA 영역).",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2344,7 +2344,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Frontal gyrus의 한국어 명칭과 정의는?",
     "front_en": "Frontal gyrus",
-    "back": "전두이랑 (Frontal gyrus). 전두엽의 이랑. 상전두이랑(SFG), 중전두이랑(MFG), 하전두이랑(IFG)으로 구분. IFG에 Broca 영역(area 44,45) 위치. SFG에 보충운동영역(SMA) 위치.",
+    "back": "전두이랑 기능적 구분: SFG -> SMA(area 6 내측), 전두극(area 10). MFG -> DLPFC(area 9,46), Exner's area(쓰기 중추), FEF(area 8). IFG -> Broca area(좌측 area 44=pars opercularis, 45=pars triangularis). 우측 IFG -> 억제 조절(stop signal task).",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2353,7 +2353,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Frontal lobe의 한국어 명칭과 정의는?",
     "front_en": "Frontal lobe",
-    "back": "전두엽 (Frontal lobe). 중심고랑(central sulcus) 전방의 대뇌 영역. 수의운동(precentral gyrus), 언어산출(Broca area), 실행기능(prefrontal cortex), 인격·판단·계획 등 고위 기능 담당. 가장 큰 엽.",
+    "back": "전두엽 영역별 기능 상세: Area 4(M1)=일차운동, Area 6=전운동+보조운동(SMA), Area 8=전두안야(frontal eye field, 수의적 주시), Area 44,45(Broca)=운동언어, Area 9,46(DLPFC)=작업기억-집행기능, Area 10,11,47(OFC)=보상판단-사회적 행동.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2362,7 +2362,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Fusiform gyrus의 한국어 명칭과 정의는?",
     "front_en": "Fusiform gyrus",
-    "back": "방추이랑 (Fusiform gyrus). 측두엽과 후두엽의 아래면. 얼굴 인식(fusiform face area, FFA)에 핵심적 역할. 우측 손상 시 안면인식불능증(prosopagnosia). V4 색각 영역도 포함.",
+    "back": "방추형이랑 기능적 특수화: FFA(Fusiform Face Area) -> 얼굴 인식 특화. VWFA(Visual Word Form Area) -> 좌측 fusiform, 문자/단어 인식. Fusiform body area -> 신체 인식. 자폐스펙트럼장애(ASD)에서 FFA 활성 감소가 사회적 인지 결핍과 관련.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2371,7 +2371,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Gustatory area의 한국어 명칭과 정의는?",
     "front_en": "Gustatory area",
-    "back": "미각영역 (Gustatory area). 미각 정보를 처리하는 대뇌피질 영역. 1차 미각피질은 insula(섬엽)와 frontal operculum에 위치. Brodmann area 43. CN VII, IX, X의 미각섬유 → 고립핵 → VPM → 미각피질.",
+    "back": "미각영역 경로: 미뢰(taste bud) -> CN VII(전2/3), IX(후1/3), X(후두개) -> 고립핵(NTS) 미각부 -> VPMpc(시상) -> 일차미각피질(insula/frontal operculum, area 43). 이차미각영역은 OFC에 위치하여 미각의 쾌/불쾌 판단.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2380,7 +2380,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Insular lobe의 한국어 명칭과 정의는?",
     "front_en": "Insular lobe",
-    "back": "섬엽/뇌섬엽 (Insular lobe/Insula). 외측고랑(lateral sulcus) 깊은 곳에 숨겨진 다섯 번째 엽. 미각, 내장감각, 통증의 정서적 측면, 자율신경 조절에 관여. 전두·측두·두정엽 판개(operculum)로 덮임.",
+    "back": "뇌섬엽 기능 다양성: 전방 insula -> 내수용감각(interoception), 주관적 감정 경험, 공감, 혐오. 후방 insula -> 체성감각, 통증의 감각적 측면. 자율신경 통합 중추. 발작이 insula에서 시작 시 visceral aura(복부 불쾌감) 흔함.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2389,7 +2389,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Limbic lobe의 한국어 명칭과 정의는?",
     "front_en": "Limbic lobe",
-    "back": "변연엽 (Limbic lobe). 대상회(cingulate gyrus), 해마곁이랑(parahippocampal gyrus) 등 대뇌 내측면의 이랑으로 구성된 영역. 감정, 기억, 동기부여, 자율신경 조절의 변연계(limbic system) 핵심 구조.",
+    "back": "변연엽과 Papez circuit: 해마 -> fornix -> mammillary body -> mammillothalamic tract -> anterior thalamic nucleus -> cingulate gyrus -> cingulum -> parahippocampal gyrus -> entorhinal cortex -> 해마. Kluver-Bucy syndrome: 양측 측두엽(편도체) 절제 -> 시각인식불능+과식+과성행동+무공포.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2398,7 +2398,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Lingual gyrus의 한국어 명칭과 정의는?",
     "front_en": "Lingual gyrus",
-    "back": "혀이랑/설상이랑 (Lingual gyrus). 후두엽 내측면, 새발톱고랑(calcarine sulcus) 아래에 위치. 1차 시각피질(V1)의 하부가 이곳에 있어 상시야(upper visual field)의 시각 정보를 처리.",
+    "back": "설이랑 해부학적 관계: 후두엽 내측면, 부편도고랑(collateral sulcus)과 새발톱고랑(calcarine sulcus) 사이. 내측후두측두이랑(medial occipitotemporal gyrus)이라고도 함. 쐐기이랑(cuneus)은 calcarine sulcus 위에 위치하여 하시야 담당.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2407,7 +2407,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Longitudinal fasciculus의 한국어 명칭과 정의는?",
     "front_en": "Longitudinal fasciculus",
-    "back": "종속/세로다발 (Longitudinal fasciculus). 전두엽과 후두엽/측두엽을 전후로 연결하는 연합섬유. 상종속(SLF: 전두-두정), 하종속(ILF: 후두-측두)이 있음. 언어, 시각 처리, 주의력에 관여.",
+    "back": "종다발 상세: SLF(상종다발) - I: 내측 전두-두정, II: DLPFC-IPL(주의), III: IFG-IPL(음운). ILF(하종다발) - 후두엽->측두엽 연결, ventral stream에 핵심. 손상 시 시각기억 장애, 얼굴인식장애 가능.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2416,7 +2416,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Occipital lobe의 한국어 명칭과 정의는?",
     "front_en": "Occipital lobe",
-    "back": "후두엽 (Occipital lobe). 대뇌 최후방 영역. 1차 시각피질(V1, Brodmann area 17)이 새발톱고랑(calcarine sulcus) 주위에 위치. 시각연합피질(V2-V5)에서 형태, 색, 운동, 깊이 등 고위 시각 처리.",
+    "back": "후두엽 손상 임상: 일측 V1 손상 -> 반대측 동측반맹(homonymous hemianopia). 양측 V1 손상 -> 피질맹(cortical blindness), Anton syndrome(맹인이 보인다고 주장). Macular sparing: PCA 경색 시 황반부는 MCA로도 혈액공급받아 보존.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2425,7 +2425,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Occipital lobe의 한국어 명칭과 정의는?",
     "front_en": "Occipital lobe",
-    "back": "후두엽 (Occipital lobe). 대뇌 최후방 영역. 1차 시각피질(V1, Brodmann area 17)이 새발톱고랑(calcarine sulcus) 주위에 위치. 시각연합피질(V2-V5)에서 형태, 색, 운동, 깊이 등 고위 시각 처리.",
+    "back": "후두엽 혈액공급: 주로 후대뇌동맥(PCA)이 담당. Calcarine branch가 V1에 분포. 후두극(occipital pole)은 MCA의 분지도 일부 공급(macular sparing의 근거). PCA 폐색 시 시야 결손 + 시각 연합 장애.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2434,7 +2434,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Occipitofrontal fasciculus의 한국어 명칭과 정의는?",
     "front_en": "Occipitofrontal fasciculus",
-    "back": "후두전두다발 (Occipitofrontal fasciculus). 전두엽과 후두엽을 연결하는 연합섬유. 상후두전두속(superior)과 하후두전두속(inferior, IFOF)이 있음. IFOF는 시각-의미 처리와 언어에 관여.",
+    "back": "후두전두다발 기능: IFOF는 후두엽 시각영역과 전두엽 의사결정 영역을 직접 연결하는 ventral pathway의 핵심 백질 경로. 의미 처리(semantic processing)와 언어 이해에 중요. 좌측 IFOF 손상 시 의미실어증(semantic paraphasia). 뇌종양 절제 시 awake surgery로 보존 대상.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2443,7 +2443,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Occipitotemporal gyrus의 한국어 명칭과 정의는?",
     "front_en": "Occipitotemporal gyrus",
-    "back": "후두측두이랑 (Occipitotemporal gyrus). 측두엽-후두엽 아래면의 이랑. 내측후두측두이랑(=lingual gyrus)과 외측후두측두이랑(=fusiform gyrus)으로 구분. 시각 인식과 얼굴 인식에 관여.",
+    "back": "후두측두이랑과 인지: 내측(=설이랑, lingual gyrus) -> V1일부, 색상처리. 외측(=방추형이랑, fusiform gyrus) -> 얼굴/단어/신체 인식. Area 37(posterior fusiform)은 visual naming에 핵심. 좌측 손상 -> anomia(이름대기장애), 우측 손상 -> prosopagnosia.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2452,7 +2452,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Ocular apraxia (안구행위상실증의 정의/기능은?",
     "front_en": "",
-    "back": "안구운동행위상실증 (Ocular apraxia). 수의적 안구운동(주시)이 불가능. Balint syndrome의 구성요소. 양측 두정-후두엽 손상.",
+    "back": "안구행위상실증과 Balint syndrome: 3요소 = (1) ocular apraxia(수의적 주시 불가), (2) optic ataxia(시각 유도 행위 불가), (3) simultanagnosia(여러 대상 동시 인식 불가). 양측 두정-후두엽 손상. Watershed infarction에서 흔함.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2461,7 +2461,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Olfactory cortex의 한국어 명칭과 정의는?",
     "front_en": "Olfactory cortex",
-    "back": "후각피질 (Olfactory cortex). 후각 정보를 처리하는 1차 피질. 이상피질(piriform cortex), 편도체, 내후각영역 포함. 후각은 유일하게 시상(thalamus)을 거치지 않고 직접 피질에 도달하는 감각.",
+    "back": "후각피질과 정서: 후각은 유일하게 시상(thalamus)을 거치지 않고 직접 피질에 도달. Piriform cortex -> 냄새 식별, Amygdala -> 냄새의 정서적 가치, Entorhinal cortex -> 후각 기억. 이후 mediodorsal nucleus 거쳐 OFC. 후각 상실(anosmia)은 파킨슨병 초기 증상.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2470,7 +2470,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Optic ataxia (시각조화운동불능의 정의/기능은?",
     "front_en": "",
-    "back": "시각성 운동실조 (Optic ataxia). 시각 안내 하에 물체에 정확히 손 뻗기 불가. Balint syndrome 구성요소. 상두정소엽 손상.",
+    "back": "시각실조 검사와 병변: 환자에게 시각 목표를 향해 손 뻗기(reaching task) -> 부정확. 시력/운동능력은 정상이나 visuo-motor coordination 장애. 병변: 상두정소엽(SPL, area 7)과 intraparietal sulcus(IPS). PCA-MCA watershed zone 경색에서 발생.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2479,7 +2479,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Orbital gyrus의 한국어 명칭과 정의는?",
     "front_en": "Orbital gyrus",
-    "back": "안와이랑 (Orbital gyrus). 전두엽 바닥면(안와면)의 이랑. 내측·전방·외측·후방 안와이랑으로 구분. 안와전두피질(orbitofrontal cortex)의 일부로, 보상·처벌 판단과 감정 조절에 관여.",
+    "back": "안와이랑과 후각: 후방부에 후각구(olfactory sulcus) 위치, 내측에 직이랑(gyrus rectus). 후각망울(olfactory bulb)과 후각로(olfactory tract)가 안와면을 따라 주행. OFC는 후각의 보상가치 판단에 관여하여 음식 선호도 결정에 핵심.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2488,7 +2488,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Orbitofrontal cortex의 한국어 명칭과 정의는?",
     "front_en": "Orbitofrontal cortex",
-    "back": "안와전두피질 (Orbitofrontal cortex, OFC). 전두엽 아래면, Brodmann area 10, 11, 47. 보상 가치 판단, 의사결정, 감정 조절에 관여. 손상 시 사회적 부적절한 행동, 판단력 저하(Phineas Gage case).",
+    "back": "안와전두피질 연결과 임상: OFC는 편도체, 시상, 시상하부, 복측선조체(NAcc)와 양방향 연결. 보상/처벌의 가치 평가에 핵심. OFC 손상 -> 탈억제, 도박성향 증가(Iowa Gambling Task로 검사). OCD(강박장애)에서 OFC 과활성 보고.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2497,7 +2497,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Parahippocampal gyrus의 한국어 명칭과 정의는?",
     "front_en": "Parahippocampal gyrus",
-    "back": "해마곁이랑 (Parahippocampal gyrus). 측두엽 내측면의 이랑. 내후각피질(entorhinal area)과 해마(hippocampus)를 포함하거나 인접. 장소 인식(parahippocampal place area)과 기억 형성에 핵심.",
+    "back": "해마곁이랑 기능적 세분화: 전방부=내후각영역(entorhinal cortex, area 28) -> 해마 입력 관문. 후방부=PPA(parahippocampal place area) -> 장소/건물 인식 특화. 내측측두엽간질에서 해마곁이랑 경화 동반, 발작 시 deja vu 현상 흔함.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2506,7 +2506,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Parietal association area의 한국어 명칭과 정의는?",
     "front_en": "Parietal association area",
-    "back": "두정연합영역 (Parietal association area). 두정엽의 연합피질, 특히 상·하 두정소엽(Brodmann area 5, 7, 39, 40). 체성감각 통합, 공간 인지, 시각-운동 조정에 관여. 우측 손상 시 반측무시(hemispatial neglect).",
+    "back": "두정연합영역 네트워크: SPL(area 5,7) -> 감각운동 통합. IPL(area 39,40) -> 언어(좌), 공간주의(우). 우측 두정연합영역 손상 -> hemispatial neglect(line bisection test로 검사). 좌측 손상 -> ideomotor apraxia, Gerstmann syndrome.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2515,7 +2515,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Parietal lobe의 한국어 명칭과 정의는?",
     "front_en": "Parietal lobe",
-    "back": "두정엽 (Parietal lobe). 중심고랑과 두정후두고랑 사이의 대뇌 영역. 체성감각 처리(postcentral gyrus), 공간 인지, 계산, 읽기에 관여. 우측 손상=반측무시, 좌측 손상=Gerstmann syndrome.",
+    "back": "두정엽 영역별 기능: Area 3,1,2(S1)=일차체성감각, Area 5,7(SPL)=체성감각연합+시각운동통합, Area 39(angular gyrus)=읽기/쓰기/계산, Area 40(supramarginal gyrus)=언어이해+행위계획. Intraparietal sulcus(IPS)=공간주의+숫자인지.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2524,7 +2524,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Postcentral gyrus의 한국어 명칭과 정의는?",
     "front_en": "Postcentral gyrus",
-    "back": "중심뒤이랑 (Postcentral gyrus). 1차 체성감각피질(S1), Brodmann area 3, 1, 2. 촉각, 압각, 고유감각, 온도각의 의식적 인지. 체성감각 호문쿨루스(homunculus)에 따른 신체지도(somatotopy).",
+    "back": "중심후이랑 층별 구조: Layer IV(inner granular layer)가 매우 두꺼움(koniocortex). 시상 VPL/VPM에서 체성감각 입력 수용. Area 3a=고유감각, 3b=촉각(주), 1=질감, 2=크기/형태. 체성감각 유발전위(SEP)로 S1 기능 평가. 손상 시 astereognosis.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2533,7 +2533,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Precentral gyrus의 한국어 명칭과 정의는?",
     "front_en": "Precentral gyrus",
-    "back": "중심앞이랑 (Precentral gyrus). 1차 운동피질(M1), Brodmann area 4. 수의운동의 시작점. 운동 호문쿨루스에 따라 신체 부위별로 배열. Betz giant cells(거대 추체세포)가 특징적으로 존재.",
+    "back": "중심전이랑 세부해부: Layer V(internal pyramidal layer)가 발달, Betz giant cell 포함(전체의 3%). Motor homunculus에서 손/얼굴 영역이 불균형적으로 큼. Area 4의 전기자극으로 특정 근육 수축 유발(Penfield). 국소 손상 시 반대측 단마비(monoplegia).",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2542,7 +2542,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Prefrontal cortex의 한국어 명칭과 정의는?",
     "front_en": "Prefrontal cortex",
-    "back": "전전두피질 (Prefrontal cortex). 전두엽 전방부. 실행 기능(계획, 판단, 작업기억, 추상적 사고), 인격, 사회적 행동을 담당. 배외측(DLPFC), 안와(OFC), 내측/전대상 영역으로 세분.",
+    "back": "전전두피질 하위영역: DLPFC(area 9,46)=작업기억, 집행기능, 추상적 사고. VLPFC(area 44,45,47)=언어+억제. OFC(area 10,11,47)=보상가치 판단, 의사결정, 사회적 인지. Medial PFC(area 25,32)=정서조절, 자기참조. ACC(area 24,32)=갈등모니터링.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2551,7 +2551,7 @@
     "topic_id": "cns_gross_3",
     "front_ko": "Cerebellum (소뇌의 정의/기능은?",
     "front_en": "",
-    "back": "소뇌 (Cerebellum). 후두개와에 위치하며, 운동 조절·협응·균형 유지를 담당. 전정소뇌(균형), 척수소뇌(사지협응), 대뇌소뇌(운동계획)로 기능 구분. 소뇌피질→심부핵→시상→운동피질로 출력.",
+    "back": "소뇌 질환 상세: 소뇌 실조 - 넓은 보폭(wide-based gait), 운동실조(dysmetria), 의도진전(intention tremor), dysdiadochokinesia. Vermis 손상 -> 체간실조. Hemisphere 손상 -> 사지실조. Flocculonodular -> 전정소뇌 증상(안진, vertigo).",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2623,7 +2623,7 @@
     "topic_id": "motor_pathway",
     "front_ko": "Corticospinal tract의 한국어 명칭과 정의는?",
     "front_en": "Corticospinal tract",
-    "back": "피질척수로 (Corticospinal tract). 1차 운동피질에서 척수 전각세포까지의 수의운동 전달 경로. 연수 추체에서 약 85% 교차(pyramidal decussation). 상위운동뉴런(UMN) 경로의 핵심.",
+    "back": "피질척수로 vs 추체외로: 피질척수로(pyramidal)=수의운동의 주 경로, UMN->LMN 직접 연결. 추체외로(extrapyramidal)=reticulospinal, vestibulospinal, rubrospinal, tectospinal tract -> 자세 유지, 근긴장도, 불수의운동 조절. 기저핵-소뇌가 추체외로 조절에 핵심.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2632,7 +2632,7 @@
     "topic_id": "motor_pathway",
     "front_ko": "Corticospinal tract의 한국어 명칭과 정의는?",
     "front_en": "Corticospinal tract",
-    "back": "피질척수로 (Corticospinal tract). 1차 운동피질에서 척수 전각세포까지의 수의운동 전달 경로. 연수 추체에서 약 85% 교차(pyramidal decussation). 상위운동뉴런(UMN) 경로의 핵심.",
+    "back": "피질척수로 구성 섬유: 약 1백만 개 축삭. Betz giant cell(area 4 layer V)은 3%에 불과, 나머지는 premotor(area 6), SMA, somatosensory cortex(area 3,1,2)에서도 기원. 섬유 직경은 1-22um, 대부분 소구경. 빠른 전도속도 섬유가 정밀 운동 담당.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2758,7 +2758,7 @@
     "topic_id": "motor_pathway",
     "front_ko": "Intrafusal muscle fiber(방추속근섬유의 정의/기능은?",
     "front_en": "",
-    "back": "추내근섬유 (Intrafusal muscle fiber). 근방추(muscle spindle) 내부의 특수 근섬유. 핵주머니섬유(nuclear bag)와 핵사슬섬유(nuclear chain)로 구분. Gamma 운동뉴런이 지배. 근신장도(길이변화)를 감지하는 감각수용기.",
+    "back": "근방추 구조 상세: Nuclear bag fiber (2종: dynamic bag1, static bag2) + nuclear chain fiber. Bag1은 Ia afferent와 연결되어 동적 반응(속도 감지), Chain은 II afferent와 연결되어 정적 반응(길이 감지). 감마운동뉴런의 dynamic/static 타입이 각각 지배.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2767,7 +2767,7 @@
     "topic_id": "motor_pathway",
     "front_ko": "Intrafusal muscle fiber의 한국어 명칭과 정의는?",
     "front_en": "Intrafusal muscle fiber",
-    "back": "추내근섬유 (Intrafusal muscle fiber). 근방추(muscle spindle) 내부의 특수 근섬유. 핵주머니섬유(nuclear bag)와 핵사슬섬유(nuclear chain)로 구분. Gamma 운동뉴런이 지배. 근신장도(길이변화)를 감지하는 감각수용기.",
+    "back": "방추속근섬유 임상적 의의: Gamma loop = gamma MN -> intrafusal fiber 수축 -> Ia 구심성 활성화 -> alpha MN 흥분 -> 근수축. UMN 병변 시 gamma 활성 증가 -> 경직(spasticity). Muscle spindle은 관절 고유감각에도 기여하여 운동 프로그래밍에 필수.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2839,7 +2839,7 @@
     "topic_id": "motor_pathway",
     "front_ko": "Primary motor cortex의 한국어 명칭과 정의는?",
     "front_en": "Primary motor cortex",
-    "back": "1차 운동피질 (Primary motor cortex, M1). 중심앞이랑(precentral gyrus), Brodmann area 4. 수의운동의 최종 실행 명령을 생성. 운동 호문쿨루스에 따라 체부위별 배열(somatotopy). Betz 거대추체세포 포함.",
+    "back": "일차운동피질 전기자극과 매핑: Penfield 피질 자극으로 motor homunculus 확립. 현재 TMS로 비침습적 매핑 가능. MEP(운동유발전위)로 피질척수로 전도 시간 측정. M1은 힘(force), 방향(direction), 속도의 encoding에도 관여.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2866,7 +2866,7 @@
     "topic_id": "motor_pathway",
     "front_ko": "Pyramidal tract의 한국어 명칭과 정의는?",
     "front_en": "Pyramidal tract",
-    "back": "추체로 (Pyramidal tract). 피질척수로(corticospinal tract)와 피질핵로(corticobulbar tract)의 총칭. 수의운동의 주요 하행 경로. 연수 추체(pyramid)를 통과하여 명명. 약 85% 추체교차.",
+    "back": "추체로 용어 구분: Pyramidal tract = corticospinal tract(협의), corticospinal + corticobulbar(광의). 연수 전면의 pyramid 구조에서 유래. Anterior corticospinal tract(비교차 약 15%)는 anterior funiculus를 따라 내려가다 종착 분절에서 교차.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2893,7 +2893,7 @@
     "topic_id": "motor_pathway",
     "front_ko": "Reticulospinal tract의 한국어 명칭과 정의는?",
     "front_en": "Reticulospinal tract",
-    "back": "그물척수로 (Reticulospinal tract). 뇌간 그물형성체에서 척수로 하행하는 추체외로. 교뇌그물척수로(내측, 신근촉진)와 연수그물척수로(외측, 굴곡근촉진)로 구분. 자세, 보행, 근긴장 조절.",
+    "back": "그물척수로 임상: Pontine(medial) -> 사지 신근 촉진, 제뇌경직에 관여. Medullary(lateral) -> 굴근 촉진, 신근 억제. Decorticate posture: 피질 손상으로 상지 굴곡/하지 신전. Startling reflex도 reticulospinal pathway 경유.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -2929,7 +2929,7 @@
     "topic_id": "motor_pathway",
     "front_ko": "Spinal cord의 한국어 명칭과 정의는?",
     "front_en": "Spinal cord",
-    "back": "척수 (Spinal cord). 연수에서 L1-L2까지 이어지는 중추신경. 31쌍의 척수신경 기원. 회백질(전각=운동, 후각=감각, 측각=자율신경)과 백질(상행/하행로)로 구성. 경부팽대(C5-T1), 요부팽대(L2-S3).",
+    "back": "척수 운동 기능 상세: Ventral horn의 alpha motor neuron이 골격근 직접 지배(LMN). Gamma motor neuron은 근방추(intrafusal fiber) 지배. Renshaw cell(억제성 사이뉴런)이 alpha MN을 억제하여 길항근 조절. Central pattern generator(CPG)가 보행 리듬 생성.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -3001,7 +3001,7 @@
     "topic_id": "motor_pathway",
     "front_ko": "Lower motor neuron (하위운동신경원의 정의/기능은?",
     "front_en": "",
-    "back": "하위운동뉴런 (LMN). 척수 전각세포 또는 뇌간 운동핵의 뉴런. 최종공통경로. 손상 시: 이완성 마비, 근위축, 섬유속연축, 건반사 저하/소실.",
+    "back": "LMN vs UMN 감별: LMN 병변 - 이완성 마비, 근위축, 근속성연축(fasciculation), 반사저하, Babinski(-). UMN 병변 - 경직(spasticity), 반사항진, clonus, Babinski(+), 위축 없음. Alpha MN=골격근 지배, Gamma MN=근방추 지배.",
     "difficulty": 3,
     "source": "yama"
   },
@@ -3082,7 +3082,7 @@
     "topic_id": "sensory_system",
     "front_ko": "Spinocerebellar tract의 한국어 명칭과 정의는?",
     "front_en": "Spinocerebellar tract",
-    "back": "척수소뇌로 (Spinocerebellar tract). 무의식적 고유감각(근방추, 건기관 정보)을 소뇌로 전달하는 경로. 후척수소뇌로(동측, Clarke핵 기원)와 전척수소뇌로(교차)가 있음.",
+    "back": "척수소뇌로 감각 기능: PSCT: Clarke's column(C8-L2) -> ICP -> 소뇌, 하지 무의식적 고유감각. ASCT: border cell -> SCP -> 소뇌, spinal interneuron 활동 정보. Cuneocerebellar tract: 상지 고유감각(accessory cuneate nucleus -> ICP).",
     "difficulty": 2,
     "source": "yama"
   },
@@ -3091,7 +3091,7 @@
     "topic_id": "sensory_system",
     "front_ko": "Spinoreticular tract의 한국어 명칭과 정의는?",
     "front_en": "Spinoreticular tract",
-    "back": "척수그물로 (Spinoreticular tract). 통각과 온도각 정보를 뇌간 그물형성체(reticular formation)로 전달하는 상행로. 통증의 각성·정서적 측면과 자율신경 반응에 관여. 느린 통증(dull pain) 전달.",
+    "back": "척수그물로와 통증: 만성/둔한 통증의 정서적-자율신경적 반응에 관여. C-fiber -> lamina VII, VIII -> nucleus gigantocellularis -> 시상 intralaminar nuclei -> 대뇌피질. 하행성 통증 조절(PAG -> raphe nuclei -> 척수)과 상호작용. 각성 유지에도 기여.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -3118,7 +3118,7 @@
     "topic_id": "sensory_system",
     "front_ko": "Spinothalamic tract의 한국어 명칭과 정의는?",
     "front_en": "Spinothalamic tract",
-    "back": "척수시상로 (Spinothalamic tract). 통각(pain), 온도각(temperature), 조대촉각(crude touch)을 전달하는 주요 상행로. 척수 후각에서 교차하여 반대측 전외측 삭을 상행, 시상 VPL핵으로 투사.",
+    "back": "척수시상로 상세 경로: 1차 뉴런(DRG) -> 척수 후각(Lissauer's tract 경유 1-2분절 이동) -> 2차 뉴런(lamina I, V) -> 백색교련(anterior white commissure)에서 교차 -> 반대측 상행 -> VPL(3차 뉴런) -> 내낭 후각 -> 체성감각피질(S1). 외측=통각/온도, 전측=조촉각.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -3280,7 +3280,7 @@
     "topic_id": "special_sensory_eyeball",
     "front_ko": "Abducent nucleus의 한국어 명칭과 정의는?",
     "front_en": "Abducent nucleus",
-    "back": "외전신경핵 (Abducent nucleus). 교뇌(pons) 바닥 제4뇌실 근처에 위치. CN VI의 운동핵으로 동측 외직근(lateral rectus)을 지배. MLF를 통해 반대측 CN III핵과 연결되어 공동안구운동 조절.",
+    "back": "외전신경핵과 주시 중추: CN VI 핵은 동측 LR을 지배하는 운동뉴런 + 반대측 CN III핵(MR)으로 MLF를 통해 신호 보내는 사이뉴런을 모두 포함. 수평 주시(conjugate horizontal gaze) 조율. PPRF가 ipsilateral CN VI 핵을 활성화.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -3343,7 +3343,7 @@
     "topic_id": "special_sensory_eyeball",
     "front_ko": "Brodmann area의 한국어 명칭과 정의는?",
     "front_en": "Brodmann area",
-    "back": "브로드만 영역 (Brodmann area). 대뇌피질을 세포구축학적으로 구분한 52개 영역. 주요 영역: 4(1차 운동), 3,1,2(1차 체성감각), 17(1차 시각), 41,42(1차 청각), 44,45(Broca), 22(Wernicke).",
+    "back": "Brodmann area와 시각계통: Area 17(V1)=일차시각, calcarine sulcus 주변. Area 18(V2)=이차시각, V1을 둘러쌈. Area 19(V3, V4, V5)=시각연합, 색상-움직임-형태 분석. Area 37(fusiform)=얼굴인식. Area 7(SPL)=시각-운동 통합, dorsal stream 관련.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -3352,7 +3352,7 @@
     "topic_id": "special_sensory_eyeball",
     "front_ko": "CN III의 한국어 명칭과 정의는?",
     "front_en": "CN III",
-    "back": "눈돌림신경 (Oculomotor nerve). 대부분의 외안근(SR, IR, MR, IO)과 눈꺼풀올림근을 지배하는 운동신경 + 부교감(동공수축, 조절). Superior orbital fissure 통과.",
+    "back": "CN III과 안구운동 상세: SR=위쪽+내회전, IR=아래쪽+외회전, MR=내전(adduction), IO=위쪽+외회전. 동공수축(miosis)은 Edinger-Westphal nucleus -> ciliary ganglion -> short ciliary nn. -> sphincter pupillae. 조절(accommodation)도 함께 담당.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -3361,7 +3361,7 @@
     "topic_id": "special_sensory_eyeball",
     "front_ko": "CN III, IV, VI의 한국어 명칭과 정의는?",
     "front_en": "CN III, IV, VI",
-    "back": "외안근 지배 뇌신경 3개. III(눈돌림)=SR,IR,MR,IO+눈꺼풀올림+동공수축, IV(도르래)=SO, VI(외전)=LR. 기억법: SO4(LR6). 모두 superior orbital fissure 통과.",
+    "back": "외안근 신경 검사법: Cover-uncover test로 사시 감별. CN III 마비: ptosis+mydriasis+외하방(down and out). CN IV 마비: 수직복시, 계단 내려갈 때 악화, 머리 기울임 보상. CN VI 마비: 내사시(esotropia), 환측 외전 불가. INO(internuclear ophthalmoplegia): MLF 손상, MS에서 흔함.",
     "difficulty": 3,
     "source": "yama"
   },
@@ -3370,7 +3370,7 @@
     "topic_id": "special_sensory_eyeball",
     "front_ko": "CN IV의 한국어 명칭과 정의는?",
     "front_en": "CN IV",
-    "back": "도르래신경 (Trochlear nerve). 가장 가는 뇌신경으로, 상사근(SO)만 지배. 유일하게 뇌간 뒤에서 나오며 반대측을 지배. Superior orbital fissure 통과.",
+    "back": "CN IV와 안구운동 임상: 유일하게 뇌간 배측에서 나오며, 가장 긴 두개내 주행으로 외상에 취약. 상사근 마비 시 환측 눈이 상방+내전 위치. 환자가 고개를 건측으로 기울여 보상(head tilt test/Bielschowsky test). Parks 3-step test로 마비근 동정.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -3379,7 +3379,7 @@
     "topic_id": "special_sensory_eyeball",
     "front_ko": "CN VI의 한국어 명칭과 정의는?",
     "front_en": "CN VI",
-    "back": "외전신경/갓돌림신경 (Abducens nerve). 외직근(lateral rectus)만 지배하는 순수 운동신경. Superior orbital fissure 통과. 주행이 길어 두개내압 상승 시 먼저 손상.",
+    "back": "CN VI 임상 상세: 가장 긴 지주막하 주행으로 두개내압 상승 시 가장 먼저 마비(false localizing sign). Gradenigo syndrome: 추체 첨부 감염 -> CN VI 마비 + 안면통증(V) + 중이염. Dorsal pontine syndrome(Foville): CN VI+VII 마비 + 반대측 편마비.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -3388,7 +3388,7 @@
     "topic_id": "special_sensory_eyeball",
     "front_ko": "Central tegmental tract의 한국어 명칭과 정의는?",
     "front_en": "Central tegmental tract",
-    "back": "중심피개로 (Central tegmental tract). 뇌간 피개(tegmentum) 중심을 주행하는 복합 섬유로. 적핵(red nucleus)→하올리브핵(inferior olive) 경로와 그물형성체의 상행섬유를 포함.",
+    "back": "중심피개로와 시각 관계: CTT는 적핵->하올리브핵 연결(rubro-olivary)과 그물구성체의 미각 중계(NTS->VPMpc) 등을 포함하는 뇌간 핵심 경로. CTT 병변은 구개근간대경련(palatal myoclonus)의 원인. 시각과 직접 관련은 적으나 뇌간 기능 유지에 필수.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -3406,7 +3406,7 @@
     "topic_id": "special_sensory_eyeball",
     "front_ko": "Cerebral cortex의 한국어 명칭과 정의는?",
     "front_en": "Cerebral cortex",
-    "back": "대뇌피질 (Cerebral cortex). 대뇌반구 표면의 회백질 층(2-4mm). 6층 구조의 신피질(neocortex)이 대부분. 감각, 운동, 인지, 언어 등 고위 기능을 담당. 이랑(gyrus)과 고랑(sulcus)으로 표면적 증대.",
+    "back": "대뇌피질과 시각 처리: 시각피질은 대뇌피질의 약 30% 차지. V1(area 17)은 6층 중 layer IV가 발달(입력층). Neocortex의 columnar organization: orientation column(방향선택), ocular dominance column(안구우세), cytochrome oxidase blob(색상).",
     "difficulty": 2,
     "source": "yama"
   },
@@ -3460,7 +3460,7 @@
     "topic_id": "special_sensory_eyeball",
     "front_ko": "Infratentorial region의 한국어 명칭과 정의는?",
     "front_en": "Infratentorial region",
-    "back": "천막하 영역. 소뇌천막(tentorium cerebelli) 아래 부분으로, 소뇌, 뇌교, 연수가 위치. 후두개와(posterior cranial fossa)에 해당.",
+    "back": "천막하 영역과 시각 관계: 소뇌는 안구운동의 정밀도 조절(saccade, smooth pursuit 보정). 뇌간에 CN III(중뇌), IV(중뇌), VI(교뇌) 핵이 위치. PPRF(교뇌)와 riMLF(중뇌)가 수평/수직 주시 중추. Cerebellar vermis 손상 시 안진(nystagmus) 발생.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -3496,7 +3496,7 @@
     "topic_id": "special_sensory_eyeball",
     "front_ko": "Lingual gyrus의 한국어 명칭과 정의는?",
     "front_en": "Lingual gyrus",
-    "back": "혀이랑/설상이랑 (Lingual gyrus). 후두엽 내측면, 새발톱고랑(calcarine sulcus) 아래에 위치. 1차 시각피질(V1)의 하부가 이곳에 있어 상시야(upper visual field)의 시각 정보를 처리.",
+    "back": "설이랑 임상: V1 일부 + V2/V3 색상 처리 담당. 일측 손상 시 반대측 상동측반맹(superior homonymous quadrantanopia). 양측 V4(fusiform/lingual area) 손상 시 후천색맹(achromatopsia). PCA 경색에서 흔히 침범.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -3514,7 +3514,7 @@
     "topic_id": "special_sensory_eyeball",
     "front_ko": "Medial longitudinal fasciculus의 한국어 명칭과 정의는?",
     "front_en": "Medial longitudinal fasciculus",
-    "back": "내측세로다발 (MLF, Medial longitudinal fasciculus). CN III, IV, VI 핵과 전정핵을 연결하여 안구의 공동운동(conjugate eye movement)을 조절. 손상 시 핵간안근마비(INO, internuclear ophthalmoplegia).",
+    "back": "MLF과 안구운동: 우측 주시 시 - 우측 PPRF -> 우측 CN VI 핵(우측 LR 수축) + 좌측 CN III 핵(좌측 MR 수축, MLF 경유). MLF 손상(INO): 환측 내전 장애 + 건측 외전 시 안진. 양측 INO -> WEBINO syndrome. MS에서 양측 INO가 특징적.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -3523,7 +3523,7 @@
     "topic_id": "special_sensory_eyeball",
     "front_ko": "Occipital lobe의 한국어 명칭과 정의는?",
     "front_en": "Occipital lobe",
-    "back": "후두엽 (Occipital lobe). 대뇌 최후방 영역. 1차 시각피질(V1, Brodmann area 17)이 새발톱고랑(calcarine sulcus) 주위에 위치. 시각연합피질(V2-V5)에서 형태, 색, 운동, 깊이 등 고위 시각 처리.",
+    "back": "후두엽과 시각경로 관계: 망막 -> 시신경 -> 시교차(비측 섬유 교차) -> 시삭 -> 외측슬상체(LGN) -> 시방사(optic radiation) -> V1(calcarine sulcus). Meyer's loop(측두엽 경유)은 상시야 정보, parietal radiation은 하시야 정보 전달.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -3550,7 +3550,7 @@
     "topic_id": "special_sensory_eyeball",
     "front_ko": "Oculomotor nucleus의 한국어 명칭과 정의는?",
     "front_en": "Oculomotor nucleus",
-    "back": "눈돌림신경핵 (Oculomotor nucleus). 중뇌(midbrain) 상구 수준에 위치. CN III의 운동핵으로 대부분의 외안근과 눈꺼풀올림근을 지배. 인접한 Edinger-Westphal핵은 부교감(동공수축, 조절) 담당.",
+    "back": "동안신경핵 소핵 배열: 각 외안근에 대한 소핵이 별도 존재. SR 소핵만 반대측 지배. Edinger-Westphal nucleus(부교감)는 배후에 위치. Central caudal nucleus는 양측 levator palpebrae superioris 지배 -> 일측 핵 손상으로는 ptosis 안 생김.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -3568,7 +3568,7 @@
     "topic_id": "special_sensory_eyeball",
     "front_ko": "Olivary nucleus의 한국어 명칭과 정의는?",
     "front_en": "Olivary nucleus",
-    "back": "올리브핵 (Olivary nucleus). 연수(medulla)의 올리브 돌출부에 위치. 하올리브핵(inferior olivary nucleus)이 주된 구조로, 소뇌에 올리브소뇌섬유(climbing fiber)를 보내 운동학습과 오류수정에 관여.",
+    "back": "올리브핵과 소뇌 학습: 하올리브핵은 올리브소뇌로를 통해 반대측 소뇌 Purkinje cell에 climbing fiber로 투사. 운동 오류 신호 전달 -> 소뇌의 운동 학습(motor learning) 구동. Palatal myoclonus: Guillain-Mollaret triangle(적핵-하올리브핵-치아핵) 손상 시 발생.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -3604,7 +3604,7 @@
     "topic_id": "special_sensory_eyeball",
     "front_ko": "Parietal lobe의 한국어 명칭과 정의는?",
     "front_en": "Parietal lobe",
-    "back": "두정엽 (Parietal lobe). 중심고랑과 두정후두고랑 사이의 대뇌 영역. 체성감각 처리(postcentral gyrus), 공간 인지, 계산, 읽기에 관여. 우측 손상=반측무시, 좌측 손상=Gerstmann syndrome.",
+    "back": "두정엽과 시각계통 관계: Dorsal visual stream(where/how pathway)의 종착지. 시각-운동 변환(visuo-motor transformation)에 핵심. SPL 손상 -> optic ataxia(시각실조), IPL 손상 -> 반측무시(hemispatial neglect, 우측 두정엽 손상 시 좌측 무시). Balint syndrome: 양측 두정-후두 손상.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -3640,7 +3640,7 @@
     "topic_id": "special_sensory_eyeball",
     "front_ko": "Retinohypothalamic tract (암기의 정의/기능은?",
     "front_en": "",
-    "back": "망막시상하부로 (Retinohypothalamic tract). 망막 내재성 광감수 신경절세포(ipRGC, melanopsin 함유)에서 시교차상핵(SCN)으로의 경로. 일주기리듬(circadian rhythm)의 빛 동조(entrainment)에 관여.",
+    "back": "망막시상하부로와 생체시계: ipRGC는 melanopsin 함유, 주변 밝기 감지에 특화(시각 영상과 무관). SCN에서 circadian rhythm 생성 -> melatonin 조절(pineal), 체온/cortisol 주기. 야간 블루라이트 -> ipRGC 자극 -> melatonin 억제 -> 수면장애.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -3712,7 +3712,7 @@
     "topic_id": "autonomic_ns",
     "front_ko": "CN III의 한국어 명칭과 정의는?",
     "front_en": "CN III",
-    "back": "눈돌림신경 (Oculomotor nerve). 대부분의 외안근(SR, IR, MR, IO)과 눈꺼풀올림근을 지배하는 운동신경 + 부교감(동공수축, 조절). Superior orbital fissure 통과.",
+    "back": "CN III 부교감 기능: Edinger-Westphal nucleus(중뇌) -> 절전섬유가 CN III과 함께 주행 -> ciliary ganglion(안와 내)에서 시냅스 -> 절후섬유(short ciliary nerves) -> sphincter pupillae(축동) + ciliary muscle(조절). Near response triad: 축동+조절+폭주.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -3730,7 +3730,7 @@
     "topic_id": "autonomic_ns",
     "front_ko": "CN IX의 한국어 명칭과 정의는?",
     "front_en": "CN IX",
-    "back": "혀인두신경 (Glossopharyngeal nerve). 혀 후방1/3 미각·감각, 인두감각, 이하선 타액분비(부교감), 경동맥소체/동 감각을 담당하는 혼합신경. Jugular foramen 통과.",
+    "back": "CN IX 자율신경 기능: 부교감 경로 - inferior salivatory nucleus -> tympanic n. -> lesser petrosal n. -> otic ganglion(시냅스) -> auriculotemporal n. 경유 -> 이하선 타액 분비. 경동맥동/소체의 구심성 정보를 NTS(고립핵)로 전달하여 혈압-혈액가스 조절.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -3739,7 +3739,7 @@
     "topic_id": "autonomic_ns",
     "front_ko": "CN VII의 한국어 명칭과 정의는?",
     "front_en": "CN VII",
-    "back": "얼굴신경 (Facial nerve). 표정근 운동, 혀 전방 2/3 미각(SVA), 악하선·설하선 타액분비, 눈물분비(부교감)를 담당하는 혼합신경. Internal acoustic meatus → stylomastoid foramen 통과.",
+    "back": "CN VII 부교감 기능 상세: (1) Superior salivatory nucleus -> chorda tympani -> submandibular ganglion -> 악하선+설하선 타액분비. (2) Superior salivatory nucleus -> greater petrosal n. -> pterygopalatine ganglion -> 눈물샘+비강+구개 점막 분비. 두 경로 모두 절전뉴런은 뇌간에서 시작.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -3757,7 +3757,7 @@
     "topic_id": "autonomic_ns",
     "front_ko": "CN X의 한국어 명칭과 정의는?",
     "front_en": "CN X",
-    "back": "미주신경 (Vagus nerve). 가장 분포범위가 넓은 뇌신경. 인두·후두 운동, 흉복부 내장 부교감 지배. Jugular foramen 통과. 반회후두신경(recurrent laryngeal n.)이 분지.",
+    "back": "CN X 자율신경 기능: 부교감의 약 75%를 담당. Dorsal motor nucleus -> 심장(서맥), 폐(기관지수축), 위장관(연동운동 촉진, 괄약근 이완, 소화액 분비). Nucleus ambiguus -> 심장 억제 섬유. 좌 미주신경 recurrent laryngeal n.은 대동맥궁을 감고 올라감.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -3766,7 +3766,7 @@
     "topic_id": "autonomic_ns",
     "front_ko": "Dorsal motor nucleus의 한국어 명칭과 정의는?",
     "front_en": "Dorsal motor nucleus",
-    "back": "미주신경등쪽운동핵 (Dorsal motor nucleus of vagus). 연수(medulla)에 위치. CN X의 부교감 신경절전 뉴런의 기원. 심장, 폐, 위장관 등 흉복부 내장에 부교감 신경을 공급.",
+    "back": "미주신경등쪽운동핵 상세: 연수 제4뇌실 바닥(vagal trigone)에 위치. 절전 부교감뉴런이 위장관 벽내신경절에 투사. 위산 분비, 장 연동운동 촉진, 기관지 수축, 췌장 외분비 조절. Nucleus ambiguus도 CN X 운동핵이나 인두/후두근+심장 억제 담당.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -3865,7 +3865,7 @@
     "topic_id": "autonomic_ns",
     "front_ko": "Spinothalamic tract의 한국어 명칭과 정의는?",
     "front_en": "Spinothalamic tract",
-    "back": "척수시상로 (Spinothalamic tract). 통각(pain), 온도각(temperature), 조대촉각(crude touch)을 전달하는 주요 상행로. 척수 후각에서 교차하여 반대측 전외측 삭을 상행, 시상 VPL핵으로 투사.",
+    "back": "척수시상로 임상: Brown-Sequard syndrome(척수 반절단) 시 병변 반대측 통각/온도감각 소실. 전척수동맥증후군(anterior cord syndrome): 양측 통각/온도 소실+운동마비, but 후삭 보존. Syringomyelia: 중심관 확장 -> 백색교련 손상 -> 양측 상지 통각 소실(cape-like distribution).",
     "difficulty": 2,
     "source": "yama"
   },
@@ -3901,7 +3901,7 @@
     "topic_id": "autonomic_ns",
     "front_ko": "Westphal nucleus의 한국어 명칭과 정의는?",
     "front_en": "Westphal nucleus",
-    "back": "Edinger-Westphal핵 (Westphal/Edinger-Westphal nucleus). 중뇌 상구 수준에 위치하는 CN III의 부교감핵. 동공괄약근(sphincter pupillae)과 섬모체근(ciliary muscle)에 부교감 신경을 공급. 대광반사와 조절반사에 관여.",
+    "back": "Edinger-Westphal핵 임상: 빛반사 경로 - 망막 -> 시삭 -> pretectal nucleus -> bilateral EW nucleus -> CN III -> ciliary ganglion -> sphincter pupillae. RAPD(Marcus Gunn pupil): 구심성 병변. Argyll Robertson pupil: 빛반사 소실+근접반사 보존(신경매독).",
     "difficulty": 2,
     "source": "yama"
   },
@@ -4162,7 +4162,7 @@
     "topic_id": "higher_cns_functions",
     "front_ko": "Arcuate fasciculus의 한국어 명칭과 정의는?",
     "front_en": "Arcuate fasciculus",
-    "back": "활꼴다발/궁상속 (Arcuate fasciculus). Broca 영역과 Wernicke 영역을 연결하는 백질 섬유다발. 손상 시 전도실어증(conduction aphasia) 발생: 따라말하기 장애, 이해와 발화는 비교적 보존.",
+    "back": "활모양다발 손상 임상: 전도실어증(conduction aphasia) - 자발적 말하기와 청각이해는 비교적 보존되나 따라말하기(repetition)가 심하게 손상. 환자는 자신의 오류를 인식하나 교정 불가. 좌측 활모양다발 손상에서 주로 발생.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -4225,7 +4225,7 @@
     "topic_id": "higher_cns_functions",
     "front_ko": "Frontal lobe의 한국어 명칭과 정의는?",
     "front_en": "Frontal lobe",
-    "back": "전두엽 (Frontal lobe). 중심고랑(central sulcus) 전방의 대뇌 영역. 수의운동(precentral gyrus), 언어산출(Broca area), 실행기능(prefrontal cortex), 인격·판단·계획 등 고위 기능 담당. 가장 큰 엽.",
+    "back": "전두엽 손상 증후군: DLPFC 손상 -> 집행기능 장애(계획, 억제 불량). OFC 손상 -> 성격변화, 탈억제(disinhibition), Phineas Gage 사례. Medial/cingulate 손상 -> 무동무언증(akinetic mutism), 의욕상실. 전두엽 증상은 Wisconsin Card Sorting Test 등으로 평가.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -4243,7 +4243,7 @@
     "topic_id": "higher_cns_functions",
     "front_ko": "Motor cortex의 한국어 명칭과 정의는?",
     "front_en": "Motor cortex",
-    "back": "운동피질 (Motor cortex). 수의운동을 관장하는 피질 영역. 1차 운동피질(M1, area 4), 전운동영역(PM, area 6 외측), 보충운동영역(SMA, area 6 내측)으로 구성. Betz 거대세포가 M1에 존재.",
+    "back": "운동피질과 정신기능: SMA 손상 시 alien hand syndrome 가능. FEF(area 8)는 수의적 안구운동의 시작점. 전운동영역은 mirror neuron 분포 -> 타인 행동 관찰 시 활성, 공감과 모방 학습의 신경기반.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -4252,7 +4252,7 @@
     "topic_id": "higher_cns_functions",
     "front_ko": "Nigrostriatal tract의 한국어 명칭과 정의는?",
     "front_en": "Nigrostriatal tract",
-    "back": "흑질선조체로 (Nigrostriatal tract). 흑질(substantia nigra) 치밀부에서 선조체(striatum)로의 도파민 경로. 수의운동 조절에 관여. 퇴행 시 파킨슨병(Parkinson disease) 발생.",
+    "back": "흑질선조체로와 정신질환: 파킨슨병=흑질 치밀부 도파민 뉴런 소실 -> 선조체 도파민 감소 -> 운동 개시 장애. 항정신병약물이 D2 수용체를 차단하면 nigrostriatal pathway도 억제 -> 약물 유발 파킨슨증(drug-induced parkinsonism), 지연운동이상(tardive dyskinesia).",
     "difficulty": 2,
     "source": "yama"
   },
@@ -4315,7 +4315,7 @@
     "topic_id": "higher_cns_functions",
     "front_ko": "Addiction (중독의 정의/기능은?",
     "front_en": "",
-    "back": "중독 (Addiction). 보상회로(reward circuit)의 이상에 의한 강박적 물질 사용 또는 행동. 복측피개영역(VTA)→측좌핵(nucleus accumbens) 도파민 경로(mesolimbic pathway)의 과도한 활성화.",
+    "back": "중독 신경회로 상세: VTA -> mesolimbic(NAcc, 보상) + mesocortical(PFC, 판단) pathway. 중독 시 NAcc 도파민 급증 -> DeltaFosB 축적 -> 시냅스 가소성 변화 -> 약물 관련 자극 과민(sensitization). PFC 기능 저하 -> 충동조절 장애.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -4342,7 +4342,7 @@
     "topic_id": "higher_cns_functions",
     "front_ko": "Aphasia (실어증의 정의/기능은?",
     "front_en": "",
-    "back": "실어증 (Aphasia). 언어 기능의 장애. Broca 실어증(운동/표현성: 좌IFG area 44,45)=비유창, 이해 보존. Wernicke 실어증(감각/수용성: 좌STG area 22)=유창하나 이해 불가. 전도 실어증(활꼴다발 손상)=따라말하기 장애.",
+    "back": "실어증 감별 요약: Broca(비유창): 발화 장애, 이해 보존, 따라말하기 불가. Wernicke(유창): jargon, 이해 불가, 따라말하기 불가. 전도: 발화/이해 보존, 따라말하기 불가(arcuate fasciculus). 경피질운동: 발화 장애, 따라말하기 보존. 전실어증: 모두 장애.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -4387,7 +4387,7 @@
     "topic_id": "blood_supply_brain",
     "front_ko": "CN III의 한국어 명칭과 정의는?",
     "front_en": "CN III",
-    "back": "눈돌림신경 (Oculomotor nerve). 대부분의 외안근(SR, IR, MR, IO)과 눈꺼풀올림근을 지배하는 운동신경 + 부교감(동공수축, 조절). Superior orbital fissure 통과.",
+    "back": "CN III 마비 임상: 완전마비 시 - 안검하수(ptosis), 동공산대(mydriasis), 외하방 주시(down and out, LR+SO만 작동). PCA aneurysm이 CN III을 압박하면 동공 먼저 침범(부교감이 표면). 당뇨성 CN III 마비는 동공 보존(pupil-sparing, 허혈은 중심부 운동섬유만 침범).",
     "difficulty": 2,
     "source": "yama"
   },
@@ -4396,7 +4396,7 @@
     "topic_id": "blood_supply_brain",
     "front_ko": "CN XII의 한국어 명칭과 정의는?",
     "front_en": "CN XII",
-    "back": "혀밑신경 (Hypoglossal nerve). 혀의 내재근·외재근(palatoglossus 제외)을 지배하는 순수 운동신경. Hypoglossal canal 통과. 손상 시 혀가 병변 쪽으로 편위.",
+    "back": "CN XII 손상 임상: 일측 손상 시 혀가 병변측으로 편위(deviation toward lesion side, genioglossus 마비로 건측이 밀어냄). 양측 손상 시 혀 돌출 불가, 구음장애(dysarthria), 연하곤란. MCA/anterior spinal a. 경색, 경추부 종양에서 발생 가능.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -4405,7 +4405,7 @@
     "topic_id": "blood_supply_brain",
     "front_ko": "Corticospinal tract의 한국어 명칭과 정의는?",
     "front_en": "Corticospinal tract",
-    "back": "피질척수로 (Corticospinal tract). 1차 운동피질에서 척수 전각세포까지의 수의운동 전달 경로. 연수 추체에서 약 85% 교차(pyramidal decussation). 상위운동뉴런(UMN) 경로의 핵심.",
+    "back": "피질척수로 혈액공급: 대뇌 구간 - ACA(하지 영역) + MCA(상지/얼굴 영역), internal capsule - lenticulostriate arteries(MCA 분지), 뇌간 구간 - basilar artery의 paramedian branches, 척수 구간 - anterior spinal artery. Lacunar infarct가 internal capsule에서 흔히 발생.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -4414,7 +4414,7 @@
     "topic_id": "blood_supply_brain",
     "front_ko": "Dentate nucleus의 한국어 명칭과 정의는?",
     "front_en": "Dentate nucleus",
-    "back": "치상핵 (Dentate nucleus). 소뇌 심부핵 중 가장 큰 핵. 소뇌 후엽(대뇌소뇌)에서 입력 받아 상소뇌각(SCP)을 통해 시상 VL핵으로 출력. 수의운동의 계획과 개시에 관여.",
+    "back": "치아핵 혈액공급: SCA(상소뇌동맥)가 주로 공급. SCA 경색 시 소뇌 상면 경색 + 치아핵 손상 -> 소뇌성 운동실조, 구음장애. 치아핵-적핵-시상 경로(dentato-rubro-thalamic tract)는 tremor 발생과 관련.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -4423,7 +4423,7 @@
     "topic_id": "blood_supply_brain",
     "front_ko": "Fastigial nucleus의 한국어 명칭과 정의는?",
     "front_en": "Fastigial nucleus",
-    "back": "꼭지핵/정상핵 (Fastigial nucleus). 소뇌 심부핵 중 가장 내측. 소뇌충부(vermis)와 소결절엽에서 입력. 전정핵과 그물형성체로 출력. 체간 균형(truncal balance)과 안구운동 조절에 관여.",
+    "back": "꼭지핵 혈액공급: PICA와 SCA 분지가 공급. 전정핵과 그물구성체에 투사하여 자세/균형 조절. Fastigial oculomotor region: saccade 정확도 조절. PICA 경색(Wallenberg syndrome 동반) -> 체간실조, 안진.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -4432,7 +4432,7 @@
     "topic_id": "blood_supply_brain",
     "front_ko": "Frontal lobe의 한국어 명칭과 정의는?",
     "front_en": "Frontal lobe",
-    "back": "전두엽 (Frontal lobe). 중심고랑(central sulcus) 전방의 대뇌 영역. 수의운동(precentral gyrus), 언어산출(Broca area), 실행기능(prefrontal cortex), 인격·판단·계획 등 고위 기능 담당. 가장 큰 엽.",
+    "back": "전두엽 혈액공급: 외측면 -> MCA(중대뇌동맥), 내측면(SMA, cingulate) -> ACA(전대뇌동맥). ACA 경색 시 반대측 하지 운동/감각 마비. MCA 경색 시 반대측 상지/안면 마비 + Broca 실어증(좌측). Heubner's artery(ACA 분지)는 caudate head에 공급.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -4450,7 +4450,7 @@
     "topic_id": "blood_supply_brain",
     "front_ko": "Lentiform nucleus의 한국어 명칭과 정의는?",
     "front_en": "Lentiform nucleus",
-    "back": "렌즈핵/콩팥핵 (Lentiform nucleus). 기저핵의 구성요소로, 피각(putamen)과 담창구(globus pallidus)로 구성. 쐐기(렌즈) 모양. 내포(internal capsule)의 외측에 위치. 수의운동 조절에 관여.",
+    "back": "렌즈핵 혈액공급: Lenticulostriate arteries(MCA 분지)가 주로 공급. 고혈압성 뇌내출혈의 가장 흔한 부위(putamen hemorrhage). 내낭과 인접하여 출혈/경색 시 반대측 편마비 흔함. Putamen=운동 실행, globus pallidus=운동 억제/개시 조절.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -4459,7 +4459,7 @@
     "topic_id": "blood_supply_brain",
     "front_ko": "Prefrontal cortex의 한국어 명칭과 정의는?",
     "front_en": "Prefrontal cortex",
-    "back": "전전두피질 (Prefrontal cortex). 전두엽 전방부. 실행 기능(계획, 판단, 작업기억, 추상적 사고), 인격, 사회적 행동을 담당. 배외측(DLPFC), 안와(OFC), 내측/전대상 영역으로 세분.",
+    "back": "전전두피질 혈액공급과 손상: DLPFC -> MCA 분지. Medial PFC/ACC -> ACA 분지. OFC -> MCA+ACA. ACA 경색 시 무동무언증, 의욕상실. MCA 경색 시 집행기능 장애. 전두엽 뇌졸중 후 우울증, 무감동(apathy) 흔함.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -4549,7 +4549,7 @@
     "topic_id": "blood_supply_brain",
     "front_ko": "사지마비 (corticospinal tract의 정의/기능은?",
     "front_en": "",
-    "back": "피질척수로 혈액공급. 대뇌: ACA(하지)+MCA(상지/얼굴), 내포: 전맥락동맥+렌즈핵선조체동맥, 뇌간: 교뇌·연수 정중가지.",
+    "back": "피질척수로 뇌간 구간 혈액공급: 중뇌(cerebral peduncle) -> PCA의 paramedian branches. 교뇌(basis pontis) -> basilar artery의 paramedian branches. 연수(pyramid) -> anterior spinal artery + vertebral artery 분지. Medial medullary syndrome(Dejerine): 연수 내측 경색 -> 반대측 편마비+설하신경마비+후삭 감각소실.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -4558,7 +4558,7 @@
     "topic_id": "blood_supply_brain",
     "front_ko": "사지마비 (corticospinal tract, facial nerve의 정의/기능은?",
     "front_en": "",
-    "back": "피질척수로 혈액공급. 대뇌: ACA(하지)+MCA(상지/얼굴), 내포: 전맥락동맥+렌즈핵선조체동맥, 뇌간: 교뇌·연수 정중가지.",
+    "back": "피질척수로와 안면신경의 혈액공급 비교: Corticobulbar fiber(안면신경핵 지배)는 교뇌에서 basilar a. paramedian branches가 공급. Facial nerve 자체는 AICA와 labyrinthine artery가 공급. Internal capsule에서 lenticulostriate arteries 폐색 시 반대측 편마비+중추성 안면마비.",
     "difficulty": 3,
     "source": "yama"
   },
@@ -4612,7 +4612,7 @@
     "topic_id": "dev_head_neck",
     "front_ko": "CN IX의 한국어 명칭과 정의는?",
     "front_en": "CN IX",
-    "back": "혀인두신경 (Glossopharyngeal nerve). 혀 후방1/3 미각·감각, 인두감각, 이하선 타액분비(부교감), 경동맥소체/동 감각을 담당하는 혼합신경. Jugular foramen 통과.",
+    "back": "CN IX 발생학적 기원: 제3인두궁(3rd pharyngeal arch)에서 유래. 경상인두근(stylopharyngeus m.)을 지배하는 유일한 근육. 제3궁은 설골 대각(greater horn)과 설골체 하부도 형성.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -4621,7 +4621,7 @@
     "topic_id": "dev_head_neck",
     "front_ko": "CN V의 한국어 명칭과 정의는?",
     "front_en": "CN V",
-    "back": "삼차신경 (Trigeminal nerve). 얼굴의 감각(V1 ophthalmic, V2 maxillary, V3 mandibular)과 저작근 운동을 담당하는 혼합신경. 가장 큰 뇌신경.",
+    "back": "CN V 발생학: V1=frontonasal prominence 감각, V2=maxillary prominence(제1궁 상부), V3=mandibular prominence(제1궁 하부). 저작근(masseter, temporalis, medial/lateral pterygoid)은 모두 제1인두궁 유래로 V3 운동 지배.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -4639,7 +4639,7 @@
     "topic_id": "dev_head_neck",
     "front_ko": "CN VII의 한국어 명칭과 정의는?",
     "front_en": "CN VII",
-    "back": "얼굴신경 (Facial nerve). 표정근 운동, 혀 전방 2/3 미각(SVA), 악하선·설하선 타액분비, 눈물분비(부교감)를 담당하는 혼합신경. Internal acoustic meatus → stylomastoid foramen 통과.",
+    "back": "CN VII 발생학: 제2인두궁(2nd pharyngeal arch)에서 유래. 등자골(stapes), 경상설골인대(stylohyoid lig.), 설골 소각(lesser horn), 표정근 모두 2nd arch 유래. Reichert's cartilage가 2nd arch의 연골 원기.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -4648,7 +4648,7 @@
     "topic_id": "dev_head_neck",
     "front_ko": "CN X의 한국어 명칭과 정의는?",
     "front_en": "CN X",
-    "back": "미주신경 (Vagus nerve). 가장 분포범위가 넓은 뇌신경. 인두·후두 운동, 흉복부 내장 부교감 지배. Jugular foramen 통과. 반회후두신경(recurrent laryngeal n.)이 분지.",
+    "back": "CN X 발생학: 제4, 6인두궁 유래. 4th arch: 윤상갑상근(cricothyroid, superior laryngeal n.), 인두수축근. 6th arch: 나머지 후두 내근(recurrent laryngeal n.). 제4궁은 대동맥궁, 제6궁은 동맥관(ductus arteriosus) 관련.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -4684,7 +4684,7 @@
     "topic_id": "dev_nervous_system",
     "front_ko": "Spinal cord의 한국어 명칭과 정의는?",
     "front_en": "Spinal cord",
-    "back": "척수 (Spinal cord). 연수에서 L1-L2까지 이어지는 중추신경. 31쌍의 척수신경 기원. 회백질(전각=운동, 후각=감각, 측각=자율신경)과 백질(상행/하행로)로 구성. 경부팽대(C5-T1), 요부팽대(L2-S3).",
+    "back": "척수 발생: 신경관(neural tube)의 미측부에서 발생. 날개판(alar plate) -> 감각신경(dorsal horn), 바닥판(basal plate) -> 운동신경(ventral horn). 경계고랑(sulcus limitans)이 둘을 구분. 척수는 태아기에 척주보다 짧아져 conus medullaris가 성인에서 L1-L2에 위치.",
     "difficulty": 2,
     "source": "yama"
   },
@@ -4756,7 +4756,7 @@
     "topic_id": "head_2",
     "front_ko": "CN VII (Facial)의 특징은? (CN V (Trigeminal)와 비교하여)",
     "front_en": "CN VII (Facial)",
-    "back": "V=감각+저작근, VII=표정근+미각(전2/3)+타액선. V3와 VII 모두 귀 주변 지나감",
+    "back": "CN VII (Facial nerve) 분지 상세: Stylomastoid foramen 나온 후 이하선 관통 -> 5개 말단분지: Temporal(이마), Zygomatic(눈), Buccal(볼/윗입술), Marginal mandibular(아랫입술), Cervical(platysma). 'To Zanzibar By Motor Car' 암기법.",
     "difficulty": 2,
     "source": "confusion_pair"
   },
@@ -4774,7 +4774,7 @@
     "topic_id": "head_2",
     "front_ko": "CN X (Vagus)의 특징은? (CN IX (Glossopharyngeal)와 비교하여)",
     "front_en": "CN X (Vagus)",
-    "back": "IX=인두 감각+이하선+경동맥체, X=인두/후두 운동+부교감. 둘 다 경정맥공 통과",
+    "back": "CN X 경부/흉부/복부 경로: 경부 - pharyngeal branch(인두 운동), superior laryngeal n., recurrent laryngeal n. 흉부 - cardiac branches, pulmonary branches, esophageal plexus. 복부 - anterior/posterior vagal trunk -> celiac/mesenteric plexus.",
     "difficulty": 2,
     "source": "confusion_pair"
   },
@@ -4792,7 +4792,7 @@
     "topic_id": "head_2",
     "front_ko": "CN IV (Trochlear)의 특징은? (CN III (Oculomotor)와 비교하여)",
     "front_en": "CN IV (Trochlear)",
-    "back": "III=대부분 외안근+동공수축, IV=상사근만(SO4). III=상안와틈새, IV도 상안와틈새지만 유일한 배측 출현",
+    "back": "CN IV 해부학적 특징 4가지: (1) 가장 가는 뇌신경(약 2,400개 축삭), (2) 유일한 배측 출현(dorsal exit), (3) 가장 긴 두개내 주행(약 75mm), (4) 반대측 지배. 이러한 특징으로 두부외상 시 CN IV가 가장 취약한 안구운동 신경.",
     "difficulty": 2,
     "source": "confusion_pair"
   },
@@ -4810,7 +4810,7 @@
     "topic_id": "head_2",
     "front_ko": "CN XII (Hypoglossal)의 특징은? (CN XI (Accessory)와 비교하여)",
     "front_en": "CN XII (Hypoglossal)",
-    "back": "XI=SCM+Trapezius, XII=혀 근육. XI=경정맥공, XII=설하신경관",
+    "back": "CN XII (Hypoglossal nerve) 특징: 순수 운동신경으로 혀의 내근(종근/횡근/수직근)과 외근(genioglossus, hyoglossus, styloglossus) 지배. Palatoglossus는 CN X가 지배하므로 제외. Hypoglossal canal 통과. 손상 시 혀가 병변측으로 편위.",
     "difficulty": 2,
     "source": "confusion_pair"
   },
@@ -4828,7 +4828,7 @@
     "topic_id": "cns_gross_1",
     "front_ko": "Corticobulbar tract의 특징은? (Corticospinal tract와 비교하여)",
     "front_en": "Corticobulbar tract",
-    "back": "Spinal=사지/몸통 수의운동(연수 교차), Bulbar=뇌신경 운동핵으로(양측지배 많음)",
+    "back": "Corticobulbar tract 특징: 대뇌피질에서 뇌간 운동핵(CN V, VII, IX, X, XI, XII)으로 직접 투사. 대부분의 뇌신경핵은 양측 지배를 받으나, CN VII 하부핵과 CN XII 핵은 주로 반대측 지배 -> 일측 UMN 병변 시 반대측 하안면 마비와 혀 편위.",
     "difficulty": 2,
     "source": "confusion_pair"
   },
@@ -4846,7 +4846,7 @@
     "topic_id": "cns_gross_1",
     "front_ko": "Spinothalamic tract의 특징은? (Dorsal column pathway와 비교하여)",
     "front_en": "Spinothalamic tract",
-    "back": "Dorsal=촉각+고유감각+진동(동측→연수교차), Spinothalamic=통각+온도(척수서 교차)",
+    "back": "Spinothalamic tract 특징: 통각(pain), 온도(temperature), 조촉각(crude touch) 전달. 척수에서 교차하여 반대측 상행. 1차 뉴런은 DRG, 2차는 척수 후각(lamina I, V)에서 시작. Brown-Sequard syndrome에서 병변 반대측 통각/온도 소실의 근거.",
     "difficulty": 2,
     "source": "confusion_pair"
   },
@@ -4864,7 +4864,7 @@
     "topic_id": "cns_gross_1",
     "front_ko": "LMN lesion의 특징은? (UMN lesion와 비교하여)",
     "front_en": "LMN lesion",
-    "back": "UMN=경직마비+반사항진+바빈스키+, LMN=이완마비+반사감소+근위축+섬유속연축",
+    "back": "LMN lesion 특징 상세: alpha motor neuron 자체 손상. 이완성 마비(flaccid), 근위축, 근속성연축(fasciculation, denervation에 의한 자발적 수축), 반사소실/저하, Babinski(-). 원인: poliomyelitis, ALS(LMN+UMN 동시), Guillain-Barre syndrome, 말초신경 손상.",
     "difficulty": 2,
     "source": "confusion_pair"
   },
@@ -4882,7 +4882,7 @@
     "topic_id": "head_2",
     "front_ko": "External carotid a.의 특징은? (Internal carotid a.와 비교하여)",
     "front_en": "External carotid a.",
-    "back": "Internal=뇌+안구(가지없이 올라감), External=얼굴+두피(8개 가지)",
+    "back": "External carotid artery 분지와 공급영역: 8개 분지(SALF OPMS) - 두피, 얼굴 표면, 인두, 후두, 갑상선, 경막(middle meningeal a. via maxillary a.). Ligation 시 풍부한 문합(anastomosis)으로 측부순환 가능. Facial a.는 angular a.로 이어져 ophthalmic a.와 문합.",
     "difficulty": 2,
     "source": "confusion_pair"
   },
@@ -4900,7 +4900,7 @@
     "topic_id": "cns_gross_1",
     "front_ko": "Anterior cerebral a.의 특징은? (Middle cerebral a.와 비교하여)",
     "front_en": "Anterior cerebral a.",
-    "back": "MCA=외측면(운동/감각 팔/얼굴, Broca/Wernicke), ACA=내측면(운동/감각 다리)",
+    "back": "Anterior cerebral artery 특징: 대뇌반구 내측면(medial surface) 혈액공급. 하지 운동/감각피질(SMA 내측, paracentral lobule) 관류. ACA 경색 시 반대측 하지 마비, abulia(무의욕). Heubner's artery -> caudate head+anterior limb of internal capsule 공급.",
     "difficulty": 2,
     "source": "confusion_pair"
   },
@@ -4918,7 +4918,7 @@
     "topic_id": "cns_gross_1",
     "front_ko": "Basilar a.의 특징은? (Vertebral a.와 비교하여)",
     "front_en": "Basilar a.",
-    "back": "Vertebral=PICA+전척수동맥, Basilar=AICA+SCA+PCA. Vertebral 합쳐서 Basilar",
+    "back": "Basilar artery 분지와 영역: AICA(전하소뇌동맥) -> 소뇌 하면/교뇌 외측, SCA(상소뇌동맥) -> 소뇌 상면/치아핵, PCA(후대뇌동맥) -> 후두엽/측두엽 내면. Basilar artery thrombosis -> locked-in syndrome(의식은 있으나 수직 안구운동+눈깜빡만 가능).",
     "difficulty": 2,
     "source": "confusion_pair"
   },
@@ -4936,7 +4936,7 @@
     "topic_id": "neck",
     "front_ko": "Posterior triangle의 특징은? (Anterior triangle와 비교하여)",
     "front_en": "Posterior triangle",
-    "back": "전삼각=SCM전방(경동맥,뇌신경), 후삼각=SCM후방(부신경,상완신경총,쇄골하동맥)",
+    "back": "Posterior triangle 내용물: 경부신경총(cervical plexus, C1-C4), 상완신경총(brachial plexus, C5-T1) 일부, 부신경(CN XI, 표재), 쇄골하동맥(subclavian a.) 제3부분, 외경정맥(EJV). 후삼각 림프절 생검 시 부신경(CN XI) 손상 주의.",
     "difficulty": 2,
     "source": "confusion_pair"
   },
@@ -4954,7 +4954,7 @@
     "topic_id": "cns_gross_1",
     "front_ko": "Parasympathetic의 특징은? (Sympathetic와 비교하여)",
     "front_en": "Parasympathetic",
-    "back": "교감=T1-L2, 짧은절전+긴절후, fight/flight. 부교감=CN III,VII,IX,X+S2-4, 긴절전+짧은절후, rest/digest",
+    "back": "부교감신경 특징 상세: 두개천골계(craniosacral) - CN III(동공축소/조절), VII(누선+악하선/설하선), IX(이하선), X(흉복부 장기) + S2-S4(골반 장기). 긴 절전섬유+짧은 절후섬유. ACh/muscarinic receptor. Rest-and-digest 반응: 심박 감소, 소화 촉진, 동공축소.",
     "difficulty": 2,
     "source": "confusion_pair"
   },
@@ -4972,7 +4972,7 @@
     "topic_id": "head_2",
     "front_ko": "Foramen ovale의 특징은? (Foramen rotundum와 비교하여)",
     "front_en": "Foramen ovale",
-    "back": "Rotundum=V2(상악신경), Ovale=V3(하악신경). 둘 다 중두개와→익구개와/측두하와",
+    "back": "Foramen ovale 특징: 중두개와(middle cranial fossa) 바닥, 접형골 대익(greater wing of sphenoid)에 위치. V3(mandibular nerve, 감각+운동)과 accessory meningeal artery 통과. Lesser petrosal nerve(CN IX 부교감)도 통과하여 otic ganglion에 도달.",
     "difficulty": 2,
     "source": "confusion_pair"
   },
@@ -4990,7 +4990,7 @@
     "topic_id": "head_2",
     "front_ko": "Inferior orbital fissure의 특징은? (Superior orbital fissure와 비교하여)",
     "front_en": "Inferior orbital fissure",
-    "back": "SOF=CN III,IV,V1,VI+안정맥, IOF=V2+하안정맥. SOF=중두개와↔안와, IOF=익구개와↔안와",
+    "back": "Inferior orbital fissure 특징: 안와 바닥, maxilla와 sphenoid 사이에 위치. V2(maxillary nerve)의 분지인 infraorbital nerve와 zygomatic nerve, 하안정맥(inferior ophthalmic vein)이 통과. 익구개와(pterygopalatine fossa)와 측두하와(infratemporal fossa)를 안와와 연결.",
     "difficulty": 2,
     "source": "confusion_pair"
   },
@@ -5008,7 +5008,7 @@
     "topic_id": "cns_gross_1",
     "front_ko": "Wernicke area의 특징은? (Broca area와 비교하여)",
     "front_en": "Wernicke area",
-    "back": "Broca=전두엽(44,45)=운동실어증(비유창), Wernicke=측두엽(22)=감각실어증(유창하지만 무의미)",
+    "back": "Wernicke area 특징: 좌측 상측두이랑(STG) 후부, Brodmann area 22. 언어 이해(comprehension)의 중추. 손상 시 유창실어증(fluent/receptive aphasia) - 유창하게 말하나 의미 없는 발화(jargon, neologism, paraphasia). 청각연합피질과 연결.",
     "difficulty": 2,
     "source": "confusion_pair"
   },
@@ -5026,7 +5026,7 @@
     "topic_id": "ear_pharynx_larynx",
     "front_ko": "Superior laryngeal n.의 특징은? (Recurrent laryngeal n.와 비교하여)",
     "front_en": "Superior laryngeal n.",
-    "back": "RLN(=inferior)=후두 대부분 운동+성문하 감각, SLN 외지=윤상갑상근, SLN 내지=성문상 감각",
+    "back": "Superior laryngeal nerve 특징: CN X에서 분지. 외분지(external branch) -> cricothyroid muscle 지배(유일한 후두 내근 중 RLN이 아닌 SLN 지배), 성대 긴장도/음고 조절. 내분지(internal branch) -> 후두 상부(성문 위) 점막 감각. 갑상선 수술 시 외분지 손상 -> 고음 발성 장애.",
     "difficulty": 2,
     "source": "confusion_pair"
   },
