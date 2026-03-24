@@ -5457,11 +5457,12 @@ const DB = (function() {
     return { score: rawScore, margin: margin, confidence: confidence };
   }
 
-  function getReadinessLabel(score) {
-    if (score < 50) return { text: '더 연습하기', cls: 'db-readiness-bad' };
-    if (score < 65) return { text: '복습필요', cls: 'db-readiness-low' };
-    if (score < 80) return { text: '거의준비됨', cls: 'db-readiness-mid' };
-    if (score < 90) return { text: '준비완료', cls: 'db-readiness-high' };
+  function getReadinessLabel(score, hasData) {
+    if (!hasData) return { text: '시작해볼까요?', cls: 'db-readiness-mid' };
+    if (score < 50) return { text: '성장 중', cls: 'db-readiness-low' };
+    if (score < 65) return { text: '잘 하고 있어요', cls: 'db-readiness-mid' };
+    if (score < 80) return { text: '거의 다 왔어요', cls: 'db-readiness-mid' };
+    if (score < 90) return { text: '준비 완료', cls: 'db-readiness-high' };
     return { text: '완벽', cls: 'db-readiness-perfect' };
   }
 
@@ -5539,17 +5540,19 @@ const DB = (function() {
   // --- Render score predictor ---
   function renderScorePredictor() {
     var pred = predictScore();
-    if (pred.confidence === 0) {
-      $('dbScoreBig').textContent = '--';
-      $('dbScoreRange').textContent = '아직 데이터가 부족합니다';
-      $('dbScoreReadiness').innerHTML = '';
+    var hasData = pred.confidence > 0;
+    if (!hasData) {
+      $('dbScoreBig').textContent = '';
+      $('dbScoreRange').textContent = '문제를 풀면 예상 점수가 나와요';
+      var r0 = getReadinessLabel(0, false);
+      $('dbScoreReadiness').innerHTML = '<span class="db-score-readiness ' + r0.cls + '">' + r0.text + '</span>';
       $('dbConfidenceFill').style.width = '0%';
       return;
     }
 
     $('dbScoreBig').textContent = pred.score + '점';
     $('dbScoreRange').textContent = '(\u00B1' + pred.margin + ')';
-    var readiness = getReadinessLabel(pred.score);
+    var readiness = getReadinessLabel(pred.score, true);
     $('dbScoreReadiness').innerHTML = '<span class="db-score-readiness ' + readiness.cls + '">' + readiness.text + '</span>';
     $('dbConfidenceFill').style.width = pred.confidence + '%';
   }
