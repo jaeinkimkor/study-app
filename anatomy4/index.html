@@ -694,6 +694,62 @@ input[type="checkbox"]{
 }
 .ai-score-num{font-weight:700;color:var(--accent)}
 
+/* Study mode */
+.ai-study-wrap{display:none}
+.ai-study-wrap.show{display:block}
+.ai-study-card{
+  background:var(--card);border:1px solid var(--card-border);
+  border-radius:var(--radius);overflow:hidden;margin-bottom:16px;
+  box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+.ai-study-card img{
+  width:100%;max-height:55vh;object-fit:contain;display:block;
+  background:var(--bg3);cursor:pointer;
+}
+.ai-study-info{padding:14px 16px}
+.ai-study-label{
+  font-size:1.05rem;font-weight:700;color:var(--text);margin-bottom:8px;
+  line-height:1.4;
+}
+.ai-study-structures{
+  display:flex;flex-wrap:wrap;gap:6px;margin-top:8px;
+}
+.ai-study-tag{
+  font-size:.75rem;font-weight:600;
+  padding:4px 10px;border-radius:16px;
+  background:var(--accent-glow);color:var(--accent);
+  border:1px solid rgba(13,148,136,.25);
+}
+.ai-study-nav{
+  display:flex;justify-content:space-between;align-items:center;
+  margin-bottom:12px;gap:8px;
+}
+.ai-study-counter{
+  font-size:.85rem;font-weight:700;color:var(--text2);
+}
+.ai-study-nav-btn{
+  padding:10px 20px;border-radius:10px;font-size:.88rem;font-weight:600;
+  background:var(--accent);color:#fff;border:none;cursor:pointer;
+  min-height:44px;transition:all .15s;
+}
+.ai-study-nav-btn:disabled{opacity:.3;cursor:not-allowed}
+.ai-study-nav-btn:active:not(:disabled){transform:scale(.96)}
+.ai-study-badge{
+  display:inline-block;font-size:.7rem;font-weight:700;
+  padding:3px 10px;border-radius:16px;margin-bottom:8px;
+  background:rgba(13,148,136,.12);color:var(--accent);
+}
+.ai-study-filename{
+  font-size:.72rem;color:var(--text3);margin-top:6px;
+}
+
+/* Image label display under quiz image */
+.ai-img-label{
+  font-size:.82rem;font-weight:600;color:var(--accent);
+  text-align:center;margin:6px 0 4px;line-height:1.4;
+  min-height:1.4em;
+}
+
 /* Responsive gallery grid */
 @media(min-width:480px){
   .ai-gallery-grid{grid-template-columns:repeat(3,1fr)}
@@ -1717,8 +1773,9 @@ input[type="checkbox"]{
 
         <!-- Mode buttons -->
         <div class="ai-mode-row">
-          <button class="ai-mode-btn active" id="aiModeQuiz" onclick="AI.setMode('quiz')">&#127919; 퀴즈 모드</button>
-          <button class="ai-mode-btn" id="aiModeGallery" onclick="AI.setMode('gallery')">&#128444; 갤러리 모드</button>
+          <button class="ai-mode-btn active" id="aiModeQuiz" onclick="AI.setMode('quiz')">&#127919; 퀴즈</button>
+          <button class="ai-mode-btn" id="aiModeGallery" onclick="AI.setMode('gallery')">&#128444; 갤러리</button>
+          <button class="ai-mode-btn" id="aiModeStudy" onclick="AI.setMode('study')">&#128214; 공부</button>
         </div>
       </div>
 
@@ -1795,6 +1852,31 @@ input[type="checkbox"]{
         <button class="ai-back-btn" onclick="AI.backToCategories()">&larr; 카테고리</button>
         <div class="section-header" id="aiGalleryTitle">&#128444; 갤러리</div>
         <div class="ai-gallery-grid" id="aiGalleryGrid"></div>
+      </div>
+
+      <!-- Study view -->
+      <div class="ai-study-wrap" id="aiStudyView">
+        <button class="ai-back-btn" onclick="AI.backToCategories()">&larr; 카테고리</button>
+        <div class="section-header" id="aiStudyTitle">&#128214; 공부 모드</div>
+        <div class="ai-study-nav">
+          <button class="ai-study-nav-btn" id="aiStudyPrev" onclick="AI.studyNavigate(-1)">&larr; 이전</button>
+          <span class="ai-study-counter" id="aiStudyCounter">1/31</span>
+          <button class="ai-study-nav-btn" id="aiStudyNext" onclick="AI.studyNavigate(1)">다음 &rarr;</button>
+        </div>
+        <div class="ai-study-card" id="aiStudyCard">
+          <img id="aiStudyImg" alt="공부 이미지" loading="lazy" onclick="AI.openStudyImage()">
+          <div class="ai-study-info">
+            <span class="ai-study-badge" id="aiStudyBadge"></span>
+            <div class="ai-study-label" id="aiStudyLabel"></div>
+            <div class="ai-study-structures" id="aiStudyStructures"></div>
+            <div class="ai-study-filename" id="aiStudyFilename"></div>
+          </div>
+        </div>
+        <div class="ai-study-nav" style="margin-top:4px">
+          <button class="ai-study-nav-btn" onclick="AI.studyNavigate(-1)">&larr; 이전</button>
+          <span class="ai-study-counter" id="aiStudyCounter2">1/31</span>
+          <button class="ai-study-nav-btn" onclick="AI.studyNavigate(1)">다음 &rarr;</button>
+        </div>
       </div>
     </div>
   </div>
@@ -2932,11 +3014,20 @@ const AI = (function() {
     '근육도판': { folder: 'muscle', label: '근육도판', icon: '\u{1F4AA}' }
   };
 
+  // Category key to image_labels.json key mapping
+  const LABEL_KEY_MAP = {
+    '신경해부': 'neuro',
+    '입체모형_BS22': 'bs22',
+    '입체모형_BS5': 'bs5',
+    '근육도판': 'muscle'
+  };
+
   // --- State ---
   let allImages = [];
   let filteredImages = [];
   let currentIdx = 0;
-  let mode = 'quiz'; // 'quiz' | 'gallery'
+  let studyIdx = 0;
+  let mode = 'quiz'; // 'quiz' | 'gallery' | 'study'
   let inputMode = 'choice'; // 'choice' | 'free'
   let selectedCategory = null;
   let timerSeconds = 0;
@@ -2949,11 +3040,22 @@ const AI = (function() {
   let answerRevealed = false;
   let lazyObserver = null;
   let autoAdvanceTimer = null;
+  let imageLabels = null; // loaded from image_labels.json
 
   const $ = id => document.getElementById(id);
 
+  // --- Get label data for an image from image_labels.json ---
+  function getLabelData(img) {
+    if (!imageLabels) return null;
+    var labelKey = LABEL_KEY_MAP[img.category];
+    if (!labelKey || !imageLabels[labelKey]) return null;
+    return imageLabels[labelKey][img.filename] || null;
+  }
+
   // --- Display name for an image ---
   function getDisplayName(img, index) {
+    var ld = getLabelData(img);
+    if (ld && ld.label) return ld.label;
     const cat = CATEGORY_MAP[img.category];
     const label = cat ? cat.label : img.category;
     return label + ' #' + (index + 1);
@@ -2988,6 +3090,14 @@ const AI = (function() {
       const data = await loadData('anatomy_images.json');
       if (!data || !Array.isArray(data)) throw new Error('Invalid data');
       allImages = data;
+
+      // Load image labels
+      try {
+        imageLabels = await loadData('image_labels.json');
+      } catch (e) {
+        console.warn('image_labels.json not loaded:', e);
+        imageLabels = null;
+      }
 
       // Update counts
       const counts = {};
@@ -3147,8 +3257,10 @@ const AI = (function() {
     // Show appropriate view
     if (mode === 'quiz') {
       showQuizView();
-    } else {
+    } else if (mode === 'gallery') {
       showGalleryView();
+    } else if (mode === 'study') {
+      showStudyView();
     }
   }
 
@@ -3157,10 +3269,12 @@ const AI = (function() {
     mode = m;
     $('aiModeQuiz').classList.toggle('active', m === 'quiz');
     $('aiModeGallery').classList.toggle('active', m === 'gallery');
+    $('aiModeStudy').classList.toggle('active', m === 'study');
 
     if (selectedCategory) {
       if (m === 'quiz') showQuizView();
-      else showGalleryView();
+      else if (m === 'gallery') showGalleryView();
+      else if (m === 'study') showStudyView();
     }
   }
 
@@ -3169,6 +3283,7 @@ const AI = (function() {
     $('aiCategoryView').style.display = 'none';
     $('aiQuizView').classList.add('show');
     $('aiGalleryView').classList.remove('show');
+    $('aiStudyView').classList.remove('show');
     renderQuiz();
   }
 
@@ -3177,7 +3292,18 @@ const AI = (function() {
     $('aiCategoryView').style.display = 'none';
     $('aiQuizView').classList.remove('show');
     $('aiGalleryView').classList.add('show');
+    $('aiStudyView').classList.remove('show');
     renderGallery();
+  }
+
+  // --- Show study view ---
+  function showStudyView() {
+    $('aiCategoryView').style.display = 'none';
+    $('aiQuizView').classList.remove('show');
+    $('aiGalleryView').classList.remove('show');
+    $('aiStudyView').classList.add('show');
+    studyIdx = 0;
+    renderStudy();
   }
 
   // --- Back to categories ---
@@ -3186,6 +3312,7 @@ const AI = (function() {
     $('aiCategoryView').style.display = '';
     $('aiQuizView').classList.remove('show');
     $('aiGalleryView').classList.remove('show');
+    $('aiStudyView').classList.remove('show');
     selectedCategory = null;
     document.querySelectorAll('.ai-cat-card').forEach(function(c) { c.classList.remove('active'); });
   }
@@ -3638,6 +3765,112 @@ const AI = (function() {
     attachSwipe();
   })();
 
+  // --- Render study ---
+  function renderStudy() {
+    if (filteredImages.length === 0) return;
+    var img = filteredImages[studyIdx];
+    var path = getImagePath(img);
+    var displayName = getDisplayName(img, studyIdx);
+    var catLabel = getCategoryLabel(img.category);
+    var ld = getLabelData(img);
+
+    // Image
+    $('aiStudyImg').src = path;
+    $('aiStudyImg').alt = displayName;
+
+    // Badge
+    $('aiStudyBadge').textContent = catLabel;
+
+    // Label
+    $('aiStudyLabel').textContent = displayName;
+
+    // Structures
+    var structEl = $('aiStudyStructures');
+    structEl.innerHTML = '';
+    if (ld && ld.structures && ld.structures.length > 0) {
+      ld.structures.forEach(function(s) {
+        var tag = document.createElement('span');
+        tag.className = 'ai-study-tag';
+        tag.textContent = s;
+        structEl.appendChild(tag);
+      });
+    }
+
+    // Filename
+    $('aiStudyFilename').textContent = img.filename;
+
+    // Counter
+    var counterText = (studyIdx + 1) + '/' + filteredImages.length;
+    $('aiStudyCounter').textContent = counterText;
+    $('aiStudyCounter2').textContent = counterText;
+
+    // Nav
+    $('aiStudyPrev').disabled = studyIdx <= 0;
+    $('aiStudyNext').disabled = studyIdx >= filteredImages.length - 1;
+
+    // Title
+    var titleCat = selectedCategory === 'all' ? '전체' : catLabel;
+    $('aiStudyTitle').innerHTML = '&#128214; 공부 모드 - ' + titleCat;
+
+    // Preload next
+    if (studyIdx + 1 < filteredImages.length) {
+      var preImg = new Image();
+      preImg.src = getImagePath(filteredImages[studyIdx + 1]);
+    }
+  }
+
+  // --- Study navigate ---
+  function studyNavigate(dir) {
+    var newIdx = studyIdx + dir;
+    if (newIdx < 0 || newIdx >= filteredImages.length) return;
+    studyIdx = newIdx;
+    renderStudy();
+    var main = document.getElementById('mainContent');
+    if (main) main.scrollTop = 0;
+  }
+
+  // --- Open study image in full-screen viewer ---
+  function openStudyImage() {
+    var images = filteredImages.map(function(img) { return getImagePath(img); });
+    viewerImages = images;
+    viewerIdx = studyIdx;
+    var viewer = document.getElementById('imgViewer');
+    var imgEl = document.getElementById('imgViewerImg');
+    var lbl = document.getElementById('imgViewerLabel');
+    imgEl.style.pointerEvents = 'auto';
+    imgEl.style.touchAction = 'pinch-zoom';
+    imgEl.src = images[studyIdx];
+    var displayName = getDisplayName(filteredImages[studyIdx], studyIdx);
+    if (lbl) lbl.textContent = (studyIdx + 1) + ' / ' + images.length + '  ' + displayName;
+    viewer.classList.add('show');
+    document.body.style.overflow = 'hidden';
+    updateViewerNav();
+    window._aiGalleryViewerActive = true;
+  }
+
+  // --- Setup study swipe ---
+  (function setupStudySwipe() {
+    var touchStartX = 0;
+    var touchStartY = 0;
+    function attachSwipe() {
+      var card = $('aiStudyCard');
+      if (!card) { setTimeout(attachSwipe, 200); return; }
+      card.addEventListener('touchstart', function(e) {
+        touchStartX = e.changedTouches[0].clientX;
+        touchStartY = e.changedTouches[0].clientY;
+      }, { passive: true });
+      card.addEventListener('touchend', function(e) {
+        var dx = e.changedTouches[0].clientX - touchStartX;
+        var dy = e.changedTouches[0].clientY - touchStartY;
+        if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 60) {
+          if (dx < 0) studyNavigate(1);
+          else studyNavigate(-1);
+        }
+      }, { passive: true });
+    }
+    attachSwipe();
+  })();
+
   // --- Public API ---
   return {
     init: init,
@@ -3651,7 +3884,10 @@ const AI = (function() {
     revealAnswer: revealAnswer,
     submitFreeInput: submitFreeInput,
     openFullImage: openFullImage,
-    _getFilteredImages: function() { return filteredImages; }
+    studyNavigate: studyNavigate,
+    openStudyImage: openStudyImage,
+    _getFilteredImages: function() { return filteredImages; },
+    _getLabelData: getLabelData
   };
 })();
 
@@ -3669,7 +3905,10 @@ const AI = (function() {
     if (window._aiGalleryViewerActive && AI._getFilteredImages) {
       var fi = AI._getFilteredImages();
       if (fi && fi[viewerIdx]) {
-        lbl.textContent = (viewerIdx + 1) + ' / ' + viewerImages.length;
+        var cat = fi[viewerIdx].category;
+        var ld = AI._getLabelData ? AI._getLabelData(fi[viewerIdx]) : null;
+        var displayLabel = ld && ld.label ? ld.label : (cat + ' #' + (viewerIdx + 1));
+        lbl.textContent = (viewerIdx + 1) + ' / ' + viewerImages.length + '  ' + displayLabel;
       } else {
         lbl.textContent = (viewerIdx + 1) + ' / ' + viewerImages.length;
       }
