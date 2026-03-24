@@ -800,6 +800,120 @@ input[type="checkbox"]{
   line-height:1.7;font-size:.88rem;white-space:pre-line;
 }
 
+/* ===== Study Card (Enhanced 공부 모드) ===== */
+.study-card{
+  display:flex;flex-direction:column;gap:0;
+  margin-top:12px;animation:fadeIn .3s;
+}
+.study-card > div{
+  padding:14px 16px;
+  font-size:1rem;line-height:1.75;
+  border-left:4px solid transparent;
+}
+.study-card .study-answer{
+  background:rgba(16,185,129,.08);
+  border-left-color:var(--success);
+  border-radius:var(--radius) var(--radius) 0 0;
+  font-weight:700;color:#065f46;font-size:1.05rem;
+}
+.study-card .study-jjalgi{
+  display:inline-block;
+  background:#fef3c7;color:#92400e;
+  font-size:.78rem;font-weight:700;
+  padding:3px 10px;border-radius:20px;
+  margin-bottom:8px;
+}
+.study-card .study-why{
+  background:rgba(13,148,136,.05);
+  border-left-color:var(--accent);
+  white-space:pre-line;
+}
+.study-card .study-why strong{
+  display:block;color:var(--accent);font-size:.88rem;
+  margin-bottom:6px;letter-spacing:-.01em;
+}
+.study-card .study-wrong{
+  background:rgba(239,68,68,.04);
+  border-left-color:var(--danger);
+  white-space:pre-line;
+}
+.study-card .study-wrong strong{
+  display:block;color:var(--danger);font-size:.88rem;
+  margin-bottom:6px;
+}
+.study-card .study-wrong .wrong-item{
+  display:block;padding:4px 0;
+  color:var(--text2);font-size:.92rem;
+}
+.study-card .study-wrong .wrong-item::before{
+  content:'\2717 ';color:var(--danger);font-weight:700;
+}
+.study-card .study-tip{
+  background:#f0fdf4;
+  border-left-color:#86efac;
+  border-radius:0 0 0 0;
+  font-size:.93rem;
+}
+.study-card .study-tip strong{
+  display:block;color:#15803d;font-size:.88rem;margin-bottom:4px;
+}
+.study-card .study-related{
+  background:rgba(59,130,246,.05);
+  border-left-color:var(--info);
+  border-radius:0 0 var(--radius) var(--radius);
+  font-size:.9rem;color:var(--text2);
+}
+.study-card .study-related strong{
+  color:var(--info);
+}
+
+/* Study mode topic progress indicator */
+.study-topic-progress{
+  display:flex;align-items:center;gap:8px;
+  margin-top:10px;padding:8px 14px;
+  background:var(--bg);border-radius:var(--radius);
+  font-size:.82rem;color:var(--text2);
+}
+.study-topic-progress-bar{
+  flex:1;height:6px;background:var(--bg3);border-radius:3px;overflow:hidden;
+}
+.study-topic-progress-fill{
+  height:100%;background:var(--accent);border-radius:3px;transition:width .3s;
+}
+
+/* Study mode navigation buttons */
+.study-nav{
+  display:flex;flex-direction:column;gap:8px;margin-top:14px;
+}
+.study-nav-main{
+  width:100%;padding:14px 20px;
+  font-size:1.05rem;font-weight:700;
+  background:var(--accent);color:#fff;
+  border:none;border-radius:var(--radius);
+  cursor:pointer;transition:all .15s;
+  display:flex;align-items:center;justify-content:center;gap:8px;
+}
+.study-nav-main:hover{background:var(--accent-light);transform:translateY(-1px)}
+.study-nav-main:active{transform:translateY(0)}
+.study-nav-main:disabled{opacity:.4;cursor:not-allowed;transform:none}
+.study-nav-row{
+  display:flex;gap:8px;
+}
+.study-nav-secondary{
+  flex:1;padding:10px 14px;
+  font-size:.88rem;font-weight:600;
+  background:var(--bg);color:var(--text2);
+  border:1px solid var(--card-border);border-radius:var(--radius);
+  cursor:pointer;transition:all .15s;
+  display:flex;align-items:center;justify-content:center;gap:6px;
+}
+.study-nav-secondary:hover{background:var(--bg3);color:var(--text)}
+
+/* Hide default nav in study mode, show study nav */
+.qm-nav.study-hidden{display:none}
+.study-nav.study-visible{display:flex}
+.study-nav.study-hidden-nav{display:none}
+
 /* ===== Mnemonic Tips ===== */
 .mnemonic-modal{
   position:fixed;inset:0;z-index:250;background:rgba(0,0,0,.6);
@@ -1816,10 +1930,19 @@ input[type="checkbox"]{
             <div class="qm-choices" id="qmChoices"></div>
             <div class="qm-explanation" id="qmExplanation"></div>
           </div>
-          <!-- Navigation -->
-          <div class="qm-nav">
+          <!-- Navigation (quiz mode) -->
+          <div class="qm-nav" id="qmNavDefault">
             <button class="btn btn-outline" id="qmPrev" onclick="QM.navigate(-1)">&larr; 이전</button>
             <button class="btn btn-primary" id="qmNext" onclick="QM.navigate(1)">다음 &rarr;</button>
+          </div>
+          <!-- Navigation (study mode - enhanced) -->
+          <div class="study-nav study-hidden-nav" id="qmNavStudy">
+            <div class="study-topic-progress" id="qmStudyTopicProgress"></div>
+            <button class="study-nav-main" id="qmStudyNext" onclick="QM.navigate(1)">다음 문제 &#8594;</button>
+            <div class="study-nav-row">
+              <button class="study-nav-secondary" id="qmStudyPrev" onclick="QM.navigate(-1)">&#8592; 이전</button>
+              <button class="study-nav-secondary" id="qmStudyTopicBtn" onclick="QM.filterByTopic()">&#128218; 이 토픽 더 보기</button>
+            </div>
           </div>
         </div>
       </div>
@@ -2899,18 +3022,50 @@ const QM = (function() {
     // Explanation
     const explEl = $('qmExplanation');
     if (studyMode && q.explanation) {
-      // Study mode: always show explanation
-      explEl.textContent = q.explanation;
+      // Study mode: build structured study card
+      explEl.innerHTML = buildStudyCard(q, correctIdx);
       explEl.className = 'qm-study-explanation';
+      explEl.style.background = 'none';
+      explEl.style.border = 'none';
+      explEl.style.padding = '0';
+    } else if (studyMode && !q.explanation) {
+      // Study mode but no explanation
+      var correctText = q.choices[correctIdx] ? q.choices[correctIdx].replace(/^\d+\)\s*/, '') : '';
+      explEl.innerHTML = '<div class="study-card"><div class="study-answer">\u2705 \uc815\ub2f5: ' + (correctIdx + 1) + '\ubc88 - ' + escapeHTML(correctText) + '</div><div class="study-tip"><strong>\ud83d\udca1 \uc548\ub0b4</strong>\uc774 \ubb38\uc81c\ub294 \uc544\uc9c1 \ud574\uc124\uc774 \uc5c6\uc2b5\ub2c8\ub2e4.</div></div>';
+      explEl.className = 'qm-study-explanation';
+      explEl.style.background = 'none';
+      explEl.style.border = 'none';
+      explEl.style.padding = '0';
     } else if (wasAnswered && q.explanation) {
       explEl.textContent = q.explanation;
       explEl.className = 'qm-explanation show';
+      explEl.style.background = '';
+      explEl.style.border = '';
+      explEl.style.padding = '';
     } else {
       explEl.textContent = '';
       explEl.className = 'qm-explanation';
+      explEl.style.background = '';
+      explEl.style.border = '';
+      explEl.style.padding = '';
     }
 
-    // Nav buttons
+    // Nav buttons - toggle between default and study nav
+    var navDefault = $('qmNavDefault');
+    var navStudy = $('qmNavStudy');
+    if (studyMode) {
+      navDefault.classList.add('study-hidden');
+      navStudy.classList.remove('study-hidden-nav');
+      navStudy.classList.add('study-visible');
+      $('qmStudyPrev').disabled = currentIndex <= 0;
+      $('qmStudyNext').disabled = currentIndex >= filteredQuestions.length - 1;
+      // Update topic progress
+      updateStudyTopicProgress(q);
+    } else {
+      navDefault.classList.remove('study-hidden');
+      navStudy.classList.add('study-hidden-nav');
+      navStudy.classList.remove('study-visible');
+    }
     $('qmPrev').disabled = currentIndex <= 0;
     $('qmNext').disabled = currentIndex >= filteredQuestions.length - 1;
 
@@ -3136,6 +3291,203 @@ const QM = (function() {
     wrap.innerHTML = html;
   }
 
+  // --- Build structured study card for 공부 모드 ---
+  function buildStudyCard(q, correctIdx) {
+    var expl = q.explanation || '';
+    var correctChoice = q.choices[correctIdx] ? q.choices[correctIdx].replace(/^\d+\)\s*/, '') : '';
+    var html = '<div class="study-card">';
+
+    // Check for 짤기 (frequently tested) badge
+    var hasJjalgi = /짤기/.test(expl);
+
+    // -- 정답 section --
+    html += '<div class="study-answer">';
+    if (hasJjalgi) {
+      html += '<span class="study-jjalgi">\ud83d\udd25 \ube48\ucd9c \ubb38\uc81c</span> ';
+    }
+    html += '\u2705 \uc815\ub2f5: ' + (correctIdx + 1) + '\ubc88 - ' + escapeHTML(correctChoice);
+    html += '</div>';
+
+    // Parse the explanation text into sections
+    var parsed = parseExplanation(expl, q, correctIdx);
+
+    // -- 왜 정답인가 section --
+    if (parsed.why) {
+      html += '<div class="study-why">';
+      html += '<strong>\uc65c \uc815\ub2f5\uc778\uac00:</strong>';
+      html += escapeHTML(parsed.why);
+      html += '</div>';
+    }
+
+    // -- 오답 분석 section --
+    if (parsed.wrongItems.length > 0) {
+      html += '<div class="study-wrong">';
+      html += '<strong>\u274c \uc624\ub2f5 \ubd84\uc11d:</strong>';
+      parsed.wrongItems.forEach(function(item) {
+        html += '<span class="wrong-item">' + escapeHTML(item) + '</span>';
+      });
+      html += '</div>';
+    }
+
+    // -- 암기 팁 / 추가 설명 section --
+    if (parsed.tip) {
+      html += '<div class="study-tip">';
+      html += '<strong>\ud83d\udca1 \uc554\uae30 \ud301:</strong>';
+      html += escapeHTML(parsed.tip);
+      html += '</div>';
+    }
+
+    // -- 관련 토픽 section --
+    html += '<div class="study-related">';
+    html += '<strong>\ud83d\udcda \uad00\ub828 \ud1a0\ud53d:</strong> ';
+    html += escapeHTML(q.topic) + ' | ' + escapeHTML(String(q.year)) + '\ub144 ' + q.question_num + '\ubc88';
+    html += '</div>';
+
+    html += '</div>';
+    return html;
+  }
+
+  // --- Parse explanation text into structured parts ---
+  function parseExplanation(expl, q, correctIdx) {
+    var result = { why: '', wrongItems: [], tip: '' };
+    if (!expl) return result;
+
+    // Clean up: remove leading "짤기!" lines and standalone "해설" headers
+    var cleaned = expl.replace(/^짤기!?\s*/gm, '').trim();
+
+    var lines = cleaned.split('\n');
+    var whyLines = [];
+    var wrongLines = [];
+    var tipLines = [];
+    var currentSection = 'why';
+
+    // All choice numbers and which are wrong
+    var allChoiceNums = q.choices.map(function(c, idx) { return idx + 1; });
+    var correctNum = correctIdx + 1;
+    var wrongChoiceNums = allChoiceNums.filter(function(n) { return n !== correctNum; });
+
+    // Build regex for any choice number at start of line: "1) " or "1. "
+    var anyChoicePattern = new RegExp('^(' + allChoiceNums.join('|') + ')[\\)\\.\\)]\\s');
+    var wrongChoicePattern = new RegExp('^(' + wrongChoiceNums.join('|') + ')[\\)\\.\\)]\\s');
+
+    lines.forEach(function(line) {
+      var trimmed = line.trim();
+      if (!trimmed || trimmed === '\ud574\uc124') {
+        // Empty line or standalone "해설" header - skip
+        return;
+      }
+
+      // Check if line starts with "정답:" or "정답 " - extract remainder as why
+      if (/^정답\s*[:：]/.test(trimmed)) {
+        // Remove "정답: answer_text." prefix - look for first sentence break after answer
+        var afterPrefix = trimmed.replace(/^정답\s*[:：]\s*/, '').trim();
+        // Try to skip the answer name (up to first period followed by space or capital)
+        var sentenceBreak = afterPrefix.match(/^[^.]+\.\s+(.+)/);
+        if (sentenceBreak && sentenceBreak[1].length > 10) {
+          whyLines.push(sentenceBreak[1]);
+        } else if (afterPrefix.length > 5) {
+          whyLines.push(afterPrefix);
+        }
+        currentSection = 'why';
+        return;
+      }
+
+      // Check if it's a numbered choice line (N) or N. format)
+      var numMatch = trimmed.match(/^(\d+)[\)\.]\s/);
+      if (numMatch) {
+        var num = parseInt(numMatch[1]);
+        // Is this one of our choice numbers?
+        if (allChoiceNums.indexOf(num) >= 0) {
+          if (num === correctNum) {
+            // This is the correct answer explanation line - add to why
+            // Remove the number prefix and add it
+            var correctExpl = trimmed.replace(/^\d+[\)\.]\s*/, '').trim();
+            // Remove trailing "정답." or "정답" markers
+            correctExpl = correctExpl.replace(/\s*정답\.?\s*$/, '').trim();
+            if (correctExpl) whyLines.push(correctExpl);
+            currentSection = 'wrong'; // next lines are likely wrong answers
+          } else {
+            // Wrong answer line
+            currentSection = 'wrong';
+            wrongLines.push(trimmed);
+          }
+          return;
+        }
+      }
+
+      // Check for tip-like keywords
+      if (/^[<\[]/.test(trimmed) || /외우|mnemonic|tip|팁|포인트|정리|요약|핵심|주문/i.test(trimmed)) {
+        currentSection = 'tip';
+      }
+
+      // Route to current section
+      if (currentSection === 'why') whyLines.push(trimmed);
+      else if (currentSection === 'wrong') wrongLines.push(trimmed);
+      else tipLines.push(trimmed);
+    });
+
+    // Collapse wrong lines into items (group multi-line per choice)
+    var parsedWrong = [];
+    var currentWrongItem = '';
+    wrongLines.forEach(function(line) {
+      if (!line.trim()) return;
+      var numMatch = line.match(/^(\d+)[\)\.]\s/);
+      if (numMatch) {
+        if (currentWrongItem) parsedWrong.push(currentWrongItem.trim());
+        currentWrongItem = line;
+      } else {
+        currentWrongItem += ' ' + line;
+      }
+    });
+    if (currentWrongItem) parsedWrong.push(currentWrongItem.trim());
+
+    result.why = whyLines.join('\n').trim();
+    result.wrongItems = parsedWrong;
+    result.tip = tipLines.join('\n').trim();
+
+    // If we have no "why" but the whole explanation is short, use it as why
+    if (!result.why && !result.wrongItems.length && !result.tip) {
+      result.why = cleaned;
+    }
+
+    return result;
+  }
+
+  // --- Update study topic progress indicator ---
+  function updateStudyTopicProgress(q) {
+    var el = $('qmStudyTopicProgress');
+    if (!el) return;
+
+    var topic = q.topic;
+    // Count how many questions in current filtered set share this topic
+    var topicQuestions = [];
+    var topicIndex = 0;
+    filteredQuestions.forEach(function(fq, idx) {
+      if (fq.topic === topic) {
+        topicQuestions.push(idx);
+        if (idx === currentIndex) topicIndex = topicQuestions.length;
+      }
+    });
+
+    var total = topicQuestions.length;
+    var pct = total > 0 ? Math.round((topicIndex / total) * 100) : 0;
+
+    el.innerHTML =
+      '<span>\ud83d\udccc ' + escapeHTML(topic) + ' ' + topicIndex + '/' + total + '</span>' +
+      '<div class="study-topic-progress-bar"><div class="study-topic-progress-fill" style="width:' + pct + '%"></div></div>';
+  }
+
+  // --- Filter by current question's topic ---
+  function filterByTopic() {
+    var q = filteredQuestions[currentIndex];
+    if (!q) return;
+    var topicSelect = $('qmTopicFilter');
+    if (topicSelect) {
+      topicSelect.value = q.topic;
+      applyFilters();
+    }
+  }
+
   // --- Set study mode ---
   function setStudyMode(enabled) {
     studyMode = enabled;
@@ -3156,7 +3508,8 @@ const QM = (function() {
     toggleFilter,
     navigate,
     goTo,
-    setStudyMode
+    setStudyMode,
+    filterByTopic
   };
 })();
 

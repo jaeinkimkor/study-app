@@ -1,0 +1,430 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-03-24",
+  "description": "4텀 해부학 비교표 총정리 - 시험 빈출 혼동 주제",
+  "tables": [
+    {
+      "id": "cranial_nerves",
+      "title": "뇌신경 총정리 (CN I-XII)",
+      "title_en": "Cranial Nerves Master Table",
+      "columns": ["번호", "이름 (한/영)", "종류", "통과 구멍 (Foramen)", "핵 위치", "주요 기능", "임상 검사", "부교감 신경절"],
+      "rows": [
+        ["CN I", "후각신경 / Olfactory n.", "감각 (SVA)", "Cribriform plate (사골의 사판)", "Olfactory bulb → Olfactory cortex", "후각 (Smell)", "각 콧구멍에 향 맡기 (눈 감고)", "없음"],
+        ["CN II", "시각신경 / Optic n.", "감각 (SSA)", "Optic canal (시신경관)", "Lateral geniculate body (LGB) → Visual cortex", "시각 (Vision)", "시력검사, 시야검사, 동공반사(구심)", "없음"],
+        ["CN III", "눈돌림신경 / Oculomotor n.", "운동 + 부교감", "Superior orbital fissure (상안와틈새)", "Midbrain (중뇌) - Oculomotor nucleus, Edinger-Westphal nucleus", "외안근 대부분 (SR, IR, MR, IO), 상안검거근 (Levator palpebrae superioris), 동공수축 (Pupil constriction), 조절 (Accommodation)", "안구운동검사, 동공대광반사(원심), H-test", "Ciliary ganglion (섬모체신경절)"],
+        ["CN IV", "도르래신경 / Trochlear n.", "운동 (GSE)", "Superior orbital fissure (상안와틈새)", "Midbrain (중뇌) - Trochlear nucleus (배측에서 출현하는 유일한 뇌신경)", "상사근 (Superior oblique) - 내회전, 하전, 외전", "H-test (내하방 주시), Head tilt test (Bielschowsky test)", "없음"],
+        ["CN V", "삼차신경 / Trigeminal n.", "혼합 (감각 위주 + V3 운동)", "V1: Superior orbital fissure\nV2: Foramen rotundum (정원공)\nV3: Foramen ovale (난원공)", "Pons (교뇌)\n운동핵: Motor nucleus of V\n감각핵: Mesencephalic, Principal sensory, Spinal nucleus of V", "V1 (안신경): 이마, 두피, 상안검, 코등 감각\nV2 (상악신경): 하안검, 뺨, 윗입술, 윗니 감각\nV3 (하악신경): 아랫입술, 아래턱, 아랫니 감각 + 저작근 운동 (Masseter, Temporalis, Medial/Lateral pterygoid, Mylohyoid, Ant. belly of digastric)", "각막반사 (Corneal reflex, 구심), 얼굴 감각검사 (면봉/핀), 저작근 촉진, 하악반사 (Jaw jerk reflex)", "없음 (V3가 Otic ganglion 통과하나 V 자체의 부교감 아님)"],
+        ["CN VI", "외전신경 / Abducens n.", "운동 (GSE)", "Superior orbital fissure (상안와틈새)", "Pons (교뇌) - Abducens nucleus (Facial colliculus 아래)", "외직근 (Lateral rectus) - 외전 (Abduction)", "H-test (외측 주시), 내사시 여부 확인", "없음"],
+        ["CN VII", "얼굴신경 / Facial n.", "혼합 (운동 + 감각 + 부교감)", "Internal acoustic meatus → Facial canal → Stylomastoid foramen (경유돌공)", "Pons (교뇌)\n운동핵: Facial motor nucleus\n감각핵: Nucleus of solitary tract (NST)\n부교감핵: Superior salivatory nucleus", "운동: 표정근 (Muscles of facial expression), 등골근 (Stapedius), 경이복근 후복 (Post. belly of digastric), 경돌설골근 (Stylohyoid)\n감각: 혀 전방 2/3 미각 (Taste, SVA), 귓바퀴 일부 감각\n부교감: 악하선 (Submandibular gl.), 설하선 (Sublingual gl.), 누선 (Lacrimal gl.), 비강/구개 점막선", "이마 주름잡기, 눈 꼭 감기, 볼 부풀리기, 입꼬리 올리기, 미각검사 (전방 2/3)", "Pterygopalatine ganglion (익구개신경절)\nSubmandibular ganglion (악하신경절)"],
+        ["CN VIII", "속귀신경 / Vestibulocochlear n.", "감각 (SSA)", "Internal acoustic meatus (내이도)", "Pons-Medulla junction\nCochlear nuclei (달팽이핵)\nVestibular nuclei (전정핵)", "청각 (Hearing) - Cochlear division\n평형감각 (Balance) - Vestibular division", "Rinne test, Weber test (청각)\nRomberg test, Caloric test, Dix-Hallpike (전정)", "없음"],
+        ["CN IX", "혀인두신경 / Glossopharyngeal n.", "혼합 (감각 + 운동 + 부교감)", "Jugular foramen (경정맥공)", "Medulla (연수)\n운동핵: Nucleus ambiguus\n감각핵: Nucleus of solitary tract (NST), Spinal nucleus of V\n부교감핵: Inferior salivatory nucleus", "운동: 경인두근 (Stylopharyngeus)\n감각: 인두 감각, 혀 후방 1/3 미각 및 일반감각, 고실 (Tympanic cavity), 경동맥체/경동맥동 (Carotid body/sinus)\n부교감: 이하선 (Parotid gland)", "구역반사 (Gag reflex, 구심), 인두 감각 검사", "Otic ganglion (귀신경절)"],
+        ["CN X", "미주신경 / Vagus n.", "혼합 (감각 + 운동 + 부교감)", "Jugular foramen (경정맥공)", "Medulla (연수)\n운동핵: Nucleus ambiguus, Dorsal motor nucleus of vagus\n감각핵: Nucleus of solitary tract (NST), Spinal nucleus of V", "운동: 인두근 (Pharyngeal mm., stylopharyngeus 제외), 후두근 (Laryngeal mm.) 전부, 연구개 (Soft palate, tensor veli palatini 제외)\n감각: 후두, 하인두, 귓바퀴 후면, 외이도 일부 감각, 후두개 미각\n부교감: 흉복강 내장 (심장, 폐, 위장관 - splenic flexure까지)", "구역반사 (Gag reflex, 원심), 발성검사 (Ah!→ 연구개/목젖 관찰), 성대검사 (후두경)", "장기 벽 내 신경절 (Terminal ganglia in organ walls)"],
+        ["CN XI", "더부신경 / Accessory n.", "운동 (SVE)", "Jugular foramen (경정맥공)", "Spinal accessory nucleus (C1-C5/C6 척수)\n* Cranial root는 Nucleus ambiguus에서 기원하나 CN X에 합류", "흉쇄유돌근 (SCM) → 반대쪽 고개 돌리기\n승모근 (Trapezius) → 어깨 으쓱", "SCM: 반대쪽으로 고개 돌리기에 저항\nTrapezius: 어깨 으쓱에 저항", "없음"],
+        ["CN XII", "혀밑신경 / Hypoglossal n.", "운동 (GSE)", "Hypoglossal canal (설하신경관)", "Medulla (연수) - Hypoglossal nucleus", "혀 근육 전부 (Palatoglossus 제외)\n내재근 (Intrinsic mm.): 혀 모양 변경\n외재근 (Extrinsic mm.): Genioglossus, Hyoglossus, Styloglossus", "혀 내밀기 → 병변측으로 편위 (deviation)\n혀 운동 관찰 (위축, 섬유다발수축)", "없음"]
+      ],
+      "notes": [
+        "부교감 섬유 포함 뇌신경: CN III, VII, IX, X (3, 7, 9, 10)",
+        "SVA (특수내장구심) = 미각/후각: CN I, VII, IX, X",
+        "SSA (특수체성구심) = 시각/청각/평형: CN II, VIII",
+        "Nucleus ambiguus에서 기원: CN IX (Stylopharyngeus), X (인두/후두근), XI (Cranial root)",
+        "Jugular foramen 통과: CN IX, X, XI + IJV",
+        "Superior orbital fissure 통과: CN III, IV, V1, VI + Ophthalmic veins",
+        "Cavernous sinus 외측벽: CN III, IV, V1, V2 / 내부: CN VI, ICA"
+      ],
+      "mnemonics": [
+        "Oh Oh Oh To Touch And Feel Very Good Velvet AH! (뇌신경 이름 순서)",
+        "Some Say Marry Money But My Brother Says Big Brains Matter More (감각/운동 구분: S=감각, M=운동, B=혼합)",
+        "1, 2, 3 (III), 7 (VII), 9 (IX), 10 (X) → 부교감신경 포함 뇌신경"
+      ],
+      "related_topics": ["head_1", "head_2", "head_3", "ear_pharynx_larynx"],
+      "related_images": ["cranial_nerves_diagram", "brainstem_nuclei"],
+      "exam_frequency": "매년 출제 (다수 문항)"
+    },
+    {
+      "id": "skull_foramina",
+      "title": "두개골 구멍 총정리 (Foramina of Skull)",
+      "title_en": "Foramina of Skull",
+      "columns": ["구멍 (Foramen)", "위치 (Location)", "통과 구조물 (Structures Passing Through)"],
+      "rows": [
+        ["Cribriform plate (사판)", "Anterior cranial fossa / Ethmoid bone", "CN I (Olfactory nn.) - 후각신경 다발"],
+        ["Optic canal (시신경관)", "Lesser wing of sphenoid", "CN II (Optic n.), Ophthalmic a. (안동맥)"],
+        ["Superior orbital fissure (상안와틈새)", "Between greater and lesser wings of sphenoid", "CN III (Oculomotor n.), CN IV (Trochlear n.), CN V1 (Ophthalmic n. - Lacrimal, Frontal, Nasociliary), CN VI (Abducens n.), Superior ophthalmic v."],
+        ["Inferior orbital fissure (하안와틈새)", "Between maxilla and greater wing of sphenoid", "CN V2 (Infraorbital n. & Zygomatic n.), Inferior ophthalmic v."],
+        ["Foramen rotundum (정원공)", "Greater wing of sphenoid / Middle cranial fossa", "CN V2 (Maxillary n., 상악신경)"],
+        ["Foramen ovale (난원공)", "Greater wing of sphenoid / Middle cranial fossa", "CN V3 (Mandibular n., 하악신경), Accessory meningeal a., Lesser petrosal n. (때때로)"],
+        ["Foramen spinosum (가시구멍)", "Greater wing of sphenoid / Middle cranial fossa", "Middle meningeal a. (중경막동맥), Meningeal branch of V3"],
+        ["Foramen lacerum (파열공)", "Between sphenoid, temporal, occipital bones", "Internal carotid a. (상부 통과), Greater petrosal n. (상면 통과) *실제로 생전에는 연골로 막혀 있음"],
+        ["Internal acoustic meatus (내이도)", "Posterior surface of petrous temporal bone", "CN VII (Facial n.), CN VIII (Vestibulocochlear n.), Labyrinthine a."],
+        ["Stylomastoid foramen (경유돌공)", "Between styloid and mastoid processes of temporal bone", "CN VII (Facial n. 출구), Stylomastoid a."],
+        ["Jugular foramen (경정맥공)", "Between petrous temporal and occipital bones", "CN IX (Glossopharyngeal n.), CN X (Vagus n.), CN XI (Accessory n.), Internal jugular v. (IJV), Inferior petrosal sinus"],
+        ["Hypoglossal canal (설하신경관)", "Occipital bone (condyle 상방)", "CN XII (Hypoglossal n.)"],
+        ["Foramen magnum (큰구멍, 대후두공)", "Occipital bone (후두개와 중앙)", "Medulla oblongata / Spinal cord, Vertebral aa., Anterior/Posterior spinal aa., Spinal root of CN XI, Meninges"],
+        ["Carotid canal (경동맥관)", "Petrous temporal bone", "Internal carotid a. (ICA), Internal carotid sympathetic plexus"],
+        ["Foramen cecum (맹공)", "Frontal bone / Anterior cranial fossa", "Emissary v. (때때로)"],
+        ["Supraorbital foramen/notch (안와위구멍/절흔)", "Frontal bone (안와상연)", "Supraorbital n. (V1), Supraorbital a. & v."],
+        ["Infraorbital foramen (안와아래구멍)", "Maxilla (안와하연 아래)", "Infraorbital n. (V2), Infraorbital a. & v."],
+        ["Mental foramen (이공, 턱구멍)", "Body of mandible (제2소구치 아래)", "Mental n. (V3), Mental a. & v."],
+        ["Mandibular foramen (하악공)", "Medial surface of ramus of mandible", "Inferior alveolar n. (V3), Inferior alveolar a. & v."],
+        ["Greater palatine foramen (대구개공)", "Palatine bone (경구개 후외측)", "Greater palatine n. (V2), Greater palatine a."],
+        ["Incisive foramen (절치공)", "Anterior hard palate (maxilla)", "Nasopalatine n. (V2), Sphenopalatine a. (terminal branch)"],
+        ["Pterygoid canal (Vidian canal, 익돌관)", "Sphenoid bone (pterygoid process base)", "N. of pterygoid canal (Vidian n. = Greater petrosal n. + Deep petrosal n.)"],
+        ["Petrotympanic fissure (추체고실틈새)", "Between petrous and tympanic parts of temporal bone", "Chorda tympani (CN VII branch)"]
+      ],
+      "notes": [
+        "Anterior cranial fossa: Cribriform plate, Foramen cecum",
+        "Middle cranial fossa: Optic canal, Superior orbital fissure, Foramen rotundum, Foramen ovale, Foramen spinosum, Foramen lacerum, Carotid canal",
+        "Posterior cranial fossa: Internal acoustic meatus, Jugular foramen, Hypoglossal canal, Foramen magnum",
+        "V1, V2, V3 출구 정리: V1→Superior orbital fissure, V2→Foramen rotundum, V3→Foramen ovale",
+        "감각신경 얼굴 출구: Supraorbital (V1), Infraorbital (V2), Mental (V3) → 모두 동공선(pupil line) 위에 정렬"
+      ],
+      "mnemonics": [
+        "정원에서 계란을 가시로 찔러 깨뜨리다: 정원공(Rotundum)-난원공(Ovale)-가시구멍(Spinosum) 순서 (앞→뒤, 안→밖)",
+        "Robert Opens Stones: Rotundum→V2, Ovale→V3, Spinosum→Middle meningeal a."
+      ],
+      "related_topics": ["head_1", "head_3"],
+      "related_images": ["skull_base", "skull_foramina"],
+      "exam_frequency": "매년 출제"
+    },
+    {
+      "id": "pharyngeal_arches",
+      "title": "인두궁 파생물 총정리 (Pharyngeal Arch Derivatives)",
+      "title_en": "Pharyngeal Arch Derivatives",
+      "columns": ["인두궁 (Arch)", "신경 (Nerve)", "근육 (Muscles)", "골격 (Skeletal Elements)", "동맥 (Artery)"],
+      "rows": [
+        ["제1궁 (1st)\nMandibular arch", "CN V3 (Mandibular n.)\n삼차신경 하악분지", "저작근 (Muscles of mastication):\n- Masseter\n- Temporalis\n- Medial pterygoid\n- Lateral pterygoid\n기타:\n- Mylohyoid\n- Ant. belly of digastric\n- Tensor veli palatini\n- Tensor tympani", "Meckel's cartilage →\n- Malleus (망치뼈)\n- Incus (모루뼈)\n- 하악골 일부 (template)\n- Ant. ligament of malleus\n- Sphenomandibular lig.\nMaxillary prominence →\n- 상악골, 관골, 측두골 일부", "Maxillary a. (상악동맥)\n(1st aortic arch → 일부 소실)"],
+        ["제2궁 (2nd)\nHyoid arch\n(Reichert's cartilage)", "CN VII (Facial n.)\n얼굴신경", "표정근 (Muscles of facial expression):\n- Orbicularis oculi\n- Orbicularis oris\n- Buccinator\n- Platysma 등\n기타:\n- Stapedius\n- Stylohyoid\n- Post. belly of digastric", "Reichert's cartilage →\n- Stapes (등자뼈)\n- Styloid process (경상돌기)\n- Stylohyoid ligament\n- Lesser horn of hyoid (설골 소각)\n- Upper body of hyoid", "Stapedial a. (등골동맥)\n(2nd aortic arch → 대부분 소실)\nHyoid a."],
+        ["제3궁 (3rd)", "CN IX (Glossopharyngeal n.)\n혀인두신경", "Stylopharyngeus\n(경인두근)\n* CN IX가 지배하는 유일한 근육", "- Greater horn of hyoid (설골 대각)\n- Lower body of hyoid", "Common carotid a. (총경동맥)\nInternal carotid a. (내경동맥)\n(3rd aortic arch)"],
+        ["제4궁 (4th)", "CN X - Superior laryngeal n.\n(External branch)\n미주신경 상후두신경", "인두근 대부분:\n- Pharyngeal constrictors\n- Levator veli palatini\n- Cricothyroid\n- 연구개 근육 (tensor veli palatini 제외)", "- Thyroid cartilage (갑상연골)\n- Epiglottic cartilage (후두개연골)\n- Cuneiform cartilage (쐐기연골)", "좌: Aortic arch (대동맥궁)\n우: Right subclavian a. (우쇄골하동맥)\n(4th aortic arch)"],
+        ["제6궁 (6th)\n* 제5궁은 퇴화", "CN X - Recurrent laryngeal n.\n미주신경 되돌이후두신경", "후두 내재근 (Intrinsic laryngeal mm.):\n- Thyroarytenoid\n- Lateral cricoarytenoid\n- Posterior cricoarytenoid\n- Transverse arytenoid\n- Oblique arytenoid\n- Vocalis\n(Cricothyroid 제외 = 제4궁)", "- Cricoid cartilage (반지연골)\n- Arytenoid cartilage (피열연골)\n- Corniculate cartilage (뿔연골)", "좌: Ductus arteriosus → Ligamentum arteriosum\n우: Pulmonary a. (폐동맥)\n(6th aortic arch)"]
+      ],
+      "notes": [
+        "인두낭 (Pharyngeal Pouch) 파생물은 별도 '발생' 테이블 참조",
+        "제1궁 = 저작 관련, 제2궁 = 표정 관련, 제3궁 = stylopharyngeus만!",
+        "제4궁: Cricothyroid = 유일하게 Superior laryngeal n. (external branch) 지배",
+        "제6궁: 나머지 후두 내재근 전부 = Recurrent laryngeal n. 지배",
+        "되돌이후두신경(RLN) 주행: 좌측은 대동맥궁 아래, 우측은 우쇄골하동맥 아래를 돌아 올라감 → 수술 시 주의"
+      ],
+      "mnemonics": [
+        "1-저작(V3), 2-표정(VII), 3-인두(IX), 4-위후두(X-SLN), 6-아래후두(X-RLN)",
+        "이소골 순서: Malleus(1궁)-Incus(1궁)-Stapes(2궁) → 1-1-2",
+        "Tensor = V3 (1궁): Tensor tympani, Tensor veli palatini 모두 V3"
+      ],
+      "related_topics": ["development_head_neck", "ear_pharynx_larynx"],
+      "related_images": ["pharyngeal_arches"],
+      "exam_frequency": "매년 출제"
+    },
+    {
+      "id": "neck_triangles",
+      "title": "목삼각 총정리 (Triangles of the Neck)",
+      "title_en": "Neck Triangles",
+      "columns": ["삼각 (Triangle)", "경계 (Boundaries)", "내용물 (Contents)", "소삼각 (Subdivisions)"],
+      "rows": [
+        ["전경부삼각\nAnterior triangle", "앞: 정중선 (Midline)\n뒤: 흉쇄유돌근 (SCM) 전연\n위: 하악골 하연 (Inferior border of mandible)", "총경동맥 (CCA) 및 분지\n내경동맥 (ICA), 외경동맥 (ECA)\n내경정맥 (IJV)\nCN X (Vagus n.)\nCN XII (Hypoglossal n.)\nAnsa cervicalis\n설골하근 (Infrahyoid mm.)\n악하선, 설하선\n갑상선, 부갑상선\n후두, 인두", "1. Submandibular (악하) 삼각\n2. Submental (이하) 삼각\n3. Carotid (경동맥) 삼각\n4. Muscular (근육) 삼각"],
+        ["후경부삼각\nPosterior triangle", "앞: 흉쇄유돌근 (SCM) 후연\n뒤: 승모근 (Trapezius) 전연\n아래: 쇄골 (Clavicle) 상연", "CN XI (Accessory n.) - 표층!\n외경정맥 (EJV)\n쇄골하동맥 (3rd part)\nBrachial plexus (상완신경총)\nCervical plexus\n견갑배신경 (Dorsal scapular n.)\n장흉신경 (Long thoracic n.)\n견갑설골근 하복 (Inf. belly of omohyoid)\n림프절", "1. Occipital (후두) 삼각\n2. Supraclavicular (쇄골상) 삼각\n(Omoclavicular triangle)"],
+        ["악하삼각\nSubmandibular triangle", "위: 하악골 하연\n앞뒤: 이복근 전복/후복\n바닥: Mylohyoid, Hyoglossus", "악하선 (Submandibular gland)\n악하림프절\n얼굴동맥/정맥 (Facial a./v.)\nCN XII (Hypoglossal n.)\n설신경 (Lingual n., V3)\n악하신경절 (Submandibular ganglion)", "없음"],
+        ["이하삼각\nSubmental triangle", "양쪽: 이복근 전복 (좌/우)\n아래: 설골 (Hyoid bone)\n바닥: Mylohyoid", "이하림프절 (Submental LN)\n소정맥 (Small veins)", "없음 (유일한 비쌍삼각)"],
+        ["경동맥삼각\nCarotid triangle", "위: 이복근 후복\n앞: 견갑설골근 상복\n뒤: SCM 전연", "경동맥 분기부 (Carotid bifurcation)\nCCA, ICA, ECA\n경동맥체/경동맥동\nIJV\nCN X, XI, XII\n상후두신경/동맥\nAnsa cervicalis (상근)", "없음 (임상적으로 가장 중요)"],
+        ["근육삼각\nMuscular triangle", "위: 견갑설골근 상복\n외측: SCM 전연\n내측: 정중선", "설골하근 (Infrahyoid mm.)\n갑상선, 부갑상선\n기관 (Trachea)\n식도 (Esophagus)\n되돌이후두신경 (RLN)", "없음"],
+        ["후두삼각\nOccipital triangle", "앞: SCM\n뒤: Trapezius\n아래: Omohyoid inferior belly", "CN XI (Accessory n.)\nCervical plexus branches\nTransverse cervical a.\nSuprascapular a. (일부)", "없음"],
+        ["쇄골상삼각\nSupraclavicular triangle\n(Omoclavicular)", "위: Omohyoid inferior belly\n앞: SCM\n아래: Clavicle", "쇄골하동맥 (3rd part)\n쇄골하정맥\nBrachial plexus (trunks)\n외경정맥 (EJV)\nSuprascapular a.\nTransverse cervical a.", "없음"]
+      ],
+      "notes": [
+        "SCM이 전경부삼각과 후경부삼각의 핵심 경계",
+        "CN XI는 후경부삼각을 표층으로 사선 주행 → 수술 시 손상 위험",
+        "경동맥삼각: 경동맥 맥박 촉지, 경동맥 수술(CEA) 접근 부위",
+        "근육삼각: 갑상선 수술 접근 부위 → 되돌이후두신경 손상 주의",
+        "Carotid sheath 내용물: CCA/ICA, IJV, CN X (3대 구조물)"
+      ],
+      "related_topics": ["neck"],
+      "related_images": ["neck_triangles"],
+      "exam_frequency": "매년 출제"
+    },
+    {
+      "id": "motor_sensory_pathways",
+      "title": "운동/감각 전도로 비교 (Motor & Sensory Pathways)",
+      "title_en": "Motor vs Sensory Pathways",
+      "columns": ["전도로 (Pathway)", "기능 (Function)", "제1신경세포 (1st Neuron)", "제2신경세포 (2nd Neuron)", "제3신경세포 (3rd Neuron)", "교차 위치 (Decussation)", "손상 시 증상"],
+      "rows": [
+        ["피질척수로\nCorticospinal tract\n(Lateral)", "사지 수의운동\n(Voluntary movement)\n특히 미세운동 (Fine motor)", "대뇌피질 (Primary motor cortex, Brodmann area 4)\n→ Corona radiata\n→ Posterior limb of internal capsule\n→ Cerebral peduncle\n→ Basis pontis\n→ Medullary pyramid", "전각 (Anterior horn)\n= Lower motor neuron (LMN)\n→ 척수 신경을 통해 골격근으로", "없음 (2-neuron system)", "연수 하부\nPyramidal decussation\n(추체교차)\n약 85-90% 교차", "상위운동신경세포(UMN) 증상:\n- 반대쪽 경직성 마비 (Spastic paralysis)\n- 과반사 (Hyperreflexia)\n- 바빈스키 양성 (Babinski +)\n- 근긴장도 증가\n\n하위운동신경세포(LMN) 증상:\n- 같은쪽 이완성 마비 (Flaccid paralysis)\n- 근위축, 근다발수축 (Fasciculation)\n- 반사 소실"],
+        ["피질척수로\nCorticospinal tract\n(Anterior/Ventral)", "축성 근육/체간 운동\n(Axial/Trunk muscles)\n자세 유지", "대뇌피질\n→ 같은 경로로 연수까지\n→ 교차하지 않고 전색(anterior funiculus)으로 하행", "전각 (Anterior horn)\n양측성 지배 (Bilateral)", "없음 (2-neuron system)", "척수 각 분절에서\n전교련 (Anterior white commissure)을 통해 교차\n(일부만, 양측성)", "체간 근육 약화\n(양측 지배라 단독 손상 증상 경미)"],
+        ["피질연수로\nCorticobulbar tract", "두경부 수의운동\n(뇌신경 운동핵 지배)\n얼굴, 혀, 인두, 후두", "대뇌피질 (하부 Precentral gyrus = Face area)\n→ Genu of internal capsule\n→ Cerebral peduncle\n→ 뇌간 각 level에서 운동핵에 연접", "뇌간 뇌신경 운동핵\n(CN V, VII, IX, X, XI, XII motor nuclei)\n= LMN", "없음 (2-neuron system)", "대부분 양측 지배\n(Bilateral innervation)\n\n예외: CN VII 하부핵 (lower face)과 CN XII는 반대쪽만 지배 (Contralateral only)", "CN VII 하부핵: 반대쪽 하안면 마비\n→ 이마는 보존 (양측 지배)\n→ UMN 얼굴마비 vs LMN (Bell's palsy) 감별점\n\nCN XII: 반대쪽 혀 마비\n→ 혀가 병변 반대쪽으로 편위"],
+        ["후섬유단-내측섬유띠로\nDCML\n(Dorsal Column-Medial Lemniscus)", "정밀촉각 (Fine touch)\n진동감각 (Vibration)\n고유감각 (Proprioception)\n2점 변별각", "후근신경절 (DRG)\n1차 구심 뉴런\n→ 척수 후색으로 진입\n→ 동측으로 상행\nT6 이하: Gracile fasciculus (박속)\nT6 이상: Cuneate fasciculus (쐐기속)", "연수\nGracile nucleus (박속핵)\nCuneate nucleus (쐐기속핵)\n→ Internal arcuate fibers로 교차\n→ Medial lemniscus 형성", "시상 (Thalamus)\nVPL nucleus\n(Ventral posterolateral)\n→ 대뇌피질 체감각영역 (S1, Brodmann 3,1,2)", "연수\nInternal arcuate fibers\n(내궁상섬유)\n= Sensory decussation", "동측 정밀촉각/진동/고유감각 소실\n(교차 전 손상 시)\n\n반대측 소실 (교차 후 손상 시)\n\nRomberg sign (+)\n감각성 운동실조"],
+        ["척수시상로\nSpinothalamic tract\n(Lateral)", "통각 (Pain)\n온도각 (Temperature)", "후근신경절 (DRG)\n1차 구심 뉴런\n→ 척수 후각으로 진입\n→ Lissauer's tract에서 1-2분절 상하 이동", "척수 후각\nSubstantia gelatinosa\n(Rexed laminae I, II, V)\n→ 전교련(anterior white commissure)에서 교차\n→ 반대쪽 외측 척수시상로로 상행", "시상 (Thalamus)\nVPL nucleus\n→ 대뇌피질 체감각영역 (S1)", "척수 각 분절\nAnterior white commissure\n(전백교련)\n진입 후 1-2분절 이내 교차", "반대쪽 통각/온도각 소실\n(손상 부위에서 1-2분절 아래부터)\n\nBrown-Séquard syndrome:\n동측 DCML 소실 + 반대쪽 통증/온도 소실\n\nSyringomyelia:\n양측 통증/온도 소실 (Cape-like distribution)\n(전교련 손상)"],
+        ["척수시상로\nSpinothalamic tract\n(Anterior/Ventral)", "조대촉각 (Crude touch)\n압각 (Pressure)", "후근신경절 (DRG)\n→ 척수 후각 진입", "척수 후각\n→ 전교련에서 교차\n→ 반대쪽 전측 척수시상로로 상행", "시상 (Thalamus)\nVPL nucleus\n→ S1", "척수\nAnterior white commissure", "반대쪽 조대촉각 소실\n(정밀촉각은 DCML로 보존)"],
+        ["삼차신경 감각로\nTrigeminal pathways", "두경부 감각\n(얼굴/두피 감각)", "삼차신경절 (Trigeminal ganglion)\n= 반월신경절 (Semilunar/Gasserian ganglion)\nV1, V2, V3 분지", "교뇌 주감각핵 (정밀촉각)\n척수삼차핵 (통각/온도)\n중뇌삼차핵 (고유감각)\n→ 교차하여 삼차신경섬유띠(Trigeminal lemniscus) 형성", "시상 (Thalamus)\nVPM nucleus\n(Ventral posteromedial)\n→ S1 (얼굴 영역)", "교뇌/연수에서 교차\n(2nd neuron에서)", "얼굴 감각 소실\n각막반사 소실 (V1 손상 시)\nTrigeminal neuralgia (삼차신경통)"]
+      ],
+      "notes": [
+        "DCML vs Spinothalamic: 교차 위치가 다름! DCML=연수, Spinothalamic=척수 → Brown-Séquard 감별 핵심",
+        "내포(Internal capsule) 부위: 운동=후각(Posterior limb), 피질연수=슬부(Genu), 감각=후각 후방",
+        "VPL = 체간/사지 감각 (Body), VPM = 두경부 감각 (Face) → VP'L'ateral = 'L'imb, VP'M'edial = 'M'outh/face",
+        "상위운동신경(UMN) vs 하위운동신경(LMN) 감별이 임상에서 가장 중요",
+        "Anterior corticospinal tract은 전체 피질척수로의 약 10-15%만 차지"
+      ],
+      "related_topics": ["motor_pathway", "sensory_system", "cns_gross_1", "cns_gross_2"],
+      "related_images": ["pathways_diagram", "brown_sequard"],
+      "exam_frequency": "매년 출제 (다수 문항)"
+    },
+    {
+      "id": "brain_blood_supply",
+      "title": "뇌 혈액 공급 (Brain Blood Supply)",
+      "title_en": "Brain Blood Supply",
+      "columns": ["혈관 (Artery)", "기원 (Origin)", "공급 영역 (Territory)", "폐쇄 시 증상 (Occlusion Symptoms)"],
+      "rows": [
+        ["전대뇌동맥\nACA\n(Anterior Cerebral A.)", "ICA의 분지\n전교통동맥(AComm)으로 좌우 연결", "대뇌 내측면 (Medial surface)\n- 전두엽 내측\n- 두정엽 내측\n- 대상이랑 (Cingulate gyrus)\n- 뇌량 (Corpus callosum)\n- 대뇌세로틈새 주변\n하지 운동/감각 영역 (Leg/foot area of motor & sensory cortex = 정수리 넘어가는 부분)", "반대쪽 하지 마비/감각소실 (Contralateral leg weakness)\n(상지/안면은 MCA 영역이라 보존)\n성격변화, 판단력 저하 (전두엽 내측)\n요실금 (Urinary incontinence)\n무의지증 (Abulia)\n양측 ACA 폐쇄: Alien hand syndrome"],
+        ["중대뇌동맥\nMCA\n(Middle Cerebral A.)", "ICA의 직접 연장 (가장 큰 분지)\nSylvian fissure (가쪽고랑)을 따라 주행", "대뇌 외측면 대부분 (Lateral surface)\n- 전두엽 외측\n- 두정엽 외측\n- 측두엽 상부\n- 상지/안면 운동/감각 영역\n- Broca's area (좌측)\n- Wernicke's area (좌측)\n- 렌즈핵선조체동맥(Lenticulostriate aa.) → 기저핵, 내포", "가장 흔한 뇌졸중 원인!\n반대쪽 상지/안면 마비 (하지 보존)\n반대쪽 상지/안면 감각소실\n좌측: 실어증 (Broca/Wernicke aphasia)\n우측: 편측무시 (Hemispatial neglect)\n동향편위 (Eyes deviate toward lesion)\n\nLenticulostriate a. 출혈/폐쇄:\n내포 손상 → 반대쪽 편마비 (전신)"],
+        ["후대뇌동맥\nPCA\n(Posterior Cerebral A.)", "뇌기저동맥(Basilar a.) 종말분지\n후교통동맥(PComm)으로 ICA와 연결", "대뇌 하면/후면\n- 후두엽 (Visual cortex)\n- 측두엽 하부/내측\n- 해마 (Hippocampus)\n- 시상 (Thalamus) 일부\n- 중뇌 일부", "반대쪽 동명성 반맹증 (Contralateral homonymous hemianopia)\n(시야 결손, 황반 보존 = Macular sparing → MCA collateral)\n시각실인증 (Visual agnosia)\n양측 PCA: Anton syndrome (피질맹)\n기억장애 (해마 허혈)\n시상 경색 → 감각소실, 시상통(Thalamic pain)"],
+        ["척추동맥\nVertebral A.", "쇄골하동맥(Subclavian a.) 분지\nC6-C1 횡돌기공 통과\n대후두공으로 두개강 진입", "연수 외측/후면\n- PICA 분지 → 소뇌 하면\n- 척수 상부\n전척수동맥(Anterior spinal a.) 기원", "외측연수증후군 (Lateral medullary syndrome = Wallenberg syndrome) - PICA 폐쇄:\n- 동측: 안면 통증/온도 소실 (Spinal nucleus of V), Horner syndrome, 소뇌실조, 성대마비 (Nucleus ambiguus)\n- 반대쪽: 체간 통증/온도 소실 (Spinothalamic tract)\n- 연하곤란, 쉰목소리\n\n내측연수증후군 (Medial medullary syndrome = Dejerine syndrome) - ASA:\n- 반대쪽 편마비 (Pyramid), 반대쪽 고유감각 소실 (Medial lemniscus)\n- 동측 혀 마비/편위 (CN XII nucleus)"],
+        ["뇌기저동맥\nBasilar A.", "양측 척추동맥 합류\n(Pontomedullary junction에서)", "교뇌 (Pons)\n중뇌 일부\n소뇌\n내이\n분지: AICA, SCA, Pontine aa., PCA", "Locked-in syndrome (교뇌 기저부 경색):\n- 의식 명료하나 사지마비 + 안면마비\n- 수직 안구운동과 깜빡임만 가능\n\n교뇌 출혈: 핀포인트 동공 (Pinpoint pupils)\nBasilar tip syndrome: CN III 마비 + 의식저하\nSCA 폐쇄: 소뇌 상면 경색\nAICA 폐쇄: 소뇌 하전면 + 청력소실 + 안면마비"],
+        ["후하소뇌동맥\nPICA\n(Posterior Inferior\nCerebellar A.)", "척추동맥 분지\n(가장 큰 분지)", "소뇌 하후면\n연수 외측\n제4뇌실 맥락총", "Wallenberg syndrome (외측연수증후군)\n= 가장 흔한 뇌간 경색 증후군\n(위 척추동맥 항목 참조)\n\n소뇌 경색: 동측 소뇌실조\n뇌부종 시 제4뇌실 압박 → 폐쇄성 수두증"],
+        ["전하소뇌동맥\nAICA\n(Anterior Inferior\nCerebellar A.)", "뇌기저동맥 분지", "소뇌 하전면\n교뇌 외측\n내이 (Labyrinthine a. 분지)", "동측 난청 (Hearing loss)\n동측 안면마비 (CN VII)\n동측 안면 감각소실 (Spinal nucleus of V)\n동측 소뇌실조\n현훈 (Vertigo)\nHorner syndrome"],
+        ["상소뇌동맥\nSCA\n(Superior Cerebellar A.)", "뇌기저동맥 분지\n(PCA 바로 아래에서 분지)", "소뇌 상면\n상소뇌각\n교뇌 상부 일부", "동측 소뇌실조 (상지 위주)\n동측 Horner syndrome\n반대쪽 통증/온도 소실\n의도진전 (Intention tremor)"],
+        ["대뇌동맥고리\nCircle of Willis", "ACA + AComm + ICA + PComm + PCA\n(양쪽 대칭)\n전순환(ICA)과 후순환(VA-BA)의 연결", "직접 공급 영역 없음\n= 측부순환 (Collateral circulation)을 위한 문합 구조", "구성 요소:\nACA (x2), AComm (x1), ICA (x2), PComm (x2), PCA (x2)\n\nAneurysm 호발 부위:\n1. AComm (가장 흔함, ~30%)\n2. PComm (ICA-PComm junction)\n3. MCA bifurcation\n\nPComm aneurysm → CN III 압박 → 동공 산대 (Mydriasis) + 안검하수"]
+      ],
+      "notes": [
+        "전순환 (Anterior circulation): ICA → ACA + MCA (전체 뇌혈류의 약 80%)",
+        "후순환 (Posterior circulation): VA → BA → PCA + Cerebellar aa. (약 20%)",
+        "MCA Lenticulostriate aa. = 'Arteries of stroke' (출혈성 뇌졸중 최호발 부위)",
+        "Macular sparing: PCA 폐쇄 시 황반부 시각은 MCA 측부순환으로 보존",
+        "Watershed zone (경계 영역) 경색: 심한 저혈압 시 ACA-MCA, MCA-PCA 경계 영역",
+        "Berry aneurysm → SAH (지주막하출혈) → '벼락두통' (Thunderclap headache)"
+      ],
+      "related_topics": ["blood_supply_brain", "cns_gross_3"],
+      "related_images": ["circle_of_willis", "brain_vascular_territory"],
+      "exam_frequency": "매년 출제"
+    },
+    {
+      "id": "autonomic_nervous_system",
+      "title": "자율신경계 비교 (ANS)",
+      "title_en": "Autonomic Nervous System",
+      "columns": ["특징", "교감신경 (Sympathetic)", "부교감신경 (Parasympathetic)"],
+      "rows": [
+        ["별칭 / 기능", "Fight or Flight (투쟁-도주 반응)\nThoracolumbar outflow", "Rest and Digest (안정-소화 반응)\nCraniosacral outflow"],
+        ["중추 기원 (Origin)", "T1-L2 척수 측각\n(Intermediolateral cell column, IML)\n흉요수 유출 (Thoracolumbar outflow)", "뇌간 (Brainstem): CN III, VII, IX, X\n천수 (Sacral): S2-S4\n두천수 유출 (Craniosacral outflow)"],
+        ["절전섬유 (Preganglionic fiber)", "짧다 (Short)\n유수(myelinated), B fiber\n신경전달물질: ACh (니코틴 수용체)", "길다 (Long)\n유수(myelinated), B fiber\n신경전달물질: ACh (니코틴 수용체)"],
+        ["신경절 (Ganglia)", "척주 근처 (파라 척추 신경절)\n- Sympathetic trunk ganglia (교감신경줄기)\n  (Paravertebral ganglia)\n- Prevertebral ganglia:\n  Celiac, Superior mesenteric,\n  Inferior mesenteric, Aorticorenal", "효과기관 근처 또는 내부\n(Terminal/Intramural ganglia)\n\n두부: Ciliary, Pterygopalatine,\n  Submandibular, Otic ganglion\n체부: 장기 벽 내 신경절\n  (Submucosal/Myenteric plexus)"],
+        ["절후섬유 (Postganglionic fiber)", "길다 (Long)\n무수(unmyelinated), C fiber\n신경전달물질: NE (Norepinephrine)\n예외: 땀샘 = ACh, 부신수질 = 절전섬유가 직접 자극 (Epi 분비)", "짧다 (Short)\n무수(unmyelinated), C fiber\n신경전달물질: ACh (무스카린 수용체)"],
+        ["동공 (Pupil)", "산대 (Mydriasis, 동공확대)\nDilator pupillae m.\n(경로: T1 → Superior cervical ggl. → Long ciliary n.)", "축동 (Miosis, 동공축소)\nSphincter pupillae m.\n(경로: CN III → Ciliary ggl. → Short ciliary n.)"],
+        ["심장 (Heart)", "심박수 증가 (↑ HR)\n수축력 증가 (↑ Contractility)\n전도 속도 증가\nβ1 수용체", "심박수 감소 (↓ HR)\n전도 속도 감소\nSA node, AV node에 주로 작용\nM2 수용체\n(CN X = Vagus n.)"],
+        ["폐 / 기관지 (Lungs)", "기관지 확장 (Bronchodilation)\nβ2 수용체\n점액 분비 감소", "기관지 수축 (Bronchoconstriction)\n점액 분비 증가\nM3 수용체"],
+        ["위장관 (GI tract)", "연동운동 감소 (↓ Peristalsis)\n괄약근 수축\n혈관 수축\nα1, α2, β2 수용체", "연동운동 증가 (↑ Peristalsis)\n괄약근 이완\n소화액 분비 증가\nM3 수용체"],
+        ["혈관 (Blood vessels)", "대부분 수축 (Vasoconstriction)\nα1 수용체\n골격근 혈관: 확장 (β2)\n관상동맥: 확장 (β2)", "효과 미미\n(대부분 혈관에 부교감 직접 지배 없음)\n외생식기 혈관: 확장 (NO 매개, 발기)"],
+        ["땀샘 (Sweat glands)", "분비 촉진\n예외적으로 ACh (무스카린 수용체)\n= Sympathetic cholinergic fiber", "지배 없음\n(일부 국소적 예외)"],
+        ["부신수질 (Adrenal medulla)", "직접 지배 (절전섬유 = 변형된 절후뉴런)\nT5-T9 → Greater splanchnic n.\nEpinephrine (80%) + NE (20%) 분비", "지배 없음"],
+        ["방광 (Urinary bladder)", "배뇨근 이완 (β3) → 소변 저장\n내요도괄약근 수축 (α1)\n= 소변 저장 모드", "배뇨근 수축 (M3) → 소변 배출\n내요도괄약근 이완\nPelvic splanchnic n. (S2-S4)\n= 배뇨 모드"],
+        ["눈 (조절, Accommodation)", "원거리 조절 (Ciliary m. 이완)\n수정체 얇아짐", "근거리 조절 (Ciliary m. 수축)\n수정체 두꺼워짐\nAccommodation reflex\nCN III → Ciliary ggl."],
+        ["타액선 (Salivary glands)", "소량의 점액성 타액 (Thick, mucous)\n혈관 수축으로 분비 감소", "다량의 장액성 타액 (Thin, serous)\nCN VII → Submandibular ggl. (악하선, 설하선)\nCN IX → Otic ggl. (이하선)"],
+        ["Horner syndrome\n(교감신경 손상)", "동측 증상:\n축동 (Miosis)\n안검하수 (Ptosis, 경미 - Müller's m.)\n무한증 (Anhidrosis)\n안구함몰 (Enophthalmos, 경미)", "해당 없음"]
+      ],
+      "notes": [
+        "교감신경 절전섬유: White rami communicantes (T1-L2만), 절후섬유: Gray rami communicantes (모든 척수분절)",
+        "Referred pain (연관통): 내장 통증이 같은 분절의 피부 영역으로 전달 (예: 심장→좌측 상지/어깨)",
+        "부교감 뇌신경: CN III (동공), VII (누선/타액선), IX (이하선), X (흉복강 내장)",
+        "S2-S4 = Pelvic splanchnic n.: 하행결장~직장, 방광, 외생식기 부교감 지배",
+        "부신수질: 교감신경 절전섬유가 직접 시냅스 → 변형된 절후신경절 세포 → Epi/NE 혈류 분비",
+        "교감신경줄기(Sympathetic trunk): C1부터 Coccyx까지 확장 (T1-L2에서만 절전섬유 유입)"
+      ],
+      "related_topics": ["ans", "cns_gross_2"],
+      "related_images": ["ans_diagram", "sympathetic_trunk"],
+      "exam_frequency": "매년 출제"
+    },
+    {
+      "id": "extraocular_muscles",
+      "title": "외안근 총정리 (Extraocular Muscles)",
+      "title_en": "Extraocular Muscles",
+      "columns": ["근육 (Muscle)", "기원 (Origin)", "부착 (Insertion)", "주요 작용 (Primary Action)", "보조 작용 (Secondary Actions)", "신경 (Nerve)", "검사 방향 (Testing Direction)"],
+      "rows": [
+        ["상직근\nSuperior rectus (SR)", "Common tendinous ring\n(Annulus of Zinn)", "안구 상면 (공막)\n각막윤부 후방", "상전 (Elevation)", "내전 (Adduction)\n내회전 (Intorsion)", "CN III\n(Oculomotor n.)\n상분지 (Superior division)", "내전 위치에서 상방 주시"],
+        ["하직근\nInferior rectus (IR)", "Common tendinous ring", "안구 하면 (공막)", "하전 (Depression)", "내전 (Adduction)\n외회전 (Extorsion)", "CN III\n(Oculomotor n.)\n하분지 (Inferior division)", "내전 위치에서 하방 주시"],
+        ["내직근\nMedial rectus (MR)", "Common tendinous ring", "안구 내측면 (공막)", "내전 (Adduction)", "없음", "CN III\n(Oculomotor n.)\n하분지 (Inferior division)", "내측(코쪽) 주시"],
+        ["외직근\nLateral rectus (LR)", "Common tendinous ring", "안구 외측면 (공막)", "외전 (Abduction)", "없음", "CN VI\n(Abducens n.)", "외측(귀쪽) 주시"],
+        ["상사근\nSuperior oblique (SO)", "접형골 몸체\n(Sphenoid body)\n안와 후내측\n* 도르래(Trochlea)를 경유", "안구 상외측면 (공막)\n적도(equator) 뒤쪽", "내회전 (Intorsion)", "하전 (Depression)\n외전 (Abduction)", "CN IV\n(Trochlear n.)\nSO4!", "외전 위치에서 하방 주시\n(내전 위치에서 하전 역할 부각)\nBielschowsky test"],
+        ["하사근\nInferior oblique (IO)", "상악골 안와면\n(Orbital surface of maxilla)\n비루관 외측\n* 유일하게 안와 전방에서 기원", "안구 하외측면 (공막)\n적도 뒤쪽", "외회전 (Extorsion)", "상전 (Elevation)\n외전 (Abduction)", "CN III\n(Oculomotor n.)\n하분지 (Inferior division)", "내전 위치에서 상방 주시"]
+      ],
+      "notes": [
+        "신경 지배 암기: LR6 SO4 나머지는 3 (LR=CN VI, SO=CN IV, 나머지 4개=CN III)",
+        "CN III 마비: 안구 외하방 편위 (Down & Out) + 동공산대 + 안검하수 → 외직근(VI)과 상사근(IV)만 작동",
+        "CN IV 마비: 상사근 마비 → 계단 내려갈 때 복시, 고개를 건측으로 기울임 (Head tilt test)",
+        "CN VI 마비: 내사시 (Esotropia), 외전 불가",
+        "H-test (6방향 주시검사): 각 외안근의 단독 작용 방향으로 눈을 움직여 검사",
+        "상안검거근 (Levator palpebrae superioris): CN III 지배 (마비 시 안검하수), Müller's m.은 교감신경",
+        "Common tendinous ring (Annulus of Zinn): 4개 직근과 상사근이 기원"
+      ],
+      "mnemonics": [
+        "LR6 SO4 R3: Lateral Rectus=CN VI, Superior Oblique=CN IV, Rest=CN III",
+        "사근은 반대로 작용: Superior oblique = 하전, Inferior oblique = 상전",
+        "IO = 'I Open' my eye upward (하사근은 상전)"
+      ],
+      "related_topics": ["head_3", "special_sensory_eye"],
+      "related_images": ["extraocular_muscles", "h_test"],
+      "exam_frequency": "매년 출제"
+    },
+    {
+      "id": "laryngeal_muscles",
+      "title": "후두 내재근 총정리 (Intrinsic Laryngeal Muscles)",
+      "title_en": "Intrinsic Laryngeal Muscles",
+      "columns": ["근육 (Muscle)", "기원 (Origin)", "부착 (Insertion)", "작용 (Action)", "신경 지배 (Nerve)", "기능 요약"],
+      "rows": [
+        ["윤상갑상근\nCricothyroid (CT)", "Cricoid cartilage (반지연골)\n전외측면", "Thyroid cartilage (갑상연골)\n하각 및 하연", "성대 긴장 (Tenses vocal cords)\n→ 음높이 상승 (↑ Pitch)\n성대를 길게 늘림", "CN X - External branch of\nSuperior laryngeal n. (SLN)\n(상후두신경 외분지)\n* 유일하게 RLN이 아님!", "성대 긴장 = 고음\n유일한 SLN 지배 근육"],
+        ["갑상피열근\nThyroarytenoid (TA)\n(+ Vocalis m.)", "Thyroid cartilage (갑상연골)\n내면 중앙", "Arytenoid cartilage (피열연골)\n근돌기 (Muscular process)", "성대 이완 (Relaxes vocal cords)\n→ 음높이 하강 (↓ Pitch)\nVocalis m. = TA의 내측 부분\n→ 성대 미세 조절", "CN X - Recurrent laryngeal n.\n(RLN, 되돌이후두신경)", "성대 이완 = 저음\nCricothyroid의 길항근"],
+        ["후윤상피열근\nPosterior cricoarytenoid\n(PCA)", "Cricoid cartilage (반지연골)\n후면", "Arytenoid cartilage (피열연골)\n근돌기 (Muscular process)", "성문 개방 (Abduction of vocal cords)\n= 성대 벌림\n* 유일한 성대 외전근!", "CN X - Recurrent laryngeal n.\n(RLN)", "유일한 외전근!\n마비 시 호흡곤란\n(airway emergency)"],
+        ["외측윤상피열근\nLateral cricoarytenoid\n(LCA)", "Cricoid cartilage (반지연골)\n궁(arch) 상연", "Arytenoid cartilage (피열연골)\n근돌기 (Muscular process)", "성문 폐쇄 (Adduction of vocal cords)\n= 성대 모음", "CN X - Recurrent laryngeal n.\n(RLN)", "성대 내전\n발성/기침에 관여"],
+        ["횡피열근\nTransverse arytenoid\n(TA, Interarytenoid)", "Arytenoid cartilage (피열연골)\n일측 후면", "Arytenoid cartilage (피열연골)\n반대측 후면", "성문 폐쇄 (Adduction)\n피열연골 서로 접근\n(후방 성문 틈 폐쇄)", "CN X - Recurrent laryngeal n.\n(RLN)\n양측 지배", "후방 성문 폐쇄\n유일한 비쌍근"],
+        ["사피열근\nOblique arytenoid", "Arytenoid cartilage (피열연골)\n일측 근돌기", "반대쪽 피열연골 꼭대기\n→ 일부는 Aryepiglottic fold로 연장 (= Aryepiglottic m.)", "후두입구 폐쇄 (Narrows laryngeal inlet)\n연하 시 기도 보호", "CN X - Recurrent laryngeal n.\n(RLN)", "연하 시 기도 보호\nAryepiglottic m.과 연속"]
+      ],
+      "notes": [
+        "핵심: Cricothyroid만 SLN (External branch) 지배, 나머지 모두 RLN 지배",
+        "유일한 외전근: Posterior cricoarytenoid (PCA) → 양측 RLN 손상 시 성대 내전 위치 고정 → 호흡곤란 → 응급!",
+        "편측 RLN 손상: 동측 성대 방정중 위치 (Paramedian position) → 쉰목소리 (Hoarseness), 기침 약화",
+        "양측 RLN 손상: 양측 성대 정중 위치 (Median position) → 심한 호흡곤란 (Stridor), 목소리는 비교적 보존",
+        "SLN 외분지 손상: Cricothyroid 마비 → 음높이 조절 장애 (고음 불가) → 'Singer's nerve'",
+        "SLN 내분지 (Internal branch): 감각 담당 (후두 성문 상부), 운동 아님",
+        "RLN 주행: 좌측은 대동맥궁(Aortic arch) 아래, 우측은 우쇄골하동맥(R. subclavian a.) 아래를 돌아 올라감 → 갑상선 수술 시 손상 위험"
+      ],
+      "mnemonics": [
+        "Cricothyroid = SLN (나머지는 전부 RLN)",
+        "PCA = only ABductor (Post = 'P'ull apart)",
+        "All intrinsic laryngeal muscles ADduct EXCEPT PCA which ABducts"
+      ],
+      "related_topics": ["ear_pharynx_larynx", "neck"],
+      "related_images": ["larynx_muscles", "vocal_cords"],
+      "exam_frequency": "매년 출제"
+    },
+    {
+      "id": "development_summary",
+      "title": "발생학 총정리 (Development Summary)",
+      "title_en": "Development Summary",
+      "columns": ["항목 (Category)", "파생물 (Derivatives)"],
+      "sub_tables": [
+        {
+          "subtitle": "신경능선 세포 파생물 (Neural Crest Derivatives)",
+          "columns": ["계통 (System)", "파생물 (Derivatives)"],
+          "rows": [
+            ["신경계 (PNS)", "후근신경절 (DRG) 감각뉴런\n자율신경절 (교감/부교감) 뉴런\nSchwann cells\nEnteric ganglia (장신경절)\nGlia of PNS"],
+            ["내분비 (Endocrine)", "부신수질 (Adrenal medulla) = 크롬친화세포\nParafollicular C cells (갑상선 C세포) → 칼시토닌\nCarotid body (경동맥체) type I cells"],
+            ["결합조직 / 골격 (Head)", "두개안면 뼈 대부분 (Facial bones, Frontal bone)\n인두궁 연골 (Pharyngeal arch cartilages)\n치아 상아질 (Dentin), 치수 (Dental pulp), 시멘트질 (Cementum)\n두경부 결합조직, 진피 (Dermis of face/neck)"],
+            ["근육 (Muscles)", "Ciliary muscle, Dilator/Sphincter pupillae\n* 두경부 평활근의 일부"],
+            ["색소세포 (Pigment)", "Melanocytes (멜라닌세포)\n전신 피부/홍채에 분포"],
+            ["심혈관 (Cardiovascular)", "대동맥-폐동맥 중격 (Aorticopulmonary septum)\nConotruncal cushions → 유출로 중격\n대혈관 평활근"],
+            ["수막 (Meninges)", "Pia mater, Arachnoid (연질막, 거미막)\n* Dura mater는 중배엽 유래"],
+            ["기타", "Corneal stroma, endothelium\nCiliary body\nSclera\nOdontoblasts"]
+          ],
+          "notes": [
+            "신경능선세포 = '4th germ layer'로 불릴 정도로 다양한 파생물",
+            "Neurocristopathy: 신경능선세포 이상 → Hirschsprung disease (무신경절 거대결장), Treacher Collins syndrome, DiGeorge syndrome, Waardenburg syndrome",
+            "부신수질: 변형된 교감신경 절후뉴런 = 신경능선 유래",
+            "두경부의 골격/결합조직은 대부분 신경능선 유래 (체간은 중배엽 유래와 대비)"
+          ]
+        },
+        {
+          "subtitle": "인두낭 파생물 (Pharyngeal Pouch Derivatives)",
+          "columns": ["인두낭 (Pouch)", "파생물 (Derivatives)"],
+          "rows": [
+            ["제1낭 (1st Pouch)", "중이강 (Middle ear cavity, Tympanic cavity)\n이관 (Pharyngotympanic/Eustachian tube)\n고막 내면 (Inner lining of tympanic membrane)"],
+            ["제2낭 (2nd Pouch)", "구개편도 (Palatine tonsil)\n구개편도와 (Tonsillar fossa/sinus)"],
+            ["제3낭 (3rd Pouch)", "배측: 하부갑상선 (Inferior parathyroid gland)\n복측: 흉선 (Thymus)\n* 3rd pouch가 inferior parathyroid를 만드는 역설 주의!\n(흉선과 함께 하강하므로 더 아래로 내려감)"],
+            ["제4낭 (4th Pouch)", "배측: 상부갑상선 (Superior parathyroid gland)\n복측: Ultimobranchial body → Parafollicular C cells (갑상선 C세포)\n* 실제로는 neural crest 유래 세포가 이주해옴"]
+          ],
+          "notes": [
+            "핵심 혼동 포인트: 3rd pouch → Inferior parathyroid (하!), 4th pouch → Superior parathyroid (상!)",
+            "기억법: 3rd pouch에서 흉선+하부부갑상선이 함께 하강 → 더 아래로 내려가서 'Inferior'가 됨",
+            "DiGeorge syndrome: 3rd/4th pouch 발생 이상 → 흉선/부갑상선 무형성 → T세포 결핍 + 저칼슘혈증",
+            "인두열(Pharyngeal cleft): 1st cleft만 → 외이도 (External acoustic meatus)",
+            "인두막(Pharyngeal membrane): 1st membrane → 고막 (Tympanic membrane)"
+          ]
+        },
+        {
+          "subtitle": "뇌포 발생 (Brain Vesicle Development)",
+          "columns": ["일차 뇌포 (Primary)", "이차 뇌포 (Secondary)", "성인 구조 (Adult Structure)", "뇌실 (Ventricle)"],
+          "rows": [
+            ["전뇌 (Prosencephalon)", "종뇌 (Telencephalon)", "대뇌반구 (Cerebral hemispheres)\n대뇌피질 (Cerebral cortex)\n기저핵 (Basal ganglia)\n해마 (Hippocampus)\n후각망울 (Olfactory bulb)", "측뇌실 (Lateral ventricles)\n제3뇌실 전부"],
+            ["전뇌 (Prosencephalon)", "간뇌 (Diencephalon)", "시상 (Thalamus)\n시상하부 (Hypothalamus)\n시상상부 (Epithalamus = Pineal gland)\n시상하부 (Subthalamus)\n망막 (Retina)\n시신경 (Optic nerve)\n신경하수체 (Neurohypophysis)", "제3뇌실 (3rd ventricle)"],
+            ["중뇌 (Mesencephalon)", "중뇌 (Mesencephalon)", "중뇌 (Midbrain)\n대뇌각 (Cerebral peduncles)\n상구/하구 (Superior/Inferior colliculi)\n중뇌수도 (Cerebral aqueduct)\nRed nucleus, Substantia nigra", "중뇌수도\n(Cerebral aqueduct of Sylvius)"],
+            ["후뇌 (Rhombencephalon)", "후뇌 (Metencephalon)", "교뇌 (Pons)\n소뇌 (Cerebellum)", "제4뇌실 상부\n(4th ventricle, upper)"],
+            ["후뇌 (Rhombencephalon)", "수뇌 (Myelencephalon)", "연수 (Medulla oblongata)", "제4뇌실 하부\n(4th ventricle, lower)"]
+          ],
+          "notes": [
+            "신경관 결손: Anencephaly (무뇌증, 전방 neuropore 폐쇄 실패), Spina bifida (이분척추, 후방 neuropore 폐쇄 실패)",
+            "Holoprosencephaly: 전뇌(Prosencephalon)의 분할 실패 → Sonic hedgehog (SHH) 신호 이상",
+            "Dandy-Walker malformation: 제4뇌실 확장 + 소뇌 충부(vermis) 무형성",
+            "Arnold-Chiari malformation: 소뇌편도가 대후두공을 통해 하강 → 수두증",
+            "뇌하수체 이중 기원: 전엽(Adenohypophysis) = Rathke's pouch (구강 외배엽), 후엽(Neurohypophysis) = 신경외배엽(Diencephalon)",
+            "CSF 순환: 측뇌실 → 제3뇌실 (Interventricular foramen of Monro) → 중뇌수도 → 제4뇌실 → 지주막하공간 (Foramen of Magendie/Luschka) → Arachnoid granulations → 정맥동"
+          ]
+        },
+        {
+          "subtitle": "인두열/막 파생물 (Pharyngeal Cleft & Membrane)",
+          "columns": ["구조", "파생물"],
+          "rows": [
+            ["제1인두열 (1st Pharyngeal Cleft)", "외이도 (External acoustic meatus)\n* 유일하게 성인 구조를 형성하는 인두열"],
+            ["제2-4인두열 (2nd-4th Clefts)", "정상적으로 소실 (2nd arch가 overgrowth하여 덮음)\n잔존 시: Branchial (cervical) cyst/fistula/sinus"],
+            ["제1인두막 (1st Pharyngeal Membrane)", "고막 (Tympanic membrane)\n= 외이도(1st cleft) + 중이(1st pouch) + 사이 중배엽의 3층 구조"],
+            ["Cervical sinus (경부동, 2nd-4th cleft 잔존)", "정상 소실\n잔존 시: Branchial cyst (SCM 전연, 가장 흔한 = 2nd cleft 잔존)"]
+          ]
+        },
+        {
+          "subtitle": "신경관 발생 요약 (Neural Tube Development)",
+          "columns": ["단계", "시기 / 설명", "관련 기형"],
+          "rows": [
+            ["신경판 형성 (Neural plate)", "3주차\n외배엽 비후\n척삭(Notochord)의 유도 신호", "없음"],
+            ["신경구 형성 (Neural groove)", "신경판 중앙이 함몰\n양측이 올라감 (Neural folds)", "없음"],
+            ["신경관 폐쇄 (Neural tube closure)", "4주차 (Day 22-28)\n중앙부에서 시작하여 양방향으로 폐쇄\n전방 신경공(Anterior neuropore): Day 25\n후방 신경공(Posterior neuropore): Day 28", "Anterior: Anencephaly (무뇌증)\nPosterior: Spina bifida (이분척추)\nMeningocele, Myelomeningocele\nFolic acid 보충으로 예방!"],
+            ["신경능선 분리 (Neural crest)", "신경관이 표면 외배엽에서 분리 시\n신경관과 외배엽 접합부에서 신경능선세포 이주", "Neurocristopathies\n(위 신경능선 파생물 표 참조)"],
+            ["뇌포 형성 (Brain vesicles)", "4주: 3개 일차 뇌포\n5주: 5개 이차 뇌포\n굴곡: Cephalic flexure, Cervical flexure, Pontine flexure", "Holoprosencephaly\nDandy-Walker\nArnold-Chiari"]
+          ]
+        }
+      ],
+      "related_topics": ["development_head_neck", "development_nervous_system"],
+      "related_images": ["neural_crest", "pharyngeal_pouches", "brain_vesicles"],
+      "exam_frequency": "매년 출제"
+    }
+  ],
+  "cross_references": {
+    "cranial_nerves": ["skull_foramina", "pharyngeal_arches", "autonomic_nervous_system", "extraocular_muscles", "laryngeal_muscles"],
+    "skull_foramina": ["cranial_nerves"],
+    "pharyngeal_arches": ["cranial_nerves", "laryngeal_muscles", "development_summary"],
+    "neck_triangles": ["cranial_nerves"],
+    "motor_sensory_pathways": ["brain_blood_supply"],
+    "brain_blood_supply": ["motor_sensory_pathways"],
+    "autonomic_nervous_system": ["cranial_nerves"],
+    "extraocular_muscles": ["cranial_nerves"],
+    "laryngeal_muscles": ["cranial_nerves", "pharyngeal_arches", "neck_triangles"],
+    "development_summary": ["pharyngeal_arches", "autonomic_nervous_system"]
+  },
+  "high_yield_connections": [
+    {
+      "topic": "CN VII UMN vs LMN 감별",
+      "tables": ["cranial_nerves", "motor_sensory_pathways"],
+      "key_point": "UMN (뇌졸중): 반대쪽 하안면만 마비 (이마 보존, 양측지배). LMN (Bell's palsy): 동측 전체 안면 마비 (이마 포함)"
+    },
+    {
+      "topic": "Wallenberg syndrome",
+      "tables": ["brain_blood_supply", "motor_sensory_pathways", "cranial_nerves"],
+      "key_point": "PICA 폐쇄 → 외측연수 → 동측 안면(V spinal nucleus)/소뇌/Horner + 반대쪽 체간 통증온도(Spinothalamic)"
+    },
+    {
+      "topic": "되돌이후두신경(RLN) 손상",
+      "tables": ["laryngeal_muscles", "pharyngeal_arches", "neck_triangles"],
+      "key_point": "갑상선 수술 시 RLN 손상 주의. PCA(유일한 외전근) 마비 → 편측: 쉰목소리, 양측: 호흡곤란. 좌 RLN은 대동맥궁 아래를 돌아감 (더 길어서 더 취약)"
+    },
+    {
+      "topic": "3rd pouch vs 4th pouch 부갑상선",
+      "tables": ["development_summary", "pharyngeal_arches"],
+      "key_point": "3rd pouch → Inferior parathyroid (흉선과 함께 하강), 4th pouch → Superior parathyroid. DiGeorge: 3rd/4th pouch 이상"
+    },
+    {
+      "topic": "Internal capsule 뇌졸중",
+      "tables": ["motor_sensory_pathways", "brain_blood_supply"],
+      "key_point": "MCA의 Lenticulostriate aa. 출혈/경색 → 내포 손상 → 반대쪽 편마비(후각), 안면마비(슬부), 감각소실(후각 후방)"
+    },
+    {
+      "topic": "Cavernous sinus 병변",
+      "tables": ["skull_foramina", "cranial_nerves", "brain_blood_supply"],
+      "key_point": "외측벽: CN III, IV, V1, V2 / 내부: CN VI, ICA. 감염/혈전 시 다발 뇌신경 마비 + 안구돌출"
+    },
+    {
+      "topic": "동공 반사 경로",
+      "tables": ["cranial_nerves", "autonomic_nervous_system", "extraocular_muscles"],
+      "key_point": "빛 → CN II (구심) → Pretectal nucleus → 양측 E-W nucleus → CN III (원심) → Ciliary ganglion → Short ciliary n. → Sphincter pupillae → 축동. 교감: T1→SCG→Long ciliary n.→Dilator pupillae→산대"
+    }
+  ]
+}

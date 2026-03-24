@@ -1,0 +1,631 @@
+{
+  "version": "1.0",
+  "created": "2026-03-24",
+  "description": "Learning pathway for 4th term anatomy - concept-first approach",
+  "phases": [
+    {
+      "id": "phase_1",
+      "title": "Head & Face 기초",
+      "subtitle": "뇌신경의 기본과 얼굴 해부학",
+      "icon": "🧠",
+      "color": "#3b82f6",
+      "topics": [
+        {
+          "topic_num": 1,
+          "topic_id": "head_1",
+          "title": "Head (1) - CN 개요",
+          "prerequisites": [],
+          "learning_objectives": [
+            "뇌신경 12쌍의 분류 (운동/감각/혼합/부교감)",
+            "뇌신경 vs 척수신경 대응 관계 이해",
+            "얼굴 부교감 신경절 4개 (Ciliary, Pterygopalatine, Otic, Submandibular)",
+            "CN I~VI 기본 기능과 통과하는 공(foramen)"
+          ],
+          "key_images": {
+            "neuro": ["IMG_7141.jpg", "IMG_7142.jpg", "IMG_7143.jpg"],
+            "bs22": [],
+            "bs5": [],
+            "muscle": []
+          },
+          "key_terms_highlight": [
+            "CN I (Olfactory)", "CN II (Optic)", "CN III (Oculomotor)",
+            "CN IV (Trochlear)", "CN V (Trigeminal)", "CN VI (Abducens)",
+            "Ciliary ganglion", "Pterygopalatine ganglion",
+            "Otic ganglion", "Submandibular ganglion",
+            "Geniculate ganglion", "Optic canal", "Superior orbital fissure"
+          ],
+          "talgi_warning_terms": [
+            "Bell's palsy", "ptosis", "strabismus", "diplopia",
+            "foramen rotundum", "foramen ovale", "superior orbital fissure"
+          ],
+          "related_comparison_ids": ["cp_known_000", "cp_known_001", "cp_known_002", "cp_known_003", "cp_known_011"],
+          "estimated_time_min": 30,
+          "difficulty": 1
+        },
+        {
+          "topic_num": 2,
+          "topic_id": "head_2",
+          "title": "Head (2) - CN VII~XII & 얼굴 근육/혈관",
+          "prerequisites": ["head_1"],
+          "learning_objectives": [
+            "CN VII (Facial n.)의 5개 분지와 기능",
+            "CN IX~XII 각각의 기능과 통과 경로",
+            "얼굴 표정근과 저작근의 신경지배",
+            "얼굴의 혈관 분포 (External carotid branches)"
+          ],
+          "key_images": {
+            "neuro": ["IMG_7144.jpg", "IMG_7145.jpg", "IMG_7146.jpg"],
+            "bs22": [],
+            "bs5": [],
+            "muscle": ["KakaoTalk_20160410_204728592.jpg"]
+          },
+          "key_terms_highlight": [
+            "Facial n. branches", "Chorda tympani", "Greater petrosal n.",
+            "CN IX (Glossopharyngeal)", "CN X (Vagus)", "CN XI (Accessory)", "CN XII (Hypoglossal)",
+            "Parotid gland", "Muscles of facial expression", "Muscles of mastication"
+          ],
+          "talgi_warning_terms": [
+            "auriculotemporal", "buccal n.", "chorda tympani",
+            "digastric", "masseter", "pterygoid", "temporalis"
+          ],
+          "related_comparison_ids": ["cp_known_000", "cp_known_001", "cp_known_003", "cp_known_007"],
+          "estimated_time_min": 40,
+          "difficulty": 2
+        },
+        {
+          "topic_num": 3,
+          "topic_id": "head_3",
+          "title": "Head (3) - 수막, 안와, 측두부",
+          "prerequisites": ["head_1", "head_2"],
+          "learning_objectives": [
+            "수막 3층 (Dura, Arachnoid, Pia)의 구조와 기능",
+            "Dural infolding (Falx cerebri, Tentorium cerebelli 등)",
+            "Dural venous sinuses (Cavernous, Sagittal 등)",
+            "안와 구조: 근육, 신경, 혈관",
+            "측두부 해부학"
+          ],
+          "key_images": {
+            "neuro": ["IMG_7147.jpg", "IMG_7148.jpg", "IMG_7149.jpg"],
+            "bs22": ["20180410_143027.jpg", "20180410_143037.jpg"],
+            "bs5": [],
+            "muscle": []
+          },
+          "key_terms_highlight": [
+            "Meninges", "Dura mater", "Arachnoid", "Pia mater",
+            "Falx cerebri", "Tentorium cerebelli",
+            "Cavernous sinus", "Superior sagittal sinus",
+            "Subarachnoid space", "CSF", "Arachnoid granulation",
+            "Orbital muscles", "Lacrimal apparatus"
+          ],
+          "talgi_warning_terms": [
+            "emissary v.", "pterygoid plexus", "retromandibular",
+            "infratemporal fossa", "temporal fossa"
+          ],
+          "related_comparison_ids": ["cp_known_013"],
+          "estimated_time_min": 35,
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "phase_2",
+      "title": "Neck & 특수기관",
+      "subtitle": "목의 구조와 귀/인두/후두/구강",
+      "icon": "🦴",
+      "color": "#10b981",
+      "topics": [
+        {
+          "topic_num": 4,
+          "topic_id": "neck",
+          "title": "Neck - 목의 삼각/근막/혈관",
+          "prerequisites": ["head_2"],
+          "learning_objectives": [
+            "Anterior & Posterior triangle의 경계와 내용물",
+            "Deep cervical fascia의 3층",
+            "경동맥과 경정맥의 주행",
+            "Ansa cervicalis와 설하근"
+          ],
+          "key_images": {
+            "neuro": [],
+            "bs22": [],
+            "bs5": [],
+            "muscle": ["KakaoTalk_20160410_204729570.jpg", "KakaoTalk_20160410_204730634.jpg"]
+          },
+          "key_terms_highlight": [
+            "Anterior triangle", "Posterior triangle", "SCM",
+            "Common carotid", "Internal jugular v.",
+            "Cervical fascia", "Ansa cervicalis", "Thyroid gland"
+          ],
+          "talgi_warning_terms": [
+            "cervical fascia", "deep cervical", "ansa cervicalis"
+          ],
+          "related_comparison_ids": ["cp_known_010", "cp_known_007"],
+          "estimated_time_min": 25,
+          "difficulty": 2
+        },
+        {
+          "topic_num": 5,
+          "topic_id": "ear_pharynx_larynx",
+          "title": "Ear, Pharynx, Larynx",
+          "prerequisites": ["head_2", "neck"],
+          "learning_objectives": [
+            "외이/중이/내이 구조",
+            "인두의 3부분 (Nasopharynx, Oropharynx, Laryngopharynx)",
+            "후두의 연골과 근육",
+            "성대 (Vocal cord)의 신경지배"
+          ],
+          "key_images": {
+            "neuro": [],
+            "bs22": [],
+            "bs5": [],
+            "muscle": []
+          },
+          "key_terms_highlight": [
+            "Tympanic membrane", "Cochlea", "Auditory tube",
+            "Pharyngeal muscles", "Laryngeal cartilages",
+            "Recurrent laryngeal n.", "Superior laryngeal n."
+          ],
+          "talgi_warning_terms": [
+            "auricle", "cochlea", "mastoid", "tympanic membrane",
+            "tensor tympani", "tensor veli palatini"
+          ],
+          "related_comparison_ids": [],
+          "estimated_time_min": 30,
+          "difficulty": 2
+        },
+        {
+          "topic_num": 6,
+          "topic_id": "mouth_nose",
+          "title": "Mouth & Nose",
+          "prerequisites": ["head_1", "head_2"],
+          "learning_objectives": [
+            "구강 구조: 혀, 침샘, 입천장",
+            "혀의 신경지배 (운동/감각/미각 구분)",
+            "비강 구조: 비중격, 비갑개, 부비동",
+            "미각과 후각의 신경경로"
+          ],
+          "key_images": {
+            "neuro": [],
+            "bs22": [],
+            "bs5": [],
+            "muscle": []
+          },
+          "key_terms_highlight": [
+            "Tongue innervation", "Parotid gland", "Submandibular gland",
+            "Hard palate", "Soft palate", "Nasal septum",
+            "Paranasal sinuses", "Taste pathway"
+          ],
+          "talgi_warning_terms": [
+            "palate", "parotid gland", "taste bud", "tongue", "tonsil",
+            "greater palatine", "lesser palatine", "sphenopalatine"
+          ],
+          "related_comparison_ids": [],
+          "estimated_time_min": 25,
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "phase_3",
+      "title": "CNS Gross Anatomy",
+      "subtitle": "중추신경계의 육안 해부학",
+      "icon": "🧬",
+      "color": "#8b5cf6",
+      "topics": [
+        {
+          "topic_num": 7,
+          "topic_id": "cns_gross_1",
+          "title": "CNS Gross (1) - 대뇌/소뇌/뇌간",
+          "prerequisites": ["head_3"],
+          "learning_objectives": [
+            "대뇌 엽(lobe)의 구분과 주요 영역",
+            "소뇌의 구조와 기능",
+            "뇌간 (중뇌, 교, 연수)의 외부 구조"
+          ],
+          "key_images": {
+            "neuro": ["IMG_7150.jpg", "IMG_7151.jpg", "IMG_7152.jpg"],
+            "bs22": [],
+            "bs5": [],
+            "muscle": []
+          },
+          "key_terms_highlight": [
+            "Frontal lobe", "Parietal lobe", "Temporal lobe", "Occipital lobe",
+            "Cerebellum", "Midbrain", "Pons", "Medulla oblongata",
+            "Central sulcus", "Lateral sulcus"
+          ],
+          "talgi_warning_terms": [],
+          "related_comparison_ids": ["cp_known_014"],
+          "estimated_time_min": 30,
+          "difficulty": 2
+        },
+        {
+          "topic_num": 8,
+          "topic_id": "cns_gross_2",
+          "title": "CNS Gross (2) - 뇌실/척수",
+          "prerequisites": ["cns_gross_1"],
+          "learning_objectives": [
+            "뇌실 시스템 (측뇌실, 3뇌실, 4뇌실)",
+            "CSF 순환 경로",
+            "척수의 단면 구조 (회백질/백질)"
+          ],
+          "key_images": {
+            "neuro": ["IMG_7153.jpg", "IMG_7154.jpg"],
+            "bs22": [],
+            "bs5": [],
+            "muscle": []
+          },
+          "key_terms_highlight": [
+            "Lateral ventricle", "Third ventricle", "Fourth ventricle",
+            "Choroid plexus", "CSF circulation",
+            "Spinal cord segments", "Gray matter", "White matter"
+          ],
+          "talgi_warning_terms": [
+            "fornix"
+          ],
+          "related_comparison_ids": [],
+          "estimated_time_min": 25,
+          "difficulty": 2
+        },
+        {
+          "topic_num": 9,
+          "topic_id": "cns_gross_3",
+          "title": "CNS Gross (3) - 뇌간 상세",
+          "prerequisites": ["cns_gross_1", "cns_gross_2"],
+          "learning_objectives": [
+            "뇌간의 내부 구조 (핵과 경로)",
+            "뇌신경핵의 위치",
+            "Reticular formation의 기능"
+          ],
+          "key_images": {
+            "neuro": ["IMG_7155.jpg", "IMG_7156.jpg", "IMG_7157.jpg"],
+            "bs22": [],
+            "bs5": [],
+            "muscle": []
+          },
+          "key_terms_highlight": [
+            "Cranial nerve nuclei", "Red nucleus", "Substantia nigra",
+            "Reticular formation", "Inferior/Superior colliculus"
+          ],
+          "talgi_warning_terms": [
+            "reticular formation"
+          ],
+          "related_comparison_ids": [],
+          "estimated_time_min": 30,
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "phase_4",
+      "title": "기능적 신경계",
+      "subtitle": "운동/감각/기억 경로",
+      "icon": "⚡",
+      "color": "#f59e0b",
+      "topics": [
+        {
+          "topic_num": 10,
+          "topic_id": "motor_pathway",
+          "title": "Motor Pathway - 운동 경로",
+          "prerequisites": ["cns_gross_3"],
+          "learning_objectives": [
+            "Corticospinal tract (피질척수로) 경로",
+            "Corticobulbar tract 경로",
+            "UMN vs LMN 병변의 차이",
+            "소뇌/기저핵의 운동 조절"
+          ],
+          "key_images": {
+            "neuro": ["IMG_7158.jpg", "IMG_7159.jpg"],
+            "bs22": [],
+            "bs5": [],
+            "muscle": []
+          },
+          "key_terms_highlight": [
+            "Corticospinal tract", "Corticobulbar tract",
+            "Pyramidal decussation", "UMN", "LMN",
+            "Basal ganglia", "Internal capsule"
+          ],
+          "talgi_warning_terms": [],
+          "related_comparison_ids": ["cp_known_004", "cp_known_006"],
+          "estimated_time_min": 35,
+          "difficulty": 3
+        },
+        {
+          "topic_num": 11,
+          "topic_id": "sensory_system",
+          "title": "Sensory System - 감각 경로",
+          "prerequisites": ["cns_gross_3"],
+          "learning_objectives": [
+            "Dorsal column-medial lemniscus pathway (촉각/고유감각)",
+            "Spinothalamic tract (통각/온도)",
+            "두 경로의 교차 위치 차이",
+            "Thalamus의 역할"
+          ],
+          "key_images": {
+            "neuro": ["IMG_7160.jpg", "IMG_7161.jpg"],
+            "bs22": [],
+            "bs5": [],
+            "muscle": []
+          },
+          "key_terms_highlight": [
+            "Dorsal column", "Medial lemniscus",
+            "Spinothalamic tract", "Thalamus", "VPL nucleus",
+            "Gracile fasciculus", "Cuneate fasciculus"
+          ],
+          "talgi_warning_terms": [],
+          "related_comparison_ids": ["cp_known_005"],
+          "estimated_time_min": 30,
+          "difficulty": 3
+        },
+        {
+          "topic_num": 12,
+          "topic_id": "memory_system",
+          "title": "Memory System - 변연계/기억",
+          "prerequisites": ["cns_gross_2"],
+          "learning_objectives": [
+            "Limbic system 구성 요소",
+            "Hippocampus와 기억 형성",
+            "Papez circuit",
+            "Amygdala와 감정"
+          ],
+          "key_images": {
+            "neuro": ["IMG_7162.jpg", "IMG_7163.jpg"],
+            "bs22": [],
+            "bs5": [],
+            "muscle": []
+          },
+          "key_terms_highlight": [
+            "Hippocampus", "Amygdala", "Cingulate gyrus",
+            "Fornix", "Papez circuit", "Mammillary body"
+          ],
+          "talgi_warning_terms": [],
+          "related_comparison_ids": [],
+          "estimated_time_min": 25,
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "phase_5",
+      "title": "특수 주제",
+      "subtitle": "안구/자율신경/고위기능",
+      "icon": "👁",
+      "color": "#ec4899",
+      "topics": [
+        {
+          "topic_num": 13,
+          "topic_id": "special_sensory_eyeball",
+          "title": "Special Sensory - 안구",
+          "prerequisites": ["head_3", "sensory_system"],
+          "learning_objectives": [
+            "안구의 3층 구조 (Sclera, Choroid, Retina)",
+            "수정체와 방수의 순환",
+            "Light reflex 경로",
+            "눈의 질환 (녹내장, 백내장)"
+          ],
+          "key_images": {
+            "neuro": [],
+            "bs22": [],
+            "bs5": [],
+            "muscle": []
+          },
+          "key_terms_highlight": [
+            "Sclera", "Choroid", "Retina", "Fovea",
+            "Aqueous humor", "Vitreous body",
+            "Pupillary light reflex", "Edinger-Westphal nucleus",
+            "Glaucoma", "Cataract"
+          ],
+          "talgi_warning_terms": [
+            "aqueous humor", "cataract", "choroid", "ciliary body",
+            "conjunctiva", "cornea", "fovea", "glaucoma", "iris",
+            "lens", "light reflex", "retina", "sclera", "vitreous"
+          ],
+          "related_comparison_ids": [],
+          "estimated_time_min": 30,
+          "difficulty": 3
+        },
+        {
+          "topic_num": 14,
+          "topic_id": "autonomic_ns",
+          "title": "Autonomic Nervous System",
+          "prerequisites": ["head_1", "cns_gross_3"],
+          "learning_objectives": [
+            "교감 vs 부교감 신경계의 구조적 차이",
+            "교감신경: T1-L2, 짧은 절전 + 긴 절후",
+            "부교감신경: CN III, VII, IX, X + S2-4",
+            "주요 자율신경절의 위치와 기능"
+          ],
+          "key_images": {
+            "neuro": ["IMG_7164.jpg"],
+            "bs22": [],
+            "bs5": [],
+            "muscle": []
+          },
+          "key_terms_highlight": [
+            "Sympathetic trunk", "Paravertebral ganglia",
+            "Presynaptic fiber", "Postsynaptic fiber",
+            "CN III (parasympathetic)", "CN VII (parasympathetic)",
+            "CN IX (parasympathetic)", "CN X (parasympathetic)",
+            "Pelvic splanchnic n."
+          ],
+          "talgi_warning_terms": [
+            "edinger-westphal", "salivatory nucleus"
+          ],
+          "related_comparison_ids": ["cp_known_011"],
+          "estimated_time_min": 30,
+          "difficulty": 3
+        },
+        {
+          "topic_num": 15,
+          "topic_id": "higher_cns_functions",
+          "title": "Higher CNS Functions",
+          "prerequisites": ["cns_gross_1", "motor_pathway", "sensory_system"],
+          "learning_objectives": [
+            "Broca area vs Wernicke area",
+            "실어증의 유형별 차이",
+            "대뇌 피질의 기능적 영역 (Brodmann area)",
+            "뇌전증과 EEG"
+          ],
+          "key_images": {
+            "neuro": ["IMG_7165.jpg", "IMG_7166.jpg"],
+            "bs22": [],
+            "bs5": [],
+            "muscle": []
+          },
+          "key_terms_highlight": [
+            "Broca area (44, 45)", "Wernicke area (22)",
+            "Arcuate fasciculus", "Primary motor cortex",
+            "Primary sensory cortex", "Brodmann areas"
+          ],
+          "talgi_warning_terms": [],
+          "related_comparison_ids": ["cp_known_014"],
+          "estimated_time_min": 25,
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "phase_6",
+      "title": "통합 & 발생학",
+      "subtitle": "뇌혈류/발생학으로 전체 통합",
+      "icon": "🔬",
+      "color": "#ef4444",
+      "topics": [
+        {
+          "topic_num": 16,
+          "topic_id": "blood_supply_brain",
+          "title": "Blood Supply of Brain",
+          "prerequisites": ["cns_gross_1"],
+          "learning_objectives": [
+            "Internal carotid a. vs Vertebral a. 영역",
+            "Circle of Willis 구성",
+            "MCA, ACA, PCA 각각의 공급 영역",
+            "뇌졸중 시 손상 부위별 증상"
+          ],
+          "key_images": {
+            "neuro": ["IMG_7167.jpg", "IMG_7168.jpg"],
+            "bs22": [],
+            "bs5": [],
+            "muscle": []
+          },
+          "key_terms_highlight": [
+            "Internal carotid a.", "Vertebral a.", "Basilar a.",
+            "Circle of Willis", "MCA", "ACA", "PCA",
+            "PICA", "AICA", "SCA"
+          ],
+          "talgi_warning_terms": [],
+          "related_comparison_ids": ["cp_known_007", "cp_known_008", "cp_known_009"],
+          "estimated_time_min": 30,
+          "difficulty": 3
+        },
+        {
+          "topic_num": 17,
+          "topic_id": "dev_head_neck",
+          "title": "Development - Head & Neck",
+          "prerequisites": ["head_1", "neck", "ear_pharynx_larynx"],
+          "learning_objectives": [
+            "Pharyngeal arch (인두궁) 1~6의 파생물",
+            "각 인두궁의 신경지배",
+            "얼굴의 발생 (frontonasal, maxillary, mandibular prominence)"
+          ],
+          "key_images": {
+            "neuro": ["IMG_7169.jpg"],
+            "bs22": [],
+            "bs5": [],
+            "muscle": []
+          },
+          "key_terms_highlight": [
+            "Pharyngeal arch I-VI", "Branchial cleft",
+            "Pharyngeal pouch", "Frontonasal prominence",
+            "Maxillary prominence", "Mandibular prominence"
+          ],
+          "talgi_warning_terms": [
+            "pharyngeal arch", "somite"
+          ],
+          "related_comparison_ids": [],
+          "estimated_time_min": 25,
+          "difficulty": 3
+        },
+        {
+          "topic_num": 18,
+          "topic_id": "dev_nervous_system",
+          "title": "Development - Nervous System",
+          "prerequisites": ["cns_gross_1", "cns_gross_2"],
+          "learning_objectives": [
+            "Neural tube 형성과 신경관 결손",
+            "뇌포 (Brain vesicles)의 분화",
+            "척수의 발생 (alar plate, basal plate)"
+          ],
+          "key_images": {
+            "neuro": ["IMG_7170.jpg", "IMG_7171.jpg"],
+            "bs22": [],
+            "bs5": [],
+            "muscle": []
+          },
+          "key_terms_highlight": [
+            "Neural tube", "Neural crest", "Brain vesicles",
+            "Prosencephalon", "Mesencephalon", "Rhombencephalon",
+            "Alar plate", "Basal plate", "Neural tube defects"
+          ],
+          "talgi_warning_terms": [],
+          "related_comparison_ids": [],
+          "estimated_time_min": 25,
+          "difficulty": 3
+        }
+      ]
+    }
+  ],
+  "comparison_categories": [
+    {
+      "id": "cat_cn",
+      "title": "뇌신경 (Cranial Nerves)",
+      "icon": "🧠",
+      "pairs": ["cp_known_000", "cp_known_001", "cp_known_002", "cp_known_003"]
+    },
+    {
+      "id": "cat_foramina",
+      "title": "공/틈 (Foramina & Fissures)",
+      "icon": "💀",
+      "pairs": ["cp_known_012", "cp_known_013"]
+    },
+    {
+      "id": "cat_pathways",
+      "title": "신경 경로 (Neural Pathways)",
+      "icon": "⚡",
+      "pairs": ["cp_known_004", "cp_known_005", "cp_known_006"]
+    },
+    {
+      "id": "cat_vessels",
+      "title": "혈관 (Blood Vessels)",
+      "icon": "🩸",
+      "pairs": ["cp_known_007", "cp_known_008", "cp_known_009"]
+    },
+    {
+      "id": "cat_regions",
+      "title": "영역 & 기능 (Regions & Functions)",
+      "icon": "📍",
+      "pairs": ["cp_known_010", "cp_known_011", "cp_known_014"]
+    }
+  ],
+  "syllabus_preview": {
+    "description": "2026년 1학기 해부학 4텀 예상 일정 (사용자가 수정 가능)",
+    "exam_date": "2026-04-14",
+    "schedule": [
+      {"date": "2026-03-24", "topics": [1, 2], "label": "Head (1)~(2)"},
+      {"date": "2026-03-25", "topics": [3], "label": "Head (3) 수막/안와"},
+      {"date": "2026-03-26", "topics": [4], "label": "Neck"},
+      {"date": "2026-03-27", "topics": [5], "label": "Ear/Pharynx/Larynx"},
+      {"date": "2026-03-28", "topics": [6], "label": "Mouth & Nose"},
+      {"date": "2026-03-31", "topics": [7, 8], "label": "CNS Gross (1)~(2)"},
+      {"date": "2026-04-01", "topics": [9], "label": "CNS Gross (3) 뇌간"},
+      {"date": "2026-04-02", "topics": [10], "label": "Motor Pathway"},
+      {"date": "2026-04-03", "topics": [11], "label": "Sensory System"},
+      {"date": "2026-04-04", "topics": [12], "label": "Memory System"},
+      {"date": "2026-04-07", "topics": [13, 14], "label": "안구/자율신경"},
+      {"date": "2026-04-08", "topics": [15, 16], "label": "고위기능/뇌혈류"},
+      {"date": "2026-04-09", "topics": [17, 18], "label": "발생학"},
+      {"date": "2026-04-10", "topics": [], "label": "종합 복습"},
+      {"date": "2026-04-11", "topics": [], "label": "종합 복습"},
+      {"date": "2026-04-14", "topics": [], "label": "시험일"}
+    ]
+  }
+}
