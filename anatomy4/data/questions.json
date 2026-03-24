@@ -29,7 +29,7 @@
       "4) 동공확대근 마비로 인한 동공축소"
     ],
     "answer": 3,
-    "explanation": "우선 Bell’s palsy는 facial n.손상이므로 facial n.과 관련된 것을 골라야해요!\n1) 감각손실 – 얼굴의 감각은 trigeminal n.! 각막이면 그중에서도 ophthalmic이겠네요\n2) 침은 facial n.이랑 관련이 있기는 한데...각막이랑은 너무 거리가 먼 것 같아요\n4) 동공확대근 = dilator pupillae m.는 long ciliary n.의 교감신경성분이 한다고 합니다.\n교감신경성분은 모두 sup. cervical ggl.!\n<Corneal reflex>\n- 각막이나 결막에 자극을 가하면 눈을 감게 되는 반사입니다.\n- 각막이나 결막을 자극하면 trigeminal n.의 ophthalmic n.가 흥분하여 principal trigeminal nucleus로 자극을 전달합니다. 이후 med. longitudinal fasciculus(MLF), facial nucleus를지나 orbicularis oculi m.까지 전달됩니다.\n(ophthalmic n. → principal trigeminal nucleus → MLF\n→ facial nucleus → orbicularis oculi m.)\ncase : corneal reflex가 안됨\n- 한쪽만 소실 : trigeminal n.(nucleus)나 facial n(nucleus), 이와 연결된 brain stem에 이상위에 경로를 써놨듯이, 각막에 분포하는 trigeminal n.(ophthalmic n.)가 principal trigeminal nucleus와 facial nucleus를 경유하여 facial n.에 의해 눈꺼풀을 감게 하기 때문입니다.\n안면근육(여기에선 orbicularis oculi m.이겠습니다.)을 지배하는 건 facial n.\n- 양쪽 모두 소실 : brain stem의 광범위한 장애이거나 깊은 혼수상태 ppt에서 보면 Bell's palsy 설명 부분에 loss of efferent limb of conjunctival reflex (cannot close eyes)라고 써있네요!",
+    "explanation": "우선 Bell’s palsy는 facial n.손상이므로 facial n.과 관련된 것을 골라야해요!\n1) 감각손실 – 얼굴의 감각은 trigeminal n.! 각막이면 그중에서도 ophthalmic이겠네요\n[해설분리-수정됨]\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -46,7 +46,7 @@
       "5) cavernous sinus"
     ],
     "answer": 4,
-    "explanation": "정답: sup. petrosal sinus. Superior petrosal sinus는 소뇌천막(tentorium cerebelli)의 부착 가장자리를 따라 주행하며, cavernous sinus의 후단과 transverse sinus(가로정맥굴)를 연결합니다. Straight sinus는 falx cerebri와 tentorium의 접합부를 따라 주행하고, inf. sagittal sinus는 falx cerebri 하연을 따릅니다.",
+    "explanation": "정답: sup. petrosal sinus. Superior petrosal sinus는 소뇌천막(tentorium cerebelli)의 부착 가장자리를 따라 주행하며, cavernous sinus의 후단과 transverse sinus(가로정맥굴)를 연결합니다. Straight sinus는 falx cerebri와 tentorium의 접합부를 따라 주행하고, inf. sagittal sinus는 falx cerebri 하연을 따릅니다.\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -63,7 +63,7 @@
       "5) 안쪽(내)사시"
     ],
     "answer": 5,
-    "explanation": "정답: 안쪽(내)사시. Abducens nerve(CN VI)는 lateral rectus muscle만을 지배합니다. 이 신경이 손상되면 lateral rectus 마비로 안구를 외전(abduction)할 수 없어 내측사시(medial strabismus, esotropia)가 발생합니다. 외사시는 CN III 손상 시 나타나며, 눈꺼풀 처짐(ptosis)도 CN III 증상입니다.",
+    "explanation": "정답: 안쪽(내)사시. Abducens nerve(CN VI)는 lateral rectus muscle만을 지배합니다. 이 신경이 손상되면 lateral rectus 마비로 안구를 외전(abduction)할 수 없어 내측사시(medial strabismus, esotropia)가 발생합니다. 외사시는 CN III 손상 시 나타나며, 눈꺼풀 처짐(ptosis)도 CN III 증상입니다.\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -80,7 +80,7 @@
       "5) ext. carotid a.와 ansa cervicalis"
     ],
     "answer": 4,
-    "explanation": "짤기! 보기가 다르긴 한데 해설에는 영향을 안주네요\n\n7.scaleneus ant. m.에 관한 설명으로 다음 중 옳은 것은?",
+    "explanation": "짤기! 보기가 다르긴 한데 해설에는 영향을 안주네요\n[해설분리-수정됨]",
     "original_topic": "Head/Neck"
   },
   {
@@ -114,7 +114,7 @@
       "5) tympanic plexus를 형성한다."
     ],
     "answer": 4,
-    "explanation": "정답: glossopharyngeal n.의 분지이다. Tympanic nerve는 glossopharyngeal nerve(CN IX)의 분지이며, middle ear에서 tympanic plexus를 형성합니다. 이 plexus에서 lesser petrosal nerve가 나와 otic ganglion을 거쳐 parotid gland의 분비기능을 담당합니다. 참고: 선지 4(glossopharyngeal n.의 분지이다)와 선지 5(tympanic plexus를 형성한다) 모두 의학적으로 맞는 진술입니다. 두 가지 모두 사실이나, 출제 의도상 4번이 정답으로 설정되어 있습니다. [검증됨]",
+    "explanation": "정답: glossopharyngeal n.의 분지이다. Tympanic nerve는 glossopharyngeal nerve(CN IX)의 분지이며, middle ear에서 tympanic plexus를 형성합니다. 이 plexus에서 lesser petrosal nerve가 나와 otic ganglion을 거쳐 parotid gland의 분비기능을 담당합니다. 참고: 선지 4(glossopharyngeal n.의 분지이다)와 선지 5(tympanic plexus를 형성한다) 모두 의학적으로 맞는 진술입니다. 두 가지 모두 사실이나, 출제 의도상 4번이 정답으로 설정되어 있습니다. [검증됨]\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -182,7 +182,7 @@
       "5) tensor tympani m."
     ],
     "answer": 4,
-    "explanation": "정답: buccinator m. Buccinator muscle은 facial nerve(CN VII)의 buccal branch가 지배하는 표정근입니다. Parotid gland 제거 시 이를 관통하는 facial nerve가 손상되면 buccinator도 마비됩니다. Masseter는 CN V3(mandibular n.)가 지배하고, stylopharyngeus는 CN IX, ant. belly of digastric은 CN V3, tensor tympani도 CN V3가 지배합니다.",
+    "explanation": "정답: buccinator m. Buccinator muscle은 facial nerve(CN VII)의 buccal branch가 지배하는 표정근입니다. Parotid gland 제거 시 이를 관통하는 facial nerve가 손상되면 buccinator도 마비됩니다. Masseter는 CN V3(mandibular n.)가 지배하고, stylopharyngeus는 CN IX, ant. belly of digastric은 CN V3, tensor tympani도 CN V3가 지배합니다.\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -199,7 +199,7 @@
       "5) CN12 & spinal accessory n."
     ],
     "answer": 4,
-    "explanation": "정답: CN9 & CN10. Jugular foramen을 통과하는 구조물은 CN IX(glossopharyngeal n.), CN X(vagus n.), CN XI(accessory n.), internal jugular vein입니다. CN XII(hypoglossal n.)는 hypoglossal canal을 통과하므로 jugular foramen 골절과 무관합니다. Internal carotid a.는 carotid canal을, external carotid a.는 두개 외부에 있습니다.",
+    "explanation": "정답: CN9 & CN10. Jugular foramen을 통과하는 구조물은 CN IX(glossopharyngeal n.), CN X(vagus n.), CN XI(accessory n.), internal jugular vein입니다. CN XII(hypoglossal n.)는 hypoglossal canal을 통과하므로 jugular foramen 골절과 무관합니다. Internal carotid a.는 carotid canal을, external carotid a.는 두개 외부에 있습니다.\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -215,7 +215,7 @@
       "4) 침샘분비감소"
     ],
     "answer": 2,
-    "explanation": "정답: 코입천장 건조. Greater petrosal nerve는 facial nerve(CN VII)의 분지로 geniculate ganglion에서 나와 pterygopalatine ganglion에 이르는 부교감 신경절이전 섬유를 포함합니다. 이 경로는 lacrimal gland, 비강 점막(nasal mucosa), 구개 점막(palatal mucosa)의 분비를 담당하므로, 손상 시 코와 입천장이 건조해집니다. 눈물 분비 '감소'가 발생하며, 증가가 아닙니다.",
+    "explanation": "정답: 코입천장 건조. Greater petrosal nerve는 facial nerve(CN VII)의 분지로 geniculate ganglion에서 나와 pterygopalatine ganglion에 이르는 부교감 신경절이전 섬유를 포함합니다. 이 경로는 lacrimal gland, 비강 점막(nasal mucosa), 구개 점막(palatal mucosa)의 분비를 담당하므로, 손상 시 코와 입천장이 건조해집니다. 눈물 분비 '감소'가 발생하며, 증가가 아닙니다.\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -232,7 +232,7 @@
       "5) trochlear n."
     ],
     "answer": 3,
-    "explanation": "정답: maxillary n. (CN V2). Foramen rotundum은 middle cranial fossa에서 pterygopalatine fossa로 통하는 구멍으로, maxillary nerve(CN V2, 삼차신경의 2번째 분지)가 통과합니다. Ophthalmic n.(CN V1)은 superior orbital fissure, optic n.(CN II)은 optic canal, mandibular n.(CN V3)은 foramen ovale, trochlear n.(CN IV)은 superior orbital fissure를 통과합니다.",
+    "explanation": "정답: maxillary n. (CN V2). Foramen rotundum은 middle cranial fossa에서 pterygopalatine fossa로 통하는 구멍으로, maxillary nerve(CN V2, 삼차신경의 2번째 분지)가 통과합니다. Ophthalmic n.(CN V1)은 superior orbital fissure, optic n.(CN II)은 optic canal, mandibular n.(CN V3)은 foramen ovale, trochlear n.(CN IV)은 superior orbital fissure를 통과합니다.\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -248,7 +248,7 @@
       "4) auriculotemporal n."
     ],
     "answer": 2,
-    "explanation": "Facial n.의 가지인 chorda tympani n.은 혀 앞쪽 2/3의 맛을 느끼고, 이것의 부교감 성분은 submandibular ggl.로 들어가서 submandibular gl.과 sublingual gl.의 침 분비를조절합니다.\n1) lingual n.은 mandibular n.의 가지이죠. 감각신경입니다. 혀 앞 2/3의 general sense 담당.\n3) sup. cervical ggl.은 교감신경절입니다. head의 거의 모든 교감신경은 이 신경절에서연접한 연접후신경들입니다.\n4) auriculotemporal n.는 mandibular n.의 가지로 temporal region의 general sense를담당합니다.",
+    "explanation": "Facial n.의 가지인 chorda tympani n.은 혀 앞쪽 2/3의 맛을 느끼고, 이것의 부교감 성분은 submandibular ggl.로 들어가서 submandibular gl.과 sublingual gl.의 침 분비를조절합니다.\n1) lingual n.은 mandibular n.의 가지이죠. 감각신경입니다. 혀 앞 2/3의 general sense 담당.\n3) sup. cervical ggl.은 교감신경절입니다. head의 거의 모든 교감신경은 이 신경절에서연접한 연접후신경들입니다.\n4) auriculotemporal n.는 mandibular n.의 가지로 temporal region의 general sense를담당합니다.\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -264,7 +264,7 @@
       "4) CN12"
     ],
     "answer": 2,
-    "explanation": "혀 GSE(운동) GVA SVA(맛)\n앞 2/3 CN12 CN5-3(mandibular n.)의 CN7의 분지인분지인 lingual n. chorda tympani n.\n뒤1/3 CN12 CN9 CN9\nCN5가 보기에 없으므로 CN9가 답이겠네요.",
+    "explanation": "혀 GSE(운동) GVA SVA(맛)\n앞 2/3 CN12 CN5-3(mandibular n.)의 CN7의 분지인분지인 lingual n. chorda tympani n.\n뒤1/3 CN12 CN9 CN9\nCN5가 보기에 없으므로 CN9가 답이겠네요.\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -281,7 +281,7 @@
       "5) CN7"
     ],
     "answer": 2,
-    "explanation": "정답: CN3 (oculomotor nerve). 위눈꺼풀 처짐(ptosis)은 levator palpebrae superioris 마비, 외측사시(lateral strabismus)는 medial rectus 마비, 수직운동 장애는 superior/inferior rectus 및 inferior oblique 마비, pupillary light reflex 저하는 부교감 성분(Edinger-Westphal nucleus → ciliary ganglion → sphincter pupillae) 손상 때문입니다. 이 모든 증상은 CN III 손상의 전형적 소견입니다.",
+    "explanation": "정답: CN3 (oculomotor nerve). 위눈꺼풀 처짐(ptosis)은 levator palpebrae superioris 마비, 외측사시(lateral strabismus)는 medial rectus 마비, 수직운동 장애는 superior/inferior rectus 및 inferior oblique 마비, pupillary light reflex 저하는 부교감 성분(Edinger-Westphal nucleus → ciliary ganglion → sphincter pupillae) 손상 때문입니다. 이 모든 증상은 CN III 손상의 전형적 소견입니다.\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -298,7 +298,7 @@
       "5) CN7"
     ],
     "answer": 3,
-    "explanation": "12년도 24번에서 4번 보기가 CNⅤ에Ⅵ서 CN 으로 바뀐 것 밖에 없네요.\n복시는 trochlear n. 내측 사시는 abducent n.라는 것은 알아두시는 게 좋을 것 같아요.",
+    "explanation": "12년도 24번에서 4번 보기가 CNⅤ에Ⅵ서 CN 으로 바뀐 것 밖에 없네요.\n복시는 trochlear n. 내측 사시는 abducent n.라는 것은 알아두시는 게 좋을 것 같아요.\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -315,7 +315,7 @@
       "5) CN7"
     ],
     "answer": 5,
-    "explanation": "정답: CN VII (facial nerve). 얼굴 근육 마비(표정근 지배), 침 분비 장애(submandibular, sublingual gland - chorda tympani 경유), 눈물 분비 장애(greater petrosal n. 경유), 미각 상실(혀 앞 2/3 - chorda tympani), 청각과민(hyperacusis - stapedius m. 마비)은 모두 facial nerve(CN VII)의 기능입니다. 이 모든 증상이 동시에 나타나므로 internal acoustic meatus 부근에서의 CN VII 손상을 시사합니다.",
+    "explanation": "정답: CN VII (facial nerve). 얼굴 근육 마비(표정근 지배), 침 분비 장애(submandibular, sublingual gland - chorda tympani 경유), 눈물 분비 장애(greater petrosal n. 경유), 미각 상실(혀 앞 2/3 - chorda tympani), 청각과민(hyperacusis - stapedius m. 마비)은 모두 facial nerve(CN VII)의 기능입니다. 이 모든 증상이 동시에 나타나므로 internal acoustic meatus 부근에서의 CN VII 손상을 시사합니다.\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -332,7 +332,7 @@
       "5) deep petrosal n."
     ],
     "answer": 4,
-    "explanation": "정답: greater petrosal n. Greater petrosal nerve는 CN VII의 분지로, pterygopalatine ganglion을 경유하여 비강 점막(nasal mucosa)과 구개 점막(palatal mucosa)의 분비선에 부교감 신경을 공급합니다. 손상 시 코점막과 입천장이 건조해집니다. Lacrimal n.은 감각신경, lesser petrosal n.은 CN IX 경유 parotid 분비, deep petrosal n.은 교감신경 성분입니다.",
+    "explanation": "정답: greater petrosal n. Greater petrosal nerve는 CN VII의 분지로, pterygopalatine ganglion을 경유하여 비강 점막(nasal mucosa)과 구개 점막(palatal mucosa)의 분비선에 부교감 신경을 공급합니다. 손상 시 코점막과 입천장이 건조해집니다. Lacrimal n.은 감각신경, lesser petrosal n.은 CN IX 경유 parotid 분비, deep petrosal n.은 교감신경 성분입니다.\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -348,7 +348,7 @@
       "4) sup. rectus m."
     ],
     "answer": 3,
-    "explanation": "정답: levator palpebrae superioris m. 윗눈꺼풀을 들어올리는(눈뜨기) 주된 근육은 levator palpebrae superioris로, oculomotor nerve(CN III)가 지배합니다. Orbicularis oculi는 눈을 감는 근육(CN VII), frontalis는 이마 주름(CN VII), superior rectus는 안구 상전(CN III)을 담당합니다.",
+    "explanation": "정답: levator palpebrae superioris m. 윗눈꺼풀을 들어올리는(눈뜨기) 주된 근육은 levator palpebrae superioris로, oculomotor nerve(CN III)가 지배합니다. Orbicularis oculi는 눈을 감는 근육(CN VII), frontalis는 이마 주름(CN VII), superior rectus는 안구 상전(CN III)을 담당합니다.\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -364,7 +364,7 @@
       "4) maxillary n.가 코등 부위의 감각을 지배한다."
     ],
     "answer": 3,
-    "explanation": "정답: facial a.의 sup. & inf. labial a. 분지가 맞다. Facial artery는 입술 주변에서 superior labial artery와 inferior labial artery를 분지합니다. Orbicularis oris는 facial n.의 buccal branch와 marginal mandibular branch 모두의 지배를 받습니다(buccal branch만이 아닌, 하부는 marginal mandibular branch도 관여). Ophthalmic a.는 internal carotid a.의 분지이며(maxillary a. 아님), 코등(dorsum of nose) 피부는 ophthalmic n.(CN V1)의 external nasal n.이 지배합니다. [검증됨]",
+    "explanation": "정답: facial a.의 sup. & inf. labial a. 분지가 맞다. Facial artery는 입술 주변에서 superior labial artery와 inferior labial artery를 분지합니다. Orbicularis oris는 facial n.의 buccal branch와 marginal mandibular branch 모두의 지배를 받습니다(buccal branch만이 아닌, 하부는 marginal mandibular branch도 관여). Ophthalmic a.는 internal carotid a.의 분지이며(maxillary a. 아님), 코등(dorsum of nose) 피부는 ophthalmic n.(CN V1)의 external nasal n.이 지배합니다. [검증됨]\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -398,7 +398,7 @@
       "5) stylohyoid"
     ],
     "answer": 3,
-    "explanation": "정답: mylohyoid. Mylohyoid muscle은 mandibular nerve(CN V3)의 분지인 nerve to mylohyoid가 지배합니다. Sternohyoid, sternothyroid, omohyoid는 ansa cervicalis(C1-C3)가 지배하고, thyrohyoid는 C1 via hypoglossal nerve(CN XII)가 지배합니다(ansa cervicalis가 아님). Geniohyoid는 C1(via hypoglossal n.), stylohyoid는 facial nerve(CN VII)가 지배합니다. Trigeminal nerve가 지배하는 근육: muscles of mastication, mylohyoid, ant. belly of digastric, tensor veli palatini, tensor tympani. [검증됨]",
+    "explanation": "정답: mylohyoid. Mylohyoid muscle은 mandibular nerve(CN V3)의 분지인 nerve to mylohyoid가 지배합니다. Sternohyoid, sternothyroid, omohyoid는 ansa cervicalis(C1-C3)가 지배하고, thyrohyoid는 C1 via hypoglossal nerve(CN XII)가 지배합니다(ansa cervicalis가 아님). Geniohyoid는 C1(via hypoglossal n.), stylohyoid는 facial nerve(CN VII)가 지배합니다. Trigeminal nerve가 지배하는 근육: muscles of mastication, mylohyoid, ant. belly of digastric, tensor veli palatini, tensor tympani. [검증됨]\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -432,7 +432,7 @@
       "5) hypoglossal n."
     ],
     "answer": 4,
-    "explanation": "정답: accessory n. (CN XI). 이 세 근육(digastric, SCM, omohyoid)이 이루는 공간은 사실상 carotid triangle의 변형입니다. Carotid triangle 내에는 common carotid a., ext. carotid a.와 분지들, int. jugular v., vagus n., hypoglossal n. 등이 지나갑니다. Accessory nerve(CN XI)는 SCM 후방의 posterior triangle을 통과하므로 이 공간을 지나가지 않습니다.",
+    "explanation": "정답: accessory n. (CN XI). 이 세 근육(digastric, SCM, omohyoid)이 이루는 공간은 사실상 carotid triangle의 변형입니다. Carotid triangle 내에는 common carotid a., ext. carotid a.와 분지들, int. jugular v., vagus n., hypoglossal n. 등이 지나갑니다. Accessory nerve(CN XI)는 SCM 후방의 posterior triangle을 통과하므로 이 공간을 지나가지 않습니다.\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -449,7 +449,7 @@
       "5) ciliary gang."
     ],
     "answer": 2,
-    "explanation": "parotid gl.에 부교감 신경을 전달하는 ggl.은 otic ggl.입니다. otic ggl.의 부교감 신경은 glossopharyngeal n.의 종말가지인 lesser petrosal n.가 담당합니다,",
+    "explanation": "parotid gl.에 부교감 신경을 전달하는 ggl.은 otic ggl.입니다. otic ggl.의 부교감 신경은 glossopharyngeal n.의 종말가지인 lesser petrosal n.가 담당합니다,\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -466,7 +466,7 @@
       "5) petrous gang."
     ],
     "answer": 5,
-    "explanation": "정답: petrous ganglion. Petrous ganglion(inferior ganglion of CN IX)에서 tympanic nerve가 분지하여 middle ear(고실)의 tympanic plexus를 형성합니다. 중이염 시 tympanic plexus가 자극되면 glossopharyngeal nerve(CN IX)를 통해 구역/구토 반사가 유발될 수 있습니다. CN IX의 감각신경 세포체가 petrous ganglion에 있으므로, 중이염 후 구토증상은 이 구조물과 관련됩니다.",
+    "explanation": "정답: petrous ganglion. Petrous ganglion(inferior ganglion of CN IX)에서 tympanic nerve가 분지하여 middle ear(고실)의 tympanic plexus를 형성합니다. 중이염 시 tympanic plexus가 자극되면 glossopharyngeal nerve(CN IX)를 통해 구역/구토 반사가 유발될 수 있습니다. CN IX의 감각신경 세포체가 petrous ganglion에 있으므로, 중이염 후 구토증상은 이 구조물과 관련됩니다.\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -483,7 +483,7 @@
       "5) CN1"
     ],
     "answer": 1,
-    "explanation": "정답: CN V1 (ophthalmic n.). 재채기 반사(sneeze reflex)의 구심로(afferent limb)는 코 점막의 자극을 감지하는 trigeminal nerve의 ophthalmic division(CN V1)입니다. 주요 분지는 anterior ethmoidal nerve(CN V1의 분지)이며, 이 자극이 brainstem의 재채기 중추로 전달되어 재채기가 유발됩니다. 참고: 비강 점막은 CN V1(anterior ethmoidal n.)과 CN V2(nasopalatine n., posterior nasal branches) 모두의 지배를 받으므로, 재채기 반사는 V1 또는 V2 영역 자극으로 유발될 수 있습니다. 다만 전통적으로 V1이 주된 구심로로 강조됩니다. [검증됨]",
+    "explanation": "정답: CN V1 (ophthalmic n.). 재채기 반사(sneeze reflex)의 구심로(afferent limb)는 코 점막의 자극을 감지하는 trigeminal nerve의 ophthalmic division(CN V1)입니다. 주요 분지는 anterior ethmoidal nerve(CN V1의 분지)이며, 이 자극이 brainstem의 재채기 중추로 전달되어 재채기가 유발됩니다. 참고: 비강 점막은 CN V1(anterior ethmoidal n.)과 CN V2(nasopalatine n., posterior nasal branches) 모두의 지배를 받으므로, 재채기 반사는 V1 또는 V2 영역 자극으로 유발될 수 있습니다. 다만 전통적으로 V1이 주된 구심로로 강조됩니다. [검증됨]\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -500,7 +500,7 @@
       "5) 혀의뒤 1/3 - 미각 - glossopharyngeal n."
     ],
     "answer": 5,
-    "explanation": "정답: 혀의뒤 1/3 - 미각 - glossopharyngeal n. 혀의 뒤 1/3의 미각과 일반감각은 모두 glossopharyngeal nerve(CN IX)가 담당합니다. 혀의 앞 2/3의 미각은 chorda tympani(CN VII), 일반감각(촉각/온각)은 lingual nerve(CN V3)입니다. Epiglottis의 미각은 internal laryngeal nerve(CN X)가 담당합니다.",
+    "explanation": "정답: 혀의뒤 1/3 - 미각 - glossopharyngeal n. 혀의 뒤 1/3의 미각과 일반감각은 모두 glossopharyngeal nerve(CN IX)가 담당합니다. 혀의 앞 2/3의 미각은 chorda tympani(CN VII), 일반감각(촉각/온각)은 lingual nerve(CN V3)입니다. Epiglottis의 미각은 internal laryngeal nerve(CN X)가 담당합니다.\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -534,7 +534,7 @@
       "5) ascending pharyngeal a."
     ],
     "answer": 4,
-    "explanation": "subclavian a.의 분지에 대한 문제네요. deep cervical a.는 subclavian a.의 2nd division에서나오는 costocervical tr.의 분지입니다.\n\n1) 1st division의 thyrocervical tr.의 분지입니다.\n2) 1st division의 thyrocervical tr.의 분지입니다\n3) 1st division에서 나오는 br.입니다\n5) ascending pharyngeal a.는 ext. carotid a.의 분지죠. ext. carotid a.의 분지로는 sup.\nthyroid a., ascending pharyngeal a., lingual a., occipital a., facial a., post. auricular a.,\nmaxillary a., supf. temporal a.의 8가지가 있습니다.\n\nsubclavian a.의 분지 보고갑시다.\nSubclavian a.\n- 1st division\n- Vertebral a.\n- Thyrocervical trunk\n- Inf. thyroid a.\n- Ascending cervical a.\n- Transverse cervical a.\n- Suprascapular a.\n- Int. thoracic a.\n- 2nd division\n- ¥12 Costocervical trunk\n- ¥12 Deep cervical a.\n- Highest intercostal a.\n- 3rd division\n- Dorsal scapular a.\n51",
+    "explanation": "subclavian a.의 분지에 대한 문제네요. deep cervical a.는 subclavian a.의 2nd division에서나오는 costocervical tr.의 분지입니다.\n\n1) 1st division의 thyrocervical tr.의 분지입니다.\n[해설분리-수정됨]",
     "original_topic": "Head/Neck"
   },
   {
@@ -551,7 +551,7 @@
       "5) ciliary ganglion"
     ],
     "answer": 3,
-    "explanation": "코와 입천장의 샘분비를 담당하는 곳은 pterygopalatine ggl.입니다. pterygopalatine ggl.은 lacrimal gl.로 가서 눈물샘의 분비를 담당합니다. pterygopalatine ggl.의 부교감신경성분은 facial n.의 가지인 greater petrosal n.이 담당합니다.\n1) nodose ggl.은 vagus n.의 ‘감각’신경절입니다. 아까 앞의 2015 해설에서 있었는데..!\nvagus n.의 sup. ggl.는 jugular ggl. 이고 inf. ggl.가 nodose ggl.였죠\n2) otic ggl.은 glossopharyngeal n.의 부교감신경절로 glossopharyngeal n.의 종말가지인 lesser petrosal n.이 otic ggl.로 부교감성분을 전달합니다., parotid gl.로 가서 침분비를담당합니다.\n4) submandibular ggl.은 facial n.의 부교감신경절로 chorda tympani n.이 lingual n.에합쳐져서 submandibular ggl.로 부교감신경성분을 전달합니다. submandibular ggl.은 submandibular gl.과 sublingual gl.로 가서 침 분비를 조절합니다.\n5) ciliary ggl.은 oculomotor n.의 부교감신경절로 sphincter pupillae m.과 ciliary m.으로가서 동공의 수축과 accommodation을 조절합니다.(수정체 두께 조절!)",
+    "explanation": "코와 입천장의 샘분비를 담당하는 곳은 pterygopalatine ggl.입니다. pterygopalatine ggl.은 lacrimal gl.로 가서 눈물샘의 분비를 담당합니다. pterygopalatine ggl.의 부교감신경성분은 facial n.의 가지인 greater petrosal n.이 담당합니다.\n1) nodose ggl.은 vagus n.의 ‘감각’신경절입니다. 아까 앞의 2015 해설에서 있었는데..!\nvagus n.의 sup. ggl.는 jugular ggl. 이고 inf. ggl.가 nodose ggl.였죠\n2) otic ggl.은 glossopharyngeal n.의 부교감신경절로 glossopharyngeal n.의 종말가지인 lesser petrosal n.이 otic ggl.로 부교감성분을 전달합니다., parotid gl.로 가서 침분비를담당합니다.\n4) submandibular ggl.은 facial n.의 부교감신경절로 chorda tympani n.이 lingual n.에합쳐져서 submandibular ggl.로 부교감신경성분을 전달합니다. submandibular ggl.은 submandibular gl.과 sublingual gl.로 가서 침 분비를 조절합니다.\n5) ciliary ggl.은 oculomotor n.의 부교감신경절로 sphincter pupillae m.과 ciliary m.으로가서 동공의 수축과 accommodation을 조절합니다.(수정체 두께 조절!)\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -568,7 +568,7 @@
       "5) VII"
     ],
     "answer": 5,
-    "explanation": "정답: CN VII (facial nerve). Bell's palsy는 facial nerve(CN VII)의 마비입니다. 얼굴 근육 마비, 침/눈물 분비 장애(submandibular/sublingual/lacrimal gland), 혀 앞 2/3 미각 상실(chorda tympani), 청각과민(stapedius m. 마비)이 모두 CN VII 손상의 전형적 증상입니다.",
+    "explanation": "정답: CN VII (facial nerve). Bell's palsy는 facial nerve(CN VII)의 마비입니다. 얼굴 근육 마비, 침/눈물 분비 장애(submandibular/sublingual/lacrimal gland), 혀 앞 2/3 미각 상실(chorda tympani), 청각과민(stapedius m. 마비)이 모두 CN VII 손상의 전형적 증상입니다.\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -601,7 +601,7 @@
       "4) nucleus accumbens"
     ],
     "answer": 4,
-    "explanation": "neuroanatomy for psychiatrics 에 나오는 Addiction과 관련된 내용입니다.\nVTA(=ventral tegmental area) -> lat. hypothalamic area -> med. forebrain bundle -> nucleus accumbens를 통하는 경로인데요. 경로의 첫 부분인 VTA에서 도파민 농도가 상승할 거라고 생각하기 쉽지만 알코올과 니코틴은 nucleus accumbens에서 도파민 농도를 상승시킵니다.\n다른 약물들을 간단하게 살펴보자면 Amphetamine : presynaptic terminal에서 도파민 분비를 향상시킵니다 Cocaine : 도파민의 재흡수를 차단합니다. (재흡수가 안되므로 농도가 상승합니다.)\nOpioid : VAT와 striatum 신경세포에 작용하여 도파민 분비를 촉진시킵니다.\n65.교통사고 후 분노 조절에 장애. 검사결과 Prefrontal cortex에는 이상이 없었다. 손상부위는?\n1. nucleus accumbens\n2. hippocampus\n3. VAT\n4 raphe nucleus\n5. cingulate gyrus\n007) - 16 29 답:5(라고 써있던거 그대로. 남겨놨지만 15년도 31번, 년도 번을 보면 답을 알 수 있습니다 Nucleus accumbens - 중독 VAT - ? Ventral anterior thalamus인지... 뭔지 모르겠네요.\nRaphe nucleus - 세로토닌 분비 amygdala - 공포 / 기억 (선지에도 없는 걸 왜써놨냐 싶으시죠?! 16년 29번을 보시면 알 수 있습니다.-007)\ncingulate gyrus - 이게 15년도에 문제가 바뀌기 전까지는 전통적인 답이었습니다. (?! 문제가 바뀌기 전에 선배들은아마 hippocampus를 답이라고 했던 것 같아요. -007)",
+    "explanation": "neuroanatomy for psychiatrics 에 나오는 Addiction과 관련된 내용입니다.\nVTA(=ventral tegmental area) -> lat. hypothalamic area -> med. forebrain bundle -> nucleus accumbens를 통하는 경로인데요. 경로의 첫 부분인 VTA에서 도파민 농도가 상승할 거라고 생각하기 쉽지만 알코올과 니코틴은 nucleus accumbens에서 도파민 농도를 상승시킵니다.\n다른 약물들을 간단하게 살펴보자면 Amphetamine : presynaptic terminal에서 도파민 분비를 향상시킵니다 Cocaine : 도파민의 재흡수를 차단합니다. (재흡수가 안되므로 농도가 상승합니다.)\nOpioid : VAT와 striatum 신경세포에 작용하여 도파민 분비를 촉진시킵니다.\n65.교통사고 후 분노 조절에 장애. 검사결과 Prefrontal cortex에는 이상이 없었다. 손상부위는?\n1. nucleus accumbens\n2. hippocampus\n3. VAT\n4 raphe nucleus\n5. cingulate gyrus\n[해설분리-수정됨]",
     "original_topic": "Unknown"
   },
   {
@@ -610,9 +610,15 @@
     "question_num": 7,
     "topic": "motor_pathway",
     "question_text": "검사 결과, 머리와 몸통의 운동은 불가능하고, 빛 자극에 의한 안구운동은 가능했다. 어느",
-    "choices": [],
+    "choices": [
+      "1) Fasciculus gracilis (박속)",
+      "2) Fasciculus cuneatus (설상속)",
+      "3) Lateral corticospinal tract (외측피질척수로)",
+      "4) Vestibulospinal tract (전정척수로)",
+      "5) Anterior corticospinal tract (전피질척수로) / Reticulospinal tract (망상체척수로) / Tectospinal tract (덮개척수로)"
+    ],
     "answer": 5,
-    "explanation": "이래나 저래나 몸이나 몸통이 안움직이시는 거니까 근육 조절 중 trunk쪽을 담당하는 anterior corticospinal tract의 문제(lateral은 사지쪽이죠)라고 보입니다. 그래서 5번입니다.\n빛 자극은 인지하시니 oculomoter n는 문제가 없으시군요.\n\n8. 검사 결과, 몸통과 양쪽 다리의 근력이 감소되었다. 손상 가능성이 있는 곳은?",
+    "explanation": "이래나 저래나 몸이나 몸통이 안움직이시는 거니까 근육 조절 중 trunk쪽을 담당하는 anterior corticospinal tract의 문제(lateral은 사지쪽이죠)라고 보입니다. 그래서 5번입니다.\n빛 자극은 인지하시니 oculomoter n는 문제가 없으시군요.\n[해설분리-수정됨]\n📚 참고: Ninja Nerd - Motor Pathways",
     "original_topic": "Unknown"
   },
   {
@@ -621,9 +627,15 @@
     "question_num": 8,
     "topic": "motor_pathway",
     "question_text": "검사 결과, 몸통과 양쪽 다리의 근력이 감소되었다. 손상 가능성이 있는 곳은?",
-    "choices": [],
+    "choices": [
+      "1) Fasciculus gracilis (박속)",
+      "2) Fasciculus cuneatus (설상속)",
+      "3) Lateral corticospinal tract (외측피질척수로)",
+      "4) Vestibulospinal tract (전정척수로)",
+      "5) Anterior corticospinal tract (전피질척수로) / Reticulospinal tract (망상체척수로) / Tectospinal tract (덮개척수로)"
+    ],
     "answer": 3,
-    "explanation": "사지의 근육에 힘이 없으시네요. 그쪽 신경 신호가 약하게 가나 봅니다. 몸통도 잘 안움직이신다고 되어있지만, 사지 쪽 근육이 아예 마비가 되면 그쪽에proximal한 몸통 근육이 뻑뻑할것으로 생각되고 문제에서 그런 정도의 증상을 제시한 것이 아닐까 생각했습니다. 7번 해설에서 lat. Corticospinal tract가 되겠습니다.\n\n9. 자리에 앉는 것을 어려워하고, 균형을 잡기 힘들어했다. 이때 다음 중 손상 가능성이 가장높은 부위는?",
+    "explanation": "사지의 근육에 힘이 없으시네요. 그쪽 신경 신호가 약하게 가나 봅니다. 몸통도 잘 안움직이신다고 되어있지만, 사지 쪽 근육이 아예 마비가 되면 그쪽에proximal한 몸통 근육이 뻑뻑할것으로 생각되고 문제에서 그런 정도의 증상을 제시한 것이 아닐까 생각했습니다. 7번 해설에서 lat. Corticospinal tract가 되겠습니다.\n[해설분리-수정됨]\n📚 참고: Ninja Nerd - Motor Pathways",
     "original_topic": "Unknown"
   },
   {
@@ -657,7 +669,7 @@
       "5) tympanic plexus를 형성한다."
     ],
     "answer": 4,
-    "explanation": "정답: glossopharyngeal n.의 분지이다. Tympanic nerve는 CN IX(glossopharyngeal nerve)의 분지입니다. Petrous ganglion에서 기원하여 middle ear로 들어가 tympanic plexus를 형성합니다. 이 plexus에서 lesser petrosal nerve가 나와 otic ganglion을 거쳐 parotid gland에 부교감 신경을 공급합니다. Tympanic nerve는 preganglionic parasympathetic fiber를 포함합니다.",
+    "explanation": "정답: glossopharyngeal n.의 분지이다. Tympanic nerve는 CN IX(glossopharyngeal nerve)의 분지입니다. Petrous ganglion에서 기원하여 middle ear로 들어가 tympanic plexus를 형성합니다. 이 plexus에서 lesser petrosal nerve가 나와 otic ganglion을 거쳐 parotid gland에 부교감 신경을 공급합니다. Tympanic nerve는 preganglionic parasympathetic fiber를 포함합니다.\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -674,7 +686,7 @@
       "5) 왼쪽 팔의 강직"
     ],
     "answer": 1,
-    "explanation": "Lateral spinothalamic tract는 반대측에서 온 온도와 통증 감각을 위로 올려보냅니다. 좌측 Lat. spinothalamic tract이므로, 우측 팔의 통증과 온도 감각이 상실되었을 것입니다.",
+    "explanation": "Lateral spinothalamic tract는 반대측에서 온 온도와 통증 감각을 위로 올려보냅니다. 좌측 Lat. spinothalamic tract이므로, 우측 팔의 통증과 온도 감각이 상실되었을 것입니다.\n📚 참고: Ninja Nerd - Sensory Pathways",
     "original_topic": "Unknown"
   },
   {
@@ -708,7 +720,7 @@
       "5) ant.cranial fossa 종양"
     ],
     "answer": 4,
-    "explanation": "정답: cavernous sinus 감염. Abducens nerve(CN VI)는 cavernous sinus 내부를 통과하며 internal carotid artery와 함께 주행합니다. Cavernous sinus 감염이나 혈전증 시 CN VI가 가장 먼저 손상되어 외전 장애(lateral rectus 마비)가 발생합니다. CN III, IV, V1, V2도 cavernous sinus 벽을 따라 주행하지만, CN VI가 sinus 내부에 위치하여 가장 취약합니다.",
+    "explanation": "정답: cavernous sinus 감염. Abducens nerve(CN VI)는 cavernous sinus 내부를 통과하며 internal carotid artery와 함께 주행합니다. Cavernous sinus 감염이나 혈전증 시 CN VI가 가장 먼저 손상되어 외전 장애(lateral rectus 마비)가 발생합니다. CN III, IV, V1, V2도 cavernous sinus 벽을 따라 주행하지만, CN VI가 sinus 내부에 위치하여 가장 취약합니다.\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -725,7 +737,7 @@
       "5) tensor tympani m."
     ],
     "answer": 4,
-    "explanation": "짤기!\n\n18. jugular foramen에 fracture가 생겼을때 손상될 가능성이 있는 것은?\n13년도 14번과 동일한 보기일 것 같습니다. 그래도 모르니까 jugular foramen을 지나는구조물들의 주문을 외워봅시다!\nint. jugular v., CNⅨ, Ⅹ, Ⅺ, inf. petrosal sinus, sigmoid sinus, ascending pharyngeal a.,\noccipital a.의 meningeal br.\n\n짤기!",
+    "explanation": "짤기!\n\n18. jugular foramen에 fracture가 생겼을때 손상될 가능성이 있는 것은?\n13년도 14번과 동일한 보기일 것 같습니다. 그래도 모르니까 jugular foramen을 지나는구조물들의 주문을 외워봅시다!\nint. jugular v., CNⅨ, Ⅹ, Ⅺ, inf. petrosal sinus, sigmoid sinus, ascending pharyngeal a.,\noccipital a.의 meningeal br.\n\n짤기!\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -741,7 +753,7 @@
       "4) 침샘분비감소"
     ],
     "answer": 2,
-    "explanation": "greater petrosal n.은 facial n.의 분지로 pterygopalatine ggl.에 부교감 성분을 전달해서 lacrimal gl.과 입천장에 있는 샘들의 분비를 조절하는 신경입니다.\ngreater petrosal n.에 대해 좀 더 설명하자면 facial n.이 geniculate ggl.을 지나서 나온분지가 greater petrosal n.인데요 이 신경은 sup. cervical ggl.에서 연접하고 나온교감신경인 deep petrosal n.과 만나서 vidian n.(=n. to pterygoid canal)을 형성합니다. 이 vidian n.은 pterygopalatine ggl.로 가서 lacrimal gl.과 입천장에 있는 샘들의 분비를조절합니다.\n코까지 건조해지는 이유는 앞에 설명 했죠@_@\nlacrimal gl.에서 분비된 눈물이 nasolacrimal duct로 들어가서 코 점막에 수분을 공급하기때문입니다!\n1) 눈물의 분비는 감소하겠죠.\n3) 후두덮개 반사(=gag reflex)는 vagus n.과 glossopharyngeal n.이 조절합니다.\n4) 침샘분비는 submandibular ggl.과 otic ggl.과 관련이 있는데요 submandibular ggl.에부교감 신경 성분을 전달하는 것은 facial n.의 분지인 chorda tympani n.입니다. 여기서나온 부교감 신경이 submandibular gl.와 sublingual gl.의 침분비를 조절합니다.\n또한 lesser petrosal n.의 부교감성분이 otic ggl.을 형성하고 여기서 나온 부교감성분이 parotid gl.의 침분비를 조절합니다.",
+    "explanation": "greater petrosal n.은 facial n.의 분지로 pterygopalatine ggl.에 부교감 성분을 전달해서 lacrimal gl.과 입천장에 있는 샘들의 분비를 조절하는 신경입니다.\ngreater petrosal n.에 대해 좀 더 설명하자면 facial n.이 geniculate ggl.을 지나서 나온분지가 greater petrosal n.인데요 이 신경은 sup. cervical ggl.에서 연접하고 나온교감신경인 deep petrosal n.과 만나서 vidian n.(=n. to pterygoid canal)을 형성합니다. 이 vidian n.은 pterygopalatine ggl.로 가서 lacrimal gl.과 입천장에 있는 샘들의 분비를조절합니다.\n코까지 건조해지는 이유는 앞에 설명 했죠@_@\nlacrimal gl.에서 분비된 눈물이 nasolacrimal duct로 들어가서 코 점막에 수분을 공급하기때문입니다!\n1) 눈물의 분비는 감소하겠죠.\n3) 후두덮개 반사(=gag reflex)는 vagus n.과 glossopharyngeal n.이 조절합니다.\n4) 침샘분비는 submandibular ggl.과 otic ggl.과 관련이 있는데요 submandibular ggl.에부교감 신경 성분을 전달하는 것은 facial n.의 분지인 chorda tympani n.입니다. 여기서나온 부교감 신경이 submandibular gl.와 sublingual gl.의 침분비를 조절합니다.\n또한 lesser petrosal n.의 부교감성분이 otic ggl.을 형성하고 여기서 나온 부교감성분이 parotid gl.의 침분비를 조절합니다.\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -775,7 +787,7 @@
       "5) cn7"
     ],
     "answer": 5,
-    "explanation": "정답: CN VII (facial nerve). 얼굴 근육 마비, 침/눈물 분비 장애, 미각 상실(혀 앞 2/3), 청각과민은 facial nerve(CN VII)의 전형적 손상 증상입니다. 이 모든 기능은 CN VII의 운동, 부교감, 특수감각(미각) 성분에 해당합니다.",
+    "explanation": "정답: CN VII (facial nerve). 얼굴 근육 마비, 침/눈물 분비 장애, 미각 상실(혀 앞 2/3), 청각과민은 facial nerve(CN VII)의 전형적 손상 증상입니다. 이 모든 기능은 CN VII의 운동, 부교감, 특수감각(미각) 성분에 해당합니다.\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -792,7 +804,7 @@
       "5) Deep petrosal n."
     ],
     "answer": 4,
-    "explanation": "코와 입천장의 샘분비를 담당하는 곳은 pterygopalatine ggl.입니다 pterygopalatine ganglion을 구성하는 자율신경은 Facial n.의 부교감성분을 가진 graterpetrosal n.과 sup. cervical ganglion에서 오는 deep petrosal n.가 있는데요, 분비샘의분비를 조절하는 것은 부교감 신경이 주로 하는 일이므로 답은 greater petrosal n. 이라고할 수 있습니다.\n\n27번 눈뜨기 장애와 관련이 있는 구조는?",
+    "explanation": "코와 입천장의 샘분비를 담당하는 곳은 pterygopalatine ggl.입니다 pterygopalatine ganglion을 구성하는 자율신경은 Facial n.의 부교감성분을 가진 graterpetrosal n.과 sup. cervical ganglion에서 오는 deep petrosal n.가 있는데요, 분비샘의분비를 조절하는 것은 부교감 신경이 주로 하는 일이므로 답은 greater petrosal n. 이라고할 수 있습니다.\n\n27번 눈뜨기 장애와 관련이 있는 구조는?\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -842,7 +854,7 @@
       "5) Nucleus accumbens"
     ],
     "answer": 4,
-    "explanation": "몇 번 조금씩 바뀌던 문제입니다.\nedinger-wesphal = oculomotor's parasympathetic sup. salivatory = facial n.\nlacrimal = facial n.\ninf. salivatory = glossopharyngeal nucleus accumbens = ? 관계가 없습니다. (cardiac ggl.과 연관이 있다고 하니 심장에 작용하는 부교감신경을 내보내는 역할을 하는 것 같습니다.)\n\n39. 어떤 환자가 오른쪽 얼굴과 혀의 마비와, 힘줄반사가 항진되고 언어상실증이 나타났다.\n이와 관련된 구조는?\n1) internal capsule\n2) frontal lobe\n3) pons\n4) medulla\n5) temporal lobe 해설)\n우선 언어 상실이라는 말을 통해서 Broca’s area 생각해주시면 됩니다. 따라서 답은 frontal lobe를 고를 수 있어요. 오른쪽 얼굴과 혀의 마비, 힘줄반사 항진에 대해서 설명하자면 오른쪽 얼굴과 혀의 마비는 frontal lobe의 primary motor cortex의 아랫 부분(broca's area와 겹침의) 손상으로 기인 할 수 있습니다 힘줄 반사. 는 사지에서 일어나는데 이 또한 , pyramidal tract 의 일부인 primary motor cortex가 손상됬으니 과도하게 일어날 수 있습니다.",
+    "explanation": "몇 번 조금씩 바뀌던 문제입니다.\nedinger-wesphal = oculomotor's parasympathetic sup. salivatory = facial n.\nlacrimal = facial n.\ninf. salivatory = glossopharyngeal nucleus accumbens = ? 관계가 없습니다. (cardiac ggl.과 연관이 있다고 하니 심장에 작용하는 부교감신경을 내보내는 역할을 하는 것 같습니다.)\n[해설분리-수정됨]",
     "original_topic": "Unknown"
   },
   {
@@ -859,7 +871,7 @@
       "5) petrous gang."
     ],
     "answer": 5,
-    "explanation": "정답: petrous ganglion. 중이(middle ear)의 감각은 glossopharyngeal nerve(CN IX)의 분지인 tympanic nerve가 담당하며, 이 신경의 세포체는 petrous ganglion(inferior ganglion of CN IX)에 있습니다. 중이염 시 tympanic plexus 자극이 CN IX를 통해 구토 중추로 전달되어 구토가 유발됩니다.",
+    "explanation": "정답: petrous ganglion. 중이(middle ear)의 감각은 glossopharyngeal nerve(CN IX)의 분지인 tympanic nerve가 담당하며, 이 신경의 세포체는 petrous ganglion(inferior ganglion of CN IX)에 있습니다. 중이염 시 tympanic plexus 자극이 CN IX를 통해 구토 중추로 전달되어 구토가 유발됩니다.\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -876,7 +888,7 @@
       "5) Olfactory n."
     ],
     "answer": 1,
-    "explanation": "정답: ophthalmic n. (CN V1). 재채기 반사의 구심로는 비강 점막의 자극을 감지하는 ophthalmic nerve(CN V1)입니다. 주로 anterior ethmoidal nerve(CN V1 분지)가 비강 점막 감각을 담당합니다. Olfactory nerve(CN I)는 후각만 담당하며, 재채기 반사의 기계적/화학적 자극 감지와는 다릅니다.",
+    "explanation": "정답: ophthalmic n. (CN V1). 재채기 반사의 구심로는 비강 점막의 자극을 감지하는 ophthalmic nerve(CN V1)입니다. 주로 anterior ethmoidal nerve(CN V1 분지)가 비강 점막 감각을 담당합니다. Olfactory nerve(CN I)는 후각만 담당하며, 재채기 반사의 기계적/화학적 자극 감지와는 다릅니다.\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -893,7 +905,7 @@
       "5) 혀의 뒤 1/3 - 미각 - glossopharyngeal n."
     ],
     "answer": 5,
-    "explanation": "혀 GSE(운동) GVA SVA(맛)\n앞 2/3 CN12 CN5-3(mandibular n.)의 CN7의 분지인분지인 lingual n. chorda tympani n.\n뒤1/3 CN12 CN9 CN9ri",
+    "explanation": "혀 GSE(운동) GVA SVA(맛)\n앞 2/3 CN12 CN5-3(mandibular n.)의 CN7의 분지인분지인 lingual n. chorda tympani n.\n뒤1/3 CN12 CN9 CN9ri\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -926,7 +938,7 @@
       "4) 왼쪽 pons"
     ],
     "answer": 3,
-    "explanation": "right CN VII,\nleft CN XII CN VII는 pons level에서 교차를 해서 나오게 되고, CN XII는 medulla level에서 교차를 하게 됩니다. 오른쪽 pons level에서 망가진다면 오른쪽 안면 근육이 마비되고, 왼쪽 혀가 마비가 되겠지요? 왼쪽 팔다리가 마비되는 것 또한 pyramidal tract는 pyramid아래에서 교차하기에 그렇습니다. abducent n.의 nucleus는 pons에 있으므로 같이 마비됩니다.\n\n※ 다음 물음에 답하시오.\n42. 뇌졸중 회복 중인 환자가 손의 운동은 정상이나 글씨를 보고 따라 쓰는 것에 어려움을느꼈다. 손상된 부위는?\n1) 4\n2) 17\n3) 29\n4) 40\n5) 41\n해설) <ppt 첨부합니다!>\nVisual agnosia: the inability to recognize things by sight- parieto-occipital lesion or interruptionof fibers in the splenium\n·저기서 설명하고 있는 것은 visual agnosia입니다. splenium이 다치면 일어나는 질병을 물어보죠. 답은 visual agnosia입니다.\n*저도 이게 다른 게 아닌가? 의심을 많이 했는데, ppt에 그냥 그대로 써져 있어서...\n*짤기인데 Splenium이 어디인지 알아야겠지요?\n\n43. 다음 중 색깔과 글자해석에 관여하는 부위는?\n1) 17\n2) 18\n3) 19\n4) 37\n5) 39\n해설) Primary visual area인 Brodmann area 17에서 담당합니다.\n\n44. 다음 중 운동언어영역이 위치한 부위는?\n1) 40\n2) 41\n3) 42\n4) 43\n5) 44\n해설)\nBroca’s area입니다. Brodmann area 44, 45에 걸쳐 있는데 44번이 더 주를 이루므로 답은\n5번입니다.\n\n45. 환자가 말은 정상적으로 하나 글을 쓰지 못하였다. 손상되었을 가능성이 가장 높은 부위는?\n1) 39\n2) 40\n3) 41\n4) 42\n5) 43\n해설)\nAngular gyrus에 문제가 있는 경우입니다.\n-Agraphia (쓰기언어장애): 말은 정상적으로 하나 글을 쓰지 못함. Angular gyrus 손상시 주로 나타남. 이라고 ppt에 나와 있습니다.\n\n46. 뇌졸중 후 말을 이해하지 못하고 듣기, 읽기, 말 따라하기에 문제가 나타났다. 손상된 brodmann area는?\n1) 21\n2) 22\n3) 42\n4) 43\n5) 44\n해설) Wernicke’s area에 관한 설명입니다.\n\n47. 교통사고를 당하고 난 후 시야의 범위에 움직이는 물체를 구분하지 못했고 시각조화운동에 장애가 일어났다. 손상된 Brodmann area는?\n1) 17\n2) 18\n3) 19\n4) 20\n5) 21\n해설) 육안해부학 ppt 슬라이드 61번에 area 19 손상시 나타나는 증상으로 나와 있습니다.\nBalint’s syndrome이라고 하네요.\n\n49. 뇌졸중 회복 후 근육의 마비는 관찰되지 않았으나 연필을 잡지 못하였다. 이 환자에게손상된 부위는?\n1) 3\n2) 4\n3) 5\n4) 6\n5) 7\n해설)\n근육이 마비 되지 않았는데도 학습된 행동을 수행하지 못하는 것은 premotor area인 6번에손상을 입었을 경우입니다.",
+    "explanation": "right CN VII,\nleft CN XII CN VII는 pons level에서 교차를 해서 나오게 되고, CN XII는 medulla level에서 교차를 하게 됩니다. 오른쪽 pons level에서 망가진다면 오른쪽 안면 근육이 마비되고, 왼쪽 혀가 마비가 되겠지요? 왼쪽 팔다리가 마비되는 것 또한 pyramidal tract는 pyramid아래에서 교차하기에 그렇습니다. abducent n.의 nucleus는 pons에 있으므로 같이 마비됩니다.\n\n※ 다음 물음에 답하시오.\n[해설분리-수정됨]",
     "original_topic": "Unknown"
   },
   {
@@ -935,7 +947,13 @@
     "question_num": 42,
     "topic": "blood_supply_brain",
     "question_text": "60세 여성이 실신 이후 왼쪽 다리 및 회음부의 마비를 호소하였으며, 요실금이 나타났다. 검사결과 이상이 있을",
-    "choices": [],
+    "choices": [
+      "1) Anterior cerebral a. (전대뇌동맥)",
+      "2) Middle cerebral a. (중대뇌동맥)",
+      "3) Posterior cerebral a. (후대뇌동맥)",
+      "4) PICA (후하소뇌동맥)",
+      "5) AICA (전하소뇌동맥)"
+    ],
     "answer": 1,
     "explanation": "하지의 운동영역 근처에 분포하는 혈관은a nt. cerebral a. 입니다. 또한 머리 밑으로 내려가는 신경섬유들은 한 번 교차가 일어나죠. 왼쪽이 마비되었으니 우측 대뇌반구의 손상입니다.\n<int. carotid a.의 분지>\n1) opthalmic a.\n2) ant. cerebral a. : 하지에 관련된 운동영역에 혈액을 공급\n3) mid. cerebral a. : 하지 이외의 모든 운동영역에 혈액을 공급\n4) ant. choroidal a.\n5) post. communicating br.\n<basilar a.의 분지> vertebral. a. 두 개가 합쳐져 basilar a.가 되기 때문에 분지가 혼용되지만 피피티기준으로 정리했습니다.\n1) post. cerebral a. (PCA) : 시각영역에 혈액을 공급합니다.\n2) sup. cerebellar a.\n3) paramedian pontine aa. : pons의 med. part 혈액 공급에 중요한 역할을 합니다.\n4) labyrinthine a.\n5) AICA (ant. inf. cerebellar a.) : PICA보다 위에 있어 소뇌와 pons의 혈액 공급\n<vertebral. a. 분지>\n1) meningeal br., post spinal a., ant. spinal a. spinal cord에 혈관을 공급합니다.\n2) PICA (post. inf. cerebellar a.) : 소뇌와 medulla의 혈액 공급아래 표는 대대로 내려오는 표입니다.\n혈관 분지 손상부위 ant. cerebral a. 하지의 운동영역하지 이외의 모든 운동영 mid. cerebral a.\n역시각영역 쪽 basilar a. post. cerebral a.\n해마와 언어능력에 손상 可 Raymond' s syndrome\n(반대쪽 몸의 불완전마비와내측 사시)\nbasilar a. pontine br. med. medullary syndrome\n(반대편 hemiparesis 반대쪽 고유 감각 감소혀의 동측 마비)\nlat. pontine syndromebasilar a. ant. inf. cerebellar a. (CN5,7,8 nucleus 손상 ,\nnystagmus)\nlat. medullary syndrome\n(dizziness, cerebellar ataxia,\nvertebral a. post. inf. cerebellar a. nystagmus, 얼굴의 감각손실, 반대몸쪽 통감의 각장애 ,\n발성장애, 동공반사 이상 )",
     "original_topic": "Unknown"
@@ -954,7 +972,7 @@
       "5) Rt. Vertebral a."
     ],
     "answer": 5,
-    "explanation": "Wallenberg’s syndrome (Lateral medullary syndrome) 의 전형적인 증상입니다. 피피티에 증상이 토씨 그대로 쓰여있네요 PICA 혹은 vertebral a.의 손상이 원인입니다. 감각 신경이 이미 척수에서 교차한 후이므로, right라는 것도 유추 할 수 있습니다.\n*버티던 피카츄가 옆에서 매달리다 넘어졌다(dizziness).로 외웁시다-Gallly\n*위의 42번 를 참고합시다.\n49.다이어트를 하던 20세 여자가 갑작스러운 기억력장애를 호소하였다. Vitamin B group을 투여한 결과, 그 증상이호전되었다. 이 환자의 증상과 가장 관련있는 부위는?",
+    "explanation": "Wallenberg’s syndrome (Lateral medullary syndrome) 의 전형적인 증상입니다. 피피티에 증상이 토씨 그대로 쓰여있네요 PICA 혹은 vertebral a.의 손상이 원인입니다. 감각 신경이 이미 척수에서 교차한 후이므로, right라는 것도 유추 할 수 있습니다.\n*버티던 피카츄가 옆에서 매달리다 넘어졌다(dizziness).로 외웁시다-Gallly\n*위의 42번 를 참고합시다.\n[해설분리-수정됨]",
     "original_topic": "Unknown"
   },
   {
@@ -988,7 +1006,7 @@
       "5) 43"
     ],
     "answer": 1,
-    "explanation": "짤기!\nAngular gyrus에 문제가 있는 경우입니다.\n-Agraphia (쓰기언어장애): 말은 정상적으로 하나 글을 쓰지 못함. Angular gyrus 손상시주로 나타남. 이라고 ppt에 나와 있습니다.\n\n46. 뇌졸중 후 말을 이해하지 못하며, 듣기, 읽기, 말따라하기 등에 장애를 나타내었다. 손상가능성이 가장 높은 부위는?\n2) 22\n3) 42\n4) 43\n5) 44",
+    "explanation": "짤기!\nAngular gyrus에 문제가 있는 경우입니다.\n-Agraphia (쓰기언어장애): 말은 정상적으로 하나 글을 쓰지 못함. Angular gyrus 손상시주로 나타남. 이라고 ppt에 나와 있습니다.\n[해설분리-수정됨]",
     "original_topic": "Unknown"
   },
   {
@@ -997,7 +1015,13 @@
     "question_num": 46,
     "topic": "higher_cns_functions",
     "question_text": "얼굴부위의 심한 통증 및 두통으로 입원하였다. 검사결과 삼차신경통으로 진단되었다.",
-    "choices": [],
+    "choices": [
+      "1) VPM (ventral posteromedial nucleus)",
+      "2) VPL (ventral posterolateral nucleus)",
+      "3) DMN (dorsomedial nucleus)",
+      "4) Pulvinar",
+      "5) LGN (lateral geniculate nucleus)"
+    ],
     "answer": 1,
     "explanation": "위의 선지의 구조들은 모두 Thalamus의 내부 구조입니다. 저 중에서 얼굴의 sense는 VPM이 담당합니다. 어깨가 얼굴보다 넓으니까 몸의 감각은 VPL, 얼굴의 감각은 VPM이라고외우면 편합니다. DMN도 고통을 담당하지만 몸쪽의 고통을 담당하므로 삼차신경통을 묻는이 문제에서는 제외했습니다.",
     "original_topic": "Unknown"
@@ -1150,7 +1174,7 @@
       "5) brodamann area 44"
     ],
     "answer": 1,
-    "explanation": "Wernicke’s area에 관한 설명입니다. ‘말을 이해하지 못한다’에서 바로 캐치해 내면 좋을 것같습니다. Wernicke’s area는 brodmann area 22.\n60. 다음 중 decerebrate rigidity(대뇌제거경직)과 가장 관련있는 신경로는?\n(1) corticospinal tract\n(2) corticoreticulospinal tract\n(3) vestibulospinal tract\n(4) tectospinal tract\n(5) rubrospinal tract",
+    "explanation": "Wernicke’s area에 관한 설명입니다. ‘말을 이해하지 못한다’에서 바로 캐치해 내면 좋을 것같습니다. Wernicke’s area는 brodmann area 22.\n[해설분리-수정됨]",
     "original_topic": "Unknown"
   },
   {
@@ -1176,9 +1200,15 @@
     "question_num": 60,
     "topic": "motor_pathway",
     "question_text": "다음 중 decerebrate rigidity(대뇌제거경직)과 가장 관련있는 신경로는?",
-    "choices": [],
+    "choices": [
+      "1) Corticospinal tract (피질척수로)",
+      "2) Corticoreticulospinal tract (피질망상체척수로)",
+      "3) Vestibulospinal tract (전정척수로)",
+      "4) Tectospinal tract (덮개척수로)",
+      "5) Rubrospinal tract (적핵척수로)"
+    ],
     "answer": 3,
-    "explanation": "decerebrate rigidity = red nucleus 아래에서 damage가 일어나 corticospinal tract,\ncorticoretriculospinal tract, tectospinal tract, rubrospinal tract가 모두 잘린 상황. 가장 아래에 있는 vestibulospinal tract가 혼자 intact하기 때문에 hyper activation 되어 온몸이 hyper-extension 및 internal rotation 하게 됨 General motor system ppt 슬라이드 21번 참고해주세요~\ndecorticate rigidity = corticospinal tract나 cerebral cortex가 부서져서 red nucleus의 과다활성(rubrospinal tract)이 상지의 hyperflexion과 하지의 extension이 특징적인 증상입니다.\n(decorticate... 손이 코를 향합니다.)\ndecorticate와 decerebrate 구분하는 거 기억하셔야 합니다.\n61. 다음 중 억제성으로 작용하는 신경로는?\n(1)corticospinal tract\n(2)corticoreticulospinal tract\n(3)vestibulospinal tract\n(4)tectospinal tract\n(5)rubrospinal tract",
+    "explanation": "decerebrate rigidity = red nucleus 아래에서 damage가 일어나 corticospinal tract,\ncorticoretriculospinal tract, tectospinal tract, rubrospinal tract가 모두 잘린 상황. 가장 아래에 있는 vestibulospinal tract가 혼자 intact하기 때문에 hyper activation 되어 온몸이 hyper-extension 및 internal rotation 하게 됨 General motor system ppt 슬라이드 21번 참고해주세요~\ndecorticate rigidity = corticospinal tract나 cerebral cortex가 부서져서 red nucleus의 과다활성(rubrospinal tract)이 상지의 hyperflexion과 하지의 extension이 특징적인 증상입니다.\n(decorticate... 손이 코를 향합니다.)\ndecorticate와 decerebrate 구분하는 거 기억하셔야 합니다.\n[해설분리-수정됨]\n📚 참고: Ninja Nerd - Motor Pathways",
     "original_topic": "Unknown"
   },
   {
@@ -1187,9 +1217,15 @@
     "question_num": 61,
     "topic": "motor_pathway",
     "question_text": "다음 중 억제성으로 작용하는 신경로는?",
-    "choices": [],
+    "choices": [
+      "1) Corticospinal tract (피질척수로)",
+      "2) Corticoreticulospinal tract (피질망상체척수로)",
+      "3) Vestibulospinal tract (전정척수로)",
+      "4) Tectospinal tract (덮개척수로)",
+      "5) Rubrospinal tract (적핵척수로)"
+    ],
     "answer": 5,
-    "explanation": "?\n우선 가장 가까운 답은 5번이라고 하겠습니다. rubrospinal tract는 상지의 굽힘근을 흥분시키고 펴짐근을 억제한다고 했죠? 하지만 2번의 경우도 보면 pontine reticular formation은 muscle tone 증가 (흥분)이지만 medullary reticular formation은 muslce tone 감소 (억제)라고 배웠습니다. 그래도 문제가 위에처럼 나온다면 더 정확한 5번을 골라야 할 것 같아요.\n보다 명확한 해설이 떠오르시는 분은 알려주시면 감사하겠습니다.\n62. 다음 중 운동 시 나타나는 각 부위의 활성에 대한 성명이 옳은 것은?\n(1)strriatum 활성 감소\n(2) pallicidum 세포 활성증가\n(3)VA 활성 억제\n(4) premotor area 흥분\n(5)corticoreticular tract 억제",
+    "explanation": "?\n우선 가장 가까운 답은 5번이라고 하겠습니다. rubrospinal tract는 상지의 굽힘근을 흥분시키고 펴짐근을 억제한다고 했죠? 하지만 2번의 경우도 보면 pontine reticular formation은 muscle tone 증가 (흥분)이지만 medullary reticular formation은 muslce tone 감소 (억제)라고 배웠습니다. 그래도 문제가 위에처럼 나온다면 더 정확한 5번을 골라야 할 것 같아요.\n보다 명확한 해설이 떠오르시는 분은 알려주시면 감사하겠습니다.\n[해설분리-수정됨]\n📚 참고: Ninja Nerd - Motor Pathways",
     "original_topic": "Unknown"
   },
   {
@@ -1198,9 +1234,15 @@
     "question_num": 62,
     "topic": "motor_pathway",
     "question_text": "다음 중 운동 시 나타나는 각 부위의 활성에 대한 성명이 옳은 것은?",
-    "choices": [],
+    "choices": [
+      "1) Striatum 활성화 증가",
+      "2) Pallidum 내부 활성화 증가",
+      "3) VA 활성화 증가",
+      "4) Premotor area 억제",
+      "5) Corticoreticular tract 증가"
+    ],
     "answer": 4,
-    "explanation": "Direct pathway를 통한 운동 on에 관한 문제입니다.\n우선 Striatum의 활성이 증가하여 globus pallidus의 int.한 부분을 억제합니다(pallidum 세포활성 감소). 그에 따라서 VA, VL이 흥분하고 premotor area 및 supplementary motor area가 흥분하면 corticospinal tract 활성 이라는 결과가 나타납니다.",
+    "explanation": "Direct pathway를 통한 운동 on에 관한 문제입니다.\n우선 Striatum의 활성이 증가하여 globus pallidus의 int.한 부분을 억제합니다(pallidum 세포활성 감소). 그에 따라서 VA, VL이 흥분하고 premotor area 및 supplementary motor area가 흥분하면 corticospinal tract 활성 이라는 결과가 나타납니다.\n📚 참고: Ninja Nerd - Motor Pathways",
     "original_topic": "Unknown"
   },
   {
@@ -1234,7 +1276,7 @@
       "5) retrolenticular portion"
     ],
     "answer": 2,
-    "explanation": "internal capsule의 genu에는 corticobulbar fiber가 지나가게 됩니다. 이는 수의적 얼굴 운동을 관여하게 됩니다. 사실 감각“trigeminal nerve\"손실인데 왜 이것과 관계없는 게 답인가싶기도 한데, 오른쪽 아래 얼굴 근육의 마비라고 한다면 매우 쉽게 풀립니다.\n위 얼굴근육은 양측의 대뇌반구 모두 관여를 하고, 아래측은 반대 측에서 관여를 하게 됩니다. 이들내이 려오경는 로바가 로 inte의 rnal이 c죠apu왼sle쪽 g잘가 e리nu오면 른쪽 . genu 아래 얼굴의 근육이 마비되고, 혀가 오른쪽으로 치우치고 (오른쪽 genioglossus가 작용을 못하므로), 목젖이 왼쪽으로 치우지게 (오른쪽 입천장 근육이 작용을 못하므로 (vagus nerve))\n됩니다.\n74.오른쪽얼굴에 자발적인 수축이 주기적으로 일어나며, 이러한 움직임이 손과 다리로 전파되었다. 운동자극이 시작된 부위는?",
+    "explanation": "internal capsule의 genu에는 corticobulbar fiber가 지나가게 됩니다. 이는 수의적 얼굴 운동을 관여하게 됩니다. 사실 감각“trigeminal nerve\"손실인데 왜 이것과 관계없는 게 답인가싶기도 한데, 오른쪽 아래 얼굴 근육의 마비라고 한다면 매우 쉽게 풀립니다.\n위 얼굴근육은 양측의 대뇌반구 모두 관여를 하고, 아래측은 반대 측에서 관여를 하게 됩니다. 이들내이 려오경는 로바가 로 inte의 rnal이 c죠apu왼sle쪽 g잘가 e리nu오면 른쪽 . genu 아래 얼굴의 근육이 마비되고, 혀가 오른쪽으로 치우치고 (오른쪽 genioglossus가 작용을 못하므로), 목젖이 왼쪽으로 치우지게 (오른쪽 입천장 근육이 작용을 못하므로 (vagus nerve))\n됩니다.\n[해설분리-수정됨]",
     "original_topic": "Unknown"
   },
   {
@@ -1260,7 +1302,13 @@
     "question_num": 72,
     "topic": "cns_gross_1",
     "question_text": "오른쪽 사지의 저림을 호소하는 환자에게 왼손을 올리라고 했을 때 오른손을 올렸다.",
-    "choices": [],
+    "choices": [
+      "1) Superior temporal gyrus (상측두이랑)",
+      "2) Angular gyrus (각이랑)",
+      "3) Supramarginal gyrus (모서리위이랑)",
+      "4) Inferior frontal gyrus (하전두이랑)",
+      "5) Postcentral gyrus (중심뒤이랑)"
+    ],
     "answer": 2,
     "explanation": "오른쪽 사지가 저린 환자입니다. 그럼 왼쪽 뇌 문제겠네요? 보기 2개 남습니다. 아주좋습니다. 좌우를 혼동하는 것은 angular gyrus의 파괴시 생기는 gerstmannsyndrome이므로 답은 angular gyrus 가 존재하는 2번입니다. ( 이거 내 범위 맞나?)",
     "original_topic": "Unknown"
@@ -1328,7 +1376,7 @@
       "5) ventral horn"
     ],
     "answer": 4,
-    "explanation": "이 문제는 General Motor System에 대해서 훓고 지나가는 정도로 생각합시다. 그 전에 General Motor System의 가장 기본적인 신경로인 Corticospinal Tract의 경로를 보도록 하겠습니다!\nMotor Cortex→Internal Capsule(Post. Limb)→Cerebral Peduncle→Pyramidal Tract(+Corticobulbar Fiber=Corticonuclear Fiber)→Lat. Corticospinal Tract(Pyramid Decussation)+Vent. Corticospinal Tract→Ventral Horn 참 길죠? 그래도 어느 정도는 알아두고 가셔야합니다. 엄연히 기출이니깐요!\n답이 좀 애매해요 ;;\n1.Internal Capsule : Motor Cortex에서 빠져나간 정보가 Internal Capsule의 Post. Limb를통해 전달됩니다.\n2.Cerebral Peduncle : Cerebral Peduncle은 대뇌의 신경이 Brainstem와 연결되는 통로입니다.\n3.Corticonuclear Fiber : 이 녀석은 위에서 보다시피 Corticobulbar Tract와 같습니다. 이 섬유도 엄연한 Corticospinal Tract의 일부입니다. 함정에 걸리지 마세요!\n4.Med. Corticospinal Tract : 이 보기가 말썽입니다. 교수님의 PPT에 나온 걸 보면, Med.이아니라 Lat.입니다. 그럼 이게 답이구나! 싶은데... 위키의 힘을 빌리면 Med. Corticospinal Tract=Vent. Corticospinal Tract입니다...(이게 뭐야) 그래서 원래는 모든 보기가 Corticospinal Tract의 일부가 되죠. 하지만 PPT에서는 Med.라는 용어를 사용하지 않았고, 문제의 의도가 Lat.를 Med.로 바꿔서 낸 것 같으므로, 4번을 답이라고 하겠습니다...\n5.Ventral Horn : 예전에 신경 배울 때 감각신경은 뒤로, 운동신경은 앞으로 기억나시나요?\n그게 바로 이겁니다. Ventral이 앞쪽이니까 Ventral Horn으로 가는 게 맞습니다.",
+    "explanation": "이 문제는 General Motor System에 대해서 훓고 지나가는 정도로 생각합시다. 그 전에 General Motor System의 가장 기본적인 신경로인 Corticospinal Tract의 경로를 보도록 하겠습니다!\nMotor Cortex→Internal Capsule(Post. Limb)→Cerebral Peduncle→Pyramidal Tract(+Corticobulbar Fiber=Corticonuclear Fiber)→Lat. Corticospinal Tract(Pyramid Decussation)+Vent. Corticospinal Tract→Ventral Horn 참 길죠? 그래도 어느 정도는 알아두고 가셔야합니다. 엄연히 기출이니깐요!\n답이 좀 애매해요 ;;\n1.Internal Capsule : Motor Cortex에서 빠져나간 정보가 Internal Capsule의 Post. Limb를통해 전달됩니다.\n2.Cerebral Peduncle : Cerebral Peduncle은 대뇌의 신경이 Brainstem와 연결되는 통로입니다.\n3.Corticonuclear Fiber : 이 녀석은 위에서 보다시피 Corticobulbar Tract와 같습니다. 이 섬유도 엄연한 Corticospinal Tract의 일부입니다. 함정에 걸리지 마세요!\n4.Med. Corticospinal Tract : 이 보기가 말썽입니다. 교수님의 PPT에 나온 걸 보면, Med.이아니라 Lat.입니다. 그럼 이게 답이구나! 싶은데... 위키의 힘을 빌리면 Med. Corticospinal Tract=Vent. Corticospinal Tract입니다...(이게 뭐야) 그래서 원래는 모든 보기가 Corticospinal Tract의 일부가 되죠. 하지만 PPT에서는 Med.라는 용어를 사용하지 않았고, 문제의 의도가 Lat.를 Med.로 바꿔서 낸 것 같으므로, 4번을 답이라고 하겠습니다...\n5.Ventral Horn : 예전에 신경 배울 때 감각신경은 뒤로, 운동신경은 앞으로 기억나시나요?\n그게 바로 이겁니다. Ventral이 앞쪽이니까 Ventral Horn으로 가는 게 맞습니다.\n📚 참고: Ninja Nerd - Motor Pathways",
     "original_topic": "Unknown"
   },
   {
@@ -1544,7 +1592,7 @@
       "5) Dorsal medial lemniscus tract"
     ],
     "answer": 5,
-    "explanation": "어우 문제에서 고유감각이라고 적어준거 보니 교수님이 맞추라고 던져주신 문제입니다.\n덥썩 받아먹어 봅시다. 우리가 배운 고유감각 관련이라고는 2개밖에 없습니다.\n의식 있음 -> medial lemniscus system의식 없음 -> spinocerebellar tract",
+    "explanation": "어우 문제에서 고유감각이라고 적어준거 보니 교수님이 맞추라고 던져주신 문제입니다.\n덥썩 받아먹어 봅시다. 우리가 배운 고유감각 관련이라고는 2개밖에 없습니다.\n의식 있음 -> medial lemniscus system의식 없음 -> spinocerebellar tract\n📚 참고: Ninja Nerd - Sensory Pathways",
     "original_topic": "Unknown"
   },
   {
@@ -1560,7 +1608,7 @@
       "4) 척수내에서는 교차하지 않는다."
     ],
     "answer": 1,
-    "explanation": "Med. Lemniscus System의 성분 중에서 팔에서 오는 신경을 Cuneate Fasciculus라고합니다.\nCuneate Fasciculus는 척수의 뒷부분에서 시작하지만 뒤뿔(Dorsal Horn)에서 시작하는건아닙니다 Dorsal Horn은 애초에 회색질이라서 섬유가 아닙니다.\nMedulla Oblongata에는 Cuneate Nucleus라고 하는 신경핵이 있어서 이 곳에서 연접합니다.\n두점 감별 촉각은 상은이가 발달한 감각입니다. 교수님이 찌르는 족족 맞춰서 교수님이당황해 하셨죠. 두점감별촉각과 고유감각이 medial lemniscus의 역할입니다.",
+    "explanation": "Med. Lemniscus System의 성분 중에서 팔에서 오는 신경을 Cuneate Fasciculus라고합니다.\nCuneate Fasciculus는 척수의 뒷부분에서 시작하지만 뒤뿔(Dorsal Horn)에서 시작하는건아닙니다 Dorsal Horn은 애초에 회색질이라서 섬유가 아닙니다.\nMedulla Oblongata에는 Cuneate Nucleus라고 하는 신경핵이 있어서 이 곳에서 연접합니다.\n두점 감별 촉각은 상은이가 발달한 감각입니다. 교수님이 찌르는 족족 맞춰서 교수님이당황해 하셨죠. 두점감별촉각과 고유감각이 medial lemniscus의 역할입니다.\n📚 참고: Ninja Nerd - Sensory Pathways",
     "original_topic": "Unknown"
   },
   {
@@ -1743,7 +1791,7 @@
       "5) deep petrosal n."
     ],
     "answer": 4,
-    "explanation": "정답: greater petrosal n. 코 내부 건조는 비강 점막(nasal mucosa)의 분비선에 대한 부교감 신경 공급 장애를 의미합니다. Greater petrosal nerve는 CN VII에서 분지하여 pterygopalatine ganglion을 경유, 비강 및 구개 점막의 분비선에 부교감 신경을 공급합니다. 이 신경 손상 시 비강 점막이 건조해져 코피가 자주 발생할 수 있습니다.",
+    "explanation": "정답: greater petrosal n. 코 내부 건조는 비강 점막(nasal mucosa)의 분비선에 대한 부교감 신경 공급 장애를 의미합니다. Greater petrosal nerve는 CN VII에서 분지하여 pterygopalatine ganglion을 경유, 비강 및 구개 점막의 분비선에 부교감 신경을 공급합니다. 이 신경 손상 시 비강 점막이 건조해져 코피가 자주 발생할 수 있습니다.\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -1760,7 +1808,7 @@
       "5) cavernous sinus"
     ],
     "answer": 4,
-    "explanation": "dural venous sinus관련 문제입니다!\ndural venous sinus의 기능 : 모세혈관과 정맥 사이의 구조로, 혈액을 저장하여 댐같은역할을 합니다. 갑자기 일어났을 때 생기는 기립성 빈혈을 막아줍니다.\n\n그림에서 보면 transverse sinus와 cavernous sinus 사이에 sup. petrosal sinus이 존재하는것 보이시죠. 따라서 답은 4번",
+    "explanation": "dural venous sinus관련 문제입니다!\ndural venous sinus의 기능 : 모세혈관과 정맥 사이의 구조로, 혈액을 저장하여 댐같은역할을 합니다. 갑자기 일어났을 때 생기는 기립성 빈혈을 막아줍니다.\n\n그림에서 보면 transverse sinus와 cavernous sinus 사이에 sup. petrosal sinus이 존재하는것 보이시죠. 따라서 답은 4번\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -1777,7 +1825,7 @@
       "5) 안쪽(내)사시"
     ],
     "answer": 5,
-    "explanation": "CNⅥ(=abducent, abducens n.)는 lat. rectus m.에 innervation하는 신경입니다. 이 신경이손상되면 lat. rectus m.이 마비되니 상대적으로 med. rectus m.이 강해져서 손상된 쪽 눈이내측으로 쏠리는 내측 사시가 발생합니다.",
+    "explanation": "CNⅥ(=abducent, abducens n.)는 lat. rectus m.에 innervation하는 신경입니다. 이 신경이손상되면 lat. rectus m.이 마비되니 상대적으로 med. rectus m.이 강해져서 손상된 쪽 눈이내측으로 쏠리는 내측 사시가 발생합니다.\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -1794,7 +1842,7 @@
       "5) ext. carotid a. & ansa cervicalis"
     ],
     "answer": 3,
-    "explanation": "Neck 부분의 Cervical fascia 부분에서 했습니다. Carotid sheath는 common carotid a., int.\njugular v., vagus n.을 감싸고 있습니다. (아래 그림 참조)",
+    "explanation": "Neck 부분의 Cervical fascia 부분에서 했습니다. Carotid sheath는 common carotid a., int.\njugular v., vagus n.을 감싸고 있습니다. (아래 그림 참조)\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -1811,7 +1859,7 @@
       "5) sigmoid sinus"
     ],
     "answer": 3,
-    "explanation": "경질막(=dura mater) 사이에 dural venous sinus가 있죠. 뇌하수체 근처라는 힌트를주었으니, ! ￥(16)Cavernous sinus는 뇌하수체 주변! - 지나가는 신경과도 만날 수있어서 신경의 문제로 이어질 수도 있다고 하셨어요! (CN III, IV, V-1, V-2, VI) (팡팡교육대 head3야마 참조)\n아틀라스 105페이지 참고하시면 확인하실 수 있습니다.",
+    "explanation": "경질막(=dura mater) 사이에 dural venous sinus가 있죠. 뇌하수체 근처라는 힌트를주었으니, ! ￥(16)Cavernous sinus는 뇌하수체 주변! - 지나가는 신경과도 만날 수있어서 신경의 문제로 이어질 수도 있다고 하셨어요! (CN III, IV, V-1, V-2, VI) (팡팡교육대 head3야마 참조)\n아틀라스 105페이지 참고하시면 확인하실 수 있습니다.\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -1828,7 +1876,7 @@
       "5) tympanic plexus를 형성한다."
     ],
     "answer": 5,
-    "explanation": "[전수검증-수정됨] 정답: 5번 (tympanic plexus를 형성한다). Tympanic nerve는 CN IX(glossopharyngeal n.)의 분지로, middle ear의 medial wall(promontory)에서 tympanic plexus를 형성합니다. 선지별 분석: 1) tympanic n.은 facial n.이 아닌 glossopharyngeal n.(CN IX)의 분지 - 오답. 2) tympanic n.은 신경절 이전(preganglionic) 부교감 신경섬유를 포함 - 오답. 3) lesser petrosal n.은 tympanic n.의 종말가지이지, 별도로 신경연접하는 것이 아님 - 오답. 4) spinal trigeminal tract과의 직접적 관련은 불명확 - 오답. 5) tympanic plexus를 형성한다 - 정답. 원래 기출에서 '외이도 쪽에서'라는 수식어가 있었다면 오답이지만, 현재 선지 그대로라면 정답. (Ref: Gray's Anatomy - Tympanic nerve, Snell's Clinical Neuroanatomy)",
+    "explanation": "[전수검증-수정됨] 정답: 5번 (tympanic plexus를 형성한다). Tympanic nerve는 CN IX(glossopharyngeal n.)의 분지로, middle ear의 medial wall(promontory)에서 tympanic plexus를 형성합니다. 선지별 분석: 1) tympanic n.은 facial n.이 아닌 glossopharyngeal n.(CN IX)의 분지 - 오답. 2) tympanic n.은 신경절 이전(preganglionic) 부교감 신경섬유를 포함 - 오답. 3) lesser petrosal n.은 tympanic n.의 종말가지이지, 별도로 신경연접하는 것이 아님 - 오답. 4) spinal trigeminal tract과의 직접적 관련은 불명확 - 오답. 5) tympanic plexus를 형성한다 - 정답. 원래 기출에서 '외이도 쪽에서'라는 수식어가 있었다면 오답이지만, 현재 선지 그대로라면 정답. (Ref: Gray's Anatomy - Tympanic nerve, Snell's Clinical Neuroanatomy)\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -1845,7 +1893,7 @@
       "5) ophthalmic a., ophthalmic v."
     ],
     "answer": 3,
-    "explanation": "optic canal에는 optic n.와 ophthalmic a.가 통과합니다.\n\n9. 안구의 운동은 정상이며 가까운 물체를 보는 데는 지장이 없으나, 먼 물체를 볼 때 초점을 맞추는데 이상이 있다고 한다. 다음중 이 환자에게서 손상되었을 확률이 가장 높은 것은?\n1) ciliary ggl.과 CN III\n2) CNIII와 long ciliary n.\n3) short ciliary n. 와 ciliary ggl.\n4) sup. cervical ggl.과 long ciliary n.\n5) CNIII, CNIV, CNV 답:3번\n\n짤기! 2017년 6번",
+    "explanation": "optic canal에는 optic n.와 ophthalmic a.가 통과합니다.\n[해설분리-수정됨]",
     "original_topic": "Head/Neck"
   },
   {
@@ -1862,7 +1910,7 @@
       "5) lesser occipital n."
     ],
     "answer": 3,
-    "explanation": "Ant. cervical triangle은 목의 정중선, SCM m., mandible이 이루는 삼각형입니다. 이 부분의\n‘감각’은 cervical plexus의 cutaneous br.들이 하겠죠. Transverse cervical n.은 cervical plexus의 cutaneous n.입니다. 사실 말로 표현하기 애매할 수 있어서 그림 보시는 것을추천드립니다. 아틀라스 32쪽이에요\n1) phrenic n.는 ant. Cervical triangle 밖에 있네요\n2) great auricular n.은 이름에서 알 수 있듯이 귀로 갑니다.\n4) supraclavicular n은 ant.cervical triangle 밖에 있어요!.\n5) lesser occipital n.는 이름부터 뒤통수로 가고 있네요.\n(이건 BRS해설입니다. 참고하세용 The transverse cervical nerve turns around the posteriorborder of the sternocleidomastoid and innervates the skin of the anterior cervicaltriangle. The phrenic nerve, a branch of the cervical plexus, contains motor and sensoryfi bers but no cutaneous nerve fi bers. The greater auricular nerve innervates the skinbehind the auricle and on the parotid gland. The supraclavicular nerve innervates theskin over the clavicle and the shoulder. The lesser occipital nerve innervates the scalpbehind the auricle.)",
+    "explanation": "Ant. cervical triangle은 목의 정중선, SCM m., mandible이 이루는 삼각형입니다. 이 부분의\n‘감각’은 cervical plexus의 cutaneous br.들이 하겠죠. Transverse cervical n.은 cervical plexus의 cutaneous n.입니다. 사실 말로 표현하기 애매할 수 있어서 그림 보시는 것을추천드립니다. 아틀라스 32쪽이에요\n1) phrenic n.는 ant. Cervical triangle 밖에 있네요\n2) great auricular n.은 이름에서 알 수 있듯이 귀로 갑니다.\n4) supraclavicular n은 ant.cervical triangle 밖에 있어요!.\n5) lesser occipital n.는 이름부터 뒤통수로 가고 있네요.\n(이건 BRS해설입니다. 참고하세용 The transverse cervical nerve turns around the posteriorborder of the sternocleidomastoid and innervates the skin of the anterior cervicaltriangle. The phrenic nerve, a branch of the cervical plexus, contains motor and sensoryfi bers but no cutaneous nerve fi bers. The greater auricular nerve innervates the skinbehind the auricle and on the parotid gland. The supraclavicular nerve innervates theskin over the clavicle and the shoulder. The lesser occipital nerve innervates the scalpbehind the auricle.)\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -1879,7 +1927,7 @@
       "5) ant. cranial fossa 종양"
     ],
     "answer": 4,
-    "explanation": "정답: cavernous sinus 감염. 안구의 외측 움직임은 lateral rectus muscle이 담당하며, 이는 abducens nerve(CN VI)가 지배합니다. CN VI는 cavernous sinus 내부를 통과하므로, cavernous sinus의 감염이나 혈전 시 CN VI가 가장 취약하게 손상됩니다. 뇌하수체 종양은 optic chiasm 압박, maxillary sinus는 CN V2와 관련됩니다.",
+    "explanation": "정답: cavernous sinus 감염. 안구의 외측 움직임은 lateral rectus muscle이 담당하며, 이는 abducens nerve(CN VI)가 지배합니다. CN VI는 cavernous sinus 내부를 통과하므로, cavernous sinus의 감염이나 혈전 시 CN VI가 가장 취약하게 손상됩니다. 뇌하수체 종양은 optic chiasm 압박, maxillary sinus는 CN V2와 관련됩니다.\n📚 참고: teachmeanatomy.info/head/cranial-nerves/",
     "original_topic": "Head/Neck"
   },
   {
@@ -1896,7 +1944,7 @@
       "5) tensor tympani m."
     ],
     "answer": 4,
-    "explanation": "어느 근육에 어떤 신경이 innervation하는지 알고 있어야 풀 수 있는 문제입니다.\n1) 저작근은 trigeminal n.(그중에서도 mandibular n.)이 innervation합니다. 저작근으로는 masseter m., temporalis m., med. pterygoid m., lat. pterygoid m.이 있습니다. 앞의 둘은 mandible의 외측, 뒤의 둘은 내측에 있습니다.\n2) stylopharyngeal m.은 glossopharyngeal n.의 담당합니다.\n3) digastric m.의 ant. belly는 mandibular n.이 innervation합니다. post. belly는 facial n.이 innervation합니다.\n4) facial n.는 다섯 개의 분지를 내는데 위에서부터 순서대로 temporal br. zygomatic br.\nbuccal br. marginal mandibular br. cervical br.입니다. 그중 buccal br.는 buccinator m.을 innervation합니다. (저희 해부시간에 facial n. 분지 열심히 찾았죠...? 근데 그 기준을 parotid gl.로 두고 찾았잖아요! 이렇게 연관지어서 생각해주시면 될거같아요~)\n5) tensor tympani m.에는 mandibular n.이 innervation합니다.\nfacial n.의 br.들이 innervation하는 근육들입니다. facial n.가 손상되면 당연히 이 근육들도손상을 입겠죠.\n14. jugular foramen이 골절되었을 때 다음중 손상되는 구조는?\n1 )\nglossopharyngeal n.와 int. carotid a.\n2) accessory n.와 ext. carotid a.\n3) hypoglossal n.와 int. jugular v.\n4) glossopharyngeal n.와 vagus n.\n5) glossopharyngeal n.와 spinal accessory n.\n짤기! 2017년 8번",
+    "explanation": "어느 근육에 어떤 신경이 innervation하는지 알고 있어야 풀 수 있는 문제입니다.\n1) 저작근은 trigeminal n.(그중에서도 mandibular n.)이 innervation합니다. 저작근으로는 masseter m., temporalis m., med. pterygoid m., lat. pterygoid m.이 있습니다. 앞의 둘은 mandible의 외측, 뒤의 둘은 내측에 있습니다.\n2) stylopharyngeal m.은 glossopharyngeal n.의 담당합니다.\n3) digastric m.의 ant. belly는 mandibular n.이 innervation합니다. post. belly는 facial n.이 innervation합니다.\n[해설분리-수정됨]",
     "original_topic": "Head/Neck"
   },
   {
@@ -2270,7 +2318,7 @@
       "5) inf. pharyngeal constrictor m."
     ],
     "answer": 3,
-    "explanation": "Pharynx 파트에 일단 1번 2번에 대한 설명은 나오지 않아요. 그래도 신경해부 시간에 배운걸 생각해보면 sublingual gl.와 submandibular gl.은 chorda tympani n.가 지배할 것 같아지배고하는는 빼 가 중에서는 요. 들 pharynx의 muscle CN IX stylopharyngeus m.\npharyngeal br. of CN X & pharyngeal plexus가 지배합니다. 그래서 답은 3번!\n\n48. 그림주고 인디케이터 , 그림과 맞게 명칭이 짝지어진 보기는?\n1)A-epiglottis\n2)B-vestibular fold\n3)C-laryngeal ventricle\n4)D-vocal fold\n5)E-infraglottis(오타: infraglottic인 것 같아요) cavity 답:?\n그림이 없네요~ 아래 그림 참고해 주세요.\n- 43 -",
+    "explanation": "Pharynx 파트에 일단 1번 2번에 대한 설명은 나오지 않아요. 그래도 신경해부 시간에 배운걸 생각해보면 sublingual gl.와 submandibular gl.은 chorda tympani n.가 지배할 것 같아지배고하는는 빼 가 중에서는 요. 들 pharynx의 muscle CN IX stylopharyngeus m.\npharyngeal br. of CN X & pharyngeal plexus가 지배합니다. 그래서 답은 3번!\n[해설분리-수정됨]",
     "original_topic": "Mouth/Nose/Ear/Pharynx/Larynx"
   },
   {
@@ -2743,7 +2791,7 @@
       "5) 5th phayngeal pouch-parafollicular cell of thyroid gl."
     ],
     "answer": 1,
-    "explanation": "@문po제uc h변형을 대비하기 위해 .들의 파생 구조를 외웁시다\n\n77. 척수의 발생에 관한 설명 중 가장 옳은 것은?\n1. 발생 초기의 mantle zone은 장차 gray matter가 될 부분이다.\n2. gliablast의 분화는 neuroblast가 생기기 전에 끝난다.\n3. DRG의 cell body는 발생 중 척수의 alar part에 있다.\n4. 중추신경계의 oligodendrocyte에 비해 말초신경계의 schwann cell 분화가 더 늦다.",
+    "explanation": "@문po제uc h변형을 대비하기 위해 .들의 파생 구조를 외웁시다\n[해설분리-수정됨]",
     "original_topic": "Unknown"
   },
   {
@@ -2769,7 +2817,13 @@
     "question_num": 7,
     "topic": "sensory_system",
     "question_text": "다음 중 two point discrimination과 관련된 fiber의 위치는?",
-    "choices": [],
+    "choices": [
+      "1) Fasciculus gracilis (박속)",
+      "2) Fasciculus cuneatus (설상속)",
+      "3) Lateral corticospinal tract (외측피질척수로)",
+      "4) Vestibulospinal tract (전정척수로)",
+      "5) Anterior corticospinal tract (전피질척수로) / Reticulospinal tract (망상체척수로) / Tectospinal tract (덮개척수로)"
+    ],
     "answer": 2,
     "explanation": "그림이 없는 도판 문제 해설은 언제나 즐겁습니다. 안 해도 되거든요. 아래 그림 보고외워봅시다 Dorsal column-Medial lemniscus system에서 Dorsal column은 내측의 Gracile과 외측의 Cuneate로 나누어집니다.\nGracile은 하지의 고유감각과 두점구분을 담당하며,\nCuneate는 상지의 고유감각과 두점구분을 담당합니다.\n\n48 눈에 이물질이 들어갔는데 눈물이 안났다. 손상된 뇌신경은?",
     "original_topic": "Unknown"
@@ -2780,9 +2834,15 @@
     "question_num": 8,
     "topic": "motor_pathway",
     "question_text": "빛자극에 의한 반응은 오는데 머리랑 몸통은 안움직인다. 어느 부분이 손상되었을까?",
-    "choices": [],
+    "choices": [
+      "1) Fasciculus gracilis (박속)",
+      "2) Fasciculus cuneatus (설상속)",
+      "3) Lateral corticospinal tract (외측피질척수로)",
+      "4) Vestibulospinal tract (전정척수로)",
+      "5) Anterior corticospinal tract (전피질척수로) / Reticulospinal tract (망상체척수로) / Tectospinal tract (덮개척수로)"
+    ],
     "answer": 5,
-    "explanation": "Tectospinal tract의 손상입니다.\n9. 검사결과, 몸통과 양쪽팔의 근력이 감소되었다 손상 가능성이 있는 곳은?",
+    "explanation": "Tectospinal tract의 손상입니다.\n[해설분리-수정됨]",
     "original_topic": "Unknown"
   },
   {
@@ -2791,9 +2851,15 @@
     "question_num": 9,
     "topic": "motor_pathway",
     "question_text": "검사결과, 몸통과 양쪽팔의 근력이 감소되었다 손상 가능성이 있는 곳은?",
-    "choices": [],
+    "choices": [
+      "1) Fasciculus gracilis (박속)",
+      "2) Fasciculus cuneatus (설상속)",
+      "3) Lateral corticospinal tract (외측피질척수로)",
+      "4) Vestibulospinal tract (전정척수로)",
+      "5) Anterior corticospinal tract (전피질척수로) / Reticulospinal tract (망상체척수로) / Tectospinal tract (덮개척수로)"
+    ],
     "answer": 5,
-    "explanation": "이전 기출에서는 답을 3번으로 했지만 Rubrospinal tract와 몸통의 운동과는 무관하기 때문에 3번은 답이 아닌 것으로 보입니다. 현재의 증상으로 보아 손상된 부위는 Ventralcorticospinal tract와 pontine reticulospinal tract 정도로 정리할 수 있는데, 두 부위 모두 5\n번 근방에 있기 때문에 5번이 더 적합한 답이 되지 않을까 싶습니다.\n10. vestibular nuclei의 수출 섬유가 위치한 곳은?",
+    "explanation": "이전 기출에서는 답을 3번으로 했지만 Rubrospinal tract와 몸통의 운동과는 무관하기 때문에 3번은 답이 아닌 것으로 보입니다. 현재의 증상으로 보아 손상된 부위는 Ventralcorticospinal tract와 pontine reticulospinal tract 정도로 정리할 수 있는데, 두 부위 모두 5\n번 근방에 있기 때문에 5번이 더 적합한 답이 되지 않을까 싶습니다.\n[해설분리-수정됨]",
     "original_topic": "Unknown"
   },
   {
@@ -2802,9 +2868,15 @@
     "question_num": 10,
     "topic": "motor_pathway",
     "question_text": "vestibular nuclei의 수출 섬유가 위치한 곳은?",
-    "choices": [],
+    "choices": [
+      "1) Fasciculus gracilis (박속)",
+      "2) Fasciculus cuneatus (설상속)",
+      "3) Lateral corticospinal tract (외측피질척수로)",
+      "4) Vestibulospinal tract (전정척수로)",
+      "5) Anterior corticospinal tract (전피질척수로) / Reticulospinal tract (망상체척수로) / Tectospinal tract (덮개척수로)"
+    ],
     "answer": 5,
-    "explanation": "Vestibulospinal tract입니다.\n우선 문제에 대해서 어떤 tract가 관여하는 지는 기본적인 부분이라 설명을 생략하겠습니다.\n그렇다면 위치에 대해서 파악해야 하는데 그 근거를 ppt에서 찾아 보겠습니다.\nTectospinal tract Rubrospinal tract Vestibulospinal tract General motor system ppt에 있는 그림을 그대로 가져왔습니다. 설명이 되었나요?\n작년 기해에 참고할 만한 그림이 있어서 같이 넣을께요~\n11. 왼쪽 소뇌 반구 출혈 환자가 오른쪽 다리 고유 감각 이상 증세를 보인다. 가장 손상 가능성 높은 부위는?",
+    "explanation": "Vestibulospinal tract입니다.\n우선 문제에 대해서 어떤 tract가 관여하는 지는 기본적인 부분이라 설명을 생략하겠습니다.\n그렇다면 위치에 대해서 파악해야 하는데 그 근거를 ppt에서 찾아 보겠습니다.\nTectospinal tract Rubrospinal tract Vestibulospinal tract General motor system ppt에 있는 그림을 그대로 가져왔습니다. 설명이 되었나요?\n작년 기해에 참고할 만한 그림이 있어서 같이 넣을께요~\n[해설분리-수정됨]",
     "original_topic": "Unknown"
   },
   {
@@ -2813,7 +2885,13 @@
     "question_num": 11,
     "topic": "sensory_system",
     "question_text": "왼쪽 소뇌 반구 출혈 환자가 오른쪽 다리 고유 감각 이상 증세를 보인다. 가장 손상 가",
-    "choices": [],
+    "choices": [
+      "1) Fasciculus gracilis (박속)",
+      "2) Fasciculus cuneatus (설상속)",
+      "3) Lateral corticospinal tract (외측피질척수로)",
+      "4) Vestibulospinal tract (전정척수로)",
+      "5) Anterior corticospinal tract (전피질척수로) / Reticulospinal tract (망상체척수로) / Tectospinal tract (덮개척수로)"
+    ],
     "answer": 2,
     "explanation": "Gracile fasciculus의 이상이 생길 경우, 동측의 고유감각과 두점 구분에 문제가 생기게 됩니다.",
     "original_topic": "Unknown"
@@ -3300,7 +3378,7 @@
       "5) tensor tympanic m."
     ],
     "answer": 2,
-    "explanation": "강태천 교수님 파트이긴 한 것 같은데 tensor tympani랑 stylopharyngeus m.의 nerveinnervation은 김민주 교수님 ear pharynx시간에 배운 것 같네요... 알아둡시다\n1. masseter m. 은 CN5-3 이 지배합니다\n2. 정답\n3. Ant. Belly of digastric m. 은 CN5-3 이 지배합니다. (post. belly는 CN7)\n4. Buccinator m. 은 CN7이 지배합니다.\n5. Tensor tympani m. 은 CN5-3이 지배합니다.",
+    "explanation": "강태천 교수님 파트이긴 한 것 같은데 tensor tympani랑 stylopharyngeus m.의 nerveinnervation은 김민주 교수님 ear pharynx시간에 배운 것 같네요... 알아둡시다\n[해설분리-수정됨]",
     "original_topic": "Head/Neck"
   },
   {
@@ -3351,7 +3429,7 @@
       "5) Olfactory bulb"
     ],
     "answer": 1,
-    "explanation": "재채기는 보통 코 안쪽이 간지러울 때 하죠. 코 점막 부분의 감각을 담당하는 신경은 ophthalmic n.! 위의 그림에서 볼 수 있죠! 더 자세히 하면 ophthalmic n.의 br.인 nasociliary n.이 재채기에 관여합니다. 결국 재채기 반사에 관여하는 신경이 CN V1인 것을알 수 있는데요! 이 신경은 principal trigeminal nucleus로 이어지게 됩니다! 고로 답은\n1번~\n\n17. Ant. Inf. Cerebellar a. 가 다쳤을 시 손상 입는 것은?\n1) Dentate nucleus\n2) Corticospinal tract\n3) Vestibular nucleus\n4) Interposed nucleus\n5) Fastigial nucleus 답은 3번! 아까 외우라 했죠? 다 있어요! vestibular nucleus가 CN8의 신경핵이죠!\nlat. inf. pontine syndrome\n￥(14,15,16)\nbasilar a. CN5,7,8의 nucleus 손상 ant. inf. cerebellar a.\n(nystagmus, deafness)\n\n24. 오른쪽 안면 통각 온도감각 마비, 왼쪽 눈 동공 확대 및 눈꺼풀 처지는 현상이 있을 때문제가 생긴 곳은?\n1) Paracentral gyrus\n2) Crus cerebri\n3) Dorsolateral medulla\n4) Cervical spinal cord\n5) Lumbar spinal cord 해설) cervical spinal cord가 잘렸을 경우, 동측의 horner syndrome (cervical spinal ggl.에서나오는 sympathetic n.가 잘려서 일어나는 증상 = 동공의 과다 수축)이 유발되고, 동측의 근육이 마비되고 과다반사(바빈스키 반사)가 일어나며, 반대 측의 온도와 통증이 사라지죠.(brown-sequard syndrome)\nBRS neuroanatomy 129페이지 4번을 옮긴 문제입니다.",
+    "explanation": "재채기는 보통 코 안쪽이 간지러울 때 하죠. 코 점막 부분의 감각을 담당하는 신경은 ophthalmic n.! 위의 그림에서 볼 수 있죠! 더 자세히 하면 ophthalmic n.의 br.인 nasociliary n.이 재채기에 관여합니다. 결국 재채기 반사에 관여하는 신경이 CN V1인 것을알 수 있는데요! 이 신경은 principal trigeminal nucleus로 이어지게 됩니다! 고로 답은\n1번~\n[해설분리-수정됨]",
     "original_topic": "Head/Neck"
   },
   {
@@ -3402,7 +3480,7 @@
       "5) AT"
     ],
     "answer": 1,
-    "explanation": "역시 짤기위의 선지의 구조들은 모두 Thalamus의 내부 구조입니다. 저 중에서 얼굴의 sense는 VPM이 담당합니다. 어깨가 얼굴보다 넓으니까 몸의 감각은 VPL, 얼굴의 감각은 VPM이라고외우면 편합니다. DMN도 고통을 담당하지만 몸쪽의 고통을 담당하므로 삼차신경통을 묻는이 문제에서는 제외했습니다.\n\n27. 소뇌 반구 출혈 이후 오른쪽 다리 고유감각 이상이 나타났다. 이상이 있는 경로는?\n1) spinothalamic tract\n2) ant. spinothalamic tract\n3) post. spinothalamic tract\n4) cuneocerebellar tract\n5) dorsal medial lemniscus tract 해설)\nPPT에 비슷한 문제가 있습니다. 다리의 고유감각과 관련된 신경로 dorsal medial lemniscus tract 꼭 기억해주시고 외워주세요",
+    "explanation": "역시 짤기위의 선지의 구조들은 모두 Thalamus의 내부 구조입니다. 저 중에서 얼굴의 sense는 VPM이 담당합니다. 어깨가 얼굴보다 넓으니까 몸의 감각은 VPL, 얼굴의 감각은 VPM이라고외우면 편합니다. DMN도 고통을 담당하지만 몸쪽의 고통을 담당하므로 삼차신경통을 묻는이 문제에서는 제외했습니다.\n[해설분리-수정됨]",
     "original_topic": "Unknown"
   },
   {
@@ -3453,7 +3531,7 @@
       "5) 왼쪽 CN3"
     ],
     "answer": 4,
-    "explanation": "짤기왼쪽 눈에 빛을 비췄더니 왼쪽 동공은 작아지는데 오른쪽 동공은 안 작아지는 환자입니다.\n원래 같이 일어나는게 정상입니다. 살펴보면 일단 왼쪽눈은 정상입니다. 보기 1번 5번제외합니다.\n그리고 이 환자는 지금 앞이 안 보여요 가 아니라 동공이 안 작아지는게 문제죠? optic nerve 이상이면 앞이 안 보입니다. 2번도 지워주세요.\n3번이 좀 헷갈릴 수도 있는데 optic nerve - optic chiasm - optic tract 순서인거 아시죠?\n즉, 왼눈쪽자의 극왼은쪽 optic nerve -> 오o른쪽 ptic chias로m -> optic tract이어집니다. 3번이 망가지면 빛이 비춰진다는 신호가 오지 못하니 왼쪽 눈 동공도 안작아졌겠네요 그럼 답은 4번~\n\n30. 환자를 검사한 결과, 왼쪽을 보려고 할 때 복시가 나타났고, 오른쪽 눈의 모임이 불가능하였으며, 왼쪽을 보려고 눈을 돌리면 안구진탕(눈떨림)이 나타났고, 가까운 물체를 볼 때두 눈이 모아졌다. 다음 중 이상이 있을 가능성이 가장 높은 동맥은?\n1) Ant. cerebral a.\n2) Basilar a.\n3) Mid. cerebral a.\n4) Post. cerebral a.\nRaymond' s syndrome\n(병변쪽 내측 사시와 반대쪽몸의 불완전마비)\nbasilar a. pontine br. med. medullary syndrome\n(반대편 hemiparesis 반대쪽 고유감각 감소혀의 동측 마비)\n넵 답 2번이죠~\n\n31. 뇌졸중 후 오른쪽으로 양쪽 눈이 편향되었으며, 왼쪽으로 눈을 돌리려고 해도 움직이지않았으나, 움직이는 물체에 대한 따라 보기는 정상이었다. 손상되었을 가능성이 가장 높은부위는?\n1) 오른쪽 BA8\n2) 왼쪽 BA8\n3) 오른쪽 BA17\n4) 왼쪽 BA17\n5) 오른쪽 BA18\n해설)\nFrontal eye field의 손상에 관한 문제입니다. Frontal eye field는 전두엽에 존재하고 Brodmann area 8번입니다. Frontal eye field가 손상되면 반대측의 lat. rectus와 동측의 med. rectus가 작용하지 못해 손상된 반구와 동측으로 양쪽 눈이 편향됩니다. 따라서 답은\n1번입니다.",
+    "explanation": "짤기왼쪽 눈에 빛을 비췄더니 왼쪽 동공은 작아지는데 오른쪽 동공은 안 작아지는 환자입니다.\n원래 같이 일어나는게 정상입니다. 살펴보면 일단 왼쪽눈은 정상입니다. 보기 1번 5번제외합니다.\n그리고 이 환자는 지금 앞이 안 보여요 가 아니라 동공이 안 작아지는게 문제죠? optic nerve 이상이면 앞이 안 보입니다. 2번도 지워주세요.\n3번이 좀 헷갈릴 수도 있는데 optic nerve - optic chiasm - optic tract 순서인거 아시죠?\n즉, 왼눈쪽자의 극왼은쪽 optic nerve -> 오o른쪽 ptic chias로m -> optic tract이어집니다. 3번이 망가지면 빛이 비춰진다는 신호가 오지 못하니 왼쪽 눈 동공도 안작아졌겠네요 그럼 답은 4번~\n[해설분리-수정됨]",
     "original_topic": "Unknown"
   },
   {
@@ -3656,7 +3734,7 @@
       "5) glossopharyngeal n.와 spinal accessory n."
     ],
     "answer": 4,
-    "explanation": "jugular foramen을 지나는 구조물들의 주문을 외워봅시다!\nint.jugular v., CN9.10.11 ,inf. petrosal sinus , sigmoid sinus, ascending pharyngeal a.\nOccipital a. 의 meningeal br.\n* accessory n.의 경우 cranial root가 jugular foramen을 통과하고 spinal root가 foramenmagnum을 통과한다고 합니다. 따라서 spinal accessory n.는 jugular foramen을 통과하지않는 것으로 알면 될듯합니다.\n\n64. 다음 보기 중 가장 적절한 것을 고르시오.\n1) Glossopharyngeal n. 의 pharyngeal br. 는 pharynx의 감각신경이다.\n2) Hypoglossal n. 는 jugular foramen을 통과해 int. jugular v. 과 int. carotid a. 사이를 지나간다.\n3) Vagus n. 는 ext. carotid a. 와 int. jugular v. 사이를 지나 흉강 장기에 분포한다.\n4) Transverse cervical n.는 SCM을 가로질러 ant. triangle에 분포하는 운동신경이다.\n5) 교감신경을 만드는 preganglionic fibers는 척수의 gray matter의 lat.horn에 있는 신경세포에서 시작한다.\n1) glossopharyngeal n.의 pharyngeal br.는 pharynx의 muscles (운동)과 mucosa (감각)에분포 – 운동신경도 포함하고 있음\n2) Hypoglossal n. 는 hypoglossal canal을 통과해 int. jugular v. 과 int. carotid a. 사이를지나간다. - jugular foramen이 아닌 hypoglossal canal을 지남\n3) vagus n.는 jugular foramen을 통과해 carotid sheath내 int. carotid a.와 int. jugular v.\n사이를 지나 흉강과 복강안의 장기에 분포. - ext.carotid canal이 아닌 int. carotid canal\n4) Transverse cervical n.는 C2-3, SCM을 가로질러 ant. triangle 피부에 분포. - 피부에 분포하는 감각신경\n5) sympathetic nerves를 만드는 preganglionic fibers는 척수의 grey matter의 lateral horn에 있는 신경세포에서 시작.\n따라서 정답은 5번!!\n\n65. SCM m. region에 염증이 생겼을 때 가장 손상 가능성이 높은 구조는?\n1) lingual n.\n2) facial a.v.\n3) glossopharyngeal n.\n4) ansa cervicalis\n5) sup./inf. thyroid aa.\nSternocleidomastoid region (A)\n•Supf. structures\n-platysma\n-ext. jugular v.\n-ansa cervicalis\n•Deep structures\n-infrahyoid mm.\n-accessary n.\n-int. jugular v.\n-ansa cervicalis\n-cervical plexus\n-common carotid a.\n-vagus n.\n선지 중에 SCM m. region에 포함되는 구조는 4번 ansa cervicalis뿐!!",
+    "explanation": "jugular foramen을 지나는 구조물들의 주문을 외워봅시다!\nint.jugular v., CN9.10.11 ,inf. petrosal sinus , sigmoid sinus, ascending pharyngeal a.\nOccipital a. 의 meningeal br.\n* accessory n.의 경우 cranial root가 jugular foramen을 통과하고 spinal root가 foramenmagnum을 통과한다고 합니다. 따라서 spinal accessory n.는 jugular foramen을 통과하지않는 것으로 알면 될듯합니다.\n[해설분리-수정됨]",
     "original_topic": "Head/Neck"
   },
   {
@@ -3962,7 +4040,7 @@
       "5) tensor tympanic m."
     ],
     "answer": 2,
-    "explanation": "짤기입니다. Pharynx 신경 표에서도 이 근육만 CN9고 나머지는 CN10이었던 기억이 납니다.\nstyloid process에서 pharynx로 가는 근육입니다.\n5.\n(6~11)\n6. 상지의two point discrimination에 문제가 있을 때, 다음 중 손상된 부위는?",
+    "explanation": "짤기입니다. Pharynx 신경 표에서도 이 근육만 CN9고 나머지는 CN10이었던 기억이 납니다.\nstyloid process에서 pharynx로 가는 근육입니다.\n5.\n(6~11)\n[해설분리-수정됨]",
     "original_topic": "Unknown"
   },
   {
@@ -3971,7 +4049,13 @@
     "question_num": 6,
     "topic": "motor_pathway",
     "question_text": "상지의two point discrimination에 문제가 있을 때, 다음 중 손상된 부위는?",
-    "choices": [],
+    "choices": [
+      "1) Fasciculus gracilis (박속)",
+      "2) Fasciculus cuneatus (설상속)",
+      "3) Lateral corticospinal tract (외측피질척수로)",
+      "4) Vestibulospinal tract (전정척수로)",
+      "5) Anterior corticospinal tract (전피질척수로) / Reticulospinal tract (망상체척수로) / Tectospinal tract (덮개척수로)"
+    ],
     "answer": 2,
     "explanation": "[전수검증-수정됨] 정답: 2번 (fasciculus cuneatus). 상지의 two-point discrimination(세밀촉각)은 후삭-내측섬유띠 경로(DCML pathway)를 통해 전달됩니다. Fasciculus gracilis는 T6 이하(하지, 하부 체간)의 고유감각/세밀촉각을, fasciculus cuneatus는 T6 이상(상지, 상부 체간)의 고유감각/세밀촉각을 담당합니다. 따라서 상지의 two-point discrimination 장애는 fasciculus cuneatus 손상을 의미합니다. 그림에서 2번 위치가 fasciculus cuneatus에 해당합니다. (Ref: Snell's Clinical Neuroanatomy - Posterior white column pathway)",
     "original_topic": "Unknown"
@@ -3982,9 +4066,15 @@
     "question_num": 7,
     "topic": "motor_pathway",
     "question_text": "검사 결과, 머리와 몸통의 운동은 불가능하고, 빛 자극에 의한 안구운동은 가능했다. 어느 부분의",
-    "choices": [],
+    "choices": [
+      "1) Fasciculus gracilis (박속)",
+      "2) Fasciculus cuneatus (설상속)",
+      "3) Lateral corticospinal tract (외측피질척수로)",
+      "4) Vestibulospinal tract (전정척수로)",
+      "5) Anterior corticospinal tract (전피질척수로) / Reticulospinal tract (망상체척수로) / Tectospinal tract (덮개척수로)"
+    ],
     "answer": 5,
-    "explanation": "이래나 저래나 몸이나 몸통이 안움직이시는 거니까 근육 조절 중 trunk쪽을 담당하는 anteriorcorticospinal tract의 문제(lateral은 사지쪽이죠)라고 보입니다. 그래서 5번입니다. 빛 자극은 인지하시니 oculomoter n는 문제가 없으시군요.\n8. 검사 결과, 몸통과 양쪽 다리의 근력이 감소되었다. 손상 가능성이 있는 곳은?",
+    "explanation": "이래나 저래나 몸이나 몸통이 안움직이시는 거니까 근육 조절 중 trunk쪽을 담당하는 anteriorcorticospinal tract의 문제(lateral은 사지쪽이죠)라고 보입니다. 그래서 5번입니다. 빛 자극은 인지하시니 oculomoter n는 문제가 없으시군요.\n[해설분리-수정됨]",
     "original_topic": "Unknown"
   },
   {
@@ -3993,9 +4083,15 @@
     "question_num": 8,
     "topic": "motor_pathway",
     "question_text": "검사 결과, 몸통과 양쪽 다리의 근력이 감소되었다. 손상 가능성이 있는 곳은?",
-    "choices": [],
+    "choices": [
+      "1) Fasciculus gracilis (박속)",
+      "2) Fasciculus cuneatus (설상속)",
+      "3) Lateral corticospinal tract (외측피질척수로)",
+      "4) Vestibulospinal tract (전정척수로)",
+      "5) Anterior corticospinal tract (전피질척수로) / Reticulospinal tract (망상체척수로) / Tectospinal tract (덮개척수로)"
+    ],
     "answer": 3,
-    "explanation": "사지의 근육에 힘이 없으시네요. 그쪽 신경 신호가 약하게 가나 봅니다. 몸통도 잘 안움직이신다고되어있지만, 사지 쪽 근육이 아예 마비가 되면 그쪽에proximal한 몸통 근육이 뻑뻑할 것으로 생각되고 문제에서 그런 정도의 증상을 제시한 것이 아닐까 생각했습니다. 7번 해설에서 lat.\nCorticospinal tract가 되겠습니다.\n9. 자리에 앉는 것을 어려워하고, 균형을 잡기 힘들어했다. 이때 다음 중 손상 가능성이 가장 높은부위는?",
+    "explanation": "사지의 근육에 힘이 없으시네요. 그쪽 신경 신호가 약하게 가나 봅니다. 몸통도 잘 안움직이신다고되어있지만, 사지 쪽 근육이 아예 마비가 되면 그쪽에proximal한 몸통 근육이 뻑뻑할 것으로 생각되고 문제에서 그런 정도의 증상을 제시한 것이 아닐까 생각했습니다. 7번 해설에서 lat.\nCorticospinal tract가 되겠습니다.\n[해설분리-수정됨]",
     "original_topic": "Unknown"
   },
   {
@@ -4004,9 +4100,15 @@
     "question_num": 9,
     "topic": "motor_pathway",
     "question_text": "자리에 앉는 것을 어려워하고, 균형을 잡기 힘들어했다. 이때 다음 중 손상 가능성이 가장 높은",
-    "choices": [],
+    "choices": [
+      "1) Fasciculus gracilis (박속)",
+      "2) Fasciculus cuneatus (설상속)",
+      "3) Lateral corticospinal tract (외측피질척수로)",
+      "4) Vestibulospinal tract (전정척수로)",
+      "5) Anterior corticospinal tract (전피질척수로) / Reticulospinal tract (망상체척수로) / Tectospinal tract (덮개척수로)"
+    ],
     "answer": 4,
-    "explanation": "균형이 어렵다? Vestibulospinal tract 문제입니다.\n10. 하지의 고유감각을 담당하는 곳은?",
+    "explanation": "균형이 어렵다? Vestibulospinal tract 문제입니다.\n[해설분리-수정됨]",
     "original_topic": "Unknown"
   },
   {
@@ -4015,7 +4117,13 @@
     "question_num": 10,
     "topic": "sensory_system",
     "question_text": "하지의 고유감각을 담당하는 곳은?",
-    "choices": [],
+    "choices": [
+      "1) Fasciculus gracilis (박속)",
+      "2) Fasciculus cuneatus (설상속)",
+      "3) Lateral corticospinal tract (외측피질척수로)",
+      "4) Vestibulospinal tract (전정척수로)",
+      "5) Anterior corticospinal tract (전피질척수로) / Reticulospinal tract (망상체척수로) / Tectospinal tract (덮개척수로)"
+    ],
     "answer": 2,
     "explanation": "고유감각+하지입니다. 6번은 고유감각+상지였습니다. Categorizing이 필요해보입니다.",
     "original_topic": "Unknown"
@@ -4119,7 +4227,7 @@
       "5) Rt. vertebral a."
     ],
     "answer": 5,
-    "explanation": "vertebral a. 혹은 PICA의 손상으로 인한 Lateral medullary syndrome의 전형적인 증상입니다.\n감각 신경이 이미 척수에서 교차한 후이므로, right라는 것도 유추 할 수 있습니다.\n17. Ant. Inf. Cerebellar a. 가 다쳤을 시 손상 입는 것은?\n1) Dentate nucleus\n2) Corticospinal tract\n3) Vestibular nucleus\n4) Interposed nucleus\n5) Fastigial nucleus 답은 3번! 아까 외우라 했죠? 다 있어요! vestibular nucleus가 CN8의 신경핵이죠!\nlat. inf. pontine syndrome\n￥(14,15,16)\nbasilar a. CN5,7,8의 nucleus 손상 ant. inf. cerebellar a.\n(nystagmus, deafness)",
+    "explanation": "vertebral a. 혹은 PICA의 손상으로 인한 Lateral medullary syndrome의 전형적인 증상입니다.\n감각 신경이 이미 척수에서 교차한 후이므로, right라는 것도 유추 할 수 있습니다.\n[해설분리-수정됨]",
     "original_topic": "Unknown"
   },
   {
@@ -4170,7 +4278,7 @@
       "5) uncinate fasciculus"
     ],
     "answer": 1,
-    "explanation": "-Cingulum (띠다발): cingulate gyrus, parahippocampal gyrus, septal area 연결 (limbic lobe의 association fasciculus)\n나머지 선지를 보면 sup. longitudinal fasciculus는 arcuate fasciculus로 frontal lobe, parietal lobe occipital lobe, temporal lobe를 모두 연결 inf. longitudinal fasciculus = temporal lobe와 occipital lobe를 연결 inf. occipitofrontal fasciculus = occipital lobe와 frontal lobe를 연결 uncinate fasciculus = frontal lobe와 temporal lobe를 연결\n21. 의식불명 환자가 상하지가 모두 hyper-extension 및 internal rotaion 되어있었다.\n1) corticospinal tract\n2) corticoreticulospinal tract\n3) vestibulospinal tract\n4) tectospinal tract\n5) rubrospinal tract 짤기) 정답은 3번!\n증상을 보면 decerebrate rigidity입니다. 보기가 조금 달라져서 그렇지 이것도 사실상 기출에 나왔던 문제네요. 2012년도 기출 60번입니다.\ndecerebrate rigidity = red nucleus 아래에서 damage가 일어나 corticospinal tract,\ncorticoretriculospinal tract, tectospinal tract, rubrospinal tract가 모두 잘린 상황. 가장 아래에 있는 vestibulospinal tract가 혼자 intact하기 때문에 hyper activation 되어 온몸이 hyper-extension 및 internal rotation 하게 됨 General motor system ppt 슬라이드 21번 참고해주세요~\ndecorticate rigidity = corticospinal tract나 cerebral cortex가 부서져서 red nucleus의 과다활성(rubrospinal tract)이 상지의 hyperflexion과 하지의 extension이 특징적인 증상입니다.\n(decorticate... 손이 코를 향합니다.)\ndecorticate와 decerebrate 구분하는 거 기억하셔야 합니다.\n22. 다음 중 운동 시 나타나는 각 부위의 활성에 대한 설명이 옳은 것은?\n1) striatum활성 감소\n2) pallicidum세포 활성증가\n3) VA활성 억제\n4) premotor area흥분\n5) corticoreticular tract 억제\n2017년도 문제=짤기) 정답은 4번\n*걍 운동 시작하니깐 4번 보고 딱 답이라고 생각해도 됩니다.\n이 그림을 완전히 이해하시면 끝나는 문제입니다. (+는 흥분, -는 억제입니다)\ndirect pathway : Cortex + striatum - pallucidum - thalamus + motor cortex + corticospinal tract = 흥분됨 (-x-=+)라서 indirect pathway : cortex + striatum -\npallucidum - subthalamic nucleus +\npallucidum - thalamus + motor cortex +\ncortico spinal tract = 억제됨 (-x-x-=-라서)\n운동을 시작하게 되면 substantia nigra에서 dopamin을 분비하게 되고, 이는 direct pathway를 on, indirect pathway를 off하게됩니다. 그렇게 되면 direct pathway에 속하는것을 고르면 옳은 답이 되겠지요? thalamus가흥분 되는지 안되는지를 보려면 thalamus까지의 +-를 모두 곱하면 됩니다. striatum은 흥분되고, pallucidum은 억제, thalamus는 흥분, motor cortex는 흥분하게 되겠네요. corticoreticular tract는 크게 본다면 cortex에서 striatum으로 가는섬유를 말합니다. 그러므로 당연히 흥분되지요.\n23 . 신체부위의 위치와 움직임, 자극 위치변화에 관여하는 신경로는?\n1) ant.spinothalamic tract\n2) lat.spinothalamic tract\n3) spinoreticulothalamic pathway\n4) dorsal funiculus- medial lemniscus system\n5) trigeminothalamic pathway 짤기(2017) 답은 4번 (그냥 제일 긴거라고 외우세요)\nant. spinothalamic tract = 얼굴 아래의 압각과 촉각에 관여하는 tract입니다.\nlat. spinothalamic tract = 얼굴 아래의 온도와 통증에 관여하는 tract입니다.\nspinoreticulothalamic tract = 누가 자다가 깨울 때 통증과 피부감각을 전도하는 tract입니다. 깨엇을 때 어디 찔려서 깼는지는 모르죠? vague하기 때문입니다. 원시적인 system입니다.\ndorsal funiculus - med. lemniscus system = 얼굴 아래의 proprioception에 관여하는 경로입니다.\ntrigemino thalamic pathway - 얼굴 쪽의 피부 감각을 담당합니다 CN V\n24. 검사 결과 왼쪽에서 발가락 폄 반사 등 과다반사가 수반되며, 오른쪽에서 통증 및 온도 감각이상실되었으며, 왼쪽에서 눈꺼풀 처짐 및 동공 수축이 관찰되었다. 손상되었을 가능성이 가장 높은부위는?\n1) paracentral lobule\n2) crus cerebri\n3) dorsolateral medulla\n4) cervical spinal cord\n5) lumbar spinal cord 짤기) 정답은 4번 cervical spinal cord가 잘렸을 경우, 동측의 horner syndrome (cervical spinal ggl.에서 나오는 sympathetic n.가 잘려서 일어나는 증상 = 동공의 과다 수축)이 유발되고, 동측의 근육이 마비되고 과다반사(바빈스키 반사)가 일어나며, 반대 측의 온도와 통증이 사라지죠.(brown-sequardsyndrome)\nBRS neuroanatomy 129페이지 4번을 옮긴 문제입니다.\n25. 환자를 검사한 결과 오른쪽 아래 얼굴의 감각 손실 및 혀의 오른쪽 치우침, 목젖의 왼쪽 치우침이 관찰되었다. 손상되었을 가능성이 가장 높은 부위는?\n1) ant. limb of internal capsule\n2) genu of internal capsule\n3) post. limb of internal capsule\n4) thalamolentiform portion\n5) retrolenticular portion 짤기) 정답은 2번 !\ninternal capsule의 genu에는 corticobulbar fiber가 지나가게 됩니다. 이는 수의적 얼굴 운동을관여하게 됩니다. 사실 감각“trigeminal nerve\"손실인데 왜 이것과 관계없는 게 답인가 싶기도 한데, 오아른쪽 근얼굴래 육마의 비라한고 다매면 풀쉽립게우니 다 .\n위 얼굴근육은 양측의 대뇌반구 모두 관여를 하고, 아래측은 반대 측에서 관여를 하게 됩니다. 이들이 내려오는 경로가 바로 internal capusle의 genu이죠. 왼쪽 genu가 잘리면 오른쪽 아래 얼굴의근육이 마비되고, 혀가 오른쪽으로 치우치고 (오른쪽 genioglossus가 작용을 못하므로), 목젖이 왼쪽으로 치우지게 (오른쪽 입천장 근육이 작용을 못하므로 (vagus nerve))됩니다.\n26. 난청, 귀울림, 어지러움증, 비틀거림, 삼킴곤란, 오른쪽 얼굴 근육약화 및 감각소실, 각막 반사소실, 복시 등이 나타나는 환자에서 손상되었을 가능성이 가장 큰 구조는?\n1) lat. medulla\n2) med. medulla\n3) lat. pons\n4) med. pons\n5) cerebellopontine fiber 짤기) 정답 5번 BRS 175페이지 1번 문제입니다. 4년동안 나온 문제인데, 2번 -> 3번 -> 5번으로 답이 바뀌는 과정을 겪은 아주 험난한 문제입니다. cerebellum과 pons를 있는 섬유쪽에 문제가 생기면 이러한 증상들이 일어난다고 하네요. lat. medullary syndrome과 비슷하지만 난청과 귀울림이 동반된다는 점이 다릅니다. 제가 봤을 때 이 문제는 PPT 내용으로는 절대 풀 수 없습니다. 그러므로 그냥 이 문제는 답을 외우고 넘어가는게 좋습니다.\n27. 왼쪽소뇌반구에 출혈이 관찰된 67세 여자환자가 회음부에 고유감각이 없었다. 손상이 예상되는경로는?\n1) ant. spinocerebellar tract\n2) post.spinocerebellar tract\n3) ant.spinothalamic tract\n4) cuneocerebellae tract\n5) dorsal-column medial lemniscus system 짤기?탈기?) 2018년도는 오른쪽 다리 고유감각이었는데 2019년엔 회음부로 출제되었네요, 정답은변함없는 것 같습니다. 5번입니다\n<다리의 고유감각과 관련된 신경로 dorsal medial lemniscus tract 꼭 기억해주시고 외워주세요>\n가 전년도 기해에 써있는데... 그냥 선지보시고 5번써주시면 될 것 같습니다.....\n28. 오른쪽 사지가 저린 환자에게 왼손을 들라고 했더니 오른손을 들었다. 어디에 이상인가?\n1) Rt.parietal lobe\n2) Lt.parietal lobe\n3) Rt.frontal lobe\n4) Lt. temporal lobe\n5) Rt. Temporal lobe 짤기) 답은 2번오른쪽 사지가 저린 환자입니다. 그럼 왼쪽 뇌 문제겠네요? 보기 2개 남습니다. 아주좋습니다. 좌우를 혼동하는 것은 angular gyrus의 파괴시 생기는 gerstmann syndrome이므로 답은 angular gyrus 가 존재하는 왼쪽 parietal lobe\n29. 왼쪽 눈에 빛을 비추면 직접동공반사는 일어났지만 맞동공반사는 일어나지않았다.손상되었을 부위로 가장 가능성이 높은것은?\n1) 왼쪽 뇌신경 II\n2) 오른쪽 뇌신경 ll\n3) 오른쪽 시각로\n4) 오른쪽 뇌신경 III\n5) 왼쪽 뇌신경 III 짤기) 정답은 4번왼쪽 눈에 빛을 비췄더니 왼쪽 동공은 작아지는데 오른쪽 동공은 안 작아지는 환자입니다. 원래같이 일어나는게 정상입니다. 살펴보면 일단 왼쪽눈은 정상입니다. 보기 1번 5번 제외합니다.\n그리고 이 환자는 지금 앞이 안 보여요 가 아니라 동공이 안 작아지는게 문제죠? optic nerve이상이면 앞이 안 보입니다. 2번도 지워주세요.\n3번이 좀 헷갈릴 수도 있는데 optic nerve - optic chiasm - optic tract 순서인거 아시죠? 즉,\n왼쪽 눈의 자극은 왼쪽 optic nerve -> optic chiasm -> 오른쪽 optic tract로 이어집니다. 3번이망가지면 빛이 비춰진다는 신호가 오지 못하니 왼쪽 눈 동공도 안 작아졌겠네요 그럼 답은 4번~\n30. 검사결과 왼쪽을 보려할 때 복시가 일어났고, 오른쪽 눈의 모임이 불가능했으며, 왼쪽을 볼 때안구진탕이 일어났으며, 가까운 물체를 볼 때 눈이 모였다. 다음중 문제가 생긴 동맥은?\n1) ant. Cerebral a.\n2) Basilar a.\n3) middle cerebral a.\n4) post. Cerebral a.\n짤기) 답 2번 Raymond' s syndrome\n(병변쪽 내측 사시와 반대쪽몸의 불완전마비)\nbasilar a. pontine br. med. medullary syndrome\n(반대편 hemiparesis 반대쪽 고유감각 감소혀의 동측 마비)\n31. 뇌졸중 후 의식적으로 보는건 정상이지만 왼쪽으로 움직이는 물체에 대한 따라보기가 되지 않았다. 문제있부는 위는 ?\n1) lt.frontal lobe\n2) rt.frontal lobe\n3) lt.parietal lobe\n4) rt.parietal lobe\n5) lt.occipital lobe 정답 :４번의식적으로 보는 것은 정상이니 occipital lobe 의 cuneus (brodmann area 17, 1차 시각 중추)\n는 정상입니다.\nfrontal eye field ( brodmann area 8 ) 손상 시 따라보기 운동은 정상이므로 frontal lobe 도 아닙니다.\n*수업시간에 말씀하신건데 따라보기 중에서 1. 의지적 2. 반사적 따라보기가 있다고 합니다의지적 : frontal eye field에서 조절하여 수의적으로 보는 거반사적 : parietal eye field에서 조절하여 반사적으로 보는 거 frontal eye field 가 손상되더라도 parital eye field 덕분에 따라보기가 된다왼쪽으로 움직이는 물체에 대한 따라보기 안됨 : Rt. parietal eye field 문제!\n32. 다음 중 glossopharyngeal n.의 부교감신경핵을 고르시오.\n1) Edinger-westphal\n2) Sup. Salivatory nucleus\n3) Lacrimal nucleus\n4) Inf. Salivatory nucleus\n5) Nucleus accumbens 정답 : 4번 CN 부교감 신경들 쭉 적을께요.\n* Midbrain CN3 (edinger-westphal)\n* pons CN7 ( sup. salivary )\nCN9 ( inf. salivary )\n* medulla CN10 ( dorsal motor nucleus of vagus )\nppt에서 확인하세요~\n33. 사지의 불규칙적이고 비정상적인 움직임이 나타나다 수면중에는 멈춘다. 손상된 부위로 적절한것은?\n1) Globus pallidus\n2) Subthalamus\n3) Substantia nigra\n4) Putamen\n5) Internal capsule\n=> 정답 : 4\n무정위 운동증 (athetosis): 지속적이고 느리면 불수의적인 불규칙 운동. 동일환자에서 항상 동일한양상으로 관찰되면, 수면시 소실. Corpus striatum 병변 corpus striatum 은 caudate nucleus 와 putamen 으로 구성되니 4) putamen 정답\n34. 뇌졸중 후 안구의 공동수평운동은 정상이었으나 공동수직운동애 장애가 나타났다. 손상되었을가능성이 가장 높은 부위는?\n1) paramedian potine reticular formation\n2) nucleus prepositus hypoglossi\n3) abducens nucleus\n4) oculomotor nucleus\n5) interstitial nucleus of Cajal 정답 : 5번공동 수평 운동 -> pprf 공동 수직 운동 -> interstitial nucleus of Cajal이 관여합니다.\n35. Pons level의 MLF 손상 시 나타날 가능성이 가장 높은 증상은?\n1) Miosis, ptosis\n2) 외측 응시 장애\n3) 눈 모음 이상\n4) Accomodation의 이상정답 : 3번오른쪽 눈 pons level MLF가 손상되었다 해볼께요.\n그럼 오른쪽 눈 med. rectus m. 이 고장나겠습니다.\n따라서 왼쪽으로 눈을 돌릴 때 오른쪽 눈의 adduction 이 안되고, 반대편 안구는 nystagmus가 일어납니다.\n물론 오른쪽으로 눈을 돌릴 때는 아무 이상이 없습니다.\nmidbrain level 의 MLF 고장시 -＞convergence가 안됨 pons level 의 MLF 고장시 -> convergence 에는 이상 없음\n1) miosis(동공축소)<- 교감이 고장났을 때 ptosis (안검하수) <- 부교감이 고장나거나 ( levator palpebrae superioris m.)\n교감이 고장 ( sup. tarsal m. )\n선지자체는 교감이 고장난 horner 증후군 증상 같네요\n2) 왼쪽 응시할 때 이상이 있었죠? ＝＞외측 응시 장애!\n3) midbrain level 일 때 convergence 안됩니다\n4 accomodatin 즉 빛을 모으는건데.. 빛을 모으는 거는 oculomotor 의 부교감이 ciliary m. 자극하여 되는 거였죠?\n36. 우측 시야 4분의1 마비됐을때 손상가능성 있는 부분은?\n1) Lt.angular gyrus\n2) Lt.cuneus\n3) Lt.temporal lobe\n4) Lt.occipital lobe\n5) Lt.lingular lobe 정답 : 3 번우측 시야 1/4 이 마비... 복기 오류 같은데 원래 문제에서는 우측위시야가 안보인다 고 주어주지않았을까 생각합니다. ( 아닐 수도 있으니 공부하다가 확실하게 우측시야 1/4 만으로 문제 풀 수 있으면 본인의 판단을 믿으세요! )\n아래서 설명할껀데 우측 아래 시야 1/4 이상시 lt. parietal lobe 에 문제가, 우측 위 시야 1/4 이상시 lt. temporal lobe 에 문제가 있습니다.\n선지에 lt. parietal 이 없으니 3. lt. temporal lobe\n1. 우측아래시야 1/4 가 안보이는 경우우측 아래 시야 -> retina 의 좌측 위에 상이 맺힘 -> 좌측에 상이 맺혔으니 lt. optic tract -> 위에 상이 맺혔으니 optic radiation 따라감\n2. 우측위시야 1/4 안보이는 경우우측 위 시야 -> retina 의 좌측 아래에 상이 맺힘 -> 좌측에 상이 맺혔으니 lt. optic tract -> 아래에 상이 맺혔으니 meyer loop (temporal lobe에 있음) 따라감\n37. 눈에 이물질이 들어갔는데 눈물이 나지 않았다. 손상된 신경은?\n1) 5,7\n2) 3,7\n3) 7,10\n4) 2,5\n5) 3,5\n정답 : 1번눈물이 안난다고 하면\n1. 이물질이 들어갔는데 sensory 를 못함 : CN5-1\n2. sonsory는 하지만 눈물을 나오게 하는 부교감 이상 : CN 7\n38. 안구를 위로 올리지 못하고 왼쪽 동공 반사가 일어나지 않았다. 손상을 입었을 가능성이 가장높은 부위는?\n1)mlf\n2)edinger-westpal nucleus\n3)oculomotor nucleus\n4)abducent nucleus\n5)sup.colliculus 정답 : 5번이 문제도 예전부터 계속 나왔는데 문제 조건중 “convergence 가 되지 않는다” 라는 조건이 빠졌네요!?!?!?!? 복기 오류인지, 아니면 답을 더 명확히 하기 위해서 인지는 모르겠습니다.\n일딴 원래대로 문제 해설갈께요. 이것도 저와 제 몇몇 친구의 (잘못될 수도 있는) 판단이기도 한데일딴 원래 전통적인 답은 3. oculomotor nucleus 였습니다.\n근데 CN3에는 GSE를 담당하는 oculomotor nucleus 와, GVE 를 담당하는 Edinger-Westphal nucleus 두 개가 있습니다. 즉 전자는 단순한 수의적 눈 주변 mm. 들의 운동, 후자는 부교감 즉불수의적 mm.의 운동( ciliary body와 sphinter pupillae m. )을 담당하죠.\n안구를 위로 올리지 못한다 : 수의적 m. 의 운동 X 왼쪽 동공 반사 안된다 : 불수의적 m. 의 운동 X 따라서 절대 edinger-wertphal nucleus, oculomotor nucleus 어느 하나가 고장나서는 위 두 증상이 동시에 나타날 수 없습니다. 따라서 2,3번은 절대 정답이 아닙니다.\n또한 MLF가 손상 되어도 convergence 에는 이상이 없기 때문에 MLF도 아닙니다.\nabducent nucleus 는 lat. rectus m. 과 관련되어 있으니 당연히 아닙니다.\n나머지 1234가 다 아니고, 안구 위로 올리기 + 동공반사 + convergence 와 모두 관련이 있는 것은 sup. colliculus 이므로, 5. sup. colliculus 라 생각하였습니다.\n올해는 “convergence 가 안되었다”라는 조건이 빠지긴 하였지만 MLF 손상 시 병소 반대쪽으로 주시할 때 눈 adduction 이상, nystagmus 는 일어나지만 눈의 수직운동에는 관련이 없으므로 MLF는 결국 정답이 될 수 없다 생각합니다.\n(정말 죄송한데 이런 문제는 친구들과 상의도 하고 공부하면서 스스로 답을 찾으셔야 할 것 같아요.\n제 생각은 정답이 5번 같은데, 이게 아니라고 생각하는 사람도 있고 논란이 많습니다. )",
+    "explanation": "-Cingulum (띠다발): cingulate gyrus, parahippocampal gyrus, septal area 연결 (limbic lobe의 association fasciculus)\n나머지 선지를 보면 sup. longitudinal fasciculus는 arcuate fasciculus로 frontal lobe, parietal lobe occipital lobe, temporal lobe를 모두 연결 inf. longitudinal fasciculus = temporal lobe와 occipital lobe를 연결 inf. occipitofrontal fasciculus = occipital lobe와 frontal lobe를 연결 uncinate fasciculus = frontal lobe와 temporal lobe를 연결\n[해설분리-수정됨]",
     "original_topic": "Unknown"
   },
   {
@@ -4255,7 +4363,7 @@
       "5) 45"
     ],
     "answer": 5,
-    "explanation": ") 44\n복기가 잘못된 것 같네요! Broca’s area를 묻는 몇 년간 짤기로 출제된 문제인데 Brodmann area\n44번과 45번 모두 Broca’s area에 해당됩니다. 실제 문제에서는 영역 44 하나만 보기 중에 있었어요! 실시험제에 중둘 서 답뭘 에 으골로 라하야 하나 걱정는 안은 같습것하 될셔 도 니다 !\n\n45. 환자가 말은 정상으로 하나 글을 쓰지 못하였다. 손상 되었을 부위로 가장 적절한 것은? 1) 39\n2) 40\n3) 41\n4) 42\n5) 43",
+    "explanation": ") 44\n복기가 잘못된 것 같네요! Broca’s area를 묻는 몇 년간 짤기로 출제된 문제인데 Brodmann area\n44번과 45번 모두 Broca’s area에 해당됩니다. 실제 문제에서는 영역 44 하나만 보기 중에 있었어요! 실시험제에 중둘 서 답뭘 에 으골로 라하야 하나 걱정는 안은 같습것하 될셔 도 니다 !\n[해설분리-수정됨]",
     "original_topic": "Unknown"
   },
   {
@@ -4271,7 +4379,7 @@
       "5) 43"
     ],
     "answer": 1,
-    "explanation": "짤기!\nAngular gyrus에 문제가 있는 경우입니다.\n-Agraphia (쓰기언어장애): 말은 정상적으로 하나 글을 쓰지 못함. Angular gyrus 손상시 주로 나타남. 이라고 ppt에 나와 있습니다.\n\n46. 뇌졸중 후 말을 이해하지 못하며, 듣기, 읽기, 말따라하기 등에 장애를 나타내었다. 손상 가능성이 가장 높은 부위는?\n2) 22\n3) 42\n4) 43\n5) 44",
+    "explanation": "짤기!\nAngular gyrus에 문제가 있는 경우입니다.\n-Agraphia (쓰기언어장애): 말은 정상적으로 하나 글을 쓰지 못함. Angular gyrus 손상시 주로 나타남. 이라고 ppt에 나와 있습니다.\n[해설분리-수정됨]",
     "original_topic": "Unknown"
   },
   {
@@ -4610,7 +4718,7 @@
       "5) somatic layer of lat. plate mesoderm"
     ],
     "answer": 5,
-    "explanation": ".\nparaxial mesoderm: sclerotome& dermomyotome으로 나눠진다.\nlat. plate mesoderm: 상하지의 뼈 형성에 관여 neural crest: 얼굴의 앞쪽, sella tunica 앞의 뼈 형성에 관여이 셋은 꼭꼭 외워주세요!! 그럼 답이 4번 또는 5번이라는 걸 알수 있습니다! visceral은 장기 내부이고 pelvic bone은 body wall을 형성하는 부분이니까 somatic layer of lat. plate mesoderm 입니다. ppt에 나와있는 내용이긴한데요, 이번 시험보면서 느꼈던 건데 수업시간에 쓱쓱 지나가면서말씀하신게 출제되는 것 같아요. visceral layer는 아니겠죠~라고 지나가시듯 말씀하신게 기억나네요!\n76. 척추의 발생에 관한 설명으로 가장 적절한 것은?\n1) folic acid의 섭취는 congenital scoliosis의 발생빈도를 낮춘다.\n2) Klipper-feli syndrome의 경우 주로 kyphosis가 동반되는 경우가 많다.\n3) Notochord는 vertebral body안에서 nucleus pulposus를 형성하게 된다.\n4) Spinal bifida 중 허리에 hair만 난 경우, 예후는 좋은 편이다.\n5) sclerotome이 아래로 내려가면 myotome도 같이 내려간다.\n해설)4번합니다 방 예 를 는 섭취 1번) f olic acid의 spinal bifida !\n습니다 많 경우가 되는 반 동 가 2번) K lipper-feli syndrome은 scoliosis 차 가 장 곳은 은 남 화하고 퇴 3번 ) n oto에ch서or는d는 vertebral body , nucleus pulposus of IVD 됩니다\n4번) 이네 게 o입cc니u모이건다 l t르a사고 경는 우있도 을예만편좋후큼입은가 니다\n5번엉) 선뚱지한 !",
+    "explanation": ".\nparaxial mesoderm: sclerotome& dermomyotome으로 나눠진다.\nlat. plate mesoderm: 상하지의 뼈 형성에 관여 neural crest: 얼굴의 앞쪽, sella tunica 앞의 뼈 형성에 관여이 셋은 꼭꼭 외워주세요!! 그럼 답이 4번 또는 5번이라는 걸 알수 있습니다! visceral은 장기 내부이고 pelvic bone은 body wall을 형성하는 부분이니까 somatic layer of lat. plate mesoderm 입니다. ppt에 나와있는 내용이긴한데요, 이번 시험보면서 느꼈던 건데 수업시간에 쓱쓱 지나가면서말씀하신게 출제되는 것 같아요. visceral layer는 아니겠죠~라고 지나가시듯 말씀하신게 기억나네요!\n[해설분리-수정됨]",
     "original_topic": "Unknown"
   },
   {
@@ -4727,7 +4835,7 @@
       "3) post. sup. alveolar n .4)nasopalatine n."
     ],
     "answer": 4,
-    "explanation": "다섯 선지 모두 maxilary n. 유래인 것은 동일합니다.\n1) infraorbital n.의 분지로 incisive와 canine teeth에 분포는 하지만 sphenopalatine foramen가아닌 infraorbital canal을 통과한다.\n2) infraorbital n.의 분지로 premolar에 분포한다.\n3) maxillary n.의 trunk에서 분지되며 molar teeth에 분포한다.\n4) pterygopalatine ggl.의 분지로 long sphenopalatine n.이라고도 한다. sphenopalatine foramen을 통해 nasal cavity로 들어와 incisive와 canine teeth에 분포한다. 정답.\n5) pterygopalatine ggl.의 분지로 soft palate와 비강 점막에 분포한다.",
+    "explanation": "다섯 선지 모두 maxilary n. 유래인 것은 동일합니다.\n1) infraorbital n.의 분지로 incisive와 canine teeth에 분포는 하지만 sphenopalatine foramen가아닌 infraorbital canal을 통과한다.\n[해설분리-수정됨]",
     "original_topic": "Head"
   },
   {
@@ -4744,7 +4852,7 @@
       "5) infraorbital a."
     ],
     "answer": 1,
-    "explanation": ".\n1) supf. temporal a. 분지로 parotid gl. 앞에서 출현하여 parotid duct와 zygomatic arch를 지나 masseter m. 에 혈액 공급을 한다. parotid gl.에도 혈액 공급을 한다. 정답.\n2) ext. carotid a. 분지로 parotid gl. 앞에서 출현하지 않고(그림 참고), 턱과 입술 주변에 혈액공급을 한다.\n3) mandible 안 심층으로 들어가는 maxillary a.의 분지로 parotid gl. 앞을 지나지 않는다.\n4) mandible 안 심층으로 들어가는 maxillary a.의 분지로 parotid gl. 앞을 지나지 않는다.\n5) mandible 안 심층으로 들어가는 maxillary a.의 분지로 parotid gl. 앞을 지나지 않는다.\n감수 by 분홍복숭아 edited by 장래희망김광훈",
+    "explanation": ".\n1) supf. temporal a. 분지로 parotid gl. 앞에서 출현하여 parotid duct와 zygomatic arch를 지나 masseter m. 에 혈액 공급을 한다. parotid gl.에도 혈액 공급을 한다. 정답.\n2) ext. carotid a. 분지로 parotid gl. 앞에서 출현하지 않고(그림 참고), 턱과 입술 주변에 혈액공급을 한다.\n[해설분리-수정됨]",
     "original_topic": "Head"
   },
   {
@@ -4760,7 +4868,7 @@
       "4) middle meningeal"
     ],
     "answer": 2,
-    "explanation": "1) V1은 meningeal br.를 분지하지 않는다.\n2) meningeal br. of V2는 middle meningeal nerve라고 하며 maxillary n.이 trigeminal ggl.에서나와 foramen rotundum을 통과하기 전에 분지되며 foramen rotundum, foramen spinosum을통과한다.\n3) meninggeal br of V3와 middle meningeal a.는 함께 foramen spinosum을 통과한다.\n4) meninggeal br of V3와 middle meningeal a.는 함께 foramen spinosum을 통과한다.",
+    "explanation": "1) V1은 meningeal br.를 분지하지 않는다.\n[해설분리-수정됨]",
     "original_topic": "Head"
   },
   {
@@ -4777,7 +4885,7 @@
       "5) ethmoidal n"
     ],
     "answer": 1,
-    "explanation": "1) zygomatic n.은 V2의 분지로 감각성분과 lacrimal n.(V1)에 부교감 신경절 이후 섬유를 주는부교감성분으로 구성된다. 정답.\n2) frontal n. (V1)의 분지로 감각성분이다.\n3) frontal n. (V1)의 분지로 감각성분이다.\n4) nasociliary n. (V1)의 분지로 감각성분이다.\n5) nasociliary n. (V1)의 분지로 감각성분이다.",
+    "explanation": "1) zygomatic n.은 V2의 분지로 감각성분과 lacrimal n.(V1)에 부교감 신경절 이후 섬유를 주는부교감성분으로 구성된다. 정답.\n[해설분리-수정됨]",
     "original_topic": "Head"
   },
   {
@@ -4803,9 +4911,15 @@
     "question_num": 6,
     "topic": "head_1",
     "question_text": "다음 중 부교감 연접 이전 신경을 담당하며 GVE 성분을 가지고, auriculotemporal n.과 같이 주행하는 n.은?",
-    "choices": [],
+    "choices": [
+      "1) Facial n. (안면신경, CN VII)",
+      "2) Trigeminal n. (삼차신경, CN V)",
+      "3) Glossopharyngeal n. (설인신경, CN IX)",
+      "4) Vagus n. (미주신경, CN X)",
+      "5) Hypoglossal n. (설하신경, CN XII)"
+    ],
     "answer": 3,
-    "explanation": "GVE란 심장근, 내장근, gland 등에 분포하는 자율신경을 말한다.\n1) facial n.의 분지로 부교감 연접 이전 신경이지만 geniculate ggl.에서 나와 deep petrosal n.\n감수 by 분홍복숭아 edited by 장래희망김광훈과 함께 vidian n.을 형성하여 pterygopalatine ggl.로 주행하기 때문에 오답.\n2) 교감신경이다.\n3) tympanic n.의 종말가지로 GVE(부교감)이고, otic ggl.로 주행한다. otic ggl.은 auriculotemporal n.으로 parotid gl.에서 그친다는 ppt의 설명에 따라 가장 정답이라고 볼 수 있다. 정답.\n4) facial n.의 분지로, 운동신경이고 mastoid process 앞을 지나 auricularis posterior m.에 분포한다. 옆통수에서 위로 올라간다는 점이 auriculotemporal n.과 비슷하게 주행한다고 볼 수도있지만 GVE가 아니다.\n5) 복기 오류\n7번 Risorius m.을 지배하는 안면신경의 가지는?",
+    "explanation": "GVE란 심장근, 내장근, gland 등에 분포하는 자율신경을 말한다.\n[해설분리-수정됨]",
     "original_topic": "Head"
   },
   {
@@ -4814,7 +4928,13 @@
     "question_num": 8,
     "topic": "head_3",
     "question_text": "Frontal n.의 가지로 Frontal sinus 의 점막, 이마의 피부를 지배하는 신경은?",
-    "choices": [],
+    "choices": [
+      "1) Supratrochlear n.",
+      "2) Supraorbital n.",
+      "3) Lacrimal n.",
+      "4) Nasociliary n.",
+      "5) Infraorbital n."
+    ],
     "answer": 2,
     "explanation": "frontal n.의 분지는 supratrochlear n., supraorbital n. 두 가지 뿐이다.\n1) 이마와 upper eyelid에 분포하는 감각신경이다.\n2) 이마와 upper eyelid와, 결막과 frontal sinus의 점막에 분포하는 감각신경이다. 정답.\n3),4),5) 는 frontal n.의 가지가 아니다.",
     "original_topic": "Head"
@@ -4825,9 +4945,15 @@
     "question_num": 9,
     "topic": "head_1",
     "question_text": "Lat pterygoid m.을 뚫고나와 mandible ramus와 massetor m.에 분지를 내고 facial n.과 교통하는 신경은?",
-    "choices": [],
+    "choices": [
+      "1) Zygomatic branch",
+      "2) Temporal branch",
+      "3) Greater palatine n. (pterygopalatine ggl. branch)",
+      "4) Buccal branch",
+      "5) Marginal mandibular branch"
+    ],
     "answer": 4,
-    "explanation": "1) facial n.의 분지인 zygomatic br.와 교통하기는 하지만 orbicularis oculi m.을 뚫고, 저작근에분지를 내지 않는다.\n2) facial n.과 교통하지만 temporal fossa에 분포하고, 저작근에 분지를 내지 않는다.\n3) pterygopalatine ggl.을 경유해 facial n.과 교통하지만, soft palate와 비강 점막에 분포한다.\n4) masseter m. 아래에서 facial n.의 buccal br.와 교통하고 lat. pterygoid m.을 뚫고 나와 mandible ramus와 massetor m.에 분지를 낸다. 정답.\n5) facial n.과 교통하지만, 턱과 아랫 입술에 분포하는 감각신경이다.",
+    "explanation": "1) facial n.의 분지인 zygomatic br.와 교통하기는 하지만 orbicularis oculi m.을 뚫고, 저작근에분지를 내지 않는다.\n[해설분리-수정됨]",
     "original_topic": "Head"
   },
   {
@@ -4920,7 +5046,13 @@
     "question_num": 15,
     "topic": "ear_pharynx_larynx",
     "question_text": "다음 치아구조의 나이로 가장 적절한 것은?\n(완전히 일치하는 사진은 아님)",
-    "choices": [],
+    "choices": [
+      "1) 하악 중절치 (lower central incisor)",
+      "2) 상악 중절치 (upper central incisor)",
+      "3) 제1대구치 (first molar)",
+      "4) 제3대구치 / 사랑니 (wisdom tooth)",
+      "5) 상악 견치 (upper canine)"
+    ],
     "answer": 4,
     "explanation": "[전수검증-수정됨] 치아 구조를 보고 나이를 추정하는 문제입니다. 기존 해설은 후두(larynx) 구조물에 대한 내용으로, 이 문제(치아/나이 추정)와 무관한 다른 문제의 해설이 잘못 매칭되어 있었습니다. 치아 발생 및 맹출 시기: 유치(deciduous teeth)는 생후 6개월경부터 맹출을 시작하여 약 2-3세에 완성됩니다. 영구치(permanent teeth)는 약 6세부터 맹출을 시작하여 제3대구치(wisdom tooth)를 제외하면 약 12-13세에 완성됩니다. 사진에 제시된 치아 구조의 맹출 패턴과 마모 정도를 기준으로 나이를 판단해야 합니다. (Ref: 원본 PDF 확인 필요 - 치아 사진 기반 문제)",
     "original_topic": "Mouth/Nose/Ear/Pharynx/Larynx"
@@ -4973,7 +5105,7 @@
       "5) Ansa cervicalis"
     ],
     "answer": 3,
-    "explanation": "Muscular triangle에 포함되는 구조물은 infrahyoid mm., thyroid gl., sup.&inf. thyroid a., sup.\nlaryngeal n.입니다. Muscular triangle에 thyroid gl.가 있다는 것을 알면 그 혈관인 4번이 답이라는 것을 알 수 있습니다.\n25.성적인 시각 자극 들어올 시 활성되는 구조는?",
+    "explanation": "Muscular triangle에 포함되는 구조물은 infrahyoid mm., thyroid gl., sup.&inf. thyroid a., sup.\nlaryngeal n.입니다. Muscular triangle에 thyroid gl.가 있다는 것을 알면 그 혈관인 4번이 답이라는 것을 알 수 있습니다.\n[해설분리-수정됨]",
     "original_topic": "Neck"
   },
   {
@@ -5103,7 +5235,7 @@
       "4) Retrolenticular portion"
     ],
     "answer": 3,
-    "explanation": "corticospinal tract는 int. capsule에서 post limb 부분을 통과하는데, 그 중 post. limb는 lentiform nucleus를 기준으로 해서 3부분으로 나뉜다.\n-> Thalamolentiform portioncorticospinal tract 함유(arm, trunk, leg 순)\n-> Retrolenticular portionoptic radiation 함유\n-> Sublenticular portionauditory radiation 함유\n34.Amygdala와 hypothalamic ventromedial tract을 연결하는 구조는?",
+    "explanation": "corticospinal tract는 int. capsule에서 post limb 부분을 통과하는데, 그 중 post. limb는 lentiform nucleus를 기준으로 해서 3부분으로 나뉜다.\n-> Thalamolentiform portioncorticospinal tract 함유(arm, trunk, leg 순)\n-> Retrolenticular portionoptic radiation 함유\n-> Sublenticular portionauditory radiation 함유\n[해설분리-수정됨]",
     "original_topic": "Unknown"
   },
   {
@@ -5144,9 +5276,15 @@
     "question_num": 40,
     "topic": "motor_pathway",
     "question_text": "한쪽 다리에서 심한 불수의적 수축을 동반한 이상 운동증상이 관찰되었다. 손상된 구조로가능성이 가장 높은 것은?",
-    "choices": [],
+    "choices": [
+      "1) Substantia nigra (흑질)",
+      "2) Putamen (조가비핵)",
+      "3) Caudate nucleus (꼬리핵)",
+      "4) Globus pallidus (창백핵)",
+      "5) Subthalamic nucleus (시상밑핵)"
+    ],
     "answer": 5,
-    "explanation": "basal ganglia 변병증상 중에 하나로, 다리가 계속 수축해 있는 것으로 보아 환자의 운동 pathway가 상시 Turn-on상태임을 알 수 있다. 따라서 basal ganglia 변병 중 Hemiballism의 변병임을 알 수 있다.hemiballism은 subthalamic nucleus에 손상이 일어나 turn off를못 시켜줄 때 발생하므로, 답은 5번.\n이 다음부턴 야마에서 퍼왔습니다.\n1 Parkinsonism : Substantia nigra의 손상\n→ 도파민의 중추인 SN이 파괴되면서 Glutamate에 의한 신호가 striatum으로 왔을 때, 양쪽 pathway가 다 영향을 받게 됩니다. 운동의 증폭이 일어나야 하는데 그것도 안 되고,\non/off가 반복되면서 떨림이 나타납니다. 2 Chorea : Putamen → GPe 로의 억제 회로의손상\n→ 이 경우, striatum에서 GPe로의 회로는 손상이 되지만 GPi로의 회로는 유지가 됩니다. 결과적으로 turn on이 계속 activation 되면서 큰 움직임을 보이게 됩니다. 3 Hemiballism :\nSubthalamic nucleus의 손상\n→ STN이 관여하는 indirect pathway가 망가짐으로써 direct pathway가 계속되고, off 없이항상 on 상태를 유지합니다. 입니다. 몸 한 쪽에서만 일어나므로 “hemi\"가 들어갑니다!\n다음 문제들을 풀기 전에 이 사진을 참고하면 참 좋을 것 같습니다.\n[41-46] (매년 나오는유형)\n감수 by 분홍복숭아 edited by 장래희망김광훈\n41. 검사 결과, 다리의 two-point discrimination에 문제가 생겼다. 손상 가능성이 있는 부위는?\n단원: General sensory 분류: 완전짤기정답: 1번해설: 다리의 two-point discrimination에 관여하는 것은 gracile fasciculus고 1번에 위치합니다.\n42. 검사 결과 머리와 몸통의 운동은 불가능하고 빛 자극에 의한 안구운동은 가능했다. 어디 손상?\n단원: General motor 분류: 완전짤기정답: 5번해설: 목 근육과 몸통 근육 (axis 근육) 운동에 관여하는 tract는 ant.corticospinal tract 이고\n5번에 위치합니다.\n43. 자리에 앉는 것을 어려워하고, 균형을 잡기 힘들어했다. 이때 다음 중 손상 가능성이 가장높은 부위는?\n단원: General sensory 혹은 motor 분류: 짤기정답: 4번해설: 앉는 것을 어려워하고, 균형을 잡기 힘들어하면 vestibulospinal tract에 문제가 생긴것이므로 정답은 4번!\n44. 검사 결과, 몸통과 양쪽 다리의 근력이 감소되었다. 손상 가능성이 있는 곳은?\n단원: General motor 분류: 짤기정답: 5번해설: Ant.corticospinal tract는 양측의 몸통근육을 지배합니다. 근데 확실하게 여기서 양쪽다리라고 써 줬기 때문에 이것도 ant.corticospinal tract에 포함할 수 있을 것 같습니다.\n또한, general motor강의록에 lat.corticospinal tract는 사지말단을 조절하며 잡기 운동에 관여한다고 나와 있습니다. lat.corticospinal tract와 ant.corticospinal tract는 contralateral 하게 지배하느냐 bilateral하게 지배하느냐가 구분할 수 있는 특징이므로 5번이 답입니다.\n45. 오른쪽다리에 고유감각 이상 증세 보인다. 가장 손상되었을 가능성이 높은 부위?\n단원: General motor 분류: 짤기정답: 1번해설: 오른쪽 다리에 고유감각 이상이 생기면 gracile fasciculus에 문제가 생긴 것이고 답은\n1번\n46. 다음 그림에서 3번 손상시 일어나는 현상을 고르시오\n1. 오른쪽 팔 통증감각 소실\n2. 왼쪽 팔 통증감각 소실\n3. 오른쪽 팔 운동능력 소실\n4. 왼쪽 팔 운동능력 소실\n5. 오른쪽 팔 고유감각 소실단원: General sensory, motor 분류: 탈기정답: 4번해설: 3번영역은 왼쪽 spinal cord에 속해 있습니다.\n감수 by 분홍복숭아 edited by 장래희망김광훈\n1. 오른쪽 팔의 통증감각 소실이라면 오른쪽 post.horn근처든가 아니면 왼쪽의 spinothalamic tract를 지배하는 white matter여야 하는데 3번은 아닙니다.\n2. 1번과 비슷하게 생각하면 역시 3번 손상시는 아닙니다.\n3. 대뇌는 반대를 지배하는데, spinal cord에서는 이미 decussation된 fiber들이 나가므로 spinal cord는 동측을 지배하고, 그렇기 때문에 왼쪽 팔 운동능력 소실은 아닙니다.\n4. 정답입니다.\n5. 이 기능은 2번 영역과 관련이 있습니다.\n47. visual test를 진행했을 때의 증상을 나타낸 그림이다. 이 때 손상된 부분은?\n1. Optic n.2. Pineal gl.3. Pituitary gl.4. Lat. geniculate body 5. Sup. colliculus 단원: Special sensory 분류: 탈기정답: 1번해설: 이 경우를 superior altitudinal defect라고 부른다는데 수업시간에 배운적이 없습니다.\n그래서 다음 자료를 참조하면,\n1번 no.p tic 이 답임을 알 수 있습. 니다\n<다음은 강의 ppt에 있는 자료입니다>\n이것을 기준으로 나머지 선지들을 해석해보면,\n2. pineal gl.가 다쳤을 때에 만약 시야 이상이 생긴다면 아래쪽 부분에 시야 이상이 생길거니까 답이 될 수 없습니다.\n3. pituitary gl.이 다쳤을 때에는 optic chiasm이 눌리므로 ppt 자료에서 2번 시야 이상이생깁니다. (bitemporal hemianopia)\n4. lat.geniculate body는 위 아래 중간 모든 시각 정보가 다 들어오므로 다쳤을 때 아예 전체 안구가 검은색으로 칠해질 것 같습니다.\n5. sup.colliculus 에는 안구 운동 관련 뇌신경의 핵들이 존재하므로 안구운동에 문제가 생깁니다.\n감수 by 분홍복숭아 edited by 장래희망김광훈\n48. 다음 중 시각과 청각 관련 기억과 관련된 구조물은?\n1.DMN 2. LDN 3.LPN 4. Pulvinar 5.ATN 단원: Special sensory (나오는 선지들은 전체 CNS)\n분류: 약간 탈기(발문이 살짝 다름)\n정답: 4번해설:\n1. 기억, 고통관련\n2. Limbic system과 관련이 있습니다.\n3. 시각을 포함한 감각 및 이와 관련된 기억과 관련 (special sense-eyeball ppt)\n4. 시각과 청각 관련된 구조물 (special sense-eyeball ppt) 정답!\n5. Limbic system과 관련이 있습니다.\npulvinar와 LP가 상동이라고 강의록 ppt에 나와있는데 구조적으로 pulvinar 밑에는 med.geniculate body(청각 관련), lat.geniculate body(시각 관련)가 위치하고, 그래서 시각과청각 관련 기억에 관련된 구조물이라고 말할 수 있습니다. 수업시간에도 청각에 관련되었다고 말씀하셨습니다.\n비슷했던 기출문제로는 응시 장애와 구토 증상이 생기는 발문으로 나오는 문제가 있는데 이문제의 답도 pulvinar 입니다.\n감수 by 분홍복숭아 edited by 장래희망김광훈\n49. 대뇌피질, 기저핵, 소뇌 등에 흥분성 정보를 전달하여 각성상태를 유지하게 하는 신경로는?\n1. Central tegmentum tract\n2. Retinohypothlamic tract\n3. Dentothalamic pathway\n4. Ansa lenticularis\n5. Ant. spinothalamic tract 단원: 분류하기 애매분류: 탈기정답: 1번해설:\n1. 신경해부학-genertal motor 강의록을 보면 Central tegmental tract은 reticulothalamic tract+pontoreticulospinal tract라고 정의되어 있습니다.\n두 tract의 기능을 합치면, 대뇌피질, 기저핵 소뇌 등의 흥분전달을 반대편 소뇌와 척수로 전달하며 수면상태에서 각성상태로 전환한다고 할 수 있고, 따라서 답은 1번이 됩니다.\n2. 정확하게 이런 tract에 대한 언급은 없으셨는데, 이름을 토대로 보아 일단 처음에 나왔을때 retina와 hypothalamus를 연관시키는 것은 other visual tract 중 pineal gl.과 관련이 있다고 생각해볼 수 있습니다. 이것은 주기적인 circadian rhythm과 관계가 있는 tract 입니다.\n3. Dentothalamic pathway: 소뇌의 dentate nucleus-->VL--->primary motor cortex이므로 수의 운동의 정확성에 관여하는 pathway라고 생각할 수 있습니다.\n4. 이 경로의 다른 이름은 Retinohypothalamic tract로 suprachiasmatic nucleus를 지나는 경로로 Retina → suprachiasmatic nucleus (retinohypothalamic tract) → pineal gland Special sense-eyeball 강의록 other visual tract에 소개되어 있습니다.\n5. Ant.spinothalamic tract는 촉각, 압각을 전달하는 tract입니다.",
+    "explanation": "basal ganglia 변병증상 중에 하나로, 다리가 계속 수축해 있는 것으로 보아 환자의 운동 pathway가 상시 Turn-on상태임을 알 수 있다. 따라서 basal ganglia 변병 중 Hemiballism의 변병임을 알 수 있다.hemiballism은 subthalamic nucleus에 손상이 일어나 turn off를못 시켜줄 때 발생하므로, 답은 5번.\n이 다음부턴 야마에서 퍼왔습니다.\n1 Parkinsonism : Substantia nigra의 손상\n→ 도파민의 중추인 SN이 파괴되면서 Glutamate에 의한 신호가 striatum으로 왔을 때, 양쪽 pathway가 다 영향을 받게 됩니다. 운동의 증폭이 일어나야 하는데 그것도 안 되고,\non/off가 반복되면서 떨림이 나타납니다. 2 Chorea : Putamen → GPe 로의 억제 회로의손상\n→ 이 경우, striatum에서 GPe로의 회로는 손상이 되지만 GPi로의 회로는 유지가 됩니다. 결과적으로 turn on이 계속 activation 되면서 큰 움직임을 보이게 됩니다. 3 Hemiballism :\nSubthalamic nucleus의 손상\n→ STN이 관여하는 indirect pathway가 망가짐으로써 direct pathway가 계속되고, off 없이항상 on 상태를 유지합니다. 입니다. 몸 한 쪽에서만 일어나므로 “hemi\"가 들어갑니다!\n다음 문제들을 풀기 전에 이 사진을 참고하면 참 좋을 것 같습니다.\n[41-46] (매년 나오는유형)\n감수 by 분홍복숭아 edited by 장래희망김광훈\n[해설분리-수정됨]",
     "original_topic": "Unknown"
   },
   {
@@ -5155,7 +5293,13 @@
     "question_num": 50,
     "topic": "memory_system",
     "question_text": "Vestibular nucleus, 소뇌가 관여하는 안구운동은?",
-    "choices": [],
+    "choices": [
+      "1) Vestibulo-ocular reflex (전정안반사)",
+      "2) Optokinetic reflex (시운동반사)",
+      "3) Pupillary light reflex (동공빛반사)",
+      "4) Corneal reflex (각막반사)",
+      "5) Accommodation reflex (조절반사)"
+    ],
     "answer": 1,
     "explanation": "[전수검증-수정됨] Vestibular nucleus와 소뇌가 관여하는 안구운동은 vestibulo-ocular reflex(VOR, 전정안반사)입니다. VOR은 머리가 움직일 때 안구를 반대 방향으로 움직여 시야를 안정시키는 반사입니다. 경로: vestibular organ -> vestibular nerve(CN VIII) -> vestibular nuclei -> MLF(medial longitudinal fasciculus) -> CN III, IV, VI nuclei -> extraocular muscles. 소뇌(특히 vestibulocerebellum = flocculonodular lobe)는 VOR의 gain을 조절하고 정확도를 유지합니다. 기존 해설은 mamillary body/limbic system에 대한 내용으로 이 문제와 무관했습니다. (Ref: Snell's Clinical Neuroanatomy - Vestibulo-ocular reflex, Gray's Anatomy - Vestibulocerebellum)",
     "original_topic": "Memory pathway"
@@ -5225,7 +5369,7 @@
       "5) ATN"
     ],
     "answer": 2,
-    "explanation": "선지 중 에서 시각에 관여하는 구조는 pulvinar 뿐입니다.\n1) 청각에 관여\n2) 시각에 관여\n3) 기억, 고통에 관여\n4) 몸 감각에 관여\n5) limbic system 관련\n56.오른쪽 상위 medulla에 손상이 생긴 환자에게서 나타날 증상으로 가장 적절한 것은?",
+    "explanation": "선지 중 에서 시각에 관여하는 구조는 pulvinar 뿐입니다.\n1) 청각에 관여\n2) 시각에 관여\n3) 기억, 고통에 관여\n4) 몸 감각에 관여\n5) limbic system 관련\n[해설분리-수정됨]",
     "original_topic": "Unknown"
   },
   {
@@ -5293,7 +5437,7 @@
       "5) lumbar spinal cord"
     ],
     "answer": 4,
-    "explanation": "BRS문제입니다!\ncervical spinal cord가 손상된 경우, 동측의 horner syndrome (sympathetic n.가 잘려서일어나는 증상 = 동공의 과다 수축)이 유발되고, 동측의 근육이 마비되고 과다반사(바빈스키 반사)가 일어나며 반,대 측의 온도와 통증이 사라지는 brown-sequard이 s나y타n납dr니o다me .\n61.환자를 검사한 결과 오른쪽 아래 얼굴의 감각손실과 혀의 오른쪽 치우침, 목젖의 왼쪽치우침이 관찰되었다. 손상되었을 가능성이 가장 높은 부위는?\n1. ant.limb of internal capsule\n2. genu of internal capsule\n3. post. limb of internal capsule\n4. thalamolentiform portion 감수 by 분홍복숭아 edited by 장래희망김광훈\n5. retrolenticular portion 짤기) 정답은 2번!!\nInternal capsule의 genu에는 corticobulbar fiber가 지나가게 됩니다. 이는 수의적 얼굴 운동을 관여하게 됩니다. 사실 감각은 “trigeminal nerve”의 손상이지만 왜 이것과 관계 없는\n2번 선지가 답인가 싶기도 한데, 오른쪽 아래 얼굴 근육의 마비라고 생각한다면 매우 쉽게풀립니다.\n위 얼굴근육은 양측의 대뇌반구 모두 관여를 하고, 아래측은 반대 측에서 관여를 하게 됩니다. 이들이 내려오는 경로가 바로 internal capsule의 genu이죠. 왼쪽 genu가 잘리면 오른쪽 아래 얼굴의 근육이 마비되고, 혀가 오른쪽으로 치우치고 (오른쪽 genioglossus가 작용을못하므로), 목젖이 왼쪽으로 치우치게 (오른쪽 입천장 근육이 작용을 못하므로 (vagus nerve의 작용)) 됩니다.\n62.왼쪽 소뇌반구에 출혈이 관찰된 여자환자가 회음부에 고유감각이 없었다. 손상이 예상되는 경로는?\n1-ant.spinocerebellar tract\n2-post.spinocerebellar tract\n3-ant.spinothalamic tract\n4-cuneocerebellae tract\n5-dorsal column medial lemniscus system 짤기) 정답은 5번입니다\n2018년도에는 오른쪽 다리의 고유 감각이었는데 2019년부터 문제가 약간 변화했네요. 그래도 답은 같습니다. 1, 2, 4 번 선지는 소뇌가 관여하므로 무의식적인 감각 관련일 것이고\n3번은 통증 관련 신경로이므로 고유감각과 관련된 선지는 5번밖에 없습니다.\n63. 오른쪽 사지가 저린 환자에게 왼손을 들라고 했더니 오른손을 들었다 어디에 이상인가?\n1) rt frontal lobe 2) lt parietal lobe 3) rt parietal lobe 4) lt temporal lobe 5) rttemporal lobe 짤기) 답은 2번오른쪽 사지가 저린 환자입니다. 그럼 왼쪽 대뇌 반구의 문제겠네요. 보기가 2번 과 4번두개로 남습니다. 좌우를 혼동하는 것은 angular gyrus의 이상시 발생하는 gerstmannsyndrome이므로 답은 angular gyrus가 위치하는 lt. parietal lobe\n64. 검사결과 왼쪽을 보려할때 복시가 일어났고 오른쪽 눈의 모임이 불가능 했으며 왼쪽을 볼 때 안구진탕이 일어났으며 가까운 물체를 볼 때 눈이 모였다. 다음 문제가 생긴 동맥은?\n1) ant cerebral a. 2) middle cerebral a. 3) post cerebral a. 4) basilar a. 5) rt vertebrala.\n짤기) 답 4번복시는 trochlear nucleus에 이상이 있을 시 나타날 수 있는 증상이고, 눈의 모임과 관련된 근육은 med. Rectus m.로 oculomotor nucleus와 관련이 있습니다. 이 둘 모두 중뇌에위치한 신경핵으로, 선지를 보면 1~3은 모두 ~ cerebral a.로 대뇌로 가는 동맥인 것을 알수 있고 1~3 을 제외하면 4번과 5번이 남는데 둘 중에 중뇌로도 혈액을 공급해주는 동맥은 basilar a.입니다. 따라서 답은 4번~\n65. 뇌졸중 후 의식적으로 보는건 정상이만 왼쪽으로 움직이는 물체에 대한 따라보기가되지 않았다. 관련된 것으로 옳은 것은?\n1. 왼쪽 frontal eye field 2. 오른쪽 frontal eye field 3.왼쪽 parietal eye field 4.오른쪽 parietal eyefield 짤기) 답 3번짤기지만 답이 한 번 바뀐 문제입니다. (4번->3번) 반대편의 문제일 것으로 생각하기 쉬우나 반사적으로 나타나는 따라보기에 이상이 있다면 동측의 문제라고 합니다. (의식적으로따라보는 것에 이상이 있다면 반대편에서 이상이 생긴 것이 맞습니다.)\n+의식적으로 따라보는 것은 frontal lobe에 있는 frontal eye field의 작용이고 반사적으로따라보는 것은 parietal lobe에 있는 parietal eye field의 작용입니다.\n감수 by 분홍복숭아 edited by 장래희망김광훈\n66번. 사지불규의 칙적이비고 정상적움인 나타나직임이 수다 면중에멈는 춘다 손상부된 .\n위로 적절한 것은?\n1.globus pailidus 2.subthalamus 3.substantia nigra 4.putamen 5.caudate nucleus 짤기) 답은 4번무정위 운동증(athetosis) : 지속적이고 느리면 불수의적인 불규칙 운동. 동일환자에서 항상 동일한 양상으로 관찰되면, 수면시 소실. Corpus striatum 병변.\nCorpus striatum은 caudate nucleus와 putamen으로 구성되니 putamen으로 작년까지는골랐으나, 올해에는 선지에 caudate nucleus가 추가됐네요. 좀 더 찾아보니 ‘athetosis는 대뇌기저핵(basal ganglia)의 피각(putamen)이나 시상(thalamus)의 장애에 의해서 생긴다’ 라고되어 있네요. 시상은 선지에 없으니 확실한 putamen을 답으로 골라주시면 되겠습니다~\n67. 뇌졸중 후 안구의 공동수평운동은 정상이었으나 공동수직운동에 장애가 나타났다. 손상되 었을 가능성이 가장 높은 부위는?\n1.paramedian potine reticular formation\n2.nucleus prepositus hypoglossi\n3.abducens nucleus\n4.oculomotor nucleus\n5.interstitial nucleus of Cajal 짤기) 정답 5번공통 수평 운동->pprf 공통 수직 운동->interstitial nucleus of Cajal이 관여합니다.\n68. Pons level의 MLF손상 시 나타날 가능성이 가장 높은 증상은?\n1. Miosis, ptosis 2. 외측응시장애 3. 눈 모음 이상 4. Accomodation의 이상짤기) 2번\n1) miosis(동공축소)<- 교감이 고장 났을 때 ptosis(안검하수)<- 부교감이 고장나거나(levator palpebrae superioris m.)\n교감이 고장(sup.tarsal m.)\n2) MLF는 lateral movement시 abducent nucleus와 abducent nucleus에 대해 반대측 oculomotor nucleus를 연결해주는 역할로 MLF가 고장시 반대쪽 oculomotor nucleus로 신호를 보낼 수 없으니 med.rectus m.이 움직이지 못해 외측응시장애가 나타날 수 있습니다.\n3) MLF가 이상이 생겨도 convergence는 일어날 수 있다고 합니다.(convergenceisgenerallypreserved.)\n4) Accommodation, 즉 빛을 모으는 건데.. 빛을 모으는 거는 oculomotor 의 부교감이 ciliary m. 자극하여 되는 거였죠?\n69. 안구를 위로 올리지 못하고 왼쪽 동공반사가 일어나지 않았다. 손상을 입었을 가능성이 가 장 높은 부위는?\n1. MLF 2. Oculomotor nucleus 3. Edinger-Westphal nucleus 4. Superior colliculus 5.\nAbducent nucleus 짤기) 정답 4번눈을 위로 들어올리는 운동의 시작은 Cerebral cortex와 sup. Colliculus에서 자극이 시작됩니다.\n동공반사의 경로는 optic tract->sup.brachium(of sup.colliculus)->olivary pretectal nucleus->Edinger-Westphal nucleus->ciliary ggl.->short ciliary n.->sphincter pupillae m.\n자극->동공 수축즉눈, 위을 들로 어올리운는 동동과 반공 모사 두 경를 유하므답로 은 번입 sup.colliculs 4\n니다.\n70. 오른쪽 얼굴 및 혀의 마비와, 힘의 항진증과 언어 상실이 나타났다. 이때 손상이 되었을 가능성이 가장 큰 구조는?\n1. Int. capsule 2. Frontal lobe 3. Pons 4. Medulla 5. Temporal lobe 감수 by 분홍복숭아 edited by 장래희망김광훈짤기) 정답 2번우선 언어 상실이라는 지문을 통해 Broca area라고 생각해주시면 됩니다. 따라서 답은 frontal lobe를 고를 수 있습니다. 오른쪽 얼굴과 혀의 마비, 힘줄반사 항진에 대해서 설명하자면 오른쪽 얼굴과 혀의 마비는 frontal lobe의 primary motor cortex의 아랫 부분(broca area와 겹침)의 손상으로 기인할 수 있습니다. 힘줄 반사는 사지에서 일어나는데, 이 또한 pyramidal tract의 일부인 primary cortex가 손상됐으니 과도하게 일어날 수 있습니다.",
+    "explanation": "BRS문제입니다!\ncervical spinal cord가 손상된 경우, 동측의 horner syndrome (sympathetic n.가 잘려서일어나는 증상 = 동공의 과다 수축)이 유발되고, 동측의 근육이 마비되고 과다반사(바빈스키 반사)가 일어나며 반,대 측의 온도와 통증이 사라지는 brown-sequard이 s나y타n납dr니o다me .\n[해설분리-수정됨]",
     "original_topic": "Unknown"
   },
   {
@@ -5335,7 +5479,13 @@
     "question_num": 73,
     "topic": "special_sensory_eyeball",
     "question_text": "상지의 무의식적인 proprioception에 관여하는 구조는?",
-    "choices": [],
+    "choices": [
+      "1) Anterior spinocerebellar tract (전척수소뇌로)",
+      "2) Posterior spinocerebellar tract (후척수소뇌로)",
+      "3) Cuneocerebellar tract (설상소뇌로)",
+      "4) Rostral spinocerebellar tract",
+      "5) Inferior cerebellar peduncle (하소뇌각)"
+    ],
     "answer": 5,
     "explanation": "상지의 무의식적 proprioception에 관여하는 tract는 cuneocerebellar tract이며, 이것은하지의 무의식적 proprioception에 관여하는 Post. Spinocerebellar tract와 함께 Inf.\nCerebellar peduncle을 통해 cerebellum으로 갑니다. 따라서 답은 5번.\n(Rostral spinocerebellar tract은 목의, Ant. Spinocerebellar tract는 trunk의 무의식적 proprioception에 관여합니다. Clarke nucleus는 하지의 고유감각에 관여하는, dorsal Spinocerebellar tract의 시작점이라고 합니다.)",
     "original_topic": "Special sense"
@@ -5422,7 +5572,7 @@
       "5) pterygopalatine n."
     ],
     "answer": 4,
-    "explanation": "다섯 선지 모두 maxilary n. 유래인 것은 동일합니다. incisive에 분포한다는 부분으로 incisive foramen을통과하는 nasopalatine n.가 답임을 짐작할 수 있습니다.\n1. infraorbital n.의 분지로 incisive와 canine teeth에 분포는 하지만 sphenopalatine foramen이 아닌 infraorbital canal을 통과합니다.\n2. infraorbital n.의 분지로 premolar에 분포합니다.\n3. maxillary n.의 trunk에서 분지되며 molar teeth에 분포합니다.\n4. pterygopalatine ggl.의 분지로 long sphenopalatine n.이라고도 한다. sphenopalatine foramen을 통해 nasalcavity로 들어와 incisive와 canine teeth에 분포합니다. 정답.\n5. soft palate와 비강 점막에 분포합니다.",
+    "explanation": "다섯 선지 모두 maxilary n. 유래인 것은 동일합니다. incisive에 분포한다는 부분으로 incisive foramen을통과하는 nasopalatine n.가 답임을 짐작할 수 있습니다.\n1. infraorbital n.의 분지로 incisive와 canine teeth에 분포는 하지만 sphenopalatine foramen이 아닌 infraorbital canal을 통과합니다.\n[해설분리-수정됨]",
     "original_topic": "Head"
   },
   {
@@ -5455,7 +5605,7 @@
       "4) middle meningeal a"
     ],
     "answer": 2,
-    "explanation": "골학때 외운 거죠? foramen rotundum에는 CN V2가 지납니다. (로턴덤 5252)\n1. V1은 meningeal br.를 분지하지 않습니다.\n2. meningeal br. of V2는 middle meningeal nerve라고 하며 maxillary n.이 trigeminal ggl.에서 나와 foramenrotundum을 통과하기 전에 분지되며 foramen rotundum, foramen spinosum을 통과합니다.\n3 4. meninggeal br of V3와 middle meningeal a.는 함께 foramen spinosum을 통과합니다.",
+    "explanation": "골학때 외운 거죠? foramen rotundum에는 CN V2가 지납니다. (로턴덤 5252)\n[해설분리-수정됨]",
     "original_topic": "Head"
   },
   {
@@ -5472,7 +5622,7 @@
       "5) ethmoidal n"
     ],
     "answer": 1,
-    "explanation": "component의 의미가 어떤 것인지 애매하지만 구성성분으로 보든, origin으로 보든 답은 같습니다.\n1. zygomatic n.은 V2의 분지로 감각겅분과 lacrimal n.(V1)에 부교감 신경절 이후 섬유를 주는 부교감 성분으로구성됩니다.\n2 3. frontal n. (V1)의 분지로 감각성분입니다.\n4 5. nasociliary n. (V1)의 분지로 감각성분입니다.\n그러므로 정답은 1번",
+    "explanation": "component의 의미가 어떤 것인지 애매하지만 구성성분으로 보든, origin으로 보든 답은 같습니다.\n[해설분리-수정됨]",
     "original_topic": "Head"
   },
   {
@@ -5488,7 +5638,7 @@
       "4) lesser palatine n."
     ],
     "answer": 3,
-    "explanation": "우선 pharyngeal br.와 같이 주행하고 nasopharynx 점막에 연접하므로 pharyngeal이 들어가는 신경 중하나가 답임을 짐작할 수 있습니다. 코쪽이므로 maxillary n.의 분지가 도달할 것임도 짐작 가능합니다.\n1) 운동신경으로 pharyngeal plexus를 형성하여 인두 근육과 점막에 분포합니다.\n2) pterygopalatine ggl.의 분지로 greater palatine canal을 통과하여 hard palte의 gl.와 점막에 분포합니다.\n3) maxillary n.의 pterygopalatine n. 분지로 maxillary a.의 pharyngeal br.와 함께 palatovaginal canal을 통과하여 nasopharynx의 점막에 분포합니다. 정답\n4) maxillary n.의 분지로 lesser palatine foramen을 통과하여 soft palate, tonsil, uvula에 분포합니다.\n5) mandibular n.의 분지로 lat. pterygoid m. 뒤로 가서 아랫니에 분포합니다.",
+    "explanation": "우선 pharyngeal br.와 같이 주행하고 nasopharynx 점막에 연접하므로 pharyngeal이 들어가는 신경 중하나가 답임을 짐작할 수 있습니다. 코쪽이므로 maxillary n.의 분지가 도달할 것임도 짐작 가능합니다.\n1) 운동신경으로 pharyngeal plexus를 형성하여 인두 근육과 점막에 분포합니다.\n[해설분리-수정됨]",
     "original_topic": "Head"
   },
   {
@@ -5505,7 +5655,7 @@
       "5) Post. Auricular n."
     ],
     "answer": 3,
-    "explanation": "GVE란 심장근, 내장근, gland 등에 분포하는 자율신경을 말합니다.\n1. facial n.의 분지로 부교감 연접 이전 신경이지만 geniculate ggl.에서 나와 deep petrosal n.과 함께 vidian n.\n을 형성하여 pterygopalatine ggl.로 주행하기 때문에 오답.\n2. 교감신경입니다.\n3. tympanic n.의 종말가지로 GVE(부교감)이고, otic ggl.로 주행합니다. otic ggl.은 auriculotemporal n.으로 parotid gl.에서 그친다는 ppt의 설명에 따라 가장 정답이라고 볼 수 있습니다. 정답.\n4. N. to pterygoid canal (=vidian n.) = greater petrosal n. + deep petrosal n.\n5. facial n.의 분지로, 운동신경이고 mastoid process 앞을 지나 auricularis posterior m.에 분포한다. 옆통수에서위로 올라간다는 점이 auriculotemporal n.과 비슷하게 주행한다고 볼 수도 있지만 GVE가 아닙니다.",
+    "explanation": "GVE란 심장근, 내장근, gland 등에 분포하는 자율신경을 말합니다.\n[해설분리-수정됨]",
     "original_topic": "Head"
   },
   {
@@ -5531,7 +5681,13 @@
     "question_num": 8,
     "topic": "head_3",
     "question_text": "Frontal n.의 가지로 Frontal sinus 의 점막, 이마의 피부를 지배하는 신경은?",
-    "choices": [],
+    "choices": [
+      "1) Supratrochlear n.",
+      "2) Supraorbital n.",
+      "3) Lacrimal n.",
+      "4) Nasociliary n.",
+      "5) Infraorbital n."
+    ],
     "answer": 2,
     "explanation": "frontal n.의 분지는 supratrochlear n., supraorbital n. 두 가지 뿐입니다.\n1. 이마와 upper eyelid에 분포하는 감각신경입니다.\n2. 이마와 upper eyelid와, 결막과 frontal sinus의 점막에 분포하는 감각신경입니다. 정답.\n3 4 5. 는 frontal n.의 가지가 아닙니다.\n제가 잠깐 답을 의심했었는데 2번 맞습니다.",
     "original_topic": "Head"
@@ -5550,7 +5706,7 @@
       "5) mental n."
     ],
     "answer": 4,
-    "explanation": "각 신경들이 분포하는 위치를 생각하면 buccal n.가 답임을 짐작할 수 있습니다.\n1) facial n.의 분지인 zygomatic br.와 교통하기는 하지만 orbicularis oculi m.을 뚫고, 저작근에 분지를 내지 않습니다.\n2) facial n.과 교통하지만 temporal fossa에 분포하고, 저작근에 분지를 내지 않습니다.\n3) pterygopalatine ggl.을 경유해 facial n.과 교통하지만, soft palate와 비강 점막에 분포합니다.\n4) masseter m. 아래에서 facial n.의 buccal br.와 교통하고 lat. pterygoid m.을 뚫고 나와 mandible ramus와 massetor m.에 분지를 냅니다. 정답.\n5) facial n.과 교통하지만, 턱과 아랫 입술에 분포하는 감각신경입니다.",
+    "explanation": "각 신경들이 분포하는 위치를 생각하면 buccal n.가 답임을 짐작할 수 있습니다.\n[해설분리-수정됨]",
     "original_topic": "Head"
   },
   {
@@ -6149,9 +6305,15 @@
     "question_num": 46,
     "topic": "motor_pathway",
     "question_text": "한쪽 다리에서 심한 불수의적 수축을 동반한 이상 운동증상이 관찰되었다. 손상된 구조로 가능성이 가장 높은 것은?",
-    "choices": [],
+    "choices": [
+      "1) Substantia nigra (흑질)",
+      "2) Putamen (조가비핵)",
+      "3) Caudate nucleus (꼬리핵)",
+      "4) Globus pallidus (창백핵)",
+      "5) Subthalamic nucleus (시상밑핵)"
+    ],
     "answer": 5,
-    "explanation": "수업시간에 영상 보신 것 기억나시나요? 의자에 앉아있는 남성이 춤추듯이 한쪽 팔과 다리를 이상하게수축시키며 높게 들었다가 내리는 동작을 반복했었습니다. Hemiballism의 증상입니다.\nbasal ganglia 변병증상 중에 하나로, 다리가 계속 수축해 있는 것으로 보아 환자의 운동 pathway가 상시 Turn-on상태임을 알 수 있습니다. Hemiballism은 subthalamic nucleus에 손상이 일어나 turn off를 못 시켜줄때 발생하므로, 답은 5번.\n야마 설명입니다.\n1 Parkinsonism : Substantia nigra의 손상\n→ 도파민의 중추인 SN이 파괴되면서 Glutamate에 의한 신호가 striatum으로 왔을 때, 양쪽 pathway가 다영향을 받게 됩니다. 운동의 증폭이 일어나야 하는데 그것도 안 되고, on/off가 반복되면서 떨림이 나타납니다.\n2 Chorea : Putamen → GPe 로의 억제 회로의 손상 → 이 경우, striatum에서 GPe로의 회로는 손상이 되지만 GPi로의 회로는 유지가 됩니다. 결과적으로 turn on이 계속 activation 되면서 큰 움직임을 보이게 됩니다.\n3 Hemiballism : Subthalamic nucleus의 손상→ STN이 관여하는 indirect pathway가 망가짐으로써 direct pathway가 계속되고, off 없이 항상 on 상태를 유지합니다. 입니다. 몸 한 쪽에서만 일어나므로 “hemi\"가들어갑니다!\n(47-52) 아래 그림이 보기입니다.\n47. 하지의 two point discrimination 문제가 있을 때 다음 중 손상된 부위는?\n답 : 2번유형 : 짤기",
+    "explanation": "수업시간에 영상 보신 것 기억나시나요? 의자에 앉아있는 남성이 춤추듯이 한쪽 팔과 다리를 이상하게수축시키며 높게 들었다가 내리는 동작을 반복했었습니다. Hemiballism의 증상입니다.\nbasal ganglia 변병증상 중에 하나로, 다리가 계속 수축해 있는 것으로 보아 환자의 운동 pathway가 상시 Turn-on상태임을 알 수 있습니다. Hemiballism은 subthalamic nucleus에 손상이 일어나 turn off를 못 시켜줄때 발생하므로, 답은 5번.\n야마 설명입니다.\n1 Parkinsonism : Substantia nigra의 손상\n→ 도파민의 중추인 SN이 파괴되면서 Glutamate에 의한 신호가 striatum으로 왔을 때, 양쪽 pathway가 다영향을 받게 됩니다. 운동의 증폭이 일어나야 하는데 그것도 안 되고, on/off가 반복되면서 떨림이 나타납니다.\n2 Chorea : Putamen → GPe 로의 억제 회로의 손상 → 이 경우, striatum에서 GPe로의 회로는 손상이 되지만 GPi로의 회로는 유지가 됩니다. 결과적으로 turn on이 계속 activation 되면서 큰 움직임을 보이게 됩니다.\n3 Hemiballism : Subthalamic nucleus의 손상→ STN이 관여하는 indirect pathway가 망가짐으로써 direct pathway가 계속되고, off 없이 항상 on 상태를 유지합니다. 입니다. 몸 한 쪽에서만 일어나므로 “hemi\"가들어갑니다!\n(47-52) 아래 그림이 보기입니다.\n[해설분리-수정됨]",
     "original_topic": "General motor"
   },
   {
@@ -6160,9 +6322,15 @@
     "question_num": 47,
     "topic": "sensory_system",
     "question_text": "하지의 two point discrimination 문제가 있을 때 다음 중 손상된 부위는?",
-    "choices": [],
+    "choices": [
+      "1) Fasciculus gracilis (박속)",
+      "2) Fasciculus cuneatus (설상속)",
+      "3) Lateral corticospinal tract (외측피질척수로)",
+      "4) Vestibulospinal tract (전정척수로)",
+      "5) Anterior corticospinal tract (전피질척수로) / Reticulospinal tract (망상체척수로) / Tectospinal tract (덮개척수로)"
+    ],
     "answer": 2,
-    "explanation": "다리의 두점식별은 fasciculus gracilis인 2번을 지나갑니다.\n48. 검사 결과, 몸통과 사지의 운동은 불가능하였고, 빛자극에 의한 안구운동은 가능하였다. 어느 부분의 손상일까?\n답 : 5번유형 : 짤기",
+    "explanation": "다리의 두점식별은 fasciculus gracilis인 2번을 지나갑니다.\n[해설분리-수정됨]",
     "original_topic": "General sense"
   },
   {
@@ -6171,9 +6339,15 @@
     "question_num": 48,
     "topic": "motor_pathway",
     "question_text": "검사 결과, 몸통과 사지의 운동은 불가능하였고, 빛자극에 의한 안구운동은 가능하였다. 어느 부분의 손상일까?",
-    "choices": [],
+    "choices": [
+      "1) Fasciculus gracilis (박속)",
+      "2) Fasciculus cuneatus (설상속)",
+      "3) Lateral corticospinal tract (외측피질척수로)",
+      "4) Vestibulospinal tract (전정척수로)",
+      "5) Anterior corticospinal tract (전피질척수로) / Reticulospinal tract (망상체척수로) / Tectospinal tract (덮개척수로)"
+    ],
     "answer": 5,
-    "explanation": "몸통과 상지 근육을 조절하고 걷거나 뛸 때 자세 유지에 관여하는 신경로는 ant. corticospinal tract입니다. 빛자극에 의한 안구운동이 가능한 이유는 눈으로 가는 교감신경이 손상되지 않았기 때문입니다. lat. corticospinal tract 손상 시 교감 신경 손상도 동반될 가능성이 있기 때문에 답은 ant.이고 5번\n49. 검사결과 몸통과 양쪽 다리의 근력이 감소되었다. 손상 가능성이 있는 곳은?\n답 : 5번유형 : 짤기",
+    "explanation": "몸통과 상지 근육을 조절하고 걷거나 뛸 때 자세 유지에 관여하는 신경로는 ant. corticospinal tract입니다. 빛자극에 의한 안구운동이 가능한 이유는 눈으로 가는 교감신경이 손상되지 않았기 때문입니다. lat. corticospinal tract 손상 시 교감 신경 손상도 동반될 가능성이 있기 때문에 답은 ant.이고 5번\n[해설분리-수정됨]",
     "original_topic": "General motor"
   },
   {
@@ -6182,9 +6356,15 @@
     "question_num": 49,
     "topic": "motor_pathway",
     "question_text": "검사결과 몸통과 양쪽 다리의 근력이 감소되었다. 손상 가능성이 있는 곳은?",
-    "choices": [],
+    "choices": [
+      "1) Fasciculus gracilis (박속)",
+      "2) Fasciculus cuneatus (설상속)",
+      "3) Lateral corticospinal tract (외측피질척수로)",
+      "4) Vestibulospinal tract (전정척수로)",
+      "5) Anterior corticospinal tract (전피질척수로) / Reticulospinal tract (망상체척수로) / Tectospinal tract (덮개척수로)"
+    ],
     "answer": 5,
-    "explanation": "몸통과 양쪽 다리의 근력이 감소하였으므로 몸통과 사지의 근긴장도를 조절하는 reticulospinal tract이 손상되었다고 볼 수 있습니다. reticulospinal tract은 5번 부위를 지납니다.\n50. 자리에 앉는 것을 어려워하고 균형을 잡기 힘들어했다. 이때 다음 중 손상 가능성이 가장 높은부위는?\n답 : 5번유형 : 짤기",
+    "explanation": "몸통과 양쪽 다리의 근력이 감소하였으므로 몸통과 사지의 근긴장도를 조절하는 reticulospinal tract이 손상되었다고 볼 수 있습니다. reticulospinal tract은 5번 부위를 지납니다.\n[해설분리-수정됨]",
     "original_topic": "General motor"
   },
   {
@@ -6193,9 +6373,15 @@
     "question_num": 50,
     "topic": "motor_pathway",
     "question_text": "자리에 앉는 것을 어려워하고 균형을 잡기 힘들어했다. 이때 다음 중 손상 가능성이 가장 높은부위는?",
-    "choices": [],
+    "choices": [
+      "1) Fasciculus gracilis (박속)",
+      "2) Fasciculus cuneatus (설상속)",
+      "3) Lateral corticospinal tract (외측피질척수로)",
+      "4) Vestibulospinal tract (전정척수로)",
+      "5) Anterior corticospinal tract (전피질척수로) / Reticulospinal tract (망상체척수로) / Tectospinal tract (덮개척수로)"
+    ],
     "answer": 5,
-    "explanation": "균형을 잡기 힘들어했으므로 전정기관에서 수용되는 평형 감각을 받아 몸의 균형을 유지하는 vestibulospinal tract이 손상되었습니다. vestibulospinal tract은 5번 부위를 지납니다.\n51. 오른쪽 다리의 고유감각 이상. 손상된 가능성이 높은 부분은?\n답 : 2번유형 : 짤기",
+    "explanation": "균형을 잡기 힘들어했으므로 전정기관에서 수용되는 평형 감각을 받아 몸의 균형을 유지하는 vestibulospinal tract이 손상되었습니다. vestibulospinal tract은 5번 부위를 지납니다.\n[해설분리-수정됨]",
     "original_topic": "General motor"
   },
   {
@@ -6204,7 +6390,13 @@
     "question_num": 51,
     "topic": "sensory_system",
     "question_text": "오른쪽 다리의 고유감각 이상. 손상된 가능성이 높은 부분은?",
-    "choices": [],
+    "choices": [
+      "1) Fasciculus gracilis (박속)",
+      "2) Fasciculus cuneatus (설상속)",
+      "3) Lateral corticospinal tract (외측피질척수로)",
+      "4) Vestibulospinal tract (전정척수로)",
+      "5) Anterior corticospinal tract (전피질척수로) / Reticulospinal tract (망상체척수로) / Tectospinal tract (덮개척수로)"
+    ],
     "answer": 2,
     "explanation": "다리의 의식적인 고유감각 이상은 2번 gracilis fasciculus 부위를 지납니다.",
     "original_topic": "General sense"
@@ -6331,7 +6523,13 @@
     "question_num": 59,
     "topic": "cns_gross_1",
     "question_text": "이상 있는 부위와 증상으로 알맞은 것은?\n(1) vermis - 평형 감각 마비\n(2) uncus - 동측 사지 마비\n(3) hippocampus - 기억력 감소\n(4) amygdala - 정서장애\n(5) sup. Colliculus - 시각 몸통 조화 소실",
-    "choices": [],
+    "choices": [
+      "1) vermis - 평형 감각 마비",
+      "2) uncus - 동공 산대 마비",
+      "3) hippocampus - 기억 장애",
+      "4) amygdala - 공포반응",
+      "5) sup. colliculus - 시각 정보 변화 소실"
+    ],
     "answer": 2,
     "explanation": "special sense ppt의 case 사례로 나온 부분입니다. gross anatomy에서 uncus가 쉽게 brain hernia가 발생하는 부위라고 배웠었죠? uncal herniation이 나타나면 중뇌가 압박되어 CN 3 장애가 나타나고, brainstem이밀려서 cerebral peduncle이 눌립니다. 여기에 descending corticospinal tract이 위치하고 hemiparesis가 나타납니다. 왼쪽 herniation으로 오른쪽 peduncle 손상, 왼쪽 사지 마비가 나타납니다.",
     "original_topic": "Gross anatomy"
@@ -6367,7 +6565,7 @@
       "5) ATN"
     ],
     "answer": 2,
-    "explanation": "1. 청각 관련 2. 시각 3. 기억, 고통 4. 몸 감각 5. limbic system 응시장애이므로 2번 pulvinar가 정답\n62. 오른쪽 상위 medulla에 손상이 생긴 환자에게서 나타날 증상으로 가장 적절한 것은?\n1. 오른쪽 몸통의 감각 소실\n2. 왼쪽 몸통의 감각 소실\n3. 오른쪽 몸통의 고유감각, 왼쪽 몸통의 통각 소실\n4. 오른쪽 몸통의 통각 소실, 왼쪽 몸통의 고유감각 소실\n5. 통각보존을 동반한 왼쪽 몸통의 감별감각 소실답 : 2번유형 : 짤기",
+    "explanation": "1. 청각 관련 2. 시각 3. 기억, 고통 4. 몸 감각 5. limbic system 응시장애이므로 2번 pulvinar가 정답\n[해설분리-수정됨]",
     "original_topic": "Special sense"
   },
   {
@@ -6644,7 +6842,7 @@
       "5) pterygopalatine n."
     ],
     "answer": 4,
-    "explanation": "다섯 선지 모두 maxillary n. 유래인 것은 동일합니다. 골땡 준비를 하면서 nasopalatine n.의 위치를 대략보셨던 분들이라면, 신경이 Incisive에 분포한다는 것에서 힌트를 얻어 incisive foramen을 통과하는 nasopalatine n.가 답임을 짐작할 수 있습니다.\n1. Infraorbital n.의 분지로 incisive와 canine teeth에 분포는 하지만 sphenopalatine foramen이 아닌 infraorbital canal을 통과합니다.\n해설\n2. Infraorbital n.의 분지로 premolar에 분포합니다.\n3. Maxillary n.의 trunk에서 분지되며 molar teeth에 분포합니다.\n4. Pterygopalatine ggl.의 분지로 long sphenopalatine n.이라고도 합니다. Sphenopalatine foramen을통해 nasal cavity로 들어와 incisive와 canine teeth에 분포합니다. 정답.\n5. Soft palate와 비강 점막에 분포합니다.",
+    "explanation": "다섯 선지 모두 maxillary n. 유래인 것은 동일합니다. 골땡 준비를 하면서 nasopalatine n.의 위치를 대략보셨던 분들이라면, 신경이 Incisive에 분포한다는 것에서 힌트를 얻어 incisive foramen을 통과하는 nasopalatine n.가 답임을 짐작할 수 있습니다.\n1. Infraorbital n.의 분지로 incisive와 canine teeth에 분포는 하지만 sphenopalatine foramen이 아닌 infraorbital canal을 통과합니다.\n해설\n[해설분리-수정됨]",
     "original_topic": "Head"
   },
   {
@@ -6677,7 +6875,7 @@
       "4) middle meningeal a"
     ],
     "answer": 2,
-    "explanation": "골학때 외운 거죠? Foramen rotundum에는 CN V2가 지납니다. (로턴덤 오이오이~)\n1. V1은 meningeal br.를 분지하지 않습니다.\n해설 2. Meningeal br. of V2는 middle meningeal nerve라고 하며 maxillary n.이 trigeminal ggl.에서 나와 foramen rotundum을 통과하기 전에 분지되며 foramen rotundum, foramen spinosum을 통과합니다.\n3 4. Meningeal br. of V3와 middle meningeal a.는 함께 foramen spinosum을 통과합니다.",
+    "explanation": "골학때 외운 거죠? Foramen rotundum에는 CN V2가 지납니다. (로턴덤 오이오이~)\n[해설분리-수정됨]",
     "original_topic": "Head"
   },
   {
@@ -6711,7 +6909,7 @@
       "5) Post. auricular n."
     ],
     "answer": 3,
-    "explanation": "GVE란 심장근, 내장근, gland 등에 분포하는 자율신경을 말합니다. (General Visceral Efferent)\n1. Facial n.의 분지로 부교감 연접 이전 신경이지만 geniculate ggl.에서 나와 deep petrosal n.과 함께 vidian n.을 형성하여 pterygopalatine ggl.로 주행하기 때문에 오답입니다.\n2. 교감신경입니다.\n3. Tympanic n.의 종말가지로 GVE(부교감)이고, otic ggl.로 주행합니다. otic ggl.은 auriculotemporal 해설 n.으로 parotid gl.에서 그친다는 ppt의 설명에 따라 가장 정답이라고 볼 수 있습니다. 정답.\n4. N. to pterygoid canal (=vidian n.) = greater petrosal n. + deep petrosal n.\n5. facial n.의 분지로, 운동신경이고 mastoid process 앞을 지나 auricularis posterior m.에 분포합니다.\n옆통수에서 위로 올라간다는 점이 auriculotemporal n.과 비슷하게 주행한다고 볼 수도 있지만 GVE가아닙니다.",
+    "explanation": "GVE란 심장근, 내장근, gland 등에 분포하는 자율신경을 말합니다. (General Visceral Efferent)\n[해설분리-수정됨]",
     "original_topic": "Head"
   },
   {
@@ -7388,7 +7586,7 @@
       "5) Subthalamus"
     ],
     "answer": 5,
-    "explanation": "수업시간에 영상 보신 것 기억나시나요? 의자에 앉아있는 남성이 춤추듯이 한쪽 팔과 다리를 이상하게수축시키며 높게 들었다가 내리는 동작을 반복했었습니다. Hemiballism의 증상입니다.\n이는 Basal ganglia 변병증상 중에 하나로, 다리가 계속 수축해 있는 것으로 보아 환자의 운동 pathway가상시 Turn-on상태임을 알 수 있습니다. Hemiballism은 subthalamic nucleus에 손상이 일어나 turnoff를 못 시켜줄 때 발생하므로, 답은 5번입니다.\n아래는 야마 설명입니다.\n1 Parkinsonism : Substantia nigra의 손상해설\n→ 도파민의 중추인 SN이 파괴되면서 Glutamate에 의한 신호가 striatum으로 왔을 때, 양쪽 pathway가다 영향을 받게 됩니다. 운동의 증폭이 일어나야 하는데 그것도 안 되고, on/off가 반복되면서 떨림이나타납니다.\n2 Chorea : Putamen → GPe 로의 억제 회로의 손상 → 이 경우, striatum에서 GPe로의 회로는 손상이되지만 GPi로의 회로는 유지가 됩니다. 결과적으로 turn on이 계속 activation 되면서 큰 움직임을 보이게됩니다.\n3 Hemiballism : Subthalamic nucleus의 손상→ STN이 관여하는 indirect pathway가 망가짐으로써 direct pathway가 계속되고, off 없이 항상 on 상태를 유지합니다. 입니다. 몸 한 쪽에서만 일어나므로 “hemi\"가들어갑니다!\n[47~52] 다음 그림에 대한 물음에 답하시오.\n47. 하지의 two point discrimination문제가 있을 때 다음 중 손상된 부위는?",
+    "explanation": "수업시간에 영상 보신 것 기억나시나요? 의자에 앉아있는 남성이 춤추듯이 한쪽 팔과 다리를 이상하게수축시키며 높게 들었다가 내리는 동작을 반복했었습니다. Hemiballism의 증상입니다.\n이는 Basal ganglia 변병증상 중에 하나로, 다리가 계속 수축해 있는 것으로 보아 환자의 운동 pathway가상시 Turn-on상태임을 알 수 있습니다. Hemiballism은 subthalamic nucleus에 손상이 일어나 turnoff를 못 시켜줄 때 발생하므로, 답은 5번입니다.\n아래는 야마 설명입니다.\n1 Parkinsonism : Substantia nigra의 손상해설\n→ 도파민의 중추인 SN이 파괴되면서 Glutamate에 의한 신호가 striatum으로 왔을 때, 양쪽 pathway가다 영향을 받게 됩니다. 운동의 증폭이 일어나야 하는데 그것도 안 되고, on/off가 반복되면서 떨림이나타납니다.\n2 Chorea : Putamen → GPe 로의 억제 회로의 손상 → 이 경우, striatum에서 GPe로의 회로는 손상이되지만 GPi로의 회로는 유지가 됩니다. 결과적으로 turn on이 계속 activation 되면서 큰 움직임을 보이게됩니다.\n3 Hemiballism : Subthalamic nucleus의 손상→ STN이 관여하는 indirect pathway가 망가짐으로써 direct pathway가 계속되고, off 없이 항상 on 상태를 유지합니다. 입니다. 몸 한 쪽에서만 일어나므로 “hemi\"가들어갑니다!\n[47~52] 다음 그림에 대한 물음에 답하시오.\n[해설분리-수정됨]",
     "original_topic": "General motor"
   },
   {
@@ -7397,9 +7595,15 @@
     "question_num": 47,
     "topic": "sensory_system",
     "question_text": "하지의 two point discrimination문제가 있을 때 다음 중 손상된 부위는?",
-    "choices": [],
+    "choices": [
+      "1) Fasciculus gracilis (박속)",
+      "2) Fasciculus cuneatus (설상속)",
+      "3) Lateral corticospinal tract (외측피질척수로)",
+      "4) Vestibulospinal tract (전정척수로)",
+      "5) Anterior corticospinal tract (전피질척수로) / Reticulospinal tract (망상체척수로) / Tectospinal tract (덮개척수로)"
+    ],
     "answer": 2,
-    "explanation": "다리의 두점식별은 fasciculus gracilis인 2번을 지나갑니다.\n해설\n48. 검사 결과, 몸통과 사지의 운동은 불가능하였고, 빛자극에 의한 안구운동은 가능하였다. 어느 부분의손상일까?",
+    "explanation": "다리의 두점식별은 fasciculus gracilis인 2번을 지나갑니다.\n해설\n[해설분리-수정됨]",
     "original_topic": "General sense"
   },
   {
@@ -7408,9 +7612,15 @@
     "question_num": 48,
     "topic": "motor_pathway",
     "question_text": "검사 결과, 몸통과 사지의 운동은 불가능하였고, 빛자극에 의한 안구운동은 가능하였다. 어느 부분의손상일까?",
-    "choices": [],
+    "choices": [
+      "1) Fasciculus gracilis (박속)",
+      "2) Fasciculus cuneatus (설상속)",
+      "3) Lateral corticospinal tract (외측피질척수로)",
+      "4) Vestibulospinal tract (전정척수로)",
+      "5) Anterior corticospinal tract (전피질척수로) / Reticulospinal tract (망상체척수로) / Tectospinal tract (덮개척수로)"
+    ],
     "answer": 5,
-    "explanation": "몸통과 상지 근육을 조절하고 걷거나 뛸 때 자세 유지에 관여하는 신경로는 ant. corticospinal tract입니다.\n해설 빛자극에 의한 안구운동이 가능한 이유는 눈으로 가는 교감신경이 손상되지 않았기 때문입니다. 만약 Lat.\ncorticospinal tract 손상이면 교감 신경 손상도 동반될 가능성이 있기 때문에 답은 ant.입니다.\n49. 검사 결과, 몸통과 양쪽 다리의 근력이 감소되었다. 손상될 가능성이 가장 높은 부위는?",
+    "explanation": "몸통과 상지 근육을 조절하고 걷거나 뛸 때 자세 유지에 관여하는 신경로는 ant. corticospinal tract입니다.\n해설 빛자극에 의한 안구운동이 가능한 이유는 눈으로 가는 교감신경이 손상되지 않았기 때문입니다. 만약 Lat.\ncorticospinal tract 손상이면 교감 신경 손상도 동반될 가능성이 있기 때문에 답은 ant.입니다.\n[해설분리-수정됨]",
     "original_topic": "General motor"
   },
   {
@@ -7419,9 +7629,15 @@
     "question_num": 49,
     "topic": "motor_pathway",
     "question_text": "검사 결과, 몸통과 양쪽 다리의 근력이 감소되었다. 손상될 가능성이 가장 높은 부위는?",
-    "choices": [],
+    "choices": [
+      "1) Fasciculus gracilis (박속)",
+      "2) Fasciculus cuneatus (설상속)",
+      "3) Lateral corticospinal tract (외측피질척수로)",
+      "4) Vestibulospinal tract (전정척수로)",
+      "5) Anterior corticospinal tract (전피질척수로) / Reticulospinal tract (망상체척수로) / Tectospinal tract (덮개척수로)"
+    ],
     "answer": 5,
-    "explanation": "몸통과 양쪽 다리의 근력이 감소하였으므로 몸통과 사지의 근긴장도를 조절하는 reticulospinal tract이해설손상되었다고 볼 수 있습니다. reticulospinal tract은 5번 부위를 지납니다.\n50. 환자가 제대로 앉지 못하고 균형을 잡는 데 곤란함을 느꼈다. 손상될 가능성이 가장 높은 부위는?",
+    "explanation": "몸통과 양쪽 다리의 근력이 감소하였으므로 몸통과 사지의 근긴장도를 조절하는 reticulospinal tract이해설손상되었다고 볼 수 있습니다. reticulospinal tract은 5번 부위를 지납니다.\n[해설분리-수정됨]",
     "original_topic": "General motor"
   },
   {
@@ -7430,9 +7646,15 @@
     "question_num": 50,
     "topic": "motor_pathway",
     "question_text": "환자가 제대로 앉지 못하고 균형을 잡는 데 곤란함을 느꼈다. 손상될 가능성이 가장 높은 부위는?",
-    "choices": [],
+    "choices": [
+      "1) Fasciculus gracilis (박속)",
+      "2) Fasciculus cuneatus (설상속)",
+      "3) Lateral corticospinal tract (외측피질척수로)",
+      "4) Vestibulospinal tract (전정척수로)",
+      "5) Anterior corticospinal tract (전피질척수로) / Reticulospinal tract (망상체척수로) / Tectospinal tract (덮개척수로)"
+    ],
     "answer": 5,
-    "explanation": "균형을 잡기 힘들어했으므로 전정기관에서 수용되는 평형 감각을 받아 몸의 균형을 유지하는해설 vestibulospinal tract이 손상되었습니다. vestibulospinal tract은 5번 부위를 지납니다.\n51. 오른쪽 다리의 고유감각의 이상을 나타내었다. 손상되었을 가능성이 가장 높은 부위는?",
+    "explanation": "균형을 잡기 힘들어했으므로 전정기관에서 수용되는 평형 감각을 받아 몸의 균형을 유지하는해설 vestibulospinal tract이 손상되었습니다. vestibulospinal tract은 5번 부위를 지납니다.\n[해설분리-수정됨]",
     "original_topic": "General motor"
   },
   {
@@ -7441,7 +7663,13 @@
     "question_num": 51,
     "topic": "sensory_system",
     "question_text": "오른쪽 다리의 고유감각의 이상을 나타내었다. 손상되었을 가능성이 가장 높은 부위는?",
-    "choices": [],
+    "choices": [
+      "1) Fasciculus gracilis (박속)",
+      "2) Fasciculus cuneatus (설상속)",
+      "3) Lateral corticospinal tract (외측피질척수로)",
+      "4) Vestibulospinal tract (전정척수로)",
+      "5) Anterior corticospinal tract (전피질척수로) / Reticulospinal tract (망상체척수로) / Tectospinal tract (덮개척수로)"
+    ],
     "answer": 1,
     "explanation": "다리의 의식적인 고유감각 이상은 2번 gracilis fasciculus 부위를 지납니다.",
     "original_topic": "General sense"
@@ -7613,7 +7841,7 @@
       "5) ATN"
     ],
     "answer": 2,
-    "explanation": "1. 청각 관련 2. 시각 3. 기억, 고통 4. 몸 감각 5. limbic system 해설각각 위와 같이 연관되어 있습니다. 문제에서 물어본 것은 응시장애이므로 2번 pulvinar가 정답입니다.\n62. 오른쪽 상위 medulla에 손상이 생긴 환자에게서 나타날 증상으로 가장 적절한 것은?\n1. 오른쪽 몸통의 감각 소실\n2. 왼쪽 몸통의 감각 소실\n3. 오른쪽 몸통의 고유감각, 왼쪽 몸통의 통각 소실\n4. 오른쪽 몸통의 통각 소실, 왼쪽 몸통의 고유감각 소실\n5. 통각보존을 동반한 왼쪽 몸통의 감별감각 소실",
+    "explanation": "1. 청각 관련 2. 시각 3. 기억, 고통 4. 몸 감각 5. limbic system 해설각각 위와 같이 연관되어 있습니다. 문제에서 물어본 것은 응시장애이므로 2번 pulvinar가 정답입니다.\n[해설분리-수정됨]",
     "original_topic": "Special sense"
   },
   {
