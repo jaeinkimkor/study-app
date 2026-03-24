@@ -2617,7 +2617,7 @@ const QM = (function() {
   let touchStartX = 0;
   let touchStartY = 0;
   let answered = {}; // { questionId: chosenIndex }
-  let studyMode = false; // study mode: show answers immediately
+  let studyMode = true; // study mode: show answers immediately (default ON)
 
   const ENCOURAGE_CORRECT = ['잘했어요!', '완벽!', '정확해요!', '대단해요!', '맞았어요!', '훌륭해요!', '실력이 느는데요!'];
   const ENCOURAGE_WRONG = ['다음에 다시 도전!', '이 부분을 복습해봐요', '한 번 더 보면 기억날 거예요', '괜찮아요, 배우는 과정이에요'];
