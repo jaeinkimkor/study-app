@@ -147,8 +147,8 @@
       "4) long ciliary n. & sup. cervical gang.",
       "5) occulomotor n. & trochlear n. & abducent n."
     ],
-    "answer": 3,
-    "explanation": "정답: short ciliary n. & ciliary ganglion. 가까운 것은 잘 보이는데 먼 것이 잘 보인다는 것은 accommodation(조절) 장애입니다. 주의: 부교감신경 경로(ciliary ganglion -> short ciliary nerve)가 손상되면 ciliary muscle과 sphincter pupillae가 마비됩니다. 의학적으로 부교감신경 손상은 근거리 시력(accommodation)을 저해하며, 원거리 시력이 아닌 근거리 초점 조절이 불가능해집니다. 문제의 임상 시나리오('먼 것을 볼 수 없다')는 부교감신경 손상의 전형적 증상과 반대이므로, 문제 원문의 임상 상황 기술에 오류가 있을 수 있습니다. 정확한 의학적 사실: 부교감신경(short ciliary n. & ciliary ganglion) 손상 -> 근거리 시력 장애(accommodation 불가), 동공 수축 장애. [검증됨]",
+    "answer": 4,
+    "explanation": "[전수검증-수정됨] 정답: long ciliary n. & sup. cervical ganglion. 근거리는 잘 보이는데 원거리가 안 보인다는 것은 교감신경 경로 손상을 의미합니다. 원거리 시력에는 동공산대근(dilator pupillae)의 교감신경 작용이 필요합니다. 교감신경 경로: sup. cervical ganglion -> long ciliary n. -> dilator pupillae m. 이 경로가 손상되면 동공이 축소되어 원거리 시야가 불량해집니다. 부교감신경(short ciliary n. & ciliary ganglion) 손상 시에는 반대로 근거리 시력(accommodation) 장애가 발생합니다. (Ref: Snell's Clinical Neuroanatomy, Gray's Anatomy - sympathetic innervation of the eye)",
     "original_topic": "Head/Neck"
   },
   {
@@ -1250,8 +1250,8 @@
       "4) extrapyramidal tract의 일부이다.",
       "5) prefrontal cortex에서 섬유를 받는다."
     ],
-    "answer": 5,
-    "explanation": "DMN(dorsomedial nucleus of thalamus)은 prefrontal cortex와 양방향(reciprocal) 연결을 가집니다. 즉, amygdala -> DMN -> prefrontal cortex 방향뿐 아니라 prefrontal cortex -> DMN 방향의 섬유도 존재합니다. 따라서 선지 5 'prefrontal cortex에서 섬유를 받는다'는 실제로 맞는 진술입니다. DMN은 집행기능, 판단, 감정 처리와 관련되며, pyramidal tract가 아닌 extrapyramidal system과 관련됩니다. 이 문제의 정답 설정(5번이 틀린 것)에는 의학적 오류가 있을 수 있으므로 주의가 필요합니다. [검증됨]",
+    "answer": 4,
+    "explanation": "[전수검증-수정됨] 정답: 4번 (extrapyramidal tract의 일부이다 - 틀린 진술). DMN(dorsomedial nucleus of thalamus)은 변연계(limbic system)의 일부이며, amygdala 및 prefrontal cortex와 양방향(reciprocal) 연결을 가집니다. DMN은 집행기능, 판단, 감정 처리와 관련되며 extrapyramidal system(추체외로계)의 일부가 아닙니다. 추체외로계에 관여하는 시상핵은 VA/VL nucleus입니다. 선지 5번 'prefrontal cortex에서 섬유를 받는다'는 실제로 맞는 진술입니다. (Ref: Snell's Clinical Neuroanatomy - Thalamic nuclei)",
     "original_topic": "Unknown"
   },
   {
@@ -1827,8 +1827,8 @@
       "4) spinal trigeminal tract과 관련이 있다",
       "5) tympanic plexus를 형성한다."
     ],
-    "answer": 4,
-    "explanation": ", 5\n야짱⽈“답4번으로통일합니다”\n2015년까지 내려온 선지는 4번이 glossopharyngeal n.의 분지이다. 였는데 이번에 문제가바뀌었네요. 선지들이 살짝 의심스러워 Gally한테 물어봤는데 고맙게도 brs에서 비슷한문제를 찾아주었습니다.\n보시면 알겠지만 5번 선지가 아마 복기가 완전하지 않은 것 같네요... 5번선지가 단순히 tympanic plexus를 형성한다.가 아니라 ‘외이도 쪽에서 tympanic plexus를 형성한다.’여서틀린 선지가 되고 답은 4번이 것이 타당하다고 생각됩니다. 우선 위의 문제대로라면 5번도답이 되겠지요?\n1) tympanic n.은 CNⅨ(=glossopharyngeal n.)의 가지입니다.\n2) tympanic n.의 종말가지인 lesser petrosal n.은 otic ggl.에 가서 신경연접을 해서신경절이후 부교감 신경섬유를 내서 parotid gl.로 갑니다. 즉, tympanic n.은 신경절 이전부교감 신경이라고 볼 수 있습니다.\n3)lesser petrosal n.은 tympanic n.과 신경연접을 하는 것이 아니라 lesser petrosal n.은 tympanic n.의 종말가지입니다.\n4)음...이 선지 정말 당황스럽네요 . 파h트e에ad서 &뜬n금없ec이 k신 경해부 내용이나오다니요... spinal trigeminal tract는 오늘 general sensory pathway ppt에서 배운내용인데 야마도 아직 나오지 않았고 ppt에도 정확히 tympanic n.와 관련 있다고 써져 있는것도 아니여서 답을 내기가 애매하네요...\n제 생각엔 강교수님이 CN9의 GAG reflex 등을 spinal trigeminal tract가 담당한다고했는데, CN9 중에 tympanic n.의 sensory성분이 혀 뒤의 1/3과 pharynx의 윗부분을담당하므로 gag reflex와 연관이 있다고 볼 수 있어 답이 4번이 아닐까 합니다.\n(더 명확한 해설을 아시는 분은 연락주세요)\n5)위 brs대로 해설을 하자면 tympanic n.는 외이도가 아닌 middle ear의 med. wall에서 plexus를 형성합니다.\n\n사실 아틀라스 126쪽 참고해주세요",
+    "answer": 5,
+    "explanation": "[전수검증-수정됨] 정답: 5번 (tympanic plexus를 형성한다). Tympanic nerve는 CN IX(glossopharyngeal n.)의 분지로, middle ear의 medial wall(promontory)에서 tympanic plexus를 형성합니다. 선지별 분석: 1) tympanic n.은 facial n.이 아닌 glossopharyngeal n.(CN IX)의 분지 - 오답. 2) tympanic n.은 신경절 이전(preganglionic) 부교감 신경섬유를 포함 - 오답. 3) lesser petrosal n.은 tympanic n.의 종말가지이지, 별도로 신경연접하는 것이 아님 - 오답. 4) spinal trigeminal tract과의 직접적 관련은 불명확 - 오답. 5) tympanic plexus를 형성한다 - 정답. 원래 기출에서 '외이도 쪽에서'라는 수식어가 있었다면 오답이지만, 현재 선지 그대로라면 정답. (Ref: Gray's Anatomy - Tympanic nerve, Snell's Clinical Neuroanatomy)",
     "original_topic": "Head/Neck"
   },
   {
@@ -2524,7 +2524,7 @@
       "4) Rathke’s pouch은 뇌하수체의 adenohypophysis를 만드는 곳입니다."
     ],
     "answer": 5,
-    "explanation": "정답: thyroglossal duct가 사라지지 않고 남은 것. Thyroglossal cyst는 thyroid gland가 foramen cecum에서 정상 위치로 하강할 때 thyroglossal duct가 퇴화하지 않고 잔존하여 발생합니다. 목의 정중선(median line)에 위치하며 삼킬 때 상하로 움직이는 것이 특징입니다. Ectopic thyroid는 thyroid tissue 자체의 잔존, Rathke's pouch는 adenohypophysis 발생과 관련됩니다.",
+    "explanation": "[전수검증-수정됨] 데이터 오류: answer=5이나 선지가 4개만 존재합니다. 원본 PDF에서 5번 선지가 누락된 것으로 보입니다. 원래 문제는 thyroglossal cyst 관련 문제로, thyroglossal duct가 퇴화하지 않고 잔존하여 목의 정중선(median line)에 낭종이 발생하는 것입니다. 원본 확인 후 5번 선지 복원이 필요합니다. 기존 해설: Thyroglossal cyst는 thyroid gland가 foramen cecum에서 정상 위치로 하강할 때 thyroglossal duct가 퇴화하지 않고 잔존하여 발생합니다. 데이터 오류 - 원본 확인 필요.",
     "original_topic": "Unknown"
   },
   {
@@ -2532,7 +2532,7 @@
     "year": 2016,
     "question_num": 5,
     "topic": "dev_nervous_system",
-    "question_text": "Hyaloid a.는 출생 후에 viterous body, lens에 혈액 공급을 한다.\n이문제도 대대로 짤기인데다가 설명이 잘 되어 있어서 작년 기해를 그대로 옮깁니다.\n눈의 발생\n① forebrain의 lat. side에 optic groove가 형성되고, neural tube가 닫히면서 optic vesicle이형성됨. lens placode가 surface ectoderm이 두꺼워지는건 센스!\n② optic vesicle이 바깥쪽에서 invagination되면서 optic cup 형성!\n③ optic cup안쪽은 패여서 choroid fissure를 형성하는데 향후 hyaloid a.가 들어옴\n④ fissure가 닫히면서 가장 먼저 retina(신경성분을 먼저 만들고 바깥을 싸는 것을 나중에만듭니다) 형성. post. 4/5인 pars optica retinae -> 진짜 retina 형성. ant. 1/5인 parscaeca retinae는 iris의 안쪽부분이랑 ciliary body 형성\n⑤ 그래놓고 보니 iris는 optic cup에서 만들어짐. - 밖은 pigmented, 안은 non-pigmented이고, optic cup의 ectoderm 부분이 홍채의 근육들을 형성.\n⑥ lens는 발생 7주말에 primary lens fiber가 형성 -> 이후엔 secondary lens fiber가 형성\n⑦ choroid 김& scle생ra 도, cornea이도, 줄vit줄reous body도\n⑧ optic nerve는 optic stalk에서부터 생기는데 중간에 hyaloid a.가 존재하나 퇴화하고 central a. of retina만 남습니다.",
+    "question_text": "Hyaloid a.는 출생 후에 vitreous body, lens에 혈액 공급을 한다. (O/X)",
     "choices": [
       "1) lens는 외배엽이 두꺼워지면서 생",
       "2) sclera는 retina가 생기고 만들어",
@@ -2541,7 +2541,7 @@
       "5) hyaloid a.는 출생 이후에 퇴화됩"
     ],
     "answer": 4,
-    "explanation": "@이미 문제도 내놓으셨고 문제만 맞추라고 얘기를 하시며 수업을 하셔서 기출에없는데 얘기하신 eye부분의 내용이 있어 적습니다.\n슬라이드 43\ndevelopment of retina\n- 15 -\npars optica retinae : 뒤 4/5부분 rod/cone cell과 ganglion cellpars caeca retinae : 앞 1/5부분 iris와 ciliary body 슬라이드 47\nEye abnormality\n– congenital cataract : genetic factor or 풍진(rubella)-임신 4~7주에 의해 선천성 백내장\n– coloboma iridis : choroid fissure가 안 닫힘. iris 한쪽이 패임",
+    "explanation": "[전수검증-수정됨] 정답: X (틀린 진술). Hyaloid artery는 태아기(prenatal)에 vitreous body와 lens에 혈액을 공급하지만, 출생 후에는 퇴화(degenerate)합니다. Optic nerve의 optic stalk 내에 존재하던 hyaloid artery는 퇴화하고 central artery of retina만 남습니다. 눈의 발생 과정: forebrain lateral side에 optic groove -> optic vesicle -> optic cup 형성 -> choroid fissure를 통해 hyaloid a. 진입 -> fissure 닫히며 retina 형성 -> hyaloid a. 퇴화, central a. of retina 잔존. @이미 문제도 내놓으셨고 문제만 맞추라고 얘기를 하시며 수업을 하셔서 기출에없는데 얘기하신 eye부분의 내용이 있어 적습니다.\n슬라이드 43\ndevelopment of retina\n- 15 -\npars optica retinae : 뒤 4/5부분 rod/cone cell과 ganglion cellpars caeca retinae : 앞 1/5부분 iris와 ciliary body 슬라이드 47\nEye abnormality\n– congenital cataract : genetic factor or 풍진(rubella)-임신 4~7주에 의해 선천성 백내장\n– coloboma iridis : choroid fissure가 안 닫힘. iris 한쪽이 패임",
     "original_topic": "Unknown"
   },
   {
@@ -3972,8 +3972,8 @@
     "topic": "motor_pathway",
     "question_text": "상지의two point discrimination에 문제가 있을 때, 다음 중 손상된 부위는?",
     "choices": [],
-    "answer": 1,
-    "explanation": "밑에 문제들도 이 그림들을 통해서 어디가 어디인지 알고 풀어나가야 할 것입니다.\n이 문제는 상지의proprioception이니까 fasciculus gracilis가 맞아보입니다.\n그 외로도 문제에서의 부분과 우리가 배운 내용을 매칭시켜보자면:\n1번-fasciculus gracilis\n2번-fasciculus cuneatus\n3번-lateral corticospinal tract, spinocerebellar tract, rubrospinal tract\n4번-spinothalamic tract\n5번-anterior corticospinal tract, vestibulospinal tract, tectospinal tract 등으로 해석할 수 있어보입니다.\n7. 검사 결과, 머리와 몸통의 운동은 불가능하고, 빛 자극에 의한 안구운동은 가능했다. 어느 부분의손상일까?",
+    "answer": 2,
+    "explanation": "[전수검증-수정됨] 정답: 2번 (fasciculus cuneatus). 상지의 two-point discrimination(세밀촉각)은 후삭-내측섬유띠 경로(DCML pathway)를 통해 전달됩니다. Fasciculus gracilis는 T6 이하(하지, 하부 체간)의 고유감각/세밀촉각을, fasciculus cuneatus는 T6 이상(상지, 상부 체간)의 고유감각/세밀촉각을 담당합니다. 따라서 상지의 two-point discrimination 장애는 fasciculus cuneatus 손상을 의미합니다. 그림에서 2번 위치가 fasciculus cuneatus에 해당합니다. (Ref: Snell's Clinical Neuroanatomy - Posterior white column pathway)",
     "original_topic": "Unknown"
   },
   {
@@ -4178,16 +4178,16 @@
     "year": 2019,
     "question_num": 26,
     "topic": "head_1",
-    "question_text": "난청, 귀울림, 어지러움증, 비틀거림, 삼킴곤란, 오른쪽 얼굴 근육약화 및 감각소실, 각막반사 소실, 복시 등이 나타나는 환자에서 손상되었을 가능성이 가장 큰 구조는?\n1) lat. medulla\n2) med. medulla\n3) lat. pons\n4) med. pons\n5) cerebellopontine fiber 짤기) 정답 5번 BRS 175페이지 1번 문제입니다. 4년동안 나온 문제인데, 2번 -> 3번 -> 5번으로 답이 바뀌는 과정을 겪은 아주 험난한 문제입니다. cerebellum과 pons를 있는 섬유쪽에 문제가 생기면 이러한 증상들이 일어난다고 하네요. lat. medullary syndrome과 비슷하지만 난청과 귀울림이 동반된다는 점이 다릅니다. 제가 봤을 때 이 문제는 PPT 내용으로는 절대 풀 수 없습니다. 그러므로 그냥 이 문제는 답을 외우고 넘어가는게 좋습니다.",
+    "question_text": "난청, 귀울림, 어지러움증, 비틀거림, 삼킴곤란, 오른쪽 얼굴 근육약화 및 감각소실, 각막반사 소실, 복시 등이 나타나는 환자에서 손상되었을 가능성이 가장 큰 구조는?",
     "choices": [
-      "1) transverse facial a.",
-      "2) middle temporal a.",
-      "3) zygomaticoorbital br.",
-      "4) ant. articular br.",
-      "5) frontal br."
+      "1) lat. medulla",
+      "2) med. medulla",
+      "3) lat. pons",
+      "4) med. pons",
+      "5) cerebellopontine angle"
     ],
-    "answer": 1,
-    "explanation": "김지은 교수님 문제인 줄 알았는데 강태천 교수님 head파트 문제네요.\n그림 보시면 masseter m.과 parotid gl.\n쪽 (귀 밑에서 볼 사이)에 분포되어 있는 a.는 transverse facial a. 임을 알 수있습니다.\n(3번 선지는 그림에 안 나와 있는데 middle temporal artery의 분지로 zygomatic arch의 윗부분을 따라 눈 가쪽에 분포한다고 합니다.)\n\n(짤)57. 다 음분중 관지m 은로혈분a의x포i l하주la는r로y a.에 masticatory mm. ?",
+    "answer": 5,
+    "explanation": "[전수검증-수정됨] 데이터 오류 수정: 선지 배열이 다른 문제(superficial temporal a. 분지 관련)의 것으로 교체되어 있었습니다. 원래 문제의 선지를 question_text에서 복원했습니다. 정답은 5번(cerebellopontine angle). 난청, 귀울림, 어지러움, 비틀거림, 삼킴곤란, 안면근 약화, 감각소실, 각막반사 소실, 복시 등의 증상은 cerebellopontine angle에 위치한 종양(주로 vestibular schwannoma)이 CN V, VII, VIII 및 소뇌를 압박할 때 나타납니다. Lateral medullary syndrome과 유사하지만 난청/귀울림이 동반되는 점이 감별점입니다. (Ref: BRS Neuroanatomy p.175, Snell's Clinical Neuroanatomy)",
     "original_topic": "Head/Neck"
   },
   {
@@ -4677,8 +4677,8 @@
       "4) Pharyngeal arch 4 - intrinsic mussle of larynx",
       "5) Pharyngeal arch 6 - int. Laryngeal n"
     ],
-    "answer": 2,
-    "explanation": "이 문제의 정답은 2번(Pharyngeal arch 2 - stylopharyngeus m.)이 '틀린 짝짓기'를 찾는 문제라면 맞습니다. Stylopharyngeus m.은 3rd pharyngeal arch 유래(CN IX 지배)이며, 2nd arch 유래가 아닙니다. 2nd arch 유래 근육: muscles of facial expression, stapedius, stylohyoid, posterior belly of digastric. 3rd arch: stylopharyngeus. 4th arch: cricothyroid, levator veli palatini, pharyngeal constrictors. 6th arch: intrinsic laryngeal muscles(cricothyroid 제외). 선지 1(1st arch - masseter)은 올바른 짝짓기입니다. [검증됨]",
+    "answer": 1,
+    "explanation": "[전수검증-수정됨] 정답: 1번 (Pharyngeal arch 1 - masseter m.). '옳은 것'을 고르는 문제이므로 올바른 짝짓기를 선택해야 합니다. 1st pharyngeal arch에서 유래하는 근육: muscles of mastication(masseter, temporalis, medial/lateral pterygoid), mylohyoid, anterior belly of digastric, tensor tympani, tensor veli palatini. 선지 2번 stylopharyngeus m.은 3rd pharyngeal arch 유래(CN IX 지배)이므로 2nd arch와의 짝짓기는 틀림. 2nd arch 유래: muscles of facial expression, stapedius, stylohyoid, posterior belly of digastric. 4th arch: cricothyroid, levator veli palatini, pharyngeal constrictors. 6th arch: intrinsic laryngeal muscles (cricothyroid 제외). (Ref: Gray's Anatomy - Pharyngeal arch derivatives)",
     "original_topic": "Unknown"
   },
   {
@@ -4910,8 +4910,8 @@
       "3) Rt. CN 8",
       "4) Lt. CN 8"
     ],
-    "answer": 2,
-    "explanation": "Vertical diplopia (수직 복시) / CN4의 문제로 sup.oblique m.이 작용하지 않아 생기는 질병입니다. 그리고 고개가 기울어졌다는 것은 neck part의 사경(torticollis)입니다. 이는 문제가 있는 쪽으로 목이 기우는 것이지요. CN4번 마비 증상 중 환자는 마비된 눈의 반대쪽으로머리를 기울이게 되는 것이 있습니다. 그래서 1번! Torticollus보다는 복시 증상을 완화하려구고개를 기울입니다.",
+    "answer": 1,
+    "explanation": "[전수검증-수정됨] 정답: 1번 (Rt. CN 4). CN IV(trochlear nerve) 마비 시 superior oblique muscle이 작동하지 않아 수직 복시가 발생합니다. 환자는 복시를 보상하기 위해 마비된 눈의 반대쪽으로 고개를 기울입니다. 왼쪽으로 고개가 기울어졌으므로 -> 오른쪽 CN IV 마비. 갑상샘기능항진증(Graves' disease)에서는 안구돌출과 외안근 비대로 인한 복시가 흔합니다. CN VIII(vestibulocochlear n.)은 청각/평형과 관련되어 수직 복시와는 무관합니다. 기존 해설에서도 '1번!'이라 기술하면서 answer가 2로 설정된 데이터 오류였습니다. (Ref: Snell's Clinical Neuroanatomy - CN IV palsy, head tilt test)",
     "original_topic": "Unknown"
   },
   {
@@ -4922,7 +4922,7 @@
     "question_text": "다음 치아구조의 나이로 가장 적절한 것은?\n(완전히 일치하는 사진은 아님)",
     "choices": [],
     "answer": 4,
-    "explanation": "1) N은 coricovocal membrane입니다.\n2) G는 vocal process of arytenoid cartilage입니다.\n3) H는 hyiod bone이 잘린 단면입니다.\n4) M은 vocal ligament가 맞습니다.\n5) L은 vestibular ligament입니다.",
+    "explanation": "[전수검증-수정됨] 치아 구조를 보고 나이를 추정하는 문제입니다. 기존 해설은 후두(larynx) 구조물에 대한 내용으로, 이 문제(치아/나이 추정)와 무관한 다른 문제의 해설이 잘못 매칭되어 있었습니다. 치아 발생 및 맹출 시기: 유치(deciduous teeth)는 생후 6개월경부터 맹출을 시작하여 약 2-3세에 완성됩니다. 영구치(permanent teeth)는 약 6세부터 맹출을 시작하여 제3대구치(wisdom tooth)를 제외하면 약 12-13세에 완성됩니다. 사진에 제시된 치아 구조의 맹출 패턴과 마모 정도를 기준으로 나이를 판단해야 합니다. (Ref: 원본 PDF 확인 필요 - 치아 사진 기반 문제)",
     "original_topic": "Mouth/Nose/Ear/Pharynx/Larynx"
   },
   {
@@ -5157,7 +5157,7 @@
     "question_text": "Vestibular nucleus, 소뇌가 관여하는 안구운동은?",
     "choices": [],
     "answer": 1,
-    "explanation": "memory system 강의록에 있는 내용입니다.\nmamillary body:\n-The ends of the anterior arches of the fornix.\n-To relay a pulse from the amygdala and hippocampus to the ant. thalamic nucleusvia the mamillothalamic tract.\n-recollective memory (추억과 연관된 기억), spatial memory (공간기억)\n감수 by 분홍복숭아 edited by 장래희망김광훈보기로 제시된 구조들은 모두 limbic system에 관여하는 부위이지만 조금씩 기능이 다릅니다.\n2) parahippocampal gyrus: 상황인식조절. 정신분열증과 연관\n(문제에는 hippocampal gyrus라 명시되어있으나 검색해보니 같은 구조라고 합니다.)\n3) amygdala : limbic system 중 emotion 담당. 자극시 공포감, 과민성, 분노 유발.\n4) cingulate gyrus: 감정, 학습, 기억에 관여. 특히 동기 부여에 의한 행동에 관여. 우울증,\n정신분열증과 연관.\n5) nucleus accumbens : basal ganglia에 포함되며 limbic system에 관여 (쾌락 중추)",
+    "explanation": "[전수검증-수정됨] Vestibular nucleus와 소뇌가 관여하는 안구운동은 vestibulo-ocular reflex(VOR, 전정안반사)입니다. VOR은 머리가 움직일 때 안구를 반대 방향으로 움직여 시야를 안정시키는 반사입니다. 경로: vestibular organ -> vestibular nerve(CN VIII) -> vestibular nuclei -> MLF(medial longitudinal fasciculus) -> CN III, IV, VI nuclei -> extraocular muscles. 소뇌(특히 vestibulocerebellum = flocculonodular lobe)는 VOR의 gain을 조절하고 정확도를 유지합니다. 기존 해설은 mamillary body/limbic system에 대한 내용으로 이 문제와 무관했습니다. (Ref: Snell's Clinical Neuroanatomy - Vestibulo-ocular reflex, Gray's Anatomy - Vestibulocerebellum)",
     "original_topic": "Memory pathway"
   },
   {
@@ -5735,8 +5735,8 @@
       "4) hypoglossal n.",
       "5) glossopharyngeal n."
     ],
-    "answer": 3,
-    "explanation": "혀 앞 2/3부분에서 맛을 느끼게 하는 감각신경은 CN V3의 lingual n.입니다. 통증, 즉 general sense와운동은 각각 CN 9, 10이 담당합니다.",
+    "answer": 1,
+    "explanation": "[전수검증-수정됨] 정답: 1번 (facial n.). 혀 앞 2/3의 미각(taste)은 chorda tympani(CN VII, facial nerve의 분지)가 담당합니다. Chorda tympani는 lingual nerve(CN V3의 분지)를 타고 주행하지만, 미각 섬유 자체는 CN VII에 속합니다. Lingual nerve(CN V3)는 혀 앞 2/3의 일반감각(통증, 온도, 촉각)만 담당합니다. 문제에서 '통증은 정상'이라 했으므로 lingual nerve(V3)는 정상이고, 미각만 소실된 것이므로 facial nerve(chorda tympani) 손상입니다. CN IX(glossopharyngeal n.)는 혀 뒤 1/3의 미각을, CN XII(hypoglossal n.)는 혀 운동을 담당합니다. (Ref: Gray's Anatomy - Innervation of the tongue, Snell's Clinical Neuroanatomy)",
     "original_topic": "Mouth/Nose/Ear/Pharynx/Larynx"
   },
   {
