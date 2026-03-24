@@ -2764,7 +2764,12 @@ const QM = (function() {
       result = result.filter(q => wa[q.id]);
     }
 
-    if (isShuffled) result = shuffleArray(result);
+    // 최신 연도 먼저 정렬 (셔플 아닐 때)
+    if (isShuffled) {
+      result = shuffleArray(result);
+    } else {
+      result = result.slice().sort((a, b) => b.year - a.year || a.question_num - b.question_num);
+    }
 
     filteredQuestions = result;
     currentIndex = 0;
