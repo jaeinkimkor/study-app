@@ -1,0 +1,2735 @@
+{
+  "metadata": {
+    "created": "2026-03-24",
+    "description": "Cross-verification of neuroanatomy specimen labels from PDF atlas, image_labels.json, and muscle image data",
+    "sources": {
+      "pdf": "신경해부학 도판 모음.pdf (16 pages, 31 specimens)",
+      "image_labels": "anatomy4/data/image_labels.json",
+      "hwp": "Brain Encephalon 모형 사진.by케이First.hwp (BS model references: BS-20/22 p.215, BS6/1 p.213, BS5 p.210-211)",
+      "muscle_images": "29 KakaoTalk screenshots from Visible Body (750x1334 PNG)"
+    }
+  },
+  "pdf_specimens": {
+    "1C-10": {
+      "page": 5,
+      "section_type": "coronal",
+      "pin_count": 2,
+      "pins": {
+        "A": {
+          "structure": "Superior parietal lobe",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Lateral occipital gyrus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "1C-2": {
+      "page": 1,
+      "section_type": "coronal",
+      "pin_count": 4,
+      "pins": {
+        "A": {
+          "structure": "Superior frontal gyrus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Cingulate gyrus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "Inferior frontal gyrus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "D": {
+          "structure": "Rectal gyrus of frontal lobe",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "1C-3": {
+      "page": 2,
+      "section_type": "coronal",
+      "pin_count": 6,
+      "pins": {
+        "A": {
+          "structure": "Radiation of corpus callosum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Body of corpus callosum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "Rostrum of corpus callosum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "D": {
+          "structure": "Head of Caudate nucleus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "E": {
+          "structure": "Putamen",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "F": {
+          "structure": "Superior temporal gyrus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "1C-4": {
+      "page": 2,
+      "section_type": "coronal",
+      "pin_count": 7,
+      "pins": {
+        "A": {
+          "structure": "Body of corpus callosum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Head of caudate nucleus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "Internal capsule",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "D": {
+          "structure": "Claustrum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "E": {
+          "structure": "Subcallosal area",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "F": {
+          "structure": "Putamen",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "G": {
+          "structure": "Amygdaloid complex",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "1C-5": {
+      "page": 3,
+      "section_type": "coronal",
+      "pin_count": 7,
+      "pins": {
+        "A": {
+          "structure": "Body of caudate nucleus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Internal Capsule",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "Putamen",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "D": {
+          "structure": "Globus Pallidus (Lateral segment)",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "E": {
+          "structure": "Globus Pallidus (Medial segment)",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "F": {
+          "structure": "Optic tract",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "G": {
+          "structure": "Pons (Basilar sulcus)",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "1C-6": {
+      "page": 3,
+      "section_type": "coronal",
+      "pin_count": 11,
+      "pins": {
+        "A": {
+          "structure": "Corona radiata",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Body of caudate nucleus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "Lateral thalamic nucleus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "D": {
+          "structure": "Putamen",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "E": {
+          "structure": "Claustrum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "F": {
+          "structure": "Globus pallidus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "G": {
+          "structure": "Red nucleus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "H": {
+          "structure": "Dentate gyrus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "I": {
+          "structure": "Parahippocampal gyrus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "J": {
+          "structure": "Descending longitudinal fiber",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "K": {
+          "structure": "Medullary pyramid",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "1C-7": {
+      "page": 4,
+      "section_type": "coronal",
+      "pin_count": 9,
+      "pins": {
+        "A": {
+          "structure": "Body of fornix",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Body of caudate nucleus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "Medial thalamic nucleus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "D": {
+          "structure": "Internal capsule",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "E": {
+          "structure": "Medial geniculate body",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "F": {
+          "structure": "Dentate gyrus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "G": {
+          "structure": "Pons",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "H": {
+          "structure": "Middle cerebellar peduncle",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "I": {
+          "structure": "Inferior olivary complex",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "1C-8": {
+      "page": 4,
+      "section_type": "coronal",
+      "pin_count": 6,
+      "pins": {
+        "A": {
+          "structure": "Body of corpus callosum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Splenium of corpus callosum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "Crus of fornix",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "D": {
+          "structure": "Dentate gyrus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "E": {
+          "structure": "Cerebellar vermis",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "F": {
+          "structure": "Cerebellar medullary body",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "1C-9": {
+      "page": 5,
+      "section_type": "coronal",
+      "pin_count": 5,
+      "pins": {
+        "A": {
+          "structure": "Radiation of corpus callosum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Optic radiation",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "Inferior temporal gyrus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "D": {
+          "structure": "Cerebellar vermis",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "E": {
+          "structure": "Dentate nucleus of cerebellum body",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "2C-1": {
+      "page": 6,
+      "section_type": "coronal",
+      "pin_count": 2,
+      "pins": {
+        "A": {
+          "structure": "Superior frontal gyrus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Rectal gyrus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "2C-2": {
+      "page": 6,
+      "section_type": "coronal",
+      "pin_count": 6,
+      "pins": {
+        "A": {
+          "structure": "Cingulate gyrus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Body of corpus callosum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "Head of caudate nucleus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "D": {
+          "structure": "Claustrum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "E": {
+          "structure": "Septum pellucidum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "F": {
+          "structure": "Putamen",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "2C-3": {
+      "page": 7,
+      "section_type": "coronal",
+      "pin_count": 9,
+      "pins": {
+        "A": {
+          "structure": "Body of corpus callosum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Septum pellucidum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "Anterior commisure",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "D": {
+          "structure": "Head of caudate nucleus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "E": {
+          "structure": "Internal capsule",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "F": {
+          "structure": "Putamen",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "G": {
+          "structure": "Claustrum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "H": {
+          "structure": "Infundibular recess",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "I": {
+          "structure": "Temporal lobe",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "2C-4": {
+      "page": 7,
+      "section_type": "coronal",
+      "pin_count": 12,
+      "pins": {
+        "A": {
+          "structure": "Body of corpus callosum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Septum pellucidum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "Body of caudate nucleus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "D": {
+          "structure": "Internal capsule",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "E": {
+          "structure": "Putamen",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "F": {
+          "structure": "Globus pallidus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "G": {
+          "structure": "Anterior thalamic nucleus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "H": {
+          "structure": "Cerebral Peduncle",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "I": {
+          "structure": "Third ventricle",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "J": {
+          "structure": "Mammillary body",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "K": {
+          "structure": "Middle temporal gyrus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "L": {
+          "structure": "Parahippocampal gyrus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "2C-5": {
+      "page": 8,
+      "section_type": "coronal",
+      "pin_count": 11,
+      "pins": {
+        "A": {
+          "structure": "Body of corpus callosum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Crus of fornix",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "Middle thalamic nucleus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "D": {
+          "structure": "Internal capsule",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "E": {
+          "structure": "putamen",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "F": {
+          "structure": "Claustrum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "G": {
+          "structure": "Middle temporal gyrus (Temporal lobe)",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "H": {
+          "structure": "Red nucleus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "I": {
+          "structure": "Pons",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "J": {
+          "structure": "Corticospinal fiber Descending longitudinal fiber",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "K": {
+          "structure": "Dentate gyrus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "2C-6": {
+      "page": 8,
+      "section_type": "coronal",
+      "pin_count": 11,
+      "pins": {
+        "A": {
+          "structure": "Cingulate gyrus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Body of corpus callosum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "Crus of fornix",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "D": {
+          "structure": "Superior colliculus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "E": {
+          "structure": "Dentate gyrus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "F": {
+          "structure": "Cerebral aqueduct",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "G": {
+          "structure": "Inferior cerebellar peduncle",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "H": {
+          "structure": "Middle cerebellar peduncle",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "I": {
+          "structure": "Parahippocampal gyrus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "J": {
+          "structure": "Pulvinar",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "K": {
+          "structure": "Insular",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "2C-7": {
+      "page": 9,
+      "section_type": "coronal",
+      "pin_count": 6,
+      "pins": {
+        "A": {
+          "structure": "Precuneus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Radiation of corpus callosum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "Optic radiation",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "D": {
+          "structure": "Calcarine sulcus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "E": {
+          "structure": "Cerebellar vermis",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "F": {
+          "structure": "Cerebellar medullary body",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "2C-8": {
+      "page": 9,
+      "section_type": "coronal",
+      "pin_count": 3,
+      "pins": {
+        "A": {
+          "structure": "Angular gyrus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Cerebellar hemisphere",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "Cerebellar vermis",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "H1-1": {
+      "page": 14,
+      "section_type": "horizontal",
+      "pin_count": 5,
+      "pins": {
+        "A": {
+          "structure": "Radiation of corpus callosum (Forceps minor)",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Superior longitudinal fasciculus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "Radiation of corpus callosum (Forceps major)",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "D": {
+          "structure": "Body of corpus callosum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "E": {
+          "structure": "Lateral ventricle",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "H1-2": {
+      "page": 14,
+      "section_type": "horizontal",
+      "pin_count": 7,
+      "pins": {
+        "A": {
+          "structure": "Lentiform nucleus(Globus pallidus)",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Posterior limb of internal capsule",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "Medial thalamic nucleus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "D": {
+          "structure": "Interthalamic adhesion",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "E": {
+          "structure": "Pineal gland",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "F": {
+          "structure": "Choroid plexus of lateral ventricle",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "G": {
+          "structure": "Lateral ventricle",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "H1-3": {
+      "page": 15,
+      "section_type": "horizontal",
+      "pin_count": 8,
+      "pins": {
+        "A": {
+          "structure": "Olfactory tract",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Optic nerve",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "Infundibulum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "D": {
+          "structure": "Lateral ventricle",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "E": {
+          "structure": "Choroid plexus of lateral ventricle",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "F": {
+          "structure": "Cerebral peduncle",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "G": {
+          "structure": "Midbrain (Tegmentum)",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "H": {
+          "structure": "Vermis of cerebellum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "H1-4": {
+      "page": 15,
+      "section_type": "horizontal",
+      "pin_count": 5,
+      "pins": {
+        "A": {
+          "structure": "Inferior temporal gyrus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Pons(Transverse fiber)",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "4th ventricle",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "D": {
+          "structure": "Cerebellar hemisphere",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "E": {
+          "structure": "Lingular gyrus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "H1-5": {
+      "page": 16,
+      "section_type": "horizontal",
+      "pin_count": 3,
+      "pins": {
+        "A": {
+          "structure": "Pyramid of medulla oblongata",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Cerebellar hemisphere",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "Spinal cord",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "Hemisection": {
+      "page": 1,
+      "section_type": "hemisection (midsagittal)",
+      "pin_count": 14,
+      "pins": {
+        "A": {
+          "structure": "Cingulate gyrus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Body of corpus callosum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "Splenium of corpus callosum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "D": {
+          "structure": "Stria terminalis",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "E": {
+          "structure": "Body of caudate nucleus(Lateral ventricle)",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "F": {
+          "structure": "Medial thalamic nucleus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "G": {
+          "structure": "Hypothalamus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "H": {
+          "structure": "Optic chiasm",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "I": {
+          "structure": "Pons",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "J": {
+          "structure": "Medulla oblongata",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "K": {
+          "structure": "4th ventricle",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "L": {
+          "structure": "Cerebellar vermis",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "M": {
+          "structure": "Spinal cord",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "N": {
+          "structure": "Parahippocampal gyrus of temporal lobe",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "S1-1": {
+      "page": 10,
+      "section_type": "sagittal",
+      "pin_count": 7,
+      "pins": {
+        "A": {
+          "structure": "Body of corpus callosum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "None",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "Interthalamic adhesion",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "D": {
+          "structure": "Quadrigeminal plate",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "E": {
+          "structure": "Interventricular foramen",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "F": {
+          "structure": "Optic chiasm",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "G": {
+          "structure": "Fastigium of 4th ventricle",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "S1-2": {
+      "page": 10,
+      "section_type": "sagittal",
+      "pin_count": 8,
+      "pins": {
+        "A": {
+          "structure": "Body of corpus callosum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Ventral lateral thalamic nucleus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "Pulvinar",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "D": {
+          "structure": "Substantia nigra",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "E": {
+          "structure": "Optic tract",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "F": {
+          "structure": "Pons(Longitudinal descending fiber)",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "G": {
+          "structure": "Dentate nucleus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "H": {
+          "structure": "Tonsil of cerebellum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "S1-3": {
+      "page": 11,
+      "section_type": "sagittal",
+      "pin_count": 7,
+      "pins": {
+        "A": {
+          "structure": "Body of corpus callosum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Head of caudate nucleus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "Body of caudate nucleus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "D": {
+          "structure": "Putamen",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "E": {
+          "structure": "Internal capsule",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "F": {
+          "structure": "Medial geniculate body",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "G": {
+          "structure": "Middle cerebellar peduncle",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "S1-4": {
+      "page": 11,
+      "section_type": "sagittal",
+      "pin_count": 6,
+      "pins": {
+        "A": {
+          "structure": "Radiation of corpus callosum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Putamen",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "Optic radiation",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "D": {
+          "structure": "Subiculum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "E": {
+          "structure": "Amygdaloid complex",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "F": {
+          "structure": "Superior temporal gyrus of temporal lobe",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "S2-1": {
+      "page": 12,
+      "section_type": "sagittal",
+      "pin_count": 7,
+      "pins": {
+        "A": {
+          "structure": "Corpus callosum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Fornix (Body)",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "Interthalamic adhesion",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "D": {
+          "structure": "Quadrigeminal plate",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "E": {
+          "structure": "Anterior commisure",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "F": {
+          "structure": "Optic chiasm",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "G": {
+          "structure": "Fastigium of cerebellum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "S2-2": {
+      "page": 12,
+      "section_type": "sagittal",
+      "pin_count": 8,
+      "pins": {
+        "A": {
+          "structure": "corpus callosum (Body)",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Ventral lateral thalamic nucleus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "Pulvinar",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "D": {
+          "structure": "Substantia nigra",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "E": {
+          "structure": "Optic tract",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "F": {
+          "structure": "Pyramidal tract (Longitudinal fiber)",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "G": {
+          "structure": "Dentate nucleus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "H": {
+          "structure": "Cerebellar tonsil",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "S2-3": {
+      "page": 13,
+      "section_type": "sagittal",
+      "pin_count": 7,
+      "pins": {
+        "A": {
+          "structure": "Corpus callosum(Body)",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Caudate nucleus(Head)",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "Pulvinar",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "D": {
+          "structure": "Putamen",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "E": {
+          "structure": "Globus pallidus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "F": {
+          "structure": "Cerebellar peduncle",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "G": {
+          "structure": "Dentate nucleus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    },
+    "S2-4": {
+      "page": 13,
+      "section_type": "sagittal",
+      "pin_count": 6,
+      "pins": {
+        "A": {
+          "structure": "Radiation of corpus callosum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "B": {
+          "structure": "Putamen",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "C": {
+          "structure": "Optic radiation (Auditory radiation)",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "D": {
+          "structure": "Subiculum",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "E": {
+          "structure": "Amygdaloid complex",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        },
+        "F": {
+          "structure": "Superior temporal gyrus",
+          "confidence": "high",
+          "source": "PDF text extraction"
+        }
+      },
+      "confidence": "high"
+    }
+  },
+  "image_to_specimen_mapping": {
+    "IMG_7141.jpg": {
+      "image": "IMG_7141.jpg",
+      "existing_label": "B-13 뇌 시상면 (Sagittal Brain Section)",
+      "existing_structures": [
+        "시상 (Thalamus)",
+        "뇌량 (Corpus callosum)",
+        "소뇌 (Cerebellum)",
+        "뇌간 (Brainstem)",
+        "측뇌실 (Lateral ventricle)",
+        "미상핵 (Caudate nucleus)",
+        "렌즈핵 (Lentiform nucleus)"
+      ],
+      "confidence": "medium",
+      "note": "B-XX format label (B-13) - different numbering from PDF (1C/2C/S/H format). Cross-reference uncertain."
+    },
+    "IMG_7142.jpg": {
+      "image": "IMG_7142.jpg",
+      "existing_label": "B-12 뇌 시상면 (Sagittal Brain Section)",
+      "existing_structures": [
+        "뇌량 (Corpus callosum)",
+        "측뇌실 (Lateral ventricle)",
+        "미상핵 (Caudate nucleus)",
+        "시상 (Thalamus)",
+        "해마 (Hippocampus)",
+        "내섬유막 (Internal capsule)"
+      ],
+      "confidence": "medium",
+      "note": "B-XX format label (B-12) - different numbering from PDF (1C/2C/S/H format). Cross-reference uncertain."
+    },
+    "IMG_7143.jpg": {
+      "image": "IMG_7143.jpg",
+      "existing_label": "B-11 뇌 시상면 (Sagittal Brain Section)",
+      "existing_structures": [
+        "시상 (Thalamus)",
+        "소뇌 (Cerebellum)",
+        "조가비핵 (Putamen)",
+        "담창구 (Globus pallidus)",
+        "편도체 (Amygdala)"
+      ],
+      "confidence": "medium",
+      "note": "B-XX format label (B-11) - different numbering from PDF (1C/2C/S/H format). Cross-reference uncertain."
+    },
+    "IMG_7144.jpg": {
+      "image": "IMG_7144.jpg",
+      "existing_label": "B-11 뇌 시상면 변형절 (Sagittal Variant)",
+      "existing_structures": [
+        "소뇌 (Cerebellum)",
+        "뇌간 (Brainstem)",
+        "뇌교 (Pons)",
+        "대뇌다리 (Cerebral peduncle)",
+        "측두엽 (Temporal lobe)"
+      ],
+      "confidence": "medium",
+      "note": "B-XX format label (B-11) - different numbering from PDF (1C/2C/S/H format). Cross-reference uncertain."
+    },
+    "IMG_7145.jpg": {
+      "image": "IMG_7145.jpg",
+      "existing_label": "B-12 뇌 시상면 - 시상/해마 수준 (Thalamus/Hippocampus Level)",
+      "existing_structures": [
+        "뇌량 (Corpus callosum)",
+        "미상핵 (Caudate nucleus)",
+        "시상 (Thalamus)",
+        "해마 (Hippocampus)",
+        "소뇌 (Cerebellum)",
+        "뇌간 (Brainstem)",
+        "내섬유막 (Internal capsule)"
+      ],
+      "confidence": "medium",
+      "note": "B-XX format label (B-12) - different numbering from PDF (1C/2C/S/H format). Cross-reference uncertain."
+    },
+    "IMG_7146.jpg": {
+      "image": "IMG_7146.jpg",
+      "existing_label": "B-13 뇌 시상면 - 기저핵 수준 (Basal Ganglia Level)",
+      "existing_structures": [
+        "시상 (Thalamus)",
+        "조가비핵 (Putamen)",
+        "담창구 (Globus pallidus)",
+        "소뇌 (Cerebellum)",
+        "내섬유막 (Internal capsule)"
+      ],
+      "confidence": "medium",
+      "note": "B-XX format label (B-13) - different numbering from PDF (1C/2C/S/H format). Cross-reference uncertain."
+    },
+    "IMG_7147.jpg": {
+      "image": "IMG_7147.jpg",
+      "existing_label": "B-14 뇌 시상면 - 내섬유막 수준 (Internal Capsule Level)",
+      "existing_structures": [
+        "뇌량 (Corpus callosum)",
+        "미상핵 (Caudate nucleus)",
+        "내섬유막 (Internal capsule)",
+        "시상 (Thalamus)",
+        "소뇌 (Cerebellum)"
+      ],
+      "confidence": "medium",
+      "note": "B-XX format label (B-14) - different numbering from PDF (1C/2C/S/H format). Cross-reference uncertain."
+    },
+    "IMG_7148.jpg": {
+      "image": "IMG_7148.jpg",
+      "existing_label": "B-14 뇌 시상면 - 측뇌실 수준 (Lateral Ventricle Level)",
+      "existing_structures": [
+        "뇌량 (Corpus callosum)",
+        "미상핵 (Caudate nucleus)",
+        "측뇌실 (Lateral ventricle)",
+        "시상 (Thalamus)",
+        "해마 (Hippocampus)"
+      ],
+      "confidence": "medium",
+      "note": "B-XX format label (B-14) - different numbering from PDF (1C/2C/S/H format). Cross-reference uncertain."
+    },
+    "IMG_7149.jpg": {
+      "image": "IMG_7149.jpg",
+      "existing_label": "H1-2 뇌 수평면 - 기저부 수준 (Horizontal: Brain Base)",
+      "existing_structures": [
+        "전두엽 (Frontal lobe)",
+        "시교차 (Optic chiasm)",
+        "대뇌다리 (Cerebral peduncle)",
+        "후두엽 (Occipital lobe)",
+        "소뇌 (Cerebellum)",
+        "측두엽 (Temporal lobe)",
+        "뇌교 (Pons)"
+      ],
+      "confidence": "high",
+      "note": "Matched to PDF specimen",
+      "pdf_specimen": "H1-2",
+      "pdf_pins": {
+        "A": "Lentiform nucleus(Globus pallidus)",
+        "B": "Posterior limb of internal capsule",
+        "C": "Medial thalamic nucleus",
+        "D": "Interthalamic adhesion",
+        "E": "Pineal gland",
+        "F": "Choroid plexus of lateral ventricle",
+        "G": "Lateral ventricle"
+      }
+    },
+    "IMG_7150.jpg": {
+      "image": "IMG_7150.jpg",
+      "existing_label": "H1-1 뇌 수평면 - 뇌량 수준 (Horizontal: Corpus Callosum Level)",
+      "existing_structures": [
+        "뇌량 (Corpus callosum)",
+        "대뇌종렬 (Longitudinal fissure)",
+        "측뇌실 (Lateral ventricle)",
+        "백질 (White matter)",
+        "피질 (Cortex)"
+      ],
+      "confidence": "high",
+      "note": "Matched to PDF specimen",
+      "pdf_specimen": "H1-1",
+      "pdf_pins": {
+        "A": "Radiation of corpus callosum (Forceps minor)",
+        "B": "Superior longitudinal fasciculus",
+        "C": "Radiation of corpus callosum (Forceps major)",
+        "D": "Body of corpus callosum",
+        "E": "Lateral ventricle"
+      }
+    },
+    "IMG_7151.jpg": {
+      "image": "IMG_7151.jpg",
+      "existing_label": "H1-3 뇌 수평면 - 기저핵 수준 (Horizontal: Basal Ganglia Level)",
+      "existing_structures": [
+        "미상핵 (Caudate nucleus)",
+        "렌즈핵 (Lentiform nucleus)",
+        "시상 (Thalamus)",
+        "내섬유막 (Internal capsule)",
+        "측뇌실 (Lateral ventricle)",
+        "제3뇌실 (Third ventricle)",
+        "송과체 (Pineal gland)"
+      ],
+      "confidence": "high",
+      "note": "Matched to PDF specimen",
+      "pdf_specimen": "H1-3",
+      "pdf_pins": {
+        "A": "Olfactory tract",
+        "B": "Optic nerve",
+        "C": "Infundibulum",
+        "D": "Lateral ventricle",
+        "E": "Choroid plexus of lateral ventricle",
+        "F": "Cerebral peduncle",
+        "G": "Midbrain (Tegmentum)",
+        "H": "Vermis of cerebellum"
+      }
+    },
+    "IMG_7152.jpg": {
+      "image": "IMG_7152.jpg",
+      "existing_label": "H1-4 뇌 수평면 - 중뇌 수준 (Horizontal: Midbrain Level)",
+      "existing_structures": [
+        "중뇌 (Midbrain)",
+        "대뇌다리 (Cerebral peduncle)",
+        "소뇌 (Cerebellum)",
+        "측두엽 (Temporal lobe)",
+        "해마 (Hippocampus)"
+      ],
+      "confidence": "high",
+      "note": "Matched to PDF specimen",
+      "pdf_specimen": "H1-4",
+      "pdf_pins": {
+        "A": "Inferior temporal gyrus",
+        "B": "Pons(Transverse fiber)",
+        "C": "4th ventricle",
+        "D": "Cerebellar hemisphere",
+        "E": "Lingular gyrus"
+      }
+    },
+    "IMG_7153.jpg": {
+      "image": "IMG_7153.jpg",
+      "existing_label": "H1-5 뇌 수평면 - 뇌교/소뇌 수준 (Horizontal: Pons/Cerebellum)",
+      "existing_structures": [
+        "뇌교 (Pons)",
+        "소뇌 (Cerebellum)",
+        "제4뇌실 (Fourth ventricle)"
+      ],
+      "confidence": "high",
+      "note": "Matched to PDF specimen",
+      "pdf_specimen": "H1-5",
+      "pdf_pins": {
+        "A": "Pyramid of medulla oblongata",
+        "B": "Cerebellar hemisphere",
+        "C": "Spinal cord"
+      }
+    },
+    "IMG_7154.jpg": {
+      "image": "IMG_7154.jpg",
+      "existing_label": "뇌 정중시상면 (Midsagittal Brain Section)",
+      "existing_structures": [
+        "뇌량 (Corpus callosum)",
+        "시상 (Thalamus)",
+        "시상하부 (Hypothalamus)",
+        "뇌간 (Brainstem)",
+        "소뇌 (Cerebellum)",
+        "제3뇌실 (Third ventricle)",
+        "제4뇌실 (Fourth ventricle)",
+        "중뇌 (Midbrain)",
+        "뇌교 (Pons)",
+        "연수 (Medulla oblongata)",
+        "송과체 (Pineal gland)",
+        "뇌하수체 (Pituitary gland)",
+        "뇌궁 (Fornix)"
+      ],
+      "confidence": "medium",
+      "note": "Label inferred from image_labels.json (not directly from PDF)"
+    },
+    "IMG_7155.jpg": {
+      "image": "IMG_7155.jpg",
+      "existing_label": "B-2 뇌 관상면 - 전두엽 수준 (Coronal: Frontal Lobe Level)",
+      "existing_structures": [
+        "대뇌종렬 (Longitudinal fissure)",
+        "뇌량 (Corpus callosum)",
+        "측뇌실 전각 (Anterior horn of lateral ventricle)",
+        "피질 (Cortex)"
+      ],
+      "confidence": "medium",
+      "note": "B-XX format label (B-2) - different numbering from PDF (1C/2C/S/H format). Cross-reference uncertain."
+    },
+    "IMG_7156.jpg": {
+      "image": "IMG_7156.jpg",
+      "existing_label": "B-4 뇌 관상면 - 기저핵 전방 (Coronal: Anterior Basal Ganglia)",
+      "existing_structures": [
+        "뇌량 (Corpus callosum)",
+        "측뇌실 (Lateral ventricle)",
+        "미상핵 (Caudate nucleus)",
+        "내섬유막 (Internal capsule)",
+        "조가비핵 (Putamen)",
+        "외섬유막 (External capsule)",
+        "담장 (Claustrum)"
+      ],
+      "confidence": "medium",
+      "note": "B-XX format label (B-4) - different numbering from PDF (1C/2C/S/H format). Cross-reference uncertain."
+    },
+    "IMG_7157.jpg": {
+      "image": "IMG_7157.jpg",
+      "existing_label": "B-3 뇌 관상면 - 미상핵 수준 (Coronal: Caudate Nucleus Level)",
+      "existing_structures": [
+        "뇌량 (Corpus callosum)",
+        "미상핵 (Caudate nucleus)",
+        "내섬유막 (Internal capsule)",
+        "조가비핵 (Putamen)",
+        "측뇌실 (Lateral ventricle)"
+      ],
+      "confidence": "medium",
+      "note": "B-XX format label (B-3) - different numbering from PDF (1C/2C/S/H format). Cross-reference uncertain."
+    },
+    "IMG_7158.jpg": {
+      "image": "IMG_7158.jpg",
+      "existing_label": "B-10 뇌 외측면 표면 (Lateral Brain Surface)",
+      "existing_structures": [
+        "전두엽 (Frontal lobe)",
+        "두정엽 (Parietal lobe)",
+        "측두엽 (Temporal lobe)",
+        "후두엽 (Occipital lobe)",
+        "중심고랑 (Central sulcus)",
+        "가쪽고랑 (Lateral sulcus)"
+      ],
+      "confidence": "medium",
+      "note": "B-XX format label (B-10) - different numbering from PDF (1C/2C/S/H format). Cross-reference uncertain."
+    },
+    "IMG_7159.jpg": {
+      "image": "IMG_7159.jpg",
+      "existing_label": "B-8 뇌 관상면 - 시상 수준 (Coronal: Thalamus Level)",
+      "existing_structures": [
+        "뇌량 (Corpus callosum)",
+        "시상 (Thalamus)",
+        "제3뇌실 (Third ventricle)",
+        "내섬유막 (Internal capsule)",
+        "소뇌 (Cerebellum)",
+        "뇌교 (Pons)"
+      ],
+      "confidence": "medium",
+      "note": "B-XX format label (B-8) - different numbering from PDF (1C/2C/S/H format). Cross-reference uncertain."
+    },
+    "IMG_7160.jpg": {
+      "image": "IMG_7160.jpg",
+      "existing_label": "B-5 뇌 관상면 - 기저핵 중앙 (Coronal: Central Basal Ganglia)",
+      "existing_structures": [
+        "뇌량 (Corpus callosum)",
+        "미상핵 (Caudate nucleus)",
+        "내섬유막 (Internal capsule)",
+        "조가비핵 (Putamen)",
+        "담창구 (Globus pallidus)",
+        "시상 (Thalamus)",
+        "측뇌실 (Lateral ventricle)"
+      ],
+      "confidence": "medium",
+      "note": "B-XX format label (B-5) - different numbering from PDF (1C/2C/S/H format). Cross-reference uncertain."
+    },
+    "IMG_7161.jpg": {
+      "image": "IMG_7161.jpg",
+      "existing_label": "B-6 뇌 관상면 - 시상/해마 수준 (Coronal: Thalamus/Hippocampus)",
+      "existing_structures": [
+        "뇌량 (Corpus callosum)",
+        "미상핵 (Caudate nucleus)",
+        "시상 (Thalamus)",
+        "제3뇌실 (Third ventricle)",
+        "내섬유막 (Internal capsule)",
+        "담창구 (Globus pallidus)",
+        "해마 (Hippocampus)",
+        "측두엽 (Temporal lobe)",
+        "편도체 (Amygdala)",
+        "소뇌 (Cerebellum)"
+      ],
+      "confidence": "medium",
+      "note": "B-XX format label (B-6) - different numbering from PDF (1C/2C/S/H format). Cross-reference uncertain."
+    },
+    "IMG_7162.jpg": {
+      "image": "IMG_7162.jpg",
+      "existing_label": "B-7 뇌 관상면 - 시상 후방 (Coronal: Posterior Thalamus)",
+      "existing_structures": [
+        "뇌량 (Corpus callosum)",
+        "미상핵 (Caudate nucleus)",
+        "시상 (Thalamus)",
+        "내섬유막 (Internal capsule)",
+        "해마 (Hippocampus)",
+        "측뇌실 (Lateral ventricle)",
+        "소뇌 (Cerebellum)"
+      ],
+      "confidence": "medium",
+      "note": "B-XX format label (B-7) - different numbering from PDF (1C/2C/S/H format). Cross-reference uncertain."
+    },
+    "IMG_7163.jpg": {
+      "image": "IMG_7163.jpg",
+      "existing_label": "B-9 뇌 관상면 - 후두엽 수준 (Coronal: Occipital Level)",
+      "existing_structures": [
+        "뇌량팽대 (Splenium of corpus callosum)",
+        "측뇌실 후각 (Posterior horn of lateral ventricle)",
+        "피질 (Cortex)",
+        "백질 (White matter)",
+        "대뇌낫 (Falx cerebri)"
+      ],
+      "confidence": "medium",
+      "note": "B-XX format label (B-9) - different numbering from PDF (1C/2C/S/H format). Cross-reference uncertain."
+    },
+    "IMG_7164.jpg": {
+      "image": "IMG_7164.jpg",
+      "existing_label": "뇌 상면 (Superior Brain Surface)",
+      "existing_structures": [
+        "대뇌종렬 (Longitudinal fissure)",
+        "전두엽 (Frontal lobe)",
+        "두정엽 (Parietal lobe)",
+        "후두엽 (Occipital lobe)",
+        "중심고랑 (Central sulcus)"
+      ],
+      "confidence": "medium",
+      "note": "Label inferred from image_labels.json (not directly from PDF)"
+    },
+    "IMG_7165.jpg": {
+      "image": "IMG_7165.jpg",
+      "existing_label": "뇌 하면/저면 (Inferior Brain Surface)",
+      "existing_structures": [
+        "전두엽 (Frontal lobe)",
+        "측두엽 (Temporal lobe)",
+        "후두엽 (Occipital lobe)",
+        "소뇌 (Cerebellum)",
+        "후각망울 (Olfactory bulb)"
+      ],
+      "confidence": "medium",
+      "note": "Label inferred from image_labels.json (not directly from PDF)"
+    },
+    "IMG_7166.jpg": {
+      "image": "IMG_7166.jpg",
+      "existing_label": "2C 뇌 관상면 - 시상/뇌실 수준 (Coronal: Thalamus/Ventricle)",
+      "existing_structures": [
+        "뇌량 (Corpus callosum)",
+        "측뇌실 (Lateral ventricle)",
+        "미상핵 (Caudate nucleus)",
+        "시상 (Thalamus)",
+        "제3뇌실 (Third ventricle)",
+        "해마 (Hippocampus)",
+        "내섬유막 (Internal capsule)",
+        "소뇌 (Cerebellum)"
+      ],
+      "confidence": "medium",
+      "note": "Label inferred from image_labels.json (not directly from PDF)"
+    },
+    "IMG_7167.jpg": {
+      "image": "IMG_7167.jpg",
+      "existing_label": "2C 뇌 관상면 - 기저핵/시상 (Coronal: Basal Ganglia/Thalamus)",
+      "existing_structures": [
+        "뇌량 (Corpus callosum)",
+        "미상핵 (Caudate nucleus)",
+        "내섬유막 (Internal capsule)",
+        "시상 (Thalamus)",
+        "조가비핵 (Putamen)",
+        "담창구 (Globus pallidus)",
+        "제3뇌실 (Third ventricle)",
+        "해마 (Hippocampus)"
+      ],
+      "confidence": "medium",
+      "note": "Label inferred from image_labels.json (not directly from PDF)"
+    },
+    "IMG_7168.jpg": {
+      "image": "IMG_7168.jpg",
+      "existing_label": "2C 뇌 관상면 - 기저핵 전방 (Coronal: Anterior BG)",
+      "existing_structures": [
+        "뇌량 (Corpus callosum)",
+        "측뇌실 (Lateral ventricle)",
+        "미상핵 (Caudate nucleus)",
+        "내섬유막 (Internal capsule)",
+        "조가비핵 (Putamen)"
+      ],
+      "confidence": "medium",
+      "note": "Label inferred from image_labels.json (not directly from PDF)"
+    },
+    "IMG_7169.jpg": {
+      "image": "IMG_7169.jpg",
+      "existing_label": "2C 뇌 관상면 - 후방 (Coronal: Posterior Section)",
+      "existing_structures": [
+        "뇌량 (Corpus callosum)",
+        "시상 (Thalamus)",
+        "측뇌실 (Lateral ventricle)",
+        "해마 (Hippocampus)",
+        "소뇌 (Cerebellum)"
+      ],
+      "confidence": "medium",
+      "note": "Label inferred from image_labels.json (not directly from PDF)"
+    },
+    "IMG_7170.jpg": {
+      "image": "IMG_7170.jpg",
+      "existing_label": "2C 뇌 관상면 - 렌즈핵 수준 (Coronal: Lentiform Nucleus)",
+      "existing_structures": [
+        "뇌량 (Corpus callosum)",
+        "미상핵 (Caudate nucleus)",
+        "내섬유막 (Internal capsule)",
+        "조가비핵 (Putamen)",
+        "담창구 (Globus pallidus)",
+        "시상 (Thalamus)"
+      ],
+      "confidence": "medium",
+      "note": "Label inferred from image_labels.json (not directly from PDF)"
+    },
+    "IMG_7171.jpg": {
+      "image": "IMG_7171.jpg",
+      "existing_label": "2C 뇌 관상면 - 시상/기저핵 (Coronal: Thalamus/BG)",
+      "existing_structures": [
+        "뇌량 (Corpus callosum)",
+        "미상핵 (Caudate nucleus)",
+        "시상 (Thalamus)",
+        "내섬유막 (Internal capsule)",
+        "조가비핵 (Putamen)",
+        "담창구 (Globus pallidus)",
+        "해마 (Hippocampus)",
+        "소뇌 (Cerebellum)"
+      ],
+      "confidence": "medium",
+      "note": "Label inferred from image_labels.json (not directly from PDF)"
+    }
+  },
+  "cross_verification": {
+    "disagreements": [
+      {
+        "type": "structure_mismatch",
+        "image": "IMG_7149.jpg",
+        "existing_label": "H1-2 뇌 수평면 - 기저부 수준",
+        "existing_structures": [
+          "전두엽 (Frontal lobe)",
+          "시교차 (Optic chiasm)",
+          "대뇌다리 (Cerebral peduncle)",
+          "후두엽 (Occipital lobe)",
+          "소뇌 (Cerebellum)",
+          "측두엽 (Temporal lobe)",
+          "뇌교 (Pons)"
+        ],
+        "pdf_h12_pins": {
+          "A": "Lentiform nucleus(Globus pallidus)",
+          "B": "Posterior limb of internal capsule",
+          "C": "Medial thalamic nucleus",
+          "D": "Interthalamic adhesion",
+          "E": "Pineal gland",
+          "F": "Choroid plexus of lateral ventricle",
+          "G": "Lateral ventricle"
+        },
+        "assessment": "POSSIBLE MISMATCH: image_labels says 시교차/대뇌다리 but PDF H1-2 has Lentiform nucleus/Internal capsule. The image may actually be H1-3 (which has Optic nerve, Cerebral peduncle).",
+        "confidence": "low"
+      },
+      {
+        "type": "potential_mismatch",
+        "image": "IMG_7151.jpg",
+        "existing_label": "H1-3 뇌 수평면 - 기저핵 수준",
+        "existing_structures": [
+          "미상핵 (Caudate nucleus)",
+          "렌즈핵 (Lentiform nucleus)",
+          "시상 (Thalamus)",
+          "내섬유막 (Internal capsule)",
+          "측뇌실 (Lateral ventricle)",
+          "제3뇌실 (Third ventricle)",
+          "송과체 (Pineal gland)"
+        ],
+        "pdf_h13_pins": {
+          "A": "Olfactory tract",
+          "B": "Optic nerve",
+          "C": "Infundibulum",
+          "D": "Lateral ventricle",
+          "E": "Choroid plexus of lateral ventricle",
+          "F": "Cerebral peduncle",
+          "G": "Midbrain (Tegmentum)",
+          "H": "Vermis of cerebellum"
+        },
+        "assessment": "image_labels says basal ganglia level (caudate, lentiform, thalamus, internal capsule) but PDF H1-3 shows olfactory tract, optic nerve, infundibulum, cerebral peduncle. These are DIFFERENT levels. The image_labels H1-3 description matches PDF H1-2 better.",
+        "confidence": "medium"
+      },
+      {
+        "type": "label_inconsistency",
+        "image": "KakaoTalk_20160410_204833841.png",
+        "issue": "image_labels.json says 넓은목근 (Sternohyoid) but 넓은목근 is actually Platysma, not Sternohyoid. Sternohyoid is 복장목뿔근. This is either a mislabel in image_labels.json or the image shows Platysma rather than Sternohyoid.",
+        "correction_suggestion": "If the muscle shown is flat and superficial in the neck: Platysma (넓은목근). If it is a strap muscle from sternum to hyoid: Sternohyoid (복장목뿔근).",
+        "confidence": "medium"
+      }
+    ],
+    "notes": [
+      {
+        "image": "IMG_7150.jpg",
+        "note": "H1-1 label consistent: both reference corpus callosum and lateral ventricle level structures",
+        "confidence": "high"
+      },
+      {
+        "image": "IMG_7153.jpg",
+        "note": "H1-5: image_labels says Pons/Cerebellum/4th ventricle which partially matches PDF H1-5 (Pyramid of medulla oblongata, Cerebellar hemisphere, Spinal cord). Both are inferior horizontal sections but structures differ slightly.",
+        "confidence": "medium"
+      },
+      {
+        "type": "numbering_system_difference",
+        "note": "image_labels.json uses B-XX format (B-2 through B-14) for coronal/sagittal specimens. The PDF uses 1C/2C for coronal, S1/S2 for sagittal, H1 for horizontal. These are DIFFERENT numbering systems. B-XX appears to be a lab-specific numbering system while 1C/2C/S/H is the PDF atlas numbering. Direct cross-reference between B-XX and 1C/2C is NOT reliable without additional mapping information.",
+        "confidence": "high"
+      },
+      {
+        "type": "hwp_content",
+        "note": "HWP file contains descriptions of BS-20/22 (p.215), BS 6/1 (p.213), and BS5 (p.210-211). It warns that BS5/1 model numbering may differ from BS5. The Korean text was successfully decoded from UTF-16LE encoding.",
+        "confidence": "high"
+      },
+      {
+        "type": "heic_image_coverage",
+        "note": "31 HEIC images (IMG_7141-7171) cover: hemisection, coronal series (1C/2C), sagittal series (S1/S2), horizontal series (H1), and surface views. All are mapped in image_labels.json but many use B-XX numbering that does not directly correspond to PDF 1C/2C/S/H numbering.",
+        "confidence": "high"
+      },
+      {
+        "type": "muscle_image_sequence",
+        "note": "29 muscle images split into two sequences: 204728-204752 (lower limb muscles, anterior to posterior) and 204822-204833 (neck/suprahyoid/infrahyoid muscles). The sequence suggests systematic Visible Body screenshots progressing through muscle groups.",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "muscle_images": {
+    "KakaoTalk_20160410_204728592.png": {
+      "original_file": "KakaoTalk_20160410_204728592.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "짧은종아리근 (Fibularis Brevis)",
+      "existing_structures": [
+        "Fibularis Brevis",
+        "Ankle Muscles"
+      ]
+    },
+    "KakaoTalk_20160410_204729570.png": {
+      "original_file": "KakaoTalk_20160410_204729570.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "셋째종아리근 (Fibularis Tertius)",
+      "existing_structures": [
+        "Fibularis Tertius",
+        "Ankle Muscles"
+      ]
+    },
+    "KakaoTalk_20160410_204730634.png": {
+      "original_file": "KakaoTalk_20160410_204730634.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "긴종아리근 (Fibularis Longus)",
+      "existing_structures": [
+        "Fibularis Longus",
+        "Ankle Muscles"
+      ]
+    },
+    "KakaoTalk_20160410_204731738.png": {
+      "original_file": "KakaoTalk_20160410_204731738.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "긴엄지폄근 (Extensor Hallucis Longus)",
+      "existing_structures": [
+        "Extensor Hallucis Longus",
+        "Foot Muscles"
+      ]
+    },
+    "KakaoTalk_20160410_204732980.png": {
+      "original_file": "KakaoTalk_20160410_204732980.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "가쪽발목동맥 (Lateral Tarsal Artery)",
+      "existing_structures": [
+        "Lateral Tarsal Artery",
+        "Ankle & Foot"
+      ]
+    },
+    "KakaoTalk_20160410_204734392.png": {
+      "original_file": "KakaoTalk_20160410_204734392.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "짧은발가락폄근 (Extensor Digitorum Brevis)",
+      "existing_structures": [
+        "Extensor Digitorum Brevis",
+        "Foot Muscles"
+      ]
+    },
+    "KakaoTalk_20160410_204735889.png": {
+      "original_file": "KakaoTalk_20160410_204735889.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "안쪽발목동맥 (Medial Tarsal Artery)",
+      "existing_structures": [
+        "Medial Tarsal Artery",
+        "Ankle & Foot"
+      ]
+    },
+    "KakaoTalk_20160410_204737064.png": {
+      "original_file": "KakaoTalk_20160410_204737064.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "활꼴동맥 (Arcuate Artery)",
+      "existing_structures": [
+        "Arcuate Artery",
+        "Ankle & Foot"
+      ]
+    },
+    "KakaoTalk_20160410_204738263.png": {
+      "original_file": "KakaoTalk_20160410_204738263.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "긴발가락폄근 (Extensor Digitorum Longus)",
+      "existing_structures": [
+        "Extensor Digitorum Longus",
+        "Foot Muscles"
+      ]
+    },
+    "KakaoTalk_20160410_204739231.png": {
+      "original_file": "KakaoTalk_20160410_204739231.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "앞정강근 (Tibialis Anterior)",
+      "existing_structures": [
+        "Tibialis Anterior",
+        "Ankle Muscles"
+      ]
+    },
+    "KakaoTalk_20160410_204740611.png": {
+      "original_file": "KakaoTalk_20160410_204740611.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "큰모음근 (Adductor Magnus)",
+      "existing_structures": [
+        "Adductor Magnus",
+        "Hip Muscles"
+      ]
+    },
+    "KakaoTalk_20160410_204742012.png": {
+      "original_file": "KakaoTalk_20160410_204742012.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "넙다리두갈래근 긴갈래 (Biceps Femoris Long Head)",
+      "existing_structures": [
+        "Biceps Femoris Long Head",
+        "Knee Joint Muscles"
+      ]
+    },
+    "KakaoTalk_20160410_204743174.png": {
+      "original_file": "KakaoTalk_20160410_204743174.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "반힘줄근 (Semitendinosus)",
+      "existing_structures": [
+        "Semitendinosus",
+        "Knee Joint Muscles"
+      ]
+    },
+    "KakaoTalk_20160410_204744459.png": {
+      "original_file": "KakaoTalk_20160410_204744459.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "반막근 (Semimembranosus)",
+      "existing_structures": [
+        "Semimembranosus",
+        "Knee Joint Muscles"
+      ]
+    },
+    "KakaoTalk_20160410_204745755.png": {
+      "original_file": "KakaoTalk_20160410_204745755.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "두덩근 (Gracilis)",
+      "existing_structures": [
+        "Gracilis",
+        "Hip Muscles"
+      ]
+    },
+    "KakaoTalk_20160410_204747111.png": {
+      "original_file": "KakaoTalk_20160410_204747111.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "두덩빗근 (Pectineus)",
+      "existing_structures": [
+        "Pectineus",
+        "Hip Muscles"
+      ]
+    },
+    "KakaoTalk_20160410_204748460.png": {
+      "original_file": "KakaoTalk_20160410_204748460.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "넙다리빗근 (Sartorius)",
+      "existing_structures": [
+        "Sartorius",
+        "Hip Muscles"
+      ]
+    },
+    "KakaoTalk_20160410_204749810.png": {
+      "original_file": "KakaoTalk_20160410_204749810.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "안쪽넓은근 (Vastus Medialis)",
+      "existing_structures": [
+        "Vastus Medialis",
+        "Knee Joint Muscles"
+      ]
+    },
+    "KakaoTalk_20160410_204750820.png": {
+      "original_file": "KakaoTalk_20160410_204750820.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "넙다리곧은근 (Rectus Femoris)",
+      "existing_structures": [
+        "Rectus Femoris",
+        "Hip Muscles"
+      ]
+    },
+    "KakaoTalk_20160410_204752229.png": {
+      "original_file": "KakaoTalk_20160410_204752229.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "가쪽넓은근 (Vastus Lateralis)",
+      "existing_structures": [
+        "Vastus Lateralis",
+        "Knee Joint Muscles"
+      ]
+    },
+    "KakaoTalk_20160410_204822754.png": {
+      "original_file": "KakaoTalk_20160410_204822754.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "이복근 뒤힘살 (Digastric Posterior Belly)",
+      "existing_structures": [
+        "Digastric Posterior Belly",
+        "Suprahyoid Muscles"
+      ]
+    },
+    "KakaoTalk_20160410_204824197.png": {
+      "original_file": "KakaoTalk_20160410_204824197.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "이복근 뒤힘살 확대 (Digastric Posterior Belly Close-up)",
+      "existing_structures": [
+        "Digastric Posterior Belly",
+        "Suprahyoid Muscles"
+      ]
+    },
+    "KakaoTalk_20160410_204825683.png": {
+      "original_file": "KakaoTalk_20160410_204825683.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "붓목뿔근 (Stylohyoid)",
+      "existing_structures": [
+        "Stylohyoid",
+        "Suprahyoid Muscles"
+      ]
+    },
+    "KakaoTalk_20160410_204826829.png": {
+      "original_file": "KakaoTalk_20160410_204826829.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "어깨목뿔근 위힘살 (Omohyoid Superior Belly)",
+      "existing_structures": [
+        "Omohyoid Superior Belly",
+        "Infrahyoid Muscles"
+      ]
+    },
+    "KakaoTalk_20160410_204828224.png": {
+      "original_file": "KakaoTalk_20160410_204828224.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "어깨목뿔근 위힘살 확대 (Omohyoid Superior Belly Close-up)",
+      "existing_structures": [
+        "Omohyoid Superior Belly",
+        "Infrahyoid Muscles"
+      ]
+    },
+    "KakaoTalk_20160410_204829545.png": {
+      "original_file": "KakaoTalk_20160410_204829545.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "복장목뿔근 (Sternohyoid)",
+      "existing_structures": [
+        "Sternohyoid",
+        "Infrahyoid Muscles"
+      ]
+    },
+    "KakaoTalk_20160410_204831017.png": {
+      "original_file": "KakaoTalk_20160410_204831017.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "방패목뿔근 (Thyrohyoid)",
+      "existing_structures": [
+        "Thyrohyoid",
+        "Infrahyoid Muscles"
+      ]
+    },
+    "KakaoTalk_20160410_204832220.png": {
+      "original_file": "KakaoTalk_20160410_204832220.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "복장방패근 (Sternothyroid)",
+      "existing_structures": [
+        "Sternothyroid",
+        "Infrahyoid Muscles"
+      ]
+    },
+    "KakaoTalk_20160410_204833841.png": {
+      "original_file": "KakaoTalk_20160410_204833841.png",
+      "format": "PNG 750x1334",
+      "source": "Visible Body Atlas screenshot (KakaoTalk)",
+      "confidence": "medium",
+      "note": "Labels inferred from image_labels.json; actual labels visible in screenshot but require visual inspection",
+      "existing_label": "넓은목근 (Sternohyoid) - 전면 (Anterior View)",
+      "existing_structures": [
+        "Sternohyoid",
+        "Infrahyoid Muscles"
+      ]
+    }
+  },
+  "bs_models": {
+    "bs22": {
+      "20180410_143027.jpg": {
+        "label": "대뇌 외측면 모형 (Lateral Cerebrum Model)",
+        "structures": [
+          "전두엽 (Frontal lobe)",
+          "두정엽 (Parietal lobe)",
+          "측두엽 (Temporal lobe)",
+          "후두엽 (Occipital lobe)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS-20/22 (p.215 of lab manual). The HWP mentions: A=Cerebrum, C=Midbrain on sagittal section."
+      },
+      "20180410_143037.jpg": {
+        "label": "대뇌 정중시상면 모형 (Midsagittal Brain Model)",
+        "structures": [
+          "뇌량 (Corpus callosum)",
+          "시상 (Thalamus)",
+          "뇌간 (Brainstem)",
+          "소뇌 (Cerebellum)",
+          "뇌하수체 (Pituitary gland)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS-20/22 (p.215 of lab manual). The HWP mentions: A=Cerebrum, C=Midbrain on sagittal section."
+      },
+      "20180410_143042.jpg": {
+        "label": "뇌간/소뇌 후면 모형 (Posterior Brainstem/Cerebellum)",
+        "structures": [
+          "소뇌 (Cerebellum)",
+          "뇌교 (Pons)",
+          "연수 (Medulla oblongata)",
+          "척수 (Spinal cord)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS-20/22 (p.215 of lab manual). The HWP mentions: A=Cerebrum, C=Midbrain on sagittal section."
+      },
+      "20180410_143047.jpg": {
+        "label": "뇌간 내부구조 모형 (Internal Brainstem Model)",
+        "structures": [
+          "시상 (Thalamus)",
+          "뇌교 (Pons)",
+          "소뇌다리 (Cerebellar peduncle)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS-20/22 (p.215 of lab manual). The HWP mentions: A=Cerebrum, C=Midbrain on sagittal section."
+      },
+      "20180410_143053.jpg": {
+        "label": "뇌 내측면 - 변연계 수준 (Medial Surface: Limbic)",
+        "structures": [
+          "대상회 (Cingulate gyrus)",
+          "뇌량 (Corpus callosum)",
+          "뇌궁 (Fornix)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS-20/22 (p.215 of lab manual). The HWP mentions: A=Cerebrum, C=Midbrain on sagittal section."
+      },
+      "20180410_143107.jpg": {
+        "label": "대뇌 관상절개 모형 (Coronal Section Model)",
+        "structures": [
+          "미상핵 (Caudate nucleus)",
+          "조가비핵 (Putamen)",
+          "시상 (Thalamus)",
+          "내섬유막 (Internal capsule)",
+          "측뇌실 (Lateral ventricle)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS-20/22 (p.215 of lab manual). The HWP mentions: A=Cerebrum, C=Midbrain on sagittal section."
+      },
+      "20180410_143114.jpg": {
+        "label": "뇌간 전면 모형 (Anterior Brainstem Model)",
+        "structures": [
+          "뇌교 (Pons)",
+          "연수 (Medulla oblongata)",
+          "대뇌다리 (Cerebral peduncle)",
+          "뇌신경 (Cranial nerves)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS-20/22 (p.215 of lab manual). The HWP mentions: A=Cerebrum, C=Midbrain on sagittal section."
+      },
+      "20180410_143126.jpg": {
+        "label": "뇌 내측면 - 뇌간 수준 (Medial Surface: Brainstem Level)",
+        "structures": [
+          "시상 (Thalamus)",
+          "시상하부 (Hypothalamus)",
+          "뇌교 (Pons)",
+          "연수 (Medulla oblongata)",
+          "소뇌 (Cerebellum)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS-20/22 (p.215 of lab manual). The HWP mentions: A=Cerebrum, C=Midbrain on sagittal section."
+      },
+      "20180410_143142.jpg": {
+        "label": "대뇌 상면 모형 (Superior Brain Model)",
+        "structures": [
+          "대뇌종렬 (Longitudinal fissure)",
+          "전두엽 (Frontal lobe)",
+          "두정엽 (Parietal lobe)",
+          "중심고랑 (Central sulcus)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS-20/22 (p.215 of lab manual). The HWP mentions: A=Cerebrum, C=Midbrain on sagittal section."
+      },
+      "20180410_143148.jpg": {
+        "label": "대뇌 하면 모형 (Inferior Brain Model)",
+        "structures": [
+          "전두엽 (Frontal lobe)",
+          "측두엽 (Temporal lobe)",
+          "후두엽 (Occipital lobe)",
+          "소뇌 (Cerebellum)",
+          "뇌신경 (Cranial nerves)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS-20/22 (p.215 of lab manual). The HWP mentions: A=Cerebrum, C=Midbrain on sagittal section."
+      },
+      "20180410_143422.jpg": {
+        "label": "두부 정중시상면 모형 (Head Midsagittal Section)",
+        "structures": [
+          "대뇌 (Cerebrum)",
+          "소뇌 (Cerebellum)",
+          "뇌간 (Brainstem)",
+          "비강 (Nasal cavity)",
+          "구강 (Oral cavity)",
+          "인두 (Pharynx)",
+          "척수 (Spinal cord)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS-20/22 (p.215 of lab manual). The HWP mentions: A=Cerebrum, C=Midbrain on sagittal section."
+      },
+      "20180412_170533.jpg": {
+        "label": "대뇌 내측면 - 뇌량/대상회 (Medial: Corpus Callosum)",
+        "structures": [
+          "뇌량 (Corpus callosum)",
+          "대상회 (Cingulate gyrus)",
+          "중심고랑 (Central sulcus)",
+          "뇌궁 (Fornix)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS-20/22 (p.215 of lab manual). The HWP mentions: A=Cerebrum, C=Midbrain on sagittal section."
+      },
+      "20180412_170609.jpg": {
+        "label": "대뇌 내측면 - 시상 수준 (Medial: Thalamus Level)",
+        "structures": [
+          "시상 (Thalamus)",
+          "시상하부 (Hypothalamus)",
+          "뇌량 (Corpus callosum)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS-20/22 (p.215 of lab manual). The HWP mentions: A=Cerebrum, C=Midbrain on sagittal section."
+      },
+      "20180412_170639.jpg": {
+        "label": "뇌간 분리 모형 - 전면 (Brainstem Isolated: Anterior)",
+        "structures": [
+          "중뇌 (Midbrain)",
+          "뇌교 (Pons)",
+          "연수 (Medulla oblongata)",
+          "대뇌다리 (Cerebral peduncle)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS-20/22 (p.215 of lab manual). The HWP mentions: A=Cerebrum, C=Midbrain on sagittal section."
+      },
+      "20180412_170646.jpg": {
+        "label": "뇌간 분리 모형 - 후면 (Brainstem Isolated: Posterior)",
+        "structures": [
+          "소뇌다리 (Cerebellar peduncle)",
+          "제4뇌실바닥 (Floor of 4th ventricle)",
+          "능형오목 (Rhomboid fossa)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS-20/22 (p.215 of lab manual). The HWP mentions: A=Cerebrum, C=Midbrain on sagittal section."
+      },
+      "20180412_170727.jpg": {
+        "label": "뇌간/소뇌 후측면 모형 (Posterolateral Brainstem/Cerebellum)",
+        "structures": [
+          "소뇌 (Cerebellum)",
+          "연수 (Medulla oblongata)",
+          "뇌교 (Pons)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS-20/22 (p.215 of lab manual). The HWP mentions: A=Cerebrum, C=Midbrain on sagittal section."
+      },
+      "20180412_171127.jpg": {
+        "label": "대뇌 하면 - 뇌신경 수준 (Inferior: Cranial Nerves)",
+        "structures": [
+          "시신경 (Optic nerve)",
+          "시교차 (Optic chiasm)",
+          "동안신경 (Oculomotor nerve)",
+          "뇌교 (Pons)",
+          "연수 (Medulla oblongata)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS-20/22 (p.215 of lab manual). The HWP mentions: A=Cerebrum, C=Midbrain on sagittal section."
+      },
+      "20180412_171133.jpg": {
+        "label": "대뇌 후면 모형 (Posterior Brain Model)",
+        "structures": [
+          "후두엽 (Occipital lobe)",
+          "소뇌 (Cerebellum)",
+          "두정엽 (Parietal lobe)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS-20/22 (p.215 of lab manual). The HWP mentions: A=Cerebrum, C=Midbrain on sagittal section."
+      },
+      "20180412_171138.jpg": {
+        "label": "대뇌 외측면 - 이랑/고랑 (Lateral: Gyri & Sulci)",
+        "structures": [
+          "중심전이랑 (Precentral gyrus)",
+          "중심후이랑 (Postcentral gyrus)",
+          "가쪽고랑 (Lateral sulcus)",
+          "중심고랑 (Central sulcus)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS-20/22 (p.215 of lab manual). The HWP mentions: A=Cerebrum, C=Midbrain on sagittal section."
+      }
+    },
+    "bs5": {
+      "20180410_143641.jpg": {
+        "label": "두개저 내면 모형 (Internal Cranial Base Model)",
+        "structures": [
+          "전두개와 (Anterior cranial fossa)",
+          "중두개와 (Middle cranial fossa)",
+          "후두개와 (Posterior cranial fossa)",
+          "터키안장 (Sella turcica)",
+          "대공 (Foramen magnum)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS5 (p.210-211 of lab manual). Warning: HWP notes indicating numbering may differ between BS5 and BS5/1 models."
+      },
+      "20180410_143722.jpg": {
+        "label": "대뇌 내측면 + 동맥 (Medial Surface with Arteries)",
+        "structures": [
+          "전대뇌동맥 (Anterior cerebral artery)",
+          "뇌량 (Corpus callosum)",
+          "대상회 (Cingulate gyrus)",
+          "중심고랑 (Central sulcus)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS5 (p.210-211 of lab manual). Warning: HWP notes indicating numbering may differ between BS5 and BS5/1 models."
+      },
+      "20180410_143729.jpg": {
+        "label": "대뇌 외측면 + 동맥 (Lateral Surface with Arteries)",
+        "structures": [
+          "중대뇌동맥 (Middle cerebral artery)",
+          "가쪽고랑 (Lateral sulcus)",
+          "전두엽 (Frontal lobe)",
+          "측두엽 (Temporal lobe)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS5 (p.210-211 of lab manual). Warning: HWP notes indicating numbering may differ between BS5 and BS5/1 models."
+      },
+      "20180410_143739.jpg": {
+        "label": "대뇌 후면 + 동맥 (Posterior Surface with Arteries)",
+        "structures": [
+          "후대뇌동맥 (Posterior cerebral artery)",
+          "후두엽 (Occipital lobe)",
+          "소뇌 (Cerebellum)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS5 (p.210-211 of lab manual). Warning: HWP notes indicating numbering may differ between BS5 and BS5/1 models."
+      },
+      "20180410_143741.jpg": {
+        "label": "대뇌 상면 + 동맥 (Superior Surface with Arteries)",
+        "structures": [
+          "전대뇌동맥 (Anterior cerebral artery)",
+          "중대뇌동맥 (Middle cerebral artery)",
+          "대뇌종렬 (Longitudinal fissure)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS5 (p.210-211 of lab manual). Warning: HWP notes indicating numbering may differ between BS5 and BS5/1 models."
+      },
+      "20180410_143755.jpg": {
+        "label": "대뇌 외측면 + 동맥 확대 (Lateral with Arteries Close-up)",
+        "structures": [
+          "중대뇌동맥 (Middle cerebral artery)",
+          "가쪽고랑 (Lateral sulcus)",
+          "전두엽 (Frontal lobe)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS5 (p.210-211 of lab manual). Warning: HWP notes indicating numbering may differ between BS5 and BS5/1 models."
+      },
+      "20180410_143833.jpg": {
+        "label": "대뇌 내측면 + 동맥 하부 (Medial with Arteries: Inferior)",
+        "structures": [
+          "후대뇌동맥 (Posterior cerebral artery)",
+          "소뇌동맥 (Cerebellar artery)",
+          "뇌간 (Brainstem)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS5 (p.210-211 of lab manual). Warning: HWP notes indicating numbering may differ between BS5 and BS5/1 models."
+      },
+      "20180410_143837.jpg": {
+        "label": "대뇌 하면 + 동맥환 (Inferior with Arterial Circle)",
+        "structures": [
+          "윌리스환 (Circle of Willis)",
+          "내경동맥 (Internal carotid artery)",
+          "뇌저동맥 (Basilar artery)",
+          "전대뇌동맥 (Anterior cerebral artery)",
+          "중대뇌동맥 (Middle cerebral artery)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS5 (p.210-211 of lab manual). Warning: HWP notes indicating numbering may differ between BS5 and BS5/1 models."
+      },
+      "20180411_163747.jpg": {
+        "label": "대뇌 내측면 + 동맥 B (Medial Surface with Arteries B)",
+        "structures": [
+          "전대뇌동맥 (Anterior cerebral artery)",
+          "뇌량 (Corpus callosum)",
+          "대상회 (Cingulate gyrus)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS5 (p.210-211 of lab manual). Warning: HWP notes indicating numbering may differ between BS5 and BS5/1 models."
+      },
+      "20180411_163755.jpg": {
+        "label": "대뇌 외측면 + 동맥 B (Lateral Surface with Arteries B)",
+        "structures": [
+          "중대뇌동맥 (Middle cerebral artery)",
+          "가쪽고랑 (Lateral sulcus)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS5 (p.210-211 of lab manual). Warning: HWP notes indicating numbering may differ between BS5 and BS5/1 models."
+      },
+      "20180411_163816.jpg": {
+        "label": "대뇌 후면 + 동맥 B (Posterior with Arteries B)",
+        "structures": [
+          "후대뇌동맥 (Posterior cerebral artery)",
+          "후두엽 (Occipital lobe)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS5 (p.210-211 of lab manual). Warning: HWP notes indicating numbering may differ between BS5 and BS5/1 models."
+      },
+      "20180411_163819.jpg": {
+        "label": "대뇌 후하면 + 동맥 (Posteroinferior with Arteries)",
+        "structures": [
+          "후대뇌동맥 (Posterior cerebral artery)",
+          "소뇌동맥 (Cerebellar artery)",
+          "소뇌 (Cerebellum)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS5 (p.210-211 of lab manual). Warning: HWP notes indicating numbering may differ between BS5 and BS5/1 models."
+      },
+      "20180411_163843.jpg": {
+        "label": "대뇌 상면 + 동맥 B (Superior with Arteries B)",
+        "structures": [
+          "전대뇌동맥 (Anterior cerebral artery)",
+          "중대뇌동맥 (Middle cerebral artery)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS5 (p.210-211 of lab manual). Warning: HWP notes indicating numbering may differ between BS5 and BS5/1 models."
+      },
+      "20180411_163851.jpg": {
+        "label": "대뇌 상후면 + 동맥 (Superoposterior with Arteries)",
+        "structures": [
+          "후대뇌동맥 (Posterior cerebral artery)",
+          "두정엽 (Parietal lobe)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS5 (p.210-211 of lab manual). Warning: HWP notes indicating numbering may differ between BS5 and BS5/1 models."
+      },
+      "20180411_163900.jpg": {
+        "label": "대뇌 외측상면 + 동맥 (Laterosuperior with Arteries)",
+        "structures": [
+          "중대뇌동맥 (Middle cerebral artery)",
+          "전두엽 (Frontal lobe)",
+          "두정엽 (Parietal lobe)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS5 (p.210-211 of lab manual). Warning: HWP notes indicating numbering may differ between BS5 and BS5/1 models."
+      },
+      "20180412_165918.jpg": {
+        "label": "뇌간/소뇌 내측면 + 동맥 (Brainstem Medial with Arteries)",
+        "structures": [
+          "소뇌동맥 (Cerebellar artery)",
+          "뇌저동맥 (Basilar artery)",
+          "소뇌 (Cerebellum)",
+          "척추동맥 (Vertebral artery)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS5 (p.210-211 of lab manual). Warning: HWP notes indicating numbering may differ between BS5 and BS5/1 models."
+      },
+      "20180412_165926.jpg": {
+        "label": "뇌간 전면 + 동맥 (Brainstem Anterior with Arteries)",
+        "structures": [
+          "뇌저동맥 (Basilar artery)",
+          "척추동맥 (Vertebral artery)",
+          "뇌교 (Pons)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS5 (p.210-211 of lab manual). Warning: HWP notes indicating numbering may differ between BS5 and BS5/1 models."
+      },
+      "20180412_165934.jpg": {
+        "label": "뇌간 후면 + 동맥 (Brainstem Posterior with Arteries)",
+        "structures": [
+          "후하소뇌동맥 (PICA)",
+          "척추동맥 (Vertebral artery)",
+          "소뇌 (Cerebellum)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS5 (p.210-211 of lab manual). Warning: HWP notes indicating numbering may differ between BS5 and BS5/1 models."
+      },
+      "20180412_165942.jpg": {
+        "label": "뇌 하면 + 동맥환 확대 (Inferior with Circle of Willis Close-up)",
+        "structures": [
+          "윌리스환 (Circle of Willis)",
+          "내경동맥 (Internal carotid artery)",
+          "전교통동맥 (Anterior communicating artery)",
+          "후교통동맥 (Posterior communicating artery)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS5 (p.210-211 of lab manual). Warning: HWP notes indicating numbering may differ between BS5 and BS5/1 models."
+      },
+      "20180412_170109.jpg": {
+        "label": "대뇌 내측면 + 동맥 C (Medial with Arteries C)",
+        "structures": [
+          "전대뇌동맥 (Anterior cerebral artery)",
+          "후대뇌동맥 (Posterior cerebral artery)",
+          "뇌량 (Corpus callosum)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS5 (p.210-211 of lab manual). Warning: HWP notes indicating numbering may differ between BS5 and BS5/1 models."
+      },
+      "20180412_170119.jpg": {
+        "label": "대뇌 외측면 + 동맥 C (Lateral with Arteries C)",
+        "structures": [
+          "중대뇌동맥 (Middle cerebral artery)",
+          "가쪽고랑 (Lateral sulcus)",
+          "전두엽 (Frontal lobe)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS5 (p.210-211 of lab manual). Warning: HWP notes indicating numbering may differ between BS5 and BS5/1 models."
+      },
+      "20180412_170140.jpg": {
+        "label": "대뇌 하면 + 동맥 C (Inferior with Arteries C)",
+        "structures": [
+          "전대뇌동맥 (Anterior cerebral artery)",
+          "내경동맥 (Internal carotid artery)",
+          "뇌저동맥 (Basilar artery)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS5 (p.210-211 of lab manual). Warning: HWP notes indicating numbering may differ between BS5 and BS5/1 models."
+      },
+      "20180412_172125.jpg": {
+        "label": "대뇌 외측면 + 동맥 하방 (Lateral with Arteries: Inferior View)",
+        "structures": [
+          "중대뇌동맥 (Middle cerebral artery)",
+          "측두엽 (Temporal lobe)",
+          "전두엽 (Frontal lobe)"
+        ],
+        "confidence": "medium",
+        "note": "Labels from image_labels.json. HWP document references BS5 (p.210-211 of lab manual). Warning: HWP notes indicating numbering may differ between BS5 and BS5/1 models."
+      }
+    }
+  },
+  "summary": {
+    "total_pdf_specimens": 31,
+    "total_pdf_pins": 215,
+    "section_counts": {
+      "coronal_1C": 9,
+      "coronal_2C": 8,
+      "sagittal_S1": 4,
+      "sagittal_S2": 4,
+      "horizontal_H1": 5,
+      "hemisection": 1
+    },
+    "total_neuro_images": 31,
+    "total_bs22_images": 19,
+    "total_bs5_images": 23,
+    "total_muscle_images": 29,
+    "disagreements_found": 3,
+    "notes_count": 6
+  }
+}

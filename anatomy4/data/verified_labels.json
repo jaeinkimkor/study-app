@@ -1,0 +1,1708 @@
+{
+  "source": "neuroanatomy plate collection PDF + 2022/2021 exam answers",
+  "verified": true,
+  "extraction_date": "2026-03-24",
+  "notes": [
+    "All labels extracted from official neuroanatomy plate collection PDF (16 pages)",
+    "Cross-verified with 2022 and 2021 practical exam answers",
+    "Image mapping (IMG_7141~7171) is probable order but unverified without visual analysis"
+  ],
+  "specimens": {
+    "Hemisection": {
+      "section_type": "hemisection (midsagittal)",
+      "confidence": "high",
+      "source_page": 1,
+      "pins": {
+        "A": {
+          "en": "Cingulate gyrus",
+          "ko": "Cingulate gyrus"
+        },
+        "B": {
+          "en": "Body of corpus callosum",
+          "ko": "Body of corpus callosum"
+        },
+        "C": {
+          "en": "Splenium of corpus callosum",
+          "ko": "Splenium of corpus callosum"
+        },
+        "D": {
+          "en": "Stria terminalis",
+          "ko": "Stria terminalis"
+        },
+        "E": {
+          "en": "Body of caudate nucleus (Lateral ventricle)",
+          "ko": "Body of caudate nucleus"
+        },
+        "F": {
+          "en": "Medial thalamic nucleus",
+          "ko": "Medial thalamic nucleus"
+        },
+        "G": {
+          "en": "Hypothalamus",
+          "ko": "Hypothalamus"
+        },
+        "H": {
+          "en": "Optic chiasm",
+          "ko": "Optic chiasm"
+        },
+        "I": {
+          "en": "Pons",
+          "ko": "Pons"
+        },
+        "J": {
+          "en": "Medulla oblongata",
+          "ko": "Medulla oblongata"
+        },
+        "K": {
+          "en": "4th ventricle",
+          "ko": "4th ventricle"
+        },
+        "L": {
+          "en": "Cerebellar vermis",
+          "ko": "Cerebellar vermis"
+        },
+        "M": {
+          "en": "Spinal cord",
+          "ko": "Spinal cord"
+        },
+        "N": {
+          "en": "Parahippocampal gyrus of temporal lobe",
+          "ko": "Parahippocampal gyrus"
+        }
+      }
+    },
+    "1C-2": {
+      "section_type": "coronal (1st set, anterior)",
+      "confidence": "high",
+      "source_page": 1,
+      "pins": {
+        "A": {
+          "en": "Superior frontal gyrus",
+          "ko": "Superior frontal gyrus"
+        },
+        "B": {
+          "en": "Cingulate gyrus",
+          "ko": "Cingulate gyrus"
+        },
+        "C": {
+          "en": "Inferior frontal gyrus",
+          "ko": "Inferior frontal gyrus"
+        },
+        "D": {
+          "en": "Rectal gyrus of frontal lobe",
+          "ko": "Rectal gyrus"
+        }
+      }
+    },
+    "1C-3": {
+      "section_type": "coronal (1st set)",
+      "confidence": "high",
+      "source_page": 2,
+      "pins": {
+        "A": {
+          "en": "Radiation of corpus callosum",
+          "ko": "Radiation of corpus callosum"
+        },
+        "B": {
+          "en": "Body of corpus callosum",
+          "ko": "Body of corpus callosum"
+        },
+        "C": {
+          "en": "Rostrum of corpus callosum",
+          "ko": "Rostrum of corpus callosum"
+        },
+        "D": {
+          "en": "Head of caudate nucleus",
+          "ko": "Head of caudate nucleus"
+        },
+        "E": {
+          "en": "Putamen",
+          "ko": "Putamen"
+        },
+        "F": {
+          "en": "Superior temporal gyrus",
+          "ko": "Superior temporal gyrus"
+        }
+      }
+    },
+    "1C-4": {
+      "section_type": "coronal (1st set)",
+      "confidence": "high",
+      "source_page": 2,
+      "pins": {
+        "A": {
+          "en": "Body of corpus callosum",
+          "ko": "Body of corpus callosum"
+        },
+        "B": {
+          "en": "Head of caudate nucleus",
+          "ko": "Head of caudate nucleus"
+        },
+        "C": {
+          "en": "Internal capsule",
+          "ko": "Internal capsule"
+        },
+        "D": {
+          "en": "Claustrum",
+          "ko": "Claustrum"
+        },
+        "E": {
+          "en": "Subcallosal area",
+          "ko": "Subcallosal area"
+        },
+        "F": {
+          "en": "Putamen",
+          "ko": "Putamen"
+        },
+        "G": {
+          "en": "Amygdaloid complex",
+          "ko": "Amygdaloid complex"
+        }
+      }
+    },
+    "1C-5": {
+      "section_type": "coronal (1st set)",
+      "confidence": "high",
+      "source_page": 3,
+      "pins": {
+        "A": {
+          "en": "Body of caudate nucleus",
+          "ko": "Body of caudate nucleus"
+        },
+        "B": {
+          "en": "Internal capsule",
+          "ko": "Internal capsule"
+        },
+        "C": {
+          "en": "Putamen",
+          "ko": "Putamen"
+        },
+        "D": {
+          "en": "Globus pallidus (Lateral segment)",
+          "ko": "Globus pallidus (Lateral segment)"
+        },
+        "E": {
+          "en": "Globus pallidus (Medial segment)",
+          "ko": "Globus pallidus (Medial segment)"
+        },
+        "F": {
+          "en": "Optic tract",
+          "ko": "Optic tract"
+        },
+        "G": {
+          "en": "Pons (Basilar sulcus)",
+          "ko": "Pons (Basilar sulcus)"
+        }
+      },
+      "exam_history": [
+        {
+          "year": 2021,
+          "q": 20,
+          "pin": "E",
+          "answer": "Globus pallidus (Medial segment)"
+        }
+      ]
+    },
+    "1C-6": {
+      "section_type": "coronal (1st set)",
+      "confidence": "high",
+      "source_page": 3,
+      "pins": {
+        "A": {
+          "en": "Corona radiata",
+          "ko": "Corona radiata"
+        },
+        "B": {
+          "en": "Body of caudate nucleus",
+          "ko": "Body of caudate nucleus"
+        },
+        "C": {
+          "en": "Lateral thalamic nucleus",
+          "ko": "Lateral thalamic nucleus"
+        },
+        "D": {
+          "en": "Putamen",
+          "ko": "Putamen"
+        },
+        "E": {
+          "en": "Claustrum",
+          "ko": "Claustrum"
+        },
+        "F": {
+          "en": "Globus pallidus",
+          "ko": "Globus pallidus"
+        },
+        "G": {
+          "en": "Red nucleus",
+          "ko": "Red nucleus"
+        },
+        "H": {
+          "en": "Dentate gyrus",
+          "ko": "Dentate gyrus"
+        },
+        "I": {
+          "en": "Parahippocampal gyrus",
+          "ko": "Parahippocampal gyrus"
+        },
+        "J": {
+          "en": "Descending longitudinal fiber",
+          "ko": "Descending longitudinal fiber"
+        },
+        "K": {
+          "en": "Medullary pyramid",
+          "ko": "Medullary pyramid"
+        }
+      }
+    },
+    "1C-7": {
+      "section_type": "coronal (1st set)",
+      "confidence": "high",
+      "source_page": 4,
+      "pins": {
+        "A": {
+          "en": "Body of fornix",
+          "ko": "Body of fornix"
+        },
+        "B": {
+          "en": "Body of caudate nucleus",
+          "ko": "Body of caudate nucleus"
+        },
+        "C": {
+          "en": "Medial thalamic nucleus",
+          "ko": "Medial thalamic nucleus"
+        },
+        "D": {
+          "en": "Internal capsule",
+          "ko": "Internal capsule"
+        },
+        "E": {
+          "en": "Medial geniculate body",
+          "ko": "Medial geniculate body"
+        },
+        "F": {
+          "en": "Dentate gyrus",
+          "ko": "Dentate gyrus"
+        },
+        "G": {
+          "en": "Pons",
+          "ko": "Pons"
+        },
+        "H": {
+          "en": "Middle cerebellar peduncle",
+          "ko": "Middle cerebellar peduncle"
+        },
+        "I": {
+          "en": "Inferior olivary complex",
+          "ko": "Inferior olivary complex"
+        }
+      }
+    },
+    "1C-8": {
+      "section_type": "coronal (1st set, posterior)",
+      "confidence": "high",
+      "source_page": 4,
+      "pins": {
+        "A": {
+          "en": "Body of corpus callosum",
+          "ko": "Body of corpus callosum"
+        },
+        "B": {
+          "en": "Splenium of corpus callosum",
+          "ko": "Splenium of corpus callosum"
+        },
+        "C": {
+          "en": "Crus of fornix",
+          "ko": "Crus of fornix"
+        },
+        "D": {
+          "en": "Dentate gyrus",
+          "ko": "Dentate gyrus"
+        },
+        "E": {
+          "en": "Cerebellar vermis",
+          "ko": "Cerebellar vermis"
+        },
+        "F": {
+          "en": "Cerebellar medullary body",
+          "ko": "Cerebellar medullary body"
+        }
+      },
+      "exam_history": [
+        {
+          "year": 2022,
+          "q": 23,
+          "pin": "B",
+          "answer": "Splenium of corpus callosum"
+        },
+        {
+          "year": 2021,
+          "q": 26,
+          "pin": "C",
+          "answer": "Crus of fornix"
+        },
+        {
+          "year": 2022,
+          "q": 26,
+          "pin": "C",
+          "answer": "Crus of fornix"
+        }
+      ]
+    },
+    "1C-9": {
+      "section_type": "coronal (1st set)",
+      "confidence": "high",
+      "source_page": 5,
+      "pins": {
+        "A": {
+          "en": "Radiation of corpus callosum",
+          "ko": "Radiation of corpus callosum"
+        },
+        "B": {
+          "en": "Optic radiation",
+          "ko": "Optic radiation"
+        },
+        "C": {
+          "en": "Inferior temporal gyrus",
+          "ko": "Inferior temporal gyrus"
+        },
+        "D": {
+          "en": "Cerebellar vermis",
+          "ko": "Cerebellar vermis"
+        },
+        "E": {
+          "en": "Dentate nucleus of cerebellum",
+          "ko": "Dentate nucleus of cerebellum"
+        }
+      }
+    },
+    "1C-10": {
+      "section_type": "coronal (1st set, most posterior)",
+      "confidence": "high",
+      "source_page": 5,
+      "pins": {
+        "A": {
+          "en": "Superior parietal lobe",
+          "ko": "Superior parietal lobe"
+        },
+        "B": {
+          "en": "Lateral occipital gyrus",
+          "ko": "Lateral occipital gyrus"
+        }
+      }
+    },
+    "2C-1": {
+      "section_type": "coronal (2nd set, anterior)",
+      "confidence": "high",
+      "source_page": 6,
+      "pins": {
+        "A": {
+          "en": "Superior frontal gyrus",
+          "ko": "Superior frontal gyrus"
+        },
+        "B": {
+          "en": "Rectal gyrus",
+          "ko": "Rectal gyrus"
+        }
+      }
+    },
+    "2C-2": {
+      "section_type": "coronal (2nd set)",
+      "confidence": "high",
+      "source_page": 6,
+      "pins": {
+        "A": {
+          "en": "Cingulate gyrus",
+          "ko": "Cingulate gyrus"
+        },
+        "B": {
+          "en": "Body of corpus callosum",
+          "ko": "Body of corpus callosum"
+        },
+        "C": {
+          "en": "Head of caudate nucleus",
+          "ko": "Head of caudate nucleus"
+        },
+        "D": {
+          "en": "Claustrum",
+          "ko": "Claustrum"
+        },
+        "E": {
+          "en": "Septum pellucidum",
+          "ko": "Septum pellucidum"
+        },
+        "F": {
+          "en": "Putamen",
+          "ko": "Putamen"
+        }
+      }
+    },
+    "2C-3": {
+      "section_type": "coronal (2nd set)",
+      "confidence": "high",
+      "source_page": 7,
+      "pins": {
+        "A": {
+          "en": "Body of corpus callosum",
+          "ko": "Body of corpus callosum"
+        },
+        "B": {
+          "en": "Septum pellucidum",
+          "ko": "Septum pellucidum"
+        },
+        "C": {
+          "en": "Anterior commissure",
+          "ko": "Anterior commissure"
+        },
+        "D": {
+          "en": "Head of caudate nucleus",
+          "ko": "Head of caudate nucleus"
+        },
+        "E": {
+          "en": "Internal capsule",
+          "ko": "Internal capsule"
+        },
+        "F": {
+          "en": "Putamen",
+          "ko": "Putamen"
+        },
+        "G": {
+          "en": "Claustrum",
+          "ko": "Claustrum"
+        },
+        "H": {
+          "en": "Infundibular recess",
+          "ko": "Infundibular recess"
+        },
+        "I": {
+          "en": "Temporal lobe",
+          "ko": "Temporal lobe"
+        }
+      }
+    },
+    "2C-4": {
+      "section_type": "coronal (2nd set)",
+      "confidence": "high",
+      "source_page": 7,
+      "pins": {
+        "A": {
+          "en": "Body of corpus callosum",
+          "ko": "Body of corpus callosum"
+        },
+        "B": {
+          "en": "Septum pellucidum",
+          "ko": "Septum pellucidum"
+        },
+        "C": {
+          "en": "Body of caudate nucleus",
+          "ko": "Body of caudate nucleus"
+        },
+        "D": {
+          "en": "Internal capsule",
+          "ko": "Internal capsule"
+        },
+        "E": {
+          "en": "Putamen",
+          "ko": "Putamen"
+        },
+        "F": {
+          "en": "Globus pallidus",
+          "ko": "Globus pallidus"
+        },
+        "G": {
+          "en": "Anterior thalamic nucleus",
+          "ko": "Anterior thalamic nucleus"
+        },
+        "H": {
+          "en": "Cerebral peduncle",
+          "ko": "Cerebral peduncle"
+        },
+        "I": {
+          "en": "Third ventricle",
+          "ko": "Third ventricle"
+        },
+        "J": {
+          "en": "Mammillary body",
+          "ko": "Mammillary body"
+        },
+        "K": {
+          "en": "Middle temporal gyrus",
+          "ko": "Middle temporal gyrus"
+        },
+        "L": {
+          "en": "Parahippocampal gyrus",
+          "ko": "Parahippocampal gyrus"
+        }
+      },
+      "exam_history": [
+        {
+          "year": 2021,
+          "q": 32,
+          "pin": "L",
+          "answer": "Parahippocampal gyrus"
+        }
+      ]
+    },
+    "2C-5": {
+      "section_type": "coronal (2nd set)",
+      "confidence": "high",
+      "source_page": 8,
+      "pins": {
+        "A": {
+          "en": "Body of corpus callosum",
+          "ko": "Body of corpus callosum"
+        },
+        "B": {
+          "en": "Crus of fornix",
+          "ko": "Crus of fornix"
+        },
+        "C": {
+          "en": "Middle thalamic nucleus",
+          "ko": "Middle thalamic nucleus"
+        },
+        "D": {
+          "en": "Internal capsule",
+          "ko": "Internal capsule"
+        },
+        "E": {
+          "en": "Putamen",
+          "ko": "Putamen"
+        },
+        "F": {
+          "en": "Claustrum",
+          "ko": "Claustrum"
+        },
+        "G": {
+          "en": "Middle temporal gyrus",
+          "ko": "Middle temporal gyrus"
+        },
+        "H": {
+          "en": "Red nucleus",
+          "ko": "Red nucleus"
+        },
+        "I": {
+          "en": "Pons",
+          "ko": "Pons"
+        },
+        "J": {
+          "en": "Corticospinal fiber / Descending longitudinal fiber",
+          "ko": "Corticospinal fiber"
+        },
+        "K": {
+          "en": "Dentate gyrus",
+          "ko": "Dentate gyrus"
+        }
+      }
+    },
+    "2C-6": {
+      "section_type": "coronal (2nd set)",
+      "confidence": "high",
+      "source_page": 8,
+      "pins": {
+        "A": {
+          "en": "Cingulate gyrus",
+          "ko": "Cingulate gyrus"
+        },
+        "B": {
+          "en": "Body of corpus callosum",
+          "ko": "Body of corpus callosum"
+        },
+        "C": {
+          "en": "Crus of fornix",
+          "ko": "Crus of fornix"
+        },
+        "D": {
+          "en": "Superior colliculus",
+          "ko": "Superior colliculus"
+        },
+        "E": {
+          "en": "Dentate gyrus",
+          "ko": "Dentate gyrus"
+        },
+        "F": {
+          "en": "Cerebral aqueduct",
+          "ko": "Cerebral aqueduct"
+        },
+        "G": {
+          "en": "Inferior cerebellar peduncle",
+          "ko": "Inferior cerebellar peduncle"
+        },
+        "H": {
+          "en": "Middle cerebellar peduncle",
+          "ko": "Middle cerebellar peduncle"
+        },
+        "I": {
+          "en": "Parahippocampal gyrus",
+          "ko": "Parahippocampal gyrus"
+        },
+        "J": {
+          "en": "Pulvinar",
+          "ko": "Pulvinar"
+        },
+        "K": {
+          "en": "Insula",
+          "ko": "Insula"
+        }
+      },
+      "exam_history": [
+        {
+          "year": 2022,
+          "q": 26,
+          "pin": "C",
+          "answer": "Crus of fornix"
+        }
+      ]
+    },
+    "2C-7": {
+      "section_type": "coronal (2nd set, posterior)",
+      "confidence": "high",
+      "source_page": 9,
+      "pins": {
+        "A": {
+          "en": "Precuneus",
+          "ko": "Precuneus"
+        },
+        "B": {
+          "en": "Radiation of corpus callosum",
+          "ko": "Radiation of corpus callosum"
+        },
+        "C": {
+          "en": "Optic radiation",
+          "ko": "Optic radiation"
+        },
+        "D": {
+          "en": "Calcarine sulcus",
+          "ko": "Calcarine sulcus"
+        },
+        "E": {
+          "en": "Cerebellar vermis",
+          "ko": "Cerebellar vermis"
+        },
+        "F": {
+          "en": "Cerebellar medullary body",
+          "ko": "Cerebellar medullary body"
+        }
+      }
+    },
+    "2C-8": {
+      "section_type": "coronal (2nd set, most posterior)",
+      "confidence": "high",
+      "source_page": 9,
+      "pins": {
+        "A": {
+          "en": "Angular gyrus",
+          "ko": "Angular gyrus"
+        },
+        "B": {
+          "en": "Cerebellar hemisphere",
+          "ko": "Cerebellar hemisphere"
+        },
+        "C": {
+          "en": "Cerebellar vermis",
+          "ko": "Cerebellar vermis"
+        }
+      }
+    },
+    "S1-1": {
+      "section_type": "sagittal (1st set, medial)",
+      "confidence": "high",
+      "source_page": 10,
+      "pins": {
+        "A": {
+          "en": "Body of corpus callosum",
+          "ko": "Body of corpus callosum"
+        },
+        "B": {
+          "en": "None",
+          "ko": "None"
+        },
+        "C": {
+          "en": "Interthalamic adhesion",
+          "ko": "Interthalamic adhesion"
+        },
+        "D": {
+          "en": "Quadrigeminal plate",
+          "ko": "Quadrigeminal plate"
+        },
+        "E": {
+          "en": "Interventricular foramen",
+          "ko": "Interventricular foramen"
+        },
+        "F": {
+          "en": "Optic chiasm",
+          "ko": "Optic chiasm"
+        },
+        "G": {
+          "en": "Fastigium of 4th ventricle",
+          "ko": "Fastigium of 4th ventricle"
+        }
+      },
+      "exam_history": [
+        {
+          "year": 2022,
+          "q": 27,
+          "pin": "G",
+          "answer": "Fastigium of 4th ventricle"
+        }
+      ]
+    },
+    "S1-2": {
+      "section_type": "sagittal (1st set)",
+      "confidence": "high",
+      "source_page": 10,
+      "pins": {
+        "A": {
+          "en": "Body of corpus callosum",
+          "ko": "Body of corpus callosum"
+        },
+        "B": {
+          "en": "Ventral lateral thalamic nucleus",
+          "ko": "Ventral lateral thalamic nucleus"
+        },
+        "C": {
+          "en": "Pulvinar",
+          "ko": "Pulvinar"
+        },
+        "D": {
+          "en": "Substantia nigra",
+          "ko": "Substantia nigra"
+        },
+        "E": {
+          "en": "Optic tract",
+          "ko": "Optic tract"
+        },
+        "F": {
+          "en": "Pons (Longitudinal descending fiber)",
+          "ko": "Pons"
+        },
+        "G": {
+          "en": "Dentate nucleus",
+          "ko": "Dentate nucleus"
+        },
+        "H": {
+          "en": "Tonsil of cerebellum",
+          "ko": "Tonsil of cerebellum"
+        }
+      },
+      "exam_history": [
+        {
+          "year": 2022,
+          "q": 32,
+          "pin": "D",
+          "answer": "Substantia nigra"
+        }
+      ]
+    },
+    "S1-3": {
+      "section_type": "sagittal (1st set)",
+      "confidence": "high",
+      "source_page": 11,
+      "pins": {
+        "A": {
+          "en": "Body of corpus callosum",
+          "ko": "Body of corpus callosum"
+        },
+        "B": {
+          "en": "Head of caudate nucleus",
+          "ko": "Head of caudate nucleus"
+        },
+        "C": {
+          "en": "Body of caudate nucleus",
+          "ko": "Body of caudate nucleus"
+        },
+        "D": {
+          "en": "Putamen",
+          "ko": "Putamen"
+        },
+        "E": {
+          "en": "Internal capsule",
+          "ko": "Internal capsule"
+        },
+        "F": {
+          "en": "Medial geniculate body",
+          "ko": "Medial geniculate body"
+        },
+        "G": {
+          "en": "Middle cerebellar peduncle",
+          "ko": "Middle cerebellar peduncle"
+        }
+      }
+    },
+    "S1-4": {
+      "section_type": "sagittal (1st set, lateral)",
+      "confidence": "high",
+      "source_page": 11,
+      "pins": {
+        "A": {
+          "en": "Radiation of corpus callosum",
+          "ko": "Radiation of corpus callosum"
+        },
+        "B": {
+          "en": "Putamen",
+          "ko": "Putamen"
+        },
+        "C": {
+          "en": "Optic radiation",
+          "ko": "Optic radiation"
+        },
+        "D": {
+          "en": "Subiculum",
+          "ko": "Subiculum"
+        },
+        "E": {
+          "en": "Amygdaloid complex",
+          "ko": "Amygdaloid complex"
+        },
+        "F": {
+          "en": "Superior temporal gyrus",
+          "ko": "Superior temporal gyrus"
+        }
+      },
+      "exam_history": [
+        {
+          "year": 2022,
+          "q": 20,
+          "pin": "E",
+          "answer": "Amygdaloid complex"
+        }
+      ]
+    },
+    "S2-1": {
+      "section_type": "sagittal (2nd set, medial)",
+      "confidence": "high",
+      "source_page": 12,
+      "pins": {
+        "A": {
+          "en": "Corpus callosum",
+          "ko": "Corpus callosum"
+        },
+        "B": {
+          "en": "Fornix (Body)",
+          "ko": "Fornix (Body)"
+        },
+        "C": {
+          "en": "Interthalamic adhesion",
+          "ko": "Interthalamic adhesion"
+        },
+        "D": {
+          "en": "Quadrigeminal plate",
+          "ko": "Quadrigeminal plate"
+        },
+        "E": {
+          "en": "Anterior commissure",
+          "ko": "Anterior commissure"
+        },
+        "F": {
+          "en": "Optic chiasm",
+          "ko": "Optic chiasm"
+        },
+        "G": {
+          "en": "Fastigium of cerebellum",
+          "ko": "Fastigium of cerebellum"
+        }
+      }
+    },
+    "S2-2": {
+      "section_type": "sagittal (2nd set)",
+      "confidence": "high",
+      "source_page": 12,
+      "pins": {
+        "A": {
+          "en": "Corpus callosum (Body)",
+          "ko": "Corpus callosum (Body)"
+        },
+        "B": {
+          "en": "Ventral lateral thalamic nucleus",
+          "ko": "Ventral lateral thalamic nucleus"
+        },
+        "C": {
+          "en": "Pulvinar",
+          "ko": "Pulvinar"
+        },
+        "D": {
+          "en": "Substantia nigra",
+          "ko": "Substantia nigra"
+        },
+        "E": {
+          "en": "Optic tract",
+          "ko": "Optic tract"
+        },
+        "F": {
+          "en": "Pyramidal tract (Longitudinal fiber)",
+          "ko": "Pyramidal tract"
+        },
+        "G": {
+          "en": "Dentate nucleus",
+          "ko": "Dentate nucleus"
+        },
+        "H": {
+          "en": "Cerebellar tonsil",
+          "ko": "Cerebellar tonsil"
+        }
+      }
+    },
+    "S2-3": {
+      "section_type": "sagittal (2nd set)",
+      "confidence": "high",
+      "source_page": 13,
+      "pins": {
+        "A": {
+          "en": "Corpus callosum (Body)",
+          "ko": "Corpus callosum (Body)"
+        },
+        "B": {
+          "en": "Caudate nucleus (Head)",
+          "ko": "Caudate nucleus (Head)"
+        },
+        "C": {
+          "en": "Pulvinar",
+          "ko": "Pulvinar"
+        },
+        "D": {
+          "en": "Putamen",
+          "ko": "Putamen"
+        },
+        "E": {
+          "en": "Globus pallidus",
+          "ko": "Globus pallidus"
+        },
+        "F": {
+          "en": "Cerebellar peduncle",
+          "ko": "Cerebellar peduncle"
+        },
+        "G": {
+          "en": "Dentate nucleus",
+          "ko": "Dentate nucleus"
+        }
+      }
+    },
+    "S2-4": {
+      "section_type": "sagittal (2nd set, lateral)",
+      "confidence": "high",
+      "source_page": 13,
+      "pins": {
+        "A": {
+          "en": "Radiation of corpus callosum",
+          "ko": "Radiation of corpus callosum"
+        },
+        "B": {
+          "en": "Putamen",
+          "ko": "Putamen"
+        },
+        "C": {
+          "en": "Optic radiation (Auditory radiation)",
+          "ko": "Optic radiation"
+        },
+        "D": {
+          "en": "Subiculum",
+          "ko": "Subiculum"
+        },
+        "E": {
+          "en": "Amygdaloid complex",
+          "ko": "Amygdaloid complex"
+        },
+        "F": {
+          "en": "Superior temporal gyrus",
+          "ko": "Superior temporal gyrus"
+        }
+      }
+    },
+    "H1-1": {
+      "section_type": "horizontal (1st set, superior)",
+      "confidence": "high",
+      "source_page": 14,
+      "pins": {
+        "A": {
+          "en": "Radiation of corpus callosum (Forceps minor)",
+          "ko": "Forceps minor"
+        },
+        "B": {
+          "en": "Superior longitudinal fasciculus",
+          "ko": "Superior longitudinal fasciculus"
+        },
+        "C": {
+          "en": "Radiation of corpus callosum (Forceps major)",
+          "ko": "Forceps major"
+        },
+        "D": {
+          "en": "Body of corpus callosum",
+          "ko": "Body of corpus callosum"
+        },
+        "E": {
+          "en": "Lateral ventricle",
+          "ko": "Lateral ventricle"
+        }
+      }
+    },
+    "H1-2": {
+      "section_type": "horizontal (1st set)",
+      "confidence": "high",
+      "source_page": 14,
+      "pins": {
+        "A": {
+          "en": "Lentiform nucleus (Globus pallidus)",
+          "ko": "Lentiform nucleus"
+        },
+        "B": {
+          "en": "Posterior limb of internal capsule",
+          "ko": "Posterior limb of internal capsule"
+        },
+        "C": {
+          "en": "Medial thalamic nucleus",
+          "ko": "Medial thalamic nucleus"
+        },
+        "D": {
+          "en": "Interthalamic adhesion",
+          "ko": "Interthalamic adhesion"
+        },
+        "E": {
+          "en": "Pineal gland",
+          "ko": "Pineal gland"
+        },
+        "F": {
+          "en": "Choroid plexus of lateral ventricle",
+          "ko": "Choroid plexus of lateral ventricle"
+        },
+        "G": {
+          "en": "Lateral ventricle",
+          "ko": "Lateral ventricle"
+        }
+      },
+      "exam_history": [
+        {
+          "year": 2021,
+          "q": 23,
+          "pin": "C",
+          "answer": "Medial thalamic nucleus"
+        }
+      ]
+    },
+    "H1-3": {
+      "section_type": "horizontal (1st set)",
+      "confidence": "high",
+      "source_page": 15,
+      "pins": {
+        "A": {
+          "en": "Olfactory tract",
+          "ko": "Olfactory tract"
+        },
+        "B": {
+          "en": "Optic nerve",
+          "ko": "Optic nerve"
+        },
+        "C": {
+          "en": "Infundibulum",
+          "ko": "Infundibulum"
+        },
+        "D": {
+          "en": "Lateral ventricle",
+          "ko": "Lateral ventricle"
+        },
+        "E": {
+          "en": "Choroid plexus of lateral ventricle",
+          "ko": "Choroid plexus of lateral ventricle"
+        },
+        "F": {
+          "en": "Cerebral peduncle",
+          "ko": "Cerebral peduncle"
+        },
+        "G": {
+          "en": "Midbrain (Tegmentum)",
+          "ko": "Midbrain (Tegmentum)"
+        },
+        "H": {
+          "en": "Vermis of cerebellum",
+          "ko": "Vermis of cerebellum"
+        }
+      },
+      "exam_history": [
+        {
+          "year": 2022,
+          "q": 50,
+          "pin": "E",
+          "answer": "Choroid plexus of lateral ventricle"
+        },
+        {
+          "year": 2021,
+          "q": 50,
+          "pin": "E",
+          "answer": "Choroid plexus of lateral ventricle"
+        }
+      ]
+    },
+    "H1-4": {
+      "section_type": "horizontal (1st set, inferior)",
+      "confidence": "high",
+      "source_page": 15,
+      "pins": {
+        "A": {
+          "en": "Inferior temporal gyrus",
+          "ko": "Inferior temporal gyrus"
+        },
+        "B": {
+          "en": "Pons (Transverse fiber)",
+          "ko": "Pons (Transverse fiber)"
+        },
+        "C": {
+          "en": "4th ventricle",
+          "ko": "4th ventricle"
+        },
+        "D": {
+          "en": "Cerebellar hemisphere",
+          "ko": "Cerebellar hemisphere"
+        },
+        "E": {
+          "en": "Lingular gyrus",
+          "ko": "Lingular gyrus"
+        }
+      }
+    },
+    "H1-5": {
+      "section_type": "horizontal (1st set, most inferior)",
+      "confidence": "high",
+      "source_page": 16,
+      "pins": {
+        "A": {
+          "en": "Pyramid of medulla oblongata",
+          "ko": "Pyramid of medulla oblongata"
+        },
+        "B": {
+          "en": "Cerebellar hemisphere",
+          "ko": "Cerebellar hemisphere"
+        },
+        "C": {
+          "en": "Spinal cord",
+          "ko": "Spinal cord"
+        }
+      }
+    }
+  },
+  "exam_brain_questions": {
+    "2022": {
+      "source": "2022 exam PDF",
+      "brain_questions": [
+        {
+          "q": 18,
+          "answer": "Post. cerebral a."
+        },
+        {
+          "q": 20,
+          "specimen": "S1-4",
+          "pin": "E",
+          "answer": "Amygdaloid complex"
+        },
+        {
+          "q": 23,
+          "specimen": "1C-8",
+          "pin": "B",
+          "answer": "Splenium of corpus callosum"
+        },
+        {
+          "q": 26,
+          "specimen": "2C-6",
+          "pin": "C",
+          "answer": "Crus of fornix"
+        },
+        {
+          "q": 27,
+          "specimen": "S1-1",
+          "pin": "G",
+          "answer": "Fastigium of 4th ventricle"
+        },
+        {
+          "q": 28,
+          "answer": "Dentate gyrus",
+          "note": "coronary section"
+        },
+        {
+          "q": 29,
+          "answer": "Quadrigeminal plate",
+          "note": "sagittal section"
+        },
+        {
+          "q": 32,
+          "specimen": "S1-2",
+          "pin": "D",
+          "answer": "Substantia nigra"
+        },
+        {
+          "q": 50,
+          "specimen": "H1-3",
+          "pin": "E",
+          "answer": "Choroid plexus of lateral ventricle"
+        }
+      ],
+      "all_50_answers": [
+        {
+          "q": 1,
+          "answer": "Extensor pollicis longus m. / Radial n."
+        },
+        {
+          "q": 2,
+          "answer": "Thyrohyoid m. / C1"
+        },
+        {
+          "q": 3,
+          "answer": "Soleus m., Gastrocnemius m."
+        },
+        {
+          "q": 4,
+          "answer": "Suspensory lig. / Ovarian a."
+        },
+        {
+          "q": 5,
+          "answer": "Ant. cruciate lig."
+        },
+        {
+          "q": 6,
+          "answer": "Teres maj. m. / Lower subscapular n."
+        },
+        {
+          "q": 7,
+          "answer": "Groove for Sup. vena cava (Rt. lung)"
+        },
+        {
+          "q": 8,
+          "answer": "Rt. recurrent laryngeal n. / Vagus n."
+        },
+        {
+          "q": 9,
+          "answer": "Dorsal carpal arch / Dorsal metacarpal a."
+        },
+        {
+          "q": 10,
+          "answer": "Peroneus brevis m. / Supf. peroneal n."
+        },
+        {
+          "q": 11,
+          "answer": "Trapezius m. / Accessory n."
+        },
+        {
+          "q": 12,
+          "answer": "Peroneus longus m. / Supf. peroneal n."
+        },
+        {
+          "q": 13,
+          "answer": "Radial recurrent a. / Radial collateral a."
+        },
+        {
+          "q": 14,
+          "answer": "Abductor hallucis m. / Deep peroneal n."
+        },
+        {
+          "q": 15,
+          "answer": "Hemiazygos v. / Azygos v."
+        },
+        {
+          "q": 16,
+          "answer": "Gracilis m. / Obturator n."
+        },
+        {
+          "q": 17,
+          "answer": "Lt. gastro-omental a. / Splenic a."
+        },
+        {
+          "q": 18,
+          "answer": "Post. cerebral a."
+        },
+        {
+          "q": 19,
+          "answer": "Med. rectus m. / CN III (Rt. eye)"
+        },
+        {
+          "q": 20,
+          "answer": "Amygdaloid complex (S1-4)"
+        },
+        {
+          "q": 21,
+          "answer": "Lt. coronary a. / Lt. marginal a."
+        },
+        {
+          "q": 22,
+          "answer": "Middle colic a. / Sup. mesenteric a."
+        },
+        {
+          "q": 23,
+          "answer": "Splenium of corpus callosum (1C-8)"
+        },
+        {
+          "q": 24,
+          "answer": "Extensor digitorum brevis m. / Deep peroneal n."
+        },
+        {
+          "q": 25,
+          "answer": "Sup. epigastric a. / Int. thoracic a."
+        },
+        {
+          "q": 26,
+          "answer": "Crus of fornix (2C-6)"
+        },
+        {
+          "q": 27,
+          "answer": "Fastigium of 4th ventricle (S1-1)"
+        },
+        {
+          "q": 28,
+          "answer": "Dentate gyrus"
+        },
+        {
+          "q": 29,
+          "answer": "Quadrigeminal plate"
+        },
+        {
+          "q": 30,
+          "answer": "Deep a. of penis / Int. pudendal a."
+        },
+        {
+          "q": 31,
+          "answer": "Opponens pollicis m. / Median n."
+        },
+        {
+          "q": 32,
+          "answer": "Substantia nigra (S1-2)"
+        },
+        {
+          "q": 33,
+          "answer": "Abductor digiti minimi m. / Lateral plantar n."
+        },
+        {
+          "q": 34,
+          "answer": "Coracobrachialis m. / Musculocutaneous n."
+        },
+        {
+          "q": 35,
+          "answer": "Ilioinguinal n. / L1"
+        },
+        {
+          "q": 36,
+          "answer": "Occipital a."
+        },
+        {
+          "q": 37,
+          "answer": "Adductor magnus m. / Obturator n."
+        },
+        {
+          "q": 38,
+          "answer": "Papillary m."
+        },
+        {
+          "q": 39,
+          "answer": "Ligamentum venosum"
+        },
+        {
+          "q": 40,
+          "answer": "Supraspinatus m. / Suprascapular n."
+        },
+        {
+          "q": 41,
+          "answer": "Levator scapulae m. / Dorsal scapular a."
+        },
+        {
+          "q": 42,
+          "answer": "Extensor carpi ulnaris m. / Post. interosseous n."
+        },
+        {
+          "q": 43,
+          "answer": "Greater petrosal n."
+        },
+        {
+          "q": 44,
+          "answer": "Maj. duodenal papilla / Main pancreatic duct & Common bile duct"
+        },
+        {
+          "q": 45,
+          "answer": "Flexor carpi ulnaris m. / Ulnar n."
+        },
+        {
+          "q": 46,
+          "answer": "Extensor digitorum longus m. / Deep peroneal n."
+        },
+        {
+          "q": 47,
+          "answer": "Ant. Sup. Pancreaticoduodenal a."
+        },
+        {
+          "q": 48,
+          "answer": "Ant. tibiotalar part of deltoid lig."
+        },
+        {
+          "q": 49,
+          "answer": "Middle meningeal a. / Maxillary a."
+        },
+        {
+          "q": 50,
+          "answer": "Choroid plexus of lateral ventricle (H1-3)"
+        }
+      ]
+    },
+    "2021": {
+      "source": "2021 exam DOCX",
+      "brain_questions": [
+        {
+          "q": 18,
+          "answer": "Sup. cerebellar a."
+        },
+        {
+          "q": 20,
+          "specimen": "1C-5",
+          "pin": "E",
+          "answer": "Globus pallidus (Medial segment)"
+        },
+        {
+          "q": 23,
+          "specimen": "H1-2",
+          "pin": "C",
+          "answer": "Medial thalamic nucleus"
+        },
+        {
+          "q": 26,
+          "specimen": "1C-8",
+          "pin": "C",
+          "answer": "Crus of fornix"
+        },
+        {
+          "q": 28,
+          "answer": "Dentate gyrus",
+          "note": "horizontal section"
+        },
+        {
+          "q": 29,
+          "answer": "Inf. colliculus",
+          "note": "hemisection"
+        },
+        {
+          "q": 32,
+          "specimen": "2C-4",
+          "pin": "L",
+          "answer": "Parahippocampal gyrus"
+        },
+        {
+          "q": 49,
+          "answer": "Middle meningeal a."
+        },
+        {
+          "q": 50,
+          "specimen": "H1-3",
+          "pin": "E",
+          "answer": "Choroid plexus of lateral ventricle"
+        }
+      ]
+    }
+  },
+  "image_mapping": {
+    "note": "31 HEIC images match 31 specimen views. Probable sequential order but needs visual verification.",
+    "total_images": 31,
+    "probable_sequence": [
+      {
+        "image": "IMG_7141.HEIC",
+        "specimen": "Hemisection"
+      },
+      {
+        "image": "IMG_7142.HEIC",
+        "specimen": "1C-2"
+      },
+      {
+        "image": "IMG_7143.HEIC",
+        "specimen": "1C-3"
+      },
+      {
+        "image": "IMG_7144.HEIC",
+        "specimen": "1C-4"
+      },
+      {
+        "image": "IMG_7145.HEIC",
+        "specimen": "1C-5"
+      },
+      {
+        "image": "IMG_7146.HEIC",
+        "specimen": "1C-6"
+      },
+      {
+        "image": "IMG_7147.HEIC",
+        "specimen": "1C-7"
+      },
+      {
+        "image": "IMG_7148.HEIC",
+        "specimen": "1C-8"
+      },
+      {
+        "image": "IMG_7149.HEIC",
+        "specimen": "1C-9"
+      },
+      {
+        "image": "IMG_7150.HEIC",
+        "specimen": "1C-10"
+      },
+      {
+        "image": "IMG_7151.HEIC",
+        "specimen": "2C-1"
+      },
+      {
+        "image": "IMG_7152.HEIC",
+        "specimen": "2C-2"
+      },
+      {
+        "image": "IMG_7153.HEIC",
+        "specimen": "2C-3"
+      },
+      {
+        "image": "IMG_7154.HEIC",
+        "specimen": "2C-4"
+      },
+      {
+        "image": "IMG_7155.HEIC",
+        "specimen": "2C-5"
+      },
+      {
+        "image": "IMG_7156.HEIC",
+        "specimen": "2C-6"
+      },
+      {
+        "image": "IMG_7157.HEIC",
+        "specimen": "2C-7"
+      },
+      {
+        "image": "IMG_7158.HEIC",
+        "specimen": "2C-8"
+      },
+      {
+        "image": "IMG_7159.HEIC",
+        "specimen": "S1-1"
+      },
+      {
+        "image": "IMG_7160.HEIC",
+        "specimen": "S1-2"
+      },
+      {
+        "image": "IMG_7161.HEIC",
+        "specimen": "S1-3"
+      },
+      {
+        "image": "IMG_7162.HEIC",
+        "specimen": "S1-4"
+      },
+      {
+        "image": "IMG_7163.HEIC",
+        "specimen": "S2-1"
+      },
+      {
+        "image": "IMG_7164.HEIC",
+        "specimen": "S2-2"
+      },
+      {
+        "image": "IMG_7165.HEIC",
+        "specimen": "S2-3"
+      },
+      {
+        "image": "IMG_7166.HEIC",
+        "specimen": "S2-4"
+      },
+      {
+        "image": "IMG_7167.HEIC",
+        "specimen": "H1-1"
+      },
+      {
+        "image": "IMG_7168.HEIC",
+        "specimen": "H1-2"
+      },
+      {
+        "image": "IMG_7169.HEIC",
+        "specimen": "H1-3"
+      },
+      {
+        "image": "IMG_7170.HEIC",
+        "specimen": "H1-4"
+      },
+      {
+        "image": "IMG_7171.HEIC",
+        "specimen": "H1-5"
+      }
+    ]
+  },
+  "summary": {
+    "total_specimens": 31,
+    "total_pins": 215,
+    "unique_structures": 96,
+    "top_structures": [
+      [
+        "Body of corpus callosum",
+        13
+      ],
+      [
+        "Putamen",
+        12
+      ],
+      [
+        "Radiation of corpus callosum",
+        7
+      ],
+      [
+        "Internal capsule",
+        7
+      ],
+      [
+        "Body of caudate nucleus",
+        6
+      ],
+      [
+        "Pons",
+        6
+      ],
+      [
+        "Cerebellar vermis",
+        5
+      ],
+      [
+        "Head of caudate nucleus",
+        5
+      ],
+      [
+        "Claustrum",
+        5
+      ],
+      [
+        "Globus pallidus",
+        5
+      ],
+      [
+        "Dentate gyrus",
+        5
+      ],
+      [
+        "Cingulate gyrus",
+        4
+      ],
+      [
+        "Optic radiation",
+        4
+      ],
+      [
+        "Pulvinar",
+        4
+      ],
+      [
+        "Medial thalamic nucleus",
+        3
+      ],
+      [
+        "Optic chiasm",
+        3
+      ],
+      [
+        "Superior temporal gyrus",
+        3
+      ],
+      [
+        "Amygdaloid complex",
+        3
+      ],
+      [
+        "Optic tract",
+        3
+      ],
+      [
+        "Parahippocampal gyrus",
+        3
+      ]
+    ]
+  }
+}
