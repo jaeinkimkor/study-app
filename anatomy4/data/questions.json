@@ -3314,7 +3314,7 @@
       "4) optic vesicle의 내배엽이 밖으로 침입한다.",
       "5) lens placode와 optic vesicle이 상호작용하여 lens vesicle이 형성된다."
     ],
-    "answer": 3,
+    "answer": 5,
     "explanation": "눈과 귀의 발생에 대한 문제입니다.\n\n1) Retina가 가장 먼저 만들어지므로 sclera가 먼저라는 것은 오답입니다.\n\n2) Optic groove가 prosencephalon의 lateral side에서 생기고, neural tube가 닫히면서 optic vesicle이 됩니다.\n\n3) Iris와 ciliary body는 retina의 anterior 1/5에서 형성되므로 '뒤에서'라는 표현은 오답입니다.\n\n4) Lens placode가 안으로 함입되는 것이지, optic vesicle의 내배엽이 밖으로 침입하는 것이 아닙니다.\n\n5) Lens placode와 optic vesicle이 상호작용하여 lens vesicle이 형성됩니다. 정답.\n\n참고: 2번과 5번 모두 맞는 선지이지만, 출제 의도상 5번이 정답입니다.",
     "original_topic": "Unknown"
   },
@@ -5272,7 +5272,7 @@
       "4) 왼쪽 internal capsule",
       "5) 오른쪽 motor cortex"
     ],
-    "answer": 4,
+    "answer": 5,
     "explanation": "왼쪽 얼굴 아래 부분만 국소적으로 마비된 경우, UMN(upper motor neuron) 병변을 의미합니다.\n\n1) 오른쪽 facial n. 손상 → 오른쪽 얼굴 전체 마비 (LMN 병변)이므로 오답.\n2) 왼쪽 facial nucleus 손상 → 왼쪽 얼굴 전체(위+아래) 마비 (LMN 병변)이므로 오답.\n3) 오른쪽 facial nucleus 손상 → 오른쪽 얼굴 전체 마비이므로 오답.\n4) 왼쪽 internal capsule 손상 → 교차하므로 오른쪽 얼굴 아래가 마비되어야 하므로 오답.\n5) 오른쪽 motor cortex 손상 → corticobulbar tract이 교차하여 반대쪽(왼쪽) 얼굴 아래만 국소적으로 마비됩니다. 얼굴 위쪽은 양측 지배를 받으므로 보존됩니다. 정답.",
     "original_topic": "Unknown"
   },
@@ -6620,7 +6620,7 @@
       "3) Spinoreticulothalamic tract",
       "4) Medial lemniscus system"
     ],
-    "answer": 3,
+    "answer": 4,
     "explanation": "의식적인 사지의 위치와 움직임, 자극 위치변화는 고유감각(proprioception)을 의미합니다. 목 아래의 고유감각은 medial lemniscus system이 담당합니다.\n\n1) Ant. spinothalamic tract: 얼굴 아래의 압각과 조촉각에 관여합니다.\n2) Lat. spinothalamic tract: 얼굴 아래의 온도와 통증에 관여합니다.\n3) Spinoreticulothalamic tract: 통증과 피부감각을 전도합니다.\n4) Medial lemniscus system: 목 아래의 proprioception에 관여합니다. 정답.\n5) Trigeminothalamic pathway: 얼굴 쪽의 피부 감각을 담당합니다.",
     "original_topic": "General sense"
   },

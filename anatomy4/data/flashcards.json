@@ -4387,7 +4387,7 @@
     "topic_id": "blood_supply_brain",
     "front_ko": "CN III의 한국어 명칭과 정의는?",
     "front_en": "CN III",
-    "back": "CN III 마비 임상: 완전마비 시 - 안검하수(ptosis), 동공산대(mydriasis), 외하방 주시(down and out, LR+SO만 작동). PCA aneurysm이 CN III을 압박하면 동공 먼저 침범(부교감이 표면). 당뇨성 CN III 마비는 동공 보존(pupil-sparing, 허혈은 중심부 운동섬유만 침범).",
+    "back": "CN III 마비 임상: 완전마비 시 - 안검하수(ptosis), 동공산대(mydriasis), 외하방 주시(down and out, LR+SO만 작동). PComA (posterior communicating artery, 후교통동맥) aneurysm이 CN III을 압박하면 동공 먼저 침범(부교감이 표면). 당뇨성 CN III 마비는 동공 보존(pupil-sparing, 허혈은 중심부 운동섬유만 침범).",
     "difficulty": 2,
     "source": "yama"
   },
@@ -4729,7 +4729,7 @@
     "topic_id": "dev_nervous_system",
     "front_ko": "Glialcells (Gliablast 유래의 정의/기능은?",
     "front_en": "",
-    "back": "교세포 (Glial cells, Glioblast 유래). 교아세포(glioblast)에서 분화하는 신경계 지지세포. 성상교세포(astrocyte: BBB, 지지), 희소돌기교세포(oligodendrocyte: CNS 수초), 소교세포(microglia: 면역). 슈반세포(PNS 수초)는 신경능에서 유래.",
+    "back": "교아세포(glioblast)에서 분화: 성상교세포(astrocyte)와 희소돌기교세포(oligodendrocyte). 소교세포(microglia)는 glioblast 유래가 아니라 중배엽(mesoderm) 기원으로 난황낭 대식세포에서 유래합니다. 슈반세포(Schwann cell)는 신경릉(neural crest) 유래.",
     "difficulty": 2,
     "source": "yama"
   },
