@@ -13,7 +13,7 @@
       "5) ascending pharyngeal a."
     ],
     "answer": 4,
-    "explanation": "짤기!\n\n2.코와 입천장의 건조. 손상된 gang.은?\n답 : pterygopalatine gang.\n짤기!",
+    "explanation": "정답: 4번 costocervical trunk. Deep cervical artery는 costocervical trunk의 분지입니다. Costocervical trunk는 subclavian artery에서 기시하며, deep cervical a.와 supreme intercostal a.로 분지됩니다. 따라서 deep cervical a.의 출혈 시 그 모동맥인 costocervical trunk를 결찰하여 지혈합니다. Thyrocervical trunk(3번)은 inf. thyroid a., transverse cervical a., suprascapular a.를 분지하므로 관련이 없습니다.",
     "original_topic": "Head/Neck"
   },
   {
@@ -76,11 +76,11 @@
       "1) vagus n.와 middle cervical ggl.",
       "2) recurrent laryngeal n.과 common carotid a.",
       "3) common carotid a.와 sytmpathetic trunk",
-      "4) common carotid a.와 int. jugular n.",
+      "4) common carotid a.와 int. jugular v.",
       "5) ext. carotid a.와 ansa cervicalis"
     ],
     "answer": 4,
-    "explanation": "짤기! 보기가 다르긴 한데 해설에는 영향을 안주네요",
+    "explanation": "정답: 4번. Carotid sheath 내부에는 common carotid artery(내측), internal jugular vein(외측), vagus nerve(CN X, 두 혈관 사이 후방)가 포함됩니다. 따라서 carotid sheath에 염증이 생기면 이 세 구조물이 모두 손상될 수 있으며, 선지 중 common carotid a.와 int. jugular v.의 조합이 정답입니다.\n\nSympathetic trunk는 carotid sheath 외부(후방)에 위치하며, recurrent laryngeal n.과 ansa cervicalis는 carotid sheath 내부의 주요 구조물이 아닙니다.",
     "original_topic": "Head/Neck"
   },
   {
@@ -131,7 +131,7 @@
       "5) cavernous sinus와 연결된다."
     ],
     "answer": 3,
-    "explanation": "짤기!\n\n12. 야구선수가 공을맞아 optic canal이 손상됐다. 손상된 구조물은?\n답 -> optic n.&ophthalmic a.\n짤기!",
+    "explanation": "정답: 3번. Carotid sinus는 internal carotid artery(ICA)의 기시부에 위치한 baroreceptor(압력수용기)입니다. 혈압의 변화를 감지하여 glossopharyngeal nerve(CN IX)의 carotid sinus branch를 통해 신호를 전달합니다.\n\n1) Carotid sinus는 common carotid a.가 분지되는 부위, 즉 internal carotid a.의 시작부에 위치합니다. ext. carotid가 아닙니다. 오답.\n2) Glossopharyngeal n.(CN IX)이 지배합니다. phrenic n.이 아닙니다. 오답.\n4) Carotid sinus는 baroreceptor(압력수용기)이지 chemoreceptor(화학수용기)가 아닙니다. Chemoreceptor는 carotid body입니다. 오답.\n5) Cavernous sinus와는 연결되지 않습니다. 오답.",
     "original_topic": "Head/Neck"
   },
   {
@@ -585,7 +585,7 @@
       "5) cavernous sinus"
     ],
     "answer": 4,
-    "explanation": "짤기!\n\n7. 문제가 제대로 안살려져있네요\n2011년도 7번이랑 같다고 하니까 2011년도 7번에서 해설할게요!",
+    "explanation": "정답: 4번 sup. petrosal sinus. Superior petrosal sinus는 소뇌천막(tentorium cerebelli)의 부착 가장자리(attached margin)를 따라 주행하며, cavernous sinus의 후단과 transverse sinus(가로정맥굴)를 연결합니다.\n\n1) Straight sinus는 falx cerebri와 tentorium cerebelli의 접합부를 따라 주행하며, inf. sagittal sinus와 great cerebral vein이 합류하여 형성됩니다.\n2) Inf. sagittal sinus는 falx cerebri의 하연(inferior margin)을 따라 주행합니다.\n3) Sphenoidal sinus는 dural venous sinus가 아니라 paranasal sinus(부비동)입니다.\n5) Cavernous sinus는 sella turcica 양측에 위치하며, 여러 sinus와 연결되는 중심 구조입니다.",
     "original_topic": "Head/Neck"
   },
   {
@@ -593,7 +593,7 @@
     "year": 2012,
     "question_num": 5,
     "topic": "memory_system",
-    "question_text": "diabetes insipidus - paraventricular and supraoptic nuclei\n*. hypothermia - posterior nucleus\n59번. 알코올의존환증 자음가 주도시 파농민 도상가 승가할 능성가이 높장 부은 위는 ?",
+    "question_text": "알코올의존환자가 음주 시 도파민 농도가 상승할 가능성이 가장 높은 부위는?",
     "choices": [
       "1) VTA",
       "2) lateral hypothalamic area",
@@ -703,7 +703,7 @@
       "5) ophthalmic a., ophthalmic v."
     ],
     "answer": 3,
-    "explanation": "짤기!\n\n13번 눈은 잘 움직이며, 가까운 것은 잘 보이는데 멀리있는 것이 잘 안 보인다. 손상된구조물은?",
+    "explanation": "정답: 3번. Optic canal을 통과하는 구조물은 optic nerve(CN II)와 ophthalmic artery입니다. 따라서 optic canal이 골절되면 이 두 구조물이 손상됩니다.\n\nOphthalmic vein은 superior orbital fissure를 통과하므로 optic canal 골절과는 관련이 없습니다. Ophthalmic nerve(CN V1)도 superior orbital fissure를 통과합니다. 기억법: Optic canal = 'OO' (Optic nerve + Ophthalmic artery).",
     "original_topic": "Head/Neck"
   },
   {
@@ -737,7 +737,7 @@
       "5) tensor tympani m."
     ],
     "answer": 4,
-    "explanation": "짤기!\n\n18. jugular foramen에 fracture가 생겼을때 손상될 가능성이 있는 것은?\n13년도 14번과 동일한 보기일 것 같습니다. 그래도 모르니까 jugular foramen을 지나는구조물들의 주문을 외워봅시다!\nint. jugular v., CNⅨ, Ⅹ, Ⅺ, inf. petrosal sinus, sigmoid sinus, ascending pharyngeal a.,\noccipital a.의 meningeal br.\n\n짤기!",
+    "explanation": "정답: 4번 buccinator m. Facial nerve(CN VII)는 parotid gland 내부를 관통하며 5개의 terminal branch(temporal, zygomatic, buccal, marginal mandibular, cervical)로 분지됩니다. Buccinator muscle은 facial n.의 buccal branch가 지배하는 표정근(muscle of facial expression)입니다.\n\n1) Masseter m.는 trigeminal n.(CN V3)의 masseteric n.이 지배합니다. 저작근이므로 오답.\n2) Stylopharyngeus m.는 glossopharyngeal n.(CN IX)이 지배합니다. 오답.\n3) Ant. belly of digastric m.는 trigeminal n.(CN V3)의 mylohyoid n.이 지배합니다. 오답.\n5) Tensor tympani m.는 trigeminal n.(CN V3)이 지배합니다. 오답.",
     "original_topic": "Head/Neck"
   },
   {
@@ -2114,7 +2114,7 @@
       "5) CN II"
     ],
     "answer": 1,
-    "explanation": "짤기! 2017년 11번\n\n2013년 인체의구조 4번째블록(해부3차) 기출문제두 문제 빼고는 완전히 짤기라서 두문제만 해설할게요!",
+    "explanation": "정답: 1번 CN V1 (ophthalmic division of trigeminal nerve). 재채기(sneeze reflex)의 구심성(afferent) 경로는 비강 점막의 자극이 trigeminal nerve의 ophthalmic division(V1)을 통해 전달되는 것입니다. 비강 상부의 점막은 V1의 분지인 anterior ethmoidal nerve가 지배합니다. 이 신호가 brainstem의 sneeze center로 전달되어 횡격막, 늑간근, 후두근 등의 수축을 유발합니다.\n\n2) CN V2는 비강 하부와 상악 영역을 지배하지만, 재채기 반사의 주된 구심로는 V1입니다.\n3) CN VII(facial n.)는 표정근 운동과 미각을 담당합니다.\n4) CN IX(glossopharyngeal n.)는 인두 감각을 담당합니다.\n5) CN II(optic n.)는 시각을 담당하며 재채기와 무관합니다.",
     "original_topic": "Head/Neck"
   },
   {
@@ -2586,11 +2586,11 @@
       "1) lens는 외배엽이 두꺼워지면서 생",
       "2) sclera는 retina가 생기고 만들어",
       "3) optic vesicle은 forebrain이 함입",
-      "4) 맞는 선지입니다.",
-      "5) hyaloid a.는 출생 이후에 퇴화됩"
+      "4) Hyaloid a.는 태아기(prenatal)에 vitreous body와 lens에 혈액을 공급한다.",
+      "5) Hyaloid a.는 출생 이후에도 계속 lens에 혈액을 공급한다."
     ],
     "answer": 4,
-    "explanation": "정답: X (틀린 진술). Hyaloid artery는 태아기(prenatal)에 vitreous body와 lens에 혈액을 공급하지만, 출생 후에는 퇴화(degenerate)합니다. Optic nerve의 optic stalk 내에 존재하던 hyaloid artery는 퇴화하고 central artery of retina만 남습니다. 눈의 발생 과정: forebrain lateral side에 optic groove -> optic vesicle -> optic cup 형성 -> choroid fissure를 통해 hyaloid a. 진입 -> fissure 닫히며 retina 형성 -> hyaloid a. 퇴화, central a. of retina 잔존. @이미 문제도 내놓으셨고 문제만 맞추라고 얘기를 하시며 수업을 하셔서 기출에없는데 얘기하신 eye부분의 내용이 있어 적습니다.\n슬라이드 43\ndevelopment of retina\n- 15 -\npars optica retinae : 뒤 4/5부분 rod/cone cell과 ganglion cellpars caeca retinae : 앞 1/5부분 iris와 ciliary body 슬라이드 47\nEye abnormality\n– congenital cataract : genetic factor or 풍진(rubella)-임신 4~7주에 의해 선천성 백내장\n– coloboma iridis : choroid fissure가 안 닫힘. iris 한쪽이 패임",
+    "explanation": "정답: 4번. Hyaloid artery는 태아기(prenatal)에 vitreous body와 lens에 혈액을 공급하지만, 출생 후에는 퇴화(degenerate)합니다. 출생 후에는 central artery of retina만 남습니다. 눈의 발생 과정: forebrain lateral side에 optic groove → optic vesicle → optic cup 형성 → choroid fissure를 통해 hyaloid a. 진입 → fissure 닫히며 retina 형성 → hyaloid a. 퇴화. 1번: lens는 surface ectoderm의 lens placode에서 유래합니다. 2번: sclera는 neural crest cell에서 유래하며, retina와 독립적으로 형성됩니다. 3번: optic vesicle은 forebrain(prosencephalon)의 측벽이 바깥으로 돌출(evagination)하여 형성되며, 함입(invagination)이 아닙니다. 5번: Hyaloid a.는 출생 이후 퇴화하므로 오답입니다.",
     "original_topic": "Unknown"
   },
   {
@@ -3258,13 +3258,14 @@
     "topic": "dev_head_neck",
     "question_text": "(문제가 너무 길어서 토시로는 살리지 못하고 핵심 내용만 담았습니다)\n2세 남아가 성장이 느린 것 같아서 병원에 찾아 갔다. 병원에서 내린 진단면은 hypothyroidism이었다. 아이의thyoid gl.를 검사해본 결과 원래thyroid gl.가 있어야하는위치에는thyroid gl.가 존재하지 않고, 혀의 뒤에thyroid gl.의 조직과 유사한 조직이 발견되었다. 이런 조직은 왜 발견된 것일까?",
     "choices": [
-      "1) thyroid gl.가 만들어진 후, 하강 할 때, thyroid gl.에서 떨어져 나와서 남아있는 잔존",
-      "3) 2th pharyngeal cleft가 3번째, 4번째 pharyngeal cleft를 다 덮지 못해서 생긴 것이다.",
-      "4) Rathk's pouch에서 떨어져나온 잔존물이다",
-      "5) thyoid가 하갈 할떄 혀와 연결되어 glossothyroid duct가 사라지지 않고 남은 잔존물"
+      "1) thyroid gl.가 만들어진 후, 하강 할 때, thyroid gl.에서 떨어져 나와서 남아있는 잔존물이다.",
+      "2) thyroid gl.가 하강하지 못하고 원래 발생 위치인 foramen cecum 부근에 남아있는 것이다.",
+      "3) 2nd pharyngeal cleft가 3번째, 4번째 pharyngeal cleft를 다 덮지 못해서 생긴 것이다.",
+      "4) Rathke's pouch에서 떨어져 나온 잔존물이다.",
+      "5) thyroid가 하강할 때 혀와 연결된 thyroglossal duct가 사라지지 않고 남은 잔존물이다."
     ],
     "answer": 1,
-    "explanation": "발생과정에서의defect를 묻는 문제입니다.\n\n2)\n3) branchial fistula에 대한 설명\n4) Rathkes's pou관ch련는hypoph ysis 전엽과\n5) 일단 복원 선지의glossothyroid duct를thyroglossal duct로 바꿔야할 것 같고요 내용은 thyroglossal cyst에 대한 선지인 것 같습니다.",
+    "explanation": "정답: 1번. Thyroid gland는 발생 과정에서 foramen cecum(혀의 뒤쪽) 부위에서 기원하여 목의 정상 위치로 하강(descent)합니다. 이 환자의 경우 thyroid gland가 정상 위치에 없고 혀 뒤에서 thyroid 조직이 발견되었으므로, thyroid의 하강 과정에서 일부 조직이 떨어져 나와 원래 발생 부위 근처에 잔존한 것(ectopic thyroid tissue)입니다.\n\n2) lingual thyroid의 또 다른 설명이 될 수 있으나, '떨어져 나온 잔존물'이 더 정확합니다.\n3) Branchial fistula/cyst에 대한 설명입니다.\n4) Rathke's pouch는 anterior pituitary(뇌하수체 전엽) 발생과 관련됩니다.\n5) Thyroglossal duct cyst에 대한 설명이며, thyroid 조직 자체가 아닌 duct의 잔존입니다.",
     "original_topic": "Unknown"
   },
   {
@@ -3323,14 +3324,16 @@
     "year": 2017,
     "question_num": 85,
     "topic": "dev_head_neck",
-    "question_text": "임신 중 vitamin A를 꾸준히 섭취한 여성이 출산을 했을 때 눈 사이가 멀고 저칼슘혈증, 뒤쪽 구개의 갈라짐(cleft), 잦은 질환, 심장질환 등 다양한 기형을 보였을 때 맞는설명을 고르시오.\n1) 눈 사이가 먼 것은optic vesicle\n2) 저칼슘혈증의 원인은thyroid gl.가 형성될 때parafollicular cell의 이동이 제대로 되지않았기 때문이다.\n3) 뒤쪽 구개 갈라짐은occipital somite가 이 원인이다.\n4) 심장질환은ventricular septal defect가 원인이 되는 질환이 많다.\n5) 잦은 질환으로thymus 선지2개만 생각이 나고 나머지는 키워드만 생각이 남답은4 or 5 (기해 제작자 생각5번)\n해설작년에 탈기로 나왔던 문제라는데 올해 비슷하게 나왔습니다Digeorge anomaly에 관한내용입니다. neural crest cell이alcohol, vitamin A, 엄마의 당뇨에 취약하여 발생하는\n- 10 -\ndefect입니다.\n1) 눈 사이의 거리에 대한 내용은 잘 모르겠네요..\n2) 저칼슘혈증의 원인은parathyroid gl.발생에 문제입니다. 선지대로parafollicular cell 문제가 생긴다면calcitonin이 제대로 분비되지 않고 그렇다면 오히려 고칼슘혈증이 생기겠할 역 는 낮추 도를 농 칼슘 중 혈 죠?(c alcitonin은 )\n3) 구개의 발생은neural crest cell과mesenchyme과 관련있습니다.\n4) 사실 이것도 정확치는 않지만Digeorge syndrome을 검색했을 때 심장관련defect 여러개가 나오고5번이 너무나 확실하여 답을5번으로 결정하였습니다.\n5) 잦은 질환이라는 내용을 통해immune deficiency를 생각할 수 있고 그와 관련된 thymus에 대한 내용이 맞을 것 같습니다.(비록 복기가 거의 안 되어 있지만..)\n-------------------------------------------------------------------------------------------------------\n두경부의 발생 기원은?",
+    "question_text": "임신 중 vitamin A를 과다 섭취한 여성이 출산을 했을 때 눈 사이가 멀고 저칼슘혈증, 뒤쪽 구개의 갈라짐(cleft), 잦은 감염, 심장질환 등 다양한 기형을 보였다. 다음 중 맞는 설명을 고르시오.",
     "choices": [
-      "1) 2.",
-      "3) post. meninges: paraxial mesoderm",
-      "4) 5."
+      "1) 눈 사이가 먼 것은 optic vesicle의 이상 때문이다.",
+      "2) 저칼슘혈증의 원인은 thyroid gl. 형성 시 parafollicular cell의 이동 이상 때문이다.",
+      "3) posterior meninges는 paraxial mesoderm에서 유래한다.",
+      "4) 심장질환은 ventricular septal defect가 원인이 되는 질환이 많다.",
+      "5) (선지 미확인)"
     ],
     "answer": 3,
-    "explanation": "답은3이라는데 다른 보기들을 못 살려와서 모르겠네요 하지만 이것도82번처럼항상 묻는 것이라 그림 외워주시면 되겠습니다.\na. Paraxial mesoderm (somite+somitomere) : skull base, part of occipital region,\nvoluntary mm. of head/neck, dorsal region of head (dermis, connective tissue), post.\nmeninges (caudal to prosen-cephalon) - 한마디로 정리하면head/neck의 뒤쪽과의 수의\n- 11 -\n근을 형성합니다.\nb. Lat. plate mesoderm : laryngeal cartilage (arytenoid, cricoid) & surroundingconnective tissue - laryngeal cartilage와 그 주변 결합조직을 형성합니다.\nc. Neural crest cells(migrated into pharyngeal arch) : midfacial & pharyngeal archskeletal structures, surrounding tissues (cartilage, bone, dentin, tendon, dermis, piaetc.) -만 n들e어ur집al 니crest c ell이phary이ng주ea하l 여arch 방향 (ventral 방향)으로다. 얼굴중의 앙과 pharyngeal a뼈의r c구대h 조주그와 구변 조들형을 성합니다 .\nd. Ectodermal placodes(with neural crest cells) : cranial sensory ganglia (CN. V, VII, IX,\nX : trigeminal & epibrachial placode) - 외배엽이 두꺼워진placode들이migration되어 온 neural crest cell과 함께CN V, VII, IX, X의 감각신경절을 형성(general sense+약간의 special sense)합니다.",
+    "explanation": "정답: 3번. Posterior meninges(후뇌막)는 paraxial mesoderm(somite + somitomere)에서 유래합니다.\n\nParaxial mesoderm의 유래 구조: skull base, occipital region 일부, head/neck의 수의근(voluntary muscles), head의 dorsal region(dermis, connective tissue), posterior meninges(caudal to prosencephalon).\n\nLateral plate mesoderm: laryngeal cartilage(arytenoid, cricoid)와 주변 결합조직.\n\nNeural crest cells: pharyngeal arch에 이주하여 facial skeleton, anterior meninges, conotruncal septum(심장) 등을 형성합니다. 이 환자의 증상들(저칼슘혈증, cleft palate, 심장기형, 면역결핑)은 neural crest cell의 이동 이상과 관련된 DiGeorge syndrome 양상입니다.",
     "original_topic": "Unknown"
   },
   {
@@ -3745,16 +3748,16 @@
     "year": 2018,
     "question_num": 66,
     "topic": "neck",
-    "question_text": "다음 중 맞는 것을 고르시오\n1) inf.thyroid a.가 ext.carotid a.에서 나와서 thyroid gl.로 간다.\n2) ant.jugular v.은 facial v.에서 나와서 int.jugular v.로 들어간다.\n3) vagus n.는 ext.carotid a.와 int.jugular v.사이를 지나간다.\n4) ext.jugular v.은 retromandibular v.과 post. auricular v.이 합쳐져서 만들어진다.\n5) ascending cervical a.는 costocervical trunk에서 나온다.\n1) inf. thyroid a.는 subclavian a.의 분지인 thyrocervical trunk에서 나온다.\n2) int. jugular v.이 아닌 ext. jugular v.으로 들어감\n3) vagus n.는 int. carotid a.와 int. jugular v. 사이를 지난다.\n4) 정답!\n5) ascending cervical a.는 inf. thyroid a.의 분지이므로 costocervical trunk가 아닌 thyrocervical trunk에서 나온다.\n-------------------------------------------------------------------------------------------------------\n2017년 Head&Neck 기출문제은명설 은옳 (탈중다) 1.음 ?",
+    "question_text": "다음 중 맞는 것을 고르시오.",
     "choices": [
-      "1) Ansa subclavia가 middle cervical ggl.에서 나와 subclavian a. 를 감고 간다.",
-      "2) Cervical plexus가 levator scpulae m.과 middle scalene m.의 안쪽을 지나고 SCM m.의",
-      "3) 복기실패",
-      "4) Suprascapular n.가 brachial pl.의 inf. trunk에서 나와서 supraspinatus m.과 infraspinatus",
-      "5) Tympanic n.가 glossopharyngeal n.에서 나와서 lesser petrosal n.의 교감신경성분이 된다."
+      "1) inf.thyroid a.가 ext.carotid a.에서 나와서 thyroid gl.로 간다.",
+      "2) ant.jugular v.은 facial v.에서 나와서 int.jugular v.로 들어간다.",
+      "3) vagus n.는 ext.carotid a.와 int.jugular v.사이를 지나간다.",
+      "4) ext.jugular v.은 retromandibular v.과 post. auricular v.이 합쳐져서 만들어진다.",
+      "5) ascending cervical a.는 costocervical trunk에서 나온다."
     ],
-    "answer": 2,
-    "explanation": "neck 쪽의 신경들이 어디서 나오고 어느 위치에 있는지를 다 외워야 풀 수 있는 문제입니다. 피피티나에 있와 신는 경대에 설한 명그이 대선로 지나에 왔네요 다시음험 이엔 번선에 .\n지로 나온 신경들 말고도 다른 신경들에 대한 것들이 나올 수 있으므로 김지은 교수님 피피티 신경파트는 꼭 읽어보시기 바랍니다! (김지은 교수님은 피피티 참공부가 답인 것 같네요.\n시간 없으신 분들은 어쩔 수 없지만...)\n1)ansa subclavia: mid. cervical gang.와 inf. cervical gang.를 연결하는 줄기로 subclavian a.\n를 감고 돌아 두 신경절을 연결함.\n\n2)Cervical pl.: C1-C4의 anterior rami가 levator scapulae & middle scalene m.의 안쪽에서 SCM의 깊은 곳에 위치함. 따라서 정답!\n\n3)복기 실패\n4)inf. trunk가 아니라 sup. trunk 이므로 틀린 선지입니다\n\n5)교감 성분이 아닌 부교감성분입니다. 교감성분은 carotico-tympanic n.가 구성합니다.\n사실 1번이 틀렸다고 보기는 힘들지만 더 확실한 선지인 2번을 정답으로 하는 것이 맞다고 생각합니다. 만약에 다른 확실한 답이 없다면 1번이 정답!\n\n것은 가는 로 과 중 분지 (탈S의) u2t.pe fm. poar .al massemte .r parogt li.d ?",
+    "answer": 4,
+    "explanation": "정답: 4번. External jugular vein은 retromandibular vein의 posterior division과 posterior auricular vein이 합쳐져서 형성됩니다.\n\n1) inf. thyroid a.는 thyrocervical trunk(subclavian a.의 분지)에서 나옵니다. ext. carotid a.에서 나오는 것은 sup. thyroid a.입니다. 오답.\n2) ant. jugular v.은 submental region의 superficial vein들이 합쳐져 형성되며, ext. jugular v. 또는 subclavian v.으로 들어갑니다. 오답.\n3) vagus n.는 common carotid a.와 int. jugular v. 사이를 지나갑니다. ext. carotid a.가 아닙니다. 오답.\n5) ascending cervical a.는 thyrocervical trunk의 분지인 inf. thyroid a.에서 나옵니다. costocervical trunk이 아닙니다. 오답.",
     "original_topic": "Head/Neck"
   },
   {
@@ -3788,7 +3791,7 @@
       "5) Kiesselbach area는 코의 가쪽측에서 5개의 동맥이 문합한다."
     ],
     "answer": 1,
-    "explanation": "1) lesser palatine a. 는m axillary a. 의 분지는 맞지만 코로 들어가지 않아. 요 이게 작년에는코로 들어간다고 나와서 틀린 보기였습니다.\n\n2)Kiesselbach area 는 코 내측에 있습니다.\n\n3)greater?\n\n4)코 안 정맥얼기는 폐로 들어가는 공기를 따뜻하게 데워주는 역할을 합니다.\n\n5)Kiesselbach area는 nasal septum의 앞쪽에서 5개 artery가 모두 문합하는 곳이고 nasal\n- 21 -\nseptum이면 코의 가운데니까 가쪽이 아니라 내측입니다.\n코 쪽 arterial supply는 ①ant. ethmoidal a.(from ophthalmic a.), ②post. ethmoidal a.(fromophthalmic a.), ③sphenopalatine a.(from maxillary a.), ④greater palatine a.(from maxillarya.), ⑤septal br. of sup. labial a.(from facial a.)의 5개 aa.가 담당합니다.",
+    "explanation": "정답: 1번. Lesser palatine artery는 maxillary artery의 분지인 descending palatine artery에서 나오므로, maxillary artery에서 분지된다는 설명은 맞습니다.\n\n2) Kiesselbach area는 코의 가쪽(lateral wall)이 아니라 nasal septum의 전하방(anteroinferior)에 위치합니다. 오답.\n3) 선지 내용 불완전(greater?).\n4) 코 안 정맥얼기(venous plexus)는 흡입 공기를 따뜻하게 데워주는 역할을 합니다. '시원하게' 해준다는 것은 오답.\n5) Kiesselbach area는 nasal septum(코 중격)의 전방에 위치하며, 코의 가쪽(lateral)이 아닌 내측(medial)입니다. 이곳에서 5개의 동맥(ant. ethmoidal a., post. ethmoidal a., sphenopalatine a., greater palatine a., septal br. of sup. labial a.)이 문합합니다. 오답.",
     "original_topic": "Mouth/Nose/Ear/Pharynx/Larynx"
   },
   {
@@ -4374,15 +4377,16 @@
     "year": 2019,
     "question_num": 45,
     "topic": "higher_cns_functions",
-    "question_text": "환자가 말은 정상으로 하나 글을 쓰지 못하였다. 손상 되었을 부위로 가장 적절한 것은? 1) 39",
+    "question_text": "환자가 말은 정상으로 하나 글을 쓰지 못하였다. 손상되었을 부위로 가장 적절한 Brodmann area는?",
     "choices": [
+      "1) 39",
       "2) 40",
       "3) 41",
       "4) 42",
       "5) 43"
     ],
     "answer": 1,
-    "explanation": "짤기!\nAngular gyrus에 문제가 있는 경우입니다.\n-Agraphia (쓰기언어장애): 말은 정상적으로 하나 글을 쓰지 못함. Angular gyrus 손상시 주로 나타남. 이라고 ppt에 나와 있습니다.",
+    "explanation": "정답: 1번 (Brodmann area 39, angular gyrus). Angular gyrus 손상 시 agraphia(쓰기언어장애)가 나타나며, 말은 정상적으로 하지만 글을 쓰지 못합니다. Angular gyrus는 Wernicke's area 인접 부위로 언어의 시각적 처리와 쓰기에 중요한 역할을 합니다.\n\n2) Area 40 (supramarginal gyrus): 읽기와 관련.\n3) Area 41: primary auditory cortex.\n4) Area 42: auditory association cortex.\n5) Area 43: gustatory cortex(미각).",
     "original_topic": "Unknown"
   },
   {
@@ -4392,6 +4396,7 @@
     "topic": "higher_cns_functions",
     "question_text": "뇌졸중 후 말을 이해하지 못하며, 듣기, 읽기, 말따라하기 등에 장애를 나타내었다. 손상 가능성",
     "choices": [
+      "1) 21",
       "2) 22",
       "3) 42",
       "4) 43",
@@ -5186,10 +5191,11 @@
     "topic": "sensory_system",
     "question_text": "Anterolateral pathway와 변연계를 연결하는 시상핵은?",
     "choices": [
-      "1) AT2. DMN",
-      "3) VA",
-      "4) VPL",
-      "5) VPM"
+      "1) Anterior nuclear group",
+      "2) DMN (Dorsomedial nucleus)",
+      "3) VA (Ventral anterior nucleus)",
+      "4) VPL (Ventral posterolateral nucleus)",
+      "5) VPM (Ventral posteromedial nucleus)"
     ],
     "answer": 2,
     "explanation": "pain을 느낄 시에 anterolateral system은 두 곳으로 나눠져 신호를 전달합니다. primarysomatosensory로 가는 lateral system과 limbic system으로 가는 medial system으로 나뉩니다.\nanterolateral system과 lateral system을 연결하는 시상핵은 VPL 또는 VPM이고, anterolateral system과 medial system을 연결하는 시상핵은 DMN입니다. 변연계로 간 통증 정보는 통증에대한 감정, 기억을 형성하는 작용을 합니다.",
@@ -7122,8 +7128,8 @@
       "4) K 앞으로는 carotid a.가 지나간다.",
       "5) 이 그림의 앞쪽으로는 pharyngotympanic tube가 위치한다."
     ],
-    "answer": 4,
-    "explanation": "중이(tympanic cavity)의 구조에 관한 문제입니다.\n\n1) B는 Chorda tympani n.으로 Facial n.의 분지입니다. 사실이지만 문제에서 묻는 '옮은 것'과의 관계를 확인해야 합니다.\n\n2) Jugular v.은 Jugular wall(2번 벽) 아래로 지나갑니다. 위쪽이 아닙니다. 오답.\n\n3) E(Stapedius) 앞으로 Facial n.가 지나가긴 하지만, innervation과는 구별해야 합니다. 오답.\n\n4) K는 posterior wall의 구성 성분이며, carotid a.는 anterior wall(carotid wall) 앞으로 지나갑니다. 오답.\n\n5) 이 그림의 앞쪽(anterior carotid wall) 앞에 유스타키오관(pharyngotympanic tube)이 위치합니다. 정답.",
+    "answer": 5,
+    "explanation": "정답: 5번. 중이(tympanic cavity)의 구조에 관한 문제입니다.\n\n5) Pharyngotympanic tube(유스타키오관)는 중이의 anterior wall(carotid wall) 앞쪽에 위치합니다. 정답.\n\n1) B가 chorda tympani n.이며 facial n.의 분지인 것은 사실이나, 문제의 그림 맥락에서 B의 식별이 정확한지 확인이 필요합니다.\n2) Jugular v.은 중이의 jugular wall(floor) 아래로 지나갑니다. 위쪽이 아닙니다. 오답.\n3) Stapedius m.은 facial n.의 분지(nerve to stapedius)가 지배하지만, 선지의 'E'가 stapedius를 가리키는지 그림 확인이 필요합니다.\n4) Carotid a.는 anterior wall(carotid wall) 뒤쪽(medial)에 위치하며, K(posterior wall 구성)의 앞이 아닙니다. 오답.",
     "original_topic": "Mouth/Nose/Ear/Pharynx/Larynx"
   },
   {

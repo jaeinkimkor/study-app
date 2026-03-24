@@ -6014,7 +6014,7 @@
   {
     "front_ko": "혀의 부교감 secretomotor fiber는 어떤 뇌신경에서 유래하는가?",
     "front_en": "Parasympathetic secretomotor fibers of tongue",
-    "back": "CN VII (Facial n.) & CN IX (Glossopharyngeal n.) - 혀의 작은 serous gland에 분포",
+    "back": "CN VII (Facial n.)의 greater petrosal nerve → pterygopalatine ganglion을 거쳐 비강(nasal cavity)의 serous gland에 부교감 분비 섬유를 공급합니다. CN IX는 이하선(parotid gland)에만 부교감 섬유를 제공하며 비강과는 무관합니다.",
     "difficulty": 2,
     "id": 669,
     "topic_id": "mouth_nose",
@@ -6059,7 +6059,7 @@
   {
     "front_ko": "Styloglossus m.의 작용은?",
     "front_en": "Action of styloglossus m.",
-    "back": "혀를 들임(genioglossus와 함께), 혀를 올림(palatoglossus와 함께). 기시: styloid process",
+    "back": "혀를 후방으로 당김(retraction). Genioglossus(혀 돌출)와 길항(antagonist) 관계. 기시: styloid process of temporal bone, 정지: 혀의 측면. CN XII(hypoglossal n.) 지배.",
     "difficulty": 2,
     "id": 674,
     "topic_id": "mouth_nose",
