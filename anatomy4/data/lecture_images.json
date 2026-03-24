@@ -6552,6 +6552,675 @@
           "type": "embedded"
         }
       ]
+    },
+    {
+      "id": "ear_pharynx_larynx_kimmj",
+      "professor": "김민주",
+      "title": "Ear, Pharynx, Larynx",
+      "folder": "kimmj/ear_pharynx_larynx",
+      "totalPages": 48,
+      "images": [
+        {
+          "filename": "slide_01.jpg",
+          "page": 1,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_02.jpg",
+          "page": 2,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_03.jpg",
+          "page": 3,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_04.jpg",
+          "page": 4,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_05.jpg",
+          "page": 5,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_06.jpg",
+          "page": 6,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_07.jpg",
+          "page": 7,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_08.jpg",
+          "page": 8,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_09.jpg",
+          "page": 9,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_10.jpg",
+          "page": 10,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_11.jpg",
+          "page": 11,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_12.jpg",
+          "page": 12,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_13.jpg",
+          "page": 13,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_14.jpg",
+          "page": 14,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_15.jpg",
+          "page": 15,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_16.jpg",
+          "page": 16,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_17.jpg",
+          "page": 17,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_18.jpg",
+          "page": 18,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_19.jpg",
+          "page": 19,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_20.jpg",
+          "page": 20,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_21.jpg",
+          "page": 21,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_22.jpg",
+          "page": 22,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_23.jpg",
+          "page": 23,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_24.jpg",
+          "page": 24,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_25.jpg",
+          "page": 25,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_26.jpg",
+          "page": 26,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_27.jpg",
+          "page": 27,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_28.jpg",
+          "page": 28,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_29.jpg",
+          "page": 29,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_30.jpg",
+          "page": 30,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_31.jpg",
+          "page": 31,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_32.jpg",
+          "page": 32,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_33.jpg",
+          "page": 33,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_34.jpg",
+          "page": 34,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_35.jpg",
+          "page": 35,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_36.jpg",
+          "page": 36,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_37.jpg",
+          "page": 37,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_38.jpg",
+          "page": 38,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_39.jpg",
+          "page": 39,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_40.jpg",
+          "page": 40,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_41.jpg",
+          "page": 41,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_42.jpg",
+          "page": 42,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_43.jpg",
+          "page": 43,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_44.jpg",
+          "page": 44,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_45.jpg",
+          "page": 45,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_46.jpg",
+          "page": 46,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_47.jpg",
+          "page": 47,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_48.jpg",
+          "page": 48,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        }
+      ]
+    },
+    {
+      "id": "mouth_nose_kimmj",
+      "professor": "김민주",
+      "title": "Mouth & Nose",
+      "folder": "kimmj/mouth_nose",
+      "totalPages": 45,
+      "images": [
+        {
+          "filename": "slide_01.jpg",
+          "page": 1,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_02.jpg",
+          "page": 2,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_03.jpg",
+          "page": 3,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_04.jpg",
+          "page": 4,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_05.jpg",
+          "page": 5,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_06.jpg",
+          "page": 6,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_07.jpg",
+          "page": 7,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_08.jpg",
+          "page": 8,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_09.jpg",
+          "page": 9,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_10.jpg",
+          "page": 10,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_11.jpg",
+          "page": 11,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_12.jpg",
+          "page": 12,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_13.jpg",
+          "page": 13,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_14.jpg",
+          "page": 14,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_15.jpg",
+          "page": 15,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_16.jpg",
+          "page": 16,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_17.jpg",
+          "page": 17,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_18.jpg",
+          "page": 18,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_19.jpg",
+          "page": 19,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_20.jpg",
+          "page": 20,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_21.jpg",
+          "page": 21,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_22.jpg",
+          "page": 22,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_23.jpg",
+          "page": 23,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_24.jpg",
+          "page": 24,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_25.jpg",
+          "page": 25,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_26.jpg",
+          "page": 26,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_27.jpg",
+          "page": 27,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_28.jpg",
+          "page": 28,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_29.jpg",
+          "page": 29,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_30.jpg",
+          "page": 30,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_31.jpg",
+          "page": 31,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_32.jpg",
+          "page": 32,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_33.jpg",
+          "page": 33,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_34.jpg",
+          "page": 34,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_35.jpg",
+          "page": 35,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_36.jpg",
+          "page": 36,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_37.jpg",
+          "page": 37,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_38.jpg",
+          "page": 38,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_39.jpg",
+          "page": 39,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_40.jpg",
+          "page": 40,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_41.jpg",
+          "page": 41,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_42.jpg",
+          "page": 42,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_43.jpg",
+          "page": 43,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_44.jpg",
+          "page": 44,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        },
+        {
+          "filename": "slide_45.jpg",
+          "page": 45,
+          "width": 2000,
+          "height": 1500,
+          "type": "slide"
+        }
+      ]
     }
   ]
 }
