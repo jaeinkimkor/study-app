@@ -2,417 +2,920 @@
   "neuro": {
     "IMG_7141.jpg": {
       "label": "B-13 뇌 시상면 (Sagittal Brain Section)",
-      "structures": ["시상 (Thalamus)", "뇌량 (Corpus callosum)", "소뇌 (Cerebellum)", "뇌간 (Brainstem)", "측뇌실 (Lateral ventricle)", "미상핵 (Caudate nucleus)", "렌즈핵 (Lentiform nucleus)"]
+      "structures": [
+        "시상 (Thalamus)",
+        "뇌량 (Corpus callosum)",
+        "소뇌 (Cerebellum)",
+        "뇌간 (Brainstem)",
+        "측뇌실 (Lateral ventricle)",
+        "미상핵 (Caudate nucleus)",
+        "렌즈핵 (Lentiform nucleus)"
+      ]
     },
     "IMG_7142.jpg": {
       "label": "B-12 뇌 시상면 (Sagittal Brain Section)",
-      "structures": ["뇌량 (Corpus callosum)", "측뇌실 (Lateral ventricle)", "미상핵 (Caudate nucleus)", "시상 (Thalamus)", "해마 (Hippocampus)", "내섬유막 (Internal capsule)"]
+      "structures": [
+        "뇌량 (Corpus callosum)",
+        "측뇌실 (Lateral ventricle)",
+        "미상핵 (Caudate nucleus)",
+        "시상 (Thalamus)",
+        "해마 (Hippocampus)",
+        "내섬유막 (Internal capsule)"
+      ]
     },
     "IMG_7143.jpg": {
       "label": "B-11 뇌 시상면 (Sagittal Brain Section)",
-      "structures": ["시상 (Thalamus)", "소뇌 (Cerebellum)", "조가비핵 (Putamen)", "담창구 (Globus pallidus)", "편도체 (Amygdala)"]
+      "structures": [
+        "시상 (Thalamus)",
+        "소뇌 (Cerebellum)",
+        "조가비핵 (Putamen)",
+        "담창구 (Globus pallidus)",
+        "편도체 (Amygdala)"
+      ]
     },
     "IMG_7144.jpg": {
       "label": "B-11 뇌 시상면 변형절 (Sagittal Variant)",
-      "structures": ["소뇌 (Cerebellum)", "뇌간 (Brainstem)", "뇌교 (Pons)", "대뇌다리 (Cerebral peduncle)", "측두엽 (Temporal lobe)"]
+      "structures": [
+        "소뇌 (Cerebellum)",
+        "뇌간 (Brainstem)",
+        "뇌교 (Pons)",
+        "대뇌다리 (Cerebral peduncle)",
+        "측두엽 (Temporal lobe)"
+      ]
     },
     "IMG_7145.jpg": {
       "label": "B-12 뇌 시상면 - 시상/해마 수준 (Thalamus/Hippocampus Level)",
-      "structures": ["뇌량 (Corpus callosum)", "미상핵 (Caudate nucleus)", "시상 (Thalamus)", "해마 (Hippocampus)", "소뇌 (Cerebellum)", "뇌간 (Brainstem)", "내섬유막 (Internal capsule)"]
+      "structures": [
+        "뇌량 (Corpus callosum)",
+        "미상핵 (Caudate nucleus)",
+        "시상 (Thalamus)",
+        "해마 (Hippocampus)",
+        "소뇌 (Cerebellum)",
+        "뇌간 (Brainstem)",
+        "내섬유막 (Internal capsule)"
+      ]
     },
     "IMG_7146.jpg": {
       "label": "B-13 뇌 시상면 - 기저핵 수준 (Basal Ganglia Level)",
-      "structures": ["시상 (Thalamus)", "조가비핵 (Putamen)", "담창구 (Globus pallidus)", "소뇌 (Cerebellum)", "내섬유막 (Internal capsule)"]
+      "structures": [
+        "시상 (Thalamus)",
+        "조가비핵 (Putamen)",
+        "담창구 (Globus pallidus)",
+        "소뇌 (Cerebellum)",
+        "내섬유막 (Internal capsule)"
+      ]
     },
     "IMG_7147.jpg": {
       "label": "B-14 뇌 시상면 - 내섬유막 수준 (Internal Capsule Level)",
-      "structures": ["뇌량 (Corpus callosum)", "미상핵 (Caudate nucleus)", "내섬유막 (Internal capsule)", "시상 (Thalamus)", "소뇌 (Cerebellum)"]
+      "structures": [
+        "뇌량 (Corpus callosum)",
+        "미상핵 (Caudate nucleus)",
+        "내섬유막 (Internal capsule)",
+        "시상 (Thalamus)",
+        "소뇌 (Cerebellum)"
+      ]
     },
     "IMG_7148.jpg": {
       "label": "B-14 뇌 시상면 - 측뇌실 수준 (Lateral Ventricle Level)",
-      "structures": ["뇌량 (Corpus callosum)", "미상핵 (Caudate nucleus)", "측뇌실 (Lateral ventricle)", "시상 (Thalamus)", "해마 (Hippocampus)"]
+      "structures": [
+        "뇌량 (Corpus callosum)",
+        "미상핵 (Caudate nucleus)",
+        "측뇌실 (Lateral ventricle)",
+        "시상 (Thalamus)",
+        "해마 (Hippocampus)"
+      ]
     },
     "IMG_7149.jpg": {
-      "label": "H1-2 뇌 수평면 - 기저부 수준 (Horizontal: Brain Base)",
-      "structures": ["전두엽 (Frontal lobe)", "시교차 (Optic chiasm)", "대뇌다리 (Cerebral peduncle)", "후두엽 (Occipital lobe)", "소뇌 (Cerebellum)", "측두엽 (Temporal lobe)", "뇌교 (Pons)"]
+      "label": "H1-3 뇌 수평면 - 기저핵 수준 (Horizontal: Basal Ganglia Level)",
+      "structures": [
+        "미상핵 (Caudate nucleus)",
+        "렌즈핵 (Lentiform nucleus)",
+        "시상 (Thalamus)",
+        "내섬유막 (Internal capsule)",
+        "측뇌실 (Lateral ventricle)",
+        "제3뇌실 (Third ventricle)",
+        "송과체 (Pineal gland)"
+      ]
     },
     "IMG_7150.jpg": {
       "label": "H1-1 뇌 수평면 - 뇌량 수준 (Horizontal: Corpus Callosum Level)",
-      "structures": ["뇌량 (Corpus callosum)", "대뇌종렬 (Longitudinal fissure)", "측뇌실 (Lateral ventricle)", "백질 (White matter)", "피질 (Cortex)"]
+      "structures": [
+        "뇌량 (Corpus callosum)",
+        "대뇌종렬 (Longitudinal fissure)",
+        "측뇌실 (Lateral ventricle)",
+        "백질 (White matter)",
+        "피질 (Cortex)"
+      ]
     },
     "IMG_7151.jpg": {
-      "label": "H1-3 뇌 수평면 - 기저핵 수준 (Horizontal: Basal Ganglia Level)",
-      "structures": ["미상핵 (Caudate nucleus)", "렌즈핵 (Lentiform nucleus)", "시상 (Thalamus)", "내섬유막 (Internal capsule)", "측뇌실 (Lateral ventricle)", "제3뇌실 (Third ventricle)", "송과체 (Pineal gland)"]
+      "label": "H1-2 뇌 수평면 - 기저부 수준 (Horizontal: Brain Base)",
+      "structures": [
+        "전두엽 (Frontal lobe)",
+        "시교차 (Optic chiasm)",
+        "대뇌다리 (Cerebral peduncle)",
+        "후두엽 (Occipital lobe)",
+        "소뇌 (Cerebellum)",
+        "측두엽 (Temporal lobe)",
+        "뇌교 (Pons)"
+      ]
     },
     "IMG_7152.jpg": {
       "label": "H1-4 뇌 수평면 - 중뇌 수준 (Horizontal: Midbrain Level)",
-      "structures": ["중뇌 (Midbrain)", "대뇌다리 (Cerebral peduncle)", "소뇌 (Cerebellum)", "측두엽 (Temporal lobe)", "해마 (Hippocampus)"]
+      "structures": [
+        "중뇌 (Midbrain)",
+        "대뇌다리 (Cerebral peduncle)",
+        "소뇌 (Cerebellum)",
+        "측두엽 (Temporal lobe)",
+        "해마 (Hippocampus)"
+      ]
     },
     "IMG_7153.jpg": {
       "label": "H1-5 뇌 수평면 - 뇌교/소뇌 수준 (Horizontal: Pons/Cerebellum)",
-      "structures": ["뇌교 (Pons)", "소뇌 (Cerebellum)", "제4뇌실 (Fourth ventricle)"]
+      "structures": [
+        "뇌교 (Pons)",
+        "소뇌 (Cerebellum)",
+        "제4뇌실 (Fourth ventricle)"
+      ]
     },
     "IMG_7154.jpg": {
       "label": "뇌 정중시상면 (Midsagittal Brain Section)",
-      "structures": ["뇌량 (Corpus callosum)", "시상 (Thalamus)", "시상하부 (Hypothalamus)", "뇌간 (Brainstem)", "소뇌 (Cerebellum)", "제3뇌실 (Third ventricle)", "제4뇌실 (Fourth ventricle)", "중뇌 (Midbrain)", "뇌교 (Pons)", "연수 (Medulla oblongata)", "송과체 (Pineal gland)", "뇌하수체 (Pituitary gland)", "뇌궁 (Fornix)"]
+      "structures": [
+        "뇌량 (Corpus callosum)",
+        "시상 (Thalamus)",
+        "시상하부 (Hypothalamus)",
+        "뇌간 (Brainstem)",
+        "소뇌 (Cerebellum)",
+        "제3뇌실 (Third ventricle)",
+        "제4뇌실 (Fourth ventricle)",
+        "중뇌 (Midbrain)",
+        "뇌교 (Pons)",
+        "연수 (Medulla oblongata)",
+        "송과체 (Pineal gland)",
+        "뇌하수체 (Pituitary gland)",
+        "뇌궁 (Fornix)"
+      ]
     },
     "IMG_7155.jpg": {
       "label": "B-2 뇌 관상면 - 전두엽 수준 (Coronal: Frontal Lobe Level)",
-      "structures": ["대뇌종렬 (Longitudinal fissure)", "뇌량 (Corpus callosum)", "측뇌실 전각 (Anterior horn of lateral ventricle)", "피질 (Cortex)"]
+      "structures": [
+        "대뇌종렬 (Longitudinal fissure)",
+        "뇌량 (Corpus callosum)",
+        "측뇌실 전각 (Anterior horn of lateral ventricle)",
+        "피질 (Cortex)"
+      ]
     },
     "IMG_7156.jpg": {
       "label": "B-4 뇌 관상면 - 기저핵 전방 (Coronal: Anterior Basal Ganglia)",
-      "structures": ["뇌량 (Corpus callosum)", "측뇌실 (Lateral ventricle)", "미상핵 (Caudate nucleus)", "내섬유막 (Internal capsule)", "조가비핵 (Putamen)", "외섬유막 (External capsule)", "담장 (Claustrum)"]
+      "structures": [
+        "뇌량 (Corpus callosum)",
+        "측뇌실 (Lateral ventricle)",
+        "미상핵 (Caudate nucleus)",
+        "내섬유막 (Internal capsule)",
+        "조가비핵 (Putamen)",
+        "외섬유막 (External capsule)",
+        "담장 (Claustrum)"
+      ]
     },
     "IMG_7157.jpg": {
       "label": "B-3 뇌 관상면 - 미상핵 수준 (Coronal: Caudate Nucleus Level)",
-      "structures": ["뇌량 (Corpus callosum)", "미상핵 (Caudate nucleus)", "내섬유막 (Internal capsule)", "조가비핵 (Putamen)", "측뇌실 (Lateral ventricle)"]
+      "structures": [
+        "뇌량 (Corpus callosum)",
+        "미상핵 (Caudate nucleus)",
+        "내섬유막 (Internal capsule)",
+        "조가비핵 (Putamen)",
+        "측뇌실 (Lateral ventricle)"
+      ]
     },
     "IMG_7158.jpg": {
       "label": "B-10 뇌 외측면 표면 (Lateral Brain Surface)",
-      "structures": ["전두엽 (Frontal lobe)", "두정엽 (Parietal lobe)", "측두엽 (Temporal lobe)", "후두엽 (Occipital lobe)", "중심고랑 (Central sulcus)", "가쪽고랑 (Lateral sulcus)"]
+      "structures": [
+        "전두엽 (Frontal lobe)",
+        "두정엽 (Parietal lobe)",
+        "측두엽 (Temporal lobe)",
+        "후두엽 (Occipital lobe)",
+        "중심고랑 (Central sulcus)",
+        "가쪽고랑 (Lateral sulcus)"
+      ]
     },
     "IMG_7159.jpg": {
       "label": "B-8 뇌 관상면 - 시상 수준 (Coronal: Thalamus Level)",
-      "structures": ["뇌량 (Corpus callosum)", "시상 (Thalamus)", "제3뇌실 (Third ventricle)", "내섬유막 (Internal capsule)", "소뇌 (Cerebellum)", "뇌교 (Pons)"]
+      "structures": [
+        "뇌량 (Corpus callosum)",
+        "시상 (Thalamus)",
+        "제3뇌실 (Third ventricle)",
+        "내섬유막 (Internal capsule)",
+        "소뇌 (Cerebellum)",
+        "뇌교 (Pons)"
+      ]
     },
     "IMG_7160.jpg": {
       "label": "B-5 뇌 관상면 - 기저핵 중앙 (Coronal: Central Basal Ganglia)",
-      "structures": ["뇌량 (Corpus callosum)", "미상핵 (Caudate nucleus)", "내섬유막 (Internal capsule)", "조가비핵 (Putamen)", "담창구 (Globus pallidus)", "시상 (Thalamus)", "측뇌실 (Lateral ventricle)"]
+      "structures": [
+        "뇌량 (Corpus callosum)",
+        "미상핵 (Caudate nucleus)",
+        "내섬유막 (Internal capsule)",
+        "조가비핵 (Putamen)",
+        "담창구 (Globus pallidus)",
+        "시상 (Thalamus)",
+        "측뇌실 (Lateral ventricle)"
+      ]
     },
     "IMG_7161.jpg": {
       "label": "B-6 뇌 관상면 - 시상/해마 수준 (Coronal: Thalamus/Hippocampus)",
-      "structures": ["뇌량 (Corpus callosum)", "미상핵 (Caudate nucleus)", "시상 (Thalamus)", "제3뇌실 (Third ventricle)", "내섬유막 (Internal capsule)", "담창구 (Globus pallidus)", "해마 (Hippocampus)", "측두엽 (Temporal lobe)", "편도체 (Amygdala)", "소뇌 (Cerebellum)"]
+      "structures": [
+        "뇌량 (Corpus callosum)",
+        "미상핵 (Caudate nucleus)",
+        "시상 (Thalamus)",
+        "제3뇌실 (Third ventricle)",
+        "내섬유막 (Internal capsule)",
+        "담창구 (Globus pallidus)",
+        "해마 (Hippocampus)",
+        "측두엽 (Temporal lobe)",
+        "편도체 (Amygdala)",
+        "소뇌 (Cerebellum)"
+      ]
     },
     "IMG_7162.jpg": {
       "label": "B-7 뇌 관상면 - 시상 후방 (Coronal: Posterior Thalamus)",
-      "structures": ["뇌량 (Corpus callosum)", "미상핵 (Caudate nucleus)", "시상 (Thalamus)", "내섬유막 (Internal capsule)", "해마 (Hippocampus)", "측뇌실 (Lateral ventricle)", "소뇌 (Cerebellum)"]
+      "structures": [
+        "뇌량 (Corpus callosum)",
+        "미상핵 (Caudate nucleus)",
+        "시상 (Thalamus)",
+        "내섬유막 (Internal capsule)",
+        "해마 (Hippocampus)",
+        "측뇌실 (Lateral ventricle)",
+        "소뇌 (Cerebellum)"
+      ]
     },
     "IMG_7163.jpg": {
       "label": "B-9 뇌 관상면 - 후두엽 수준 (Coronal: Occipital Level)",
-      "structures": ["뇌량팽대 (Splenium of corpus callosum)", "측뇌실 후각 (Posterior horn of lateral ventricle)", "피질 (Cortex)", "백질 (White matter)", "대뇌낫 (Falx cerebri)"]
+      "structures": [
+        "뇌량팽대 (Splenium of corpus callosum)",
+        "측뇌실 후각 (Posterior horn of lateral ventricle)",
+        "피질 (Cortex)",
+        "백질 (White matter)",
+        "대뇌낫 (Falx cerebri)"
+      ]
     },
     "IMG_7164.jpg": {
       "label": "뇌 상면 (Superior Brain Surface)",
-      "structures": ["대뇌종렬 (Longitudinal fissure)", "전두엽 (Frontal lobe)", "두정엽 (Parietal lobe)", "후두엽 (Occipital lobe)", "중심고랑 (Central sulcus)"]
+      "structures": [
+        "대뇌종렬 (Longitudinal fissure)",
+        "전두엽 (Frontal lobe)",
+        "두정엽 (Parietal lobe)",
+        "후두엽 (Occipital lobe)",
+        "중심고랑 (Central sulcus)"
+      ]
     },
     "IMG_7165.jpg": {
       "label": "뇌 하면/저면 (Inferior Brain Surface)",
-      "structures": ["전두엽 (Frontal lobe)", "측두엽 (Temporal lobe)", "후두엽 (Occipital lobe)", "소뇌 (Cerebellum)", "후각망울 (Olfactory bulb)"]
+      "structures": [
+        "전두엽 (Frontal lobe)",
+        "측두엽 (Temporal lobe)",
+        "후두엽 (Occipital lobe)",
+        "소뇌 (Cerebellum)",
+        "후각망울 (Olfactory bulb)"
+      ]
     },
     "IMG_7166.jpg": {
       "label": "2C 뇌 관상면 - 시상/뇌실 수준 (Coronal: Thalamus/Ventricle)",
-      "structures": ["뇌량 (Corpus callosum)", "측뇌실 (Lateral ventricle)", "미상핵 (Caudate nucleus)", "시상 (Thalamus)", "제3뇌실 (Third ventricle)", "해마 (Hippocampus)", "내섬유막 (Internal capsule)", "소뇌 (Cerebellum)"]
+      "structures": [
+        "뇌량 (Corpus callosum)",
+        "측뇌실 (Lateral ventricle)",
+        "미상핵 (Caudate nucleus)",
+        "시상 (Thalamus)",
+        "제3뇌실 (Third ventricle)",
+        "해마 (Hippocampus)",
+        "내섬유막 (Internal capsule)",
+        "소뇌 (Cerebellum)"
+      ]
     },
     "IMG_7167.jpg": {
       "label": "2C 뇌 관상면 - 기저핵/시상 (Coronal: Basal Ganglia/Thalamus)",
-      "structures": ["뇌량 (Corpus callosum)", "미상핵 (Caudate nucleus)", "내섬유막 (Internal capsule)", "시상 (Thalamus)", "조가비핵 (Putamen)", "담창구 (Globus pallidus)", "제3뇌실 (Third ventricle)", "해마 (Hippocampus)"]
+      "structures": [
+        "뇌량 (Corpus callosum)",
+        "미상핵 (Caudate nucleus)",
+        "내섬유막 (Internal capsule)",
+        "시상 (Thalamus)",
+        "조가비핵 (Putamen)",
+        "담창구 (Globus pallidus)",
+        "제3뇌실 (Third ventricle)",
+        "해마 (Hippocampus)"
+      ]
     },
     "IMG_7168.jpg": {
       "label": "2C 뇌 관상면 - 기저핵 전방 (Coronal: Anterior BG)",
-      "structures": ["뇌량 (Corpus callosum)", "측뇌실 (Lateral ventricle)", "미상핵 (Caudate nucleus)", "내섬유막 (Internal capsule)", "조가비핵 (Putamen)"]
+      "structures": [
+        "뇌량 (Corpus callosum)",
+        "측뇌실 (Lateral ventricle)",
+        "미상핵 (Caudate nucleus)",
+        "내섬유막 (Internal capsule)",
+        "조가비핵 (Putamen)"
+      ]
     },
     "IMG_7169.jpg": {
       "label": "2C 뇌 관상면 - 후방 (Coronal: Posterior Section)",
-      "structures": ["뇌량 (Corpus callosum)", "시상 (Thalamus)", "측뇌실 (Lateral ventricle)", "해마 (Hippocampus)", "소뇌 (Cerebellum)"]
+      "structures": [
+        "뇌량 (Corpus callosum)",
+        "시상 (Thalamus)",
+        "측뇌실 (Lateral ventricle)",
+        "해마 (Hippocampus)",
+        "소뇌 (Cerebellum)"
+      ]
     },
     "IMG_7170.jpg": {
       "label": "2C 뇌 관상면 - 렌즈핵 수준 (Coronal: Lentiform Nucleus)",
-      "structures": ["뇌량 (Corpus callosum)", "미상핵 (Caudate nucleus)", "내섬유막 (Internal capsule)", "조가비핵 (Putamen)", "담창구 (Globus pallidus)", "시상 (Thalamus)"]
+      "structures": [
+        "뇌량 (Corpus callosum)",
+        "미상핵 (Caudate nucleus)",
+        "내섬유막 (Internal capsule)",
+        "조가비핵 (Putamen)",
+        "담창구 (Globus pallidus)",
+        "시상 (Thalamus)"
+      ]
     },
     "IMG_7171.jpg": {
       "label": "2C 뇌 관상면 - 시상/기저핵 (Coronal: Thalamus/BG)",
-      "structures": ["뇌량 (Corpus callosum)", "미상핵 (Caudate nucleus)", "시상 (Thalamus)", "내섬유막 (Internal capsule)", "조가비핵 (Putamen)", "담창구 (Globus pallidus)", "해마 (Hippocampus)", "소뇌 (Cerebellum)"]
+      "structures": [
+        "뇌량 (Corpus callosum)",
+        "미상핵 (Caudate nucleus)",
+        "시상 (Thalamus)",
+        "내섬유막 (Internal capsule)",
+        "조가비핵 (Putamen)",
+        "담창구 (Globus pallidus)",
+        "해마 (Hippocampus)",
+        "소뇌 (Cerebellum)"
+      ]
     }
   },
   "bs22": {
     "20180410_143027.jpg": {
       "label": "대뇌 외측면 모형 (Lateral Cerebrum Model)",
-      "structures": ["전두엽 (Frontal lobe)", "두정엽 (Parietal lobe)", "측두엽 (Temporal lobe)", "후두엽 (Occipital lobe)"]
+      "structures": [
+        "전두엽 (Frontal lobe)",
+        "두정엽 (Parietal lobe)",
+        "측두엽 (Temporal lobe)",
+        "후두엽 (Occipital lobe)"
+      ]
     },
     "20180410_143037.jpg": {
       "label": "대뇌 정중시상면 모형 (Midsagittal Brain Model)",
-      "structures": ["뇌량 (Corpus callosum)", "시상 (Thalamus)", "뇌간 (Brainstem)", "소뇌 (Cerebellum)", "뇌하수체 (Pituitary gland)"]
+      "structures": [
+        "뇌량 (Corpus callosum)",
+        "시상 (Thalamus)",
+        "뇌간 (Brainstem)",
+        "소뇌 (Cerebellum)",
+        "뇌하수체 (Pituitary gland)"
+      ]
     },
     "20180410_143042.jpg": {
       "label": "뇌간/소뇌 후면 모형 (Posterior Brainstem/Cerebellum)",
-      "structures": ["소뇌 (Cerebellum)", "뇌교 (Pons)", "연수 (Medulla oblongata)", "척수 (Spinal cord)"]
+      "structures": [
+        "소뇌 (Cerebellum)",
+        "뇌교 (Pons)",
+        "연수 (Medulla oblongata)",
+        "척수 (Spinal cord)"
+      ]
     },
     "20180410_143047.jpg": {
       "label": "뇌간 내부구조 모형 (Internal Brainstem Model)",
-      "structures": ["시상 (Thalamus)", "뇌교 (Pons)", "소뇌다리 (Cerebellar peduncle)"]
+      "structures": [
+        "시상 (Thalamus)",
+        "뇌교 (Pons)",
+        "소뇌다리 (Cerebellar peduncle)"
+      ]
     },
     "20180410_143053.jpg": {
       "label": "뇌 내측면 - 변연계 수준 (Medial Surface: Limbic)",
-      "structures": ["대상회 (Cingulate gyrus)", "뇌량 (Corpus callosum)", "뇌궁 (Fornix)"]
+      "structures": [
+        "대상회 (Cingulate gyrus)",
+        "뇌량 (Corpus callosum)",
+        "뇌궁 (Fornix)"
+      ]
     },
     "20180410_143107.jpg": {
       "label": "대뇌 관상절개 모형 (Coronal Section Model)",
-      "structures": ["미상핵 (Caudate nucleus)", "조가비핵 (Putamen)", "시상 (Thalamus)", "내섬유막 (Internal capsule)", "측뇌실 (Lateral ventricle)"]
+      "structures": [
+        "미상핵 (Caudate nucleus)",
+        "조가비핵 (Putamen)",
+        "시상 (Thalamus)",
+        "내섬유막 (Internal capsule)",
+        "측뇌실 (Lateral ventricle)"
+      ]
     },
     "20180410_143114.jpg": {
       "label": "뇌간 전면 모형 (Anterior Brainstem Model)",
-      "structures": ["뇌교 (Pons)", "연수 (Medulla oblongata)", "대뇌다리 (Cerebral peduncle)", "뇌신경 (Cranial nerves)"]
+      "structures": [
+        "뇌교 (Pons)",
+        "연수 (Medulla oblongata)",
+        "대뇌다리 (Cerebral peduncle)",
+        "뇌신경 (Cranial nerves)"
+      ]
     },
     "20180410_143126.jpg": {
       "label": "뇌 내측면 - 뇌간 수준 (Medial Surface: Brainstem Level)",
-      "structures": ["시상 (Thalamus)", "시상하부 (Hypothalamus)", "뇌교 (Pons)", "연수 (Medulla oblongata)", "소뇌 (Cerebellum)"]
+      "structures": [
+        "시상 (Thalamus)",
+        "시상하부 (Hypothalamus)",
+        "뇌교 (Pons)",
+        "연수 (Medulla oblongata)",
+        "소뇌 (Cerebellum)"
+      ]
     },
     "20180410_143142.jpg": {
       "label": "대뇌 상면 모형 (Superior Brain Model)",
-      "structures": ["대뇌종렬 (Longitudinal fissure)", "전두엽 (Frontal lobe)", "두정엽 (Parietal lobe)", "중심고랑 (Central sulcus)"]
+      "structures": [
+        "대뇌종렬 (Longitudinal fissure)",
+        "전두엽 (Frontal lobe)",
+        "두정엽 (Parietal lobe)",
+        "중심고랑 (Central sulcus)"
+      ]
     },
     "20180410_143148.jpg": {
       "label": "대뇌 하면 모형 (Inferior Brain Model)",
-      "structures": ["전두엽 (Frontal lobe)", "측두엽 (Temporal lobe)", "후두엽 (Occipital lobe)", "소뇌 (Cerebellum)", "뇌신경 (Cranial nerves)"]
+      "structures": [
+        "전두엽 (Frontal lobe)",
+        "측두엽 (Temporal lobe)",
+        "후두엽 (Occipital lobe)",
+        "소뇌 (Cerebellum)",
+        "뇌신경 (Cranial nerves)"
+      ]
     },
     "20180410_143422.jpg": {
       "label": "두부 정중시상면 모형 (Head Midsagittal Section)",
-      "structures": ["대뇌 (Cerebrum)", "소뇌 (Cerebellum)", "뇌간 (Brainstem)", "비강 (Nasal cavity)", "구강 (Oral cavity)", "인두 (Pharynx)", "척수 (Spinal cord)"]
+      "structures": [
+        "대뇌 (Cerebrum)",
+        "소뇌 (Cerebellum)",
+        "뇌간 (Brainstem)",
+        "비강 (Nasal cavity)",
+        "구강 (Oral cavity)",
+        "인두 (Pharynx)",
+        "척수 (Spinal cord)"
+      ]
     },
     "20180412_170533.jpg": {
       "label": "대뇌 내측면 - 뇌량/대상회 (Medial: Corpus Callosum)",
-      "structures": ["뇌량 (Corpus callosum)", "대상회 (Cingulate gyrus)", "중심고랑 (Central sulcus)", "뇌궁 (Fornix)"]
+      "structures": [
+        "뇌량 (Corpus callosum)",
+        "대상회 (Cingulate gyrus)",
+        "중심고랑 (Central sulcus)",
+        "뇌궁 (Fornix)"
+      ]
     },
     "20180412_170609.jpg": {
       "label": "대뇌 내측면 - 시상 수준 (Medial: Thalamus Level)",
-      "structures": ["시상 (Thalamus)", "시상하부 (Hypothalamus)", "뇌량 (Corpus callosum)"]
+      "structures": [
+        "시상 (Thalamus)",
+        "시상하부 (Hypothalamus)",
+        "뇌량 (Corpus callosum)"
+      ]
     },
     "20180412_170639.jpg": {
       "label": "뇌간 분리 모형 - 전면 (Brainstem Isolated: Anterior)",
-      "structures": ["중뇌 (Midbrain)", "뇌교 (Pons)", "연수 (Medulla oblongata)", "대뇌다리 (Cerebral peduncle)"]
+      "structures": [
+        "중뇌 (Midbrain)",
+        "뇌교 (Pons)",
+        "연수 (Medulla oblongata)",
+        "대뇌다리 (Cerebral peduncle)"
+      ]
     },
     "20180412_170646.jpg": {
       "label": "뇌간 분리 모형 - 후면 (Brainstem Isolated: Posterior)",
-      "structures": ["소뇌다리 (Cerebellar peduncle)", "제4뇌실바닥 (Floor of 4th ventricle)", "능형오목 (Rhomboid fossa)"]
+      "structures": [
+        "소뇌다리 (Cerebellar peduncle)",
+        "제4뇌실바닥 (Floor of 4th ventricle)",
+        "능형오목 (Rhomboid fossa)"
+      ]
     },
     "20180412_170727.jpg": {
       "label": "뇌간/소뇌 후측면 모형 (Posterolateral Brainstem/Cerebellum)",
-      "structures": ["소뇌 (Cerebellum)", "연수 (Medulla oblongata)", "뇌교 (Pons)"]
+      "structures": [
+        "소뇌 (Cerebellum)",
+        "연수 (Medulla oblongata)",
+        "뇌교 (Pons)"
+      ]
     },
     "20180412_171127.jpg": {
       "label": "대뇌 하면 - 뇌신경 수준 (Inferior: Cranial Nerves)",
-      "structures": ["시신경 (Optic nerve)", "시교차 (Optic chiasm)", "동안신경 (Oculomotor nerve)", "뇌교 (Pons)", "연수 (Medulla oblongata)"]
+      "structures": [
+        "시신경 (Optic nerve)",
+        "시교차 (Optic chiasm)",
+        "동안신경 (Oculomotor nerve)",
+        "뇌교 (Pons)",
+        "연수 (Medulla oblongata)"
+      ]
     },
     "20180412_171133.jpg": {
       "label": "대뇌 후면 모형 (Posterior Brain Model)",
-      "structures": ["후두엽 (Occipital lobe)", "소뇌 (Cerebellum)", "두정엽 (Parietal lobe)"]
+      "structures": [
+        "후두엽 (Occipital lobe)",
+        "소뇌 (Cerebellum)",
+        "두정엽 (Parietal lobe)"
+      ]
     },
     "20180412_171138.jpg": {
       "label": "대뇌 외측면 - 이랑/고랑 (Lateral: Gyri & Sulci)",
-      "structures": ["중심전이랑 (Precentral gyrus)", "중심후이랑 (Postcentral gyrus)", "가쪽고랑 (Lateral sulcus)", "중심고랑 (Central sulcus)"]
+      "structures": [
+        "중심전이랑 (Precentral gyrus)",
+        "중심후이랑 (Postcentral gyrus)",
+        "가쪽고랑 (Lateral sulcus)",
+        "중심고랑 (Central sulcus)"
+      ]
     }
   },
   "bs5": {
     "20180410_143641.jpg": {
       "label": "두개저 내면 모형 (Internal Cranial Base Model)",
-      "structures": ["전두개와 (Anterior cranial fossa)", "중두개와 (Middle cranial fossa)", "후두개와 (Posterior cranial fossa)", "터키안장 (Sella turcica)", "대공 (Foramen magnum)"]
+      "structures": [
+        "전두개와 (Anterior cranial fossa)",
+        "중두개와 (Middle cranial fossa)",
+        "후두개와 (Posterior cranial fossa)",
+        "터키안장 (Sella turcica)",
+        "대공 (Foramen magnum)"
+      ]
     },
     "20180410_143722.jpg": {
       "label": "대뇌 내측면 + 동맥 (Medial Surface with Arteries)",
-      "structures": ["전대뇌동맥 (Anterior cerebral artery)", "뇌량 (Corpus callosum)", "대상회 (Cingulate gyrus)", "중심고랑 (Central sulcus)"]
+      "structures": [
+        "전대뇌동맥 (Anterior cerebral artery)",
+        "뇌량 (Corpus callosum)",
+        "대상회 (Cingulate gyrus)",
+        "중심고랑 (Central sulcus)"
+      ]
     },
     "20180410_143729.jpg": {
       "label": "대뇌 외측면 + 동맥 (Lateral Surface with Arteries)",
-      "structures": ["중대뇌동맥 (Middle cerebral artery)", "가쪽고랑 (Lateral sulcus)", "전두엽 (Frontal lobe)", "측두엽 (Temporal lobe)"]
+      "structures": [
+        "중대뇌동맥 (Middle cerebral artery)",
+        "가쪽고랑 (Lateral sulcus)",
+        "전두엽 (Frontal lobe)",
+        "측두엽 (Temporal lobe)"
+      ]
     },
     "20180410_143739.jpg": {
       "label": "대뇌 후면 + 동맥 (Posterior Surface with Arteries)",
-      "structures": ["후대뇌동맥 (Posterior cerebral artery)", "후두엽 (Occipital lobe)", "소뇌 (Cerebellum)"]
+      "structures": [
+        "후대뇌동맥 (Posterior cerebral artery)",
+        "후두엽 (Occipital lobe)",
+        "소뇌 (Cerebellum)"
+      ]
     },
     "20180410_143741.jpg": {
       "label": "대뇌 상면 + 동맥 (Superior Surface with Arteries)",
-      "structures": ["전대뇌동맥 (Anterior cerebral artery)", "중대뇌동맥 (Middle cerebral artery)", "대뇌종렬 (Longitudinal fissure)"]
+      "structures": [
+        "전대뇌동맥 (Anterior cerebral artery)",
+        "중대뇌동맥 (Middle cerebral artery)",
+        "대뇌종렬 (Longitudinal fissure)"
+      ]
     },
     "20180410_143755.jpg": {
       "label": "대뇌 외측면 + 동맥 확대 (Lateral with Arteries Close-up)",
-      "structures": ["중대뇌동맥 (Middle cerebral artery)", "가쪽고랑 (Lateral sulcus)", "전두엽 (Frontal lobe)"]
+      "structures": [
+        "중대뇌동맥 (Middle cerebral artery)",
+        "가쪽고랑 (Lateral sulcus)",
+        "전두엽 (Frontal lobe)"
+      ]
     },
     "20180410_143833.jpg": {
       "label": "대뇌 내측면 + 동맥 하부 (Medial with Arteries: Inferior)",
-      "structures": ["후대뇌동맥 (Posterior cerebral artery)", "소뇌동맥 (Cerebellar artery)", "뇌간 (Brainstem)"]
+      "structures": [
+        "후대뇌동맥 (Posterior cerebral artery)",
+        "소뇌동맥 (Cerebellar artery)",
+        "뇌간 (Brainstem)"
+      ]
     },
     "20180410_143837.jpg": {
       "label": "대뇌 하면 + 동맥환 (Inferior with Arterial Circle)",
-      "structures": ["윌리스환 (Circle of Willis)", "내경동맥 (Internal carotid artery)", "뇌저동맥 (Basilar artery)", "전대뇌동맥 (Anterior cerebral artery)", "중대뇌동맥 (Middle cerebral artery)"]
+      "structures": [
+        "윌리스환 (Circle of Willis)",
+        "내경동맥 (Internal carotid artery)",
+        "뇌저동맥 (Basilar artery)",
+        "전대뇌동맥 (Anterior cerebral artery)",
+        "중대뇌동맥 (Middle cerebral artery)"
+      ]
     },
     "20180411_163747.jpg": {
       "label": "대뇌 내측면 + 동맥 B (Medial Surface with Arteries B)",
-      "structures": ["전대뇌동맥 (Anterior cerebral artery)", "뇌량 (Corpus callosum)", "대상회 (Cingulate gyrus)"]
+      "structures": [
+        "전대뇌동맥 (Anterior cerebral artery)",
+        "뇌량 (Corpus callosum)",
+        "대상회 (Cingulate gyrus)"
+      ]
     },
     "20180411_163755.jpg": {
       "label": "대뇌 외측면 + 동맥 B (Lateral Surface with Arteries B)",
-      "structures": ["중대뇌동맥 (Middle cerebral artery)", "가쪽고랑 (Lateral sulcus)"]
+      "structures": [
+        "중대뇌동맥 (Middle cerebral artery)",
+        "가쪽고랑 (Lateral sulcus)"
+      ]
     },
     "20180411_163816.jpg": {
       "label": "대뇌 후면 + 동맥 B (Posterior with Arteries B)",
-      "structures": ["후대뇌동맥 (Posterior cerebral artery)", "후두엽 (Occipital lobe)"]
+      "structures": [
+        "후대뇌동맥 (Posterior cerebral artery)",
+        "후두엽 (Occipital lobe)"
+      ]
     },
     "20180411_163819.jpg": {
       "label": "대뇌 후하면 + 동맥 (Posteroinferior with Arteries)",
-      "structures": ["후대뇌동맥 (Posterior cerebral artery)", "소뇌동맥 (Cerebellar artery)", "소뇌 (Cerebellum)"]
+      "structures": [
+        "후대뇌동맥 (Posterior cerebral artery)",
+        "소뇌동맥 (Cerebellar artery)",
+        "소뇌 (Cerebellum)"
+      ]
     },
     "20180411_163843.jpg": {
       "label": "대뇌 상면 + 동맥 B (Superior with Arteries B)",
-      "structures": ["전대뇌동맥 (Anterior cerebral artery)", "중대뇌동맥 (Middle cerebral artery)"]
+      "structures": [
+        "전대뇌동맥 (Anterior cerebral artery)",
+        "중대뇌동맥 (Middle cerebral artery)"
+      ]
     },
     "20180411_163851.jpg": {
       "label": "대뇌 상후면 + 동맥 (Superoposterior with Arteries)",
-      "structures": ["후대뇌동맥 (Posterior cerebral artery)", "두정엽 (Parietal lobe)"]
+      "structures": [
+        "후대뇌동맥 (Posterior cerebral artery)",
+        "두정엽 (Parietal lobe)"
+      ]
     },
     "20180411_163900.jpg": {
       "label": "대뇌 외측상면 + 동맥 (Laterosuperior with Arteries)",
-      "structures": ["중대뇌동맥 (Middle cerebral artery)", "전두엽 (Frontal lobe)", "두정엽 (Parietal lobe)"]
+      "structures": [
+        "중대뇌동맥 (Middle cerebral artery)",
+        "전두엽 (Frontal lobe)",
+        "두정엽 (Parietal lobe)"
+      ]
     },
     "20180412_165918.jpg": {
       "label": "뇌간/소뇌 내측면 + 동맥 (Brainstem Medial with Arteries)",
-      "structures": ["소뇌동맥 (Cerebellar artery)", "뇌저동맥 (Basilar artery)", "소뇌 (Cerebellum)", "척추동맥 (Vertebral artery)"]
+      "structures": [
+        "소뇌동맥 (Cerebellar artery)",
+        "뇌저동맥 (Basilar artery)",
+        "소뇌 (Cerebellum)",
+        "척추동맥 (Vertebral artery)"
+      ]
     },
     "20180412_165926.jpg": {
       "label": "뇌간 전면 + 동맥 (Brainstem Anterior with Arteries)",
-      "structures": ["뇌저동맥 (Basilar artery)", "척추동맥 (Vertebral artery)", "뇌교 (Pons)"]
+      "structures": [
+        "뇌저동맥 (Basilar artery)",
+        "척추동맥 (Vertebral artery)",
+        "뇌교 (Pons)"
+      ]
     },
     "20180412_165934.jpg": {
       "label": "뇌간 후면 + 동맥 (Brainstem Posterior with Arteries)",
-      "structures": ["후하소뇌동맥 (PICA)", "척추동맥 (Vertebral artery)", "소뇌 (Cerebellum)"]
+      "structures": [
+        "후하소뇌동맥 (PICA)",
+        "척추동맥 (Vertebral artery)",
+        "소뇌 (Cerebellum)"
+      ]
     },
     "20180412_165942.jpg": {
       "label": "뇌 하면 + 동맥환 확대 (Inferior with Circle of Willis Close-up)",
-      "structures": ["윌리스환 (Circle of Willis)", "내경동맥 (Internal carotid artery)", "전교통동맥 (Anterior communicating artery)", "후교통동맥 (Posterior communicating artery)"]
+      "structures": [
+        "윌리스환 (Circle of Willis)",
+        "내경동맥 (Internal carotid artery)",
+        "전교통동맥 (Anterior communicating artery)",
+        "후교통동맥 (Posterior communicating artery)"
+      ]
     },
     "20180412_170109.jpg": {
       "label": "대뇌 내측면 + 동맥 C (Medial with Arteries C)",
-      "structures": ["전대뇌동맥 (Anterior cerebral artery)", "후대뇌동맥 (Posterior cerebral artery)", "뇌량 (Corpus callosum)"]
+      "structures": [
+        "전대뇌동맥 (Anterior cerebral artery)",
+        "후대뇌동맥 (Posterior cerebral artery)",
+        "뇌량 (Corpus callosum)"
+      ]
     },
     "20180412_170119.jpg": {
       "label": "대뇌 외측면 + 동맥 C (Lateral with Arteries C)",
-      "structures": ["중대뇌동맥 (Middle cerebral artery)", "가쪽고랑 (Lateral sulcus)", "전두엽 (Frontal lobe)"]
+      "structures": [
+        "중대뇌동맥 (Middle cerebral artery)",
+        "가쪽고랑 (Lateral sulcus)",
+        "전두엽 (Frontal lobe)"
+      ]
     },
     "20180412_170140.jpg": {
       "label": "대뇌 하면 + 동맥 C (Inferior with Arteries C)",
-      "structures": ["전대뇌동맥 (Anterior cerebral artery)", "내경동맥 (Internal carotid artery)", "뇌저동맥 (Basilar artery)"]
+      "structures": [
+        "전대뇌동맥 (Anterior cerebral artery)",
+        "내경동맥 (Internal carotid artery)",
+        "뇌저동맥 (Basilar artery)"
+      ]
     },
     "20180412_172125.jpg": {
       "label": "대뇌 외측면 + 동맥 하방 (Lateral with Arteries: Inferior View)",
-      "structures": ["중대뇌동맥 (Middle cerebral artery)", "측두엽 (Temporal lobe)", "전두엽 (Frontal lobe)"]
+      "structures": [
+        "중대뇌동맥 (Middle cerebral artery)",
+        "측두엽 (Temporal lobe)",
+        "전두엽 (Frontal lobe)"
+      ]
     }
   },
   "muscle": {
     "KakaoTalk_20160410_204728592.jpg": {
       "label": "짧은종아리근 (Fibularis Brevis)",
-      "structures": ["Fibularis Brevis", "Ankle Muscles"]
+      "structures": [
+        "Fibularis Brevis",
+        "Ankle Muscles"
+      ]
     },
     "KakaoTalk_20160410_204729570.jpg": {
       "label": "셋째종아리근 (Fibularis Tertius)",
-      "structures": ["Fibularis Tertius", "Ankle Muscles"]
+      "structures": [
+        "Fibularis Tertius",
+        "Ankle Muscles"
+      ]
     },
     "KakaoTalk_20160410_204730634.jpg": {
       "label": "긴종아리근 (Fibularis Longus)",
-      "structures": ["Fibularis Longus", "Ankle Muscles"]
+      "structures": [
+        "Fibularis Longus",
+        "Ankle Muscles"
+      ]
     },
     "KakaoTalk_20160410_204731738.jpg": {
       "label": "긴엄지폄근 (Extensor Hallucis Longus)",
-      "structures": ["Extensor Hallucis Longus", "Foot Muscles"]
+      "structures": [
+        "Extensor Hallucis Longus",
+        "Foot Muscles"
+      ]
     },
     "KakaoTalk_20160410_204732980.jpg": {
       "label": "가쪽발목동맥 (Lateral Tarsal Artery)",
-      "structures": ["Lateral Tarsal Artery", "Ankle & Foot"]
+      "structures": [
+        "Lateral Tarsal Artery",
+        "Ankle & Foot"
+      ]
     },
     "KakaoTalk_20160410_204734392.jpg": {
       "label": "짧은발가락폄근 (Extensor Digitorum Brevis)",
-      "structures": ["Extensor Digitorum Brevis", "Foot Muscles"]
+      "structures": [
+        "Extensor Digitorum Brevis",
+        "Foot Muscles"
+      ]
     },
     "KakaoTalk_20160410_204735889.jpg": {
       "label": "안쪽발목동맥 (Medial Tarsal Artery)",
-      "structures": ["Medial Tarsal Artery", "Ankle & Foot"]
+      "structures": [
+        "Medial Tarsal Artery",
+        "Ankle & Foot"
+      ]
     },
     "KakaoTalk_20160410_204737064.jpg": {
       "label": "활꼴동맥 (Arcuate Artery)",
-      "structures": ["Arcuate Artery", "Ankle & Foot"]
+      "structures": [
+        "Arcuate Artery",
+        "Ankle & Foot"
+      ]
     },
     "KakaoTalk_20160410_204738263.jpg": {
       "label": "긴발가락폄근 (Extensor Digitorum Longus)",
-      "structures": ["Extensor Digitorum Longus", "Foot Muscles"]
+      "structures": [
+        "Extensor Digitorum Longus",
+        "Foot Muscles"
+      ]
     },
     "KakaoTalk_20160410_204739231.jpg": {
       "label": "앞정강근 (Tibialis Anterior)",
-      "structures": ["Tibialis Anterior", "Ankle Muscles"]
+      "structures": [
+        "Tibialis Anterior",
+        "Ankle Muscles"
+      ]
     },
     "KakaoTalk_20160410_204740611.jpg": {
       "label": "큰모음근 (Adductor Magnus)",
-      "structures": ["Adductor Magnus", "Hip Muscles"]
+      "structures": [
+        "Adductor Magnus",
+        "Hip Muscles"
+      ]
     },
     "KakaoTalk_20160410_204742012.jpg": {
       "label": "넙다리두갈래근 긴갈래 (Biceps Femoris Long Head)",
-      "structures": ["Biceps Femoris Long Head", "Knee Joint Muscles"]
+      "structures": [
+        "Biceps Femoris Long Head",
+        "Knee Joint Muscles"
+      ]
     },
     "KakaoTalk_20160410_204743174.jpg": {
       "label": "반힘줄근 (Semitendinosus)",
-      "structures": ["Semitendinosus", "Knee Joint Muscles"]
+      "structures": [
+        "Semitendinosus",
+        "Knee Joint Muscles"
+      ]
     },
     "KakaoTalk_20160410_204744459.jpg": {
       "label": "반막근 (Semimembranosus)",
-      "structures": ["Semimembranosus", "Knee Joint Muscles"]
+      "structures": [
+        "Semimembranosus",
+        "Knee Joint Muscles"
+      ]
     },
     "KakaoTalk_20160410_204745755.jpg": {
       "label": "두덩근 (Gracilis)",
-      "structures": ["Gracilis", "Hip Muscles"]
+      "structures": [
+        "Gracilis",
+        "Hip Muscles"
+      ]
     },
     "KakaoTalk_20160410_204747111.jpg": {
       "label": "두덩빗근 (Pectineus)",
-      "structures": ["Pectineus", "Hip Muscles"]
+      "structures": [
+        "Pectineus",
+        "Hip Muscles"
+      ]
     },
     "KakaoTalk_20160410_204748460.jpg": {
       "label": "넙다리빗근 (Sartorius)",
-      "structures": ["Sartorius", "Hip Muscles"]
+      "structures": [
+        "Sartorius",
+        "Hip Muscles"
+      ]
     },
     "KakaoTalk_20160410_204749810.jpg": {
       "label": "안쪽넓은근 (Vastus Medialis)",
-      "structures": ["Vastus Medialis", "Knee Joint Muscles"]
+      "structures": [
+        "Vastus Medialis",
+        "Knee Joint Muscles"
+      ]
     },
     "KakaoTalk_20160410_204750820.jpg": {
       "label": "넙다리곧은근 (Rectus Femoris)",
-      "structures": ["Rectus Femoris", "Hip Muscles"]
+      "structures": [
+        "Rectus Femoris",
+        "Hip Muscles"
+      ]
     },
     "KakaoTalk_20160410_204752229.jpg": {
       "label": "가쪽넓은근 (Vastus Lateralis)",
-      "structures": ["Vastus Lateralis", "Knee Joint Muscles"]
+      "structures": [
+        "Vastus Lateralis",
+        "Knee Joint Muscles"
+      ]
     },
     "KakaoTalk_20160410_204822754.jpg": {
       "label": "이복근 뒤힘살 (Digastric Posterior Belly)",
-      "structures": ["Digastric Posterior Belly", "Suprahyoid Muscles"]
+      "structures": [
+        "Digastric Posterior Belly",
+        "Suprahyoid Muscles"
+      ]
     },
     "KakaoTalk_20160410_204824197.jpg": {
       "label": "이복근 뒤힘살 확대 (Digastric Posterior Belly Close-up)",
-      "structures": ["Digastric Posterior Belly", "Suprahyoid Muscles"]
+      "structures": [
+        "Digastric Posterior Belly",
+        "Suprahyoid Muscles"
+      ]
     },
     "KakaoTalk_20160410_204825683.jpg": {
       "label": "붓목뿔근 (Stylohyoid)",
-      "structures": ["Stylohyoid", "Suprahyoid Muscles"]
+      "structures": [
+        "Stylohyoid",
+        "Suprahyoid Muscles"
+      ]
     },
     "KakaoTalk_20160410_204826829.jpg": {
       "label": "어깨목뿔근 위힘살 (Omohyoid Superior Belly)",
-      "structures": ["Omohyoid Superior Belly", "Infrahyoid Muscles"]
+      "structures": [
+        "Omohyoid Superior Belly",
+        "Infrahyoid Muscles"
+      ]
     },
     "KakaoTalk_20160410_204828224.jpg": {
       "label": "어깨목뿔근 위힘살 확대 (Omohyoid Superior Belly Close-up)",
-      "structures": ["Omohyoid Superior Belly", "Infrahyoid Muscles"]
+      "structures": [
+        "Omohyoid Superior Belly",
+        "Infrahyoid Muscles"
+      ]
     },
     "KakaoTalk_20160410_204829545.jpg": {
       "label": "복장목뿔근 (Sternohyoid)",
-      "structures": ["Sternohyoid", "Infrahyoid Muscles"]
+      "structures": [
+        "Sternohyoid",
+        "Infrahyoid Muscles"
+      ]
     },
     "KakaoTalk_20160410_204831017.jpg": {
       "label": "방패목뿔근 (Thyrohyoid)",
-      "structures": ["Thyrohyoid", "Infrahyoid Muscles"]
+      "structures": [
+        "Thyrohyoid",
+        "Infrahyoid Muscles"
+      ]
     },
     "KakaoTalk_20160410_204832220.jpg": {
       "label": "복장방패근 (Sternothyroid)",
-      "structures": ["Sternothyroid", "Infrahyoid Muscles"]
+      "structures": [
+        "Sternothyroid",
+        "Infrahyoid Muscles"
+      ]
     },
     "KakaoTalk_20160410_204833841.jpg": {
-      "label": "넓은목근 (Sternohyoid) - 전면 (Anterior View)",
-      "structures": ["Sternohyoid", "Infrahyoid Muscles"]
+      "label": "넓은목근 (Platysma) - 전면 (Anterior View)",
+      "structures": [
+        "Sternohyoid",
+        "Infrahyoid Muscles"
+      ]
     }
   }
 }
