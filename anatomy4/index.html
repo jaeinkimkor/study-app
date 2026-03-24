@@ -792,7 +792,7 @@ input[type="checkbox"]{
   font-weight:700;color:#065f46;
 }
 .qm-study-answer .qm-choice-num{background:var(--success);color:#fff}
-.qm-study-answer::after{content:' \2713 \uc815\ub2f5';font-size:.78rem;font-weight:700;color:var(--success)}
+.qm-study-answer::after{content:' ✓ 정답';font-size:.78rem;font-weight:700;color:var(--success)}
 .qm-study-explanation{
   display:block;animation:fadeIn .3s;
   background:rgba(13,148,136,.06);border:1px solid rgba(13,148,136,.18);
@@ -1788,8 +1788,8 @@ input[type="checkbox"]{
       </div>
       <!-- Study/Quiz Mode Toggle -->
       <div class="qm-mode-toggle">
-        <button class="qm-mode-toggle-btn active" id="qmModeQuiz" onclick="QM.setStudyMode(false)">&#128221; 퀴즈 모드</button>
-        <button class="qm-mode-toggle-btn" id="qmModeStudy" onclick="QM.setStudyMode(true)">&#128214; 공부 모드</button>
+        <button class="qm-mode-toggle-btn active" id="qmModeStudy" onclick="QM.setStudyMode(true)">&#128214; 공부 모드</button>
+        <button class="qm-mode-toggle-btn" id="qmModeQuiz" onclick="QM.setStudyMode(false)">&#128221; 퀴즈 모드</button>
       </div>
       <!-- Encourage message -->
       <div class="qm-encourage" id="qmEncourage"></div>
@@ -1880,9 +1880,9 @@ input[type="checkbox"]{
 
         <!-- Mode buttons -->
         <div class="ai-mode-row">
-          <button class="ai-mode-btn active" id="aiModeQuiz" onclick="AI.setMode('quiz')">&#127919; 퀴즈</button>
+          <button class="ai-mode-btn active" id="aiModeStudy" onclick="AI.setMode('study')">&#128214; 공부</button>
+          <button class="ai-mode-btn" id="aiModeQuiz" onclick="AI.setMode('quiz')">&#127919; 퀴즈</button>
           <button class="ai-mode-btn" id="aiModeGallery" onclick="AI.setMode('gallery')">&#128444; 갤러리</button>
-          <button class="ai-mode-btn" id="aiModeStudy" onclick="AI.setMode('study')">&#128214; 공부</button>
         </div>
       </div>
 
