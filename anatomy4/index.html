@@ -900,6 +900,21 @@ input[type="checkbox"]{
   padding:14px 16px;
   line-height:1.7;
 }
+.teach-card > details{
+  background:var(--card);
+  border:1px solid var(--card-border);
+  border-radius:var(--radius);
+  padding:12px 14px;
+  line-height:1.7;
+}
+.teach-card > details summary{
+  cursor:pointer;
+  font-weight:800;
+  color:var(--text);
+}
+.teach-card > details[open] summary{
+  margin-bottom:10px;
+}
 .teach-core{background:linear-gradient(135deg,rgba(30,58,95,.06),rgba(13,148,136,.08))}
 .teach-core-title,
 .teach-why-title,
@@ -1788,6 +1803,42 @@ input[type="checkbox"]{
 .db-prescription-item span{font-size:.82rem;color:var(--text);line-height:1.5}
 .db-prescription-actions{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
 .db-prescription-actions .btn{flex:1;min-width:120px}
+.db-task-list{display:grid;gap:10px;margin-top:14px}
+.db-task-card{
+  background:var(--bg);
+  border:1px solid var(--bg3);
+  border-radius:14px;
+  padding:14px 14px 12px;
+}
+.db-task-card.is-primary{
+  background:linear-gradient(135deg,rgba(13,148,136,.08),rgba(245,158,11,.08));
+  border-color:rgba(13,148,136,.18);
+}
+.db-task-title{
+  font-size:.94rem;
+  font-weight:800;
+  color:var(--text);
+  line-height:1.4;
+}
+.db-task-copy{
+  margin-top:6px;
+  font-size:.82rem;
+  color:var(--text);
+  line-height:1.6;
+}
+.db-task-meta{
+  margin-top:8px;
+  font-size:.76rem;
+  color:var(--text2);
+  line-height:1.5;
+}
+.db-task-actions{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  margin-top:10px;
+}
+.db-task-actions .btn{flex:1;min-width:120px}
 
 /* D-day section */
 .db-dday-card{
@@ -1971,6 +2022,41 @@ input[type="checkbox"]{
 .wk-sr-hard{background:#f59e0b}
 .wk-sr-good{background:#10b981}
 .wk-sr-easy{background:#3b82f6}
+.wk-sr-session-status{
+  margin-bottom:10px;
+  padding:10px 12px;
+  border-radius:12px;
+  background:rgba(13,148,136,.06);
+  border:1px solid rgba(13,148,136,.12);
+  color:var(--text2);
+  font-size:.8rem;
+  line-height:1.6;
+}
+.wk-sr-block-done{
+  background:var(--card);
+  border:1px solid var(--card-border);
+  border-radius:16px;
+  padding:18px 16px;
+  margin-top:12px;
+}
+.wk-sr-block-title{
+  font-size:1rem;
+  font-weight:800;
+  color:var(--text);
+}
+.wk-sr-block-copy{
+  margin-top:8px;
+  font-size:.84rem;
+  color:var(--text2);
+  line-height:1.6;
+}
+.wk-sr-block-actions{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  margin-top:14px;
+}
+.wk-sr-block-actions .btn{flex:1;min-width:130px}
 
 /* Wrong answer section */
 .wk-wrong-group{margin-bottom:16px}
@@ -2509,6 +2595,7 @@ input[type="checkbox"]{
           <span id="wkSrCounter">0/0</span>
           <span id="wkSrRemaining"></span>
         </div>
+        <div class="wk-sr-session-status" id="wkSrSessionStatus">이번 세트는 5장만 합니다. 틀린 카드는 오늘 한 번 더 바로 봅니다.</div>
         <div class="wk-sr-card-wrap" id="wkSrCardWrap">
           <div class="wk-sr-card" id="wkSrCardInner" onclick="WK.flipSrCard()">
             <div class="wk-sr-face wk-sr-front" id="wkSrFront"></div>
@@ -2520,6 +2607,15 @@ input[type="checkbox"]{
           <button class="wk-sr-btn wk-sr-hard" onclick="WK.srAnswer('hard')">&#128528; 어려움<br><span class="wk-sr-interval" id="wkHardInt"></span></button>
           <button class="wk-sr-btn wk-sr-good" onclick="WK.srAnswer('good')">&#128077; 좋아요<br><span class="wk-sr-interval" id="wkGoodInt"></span></button>
           <button class="wk-sr-btn wk-sr-easy" onclick="WK.srAnswer('easy')">&#128171; 쉬워요<br><span class="wk-sr-interval" id="wkEasyInt"></span></button>
+        </div>
+      </div>
+      <div class="wk-sr-block-done" id="wkSrBlockDone" style="display:none">
+        <div class="wk-sr-block-title" id="wkSrBlockTitle">복습 5장 완료</div>
+        <div class="wk-sr-block-copy" id="wkSrBlockCopy">여기서 끊고 쉬어도 됩니다.</div>
+        <div class="wk-sr-block-actions">
+          <button class="btn btn-primary btn-sm" id="wkSrContinueBtn" onclick="WK.nextSrBlock()">5장 더 보기</button>
+          <button class="btn btn-outline btn-sm" id="wkSrBreakBtn" onclick="WK.startBreak()">30초 쉬고 계속</button>
+          <button class="btn btn-outline btn-sm" id="wkSrStopBtn" onclick="WK.finishSrSession()">오늘은 여기까지</button>
         </div>
       </div>
       <button class="btn btn-primary btn-block" id="wkStartSrBtn" onclick="WK.startSrSession()" style="margin-top:12px;display:none">&#9654; 복습 시작</button>
@@ -2544,19 +2640,17 @@ input[type="checkbox"]{
 
   <div class="tab-content" id="tabFocus25">
     <div id="f25Setup">
-      <div class="section-header">&#9201; 25분 5회독</div>
+      <div class="section-header">&#9201; 25분 시험 진입 루프</div>
       <div class="card">
-        <div class="card-title"><span class="card-icon">&#127891;</span>문제 들어가기 전 워밍업</div>
-        <div class="card-subtitle">25분 동안 같은 토픽을 5번 다른 방식으로 훑고 바로 기출로 들어갑니다. 읽기만 하지 않고 설명, 회상, 미니퀴즈까지 묶습니다.</div>
+        <div class="card-title"><span class="card-icon">&#127919;</span>이번 세트에서 할 일 3개</div>
+        <div class="card-subtitle">길게 버티는 루프가 아니라 시험 진입용 압축 세트입니다. 짤기 1개, 핵심 3개, 기출 2~3문제만 먼저 확인합니다.</div>
         <div class="filter-row">
           <select id="f25TopicSelect"></select>
         </div>
         <div class="f25-checklist">
-          <div class="f25-check">1회독: 핵심 카드로 빠르게 훑기</div>
-          <div class="f25-check">2회독: 개념 설명으로 왜 맞는지 이해하기</div>
-          <div class="f25-check">3회독: 빈칸 회상으로 스스로 꺼내보기</div>
-          <div class="f25-check">4회독: 미니퀴즈 3문제로 흔들리는 지점 확인</div>
-          <div class="f25-check">5회독: 바로 기출 또는 가르치기 모드로 진입</div>
+          <div class="f25-check">1. 반복 기출 1개로 오늘 먼저 맞힐 문제 확인</div>
+          <div class="f25-check">2. 핵심 3개와 함정 1개만 붙여서 설명</div>
+          <div class="f25-check">3. 같은 토픽 기출 2~3문제로 바로 확인</div>
         </div>
         <div class="btn-row">
           <button class="btn btn-primary" onclick="F25.startSession()">25분 시작</button>
@@ -2631,15 +2725,11 @@ input[type="checkbox"]{
     </div>
 
     <div class="db-prescription-card" id="dbPrescriptionCard">
-      <div class="db-chart-title">&#129517; 오늘의 학습 처방</div>
+      <div class="db-chart-title">&#129517; 오늘 할 일</div>
       <div class="db-prescription-main" id="dbPrescriptionMain">오늘은 많이 보지 말고, 먼저 꺼내보는 쪽으로 갑니다.</div>
       <div class="db-prescription-sub" id="dbPrescriptionSub">복습과 신규를 작게 끊고, 바로 가르치기나 25분 루프로 이어지게 하세요.</div>
       <div class="db-prescription-list" id="dbPrescriptionList"></div>
-      <div class="db-prescription-actions">
-        <button class="btn btn-primary btn-sm" onclick="DB.startTodayReview()">오늘 복습</button>
-        <button class="btn btn-outline btn-sm" onclick="DB.openFocusSession()">25분 시작</button>
-        <button class="btn btn-outline btn-sm" onclick="DB.openTeachTopic()">가르치기</button>
-      </div>
+      <div class="db-prescription-actions" id="dbPrescriptionActions"></div>
     </div>
 
     <div class="db-priority-card">
@@ -2902,9 +2992,9 @@ function getQuestionImageLabel(q) {
 }
 
 function setQuestionImage(wrapId, imgId, captionId, q) {
-  const wrap = $(wrapId);
-  const img = $(imgId);
-  const caption = $(captionId);
+  const wrap = document.getElementById(wrapId);
+  const img = document.getElementById(imgId);
+  const caption = document.getElementById(captionId);
   if (!wrap || !img) return;
 
   if (!q || !q.image) {
@@ -4077,6 +4167,11 @@ const QM = (function() {
     return '<div class="study-tip"><strong>시험 우선순위</strong><div>' + escapeHTML(pieces.join(' · ')) + '</div></div>';
   }
 
+  function buildTeachDisclosure(title, body, open) {
+    if (!body) return '';
+    return '<details' + (open ? ' open' : '') + '><summary>' + escapeHTML(title) + '</summary>' + body + '</details>';
+  }
+
   function buildTeachCard(q, correctIdx) {
     var parsed = parseExplanation(q.explanation || '', q, correctIdx);
     var cards = getTopicFlashcards(q.topic);
@@ -4085,60 +4180,68 @@ const QM = (function() {
     var correctText = getChoiceText(q, correctIdx);
     var primaryPair = getPrimaryPair(unit, pairs);
     var coreLine = (unit && unit.core_line) || parsed.why || firstMeaningfulSentence(q.explanation) || correctText || '핵심 개념부터 다시 연결하세요.';
+    var answerBody = '';
+    var trapBody = '';
+    var memoryBody = '';
 
     var html = '<div class="teach-card">';
     html += '<div class="teach-core"><strong>' + escapeHTML((unit && unit.title) || '핵심 한 줄') + '</strong>' + escapeHTML(coreLine) + '</div>';
-    html += '<div class="study-answer">\u2705 정답: ' + (correctIdx + 1) + '번 - ' + escapeHTML(correctText) + '</div>';
-    html += buildRepeatInfoBlock(q);
-    html += buildExamInsightBlock(q.topic, unit);
+    html += '<div class="study-tip"><strong>먼저 10초 회상</strong><div>정답 보기 전에 구조, 기능, 함정 1개를 먼저 말해보세요. 막히면 아래 펼쳐보기로 확인하면 됩니다.</div></div>';
+    html += buildRecallBlock(q, cards, pairs, unit);
+
+    answerBody += '<div class="study-answer">\u2705 정답: ' + (correctIdx + 1) + '번 - ' + escapeHTML(correctText) + '</div>';
+    answerBody += buildRepeatInfoBlock(q);
+    answerBody += buildExamInsightBlock(q.topic, unit);
 
     if (unit && unit.why_it_matters) {
-      html += '<div class="study-tip">';
-      html += '<strong>왜 자주 나오나</strong>';
-      html += '<div>' + formatMultiline(unit.why_it_matters) + '</div>';
-      html += '</div>';
+      answerBody += '<div class="study-tip">';
+      answerBody += '<strong>왜 자주 나오나</strong>';
+      answerBody += '<div>' + formatMultiline(unit.why_it_matters) + '</div>';
+      answerBody += '</div>';
     }
 
-    html += '<div class="study-why">';
-    html += '<strong>왜 정답인가</strong>';
-    html += formatMultiline(parsed.why || q.explanation || '정답 구조와 기능을 먼저 연결해서 이해해보세요.');
-    html += '</div>';
+    answerBody += '<div class="study-why">';
+    answerBody += '<strong>왜 정답인가</strong>';
+    answerBody += formatMultiline(parsed.why || q.explanation || '정답 구조와 기능을 먼저 연결해서 이해해보세요.');
+    answerBody += '</div>';
+    html += buildTeachDisclosure('정답과 근거 보기', answerBody, false);
 
     if (unit && Array.isArray(unit.exam_points) && unit.exam_points.length > 0) {
-      html += formatListBlock('시험 포인트', unit.exam_points);
+      trapBody += formatListBlock('시험 포인트', unit.exam_points.slice(0, 3));
     }
 
     if (parsed.wrongItems.length > 0) {
-      html += '<div class="study-wrong"><strong>왜 오답인가</strong>';
+      trapBody += '<div class="study-wrong"><strong>왜 오답인가</strong>';
       parsed.wrongItems.slice(0, 4).forEach(function(item) {
-        html += '<span class="wrong-item">' + escapeHTML(item) + '</span>';
+        trapBody += '<span class="wrong-item">' + escapeHTML(item) + '</span>';
       });
-      html += '</div>';
+      trapBody += '</div>';
     }
 
     if (unit && Array.isArray(unit.common_traps) && unit.common_traps.length > 0) {
-      html += formatListBlock('자주 틀리는 함정', unit.common_traps);
-    }
-
-    if (unit && Array.isArray(unit.takeaways) && unit.takeaways.length > 0) {
-      html += formatListBlock('가르치기 포인트', unit.takeaways);
+      trapBody += formatListBlock('자주 틀리는 함정', unit.common_traps.slice(0, 3));
     }
 
     if (primaryPair) {
-      html += '<div class="study-tip">';
-      html += '<strong>헷갈리는 쌍</strong>';
-      html += '<div><strong>' + escapeHTML(primaryPair.item_a) + '</strong> vs <strong>' + escapeHTML(primaryPair.item_b) + '</strong></div>';
-      html += '<div>' + formatMultiline(primaryPair.comparison_notes || '둘의 차이를 기능, 위치, 지배 구조 기준으로 나눠서 외워보세요.') + '</div>';
-      html += '</div>';
+      trapBody += '<div class="study-tip">';
+      trapBody += '<strong>헷갈리는 쌍</strong>';
+      trapBody += '<div><strong>' + escapeHTML(primaryPair.item_a) + '</strong> vs <strong>' + escapeHTML(primaryPair.item_b) + '</strong></div>';
+      trapBody += '<div>' + formatMultiline(primaryPair.comparison_notes || '둘의 차이를 기능, 위치, 지배 구조 기준으로 나눠서 외워보세요.') + '</div>';
+      trapBody += '</div>';
+    }
+    html += buildTeachDisclosure('함정과 비교 보기', trapBody, false);
+
+    if (unit && Array.isArray(unit.takeaways) && unit.takeaways.length > 0) {
+      memoryBody += formatListBlock('가르치기 포인트', unit.takeaways.slice(0, 3));
     }
 
     if (unit && Array.isArray(unit.memory_hooks) && unit.memory_hooks.length > 0) {
-      html += formatListBlock('기억 갈고리', unit.memory_hooks);
+      memoryBody += formatListBlock('기억 갈고리', unit.memory_hooks.slice(0, 3));
     }
+    memoryBody += formatSourceBlock(unit);
+    html += buildTeachDisclosure('기억 갈고리와 참고 보기', memoryBody, false);
 
-    html += buildRecallBlock(q, cards, pairs, unit);
     html += '<div class="study-related"><strong>바로 이어서</strong> 1분 뒤 빈 종이에 꺼내 말하고, 같은 토픽 문제 2~3개로 바로 확인하세요.</div>';
-    html += formatSourceBlock(unit);
     html += '<div class="teach-action-row">';
     html += '<button class="btn btn-outline btn-sm" onclick="QM.setViewMode(\'quiz\')">퀴즈로 확인</button>';
     html += '<button class="btn btn-outline btn-sm" onclick="QM.filterByTopic()">이 토픽 더 보기</button>';
@@ -4569,13 +4672,11 @@ const F25 = (function() {
     var checks = root.querySelectorAll('#f25Setup .f25-check');
     var header = root.querySelector('#f25Setup .section-header');
     if (header) header.innerHTML = '&#9201; 25분 시험 진입 루프';
-    if (titles[0]) titles[0].innerHTML = '<span class="card-icon">&#127919;</span>짤기부터 바로 들어가기';
-    if (subtitle) subtitle.textContent = '이 탭은 워밍업이 아니라 시험 진입용입니다. 짤기 1개, 핵심 포인트 3개, 함정 2개, 기출 확인 3문제만 먼저 잡습니다.';
-    if (checks[0]) checks[0].textContent = '1단계: 반복된 기출 1개를 먼저 확인';
-    if (checks[1]) checks[1].textContent = '2단계: 시험 포인트 3개만 압축해서 보기';
-    if (checks[2]) checks[2].textContent = '3단계: 헷갈리는 함정과 회상 질문으로 꺼내보기';
-    if (checks[3]) checks[3].textContent = '4단계: 기출 3문제로 바로 확인';
-    if (checks[4]) checks[4].textContent = '5단계: 바로 기출 탭으로 넘어가기';
+    if (titles[0]) titles[0].innerHTML = '<span class="card-icon">&#127919;</span>이번 세트에서 할 일 3개';
+    if (subtitle) subtitle.textContent = '이 탭은 워밍업이 아니라 시험 진입용입니다. 짤기 1개, 핵심 3개, 같은 토픽 기출 2~3문제만 먼저 잡습니다.';
+    if (checks[0]) checks[0].textContent = '1. 반복된 기출 1개를 먼저 확인';
+    if (checks[1]) checks[1].textContent = '2. 핵심 3개와 함정 1개만 압축해서 보기';
+    if (checks[2]) checks[2].textContent = '3. 같은 토픽 기출 2~3문제로 바로 확인';
     if (titles[1]) titles[1].innerHTML = '<span class="card-icon">&#128161;</span>동생 기준 추천';
     if (helper) helper.textContent = '길게 많이 보는 탭이 아닙니다. 지금 점수에 직접 연결되는 것만 먼저 잡게 하려고 만든 루프입니다. 짤기와 빈출 개념을 먼저 묶고, 그 다음에만 탈기로 넘어가세요.';
   }
@@ -4790,19 +4891,19 @@ const F25 = (function() {
     }
     html += '<div class="study-why"><strong>왜 정답인가</strong>' + formatMultiline(q.explanation || '정답 구조와 기능을 연결해서 다시 말해보세요.') + '</div>';
     if (unit && Array.isArray(unit.exam_points) && unit.exam_points.length > 0) {
-      html += '<div class="study-tip"><strong>시험 포인트</strong>' + renderBulletItems(unit.exam_points) + '</div>';
+      html += '<div class="study-tip"><strong>시험 포인트</strong>' + renderBulletItems(unit.exam_points.slice(0, 3)) + '</div>';
     }
     if (unit && Array.isArray(unit.common_traps) && unit.common_traps.length > 0) {
-      html += '<div class="study-tip"><strong>자주 틀리는 함정</strong>' + renderBulletItems(unit.common_traps) + '</div>';
+      html += '<div class="study-tip"><strong>자주 틀리는 함정</strong>' + renderBulletItems(unit.common_traps.slice(0, 2)) + '</div>';
     }
     if (pair) {
       html += '<div class="study-tip"><strong>헷갈리는 쌍</strong><div><strong>' + escapeHTML(pair.item_a) + '</strong> vs <strong>' + escapeHTML(pair.item_b) + '</strong></div><div>' + formatMultiline(pair.comparison_notes || '') + '</div></div>';
     }
     if (unit && Array.isArray(unit.takeaways) && unit.takeaways.length > 0) {
-      html += '<div class="study-tip"><strong>가르치기 포인트</strong>' + renderBulletItems(unit.takeaways) + '</div>';
+      html += '<div class="study-tip"><strong>가르치기 포인트</strong>' + renderBulletItems(unit.takeaways.slice(0, 3)) + '</div>';
     }
     if (unit && Array.isArray(unit.memory_hooks) && unit.memory_hooks.length > 0) {
-      html += '<div class="study-tip"><strong>기억 갈고리</strong>' + renderBulletItems(unit.memory_hooks) + '</div>';
+      html += '<div class="study-tip"><strong>기억 갈고리</strong>' + renderBulletItems(unit.memory_hooks.slice(0, 2)) + '</div>';
     }
     html += '<div class="study-related"><strong>말로 꺼내보기</strong> 지금 바로 30초 동안 빈 종이에 정의, 위치, 기능을 적어보세요.</div>';
     html += renderSourceChips(unit);
@@ -7352,6 +7453,8 @@ const WK = (function() {
   };
   const SR_DAILY_REVIEW_LIMIT = 20;
   const SR_DAILY_NEW_LIMIT = 10;
+  const SR_SESSION_BLOCK_SIZE = 5;
+  const SR_AGAIN_REINSERT_OFFSET = 2;
 
   // --- State ---
   let flashcards = [];
@@ -7360,6 +7463,13 @@ const WK = (function() {
   let srIndex = 0;
   let srFlipped = false;
   let srSessionActive = false;
+  let srRemainingCards = [];
+  let srSessionTotal = 0;
+  let srUniqueCompleted = 0;
+  let srBlockTarget = 0;
+  let srBlockCompleted = 0;
+  let srBreakTimeout = null;
+  let srBreakInterval = null;
   let mastered = {};       // { cpId: true }
   let initialized = false;
   let initPromise = null;
@@ -7515,6 +7625,21 @@ const WK = (function() {
     return interval + '일';
   }
 
+  function clearSrBreakTimers() {
+    if (srBreakTimeout) {
+      clearTimeout(srBreakTimeout);
+      srBreakTimeout = null;
+    }
+    if (srBreakInterval) {
+      clearInterval(srBreakInterval);
+      srBreakInterval = null;
+    }
+  }
+
+  function getSrEntryCard(entry) {
+    return entry && entry.card ? entry.card : entry;
+  }
+
   // --- Init ---
   async function init() {
     if (initialized) {
@@ -7549,6 +7674,7 @@ const WK = (function() {
     todayCards = getRecommendedTodayCards();
     const badge = $('wkTodayBadge');
     const detail = $('wkTodayDetail');
+    const startBtn = $('wkStartSrBtn');
     badge.textContent = todayCards.length + '장';
     if (detail) {
       if (plan.recommendedCount > 0) {
@@ -7556,38 +7682,42 @@ const WK = (function() {
         if (plan.reviewAssigned > 0) parts.push('복습 ' + plan.reviewAssigned);
         if (plan.newAssigned > 0) parts.push('신규 ' + plan.newAssigned);
         if (plan.overflowCount > 0) parts.push('남은 대기 ' + plan.overflowCount);
-        detail.textContent = parts.join(' · ');
+        detail.textContent = parts.join(' · ') + ' · 먼저 5장만 끝내면 됩니다.';
       } else {
         detail.textContent = '오늘은 새 카드보다 쉬는 쪽이 낫습니다. 내일 다시 확인하세요.';
       }
     }
 
+    $('wkSrBlockDone').style.display = 'none';
     if (todayCards.length === 0) {
       $('wkSrEmpty').style.display = '';
       $('wkSrCard').style.display = 'none';
-      $('wkStartSrBtn').style.display = 'none';
+      startBtn.style.display = 'none';
     } else {
       $('wkSrEmpty').style.display = 'none';
       $('wkSrCard').style.display = 'none';
-      $('wkStartSrBtn').style.display = '';
+      startBtn.style.display = '';
+      startBtn.innerHTML = '&#9654; 복습 ' + Math.min(SR_SESSION_BLOCK_SIZE, todayCards.length) + '장 시작';
     }
   }
 
   // --- Start SR session ---
   function startSrSession() {
-    todayCards = getRecommendedTodayCards();
-    if (todayCards.length === 0) {
+    var recommended = getRecommendedTodayCards();
+    if (recommended.length === 0) {
       showToast('복습할 카드가 없습니다.', 'info');
       return;
     }
 
-    srIndex = 0;
-    srFlipped = false;
+    clearSrBreakTimers();
+    srRemainingCards = recommended.slice();
+    srSessionTotal = recommended.length;
+    srUniqueCompleted = 0;
     srSessionActive = true;
     $('wkStartSrBtn').style.display = 'none';
-    $('wkSrCard').style.display = '';
+    $('wkSrBlockDone').style.display = 'none';
     $('wkSrBtns').style.display = 'none';
-    renderSrCard();
+    nextSrBlock();
   }
 
   function startRecommendedSession() {
@@ -7597,20 +7727,96 @@ const WK = (function() {
     });
   }
 
-  // --- Render SR card ---
-  function renderSrCard() {
-    if (srIndex >= todayCards.length) {
-      // Session complete
-      srSessionActive = false;
-      $('wkSrCard').style.display = 'none';
-      showToast('복습 완료! ' + todayCards.length + '장 학습했습니다.', 'success');
-      renderTodaySection();
+  function nextSrBlock() {
+    clearSrBreakTimers();
+    if (!srSessionActive) return;
+    if (!srRemainingCards.length) {
+      finishSrSession(true);
       return;
     }
 
-    const card = todayCards[srIndex];
-    $('wkSrCounter').textContent = (srIndex + 1) + '/' + todayCards.length;
-    $('wkSrRemaining').textContent = (todayCards.length - srIndex) + '장 남음';
+    var blockCards = srRemainingCards.splice(0, SR_SESSION_BLOCK_SIZE);
+    todayCards = blockCards.map(function(card) {
+      return { card: card, retry: false };
+    });
+    srIndex = 0;
+    srFlipped = false;
+    srBlockTarget = blockCards.length;
+    srBlockCompleted = 0;
+    $('wkSrBlockDone').style.display = 'none';
+    $('wkSrCard').style.display = '';
+    $('wkSrBtns').style.display = 'none';
+    renderSrCard();
+  }
+
+  function renderSrBlockDone() {
+    if (!srRemainingCards.length) {
+      finishSrSession(true);
+      return;
+    }
+
+    var nextCount = Math.min(SR_SESSION_BLOCK_SIZE, srRemainingCards.length);
+    $('wkSrCard').style.display = 'none';
+    $('wkSrBlockDone').style.display = '';
+    $('wkSrBlockTitle').textContent = '복습 ' + srBlockTarget + '장 완료';
+    $('wkSrBlockCopy').textContent = '여기서 끊고 쉬어도 됩니다. 남은 추천 복습은 ' + srRemainingCards.length + '장입니다.';
+    $('wkSrContinueBtn').textContent = nextCount + '장 더 보기';
+    $('wkSrBreakBtn').textContent = '30초 쉬고 ' + nextCount + '장';
+    $('wkSrBreakBtn').disabled = false;
+    $('wkSrStopBtn').textContent = '오늘은 여기까지';
+  }
+
+  function finishSrSession(forceComplete) {
+    clearSrBreakTimers();
+    srSessionActive = false;
+    $('wkSrCard').style.display = 'none';
+    $('wkSrBlockDone').style.display = 'none';
+    $('wkSrBtns').style.display = 'none';
+    if (forceComplete) {
+      showToast('복습 완료! ' + srUniqueCompleted + '장 학습했습니다.', 'success');
+    } else {
+      showToast('오늘 복습은 여기까지. ' + srUniqueCompleted + '장 처리했습니다.', 'info');
+    }
+    renderTodaySection();
+  }
+
+  function startBreak() {
+    if (!srSessionActive || !srRemainingCards.length) return;
+    clearSrBreakTimers();
+    var seconds = 30;
+    var btn = $('wkSrBreakBtn');
+    var copy = $('wkSrBlockCopy');
+    btn.disabled = true;
+    btn.textContent = '쉬는 중 ' + seconds + '초';
+    copy.textContent = '30초만 쉬고 다시 시작합니다. 물 한 모금 마시고 오세요.';
+    srBreakInterval = setInterval(function() {
+      seconds -= 1;
+      if (seconds <= 0) {
+        clearSrBreakTimers();
+        return;
+      }
+      btn.textContent = '쉬는 중 ' + seconds + '초';
+    }, 1000);
+    srBreakTimeout = setTimeout(function() {
+      clearSrBreakTimers();
+      nextSrBlock();
+    }, 30000);
+  }
+
+  // --- Render SR card ---
+  function renderSrCard() {
+    if (srIndex >= todayCards.length) {
+      renderSrBlockDone();
+      return;
+    }
+
+    const entry = todayCards[srIndex];
+    const card = getSrEntryCard(entry);
+    const currentOverall = Math.min(srSessionTotal, srUniqueCompleted + 1);
+    const retryAhead = todayCards.slice(srIndex + 1).filter(function(item) { return item.retry; }).length;
+    $('wkSrCounter').textContent = '오늘 ' + currentOverall + '/' + srSessionTotal;
+    $('wkSrRemaining').textContent = '이번 세트 ' + (srBlockCompleted + 1) + '/' + srBlockTarget;
+    $('wkSrSessionStatus').textContent = '이번 세트는 ' + srBlockTarget + '장만 합니다. 남은 대기 ' + srRemainingCards.length + '장' + (retryAhead ? ' · 오늘 다시 볼 카드 ' + retryAhead + '장' : '') + '.';
 
     // Front
     const front = $('wkSrFront');
@@ -7646,12 +7852,18 @@ const WK = (function() {
   // --- SR answer ---
   function srAnswer(quality) {
     if (!srSessionActive || srIndex >= todayCards.length) return;
-    const card = todayCards[srIndex];
+    const entry = todayCards[srIndex];
+    const card = getSrEntryCard(entry);
     sm2Update(card.id, quality);
 
-    // If "again", add card back at the end
+    if (!entry.retry) {
+      srBlockCompleted++;
+      srUniqueCompleted++;
+    }
+
     if (quality === 'again') {
-      todayCards.push(card);
+      var insertAt = Math.min(todayCards.length, srIndex + SR_AGAIN_REINSERT_OFFSET + 1);
+      todayCards.splice(insertAt, 0, { card: card, retry: true });
     }
 
     srIndex++;
@@ -7817,6 +8029,9 @@ const WK = (function() {
     init: init,
     startSrSession: startSrSession,
     startRecommendedSession: startRecommendedSession,
+    nextSrBlock: nextSrBlock,
+    finishSrSession: finishSrSession,
+    startBreak: startBreak,
     flipSrCard: flipSrCard,
     srAnswer: srAnswer,
     retryWrong: retryWrong,
@@ -8510,6 +8725,32 @@ const DB = (function() {
     })[0] || teachingTopics[0] || focusTopic || '';
   }
 
+  function buildPriorityItemHtml(item, idx) {
+    var actionTopic = escapeHTML(item.primaryTopic).replace(/'/g, '\\&#39;');
+    var html = '<div class="db-priority-item">';
+    html += '<div class="db-priority-rank">' + (idx + 1) + '</div>';
+    html += '<div class="db-priority-body">';
+    html += '<div class="db-priority-title">' + escapeHTML(shortenRepeatText(item.preview, 56)) + '</div>';
+    html += '<div class="db-priority-meta">' + item.repeatCount + '회 반복 · ' + item.years.join(', ') + ' · ' + escapeHTML(formatStudyTopicLabel(item.primaryTopic)) + '</div>';
+    html += '<div class="db-priority-badges">';
+    html += '<span class="db-priority-chip is-hot">짤기</span>';
+    html += item.hasTeaching
+      ? '<span class="db-priority-chip is-ready">가르치기 가능</span>'
+      : '<span class="db-priority-chip is-gap">티칭 보강 필요</span>';
+    html += '</div>';
+    html += '</div>';
+    html += '<div class="db-priority-actions">';
+    html += '<button class="btn btn-outline btn-sm" onclick="DB.openRepeatQuestion(' + item.latestQuestionId + ')">바로 풀기</button>';
+    if (item.hasTeaching) {
+      html += '<button class="btn btn-primary btn-sm" onclick="DB.openRepeatTeachQuestion(' + item.latestQuestionId + ')">가르치기</button>';
+    } else {
+      html += '<button class="btn btn-primary btn-sm" onclick="DB.openPriorityFocus(\'' + actionTopic + '\')">25분</button>';
+    }
+    html += '</div>';
+    html += '</div>';
+    return html;
+  }
+
   function renderExamPriority() {
     var container = $('dbPriorityList');
     var titleEl = $('dbPriorityTitle');
@@ -8518,38 +8759,24 @@ const DB = (function() {
 
     var questions = loadedData['questions.json'] || [];
     var items = getRepeatGroups(questions).slice(0, 5);
-    if (titleEl) titleEl.innerHTML = '&#128293; 짤기 우선 TOP 5';
-    if (subEl) subEl.textContent = '우리 기출에서 그대로 반복된 문제를 먼저 잡습니다. 짤기부터 풀고, 바로 가르치기나 25분 루프로 연결하세요.';
+    if (titleEl) titleEl.innerHTML = '&#128293; 짤기 우선';
+    if (subEl) subEl.textContent = '선택지를 줄였습니다. 첫 번째 반복문항만 먼저 끝내고, 나머지는 필요할 때 펼쳐보면 됩니다.';
     if (!items.length) {
       container.innerHTML = '<div class="empty-state" style="padding:20px"><div class="empty-text">반복 기출을 아직 찾지 못했습니다. 일단 빈출 토픽부터 들어가면 됩니다.</div></div>';
       return;
     }
 
     var html = '';
-    items.forEach(function(item, idx) {
-      var actionTopic = escapeHTML(item.primaryTopic).replace(/'/g, '\\&#39;');
-      html += '<div class="db-priority-item">';
-      html += '<div class="db-priority-rank">' + (idx + 1) + '</div>';
-      html += '<div class="db-priority-body">';
-      html += '<div class="db-priority-title">' + escapeHTML(shortenRepeatText(item.preview, 56)) + '</div>';
-      html += '<div class="db-priority-meta">' + item.repeatCount + '회 반복 · ' + item.years.join(', ') + ' · ' + escapeHTML(formatStudyTopicLabel(item.primaryTopic)) + '</div>';
-      html += '<div class="db-priority-badges">';
-      html += '<span class="db-priority-chip is-hot">짤기</span>';
-      html += item.hasTeaching
-        ? '<span class="db-priority-chip is-ready">가르치기 가능</span>'
-        : '<span class="db-priority-chip is-gap">티칭 보강 필요</span>';
-      html += '</div>';
-      html += '</div>';
-      html += '<div class="db-priority-actions">';
-      html += '<button class="btn btn-outline btn-sm" onclick="DB.openRepeatQuestion(' + item.latestQuestionId + ')">바로 풀기</button>';
-      if (item.hasTeaching) {
-        html += '<button class="btn btn-primary btn-sm" onclick="DB.openRepeatTeachQuestion(' + item.latestQuestionId + ')">가르치기</button>';
-      } else {
-        html += '<button class="btn btn-primary btn-sm" onclick="DB.openPriorityFocus(\'' + actionTopic + '\')">25분</button>';
-      }
-      html += '</div>';
-      html += '</div>';
-    });
+    html += buildPriorityItemHtml(items[0], 0);
+    if (items.length > 1) {
+      html += '<details class="db-disclosure" style="margin-top:10px">';
+      html += '<summary>나머지 짤기 ' + (items.length - 1) + '개 보기 <span>첫 문제를 끝낸 뒤에만 펼치세요</span></summary>';
+      html += '<div class="db-disclosure-body">';
+      items.slice(1).forEach(function(item, idx) {
+        html += buildPriorityItemHtml(item, idx + 1);
+      });
+      html += '</div></details>';
+    }
 
     container.innerHTML = html;
   }
@@ -8568,53 +8795,78 @@ const DB = (function() {
     var mainEl = $('dbPrescriptionMain');
     var subEl = $('dbPrescriptionSub');
     var listEl = $('dbPrescriptionList');
+    var actionsEl = $('dbPrescriptionActions');
     var listHtml = '';
+    var reviewBatch = Math.min(5, Math.max(0, reviewPlan.recommendedCount));
+    var reviewTaskLabel = reviewBatch > 0 ? (reviewBatch + '장') : '대신 짤기 복습';
 
     prescriptionState.focusTopic = focusTopic;
     prescriptionState.teachTopic = teachTopic;
     prescriptionState.firstWrongId = wrongSummary.firstWrongId;
 
+    mainEl.textContent = '오늘 할 일 3개만 끝냅니다.';
+    subEl.textContent = '짤기 1개 -> 설명 1개 -> 복습 5장. 남은 대기는 오늘 다 안 해도 됩니다.';
+
+    listHtml += '<div class="db-task-list">';
     if (topRepeat) {
-      mainEl.textContent = '오늘은 짤기부터 잡습니다. 반복된 기출 1개를 먼저 풀고, 바로 설명이나 25분 루프로 이어가세요.';
-      subEl.textContent = '짤기 -> 왜 맞는지 설명 -> 같은 날 다시 보기 순서가 시험 점수에 가장 직접적입니다.';
-    } else if (reviewPlan.recommendedCount > 0) {
-      mainEl.textContent = '오늘은 신규 ' + reviewPlan.newAssigned + '장부터 하고, 길게 버티지 말고 바로 꺼내보세요.';
-      subEl.textContent = '많이 읽기보다 적게 꺼내보기, 같은 날 다시 보기, 헷갈리는 것끼리 비교하기가 더 효율적입니다.';
+      listHtml += '<div class="db-task-card is-primary">';
+      listHtml += '<div class="db-task-title">1. 짤기 1개</div>';
+      listHtml += '<div class="db-task-copy">' + escapeHTML(shortenRepeatText(topRepeat.preview, 62)) + '</div>';
+      listHtml += '<div class="db-task-meta">' + topRepeat.repeatCount + '회 반복 · ' + topRepeat.years.join(', ') + ' · ' + escapeHTML(formatStudyTopicLabel(topRepeat.primaryTopic)) + '</div>';
+      listHtml += '<div class="db-task-actions">';
+      listHtml += '<button class="btn btn-primary btn-sm" onclick="DB.openRepeatQuestion(' + topRepeat.latestQuestionId + ')">바로 풀기</button>';
+      if (topRepeat.hasTeaching) {
+        listHtml += '<button class="btn btn-outline btn-sm" onclick="DB.openRepeatTeachQuestion(' + topRepeat.latestQuestionId + ')">설명 보기</button>';
+      } else if (focusTopic) {
+        listHtml += '<button class="btn btn-outline btn-sm" onclick="DB.openPriorityFocus(\'' + escapeHTML(focusTopic).replace(/'/g, '\\&#39;') + '\')">25분</button>';
+      }
+      listHtml += '</div></div>';
     } else {
-      mainEl.textContent = '오늘은 복습량을 더 늘리지 말고, 25분 1세트와 기출 3문제로 워밍업하는 쪽이 낫습니다.';
-      subEl.textContent = '먼저 반복 기출을 잡고, 그 다음 탈기 보강으로 넘어가는 흐름이 맞습니다.';
+      listHtml += '<div class="db-task-card is-primary">';
+      listHtml += '<div class="db-task-title">1. 먼저 시작</div>';
+      listHtml += '<div class="db-task-copy">반복문항이 아직 약하면 빈출 토픽 1세트부터 들어갑니다.</div>';
+      listHtml += '<div class="db-task-meta">' + (focusTopic ? escapeHTML(formatStudyTopicLabel(focusTopic)) : '자동 추천 토픽') + '</div>';
+      listHtml += '<div class="db-task-actions"><button class="btn btn-primary btn-sm" onclick="DB.openFocusSession()">25분 1세트</button></div>';
+      listHtml += '</div>';
     }
 
-    if (topRepeat) {
-      listHtml += '<div class="db-prescription-item"><strong>짤기 우선</strong><span>' +
-        topRepeat.repeatCount + '회 반복 · ' + topRepeat.years.join(', ') + ' · ' + escapeHTML(shortenRepeatText(topRepeat.preview, 42)) +
-        '</span></div>';
+    listHtml += '<div class="db-task-card">';
+    listHtml += '<div class="db-task-title">2. 설명 1개</div>';
+    if (teachTopic) {
+      listHtml += '<div class="db-task-copy">' + escapeHTML(formatStudyTopicLabel(teachTopic)) + '에서 정답 근거 1개와 함정 1개만 확인합니다.</div>';
+      listHtml += '<div class="db-task-meta">답을 먼저 읽지 말고 10초 회상한 뒤 펼쳐보세요.</div>';
+      listHtml += '<div class="db-task-actions"><button class="btn btn-outline btn-sm" onclick="DB.openTeachTopic()">가르치기</button></div>';
+    } else if (focusTopic) {
+      listHtml += '<div class="db-task-copy">' + escapeHTML(formatStudyTopicLabel(focusTopic)) + ' 25분 1세트로 핵심 3개만 먼저 묶습니다.</div>';
+      listHtml += '<div class="db-task-meta">길게 읽지 말고 같은 토픽 기출 2~3문제로 바로 확인합니다.</div>';
+      listHtml += '<div class="db-task-actions"><button class="btn btn-outline btn-sm" onclick="DB.openFocusSession()">25분 1세트</button></div>';
+    } else {
+      listHtml += '<div class="db-task-copy">연결된 티칭 토픽이 부족하면 오늘은 짤기 1개만 확실히 잡아도 됩니다.</div>';
+      listHtml += '<div class="db-task-meta">오답과 헷갈리는 선지 비교가 우선입니다.</div>';
     }
+    listHtml += '</div>';
 
-    listHtml += '<div class="db-prescription-item"><strong>복습 상한</strong><span>추천 ' + reviewPlan.recommendedCount + '장';
-    if (reviewPlan.reviewAssigned > 0 || reviewPlan.newAssigned > 0) {
-      listHtml += ' · 복습 ' + reviewPlan.reviewAssigned + ' · 신규 ' + reviewPlan.newAssigned;
+    listHtml += '<div class="db-task-card">';
+    listHtml += '<div class="db-task-title">3. ' + reviewTaskLabel + '</div>';
+    if (reviewPlan.recommendedCount > 0) {
+      listHtml += '<div class="db-task-copy">추천 ' + reviewPlan.recommendedCount + '장 중 먼저 ' + reviewBatch + '장만 합니다. 틀린 카드는 같은 세트에서 한 번 더 봅니다.</div>';
+      listHtml += '<div class="db-task-meta">복습 ' + reviewPlan.reviewAssigned + ' · 신규 ' + reviewPlan.newAssigned + (reviewPlan.overflowCount > 0 ? ' · 남은 대기 ' + reviewPlan.overflowCount : '') + '</div>';
+      listHtml += '<div class="db-task-actions"><button class="btn btn-outline btn-sm" onclick="DB.startTodayReview()">복습 ' + reviewBatch + '장 시작</button></div>';
+    } else {
+      listHtml += '<div class="db-task-copy">오늘 추천 복습은 없습니다. 대신 짤기 1개를 다시 빈 종이에 꺼내보면 됩니다.</div>';
+      listHtml += '<div class="db-task-meta">' + (wrongSummary.count > 0 ? ('최근 오답 ' + wrongSummary.count + '문제') : '오답 적음') + '</div>';
+      listHtml += '<div class="db-task-actions"><button class="btn btn-outline btn-sm" onclick="DB.openFocusSession()">25분 1세트</button></div>';
     }
-    if (reviewPlan.overflowCount > 0) {
-      listHtml += ' · 남은 대기 ' + reviewPlan.overflowCount;
-    }
-    listHtml += '</span></div>';
-
-    listHtml += '<div class="db-prescription-item"><strong>오답 다시 보기</strong><span>' +
-      (wrongSummary.count > 0
-        ? ('누적 ' + wrongSummary.count + '문제, 가장 흔들리는 토픽은 ' + (formatStudyTopicLabel(wrongSummary.topTopic) || '최근 오답') + '입니다.')
-        : '오답이 아직 적습니다. 짤기 1개와 기출 2문제만 풀고 바로 복습 루프로 넘어가세요.') +
-      '</span></div>';
-
-    listHtml += '<div class="db-prescription-item"><strong>25분 집중</strong><span>' +
-      (focusTopic ? (formatStudyTopicLabel(focusTopic) + ' 1세트를 먼저 돌리세요. 반복 기출과 같은 토픽이면 더 좋습니다.') : '자동 추천 토픽을 아직 고르지 못했습니다.') +
-      '</span></div>';
-
-    listHtml += '<div class="db-prescription-item"><strong>가르치기 모드</strong><span>' +
-      (teachTopic ? (formatStudyTopicLabel(teachTopic) + '에서 핵심 한 줄, 함정, 회상 질문까지 보고 바로 문제 2~3개로 넘어가세요.') : '연결된 티칭 토픽이 부족하면 우선 25분 루프와 기출부터 돌리세요.') +
-      '</span></div>';
+    listHtml += '</div>';
+    listHtml += '</div>';
 
     listEl.innerHTML = listHtml;
+    if (actionsEl) {
+      if (topRepeat) actionsEl.innerHTML = '<button class="btn btn-primary btn-sm" onclick="DB.openRepeatQuestion(' + topRepeat.latestQuestionId + ')">첫 단계: 짤기 1개 시작</button>';
+      else if (reviewPlan.recommendedCount > 0) actionsEl.innerHTML = '<button class="btn btn-primary btn-sm" onclick="DB.startTodayReview()">첫 단계: 복습 ' + reviewBatch + '장 시작</button>';
+      else if (focusTopic) actionsEl.innerHTML = '<button class="btn btn-primary btn-sm" onclick="DB.openFocusSession()">첫 단계: 25분 1세트 시작</button>';
+      else actionsEl.innerHTML = '';
+    }
   }
 
   // --- Render stat cards ---
