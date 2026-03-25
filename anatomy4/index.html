@@ -245,6 +245,7 @@ select{
 .q-badge.year{background:rgba(30,58,95,.3);color:var(--accent-light)}
 .q-badge.unit{background:rgba(16,185,129,.12);color:var(--success)}
 .q-badge.type{background:rgba(245,158,11,.12);color:var(--warning)}
+.q-badge.repeat{background:rgba(245,158,11,.16);color:#b45309}
 .q-num{font-size:.82rem;color:var(--text2);font-weight:600}
 .q-text{font-size:1rem;font-weight:600;line-height:1.65;margin-bottom:18px}
 .q-nav{display:flex;gap:10px;margin-top:18px;justify-content:space-between}
@@ -823,6 +824,22 @@ input[type="checkbox"]{
   padding:3px 10px;border-radius:20px;
   margin-bottom:8px;
 }
+.study-repeat{
+  background:#fff7ed;
+  border-left:4px solid #fb923c;
+  color:#9a3412;
+}
+.study-repeat strong{
+  display:block;
+  color:#c2410c;
+  font-size:.88rem;
+  margin-bottom:6px;
+}
+.study-repeat .repeat-hint{
+  margin-top:6px;
+  font-size:.88rem;
+  color:#7c2d12;
+}
 .study-card .study-why{
   background:rgba(13,148,136,.05);
   border-left-color:var(--accent);
@@ -865,6 +882,62 @@ input[type="checkbox"]{
 }
 .study-card .study-related strong{
   color:var(--info);
+}
+
+/* Teaching mode */
+.qm-teach-explanation{
+  display:block;animation:fadeIn .3s;
+  background:none;border:none;padding:0;margin-top:10px;
+}
+.teach-card{
+  display:flex;flex-direction:column;gap:10px;
+  margin-top:12px;
+}
+.teach-card > div{
+  background:var(--card);
+  border:1px solid var(--card-border);
+  border-radius:var(--radius);
+  padding:14px 16px;
+  line-height:1.7;
+}
+.teach-core{background:linear-gradient(135deg,rgba(30,58,95,.06),rgba(13,148,136,.08))}
+.teach-core-title,
+.teach-why-title,
+.teach-diff-title,
+.teach-recall-title,
+.teach-next-title{
+  display:block;
+  font-size:.78rem;
+  font-weight:800;
+  letter-spacing:.02em;
+  color:var(--accent);
+  margin-bottom:6px;
+}
+.teach-core-text{font-size:1rem;font-weight:700;color:var(--text)}
+.teach-why-text,.teach-diff-text{white-space:pre-line;color:var(--text2)}
+.teach-recall-list{display:flex;flex-direction:column;gap:8px}
+.teach-recall-item{
+  border:1px solid var(--bg3);
+  border-radius:10px;
+  background:var(--bg);
+  padding:10px 12px;
+}
+.teach-recall-item summary{cursor:pointer;font-weight:700;color:var(--text)}
+.teach-recall-answer{margin-top:8px;color:var(--text2);white-space:pre-line}
+.teach-action-row{display:flex;gap:8px;flex-wrap:wrap}
+.teach-action-row .btn{flex:1;min-width:130px}
+.teach-bullet-list{display:flex;flex-direction:column;gap:8px}
+.teach-bullet-item{
+  padding:10px 12px;border-radius:10px;
+  background:var(--bg);color:var(--text2);
+  font-size:.9rem;line-height:1.6;
+}
+.teach-source-list{display:flex;flex-wrap:wrap;gap:8px}
+.teach-source-chip{
+  padding:6px 10px;border-radius:999px;
+  background:rgba(30,58,95,.08);
+  border:1px solid rgba(30,58,95,.12);
+  color:var(--text2);font-size:.78rem;font-weight:700;
 }
 
 /* Study mode topic progress indicator */
@@ -992,6 +1065,83 @@ input[type="checkbox"]{
 }
 .db-mnemonic-card:active{transform:scale(.985)}
 
+.db-priority-card{
+  background:var(--card);border:1px solid var(--card-border);
+  border-radius:var(--radius);padding:18px 16px;margin-bottom:16px;
+}
+.db-priority-sub{
+  margin-top:6px;font-size:.82rem;line-height:1.5;color:var(--text2);
+}
+.db-priority-list{
+  display:flex;flex-direction:column;gap:10px;margin-top:14px;
+}
+.db-priority-item{
+  display:flex;gap:12px;align-items:flex-start;
+  background:var(--bg);border:1px solid var(--card-border);
+  border-radius:12px;padding:12px;
+}
+.db-priority-rank{
+  width:28px;height:28px;flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;
+  border-radius:9px;background:rgba(13,148,136,.12);
+  color:var(--accent);font-size:.82rem;font-weight:800;
+}
+.db-priority-body{flex:1;min-width:0}
+.db-priority-title{
+  font-size:.9rem;font-weight:800;color:var(--text);line-height:1.4;
+}
+.db-priority-meta{
+  margin-top:3px;font-size:.78rem;line-height:1.45;color:var(--text2);
+}
+.db-priority-badges{
+  display:flex;flex-wrap:wrap;gap:6px;margin-top:8px;
+}
+.db-priority-chip{
+  display:inline-flex;align-items:center;justify-content:center;
+  padding:4px 8px;border-radius:999px;font-size:.72rem;font-weight:700;
+}
+.db-priority-chip.is-hot{
+  background:rgba(245,158,11,.14);color:#b45309;
+}
+.db-priority-chip.is-ready{
+  background:rgba(16,185,129,.12);color:#047857;
+}
+.db-priority-chip.is-gap{
+  background:rgba(239,68,68,.10);color:#b91c1c;
+}
+.db-priority-actions{
+  display:flex;flex-direction:column;gap:6px;flex-shrink:0;
+}
+.db-priority-actions .btn{min-width:74px}
+
+.db-disclosure{
+  margin-bottom:16px;
+  background:var(--card);border:1px solid var(--card-border);
+  border-radius:var(--radius);overflow:hidden;
+}
+.db-disclosure summary{
+  list-style:none;cursor:pointer;padding:16px;
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+  font-size:.94rem;font-weight:800;color:var(--text);
+}
+.db-disclosure summary::-webkit-details-marker{display:none}
+.db-disclosure summary span{
+  font-size:.76rem;font-weight:600;color:var(--text2);
+}
+.db-disclosure[open] summary{
+  border-bottom:1px solid var(--card-border);
+  background:rgba(13,148,136,.04);
+}
+.db-disclosure-body{padding:14px 14px 2px}
+.db-disclosure .section-header,
+.db-disclosure .db-verify-title{display:none}
+@media(max-width:560px){
+  .db-priority-item{flex-wrap:wrap}
+  .db-priority-actions{
+    width:100%;flex-direction:row;justify-content:flex-end;
+  }
+}
+
 /* ===== Quiz Master ===== */
 .qm-loading{text-align:center;padding:48px 20px;color:var(--text2)}
 .qm-loading .qm-spinner{display:inline-block;width:36px;height:36px;border:3px solid var(--bg3);border-top-color:var(--accent);border-radius:50%;animation:qmSpin .7s linear infinite;margin-bottom:12px}
@@ -1058,8 +1208,27 @@ input[type="checkbox"]{
 .qm-q-badge{font-size:.7rem;padding:3px 10px;border-radius:16px;font-weight:600}
 .qm-q-badge.year{background:rgba(30,58,95,.15);color:var(--primary-light)}
 .qm-q-badge.topic{background:rgba(16,185,129,.12);color:#059669}
+.qm-q-badge.repeat{background:#fef3c7;color:#92400e}
 .qm-q-counter{font-size:.82rem;color:var(--text2);font-weight:600}
 .qm-q-text{font-size:1rem;font-weight:600;line-height:1.65;margin-bottom:18px;white-space:pre-line}
+.question-media{
+  width:100%;border:1px solid var(--card-border);border-radius:var(--radius);
+  overflow:hidden;background:var(--bg3);
+}
+.question-media img{
+  width:100%;display:block;object-fit:contain;background:var(--bg3);
+}
+.question-media-caption{
+  padding:9px 12px;border-top:1px solid var(--card-border);
+  font-size:.78rem;font-weight:600;color:var(--text3);
+  background:rgba(255,255,255,.55);
+}
+.question-media-dynamic{display:none;margin:0 0 14px}
+.question-media-dynamic.show{display:block}
+.question-media-dynamic img{max-height:42vh;cursor:zoom-in}
+.question-media-inline{display:block;margin:10px 0 12px}
+.question-media-inline img{max-height:320px;cursor:default}
+.question-media.is-broken img{opacity:.4;filter:grayscale(1)}
 
 /* Choices */
 .qm-choices{display:flex;flex-direction:column;gap:9px;margin-bottom:14px}
@@ -1598,6 +1767,28 @@ input[type="checkbox"]{
   background:linear-gradient(90deg,var(--accent),var(--accent-light));
 }
 
+/* Today prescription */
+.db-prescription-card{
+  background:var(--card);border:1px solid var(--card-border);
+  border-radius:var(--radius);padding:18px 16px;margin-bottom:16px;
+  position:relative;overflow:hidden;
+}
+.db-prescription-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:3px;
+  background:linear-gradient(90deg,var(--accent),var(--warning));
+}
+.db-prescription-main{font-size:1.05rem;font-weight:800;color:var(--text);line-height:1.5}
+.db-prescription-sub{font-size:.8rem;color:var(--text2);margin-top:8px;line-height:1.6}
+.db-prescription-list{display:grid;gap:8px;margin-top:12px}
+.db-prescription-item{
+  background:var(--bg);border:1px solid var(--bg3);border-radius:12px;
+  padding:10px 12px;
+}
+.db-prescription-item strong{display:block;font-size:.82rem;color:var(--accent);margin-bottom:2px}
+.db-prescription-item span{font-size:.82rem;color:var(--text);line-height:1.5}
+.db-prescription-actions{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
+.db-prescription-actions .btn{flex:1;min-width:120px}
+
 /* D-day section */
 .db-dday-card{
   background:linear-gradient(135deg,var(--primary),var(--primary-light));
@@ -1732,6 +1923,9 @@ input[type="checkbox"]{
 }
 
 /* SR Card */
+.wk-today-detail{
+  font-size:.8rem;color:var(--text2);margin-bottom:10px;line-height:1.6;
+}
 .wk-sr-progress{
   display:flex;justify-content:space-between;align-items:center;
   font-size:.82rem;color:var(--text2);margin-bottom:10px;font-weight:600;
@@ -1835,11 +2029,44 @@ input[type="checkbox"]{
 .wk-cp-check{display:flex;align-items:center;gap:6px;cursor:pointer;font-size:.82rem;color:var(--text2);font-weight:600}
 .wk-cp-check input{width:18px;height:18px;accent-color:var(--success)}
 
+/* ===== 25-minute focus loop ===== */
+.f25-top{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:12px;flex-wrap:wrap;margin-bottom:12px;
+}
+.f25-timer{
+  font-size:2rem;font-weight:800;color:var(--accent-light);
+  letter-spacing:-.03em;
+}
+.f25-meta{display:flex;flex-direction:column;gap:2px;color:var(--text2);font-size:.84rem}
+.f25-stage-row{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-bottom:12px}
+.f25-stage-pill{
+  border:1.5px solid var(--card-border);border-radius:10px;
+  padding:10px 8px;text-align:center;font-size:.78rem;font-weight:700;
+  background:var(--card);color:var(--text2);
+}
+.f25-stage-pill.active{border-color:var(--accent);background:var(--accent-glow);color:var(--accent)}
+.f25-stage-pill.done{border-color:var(--success);color:var(--success)}
+.f25-helper{font-size:.82rem;color:var(--text2);line-height:1.6}
+.f25-checklist{display:flex;flex-direction:column;gap:8px;margin-top:10px}
+.f25-check{padding:10px 12px;border-radius:10px;background:var(--bg);color:var(--text2);font-size:.88rem}
+.f25-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+.f25-mini-q{font-size:1rem;font-weight:700;line-height:1.6;margin-bottom:12px;white-space:pre-line}
+.f25-mini-feedback{
+  margin-top:10px;padding:10px 12px;border-radius:10px;
+  font-size:.88rem;line-height:1.6;white-space:pre-line;
+  background:var(--bg);color:var(--text2);
+}
+.f25-mini-feedback.correct{background:rgba(16,185,129,.1);color:#065f46}
+.f25-mini-feedback.wrong{background:rgba(239,68,68,.1);color:#991b1b}
+.f25-summary-stat{padding:12px 14px;border-radius:10px;background:var(--bg);color:var(--text);font-size:.9rem;font-weight:700}
+
 /* Responsive weakness */
 @media(max-width:480px){
   .wk-sr-card-wrap{height:240px}
   .wk-sr-btns{grid-template-columns:1fr 1fr;gap:6px}
   .wk-sr-btn{min-height:52px;font-size:.78rem}
+  .f25-stage-row{grid-template-columns:repeat(2,1fr)}
 }
 @media(min-width:768px){
   .wk-sr-card-wrap{height:320px;max-width:600px;margin:0 auto 16px}
@@ -1902,8 +2129,9 @@ input[type="checkbox"]{
       </div>
       <!-- Study/Quiz Mode Toggle -->
       <div class="qm-mode-toggle">
-        <button class="qm-mode-toggle-btn active" id="qmModeStudy" onclick="QM.setStudyMode(true)">&#128214; 공부 모드</button>
-        <button class="qm-mode-toggle-btn" id="qmModeQuiz" onclick="QM.setStudyMode(false)">&#128221; 퀴즈 모드</button>
+        <button class="qm-mode-toggle-btn active" id="qmModeStudy" onclick="QM.setViewMode('study')">&#128214; 해설</button>
+        <button class="qm-mode-toggle-btn" id="qmModeTeach" onclick="QM.setViewMode('teach')">&#127891; 가르치기</button>
+        <button class="qm-mode-toggle-btn" id="qmModeQuiz" onclick="QM.setViewMode('quiz')">&#128221; 퀴즈</button>
       </div>
       <!-- Encourage message -->
       <div class="qm-encourage" id="qmEncourage"></div>
@@ -1927,6 +2155,10 @@ input[type="checkbox"]{
               <div class="qm-q-counter" id="qmCounter">0/0</div>
             </div>
             <div class="qm-q-text" id="qmQText"></div>
+            <div class="question-media question-media-dynamic" id="qmQImageWrap">
+              <img id="qmQImage" alt="문항 이미지" loading="lazy">
+              <div class="question-media-caption" id="qmQImageCaption"></div>
+            </div>
             <div class="qm-choices" id="qmChoices"></div>
             <div class="qm-explanation" id="qmExplanation"></div>
           </div>
@@ -2226,6 +2458,10 @@ input[type="checkbox"]{
           <span class="me-q-num" id="meQNum"></span>
         </div>
         <div class="me-q-text" id="meQText"></div>
+        <div class="question-media question-media-dynamic" id="meQImageWrap">
+          <img id="meQImage" alt="문항 이미지" loading="lazy">
+          <div class="question-media-caption" id="meQImageCaption"></div>
+        </div>
         <div class="me-choices" id="meChoices"></div>
       </div>
       <div class="me-nav">
@@ -2263,6 +2499,7 @@ input[type="checkbox"]{
     <!-- Today's Review (SR) -->
     <div class="section-header">&#128218; 오늘의 복습 <span class="wk-badge" id="wkTodayBadge">0장</span></div>
     <div id="wkSrSection">
+      <div class="wk-today-detail" id="wkTodayDetail"></div>
       <div id="wkSrEmpty" class="empty-state" style="display:none">
         <div class="empty-icon">&#127881;</div>
         <div class="empty-text">오늘 복습할 카드가 없습니다!<br>내일 다시 확인하세요.</div>
@@ -2305,7 +2542,57 @@ input[type="checkbox"]{
     </div>
   </div>
 
-  <!-- Tab 5: 대시보드 -->
+  <div class="tab-content" id="tabFocus25">
+    <div id="f25Setup">
+      <div class="section-header">&#9201; 25분 5회독</div>
+      <div class="card">
+        <div class="card-title"><span class="card-icon">&#127891;</span>문제 들어가기 전 워밍업</div>
+        <div class="card-subtitle">25분 동안 같은 토픽을 5번 다른 방식으로 훑고 바로 기출로 들어갑니다. 읽기만 하지 않고 설명, 회상, 미니퀴즈까지 묶습니다.</div>
+        <div class="filter-row">
+          <select id="f25TopicSelect"></select>
+        </div>
+        <div class="f25-checklist">
+          <div class="f25-check">1회독: 핵심 카드로 빠르게 훑기</div>
+          <div class="f25-check">2회독: 개념 설명으로 왜 맞는지 이해하기</div>
+          <div class="f25-check">3회독: 빈칸 회상으로 스스로 꺼내보기</div>
+          <div class="f25-check">4회독: 미니퀴즈 3문제로 흔들리는 지점 확인</div>
+          <div class="f25-check">5회독: 바로 기출 또는 가르치기 모드로 진입</div>
+        </div>
+        <div class="btn-row">
+          <button class="btn btn-primary" onclick="F25.startSession()">25분 시작</button>
+          <button class="btn btn-outline" onclick="F25.pickAutoTopic()">자동 추천</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title"><span class="card-icon">&#128161;</span>동생 기준 추천</div>
+        <div class="f25-helper">한 번에 오래 버티는 방식보다 짧게 끊어서 여러 번 꺼내보는 쪽이 더 맞습니다. 이 탭은 한 토픽을 25분 동안 5번 다른 방식으로 만져서, 바로 문제로 넘어갈 때 덜 무너지게 만드는 용도입니다.</div>
+      </div>
+    </div>
+
+    <div id="f25Session" style="display:none">
+      <div class="card">
+        <div class="f25-top">
+          <div class="f25-timer" id="f25Timer">25:00</div>
+          <div class="f25-meta">
+            <div id="f25TopicLabel">토픽</div>
+            <div id="f25StageLabel">1회독</div>
+          </div>
+        </div>
+        <div class="f25-stage-row" id="f25StageRow"></div>
+        <div id="f25Content"></div>
+        <div class="btn-row">
+          <button class="btn btn-outline" id="f25PrevBtn" onclick="F25.prevStage()">이전</button>
+          <button class="btn btn-primary" id="f25NextBtn" onclick="F25.nextStage()">다음</button>
+        </div>
+        <div class="btn-row">
+          <button class="btn btn-outline" onclick="F25.exitSession()">나가기</button>
+          <button class="btn btn-success" onclick="F25.jumpToQuiz()">기출로 들어가기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tab 6: 대시보드 -->
   <div class="tab-content" id="tabDashboard">
 
     <!-- D-Day Card -->
@@ -2341,6 +2628,24 @@ input[type="checkbox"]{
         <div class="db-stat-label">연속 학습</div>
         <div class="db-stat-sub" id="dbStatStreakSub">오늘 시작하세요</div>
       </div>
+    </div>
+
+    <div class="db-prescription-card" id="dbPrescriptionCard">
+      <div class="db-chart-title">&#129517; 오늘의 학습 처방</div>
+      <div class="db-prescription-main" id="dbPrescriptionMain">오늘은 많이 보지 말고, 먼저 꺼내보는 쪽으로 갑니다.</div>
+      <div class="db-prescription-sub" id="dbPrescriptionSub">복습과 신규를 작게 끊고, 바로 가르치기나 25분 루프로 이어지게 하세요.</div>
+      <div class="db-prescription-list" id="dbPrescriptionList"></div>
+      <div class="db-prescription-actions">
+        <button class="btn btn-primary btn-sm" onclick="DB.startTodayReview()">오늘 복습</button>
+        <button class="btn btn-outline btn-sm" onclick="DB.openFocusSession()">25분 시작</button>
+        <button class="btn btn-outline btn-sm" onclick="DB.openTeachTopic()">가르치기</button>
+      </div>
+    </div>
+
+    <div class="db-priority-card">
+      <div class="db-chart-title" id="dbPriorityTitle">&#128293; 짤기 우선 TOP 5</div>
+      <div class="db-priority-sub" id="dbPrioritySub">우리 기출에서 그대로 반복된 문제를 먼저 잡고, 그 다음 같은 개념의 탈기 보강으로 넘어갑니다.</div>
+      <div class="db-priority-list" id="dbPriorityList"></div>
     </div>
 
     <!-- Score Predictor -->
@@ -2397,18 +2702,35 @@ input[type="checkbox"]{
       </div>
     </div>
 
+    <details class="db-disclosure">
+      <summary>
+        <span>&#128218; 참고 자료</span>
+        <span>필요할 때만 열기</span>
+      </summary>
+      <div class="db-disclosure-body">
     <!-- Reference Links -->
     <div style="margin-bottom:16px">
       <div class="section-header">&#128218; 참고 자료</div>
       <div id="dbReferenceLinks"></div>
     </div>
 
+      </div>
+    </details>
+
+    <details class="db-disclosure">
+      <summary>
+        <span>&#128270; 데이터 검증 현황</span>
+        <span>개발용 확인</span>
+      </summary>
+      <div class="db-disclosure-body">
     <!-- Data Verification Banner -->
     <div class="db-verify-card" id="dbVerifyCard">
       <div class="db-verify-title">&#128270; 데이터 검증 현황</div>
       <div id="dbVerifyList"></div>
       <div class="db-verify-total" id="dbVerifyTotal"></div>
     </div>
+      </div>
+    </details>
 
   </div>
 
@@ -2433,6 +2755,9 @@ input[type="checkbox"]{
       <span class="tab-icon">&#128293;</span>약점
     </button>
     <button class="tab-item" onclick="switchTab(5)">
+      <span class="tab-icon">&#9201;</span>25분
+    </button>
+    <button class="tab-item" onclick="switchTab(6)">
       <span class="tab-icon">&#128202;</span>대시보드
     </button>
   </div>
@@ -2472,8 +2797,8 @@ input[type="checkbox"]{
 // ============================================================
 //  CONSTANTS & STATE
 // ============================================================
-const TAB_IDS = ['tabQuiz', 'tabAnatomy', 'tabYama', 'tabMockExam', 'tabWeakness', 'tabDashboard'];
-const TAB_TITLES = ['기출 마스터', '해부땡 이미지', '야마 학습', '모의고사', '약점 공략', '대시보드'];
+const TAB_IDS = ['tabQuiz', 'tabAnatomy', 'tabYama', 'tabMockExam', 'tabWeakness', 'tabFocus25', 'tabDashboard'];
+const TAB_TITLES = ['기출 마스터', '해부땡 이미지', '야마 학습', '모의고사', '약점 공략', '25분 5회독', '대시보드'];
 const STORAGE_PREFIX = 'anat4_';
 const EXAM_DATE = new Date('2026-04-14T09:00:00+09:00'); // Adjust to actual exam date
 
@@ -2500,6 +2825,10 @@ function getStoreJSON(key, fallback) {
 }
 function setStoreJSON(key, val) {
   try { localStorage.setItem(STORAGE_PREFIX + key, JSON.stringify(val)); } catch {}
+}
+
+function $(id) {
+  return document.getElementById(id);
 }
 
 // ============================================================
@@ -2563,6 +2892,60 @@ function escapeHTML(str) {
   const div = document.createElement('div');
   div.textContent = str;
   return div.innerHTML;
+}
+
+function getQuestionImageLabel(q) {
+  if (!q) return '문항 이미지';
+  const year = q.year ? String(q.year) + '년 ' : '';
+  const num = q.question_num ? String(q.question_num) + '번 ' : '';
+  return year + num + '문항 이미지';
+}
+
+function setQuestionImage(wrapId, imgId, captionId, q) {
+  const wrap = $(wrapId);
+  const img = $(imgId);
+  const caption = $(captionId);
+  if (!wrap || !img) return;
+
+  if (!q || !q.image) {
+    wrap.classList.remove('show', 'is-broken');
+    img.removeAttribute('src');
+    img.alt = '문항 이미지';
+    img.onclick = null;
+    img.onerror = null;
+    img.onload = null;
+    if (caption) caption.textContent = '';
+    return;
+  }
+
+  const label = getQuestionImageLabel(q);
+  wrap.classList.add('show');
+  wrap.classList.remove('is-broken');
+  img.src = q.image;
+  img.alt = label;
+  img.onclick = function() {
+    openImageViewer([q.image], 0, label);
+  };
+  img.onerror = function() {
+    wrap.classList.add('is-broken');
+    if (caption) caption.textContent = label + ' · 이미지를 불러오지 못했습니다.';
+  };
+  img.onload = function() {
+    wrap.classList.remove('is-broken');
+    if (caption) caption.textContent = label + ' · 눌러서 확대';
+  };
+  if (caption) caption.textContent = label + ' · 눌러서 확대';
+}
+
+function buildQuestionImageHTML(q) {
+  if (!q || !q.image) return '';
+  const label = getQuestionImageLabel(q);
+  return (
+    '<div class="question-media question-media-inline">' +
+      '<img src="' + escapeHTML(q.image) + '" alt="' + escapeHTML(label) + '" loading="lazy">' +
+      '<div class="question-media-caption">' + escapeHTML(label) + '</div>' +
+    '</div>'
+  );
 }
 
 function formatTime(seconds) {
@@ -2740,7 +3123,13 @@ const QM = (function() {
   let touchStartX = 0;
   let touchStartY = 0;
   let answered = {}; // { questionId: chosenIndex }
-  let studyMode = true; // study mode: show answers immediately (default ON)
+  let viewMode = 'study'; // 'study' | 'teach' | 'quiz'
+  let studyMode = true; // compatibility flag for non-quiz modes
+  let flashcards = [];
+  let confusionPairs = [];
+  let teachingUnits = [];
+  let teachingQuestionMap = [];
+  let repeatMetaByQuestionId = {};
 
   const ENCOURAGE_CORRECT = ['잘했어요!', '완벽!', '정확해요!', '대단해요!', '맞았어요!', '훌륭해요!', '실력이 느는데요!'];
   const ENCOURAGE_WRONG = ['다음에 다시 도전!', '이 부분을 복습해봐요', '한 번 더 보면 기억날 거예요', '괜찮아요, 배우는 과정이에요'];
@@ -2790,6 +3179,81 @@ const QM = (function() {
     return shuffled.slice(0, 3);
   }
 
+  function normalizeRepeatStemQM(text) {
+    return (text || '')
+      .toLowerCase()
+      .replace(/\([^)]*\)/g, ' ')
+      .replace(/[^\p{L}\p{N}]+/gu, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  function isWeakRepeatStemQM(stem) {
+    if (!stem || stem.length < 14) return true;
+    var weakStems = {
+      '다음 중 옳은 것은': true,
+      '다음 중 옳은 것을 고르시오': true,
+      '다음 중 맞는 것은': true,
+      '다음 그림에서 옳은 것은': true,
+      '다음 보기 중 옳은 설명은': true
+    };
+    return !!weakStems[stem];
+  }
+
+  function buildRepeatMetaIndex(questions) {
+    var groupsByStem = {};
+    var metaById = {};
+
+    (questions || []).forEach(function(q) {
+      var stem = normalizeRepeatStemQM(q.question_text);
+      if (isWeakRepeatStemQM(stem)) return;
+      if (!groupsByStem[stem]) groupsByStem[stem] = [];
+      groupsByStem[stem].push(q);
+    });
+
+    Object.keys(groupsByStem).forEach(function(stem) {
+      var items = groupsByStem[stem];
+      if (!items || items.length < 2) return;
+
+      items = items.slice().sort(function(a, b) {
+        if (a.year !== b.year) return a.year - b.year;
+        return a.id - b.id;
+      });
+
+      var years = items.map(function(item) { return item.year; });
+      var latest = items[items.length - 1];
+      var meta = {
+        repeatCount: items.length,
+        years: years,
+        latestQuestionId: latest.id,
+        preview: latest.question_text || items[0].question_text || ''
+      };
+
+      items.forEach(function(item) {
+        metaById[item.id] = meta;
+      });
+    });
+
+    return metaById;
+  }
+
+  function getRepeatMeta(q) {
+    if (!q) return null;
+    return repeatMetaByQuestionId[q.id] || null;
+  }
+
+  function getRepeatInfoForQuestion(questionId) {
+    var targetId = Number(questionId);
+    return repeatMetaByQuestionId[targetId] || null;
+  }
+
+  function buildRepeatInsightBlock(repeatInfo) {
+    if (!repeatInfo) return '';
+    return '<div class="study-repeat"><strong>짤기 포인트</strong><div>' +
+      escapeHTML(repeatInfo.repeatCount + '회 반복 · ' + repeatInfo.years.join(', ')) +
+      '</div><div class="repeat-hint">같은 stem이 반복된 문제입니다. 먼저 그대로 외우고, 왜 오답이 아닌지도 같이 묶어 두세요.</div></div>';
+  }
+
   // --- Device detection ---
   function checkDevice() {
     isMobile = window.innerWidth < 768;
@@ -2814,9 +3278,20 @@ const QM = (function() {
     const loadingEl = $('qmLoading');
     const appEl = $('qmApp');
     try {
-      const data = await loadData('questions.json');
+      const [data, cards, pairs, unitData, mapData] = await Promise.all([
+        loadData('questions.json'),
+        loadData('flashcards.json'),
+        loadData('confusion_pairs.json'),
+        loadData('teaching_units.json'),
+        loadData('teaching_question_map.json')
+      ]);
       if (!data || !Array.isArray(data)) throw new Error('Invalid data');
       allQuestions = data;
+      flashcards = Array.isArray(cards) ? cards : [];
+      confusionPairs = Array.isArray(pairs) ? pairs : [];
+      teachingUnits = Array.isArray(unitData && unitData.units) ? unitData.units : Array.isArray(unitData) ? unitData : [];
+      teachingQuestionMap = Array.isArray(mapData && mapData.maps) ? mapData.maps : Array.isArray(mapData) ? mapData : [];
+      repeatMetaByQuestionId = buildRepeatMetaIndex(allQuestions);
 
       // Verify count
       const banner = $('qmVerifyBanner');
@@ -2868,7 +3343,7 @@ const QM = (function() {
     topics.forEach(t => {
       const opt = document.createElement('option');
       opt.value = t;
-      opt.textContent = t;
+      opt.textContent = typeof formatStudyTopicLabel === 'function' ? formatStudyTopicLabel(t) : t;
       topicSelect.appendChild(opt);
     });
   }
@@ -2959,6 +3434,7 @@ const QM = (function() {
       $('qmCounter').textContent = '0/0';
       $('qmBadges').innerHTML = '';
       $('qmQText').textContent = '';
+      setQuestionImage('qmQImageWrap', 'qmQImage', 'qmQImageCaption', null);
       $('qmChoices').innerHTML = '';
       $('qmExplanation').textContent = '';
       $('qmExplanation').classList.remove('show');
@@ -2972,15 +3448,18 @@ const QM = (function() {
     if (!q) return;
 
     // Badges
+    var repeatInfo = getRepeatInfoForQuestion(q.id, loadedData['questions.json'] || []);
     $('qmBadges').innerHTML =
       '<span class="qm-q-badge year">' + escapeHTML(String(q.year)) + '년</span>' +
-      '<span class="qm-q-badge topic">' + escapeHTML(q.topic) + '</span>';
+      '<span class="qm-q-badge topic">' + escapeHTML(typeof formatStudyTopicLabel === 'function' ? formatStudyTopicLabel(q.topic) : q.topic) + '</span>' +
+      (repeatInfo ? '<span class="qm-q-badge repeat">짤기 ' + repeatInfo.repeatCount + '회</span>' : '');
 
     // Counter
     $('qmCounter').textContent = (currentIndex + 1) + '/' + filteredQuestions.length;
 
     // Question text
     $('qmQText').textContent = q.question_text;
+    setQuestionImage('qmQImageWrap', 'qmQImage', 'qmQImageCaption', q);
 
     // Choices
     const choicesEl = $('qmChoices');
@@ -2995,12 +3474,13 @@ const QM = (function() {
       const btn = document.createElement('button');
       btn.className = 'qm-choice-btn';
 
-      // Determine the choice number from the choice text or use index+1
       const choiceNum = idx + 1;
       btn.innerHTML = '<span class="qm-choice-num">' + choiceNum + '</span>' + escapeHTML(choice.replace(/^\d+\)\s*/, ''));
 
-      if (studyMode) {
-        // Study mode: highlight correct answer immediately, no interaction
+      if (viewMode === 'teach') {
+        btn.classList.add('disabled');
+        if (idx === correctIdx) btn.classList.add('qm-study-answer');
+      } else if (studyMode) {
         btn.classList.add('disabled');
         if (idx === correctIdx) {
           btn.classList.add('qm-study-answer');
@@ -3018,11 +3498,17 @@ const QM = (function() {
       }
       choicesEl.appendChild(btn);
     });
+    choicesEl.style.display = viewMode === 'teach' ? 'none' : '';
 
     // Explanation
     const explEl = $('qmExplanation');
-    if (studyMode && q.explanation) {
-      // Study mode: build structured study card
+    if (viewMode === 'teach') {
+      explEl.innerHTML = buildTeachCard(q, correctIdx);
+      explEl.className = 'qm-teach-explanation';
+      explEl.style.background = 'none';
+      explEl.style.border = 'none';
+      explEl.style.padding = '0';
+    } else if (studyMode && q.explanation) {
       explEl.innerHTML = buildStudyCard(q, correctIdx);
       explEl.className = 'qm-study-explanation';
       explEl.style.background = 'none';
@@ -3291,22 +3777,394 @@ const QM = (function() {
     wrap.innerHTML = html;
   }
 
+  function normalizeTopicKey(topic) {
+    return String(topic || '')
+      .toLowerCase()
+      .trim()
+      .replace(/[^a-z0-9]+/g, '_')
+      .replace(/^_+|_+$/g, '');
+  }
+
+  function getTopicAliases(topic) {
+    var normalized = normalizeTopicKey(topic);
+    var aliases = new Set([normalized]);
+    var headNeckTopics = new Set(['neck', 'head_1', 'head_2', 'head_3', 'mouth_nose', 'ear_pharynx_larynx', 'special_sensory_eyeball', 'dev_head_neck']);
+    var neuroTopics = new Set(['autonomic_ns', 'blood_supply_brain', 'cns_gross_1', 'cns_gross_2', 'cns_gross_3', 'dev_nervous_system', 'higher_cns_functions', 'memory_system', 'motor_pathway', 'sensory_system']);
+
+    if (headNeckTopics.has(normalized)) aliases.add('head_neck');
+    if (neuroTopics.has(normalized)) aliases.add('neuroanatomy');
+    return Array.from(aliases);
+  }
+
+  function getTopicFlashcards(topic) {
+    var aliases = new Set(getTopicAliases(topic));
+    return flashcards.filter(function(card) {
+      return aliases.has(normalizeTopicKey(card.topic_id));
+    });
+  }
+
+  function getTopicConfusionPairs(topic) {
+    var aliases = new Set(getTopicAliases(topic));
+    return confusionPairs.filter(function(pair) {
+      return aliases.has(normalizeTopicKey(pair.topic_id));
+    });
+  }
+
+  function getTeachingUnitById(unitId) {
+    for (var i = teachingUnits.length - 1; i >= 0; i--) {
+      var unit = teachingUnits[i];
+      if (unit && unit.id === unitId) return unit;
+    }
+    return null;
+  }
+
+  function buildTeachingSearchBlob(q) {
+    if (!q) return '';
+    var parts = [q.question, q.question_text, q.prompt, q.explanation];
+    if (Array.isArray(q.choices)) {
+      q.choices.forEach(function(choice) { parts.push(choice); });
+    }
+    return parts.filter(Boolean).join(' ').toLowerCase();
+  }
+
+  function getTeachingUnitForQuestion(q) {
+    if (!q) return null;
+
+    var mappedItems = teachingQuestionMap.filter(function(item) {
+      return item.question_id === q.id;
+    });
+    if (mappedItems.length > 0) {
+      var exactTopicMap = null;
+      for (var i = mappedItems.length - 1; i >= 0; i--) {
+        var candidateUnit = getTeachingUnitById(mappedItems[i].unit_id);
+        if (candidateUnit && candidateUnit.topic === q.topic) {
+          exactTopicMap = candidateUnit;
+          break;
+        }
+      }
+      if (exactTopicMap) return exactTopicMap;
+
+      for (var j = mappedItems.length - 1; j >= 0; j--) {
+        var mappedUnit = getTeachingUnitById(mappedItems[j].unit_id);
+        if (mappedUnit) return mappedUnit;
+      }
+    }
+
+    var qText = buildTeachingSearchBlob(q);
+    var sameTopicUnits = teachingUnits.filter(function(unit) {
+      return unit && unit.topic === q.topic;
+    });
+    var directUnit = sameTopicUnits.find(function(unit) {
+      return Array.isArray(unit.related_question_ids) && unit.related_question_ids.indexOf(q.id) >= 0;
+    });
+    if (directUnit) return directUnit;
+
+    var keywordMatch = null;
+    var keywordScore = 0;
+    sameTopicUnits.forEach(function(unit) {
+      var score = 0;
+      if (Array.isArray(unit.match_keywords)) {
+        unit.match_keywords.forEach(function(keyword) {
+          var normalized = String(keyword || '').toLowerCase().trim();
+          if (normalized && qText.indexOf(normalized) >= 0) score += 1;
+        });
+      }
+      if (score > keywordScore) {
+        keywordScore = score;
+        keywordMatch = unit;
+      }
+    });
+    if (keywordMatch) return keywordMatch;
+
+    return sameTopicUnits.length === 1 ? sameTopicUnits[0] : null;
+  }
+
+  function normalizeRepeatStem(text) {
+    return String(text || '')
+      .toLowerCase()
+      .replace(/\([^)]*\)/g, ' ')
+      .replace(/[^\p{L}\p{N}]+/gu, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  function isWeakRepeatStem(stem) {
+    if (!stem || stem.length < 14) return true;
+    return [
+      '다음 중 옳은 것은',
+      '다음 중 옳은 것을 고르시오',
+      '다음 중 맞는 것은',
+      '다음 그림에서 옳은 것은',
+      '다음 보기 중 옳은 설명은'
+    ].indexOf(stem) >= 0;
+  }
+
+  function getQuestionRepeatInfo(q) {
+    if (!q || !Array.isArray(allQuestions) || !allQuestions.length) return null;
+    var stem = normalizeRepeatStem(q.question_text);
+    if (isWeakRepeatStem(stem)) return null;
+
+    var matches = allQuestions.filter(function(item) {
+      return normalizeRepeatStem(item.question_text) === stem;
+    }).sort(function(a, b) {
+      if (b.year !== a.year) return b.year - a.year;
+      return b.id - a.id;
+    });
+
+    if (matches.length < 2) return null;
+
+    var years = [];
+    matches.forEach(function(item) {
+      if (years.indexOf(item.year) < 0) years.push(item.year);
+    });
+
+    return {
+      repeatCount: matches.length,
+      years: years.sort(function(a, b) { return a - b; }),
+      latestQuestionId: matches[0].id,
+      latestYear: matches[0].year
+    };
+  }
+
+  function buildRepeatInfoBlock(q) {
+    var repeat = getQuestionRepeatInfo(q);
+    if (!repeat) return '';
+
+    var pieces = [
+      '같은 문장 ' + repeat.repeatCount + '회 반복',
+      '출제 연도 ' + repeat.years.join(', ')
+    ];
+    if (repeat.latestQuestionId !== q.id) {
+      pieces.push('가장 최근 ' + repeat.latestYear + '년형까지 확인');
+    }
+    pieces.push('짤기 먼저 외우고 바로 이유를 설명하세요');
+    return '<div class="study-tip"><strong>짤기 우선</strong><div>' + escapeHTML(pieces.join(' · ')) + '</div></div>';
+  }
+
+  function getPrimaryPair(unit, pairs) {
+    if (unit && Array.isArray(unit.related_confusion_pair_ids) && unit.related_confusion_pair_ids.length > 0) {
+      var matched = pairs.find(function(pair) {
+        return unit.related_confusion_pair_ids.indexOf(pair.id) >= 0;
+      });
+      if (matched) return matched;
+    }
+    return pairs[0] || null;
+  }
+
+  function formatListBlock(title, items) {
+    if (!Array.isArray(items) || items.length === 0) return '';
+    var html = '<div class="study-tip">';
+    html += '<strong>' + escapeHTML(title) + '</strong>';
+    html += '<div class="teach-bullet-list">';
+    items.forEach(function(item) {
+      html += '<div class="teach-bullet-item">' + formatMultiline(item) + '</div>';
+    });
+    html += '</div></div>';
+    return html;
+  }
+
+  function formatSourceBlock(unit) {
+    if (!unit || !Array.isArray(unit.source_refs) || unit.source_refs.length === 0) return '';
+    var html = '<div class="study-related"><strong>참고 자료</strong><div class="teach-source-list">';
+    unit.source_refs.forEach(function(ref) {
+      html += '<span class="teach-source-chip">' + escapeHTML(ref.label || ref.path || '자료') + '</span>';
+    });
+    html += '</div></div>';
+    return html;
+  }
+
+  function getChoiceText(q, idx) {
+    if (!q || !q.choices || !q.choices[idx]) return '';
+    return q.choices[idx].replace(/^\d+\)\s*/, '');
+  }
+
+  function firstMeaningfulSentence(text) {
+    var cleaned = String(text || '').replace(/\s+/g, ' ').trim();
+    if (!cleaned) return '';
+    var sentences = cleaned.split(/(?<=[.!?])\s+/).filter(Boolean);
+    return sentences[0] || cleaned;
+  }
+
+  function formatMultiline(text) {
+    return escapeHTML(String(text || '')).replace(/\n/g, '<br>');
+  }
+
+  function buildRecallBlock(q, cards, pairs, unit) {
+    var prompts = [];
+
+    if (unit && Array.isArray(unit.recall_prompts)) {
+      unit.recall_prompts.forEach(function(item) {
+        if (!item) return;
+        if (typeof item === 'string') {
+          prompts.push({ question: item, answer: '' });
+        } else {
+          prompts.push({
+            question: item.prompt || item.question || '이 개념을 말로 설명해보세요.',
+            answer: item.answer || item.hint || ''
+          });
+        }
+      });
+    }
+
+    cards.slice(0, 2).forEach(function(card) {
+      prompts.push({
+        question: card.front_ko || card.front_en || '이 개념을 말로 설명해보세요.',
+        answer: card.back || ''
+      });
+    });
+
+    if (pairs[0]) {
+      prompts.push({
+        question: pairs[0].item_a + '와 ' + pairs[0].item_b + '를 비교해서 말해보세요.',
+        answer: pairs[0].comparison_notes || ''
+      });
+    }
+
+    if (prompts.length === 0) {
+      prompts.push({
+        question: q.question_text,
+        answer: '정답은 ' + (q.answer || '') + '번 ' + getChoiceText(q, (q.answer || 1) - 1) + '입니다.'
+      });
+    }
+
+    var html = '<div class="teach-recall-block"><div class="teach-recall-title">회상 질문</div>';
+    prompts.slice(0, 3).forEach(function(item) {
+      html += '<details class="teach-recall-item">';
+      html += '<summary>' + escapeHTML(item.question) + '</summary>';
+      html += '<div class="teach-recall-answer">' + formatMultiline(item.answer) + '</div>';
+      html += '</details>';
+    });
+    html += '</div>';
+    return html;
+  }
+
+  function getTopicExamInsight(topic) {
+    var questions = loadedData['questions.json'] || [];
+    var total = 0;
+    var recent = 0;
+    var byYear = {};
+
+    questions.forEach(function(item) {
+      if (!item || item.topic !== topic) return;
+      total++;
+      if (item.year >= 2020) recent++;
+      byYear[item.year] = (byYear[item.year] || 0) + 1;
+    });
+
+    var peakYears = Object.keys(byYear).sort(function(a, b) {
+      if (byYear[b] !== byYear[a]) return byYear[b] - byYear[a];
+      return Number(b) - Number(a);
+    }).slice(0, 2);
+
+    return {
+      total: total,
+      recent: recent,
+      peakYears: peakYears
+    };
+  }
+
+  function buildExamInsightBlock(topic, unit) {
+    var insight = getTopicExamInsight(topic);
+    if (!insight.total) return '';
+
+    var pieces = ['우리 기출 ' + insight.total + '문제'];
+    if (insight.recent > 0) pieces.push('최근 2020-2022 ' + insight.recent + '문제');
+    if (insight.peakYears.length > 0) pieces.push('많이 나온 해 ' + insight.peakYears.join(', '));
+    if (unit && Array.isArray(unit.related_question_ids) && unit.related_question_ids.length > 0) {
+      pieces.push('이 유닛 연결 ' + unit.related_question_ids.length + '문제');
+    }
+
+    return '<div class="study-tip"><strong>시험 우선순위</strong><div>' + escapeHTML(pieces.join(' · ')) + '</div></div>';
+  }
+
+  function buildTeachCard(q, correctIdx) {
+    var parsed = parseExplanation(q.explanation || '', q, correctIdx);
+    var cards = getTopicFlashcards(q.topic);
+    var pairs = getTopicConfusionPairs(q.topic);
+    var unit = getTeachingUnitForQuestion(q);
+    var correctText = getChoiceText(q, correctIdx);
+    var primaryPair = getPrimaryPair(unit, pairs);
+    var coreLine = (unit && unit.core_line) || parsed.why || firstMeaningfulSentence(q.explanation) || correctText || '핵심 개념부터 다시 연결하세요.';
+
+    var html = '<div class="teach-card">';
+    html += '<div class="teach-core"><strong>' + escapeHTML((unit && unit.title) || '핵심 한 줄') + '</strong>' + escapeHTML(coreLine) + '</div>';
+    html += '<div class="study-answer">\u2705 정답: ' + (correctIdx + 1) + '번 - ' + escapeHTML(correctText) + '</div>';
+    html += buildRepeatInfoBlock(q);
+    html += buildExamInsightBlock(q.topic, unit);
+
+    if (unit && unit.why_it_matters) {
+      html += '<div class="study-tip">';
+      html += '<strong>왜 자주 나오나</strong>';
+      html += '<div>' + formatMultiline(unit.why_it_matters) + '</div>';
+      html += '</div>';
+    }
+
+    html += '<div class="study-why">';
+    html += '<strong>왜 정답인가</strong>';
+    html += formatMultiline(parsed.why || q.explanation || '정답 구조와 기능을 먼저 연결해서 이해해보세요.');
+    html += '</div>';
+
+    if (unit && Array.isArray(unit.exam_points) && unit.exam_points.length > 0) {
+      html += formatListBlock('시험 포인트', unit.exam_points);
+    }
+
+    if (parsed.wrongItems.length > 0) {
+      html += '<div class="study-wrong"><strong>왜 오답인가</strong>';
+      parsed.wrongItems.slice(0, 4).forEach(function(item) {
+        html += '<span class="wrong-item">' + escapeHTML(item) + '</span>';
+      });
+      html += '</div>';
+    }
+
+    if (unit && Array.isArray(unit.common_traps) && unit.common_traps.length > 0) {
+      html += formatListBlock('자주 틀리는 함정', unit.common_traps);
+    }
+
+    if (unit && Array.isArray(unit.takeaways) && unit.takeaways.length > 0) {
+      html += formatListBlock('가르치기 포인트', unit.takeaways);
+    }
+
+    if (primaryPair) {
+      html += '<div class="study-tip">';
+      html += '<strong>헷갈리는 쌍</strong>';
+      html += '<div><strong>' + escapeHTML(primaryPair.item_a) + '</strong> vs <strong>' + escapeHTML(primaryPair.item_b) + '</strong></div>';
+      html += '<div>' + formatMultiline(primaryPair.comparison_notes || '둘의 차이를 기능, 위치, 지배 구조 기준으로 나눠서 외워보세요.') + '</div>';
+      html += '</div>';
+    }
+
+    if (unit && Array.isArray(unit.memory_hooks) && unit.memory_hooks.length > 0) {
+      html += formatListBlock('기억 갈고리', unit.memory_hooks);
+    }
+
+    html += buildRecallBlock(q, cards, pairs, unit);
+    html += '<div class="study-related"><strong>바로 이어서</strong> 1분 뒤 빈 종이에 꺼내 말하고, 같은 토픽 문제 2~3개로 바로 확인하세요.</div>';
+    html += formatSourceBlock(unit);
+    html += '<div class="teach-action-row">';
+    html += '<button class="btn btn-outline btn-sm" onclick="QM.setViewMode(\'quiz\')">퀴즈로 확인</button>';
+    html += '<button class="btn btn-outline btn-sm" onclick="QM.filterByTopic()">이 토픽 더 보기</button>';
+    html += '</div>';
+    html += '</div>';
+    return html;
+  }
+
   // --- Build structured study card for 공부 모드 ---
   function buildStudyCard(q, correctIdx) {
     var expl = q.explanation || '';
+    var repeatInfo = getQuestionRepeatInfo(q);
     var correctChoice = q.choices[correctIdx] ? q.choices[correctIdx].replace(/^\d+\)\s*/, '') : '';
     var html = '<div class="study-card">';
 
     // Check for 짤기 (frequently tested) badge
-    var hasJjalgi = /짤기/.test(expl);
+    var hasJjalgi = repeatInfo || /짤기/.test(expl);
 
     // -- 정답 section --
     html += '<div class="study-answer">';
     if (hasJjalgi) {
-      html += '<span class="study-jjalgi">\ud83d\udd25 \ube48\ucd9c \ubb38\uc81c</span> ';
+      html += '<span class="study-jjalgi">\ud83d\udd25 ' + (repeatInfo ? ('짤기 ' + repeatInfo.repeatCount + '회') : '빈출 문제') + '</span> ';
     }
     html += '\u2705 \uc815\ub2f5: ' + (correctIdx + 1) + '\ubc88 - ' + escapeHTML(correctChoice);
     html += '</div>';
+    html += buildRepeatInfoBlock(q);
 
     // Parse the explanation text into sections
     var parsed = parseExplanation(expl, q, correctIdx);
@@ -3336,11 +4194,10 @@ const QM = (function() {
       html += escapeHTML(parsed.tip);
       html += '</div>';
     }
-
     // -- 관련 토픽 section --
     html += '<div class="study-related">';
     html += '<strong>\ud83d\udcda \uad00\ub828 \ud1a0\ud53d:</strong> ';
-    html += escapeHTML(q.topic) + ' | ' + escapeHTML(String(q.year)) + '\ub144 ' + q.question_num + '\ubc88';
+    html += escapeHTML(typeof formatStudyTopicLabel === 'function' ? formatStudyTopicLabel(q.topic) : q.topic) + ' | ' + escapeHTML(String(q.year)) + '\ub144 ' + q.question_num + '\ubc88';
     html += '</div>';
 
     html += '</div>';
@@ -3488,15 +4345,62 @@ const QM = (function() {
     }
   }
 
-  // --- Set study mode ---
-  function setStudyMode(enabled) {
-    studyMode = enabled;
-    $('qmModeQuiz').classList.toggle('active', !enabled);
-    $('qmModeStudy').classList.toggle('active', enabled);
-    // Hide stats and encourage in study mode
-    $('qmStats').style.display = enabled ? 'none' : '';
-    $('qmEncourage').style.display = enabled ? 'none' : '';
+  function syncModeButtons() {
+    $('qmModeStudy').classList.toggle('active', viewMode === 'study');
+    $('qmModeTeach').classList.toggle('active', viewMode === 'teach');
+    $('qmModeQuiz').classList.toggle('active', viewMode === 'quiz');
+  }
+
+  function resetBrowseState() {
+    var yearSelect = $('qmYearFilter');
+    var topicSelect = $('qmTopicFilter');
+    if (yearSelect) yearSelect.value = '';
+    if (topicSelect) topicSelect.value = '';
+    filterMode = 'all';
+    isShuffled = false;
+    document.querySelectorAll('.qm-chip[data-mode]').forEach(function(chip) {
+      chip.classList.toggle('active', chip.dataset.mode === 'all');
+    });
+    var shuffleChip = document.querySelector('.qm-chip[data-mode="shuffle"]');
+    if (shuffleChip) shuffleChip.classList.remove('active');
+  }
+
+  // --- Set view mode ---
+  function setViewMode(mode) {
+    viewMode = mode === 'teach' ? 'teach' : mode === 'quiz' ? 'quiz' : 'study';
+    studyMode = viewMode !== 'quiz';
+    syncModeButtons();
+    $('qmStats').style.display = studyMode ? 'none' : '';
+    $('qmEncourage').style.display = studyMode ? 'none' : '';
     renderQuestion();
+  }
+
+  function setStudyMode(enabled) {
+    setViewMode(enabled ? 'study' : 'quiz');
+  }
+
+  function openQuestionById(qId, mode) {
+    var targetId = Number(qId);
+    if (!allQuestions.length) return false;
+    resetBrowseState();
+    applyFilters();
+    var idx = filteredQuestions.findIndex(function(item) { return item.id === targetId; });
+    if (idx < 0) return false;
+    if (mode) setViewMode(mode);
+    goTo(idx);
+    return true;
+  }
+
+  function openTopic(topic, mode) {
+    if (!topic) return false;
+    var topicSelect = $('qmTopicFilter');
+    resetBrowseState();
+    if (topicSelect) topicSelect.value = topic;
+    applyFilters();
+    if (!filteredQuestions.length) return false;
+    if (mode) setViewMode(mode);
+    goTo(0);
+    return true;
   }
 
   // --- Public API ---
@@ -3508,13 +4412,774 @@ const QM = (function() {
     toggleFilter,
     navigate,
     goTo,
+    setViewMode,
     setStudyMode,
-    filterByTopic
+    filterByTopic,
+    openQuestionById,
+    openTopic
   };
 })();
 
 // Init Quiz Master now that QM is defined
 QM.init();
+
+// ============================================================
+//  25-MIN FOCUS LOOP
+// ============================================================
+const F25 = (function() {
+  'use strict';
+
+  var STAGES = ['1단계 짤기', '2단계 핵심', '3단계 회상', '4단계 확인', '5단계 실전'];
+  var F25_TOPIC_LABELS = {
+    head_1: 'Head 1',
+    head_2: 'Head 2',
+    head_3: 'Head 3',
+    neck: 'Neck',
+    ear_pharynx_larynx: '귀·인두·후두',
+    mouth_nose: '입·코',
+    cns_gross_1: 'CNS 큰그림',
+    cns_gross_2: 'CNS 심화 2',
+    cns_gross_3: 'CNS 심화 3',
+    motor_pathway: '운동 경로',
+    sensory_system: '감각 경로',
+    memory_system: '기억·변연계',
+    special_sensory_eyeball: '특수감각·안구',
+    autonomic_ns: '자율신경',
+    higher_cns_functions: '고위 중추 기능',
+    blood_supply_brain: '뇌 혈류',
+    dev_head_neck: '머리·목 발생',
+    dev_nervous_system: '신경 발생'
+  };
+  var initialized = false;
+  var questions = [];
+  var cards = [];
+  var confusionPairs = [];
+  var teachingUnits = [];
+  var teachingQuestionMap = [];
+  var topics = [];
+  var session = null;
+  var timerId = null;
+
+  function normalizeTopicKey(topic) {
+    return String(topic || '')
+      .toLowerCase()
+      .trim()
+      .replace(/[^a-z0-9]+/g, '_')
+      .replace(/^_+|_+$/g, '');
+  }
+
+  function getTopicAliases(topic) {
+    var normalized = normalizeTopicKey(topic);
+    var aliases = new Set([normalized]);
+    var headNeckTopics = new Set(['neck', 'head_1', 'head_2', 'head_3', 'mouth_nose', 'ear_pharynx_larynx', 'special_sensory_eyeball', 'dev_head_neck']);
+    var neuroTopics = new Set(['autonomic_ns', 'blood_supply_brain', 'cns_gross_1', 'cns_gross_2', 'cns_gross_3', 'dev_nervous_system', 'higher_cns_functions', 'memory_system', 'motor_pathway', 'sensory_system']);
+
+    if (headNeckTopics.has(normalized)) aliases.add('head_neck');
+    if (neuroTopics.has(normalized)) aliases.add('neuroanatomy');
+    return Array.from(aliases);
+  }
+
+  function getChoiceText(q, idx) {
+    if (!q || !q.choices || !q.choices[idx]) return '';
+    return q.choices[idx].replace(/^\d+\)\s*/, '');
+  }
+
+  function formatMultiline(text) {
+    return escapeHTML(String(text || '')).replace(/\n/g, '<br>');
+  }
+
+  function firstMeaningfulSentence(text) {
+    var cleaned = String(text || '').replace(/\s+/g, ' ').trim();
+    if (!cleaned) return '';
+    var sentences = cleaned.split(/(?<=[.!?])\s+/).filter(Boolean);
+    return sentences[0] || cleaned;
+  }
+
+  function formatF25TopicLabel(topic) {
+    if (!topic) return '';
+    return F25_TOPIC_LABELS[topic] || topic.replace(/_/g, ' ');
+  }
+
+  function normalizeRepeatStemF25(text) {
+    return String(text || '')
+      .toLowerCase()
+      .replace(/\([^)]*\)/g, ' ')
+      .replace(/[^\p{L}\p{N}]+/gu, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  function isWeakRepeatStemF25(stem) {
+    if (!stem || stem.length < 14) return true;
+    return [
+      '다음 중 옳은 것은',
+      '다음 중 옳은 것을 고르시오',
+      '다음 중 맞는 것은',
+      '다음 그림에서 옳은 것은',
+      '다음 보기 중 옳은 설명은'
+    ].indexOf(stem) >= 0;
+  }
+
+  function getRepeatGroupsForQuestions(topicQuestions) {
+    var byStem = {};
+    (topicQuestions || []).forEach(function(q) {
+      var stem = normalizeRepeatStemF25(q.question_text);
+      if (isWeakRepeatStemF25(stem)) return;
+      if (!byStem[stem]) byStem[stem] = [];
+      byStem[stem].push(q);
+    });
+
+    return Object.keys(byStem).map(function(stem) {
+      var items = byStem[stem].slice().sort(function(a, b) {
+        if (b.year !== a.year) return b.year - a.year;
+        return b.id - a.id;
+      });
+      if (items.length < 2) return null;
+      var years = [];
+      items.forEach(function(item) {
+        if (years.indexOf(item.year) < 0) years.push(item.year);
+      });
+      return {
+        stem: stem,
+        items: items,
+        latest: items[0],
+        repeatCount: items.length,
+        years: years.sort(function(a, b) { return a - b; })
+      };
+    }).filter(Boolean).sort(function(a, b) {
+      if (b.repeatCount !== a.repeatCount) return b.repeatCount - a.repeatCount;
+      return b.latest.year - a.latest.year;
+    });
+  }
+
+  function getPriorityQuestionsForBundle(bundleQuestions) {
+    var groups = getRepeatGroupsForQuestions(bundleQuestions);
+    if (groups.length) {
+      return groups.map(function(group) { return group.latest; }).slice(0, 3);
+    }
+    return shuffleArray((bundleQuestions || []).slice()).slice(0, 3);
+  }
+
+  function updateSetupCopy() {
+    var root = $('tabFocus25');
+    if (!root) return;
+    var titles = root.querySelectorAll('#f25Setup .card-title');
+    var subtitle = root.querySelector('#f25Setup .card-subtitle');
+    var helper = root.querySelector('#f25Setup .f25-helper');
+    var checks = root.querySelectorAll('#f25Setup .f25-check');
+    var header = root.querySelector('#f25Setup .section-header');
+    if (header) header.innerHTML = '&#9201; 25분 시험 진입 루프';
+    if (titles[0]) titles[0].innerHTML = '<span class="card-icon">&#127919;</span>짤기부터 바로 들어가기';
+    if (subtitle) subtitle.textContent = '이 탭은 워밍업이 아니라 시험 진입용입니다. 짤기 1개, 핵심 포인트 3개, 함정 2개, 기출 확인 3문제만 먼저 잡습니다.';
+    if (checks[0]) checks[0].textContent = '1단계: 반복된 기출 1개를 먼저 확인';
+    if (checks[1]) checks[1].textContent = '2단계: 시험 포인트 3개만 압축해서 보기';
+    if (checks[2]) checks[2].textContent = '3단계: 헷갈리는 함정과 회상 질문으로 꺼내보기';
+    if (checks[3]) checks[3].textContent = '4단계: 기출 3문제로 바로 확인';
+    if (checks[4]) checks[4].textContent = '5단계: 바로 기출 탭으로 넘어가기';
+    if (titles[1]) titles[1].innerHTML = '<span class="card-icon">&#128161;</span>동생 기준 추천';
+    if (helper) helper.textContent = '길게 많이 보는 탭이 아닙니다. 지금 점수에 직접 연결되는 것만 먼저 잡게 하려고 만든 루프입니다. 짤기와 빈출 개념을 먼저 묶고, 그 다음에만 탈기로 넘어가세요.';
+  }
+
+  function getTopicBundle(topic) {
+    var aliases = new Set(getTopicAliases(topic));
+    return {
+      questions: questions.filter(function(q) { return aliases.has(normalizeTopicKey(q.topic)); }),
+      cards: cards.filter(function(card) { return aliases.has(normalizeTopicKey(card.topic_id)); }),
+      pairs: confusionPairs.filter(function(pair) { return aliases.has(normalizeTopicKey(pair.topic_id)); })
+    };
+  }
+
+  function getTeachingUnitById(unitId) {
+    for (var i = teachingUnits.length - 1; i >= 0; i--) {
+      var unit = teachingUnits[i];
+      if (unit && unit.id === unitId) return unit;
+    }
+    return null;
+  }
+
+  function buildTeachingSearchBlob(q) {
+    if (!q) return '';
+    var parts = [q.question, q.question_text, q.prompt, q.explanation];
+    if (Array.isArray(q.choices)) {
+      q.choices.forEach(function(choice) { parts.push(choice); });
+    }
+    return parts.filter(Boolean).join(' ').toLowerCase();
+  }
+
+  function getTeachingUnitForQuestion(q) {
+    if (!q) return null;
+    var mappedItems = teachingQuestionMap.filter(function(item) { return item.question_id === q.id; });
+    if (mappedItems.length > 0) {
+      for (var i = mappedItems.length - 1; i >= 0; i--) {
+        var exactTopicUnit = getTeachingUnitById(mappedItems[i].unit_id);
+        if (exactTopicUnit && exactTopicUnit.topic === q.topic) return exactTopicUnit;
+      }
+      for (var j = mappedItems.length - 1; j >= 0; j--) {
+        var unit = getTeachingUnitById(mappedItems[j].unit_id);
+        if (unit) return unit;
+      }
+    }
+    var qText = buildTeachingSearchBlob(q);
+    var sameTopicUnits = teachingUnits.filter(function(unit) {
+      return unit && unit.topic === q.topic;
+    });
+    var directUnit = sameTopicUnits.find(function(unit) {
+      return Array.isArray(unit.related_question_ids) && unit.related_question_ids.indexOf(q.id) >= 0;
+    });
+    if (directUnit) return directUnit;
+    var keywordMatch = null;
+    var keywordScore = 0;
+    sameTopicUnits.forEach(function(unit) {
+      var score = 0;
+      if (Array.isArray(unit.match_keywords)) {
+        unit.match_keywords.forEach(function(keyword) {
+          var normalized = String(keyword || '').toLowerCase().trim();
+          if (normalized && qText.indexOf(normalized) >= 0) score += 1;
+        });
+      }
+      if (score > keywordScore) {
+        keywordScore = score;
+        keywordMatch = unit;
+      }
+    });
+    if (keywordMatch) return keywordMatch;
+    return sameTopicUnits.length === 1 ? sameTopicUnits[0] : null;
+  }
+
+  function getTeachingUnitForTopic(topic) {
+    var sameTopicUnits = teachingUnits.filter(function(unit) {
+      return unit && unit.topic === topic;
+    });
+    return sameTopicUnits.length === 1 ? sameTopicUnits[0] : null;
+  }
+
+  function renderBulletItems(items) {
+    if (!Array.isArray(items) || items.length === 0) return '';
+    var html = '<div class="teach-bullet-list">';
+    items.forEach(function(item) {
+      html += '<div class="teach-bullet-item">' + formatMultiline(item) + '</div>';
+    });
+    html += '</div>';
+    return html;
+  }
+
+  function renderSourceChips(unit) {
+    if (!unit || !Array.isArray(unit.source_refs) || unit.source_refs.length === 0) return '';
+    var html = '<div class="teach-source-list">';
+    unit.source_refs.forEach(function(ref) {
+      html += '<span class="teach-source-chip">' + escapeHTML(ref.label || ref.path || '자료') + '</span>';
+    });
+    html += '</div>';
+    return html;
+  }
+
+  function getSelectedTopic() {
+    var select = $('f25TopicSelect');
+    return select ? select.value : '';
+  }
+
+  function setSelectedTopic(topic) {
+    var select = $('f25TopicSelect');
+    if (select) select.value = topic;
+  }
+
+  function populateTopicSelect() {
+    var select = $('f25TopicSelect');
+    if (!select) return;
+    var current = select.value;
+    select.innerHTML = '';
+    topics.forEach(function(topic) {
+      var opt = document.createElement('option');
+      opt.value = topic;
+      opt.textContent = formatF25TopicLabel(topic);
+      select.appendChild(opt);
+    });
+    if (current && topics.indexOf(current) >= 0) select.value = current;
+    else if (topics.length) select.value = topics[0];
+  }
+
+  async function init() {
+    if (initialized) {
+      populateTopicSelect();
+      return;
+    }
+
+    var result = await Promise.all([
+      loadData('questions.json'),
+      loadData('flashcards.json'),
+      loadData('confusion_pairs.json'),
+      loadData('teaching_units.json'),
+      loadData('teaching_question_map.json')
+    ]);
+    questions = Array.isArray(result[0]) ? result[0] : [];
+    cards = Array.isArray(result[1]) ? result[1] : [];
+    confusionPairs = Array.isArray(result[2]) ? result[2] : [];
+    teachingUnits = Array.isArray(result[3] && result[3].units) ? result[3].units : Array.isArray(result[3]) ? result[3] : [];
+    teachingQuestionMap = Array.isArray(result[4] && result[4].maps) ? result[4].maps : Array.isArray(result[4]) ? result[4] : [];
+    topics = Array.from(new Set(questions.map(function(q) { return q.topic; }))).sort();
+    populateTopicSelect();
+    updateSetupCopy();
+    initialized = true;
+  }
+
+  function renderStagePills() {
+    var row = $('f25StageRow');
+    if (!row || !session) return;
+    row.innerHTML = '';
+    STAGES.forEach(function(label, idx) {
+      var pill = document.createElement('div');
+      pill.className = 'f25-stage-pill';
+      if (idx === session.stage) pill.classList.add('active');
+      if (idx < session.stage) pill.classList.add('done');
+      pill.textContent = label;
+      row.appendChild(pill);
+    });
+  }
+
+  function updateTimer() {
+    $('f25Timer').textContent = formatTime(session ? session.secondsRemaining : 1500);
+  }
+
+  function buildOverviewStage() {
+    var q = session.anchorQuestion;
+    var unit = session.anchorUnit;
+    var repeatGroup = session.repeatGroups[0];
+    var html = '<div class="card-title"><span class="card-icon">&#128293;</span>1단계: 짤기 먼저</div>';
+    html += '<div class="card-subtitle">이 토픽에서 시험에 가장 가까운 문제 1개와 핵심 포인트만 먼저 잡습니다. 많이 보지 말고, 먼저 맞힐 것을 분명히 하세요.</div>';
+    if (q) {
+      html += '<div class="teach-card">';
+      html += '<div class="teach-core"><strong>오늘 먼저 볼 문제</strong>' + escapeHTML(q.question_text) + '</div>';
+      html += '<div class="study-answer">\u2705 정답: ' + q.answer + '번 - ' + escapeHTML(getChoiceText(q, q.answer - 1)) + '</div>';
+      if (repeatGroup) {
+        html += '<div class="study-tip"><strong>반복 출제</strong><div>' + escapeHTML(repeatGroup.repeatCount + '회 반복 · ' + repeatGroup.years.join(', ')) + '</div></div>';
+      }
+      html += '</div>';
+    }
+    if (unit && Array.isArray(unit.exam_points) && unit.exam_points.length > 0) {
+      html += '<div class="study-tip"><strong>이번 25분 핵심 3개</strong>' + renderBulletItems(unit.exam_points.slice(0, 3)) + '</div>';
+    } else if (session.bundle.cards.length) {
+      html += '<div class="study-tip"><strong>이번 25분 핵심 3개</strong>' + renderBulletItems(session.bundle.cards.slice(0, 3).map(function(card) {
+        return card.front_ko || card.front_en || '핵심 카드';
+      })) + '</div>';
+    }
+    if (unit && Array.isArray(unit.common_traps) && unit.common_traps.length > 0) {
+      html += '<div class="study-tip"><strong>먼저 피할 함정</strong>' + renderBulletItems(unit.common_traps.slice(0, 2)) + '</div>';
+    }
+    html += '<div class="study-related"><strong>이 단계에서 할 일</strong> 문제 문장을 소리내어 읽고, 정답과 함정 두 개만 바로 말할 수 있으면 다음 단계로 넘어가세요.</div>';
+    return html;
+  }
+
+  function buildTeachStage() {
+    var q = session.bundle.questions[0];
+    var pair = session.bundle.pairs[0];
+    var unit = getTeachingUnitForQuestion(q) || getTeachingUnitForTopic(session.topic);
+    if (!q) {
+      return '<div class="teach-card"><div class="teach-core"><strong>개념 설명</strong>이 토픽에는 연결된 기출 문제가 아직 없습니다. 플래시카드로 핵심 정의부터 익히세요.</div></div>';
+    }
+
+    var correctText = getChoiceText(q, q.answer - 1);
+    var html = '<div class="card-title"><span class="card-icon">&#127891;</span>2단계: 핵심 포인트 정리</div>';
+    html += '<div class="card-subtitle">전체를 다 읽지 말고, 이 문제를 맞히는 데 필요한 핵심 근거와 시험 포인트만 붙잡는 단계입니다.</div>';
+    html += '<div class="teach-card">';
+    html += '<div class="teach-core"><strong>' + escapeHTML((unit && unit.title) || '핵심 한 줄') + '</strong>' + escapeHTML((unit && unit.core_line) || firstMeaningfulSentence(q.explanation) || correctText || q.question_text) + '</div>';
+    html += '<div class="study-answer">\u2705 정답: ' + q.answer + '번 - ' + escapeHTML(correctText) + '</div>';
+    html += buildRepeatInfoBlock(q);
+    html += buildExamInsightBlock(q.topic, unit);
+    if (unit && unit.why_it_matters) {
+      html += '<div class="study-tip"><strong>왜 자주 나오나</strong><div>' + formatMultiline(unit.why_it_matters) + '</div></div>';
+    }
+    html += '<div class="study-why"><strong>왜 정답인가</strong>' + formatMultiline(q.explanation || '정답 구조와 기능을 연결해서 다시 말해보세요.') + '</div>';
+    if (unit && Array.isArray(unit.exam_points) && unit.exam_points.length > 0) {
+      html += '<div class="study-tip"><strong>시험 포인트</strong>' + renderBulletItems(unit.exam_points) + '</div>';
+    }
+    if (unit && Array.isArray(unit.common_traps) && unit.common_traps.length > 0) {
+      html += '<div class="study-tip"><strong>자주 틀리는 함정</strong>' + renderBulletItems(unit.common_traps) + '</div>';
+    }
+    if (pair) {
+      html += '<div class="study-tip"><strong>헷갈리는 쌍</strong><div><strong>' + escapeHTML(pair.item_a) + '</strong> vs <strong>' + escapeHTML(pair.item_b) + '</strong></div><div>' + formatMultiline(pair.comparison_notes || '') + '</div></div>';
+    }
+    if (unit && Array.isArray(unit.takeaways) && unit.takeaways.length > 0) {
+      html += '<div class="study-tip"><strong>가르치기 포인트</strong>' + renderBulletItems(unit.takeaways) + '</div>';
+    }
+    if (unit && Array.isArray(unit.memory_hooks) && unit.memory_hooks.length > 0) {
+      html += '<div class="study-tip"><strong>기억 갈고리</strong>' + renderBulletItems(unit.memory_hooks) + '</div>';
+    }
+    html += '<div class="study-related"><strong>말로 꺼내보기</strong> 지금 바로 30초 동안 빈 종이에 정의, 위치, 기능을 적어보세요.</div>';
+    html += renderSourceChips(unit);
+    html += '</div>';
+    return html;
+  }
+
+  function buildRecallStage() {
+    var bundle = session.bundle;
+    var unit = getTeachingUnitForQuestion(bundle.questions[0]) || getTeachingUnitForTopic(session.topic);
+    var prompts = [];
+    if (unit && Array.isArray(unit.recall_prompts)) {
+      unit.recall_prompts.forEach(function(item) {
+        if (!item) return;
+        if (typeof item === 'string') {
+          prompts.push({ prompt: item, answer: '' });
+        } else {
+          prompts.push({
+            prompt: item.prompt || item.question || '핵심 개념을 말해보세요.',
+            answer: item.answer || item.hint || ''
+          });
+        }
+      });
+    }
+    bundle.cards.slice(0, 2).forEach(function(card) {
+      prompts.push({
+        prompt: card.front_ko || card.front_en || '핵심 개념을 말해보세요.',
+        answer: card.back || ''
+      });
+    });
+    if (bundle.pairs[0]) {
+      prompts.push({
+        prompt: bundle.pairs[0].item_a + '와 ' + bundle.pairs[0].item_b + ' 차이를 비교해보세요.',
+        answer: bundle.pairs[0].comparison_notes || ''
+      });
+    }
+    if (!prompts.length && bundle.questions[0]) {
+      prompts.push({
+        prompt: bundle.questions[0].question_text,
+        answer: '정답은 ' + bundle.questions[0].answer + '번 ' + getChoiceText(bundle.questions[0], bundle.questions[0].answer - 1) + '입니다.'
+      });
+    }
+
+    var html = '<div class="card-title"><span class="card-icon">&#129504;</span>3단계: 함정 회상</div>';
+    html += '<div class="card-subtitle">정의, 위치, 기능, 비교 포인트를 보기 없이 먼저 꺼내보세요. 막히는 지점이 지금 외워야 할 부분입니다.</div>';
+    prompts.slice(0, 3).forEach(function(item, idx) {
+      html += '<details class="teach-recall-item"' + (idx === 0 ? ' open' : '') + '>';
+      html += '<summary>' + escapeHTML(item.prompt) + '</summary>';
+      html += '<div class="teach-recall-answer">' + formatMultiline(item.answer) + '</div>';
+      html += '</details>';
+    });
+    return html;
+  }
+
+  function isMiniComplete() {
+    if (!session || !session.mini.questions.length) return true;
+    return session.mini.questions.every(function(q) {
+      return session.mini.answers[q.id] !== undefined;
+    });
+  }
+
+  function buildMiniStage() {
+    var mini = session.mini;
+    var html = '<div class="card-title"><span class="card-icon">&#128221;</span>4단계: 바로 확인</div>';
+    html += '<div class="card-subtitle">짤기와 빈출 문항만 세 문제 확인합니다. 여기서 흔들리면 아직 기출로 바로 들어가면 안 됩니다.</div>';
+
+    if (!mini.questions.length) {
+      html += '<div class="teach-card"><div class="teach-core"><strong>미니 퀴즈 없음</strong>이 토픽은 연결된 기출이 적어서 정리 단계로 바로 넘어갑니다.</div></div>';
+      return html;
+    }
+
+    var q = mini.questions[mini.index];
+    var answered = mini.answers[q.id];
+    html += '<div class="teach-card">';
+    html += '<div class="f25-mini-q">Q' + (mini.index + 1) + '. ' + escapeHTML(q.question_text) + '</div>';
+    q.choices.forEach(function(choice, idx) {
+      var cls = 'qm-choice-btn';
+      var disabled = answered !== undefined ? ' disabled' : '';
+      if (answered !== undefined) {
+        cls += ' disabled';
+        if (idx === q.answer - 1) cls += ' correct';
+        else if (idx === answered && answered !== q.answer - 1) cls += ' wrong';
+      }
+      html += '<button class="' + cls + '" onclick="F25.answerMini(' + idx + ')"' + disabled + '>';
+      html += '<span class="qm-choice-num">' + (idx + 1) + '</span>' + escapeHTML(choice.replace(/^\d+\)\s*/, ''));
+      html += '</button>';
+    });
+
+    if (answered !== undefined) {
+      var correct = answered === q.answer - 1;
+      html += '<div class="f25-mini-feedback ' + (correct ? 'correct' : 'wrong') + '">';
+      html += correct ? '맞았습니다. 바로 다음 문제로 넘어가세요.' : ('정답은 ' + q.answer + '번 ' + escapeHTML(getChoiceText(q, q.answer - 1)) + '입니다.');
+      html += '</div>';
+      if (mini.index < mini.questions.length - 1) {
+        html += '<div class="teach-action-row"><button class="btn btn-outline btn-sm" onclick="F25.nextMiniQuestion()">다음 미니퀴즈</button></div>';
+      }
+    }
+
+    html += '</div>';
+    return html;
+  }
+
+  function buildSummaryStage() {
+    var bundle = session.bundle;
+    var unit = session.anchorUnit;
+    var q = session.anchorQuestion;
+    var html = '<div class="card-title"><span class="card-icon">&#127919;</span>5단계: 실전 진입 체크</div>';
+    html += '<div class="card-subtitle">이제 바로 기출로 들어갑니다. 아래 세 가지만 말할 수 있으면 충분합니다.</div>';
+    html += '<div class="f25-grid">';
+    html += '<div class="f25-summary-stat">토픽: ' + escapeHTML(formatF25TopicLabel(session.topic)) + '</div>';
+    html += '<div class="f25-summary-stat">짤기 후보: ' + (session.repeatGroups[0] ? session.repeatGroups[0].repeatCount + '회 반복' : '반복문항 없음') + '</div>';
+    html += '<div class="f25-summary-stat">미니퀴즈: ' + session.mini.correct + '/' + session.mini.questions.length + '</div>';
+    html += '</div>';
+    html += '<div class="teach-card">';
+    html += '<div class="teach-core"><strong>마지막 체크</strong> 1분 안에 정답 근거, 함정 1개, 비슷한 구조와의 차이 1개를 말해보세요. 막히면 다시 2단계로 돌아가도 됩니다.</div>';
+    if (unit && Array.isArray(unit.exam_points) && unit.exam_points.length > 0) {
+      html += '<div class="study-tip"><strong>입실 전 3줄</strong>' + renderBulletItems(unit.exam_points.slice(0, 3)) + '</div>';
+    }
+    html += '<div class="teach-action-row">';
+    if (q) html += '<button class="btn btn-primary btn-sm" onclick="switchTab(0); QM.openQuestionById(' + q.id + ', \'quiz\');">이 짤기 바로 풀기</button>';
+    html += '<button class="btn btn-outline btn-sm" onclick="QM.openTopic(\'' + escapeHTML(session.topic).replace(/'/g, '\\&#39;') + '\', \'quiz\'); switchTab(0);">이 토픽 기출로 가기</button>';
+    html += '</div>';
+    html += '</div>';
+    return html;
+  }
+
+  function renderStage() {
+    if (!session) return;
+    $('f25TopicLabel').textContent = formatF25TopicLabel(session.topic);
+    $('f25StageLabel').textContent = STAGES[session.stage];
+    $('f25PrevBtn').disabled = session.stage === 0;
+    $('f25NextBtn').textContent = session.stage === STAGES.length - 1 ? '완료' : '다음';
+    renderStagePills();
+
+    var html = '';
+    if (session.stage === 0) html = buildOverviewStage();
+    if (session.stage === 1) html = buildTeachStage();
+    if (session.stage === 2) html = buildRecallStage();
+    if (session.stage === 3) html = buildMiniStage();
+    if (session.stage === 4) html = buildSummaryStage();
+    $('f25Content').innerHTML = html;
+  }
+
+  function stopTimer() {
+    if (timerId) {
+      clearInterval(timerId);
+      timerId = null;
+    }
+  }
+
+  function startTimer() {
+    stopTimer();
+    timerId = setInterval(function() {
+      if (!session) return;
+      session.secondsRemaining = Math.max(0, session.secondsRemaining - 1);
+      updateTimer();
+      if (session.secondsRemaining === 0) {
+        stopTimer();
+        showToast('25분이 끝났습니다. 마지막 정리 후 기출로 넘어가세요.', 'info');
+      }
+    }, 1000);
+  }
+
+  async function startSession() {
+    await init();
+    var topic = getSelectedTopic();
+    if (!topic) {
+      showToast('먼저 토픽을 선택하세요.', 'warning');
+      return;
+    }
+
+    var bundle = getTopicBundle(topic);
+    if (!bundle.questions.length && !bundle.cards.length) {
+      showToast('이 토픽에는 아직 연결된 자료가 없습니다.', 'warning');
+      return;
+    }
+
+    var priorityQuestions = getPriorityQuestionsForBundle(bundle.questions);
+    var anchorQuestion = priorityQuestions[0] || bundle.questions[0] || null;
+    session = {
+      topic: topic,
+      bundle: bundle,
+      anchorQuestion: anchorQuestion,
+      anchorUnit: getTeachingUnitForQuestion(anchorQuestion) || getTeachingUnitForTopic(topic),
+      repeatGroups: getRepeatGroupsForQuestions(bundle.questions),
+      stage: 0,
+      secondsRemaining: 25 * 60,
+      mini: {
+        questions: priorityQuestions.length ? priorityQuestions.slice(0, 3) : shuffleArray(bundle.questions).slice(0, 3),
+        index: 0,
+        answers: {},
+        correct: 0
+      }
+    };
+
+    $('f25Setup').style.display = 'none';
+    $('f25Session').style.display = '';
+    updateTimer();
+    startTimer();
+    renderStage();
+  }
+
+  function getRecommendedTopic() {
+    var repeatScores = {};
+    topics.forEach(function(topic) {
+      var topicQuestions = questions.filter(function(q) { return q.topic === topic; });
+      var groups = getRepeatGroupsForQuestions(topicQuestions);
+      repeatScores[topic] = groups.reduce(function(sum, group) {
+        return sum + (group.repeatCount * 3);
+      }, 0);
+    });
+    var repeatFirst = Object.keys(repeatScores).sort(function(a, b) {
+      if (repeatScores[b] !== repeatScores[a]) return repeatScores[b] - repeatScores[a];
+      return questions.filter(function(q) { return q.topic === b; }).length - questions.filter(function(q) { return q.topic === a; }).length;
+    });
+    if (repeatFirst[0] && repeatScores[repeatFirst[0]] > 0) return repeatFirst[0];
+
+    var wrongAnswers = getStoreJSON('wrongAnswers', {});
+    var byTopic = {};
+    questions.forEach(function(q) {
+      if (wrongAnswers[q.id]) {
+        byTopic[q.topic] = (byTopic[q.topic] || 0) + (wrongAnswers[q.id].count || 1);
+      }
+    });
+
+    var ranked = Object.keys(byTopic).sort(function(a, b) { return byTopic[b] - byTopic[a]; });
+    if (ranked[0]) return ranked[0];
+
+    var hist = getStoreJSON('quizHistory', {});
+    var topicStats = {};
+    questions.forEach(function(q) {
+      if (!hist[q.id]) return;
+      if (!topicStats[q.topic]) topicStats[q.topic] = { correct: 0, total: 0 };
+      topicStats[q.topic].total++;
+      if (hist[q.id].correct) topicStats[q.topic].correct++;
+    });
+    var weakTopics = Object.keys(topicStats).filter(function(topic) {
+      return topicStats[topic].total >= 2;
+    }).sort(function(a, b) {
+      var rateA = topicStats[a].correct / topicStats[a].total;
+      var rateB = topicStats[b].correct / topicStats[b].total;
+      if (rateA !== rateB) return rateA - rateB;
+      return topicStats[b].total - topicStats[a].total;
+    });
+    if (weakTopics[0]) return weakTopics[0];
+
+    var counts = {};
+    questions.forEach(function(q) {
+      counts[q.topic] = (counts[q.topic] || 0) + 1;
+    });
+    var highestYield = Object.keys(counts).sort(function(a, b) {
+      return counts[b] - counts[a];
+    });
+    return highestYield[0] || topics[0] || '';
+  }
+
+  function pickAutoTopic() {
+    if (!initialized) {
+      init().then(pickAutoTopic);
+      return;
+    }
+    if (!topics.length) {
+      showToast('토픽을 아직 불러오지 못했습니다.', 'warning');
+      return;
+    }
+
+    var nextTopic = getRecommendedTopic();
+    setSelectedTopic(nextTopic);
+    showToast('오늘은 ' + formatF25TopicLabel(nextTopic) + '부터 시험 진입 루프를 돌려보세요.', 'info');
+  }
+
+  function startAutoSession() {
+    if (!initialized) {
+      init().then(startAutoSession);
+      return;
+    }
+    var nextTopic = getRecommendedTopic();
+    if (nextTopic) setSelectedTopic(nextTopic);
+    startSession();
+  }
+
+  function prevStage() {
+    if (!session || session.stage === 0) return;
+    session.stage--;
+    renderStage();
+  }
+
+  function nextStage() {
+    if (!session) return;
+
+    if (session.stage === 3 && session.mini.questions.length) {
+      var currentQuestion = session.mini.questions[session.mini.index];
+      if (session.mini.answers[currentQuestion.id] === undefined) {
+        showToast('미니퀴즈를 먼저 풀어보세요.', 'warning');
+        return;
+      }
+      if (session.mini.index < session.mini.questions.length - 1) {
+        session.mini.index++;
+        renderStage();
+        return;
+      }
+      if (!isMiniComplete()) {
+        showToast('미니퀴즈를 끝까지 확인한 뒤 넘어가세요.', 'warning');
+        return;
+      }
+    }
+
+    if (session.stage >= STAGES.length - 1) {
+      jumpToQuiz();
+      return;
+    }
+
+    session.stage++;
+    renderStage();
+  }
+
+  function answerMini(choiceIdx) {
+    if (!session || session.stage !== 3) return;
+    var mini = session.mini;
+    var q = mini.questions[mini.index];
+    if (!q || mini.answers[q.id] !== undefined) return;
+    mini.answers[q.id] = choiceIdx;
+    if (choiceIdx === q.answer - 1) mini.correct++;
+    renderStage();
+  }
+
+  function nextMiniQuestion() {
+    if (!session || session.stage !== 3) return;
+    if (session.mini.index < session.mini.questions.length - 1) {
+      session.mini.index++;
+      renderStage();
+    }
+  }
+
+  function exitSession() {
+    stopTimer();
+    session = null;
+    $('f25Setup').style.display = '';
+    $('f25Session').style.display = 'none';
+    $('f25StageRow').innerHTML = '';
+    $('f25Content').innerHTML = '';
+    $('f25StageLabel').textContent = '1회독';
+    $('f25TopicLabel').textContent = '토픽';
+    $('f25Timer').textContent = '25:00';
+  }
+
+  function jumpToQuiz() {
+    if (!session) return;
+    var topic = session.topic;
+    stopTimer();
+    switchTab(0);
+    QM.openTopic(topic, 'quiz');
+  }
+
+  function startTopicSession(topic) {
+    if (!initialized) {
+      init().then(function() { startTopicSession(topic); });
+      return;
+    }
+    if (topic) setSelectedTopic(topic);
+    startSession();
+  }
+
+  return {
+    init: init,
+    startSession: startSession,
+    startTopicSession: startTopicSession,
+    startAutoSession: startAutoSession,
+    pickAutoTopic: pickAutoTopic,
+    prevStage: prevStage,
+    nextStage: nextStage,
+    answerMini: answerMini,
+    nextMiniQuestion: nextMiniQuestion,
+    exitSession: exitSession,
+    jumpToQuiz: jumpToQuiz
+  };
+})();
 
 // ============================================================
 //  ANATOMY IMAGE QUIZ (해부땡)
@@ -4508,6 +6173,31 @@ const YAMA = (function() {
   };
 
   const TOPIC_LABELS = {};
+  const STUDY_TOPIC_LABELS = {
+    head_1: 'Head 1',
+    head_2: 'Head 2',
+    head_3: 'Head 3',
+    neck: 'Neck',
+    ear_pharynx_larynx: '귀·인두·후두',
+    mouth_nose: '입·코',
+    cns_gross_1: 'CNS 큰그림',
+    cns_gross_2: 'CNS 심화 2',
+    cns_gross_3: 'CNS 심화 3',
+    motor_pathway: '운동 경로',
+    sensory_system: '감각 경로',
+    memory_system: '기억·변연계',
+    special_sensory_eyeball: '시각·동공',
+    autonomic_ns: '자율신경',
+    higher_cns_functions: '고위 중추 기능',
+    blood_supply_brain: '뇌 혈류',
+    dev_head_neck: '머리·목 발생',
+    dev_nervous_system: '신경 발생'
+  };
+
+  function formatStudyTopicLabel(topic) {
+    if (!topic) return '';
+    return STUDY_TOPIC_LABELS[topic] || topic.replace(/_/g, ' ');
+  }
 
   // --- Initialize ---
   async function init() {
@@ -5324,9 +7014,10 @@ const ME = (function() {
     const q = examQuestions[currentIdx];
 
     $('meExamCounter').textContent = (currentIdx + 1) + '/' + examQuestions.length;
-    $('meQBadge').textContent = q.topic;
+    $('meQBadge').textContent = typeof formatStudyTopicLabel === 'function' ? formatStudyTopicLabel(q.topic) : q.topic;
     $('meQNum').textContent = 'Q' + (currentIdx + 1);
     $('meQText').textContent = q.question_text;
+    setQuestionImage('meQImageWrap', 'meQImage', 'meQImageCaption', q);
 
     // Choices
     const choicesEl = $('meChoices');
@@ -5562,7 +7253,7 @@ const ME = (function() {
 
       const headerHtml =
         '<div class="me-review-header">' +
-          '<span class="me-review-num">Q' + (origIdx + 1) + ' | ' + escapeHTML(q.topic) + '</span>' +
+          '<span class="me-review-num">Q' + (origIdx + 1) + ' | ' + escapeHTML(typeof formatStudyTopicLabel === 'function' ? formatStudyTopicLabel(q.topic) : q.topic) + '</span>' +
           '<span class="me-review-result ' + (r.isCorrect ? 'correct' : 'wrong') + '">' +
             (r.isCorrect ? '&#9989; 정답' : '&#10060; 다시보기') +
           '</span>' +
@@ -5571,6 +7262,7 @@ const ME = (function() {
 
       let bodyHtml = '<div class="me-review-body">';
       bodyHtml += '<div class="me-review-q" style="margin-bottom:10px">' + escapeHTML(q.question_text) + '</div>';
+      bodyHtml += buildQuestionImageHTML(q);
       q.choices.forEach((choice, ci) => {
         let cls = 'me-review-choice';
         let suffix = '';
@@ -5658,6 +7350,8 @@ const WK = (function() {
     nextReview: 0, // timestamp
     lapses: 0
   };
+  const SR_DAILY_REVIEW_LIMIT = 20;
+  const SR_DAILY_NEW_LIMIT = 10;
 
   // --- State ---
   let flashcards = [];
@@ -5667,6 +7361,8 @@ const WK = (function() {
   let srFlipped = false;
   let srSessionActive = false;
   let mastered = {};       // { cpId: true }
+  let initialized = false;
+  let initPromise = null;
 
   // --- Days until exam ---
   function getDaysUntilExam() {
@@ -5698,20 +7394,53 @@ const WK = (function() {
     setSrData(data);
   }
 
-  // --- Get today's due cards ---
-  function getTodayDueCards() {
+  function getReviewDueCards() {
     const now = Date.now();
     const srData = getSrData();
     const due = [];
 
     flashcards.forEach(card => {
       const sr = srData[card.id];
-      if (!sr || sr.nextReview <= now) {
-        due.push(card);
+      if (sr && sr.nextReview <= now) {
+        due.push({ card: card, sr: sr });
       }
     });
 
-    return due;
+    due.sort(function(a, b) {
+      var timeDiff = (a.sr.nextReview || 0) - (b.sr.nextReview || 0);
+      if (timeDiff !== 0) return timeDiff;
+      return (b.sr.lapses || 0) - (a.sr.lapses || 0);
+    });
+
+    return due.map(function(entry) { return entry.card; });
+  }
+
+  function getUnseenCards() {
+    const srData = getSrData();
+    return flashcards.filter(function(card) {
+      return !srData[card.id];
+    });
+  }
+
+  function getRecommendedTodayCards() {
+    var reviewDue = getReviewDueCards().slice(0, SR_DAILY_REVIEW_LIMIT);
+    var unseen = getUnseenCards().slice(0, SR_DAILY_NEW_LIMIT);
+    return reviewDue.concat(unseen);
+  }
+
+  function getTodayPlanSummary() {
+    var reviewDue = getReviewDueCards();
+    var unseen = getUnseenCards();
+    var reviewAssigned = Math.min(reviewDue.length, SR_DAILY_REVIEW_LIMIT);
+    var newAssigned = Math.min(unseen.length, SR_DAILY_NEW_LIMIT);
+    return {
+      dueCount: reviewDue.length,
+      unseenCount: unseen.length,
+      reviewAssigned: reviewAssigned,
+      newAssigned: newAssigned,
+      recommendedCount: reviewAssigned + newAssigned,
+      overflowCount: Math.max(0, reviewDue.length - reviewAssigned) + Math.max(0, unseen.length - newAssigned)
+    };
   }
 
   // --- SM-2 update ---
@@ -5788,27 +7517,50 @@ const WK = (function() {
 
   // --- Init ---
   async function init() {
-    const [cards, pairs] = await Promise.all([
+    if (initialized) {
+      renderTodaySection();
+      renderWrongNotes();
+      renderConfusionPairs();
+      return;
+    }
+    if (initPromise) return initPromise;
+
+    initPromise = Promise.all([
       loadData('flashcards.json'),
       loadData('confusion_pairs.json')
-    ]);
+    ]).then(function(result) {
+      flashcards = result[0] || [];
+      confusionPairs = result[1] || [];
+      mastered = getStoreJSON('cpMastered', {});
+      initialized = true;
+      renderTodaySection();
+      renderWrongNotes();
+      renderConfusionPairs();
+    }).finally(function() {
+      initPromise = null;
+    });
 
-    flashcards = cards || [];
-    confusionPairs = pairs || [];
-
-    // Load mastered state
-    mastered = getStoreJSON('cpMastered', {});
-
-    renderTodaySection();
-    renderWrongNotes();
-    renderConfusionPairs();
+    return initPromise;
   }
 
   // --- Render today's review section ---
   function renderTodaySection() {
-    todayCards = getTodayDueCards();
+    var plan = getTodayPlanSummary();
+    todayCards = getRecommendedTodayCards();
     const badge = $('wkTodayBadge');
+    const detail = $('wkTodayDetail');
     badge.textContent = todayCards.length + '장';
+    if (detail) {
+      if (plan.recommendedCount > 0) {
+        var parts = ['추천 ' + plan.recommendedCount + '장'];
+        if (plan.reviewAssigned > 0) parts.push('복습 ' + plan.reviewAssigned);
+        if (plan.newAssigned > 0) parts.push('신규 ' + plan.newAssigned);
+        if (plan.overflowCount > 0) parts.push('남은 대기 ' + plan.overflowCount);
+        detail.textContent = parts.join(' · ');
+      } else {
+        detail.textContent = '오늘은 새 카드보다 쉬는 쪽이 낫습니다. 내일 다시 확인하세요.';
+      }
+    }
 
     if (todayCards.length === 0) {
       $('wkSrEmpty').style.display = '';
@@ -5823,7 +7575,7 @@ const WK = (function() {
 
   // --- Start SR session ---
   function startSrSession() {
-    todayCards = shuffleArray(getTodayDueCards());
+    todayCards = getRecommendedTodayCards();
     if (todayCards.length === 0) {
       showToast('복습할 카드가 없습니다.', 'info');
       return;
@@ -5836,6 +7588,13 @@ const WK = (function() {
     $('wkSrCard').style.display = '';
     $('wkSrBtns').style.display = 'none';
     renderSrCard();
+  }
+
+  function startRecommendedSession() {
+    switchTab(4);
+    return init().then(function() {
+      startSrSession();
+    });
   }
 
   // --- Render SR card ---
@@ -5954,6 +7713,7 @@ const WK = (function() {
 
           let bodyHtml = '<div class="wk-wrong-body">';
           bodyHtml += '<div style="font-size:.88rem;font-weight:600;margin-bottom:8px;white-space:pre-line">' + escapeHTML(q.question_text) + '</div>';
+          bodyHtml += buildQuestionImageHTML(q);
           q.choices.forEach(function(choice, ci) {
             let cls = 'wk-wrong-choice';
             let suffix = '';
@@ -5983,12 +7743,12 @@ const WK = (function() {
 
   // --- Retry wrong question: go to quiz tab and navigate ---
   function retryWrong(qId) {
-    // Switch to quiz tab
     switchTab(0);
-    // Try to find and navigate to the question
     if (typeof QM !== 'undefined') {
-      // Set filter to show all, then find index
-      showToast('기출 탭에서 문제를 찾아보세요 (ID: ' + qId + ')', 'info');
+      var opened = QM.openQuestionById(qId, 'quiz');
+      if (!opened) {
+        showToast('문제를 찾지 못했습니다. (ID: ' + qId + ')', 'warning');
+      }
     }
   }
 
@@ -6056,10 +7816,12 @@ const WK = (function() {
   return {
     init: init,
     startSrSession: startSrSession,
+    startRecommendedSession: startRecommendedSession,
     flipSrCard: flipSrCard,
     srAnswer: srAnswer,
     retryWrong: retryWrong,
-    toggleCpMastered: toggleCpMastered
+    toggleCpMastered: toggleCpMastered,
+    getTodayPlanSummary: getTodayPlanSummary
   };
 })();
 
@@ -6105,8 +7867,42 @@ const DB = (function() {
     '플래시카드': { key: 'flashcards.json', target: 731 },
     '해부땡 이미지': { key: 'anatomy_images.json', target: 102 },
     '야마 토픽': { key: 'yama.json', target: 18, path: 'total_topics' },
-    '혼동 쌍': { key: 'confusion_pairs.json', target: 16 }
+    '혼동 쌍': { key: 'confusion_pairs.json', target: 16 },
+    '티칭 유닛': { key: 'teaching_units.json', target: 11, path: 'units' },
+    '티칭 매핑': { key: 'teaching_question_map.json', target: 64, path: 'maps' }
   };
+  const DB_REVIEW_LIMIT = 20;
+  const DB_NEW_LIMIT = 10;
+  const STUDY_TOPIC_LABELS = {
+    head_1: 'Head 1',
+    head_2: 'Head 2',
+    head_3: 'Head 3',
+    neck: 'Neck',
+    ear_pharynx_larynx: '귀·인두·후두',
+    mouth_nose: '입·코',
+    cns_gross_1: 'CNS 큰그림',
+    cns_gross_2: 'CNS 심화 2',
+    cns_gross_3: 'CNS 심화 3',
+    motor_pathway: '운동 경로',
+    sensory_system: '감각 경로',
+    memory_system: '기억·변연계',
+    special_sensory_eyeball: '시각·동공',
+    autonomic_ns: '자율신경',
+    higher_cns_functions: '고위 중추 기능',
+    blood_supply_brain: '뇌 혈류',
+    dev_head_neck: '머리·목 발생',
+    dev_nervous_system: '신경 발생'
+  };
+  var prescriptionState = {
+    focusTopic: '',
+    teachTopic: '',
+    firstWrongId: null
+  };
+
+  function formatStudyTopicLabel(topic) {
+    if (!topic) return '';
+    return STUDY_TOPIC_LABELS[topic] || topic.replace(/_/g, ' ');
+  }
 
   // --- Daily streak tracking ---
   function recordDailyLogin() {
@@ -6219,6 +8015,606 @@ const DB = (function() {
     if (score < 80) return { text: '거의 다 왔어요', cls: 'db-readiness-mid' };
     if (score < 90) return { text: '준비 완료', cls: 'db-readiness-high' };
     return { text: '완벽', cls: 'db-readiness-perfect' };
+  }
+
+  async function ensureStudyPlanData() {
+    await Promise.all([
+      loadData('questions.json'),
+      loadData('flashcards.json'),
+      loadData('teaching_units.json')
+    ]);
+  }
+
+  function getReviewPlanFromCards(cards) {
+    var srCards = getStoreJSON('srCards', {});
+    var now = Date.now();
+    var due = [];
+    var unseen = [];
+
+    (cards || []).forEach(function(card) {
+      var sr = srCards[card.id];
+      if (!sr) {
+        unseen.push(card);
+      } else if (sr.nextReview <= now) {
+        due.push({ card: card, sr: sr });
+      }
+    });
+
+    due.sort(function(a, b) {
+      var timeDiff = (a.sr.nextReview || 0) - (b.sr.nextReview || 0);
+      if (timeDiff !== 0) return timeDiff;
+      return (b.sr.lapses || 0) - (a.sr.lapses || 0);
+    });
+
+    var reviewAssigned = Math.min(due.length, DB_REVIEW_LIMIT);
+    var newAssigned = Math.min(unseen.length, DB_NEW_LIMIT);
+    return {
+      dueCount: due.length,
+      unseenCount: unseen.length,
+      reviewAssigned: reviewAssigned,
+      newAssigned: newAssigned,
+      recommendedCount: reviewAssigned + newAssigned,
+      overflowCount: Math.max(0, due.length - reviewAssigned) + Math.max(0, unseen.length - newAssigned)
+    };
+  }
+
+  function getWrongSummary(questions) {
+    var wrongAnswers = getStoreJSON('wrongAnswers', {});
+    var ids = Object.keys(wrongAnswers);
+    var qMap = {};
+    var byTopic = {};
+
+    (questions || []).forEach(function(q) {
+      qMap[q.id] = q;
+    });
+
+    ids.forEach(function(id) {
+      var q = qMap[id];
+      if (!q) return;
+      byTopic[q.topic] = (byTopic[q.topic] || 0) + (wrongAnswers[id].count || 1);
+    });
+
+    var rankedTopics = Object.keys(byTopic).sort(function(a, b) {
+      return byTopic[b] - byTopic[a];
+    });
+    var rankedIds = ids.sort(function(a, b) {
+      return (wrongAnswers[b].count || 1) - (wrongAnswers[a].count || 1);
+    });
+
+    return {
+      count: ids.length,
+      topTopic: rankedTopics[0] || '',
+      firstWrongId: rankedIds.length ? Number(rankedIds[0]) : null
+    };
+  }
+
+  function getHighestYieldTopic(questions) {
+    var counts = {};
+    (questions || []).forEach(function(q) {
+      counts[q.topic] = (counts[q.topic] || 0) + 1;
+    });
+    var ranked = Object.keys(counts).sort(function(a, b) {
+      return counts[b] - counts[a];
+    });
+    return ranked[0] || '';
+  }
+
+  function getWeakestTopic(topicAcc) {
+    var weakTopics = Object.keys(topicAcc).filter(function(topic) {
+      return topicAcc[topic].total >= 2;
+    }).sort(function(a, b) {
+      var rateA = topicAcc[a].correct / topicAcc[a].total;
+      var rateB = topicAcc[b].correct / topicAcc[b].total;
+      if (rateA !== rateB) return rateA - rateB;
+      return topicAcc[b].total - topicAcc[a].total;
+    });
+    return weakTopics[0] || '';
+  }
+
+  function getTeachingTopics() {
+    var unitData = loadedData['teaching_units.json'] || {};
+    var units = Array.isArray(unitData.units) ? unitData.units : [];
+    var seen = {};
+    return units.map(function(unit) { return unit.topic; }).filter(function(topic) {
+      if (!topic || seen[topic]) return false;
+      seen[topic] = true;
+      return true;
+    });
+  }
+
+  function getRecommendedFocusTopic(questions, topicAcc) {
+    var wrongSummary = getWrongSummary(questions);
+    if (wrongSummary.topTopic) return wrongSummary.topTopic;
+    var weakest = getWeakestTopic(topicAcc);
+    if (weakest) return weakest;
+    return getHighestYieldTopic(questions);
+  }
+
+  function getRecommendedTeachTopic(topicAcc, focusTopic, questions) {
+    var teachingTopics = getTeachingTopics();
+    if (focusTopic && teachingTopics.indexOf(focusTopic) >= 0) return focusTopic;
+    var weakestTeachTopic = Object.keys(topicAcc).filter(function(topic) {
+      return teachingTopics.indexOf(topic) >= 0 && topicAcc[topic].total >= 2;
+    }).sort(function(a, b) {
+      var rateA = topicAcc[a].correct / topicAcc[a].total;
+      var rateB = topicAcc[b].correct / topicAcc[b].total;
+      if (rateA !== rateB) return rateA - rateB;
+      return topicAcc[b].total - topicAcc[a].total;
+    });
+    if (weakestTeachTopic[0]) return weakestTeachTopic[0];
+
+    var counts = {};
+    (questions || []).forEach(function(q) {
+      if (teachingTopics.indexOf(q.topic) < 0) return;
+      counts[q.topic] = (counts[q.topic] || 0) + 1;
+    });
+    var highestYieldTeachTopic = Object.keys(counts).sort(function(a, b) {
+      if (counts[b] !== counts[a]) return counts[b] - counts[a];
+      return (TOPIC_WEIGHTS[b] || 0) - (TOPIC_WEIGHTS[a] || 0);
+    });
+
+    return highestYieldTeachTopic[0] || teachingTopics[0] || focusTopic || '';
+  }
+
+  async function renderStudyPrescription() {
+    await ensureStudyPlanData();
+    var questions = loadedData['questions.json'] || [];
+    var cards = loadedData['flashcards.json'] || [];
+    var topicAcc = getTopicAccuracy();
+    var reviewPlan = getReviewPlanFromCards(cards);
+    var wrongSummary = getWrongSummary(questions);
+    var focusTopic = getRecommendedFocusTopic(questions, topicAcc);
+    var teachTopic = getRecommendedTeachTopic(topicAcc, focusTopic, questions);
+    var mainEl = $('dbPrescriptionMain');
+    var subEl = $('dbPrescriptionSub');
+    var listEl = $('dbPrescriptionList');
+    var summaryBits = [];
+    var listHtml = '';
+
+    prescriptionState.focusTopic = focusTopic;
+    prescriptionState.teachTopic = teachTopic;
+    prescriptionState.firstWrongId = wrongSummary.firstWrongId;
+
+    if (reviewPlan.recommendedCount > 0) {
+      if (reviewPlan.reviewAssigned > 0) summaryBits.push('복습 ' + reviewPlan.reviewAssigned + '장');
+      if (reviewPlan.newAssigned > 0) summaryBits.push('신규 ' + reviewPlan.newAssigned + '장');
+      mainEl.textContent = '오늘은 ' + summaryBits.join(' + ') + '부터 하고, 길게 버티지 말고 바로 꺼내보세요.';
+    } else {
+      mainEl.textContent = '오늘은 복습량을 더 늘리지 말고, 25분 1세트와 기출 3문제로 워밍업하는 쪽이 낫습니다.';
+    }
+
+    subEl.textContent = '많이 읽기보다 적게 꺼내보기, 같은 날 다시 보기, 헷갈리는 것끼리 비교하기가 더 효율적입니다.';
+
+    listHtml += '<div class="db-prescription-item"><strong>복습 상한</strong><span>추천 ' + reviewPlan.recommendedCount + '장';
+    if (reviewPlan.reviewAssigned > 0 || reviewPlan.newAssigned > 0) {
+      listHtml += ' · 복습 ' + reviewPlan.reviewAssigned + ' · 신규 ' + reviewPlan.newAssigned;
+    }
+    if (reviewPlan.overflowCount > 0) {
+      listHtml += ' · 남은 대기 ' + reviewPlan.overflowCount;
+    }
+    listHtml += '</span></div>';
+
+    listHtml += '<div class="db-prescription-item"><strong>오답 다시 보기</strong><span>' +
+      (wrongSummary.count > 0
+        ? ('누적 ' + wrongSummary.count + '문제 · 가장 흔들리는 토픽은 ' + (wrongSummary.topTopic || '최근 오답') + '입니다.')
+        : '오답이 아직 적습니다. 오늘은 기출 3문제만 풀고 바로 복습 루프로 넘어가세요.') +
+      '</span></div>';
+
+    listHtml += '<div class="db-prescription-item"><strong>25분 집중</strong><span>' +
+      (focusTopic ? (focusTopic + ' 1세트를 먼저 돌리세요. 짧게 설명하고 바로 미니퀴즈로 확인하는 흐름이 맞습니다.') : '자동 추천 토픽을 아직 고르지 못했습니다.') +
+      '</span></div>';
+
+    listHtml += '<div class="db-prescription-item"><strong>가르치기 모드</strong><span>' +
+      (teachTopic ? (teachTopic + '에서 핵심 한 줄, 함정, 회상 질문까지 보고 바로 문제 2~3개로 넘어가세요.') : '연결된 티칭 토픽부터 차례로 설명형 복습을 시작하세요.') +
+      '</span></div>';
+
+    listEl.innerHTML = listHtml;
+  }
+
+  function getHighYieldTopics(questions) {
+    var teachingTopics = getTeachingTopics();
+    var counts = {};
+    var recentCounts = {};
+
+    (questions || []).forEach(function(q) {
+      counts[q.topic] = (counts[q.topic] || 0) + 1;
+      if (q.year >= 2020) recentCounts[q.topic] = (recentCounts[q.topic] || 0) + 1;
+    });
+
+    return Object.keys(counts).map(function(topic) {
+      return {
+        topic: topic,
+        total: counts[topic],
+        recent: recentCounts[topic] || 0,
+        hasTeaching: teachingTopics.indexOf(topic) >= 0,
+        weight: TOPIC_WEIGHTS[topic] || 0
+      };
+    }).sort(function(a, b) {
+      if (b.total !== a.total) return b.total - a.total;
+      if (b.recent !== a.recent) return b.recent - a.recent;
+      return b.weight - a.weight;
+    }).slice(0, 5);
+  }
+
+  function renderExamPriority() {
+    var container = $('dbPriorityList');
+    if (!container) return;
+    var card = container.closest('.db-priority-card');
+    if (card) {
+      var titleEl = card.querySelector('.db-chart-title');
+      var subEl = card.querySelector('.db-priority-sub');
+      if (titleEl) titleEl.textContent = '🔥 짤기 우선 TOP 5';
+      if (subEl) subEl.textContent = '우리 기출에서 그대로 반복된 문제를 먼저 잡습니다. 짤기 다음에 교과서·강의·타 학교형 탈기 보강으로 넘어갑니다.';
+    }
+
+    var questions = loadedData['questions.json'] || [];
+    var items = getHighYieldTopics(questions);
+    if (!items.length) {
+      container.innerHTML = '<div class="empty-state" style="padding:20px"><div class="empty-text">기출 데이터를 불러오면 시험 우선순위를 계산해드립니다.</div></div>';
+      return;
+    }
+
+    var html = '';
+    items.forEach(function(item, idx) {
+      var topicLabel = formatStudyTopicLabel(item.topic);
+      var actionTopic = escapeHTML(item.topic).replace(/'/g, '\\&#39;');
+      html += '<div class="db-priority-item">';
+      html += '<div class="db-priority-rank">' + (idx + 1) + '</div>';
+      html += '<div class="db-priority-body">';
+      html += '<div class="db-priority-title">' + escapeHTML(topicLabel) + '</div>';
+      html += '<div class="db-priority-meta">우리 기출 ' + item.total + '문제';
+      if (item.recent > 0) html += ' · 최근 2020-2022 ' + item.recent + '문제';
+      html += '</div>';
+      html += '<div class="db-priority-badges">';
+      html += '<span class="db-priority-chip is-hot">빈출</span>';
+      html += item.hasTeaching
+        ? '<span class="db-priority-chip is-ready">가르치기 가능</span>'
+        : '<span class="db-priority-chip is-gap">티칭 보강 필요</span>';
+      html += '</div>';
+      html += '</div>';
+      html += '<div class="db-priority-actions">';
+      html += '<button class="btn btn-outline btn-sm" onclick="DB.openPriorityQuiz(\'' + actionTopic + '\')">기출</button>';
+      if (item.hasTeaching) {
+        html += '<button class="btn btn-primary btn-sm" onclick="DB.openPriorityTeach(\'' + actionTopic + '\')">가르치기</button>';
+      } else {
+        html += '<button class="btn btn-primary btn-sm" onclick="DB.openPriorityFocus(\'' + actionTopic + '\')">25분</button>';
+      }
+      html += '</div>';
+      html += '</div>';
+    });
+
+    container.innerHTML = html;
+  }
+
+  async function renderStudyPrescription() {
+    await ensureStudyPlanData();
+    var questions = loadedData['questions.json'] || [];
+    var cards = loadedData['flashcards.json'] || [];
+    var topicAcc = getTopicAccuracy();
+    var reviewPlan = getReviewPlanFromCards(cards);
+    var wrongSummary = getWrongSummary(questions);
+    var focusTopic = getRecommendedFocusTopic(questions, topicAcc);
+    var teachTopic = getRecommendedTeachTopic(topicAcc, focusTopic, questions);
+    var mainEl = $('dbPrescriptionMain');
+    var subEl = $('dbPrescriptionSub');
+    var listEl = $('dbPrescriptionList');
+    var summaryBits = [];
+    var listHtml = '';
+    var focusLabel = formatStudyTopicLabel(focusTopic);
+    var teachLabel = formatStudyTopicLabel(teachTopic);
+    var wrongLabel = formatStudyTopicLabel(wrongSummary.topTopic);
+
+    prescriptionState.focusTopic = focusTopic;
+    prescriptionState.teachTopic = teachTopic;
+    prescriptionState.firstWrongId = wrongSummary.firstWrongId;
+
+    if (reviewPlan.recommendedCount > 0) {
+      if (reviewPlan.reviewAssigned > 0) summaryBits.push('복습 ' + reviewPlan.reviewAssigned + '장');
+      if (reviewPlan.newAssigned > 0) summaryBits.push('신규 ' + reviewPlan.newAssigned + '장');
+      mainEl.textContent = '오늘은 ' + summaryBits.join(' + ') + '부터 하고, 길게 버티지 말고 바로 꺼내보세요.';
+    } else {
+      mainEl.textContent = '오늘은 복습량을 더 늘리지 말고, 25분 1세트와 기출 3문제로 워밍업하는 쪽이 낫습니다.';
+    }
+
+    subEl.textContent = '많이 읽기보다 적게 꺼내보기, 같은 날 다시 보기, 헷갈리는 것끼리 비교하기가 더 효율적입니다.';
+
+    listHtml += '<div class="db-prescription-item"><strong>복습 상한</strong><span>추천 ' + reviewPlan.recommendedCount + '장';
+    if (reviewPlan.reviewAssigned > 0 || reviewPlan.newAssigned > 0) {
+      listHtml += ' · 복습 ' + reviewPlan.reviewAssigned + ' · 신규 ' + reviewPlan.newAssigned;
+    }
+    if (reviewPlan.overflowCount > 0) {
+      listHtml += ' · 남은 대기 ' + reviewPlan.overflowCount;
+    }
+    listHtml += '</span></div>';
+
+    listHtml += '<div class="db-prescription-item"><strong>오답 다시 보기</strong><span>' +
+      (wrongSummary.count > 0
+        ? ('누적 ' + wrongSummary.count + '문제, 가장 흔들리는 토픽은 ' + (wrongLabel || '최근 오답') + '입니다.')
+        : '오답이 아직 적습니다. 오늘은 기출 3문제만 풀고 바로 복습 루프로 넘어가세요.') +
+      '</span></div>';
+
+    listHtml += '<div class="db-prescription-item"><strong>25분 집중</strong><span>' +
+      (focusTopic ? (focusLabel + ' 1세트를 먼저 돌리세요. 짧게 설명하고 바로 미니퀴즈로 확인하는 흐름이 맞습니다.') : '자동 추천 토픽을 아직 고르지 못했습니다.') +
+      '</span></div>';
+
+    listHtml += '<div class="db-prescription-item"><strong>가르치기 모드</strong><span>' +
+      (teachTopic ? (teachLabel + '에서 핵심 한 줄, 함정, 회상 질문까지 보고 바로 문제 2~3개로 넘어가세요.') : '연결된 티칭 토픽이 부족하면 우선 25분 루프와 기출부터 돌리세요.') +
+      '</span></div>';
+
+    listEl.innerHTML = listHtml;
+  }
+
+  function normalizeRepeatStem(text) {
+    return (text || '')
+      .toLowerCase()
+      .replace(/\([^)]*\)/g, ' ')
+      .replace(/[^\p{L}\p{N}]+/gu, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  function isWeakRepeatStem(stem) {
+    if (!stem || stem.length < 14) return true;
+    var weakStems = {
+      '다음 중 옳은 것은': true,
+      '다음 중 옳은 것을 고르시오': true,
+      '다음 중 맞는 것은': true,
+      '다음 그림에서 옳은 것은': true,
+      '다음 보기 중 옳은 설명은': true
+    };
+    return !!weakStems[stem];
+  }
+
+  function shortenRepeatText(text, maxLen) {
+    if (!text) return '';
+    var compact = text.replace(/\s+/g, ' ').trim();
+    if (compact.length <= maxLen) return compact;
+    return compact.slice(0, Math.max(0, maxLen - 1)) + '…';
+  }
+
+  function getRepeatGroups(questions) {
+    var teachingTopics = getTeachingTopics();
+    var groupsByStem = {};
+
+    (questions || []).forEach(function(q) {
+      var stem = normalizeRepeatStem(q.question_text);
+      if (isWeakRepeatStem(stem)) return;
+      if (!groupsByStem[stem]) groupsByStem[stem] = [];
+      groupsByStem[stem].push(q);
+    });
+
+    return Object.keys(groupsByStem).map(function(stem) {
+      var items = groupsByStem[stem];
+      if (!items || items.length < 2) return null;
+
+      items = items.slice().sort(function(a, b) {
+        if (b.year !== a.year) return b.year - a.year;
+        return b.id - a.id;
+      });
+
+      var topicCounts = {};
+      items.forEach(function(item) {
+        topicCounts[item.topic] = (topicCounts[item.topic] || 0) + 1;
+      });
+
+      var primaryTopic = Object.keys(topicCounts).sort(function(a, b) {
+        if (topicCounts[b] !== topicCounts[a]) return topicCounts[b] - topicCounts[a];
+        return (TOPIC_WEIGHTS[b] || 0) - (TOPIC_WEIGHTS[a] || 0);
+      })[0] || items[0].topic;
+
+      var years = [];
+      items.forEach(function(item) {
+        if (years.indexOf(item.year) < 0) years.push(item.year);
+      });
+      years.sort(function(a, b) { return a - b; });
+
+      var recentCount = items.filter(function(item) { return item.year >= 2020; }).length;
+
+      return {
+        repeatCount: items.length,
+        recentCount: recentCount,
+        years: years,
+        items: items,
+        latestQuestionId: items[0].id,
+        preview: items[0].question_text || '',
+        primaryTopic: primaryTopic,
+        hasTeaching: teachingTopics.indexOf(primaryTopic) >= 0
+      };
+    }).filter(Boolean).sort(function(a, b) {
+      if (b.repeatCount !== a.repeatCount) return b.repeatCount - a.repeatCount;
+      if (b.recentCount !== a.recentCount) return b.recentCount - a.recentCount;
+      return b.years[b.years.length - 1] - a.years[a.years.length - 1];
+    });
+  }
+
+  function getRepeatInfoForQuestion(questionId, questions) {
+    var targetId = Number(questionId);
+    return getRepeatGroups(questions || loadedData['questions.json'] || []).find(function(group) {
+      return group.items.some(function(item) { return item.id === targetId; });
+    }) || null;
+  }
+
+  function buildRepeatInsightBlock(repeatInfo) {
+    if (!repeatInfo) return '';
+    return '<div class="study-tip"><strong>짤기 포인트</strong><div>' +
+      escapeHTML(repeatInfo.repeatCount + '회 반복 · ' + repeatInfo.years.join(', ')) +
+      '</div><div>같은 stem이 반복된 문제입니다. 정답만 외우지 말고, 왜 오답 선지가 아닌지도 같이 묶어 외우세요.</div></div>';
+  }
+
+  function getRepeatPriorityTopic(questions, topicAcc) {
+    var groups = getRepeatGroups(questions);
+    var scores = {};
+
+    groups.forEach(function(group) {
+      scores[group.primaryTopic] = (scores[group.primaryTopic] || 0) + (group.repeatCount * 3) + group.recentCount;
+    });
+
+    return Object.keys(scores).sort(function(a, b) {
+      if (scores[b] !== scores[a]) return scores[b] - scores[a];
+      var accA = topicAcc[a] && topicAcc[a].total ? (topicAcc[a].correct / topicAcc[a].total) : 1;
+      var accB = topicAcc[b] && topicAcc[b].total ? (topicAcc[b].correct / topicAcc[b].total) : 1;
+      if (accA !== accB) return accA - accB;
+      return (TOPIC_WEIGHTS[b] || 0) - (TOPIC_WEIGHTS[a] || 0);
+    })[0] || '';
+  }
+
+  function getRecommendedFocusTopic(questions, topicAcc) {
+    var repeatTopic = getRepeatPriorityTopic(questions, topicAcc);
+    if (repeatTopic) return repeatTopic;
+
+    var wrongSummary = getWrongSummary(questions);
+    if (wrongSummary.topTopic) return wrongSummary.topTopic;
+
+    var weakest = getWeakestTopic(topicAcc);
+    if (weakest) return weakest;
+
+    return getHighestYieldTopic(questions);
+  }
+
+  function getRecommendedTeachTopic(topicAcc, focusTopic, questions) {
+    var teachingTopics = getTeachingTopics();
+    var repeatGroups = getRepeatGroups(questions);
+    var repeatTeachScores = {};
+
+    repeatGroups.forEach(function(group) {
+      if (teachingTopics.indexOf(group.primaryTopic) < 0) return;
+      repeatTeachScores[group.primaryTopic] = (repeatTeachScores[group.primaryTopic] || 0) + (group.repeatCount * 3) + group.recentCount;
+    });
+
+    var repeatTeachTopics = Object.keys(repeatTeachScores).sort(function(a, b) {
+      if (repeatTeachScores[b] !== repeatTeachScores[a]) return repeatTeachScores[b] - repeatTeachScores[a];
+      return (TOPIC_WEIGHTS[b] || 0) - (TOPIC_WEIGHTS[a] || 0);
+    });
+    if (repeatTeachTopics[0]) return repeatTeachTopics[0];
+
+    if (focusTopic && teachingTopics.indexOf(focusTopic) >= 0) return focusTopic;
+
+    var weakestTeachTopic = Object.keys(topicAcc).filter(function(topic) {
+      return teachingTopics.indexOf(topic) >= 0 && topicAcc[topic].total >= 2;
+    }).sort(function(a, b) {
+      var rateA = topicAcc[a].correct / topicAcc[a].total;
+      var rateB = topicAcc[b].correct / topicAcc[b].total;
+      if (rateA !== rateB) return rateA - rateB;
+      return topicAcc[b].total - topicAcc[a].total;
+    });
+    if (weakestTeachTopic[0]) return weakestTeachTopic[0];
+
+    var counts = {};
+    (questions || []).forEach(function(q) {
+      if (teachingTopics.indexOf(q.topic) < 0) return;
+      counts[q.topic] = (counts[q.topic] || 0) + 1;
+    });
+    return Object.keys(counts).sort(function(a, b) {
+      if (counts[b] !== counts[a]) return counts[b] - counts[a];
+      return (TOPIC_WEIGHTS[b] || 0) - (TOPIC_WEIGHTS[a] || 0);
+    })[0] || teachingTopics[0] || focusTopic || '';
+  }
+
+  function renderExamPriority() {
+    var container = $('dbPriorityList');
+    var titleEl = $('dbPriorityTitle');
+    var subEl = $('dbPrioritySub');
+    if (!container) return;
+
+    var questions = loadedData['questions.json'] || [];
+    var items = getRepeatGroups(questions).slice(0, 5);
+    if (titleEl) titleEl.innerHTML = '&#128293; 짤기 우선 TOP 5';
+    if (subEl) subEl.textContent = '우리 기출에서 그대로 반복된 문제를 먼저 잡습니다. 짤기부터 풀고, 바로 가르치기나 25분 루프로 연결하세요.';
+    if (!items.length) {
+      container.innerHTML = '<div class="empty-state" style="padding:20px"><div class="empty-text">반복 기출을 아직 찾지 못했습니다. 일단 빈출 토픽부터 들어가면 됩니다.</div></div>';
+      return;
+    }
+
+    var html = '';
+    items.forEach(function(item, idx) {
+      var actionTopic = escapeHTML(item.primaryTopic).replace(/'/g, '\\&#39;');
+      html += '<div class="db-priority-item">';
+      html += '<div class="db-priority-rank">' + (idx + 1) + '</div>';
+      html += '<div class="db-priority-body">';
+      html += '<div class="db-priority-title">' + escapeHTML(shortenRepeatText(item.preview, 56)) + '</div>';
+      html += '<div class="db-priority-meta">' + item.repeatCount + '회 반복 · ' + item.years.join(', ') + ' · ' + escapeHTML(formatStudyTopicLabel(item.primaryTopic)) + '</div>';
+      html += '<div class="db-priority-badges">';
+      html += '<span class="db-priority-chip is-hot">짤기</span>';
+      html += item.hasTeaching
+        ? '<span class="db-priority-chip is-ready">가르치기 가능</span>'
+        : '<span class="db-priority-chip is-gap">티칭 보강 필요</span>';
+      html += '</div>';
+      html += '</div>';
+      html += '<div class="db-priority-actions">';
+      html += '<button class="btn btn-outline btn-sm" onclick="DB.openRepeatQuestion(' + item.latestQuestionId + ')">바로 풀기</button>';
+      if (item.hasTeaching) {
+        html += '<button class="btn btn-primary btn-sm" onclick="DB.openRepeatTeachQuestion(' + item.latestQuestionId + ')">가르치기</button>';
+      } else {
+        html += '<button class="btn btn-primary btn-sm" onclick="DB.openPriorityFocus(\'' + actionTopic + '\')">25분</button>';
+      }
+      html += '</div>';
+      html += '</div>';
+    });
+
+    container.innerHTML = html;
+  }
+
+  async function renderStudyPrescription() {
+    await ensureStudyPlanData();
+    var questions = loadedData['questions.json'] || [];
+    var cards = loadedData['flashcards.json'] || [];
+    var topicAcc = getTopicAccuracy();
+    var reviewPlan = getReviewPlanFromCards(cards);
+    var wrongSummary = getWrongSummary(questions);
+    var repeatGroups = getRepeatGroups(questions);
+    var topRepeat = repeatGroups[0] || null;
+    var focusTopic = getRecommendedFocusTopic(questions, topicAcc);
+    var teachTopic = getRecommendedTeachTopic(topicAcc, focusTopic, questions);
+    var mainEl = $('dbPrescriptionMain');
+    var subEl = $('dbPrescriptionSub');
+    var listEl = $('dbPrescriptionList');
+    var listHtml = '';
+
+    prescriptionState.focusTopic = focusTopic;
+    prescriptionState.teachTopic = teachTopic;
+    prescriptionState.firstWrongId = wrongSummary.firstWrongId;
+
+    if (topRepeat) {
+      mainEl.textContent = '오늘은 짤기부터 잡습니다. 반복된 기출 1개를 먼저 풀고, 바로 설명이나 25분 루프로 이어가세요.';
+      subEl.textContent = '짤기 -> 왜 맞는지 설명 -> 같은 날 다시 보기 순서가 시험 점수에 가장 직접적입니다.';
+    } else if (reviewPlan.recommendedCount > 0) {
+      mainEl.textContent = '오늘은 신규 ' + reviewPlan.newAssigned + '장부터 하고, 길게 버티지 말고 바로 꺼내보세요.';
+      subEl.textContent = '많이 읽기보다 적게 꺼내보기, 같은 날 다시 보기, 헷갈리는 것끼리 비교하기가 더 효율적입니다.';
+    } else {
+      mainEl.textContent = '오늘은 복습량을 더 늘리지 말고, 25분 1세트와 기출 3문제로 워밍업하는 쪽이 낫습니다.';
+      subEl.textContent = '먼저 반복 기출을 잡고, 그 다음 탈기 보강으로 넘어가는 흐름이 맞습니다.';
+    }
+
+    if (topRepeat) {
+      listHtml += '<div class="db-prescription-item"><strong>짤기 우선</strong><span>' +
+        topRepeat.repeatCount + '회 반복 · ' + topRepeat.years.join(', ') + ' · ' + escapeHTML(shortenRepeatText(topRepeat.preview, 42)) +
+        '</span></div>';
+    }
+
+    listHtml += '<div class="db-prescription-item"><strong>복습 상한</strong><span>추천 ' + reviewPlan.recommendedCount + '장';
+    if (reviewPlan.reviewAssigned > 0 || reviewPlan.newAssigned > 0) {
+      listHtml += ' · 복습 ' + reviewPlan.reviewAssigned + ' · 신규 ' + reviewPlan.newAssigned;
+    }
+    if (reviewPlan.overflowCount > 0) {
+      listHtml += ' · 남은 대기 ' + reviewPlan.overflowCount;
+    }
+    listHtml += '</span></div>';
+
+    listHtml += '<div class="db-prescription-item"><strong>오답 다시 보기</strong><span>' +
+      (wrongSummary.count > 0
+        ? ('누적 ' + wrongSummary.count + '문제, 가장 흔들리는 토픽은 ' + (formatStudyTopicLabel(wrongSummary.topTopic) || '최근 오답') + '입니다.')
+        : '오답이 아직 적습니다. 짤기 1개와 기출 2문제만 풀고 바로 복습 루프로 넘어가세요.') +
+      '</span></div>';
+
+    listHtml += '<div class="db-prescription-item"><strong>25분 집중</strong><span>' +
+      (focusTopic ? (formatStudyTopicLabel(focusTopic) + ' 1세트를 먼저 돌리세요. 반복 기출과 같은 토픽이면 더 좋습니다.') : '자동 추천 토픽을 아직 고르지 못했습니다.') +
+      '</span></div>';
+
+    listHtml += '<div class="db-prescription-item"><strong>가르치기 모드</strong><span>' +
+      (teachTopic ? (formatStudyTopicLabel(teachTopic) + '에서 핵심 한 줄, 함정, 회상 질문까지 보고 바로 문제 2~3개로 넘어가세요.') : '연결된 티칭 토픽이 부족하면 우선 25분 루프와 기출부터 돌리세요.') +
+      '</span></div>';
+
+    listEl.innerHTML = listHtml;
   }
 
   // --- Render stat cards ---
@@ -6494,7 +8890,7 @@ const DB = (function() {
         '<div class="db-weakness-item">' +
           '<div class="db-weakness-rank">' + (idx + 1) + '</div>' +
           '<div class="db-weakness-info">' +
-            '<div class="db-weakness-name">' + escapeHTML(t) + '</div>' +
+            '<div class="db-weakness-name">' + escapeHTML(formatStudyTopicLabel(t)) + '</div>' +
             '<div class="db-weakness-meta">' + rate + '% (' + data.correct + '/' + data.total + ')</div>' +
           '</div>' +
           '<div class="db-weakness-bar"><div class="db-weakness-bar-fill ' + fillCls + '" style="width:' + rate + '%"></div></div>' +
@@ -6522,6 +8918,8 @@ const DB = (function() {
       if (data) {
         if (cfg.path === 'total_topics') {
           actual = data.total_topics || 0;
+        } else if (cfg.path && Array.isArray(data[cfg.path])) {
+          actual = data[cfg.path].length;
         } else if (Array.isArray(data)) {
           actual = data.length;
         }
@@ -6593,6 +8991,8 @@ const DB = (function() {
       'data/yama_fulltext.json',
       'data/yama_meta.json',
       'data/confusion_pairs.json',
+      'data/teaching_units.json',
+      'data/teaching_question_map.json',
       'data/lecture_diff.json'
     ];
 
@@ -6619,7 +9019,7 @@ const DB = (function() {
     var failed = 0;
 
     // Cache via fetch
-    var cache = await caches.open('anatomy4-v1');
+    var cache = await caches.open('anatomy4-v2');
 
     for (var i = 0; i < urls.length; i++) {
       try {
@@ -6657,9 +9057,57 @@ const DB = (function() {
     }
   }
 
+  function startTodayReview() {
+    return WK.startRecommendedSession();
+  }
+
+  function openFocusSession() {
+    switchTab(5);
+    F25.startAutoSession();
+  }
+
+  function openPriorityFocus(topic) {
+    switchTab(5);
+    F25.startTopicSession(topic);
+  }
+
+  function openPriorityQuiz(topic) {
+    switchTab(0);
+    QM.openTopic(topic, 'quiz');
+  }
+
+  function openRepeatQuestion(qId) {
+    switchTab(0);
+    QM.openQuestionById(qId, 'quiz');
+  }
+
+  function openRepeatTeachQuestion(qId) {
+    switchTab(0);
+    QM.openQuestionById(qId, 'teach');
+  }
+
+  function openPriorityTeach(topic) {
+    switchTab(0);
+    QM.openTopic(topic, 'teach');
+  }
+
+  function openTeachTopic() {
+    var topic = prescriptionState.teachTopic || prescriptionState.focusTopic;
+    if (!topic) {
+      showToast('먼저 25분 루프부터 시작해 약한 토픽을 잡아보세요.', 'info');
+      switchTab(5);
+      F25.startAutoSession();
+      return;
+    }
+    switchTab(0);
+    QM.openTopic(topic, 'teach');
+  }
+
   // --- Init ---
   async function init() {
     recordDailyLogin();
+    await renderStudyPrescription();
+    renderExamPriority();
     renderStats();
     renderDday();
     renderScorePredictor();
@@ -6672,7 +9120,15 @@ const DB = (function() {
   // --- Public API ---
   return {
     init: init,
-    startOfflineDownload: startOfflineDownload
+    startOfflineDownload: startOfflineDownload,
+    startTodayReview: startTodayReview,
+    openFocusSession: openFocusSession,
+    openTeachTopic: openTeachTopic,
+    openPriorityFocus: openPriorityFocus,
+    openPriorityQuiz: openPriorityQuiz,
+    openRepeatQuestion: openRepeatQuestion,
+    openRepeatTeachQuestion: openRepeatTeachQuestion,
+    openPriorityTeach: openPriorityTeach
   };
 })();
 
@@ -6680,6 +9136,7 @@ const DB = (function() {
 (function() {
   var meInitialized = false;
   var wkInitialized = false;
+  var f25Initialized = false;
   var dbInitialized = false;
   var origSwitchTab2 = switchTab;
   switchTab = function(idx) {
@@ -6688,20 +9145,25 @@ const DB = (function() {
       meInitialized = true;
       ME.init();
     }
-    if (idx === 4 && !wkInitialized) {
-      wkInitialized = true;
+    if (idx === 4) {
+      if (!wkInitialized) wkInitialized = true;
       WK.init();
     }
-    if (idx === 5 && !dbInitialized) {
-      dbInitialized = true;
+    if (idx === 5 && !f25Initialized) {
+      f25Initialized = true;
+      F25.init();
+    }
+    if (idx === 6) {
+      if (!dbInitialized) dbInitialized = true;
       DB.init();
     }
   };
-  // Also init if starting on tab 3, 4, or 5
+  // Also init if starting on tab 3, 4, 5, or 6
   var savedTab = parseInt(getStore('lastTab'));
   if (savedTab === 3) { ME.init(); meInitialized = true; }
   if (savedTab === 4) { WK.init(); wkInitialized = true; }
-  if (savedTab === 5) { DB.init(); dbInitialized = true; }
+  if (savedTab === 5) { F25.init(); f25Initialized = true; }
+  if (savedTab === 6) { DB.init(); dbInitialized = true; }
 })();
 
 // ============================================================

@@ -1,0 +1,1424 @@
+{
+  "version": "2026-03-25",
+  "units": [
+    {
+      "id": "tu_neck_vascular_triangles",
+      "topic": "neck",
+      "title": "Neck vascular triangles and thyroid surgery",
+      "core_line": "목 문제는 triangle 경계, carotid sheath 내용물, carotid sinus 기능, thyroid surgery 접근을 한 묶음으로 외워야 안 흔들린다.",
+      "why_it_matters": "결찰 지점, sheath 내용물, 압력수용체 위치, 갑상선 접근 삼각을 섞어서 반복 출제한다.",
+      "exam_points": [
+        "deep cervical a. 출혈이면 costocervical trunk를 먼저 떠올린다.",
+        "carotid sheath 핵심은 common carotid/internal carotid + internal jugular v. + vagus n.이다.",
+        "carotid sinus는 baroreceptor이고 CN IX가 구심성으로 전달한다.",
+        "thyroid surgery 접근은 muscular triangle을 기준으로 생각한다."
+      ],
+      "common_traps": [
+        "thyrocervical trunk와 costocervical trunk를 바꿔 외우는 실수",
+        "carotid sinus와 carotid body를 기능과 지배신경까지 함께 못 외우는 실수",
+        "carotid sheath 안 구조와 sheath 바깥의 sympathetic trunk/ansa cervicalis를 섞는 실수"
+      ],
+      "takeaways": [
+        "목은 경계 -> 내용물 -> 지배신경 -> 결찰지점 순서로 정리해야 오래 간다.",
+        "삼각과 sheath는 글로만 보지 말고 앞목 그림 위에 직접 위치를 찍어야 시험장에서 덜 무너진다.",
+        "갑상선 문제는 recurrent laryngeal nerve와 접근 삼각을 같이 떠올려야 한다."
+      ],
+      "recall_prompts": [
+        {
+          "prompt": "deep cervical a. 출혈이면 어디를 먼저 결찰해야 하나?",
+          "answer": "costocervical trunk. deep cervical a.는 costocervical trunk의 분지다."
+        },
+        {
+          "prompt": "carotid sheath 안의 3대 구조를 말해보세요.",
+          "answer": "common/internal carotid artery, internal jugular vein, vagus nerve."
+        },
+        {
+          "prompt": "carotid sinus는 무엇을 감지하고 어느 신경으로 전달하나?",
+          "answer": "혈압 변화를 감지하는 baroreceptor이고 glossopharyngeal nerve(CN IX)의 carotid sinus branch로 전달한다."
+        }
+      ],
+      "memory_hooks": [
+        "sinus는 pressure, body는 chemistry",
+        "sheath 안은 혈관 2개 + CN X"
+      ],
+      "match_keywords": [
+        "deep cervical",
+        "carotid sheath",
+        "carotid sinus",
+        "muscular triangle",
+        "thyroid"
+      ],
+      "related_question_ids": [1, 5, 8, 25, 32],
+      "related_flashcard_ids": [66, 67, 68, 69, 71],
+      "related_confusion_pair_ids": ["cp_known_010"],
+      "source_refs": [
+        {
+          "label": "강태천 교수님 Head-2026",
+          "path": "폴더1_2024yapyeon_인체의구조/0. 수업자료/강태천 교수님/Head-2026.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "Head _ Neck (3) 조별자료",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/4. 땡시험/3. 해부땡/3. 해부 일지/4조/21. Head _ Neck (3)_4조.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "2024 인체의구조 1텀 기출 해설",
+          "path": "폴더1_2024yapyeon_인체의구조/2. 기출 해설/1텀/2024 인체의구조 1텀 기출 해설.pdf",
+          "status": "file_detected"
+        }
+      ]
+    },
+    {
+      "id": "tu_head2_facial_parasymp",
+      "topic": "head_2",
+      "title": "Facial nerve, taste, lacrimation, and palate secretion",
+      "core_line": "CN VII 문제는 표정근, 눈물, 침, 미각, stapedius를 한 줄로 묶고, greater petrosal과 chorda tympani를 분기해서 외워야 한다.",
+      "why_it_matters": "Bell's palsy, 눈물/침 분비, 입천장 건조, 눈뜨기 장애처럼 증상을 섞어서 물으면 CN VII 주변 개념이 한꺼번에 흔들린다.",
+      "exam_points": [
+        "Bell's palsy는 말초성 안면마비라서 이마 포함 동측 전체 표정근이 약해진다.",
+        "greater petrosal n.은 비강/구개 점막과 lacrimal gland 쪽 부교감 경로다.",
+        "chorda tympani는 혀 앞 2/3 미각과 submandibular/sublingual gland 분비를 담당한다.",
+        "눈뜨기는 levator palpebrae superioris(CN III), 눈감기는 orbicularis oculi(CN VII)다."
+      ],
+      "common_traps": [
+        "각막염을 facial nerve 감각 문제로 착각하고 V1을 놓치는 실수",
+        "greater petrosal n.과 deep petrosal n., lacrimal n.을 한 묶음으로 혼동하는 실수",
+        "taste loss와 general sensation loss를 같은 신경으로 처리하는 실수"
+      ],
+      "takeaways": [
+        "CN VII는 표정근만이 아니라 분비와 미각, stapedius까지 같이 봐야 완성된다.",
+        "건조하다는 증상은 어느 분비샘 경로가 끊겼는지 역으로 따라가면 풀린다.",
+        "눈뜨기와 눈감기를 서로 다른 뇌신경으로 분리해서 외워야 임상 문제가 쉬워진다."
+      ],
+      "recall_prompts": [
+        {
+          "prompt": "코점막과 입천장이 건조하면 어느 신경을 먼저 떠올려야 하나?",
+          "answer": "greater petrosal nerve. pterygopalatine ganglion 경유로 비강과 구개 점막 분비를 담당한다."
+        },
+        {
+          "prompt": "Bell's palsy에서 왜 각막 문제가 잘 생기나?",
+          "answer": "orbicularis oculi 약화로 눈이 완전히 닫히지 않아 각막 보호가 안 되고, 깜박임/각막반사 efferent limb도 약해진다."
+        },
+        {
+          "prompt": "혀 앞 2/3의 미각과 일반감각을 각각 말해보세요.",
+          "answer": "미각은 chorda tympani(CN VII), 일반감각은 lingual nerve(V3)다."
+        }
+      ],
+      "memory_hooks": [
+        "greater petrosal = 눈물/코/구개",
+        "chorda tympani = taste + submandibular/sublingual"
+      ],
+      "match_keywords": [
+        "Bell's palsy",
+        "greater petrosal",
+        "입 윗천장",
+        "눈뜨기",
+        "미각"
+      ],
+      "related_question_ids": [2, 15, 19, 20, 21],
+      "related_flashcard_ids": [528, 529, 530, 531],
+      "related_confusion_pair_ids": [],
+      "source_refs": [
+        {
+          "label": "강태천 교수님 Head-2026",
+          "path": "폴더1_2024yapyeon_인체의구조/0. 수업자료/강태천 교수님/Head-2026.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "김민주 교수님 mouth nose",
+          "path": "폴더1_2024yapyeon_인체의구조/0. 수업자료/김민주 교수님/해부/0326_김민주_mouth nose.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "2024 인체의구조 1텀 기출 해설",
+          "path": "폴더1_2024yapyeon_인체의구조/2. 기출 해설/1텀/2024 인체의구조 1텀 기출 해설.pdf",
+          "status": "file_detected"
+        }
+      ]
+    },
+    {
+      "id": "tu_head3_orbit_cavernous_meningeal",
+      "topic": "head_3",
+      "title": "Orbit motor nerves, cavernous sinus, and epidural bleed",
+      "core_line": "head_3는 CN III/IV/VI의 안구운동, superior petrosal sinus 위치, middle meningeal artery의 epidural bleed를 세 축으로 잡는 게 핵심이다.",
+      "why_it_matters": "복시, 내사시/외사시, 동공반사, 정맥굴 연결, 경막외혈종이 같은 블록에서 계속 반복된다.",
+      "exam_points": [
+        "CN III는 대부분 외안근 + 눈꺼풀올림 + 동공수축이다.",
+        "CN IV는 superior oblique만 지배하고 계단 내려가기/복시 문제와 자주 연결된다.",
+        "CN VI 손상은 lateral rectus 마비 -> medial strabismus다.",
+        "middle meningeal a. 파열은 epidural hematoma를 만든다.",
+        "superior petrosal sinus는 cavernous sinus와 transverse sinus를 연결한다."
+      ],
+      "common_traps": [
+        "CN III 손상인데 내사시와 외사시를 반대로 고르는 실수",
+        "epidural, subdural, subarachnoid 출혈 위치를 구조물과 못 묶는 실수",
+        "superior petrosal sinus를 straight sinus나 sagittal sinus와 섞는 실수"
+      ],
+      "takeaways": [
+        "SO4, LR6, 나머지 III를 기반으로 눈운동 문제를 먼저 정리하면 대부분 풀린다.",
+        "복시 문제는 어느 방향에서 더 심한지와 계단/가까운 물체 같은 단서를 같이 본다.",
+        "정맥굴 문제는 tentorium/falx 부착선을 그림으로 떠올려야 안정적이다."
+      ],
+      "recall_prompts": [
+        {
+          "prompt": "CN VI 손상 시 눈 위치와 주된 기능 이상을 말해보세요.",
+          "answer": "lateral rectus 마비로 외전이 안 되고 medial strabismus가 생긴다."
+        },
+        {
+          "prompt": "middle meningeal a. 파열이면 피는 어디에 고이나?",
+          "answer": "epidural space. 경막과 skull 사이에 경막외혈종이 생긴다."
+        },
+        {
+          "prompt": "superior petrosal sinus는 무엇과 무엇을 연결하나?",
+          "answer": "cavernous sinus의 후단과 transverse sinus를 연결한다."
+        }
+      ],
+      "memory_hooks": [
+        "SO4, LR6, AO3",
+        "MMA rupture = epidural"
+      ],
+      "match_keywords": [
+        "abducent",
+        "middle meningeal",
+        "petrosal sinus",
+        "복시",
+        "위눈꺼풀"
+      ],
+      "related_question_ids": [3, 4, 17, 18, 23, 35],
+      "related_flashcard_ids": [20, 21, 22, 23, 24, 25],
+      "related_confusion_pair_ids": [],
+      "source_refs": [
+        {
+          "label": "강태천 교수님 Head-2026",
+          "path": "폴더1_2024yapyeon_인체의구조/0. 수업자료/강태천 교수님/Head-2026.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "Head (2) 조별자료",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/4. 땡시험/3. 해부땡/3. 해부 일지/4조/18. Head (2)_4조.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "2024 인체의구조 1텀 기출 해설",
+          "path": "폴더1_2024yapyeon_인체의구조/2. 기출 해설/1텀/2024 인체의구조 1텀 기출 해설.pdf",
+          "status": "file_detected"
+        }
+      ]
+    },
+    {
+      "id": "tu_head3_pterygopalatine_v2",
+      "topic": "head_3",
+      "title": "V2 branches, pterygopalatine ganglion, and nasal-palatal pathways",
+      "core_line": "head_3의 비강-구개 문제는 V2 분지, pterygopalatine ganglion, sphenopalatine foramen, incisive canal을 한 경로로 이어서 외워야 한다.",
+      "why_it_matters": "nasopalatine, palatine nerves, V2 분지, 비강/구개 분포를 묶어서 반복 출제하고, foramen 이름까지 같이 섞는다.",
+      "exam_points": [
+        "V2(maxillary nerve)는 foramen rotundum을 통과한다.",
+        "pterygopalatine ganglion에서 나오는 nasopalatine n.은 sphenopalatine foramen을 지나 비강 천장을 따라 incisive canal로 간다.",
+        "nasopalatine n.은 incisive/canine 쪽과 앞구개 쪽 단서가 나오면 먼저 떠올린다.",
+        "infraorbital branch와 palatine branch는 통과 구조가 다르므로 foramen 단서로 구분한다."
+      ],
+      "common_traps": [
+        "nasopalatine n.와 anterior superior alveolar n.를 분포 부위만 보고 바꾸는 실수",
+        "V2의 foramen rotundum과 V3의 foramen ovale를 뒤섞는 실수",
+        "비강 천장-구개-치아 분포를 하나의 경로로 못 연결하는 실수"
+      ],
+      "takeaways": [
+        "비강-구개 문제는 신경 이름보다 먼저 '어디를 통과했는가'를 본다.",
+        "sphenopalatine foramen과 incisive canal이 같이 나오면 nasopalatine 가능성이 매우 높다.",
+        "pterygopalatine ganglion은 이름만 외우지 말고 V2 분지들의 출발점처럼 묶어 이해해야 한다."
+      ],
+      "recall_prompts": [
+        {
+          "prompt": "nasopalatine nerve는 어디를 통과해 어디에 분포하나?",
+          "answer": "sphenopalatine foramen을 지나 비강 천장을 따라가고 incisive canal/앞구개-앞치아 쪽과 연결해서 외운다."
+        },
+        {
+          "prompt": "V2는 어느 구멍을 통과하나?",
+          "answer": "foramen rotundum."
+        },
+        {
+          "prompt": "nasopalatine n.와 ant. superior alveolar n.를 어떻게 구분하나?",
+          "answer": "nasopalatine은 비강 천장-구개-incisive canal 경로, ant. superior alveolar는 infraorbital 계통과 상악 전치부 쪽 단서로 구분한다."
+        }
+      ],
+      "memory_hooks": [
+        "V2 = rotundum",
+        "sphenopalatine -> nasopalatine -> incisive"
+      ],
+      "match_keywords": [
+        "pterygopalatine",
+        "nasopalatine",
+        "sphenopalatine",
+        "incisive",
+        "foramen rotundum"
+      ],
+      "related_question_ids": [287, 289, 331, 333, 407, 409],
+      "related_flashcard_ids": [26, 48],
+      "related_confusion_pair_ids": [],
+      "source_refs": [
+        {
+          "label": "강태천 교수님 Head-2026",
+          "path": "폴더1_2024yapyeon_인체의구조/0. 수업자료/강태천 교수님/Head-2026.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "김민주 교수님 mouth nose",
+          "path": "폴더1_2024yapyeon_인체의구조/0. 수업자료/김민주 교수님/해부/0326_김민주_mouth nose.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "2024 인체의구조 1텀 기출 해설",
+          "path": "폴더1_2024yapyeon_인체의구조/2. 기출 해설/1텀/2024 인체의구조 1텀 기출 해설.pdf",
+          "status": "file_detected"
+        }
+      ]
+    },
+    {
+      "id": "tu_ear_pharynx_larynx_reflexes",
+      "topic": "ear_pharynx_larynx",
+      "title": "Middle ear pathways, petrosal nerves, and gag reflex",
+      "core_line": "ear/pharynx/larynx 문제는 greater petrosal, tympanic nerve, gag reflex의 afferent/efferent, RLN vs SLN을 한 흐름으로 봐야 한다.",
+      "why_it_matters": "중이염, 구토, 점막 건조, 후두신경 분지, gag reflex가 각각 다른 것처럼 보여도 결국 IX, X, VII의 분지 경로를 묻는 경우가 많다.",
+      "exam_points": [
+        "greater petrosal n. 손상 -> 코/입천장 건조 + 눈물 분비 감소 쪽을 먼저 생각한다.",
+        "tympanic n.은 CN IX 경로로 middle ear 감각과 이하선 부교감 경로 일부를 연결한다.",
+        "gag reflex는 afferent IX, efferent X다.",
+        "RLN은 후두 대부분 운동 + 성문하 감각, superior laryngeal n.은 외지/내지 기능을 나눠서 외운다."
+      ],
+      "common_traps": [
+        "greater petrosal과 lesser petrosal을 분비샘까지 포함해 뒤섞는 실수",
+        "중이 감각 경로와 chorda tympani를 같은 역할로 보는 실수",
+        "gag reflex에서 IX/X의 afferent/efferent를 바꾸는 실수"
+      ],
+      "takeaways": [
+        "귀와 인두 문제는 '감각은 누구, 분비는 누구, 반사는 누구'로 나눠 생각하면 정리가 쉽다.",
+        "중이염 뒤 구토는 middle ear plexus와 glossopharyngeal pathway를 연결해서 본다.",
+        "후두신경 분지는 소리 변화와 감각 위치를 같이 외워야 안전하다."
+      ],
+      "recall_prompts": [
+        {
+          "prompt": "greater petrosal nerve 손상 시 왜 코와 입천장이 건조해지나?",
+          "answer": "pterygopalatine ganglion 경유 부교감 섬유가 끊겨 비강/구개 점막 분비가 줄기 때문이다."
+        },
+        {
+          "prompt": "gag reflex의 afferent와 efferent를 말해보세요.",
+          "answer": "afferent는 CN IX, efferent는 CN X다."
+        },
+        {
+          "prompt": "RLN과 superior laryngeal nerve의 핵심 차이를 말해보세요.",
+          "answer": "RLN은 후두 대부분 운동과 성문하 감각, superior laryngeal n.은 외지가 cricothyroid 운동, 내지가 성문상 감각을 담당한다."
+        }
+      ],
+      "memory_hooks": [
+        "middle ear + parotid pathway = CN IX tympanic -> lesser petrosal -> otic ganglion",
+        "gag = IX in, X out"
+      ],
+      "match_keywords": [
+        "greater petrosal",
+        "중이염",
+        "gag reflex",
+        "foramen rotundum",
+        "laryngeal"
+      ],
+      "related_question_ids": [13, 28, 52, 117, 125, 129, 203, 249],
+      "related_flashcard_ids": [90, 91, 92],
+      "related_confusion_pair_ids": ["cp_known_015"],
+      "source_refs": [
+        {
+          "label": "김민주 교수님 ear pharynx larynx",
+          "path": "폴더1_2024yapyeon_인체의구조/0. 수업자료/김민주 교수님/해부/0326_김민주_ear pharynx larynx.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "강태천 교수님 Head-2026",
+          "path": "폴더1_2024yapyeon_인체의구조/0. 수업자료/강태천 교수님/Head-2026.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "2024 인체의구조 1텀 기출 해설",
+          "path": "폴더1_2024yapyeon_인체의구조/2. 기출 해설/1텀/2024 인체의구조 1텀 기출 해설.pdf",
+          "status": "file_detected"
+        }
+      ]
+    },
+    {
+      "id": "tu_special_sensory_visual_pupil",
+      "topic": "special_sensory_eyeball",
+      "title": "Visual pathway, pupillary reflex, and eye movement localization",
+      "core_line": "특수감각기 문제는 visual pathway 절단면, direct/consensual light reflex, CN III/VI와 midbrain-pons localization을 한 세트로 외워야 한다.",
+      "why_it_matters": "시야장애, 동공반사, 복시, 혼수 환자 localization을 묶어서 물을 때 가장 잘 흔들리는 파트다.",
+      "exam_points": [
+        "pituitary tumor는 optic chiasm을 눌러 bitemporal hemianopia를 만든다.",
+        "light reflex에서 CN II는 afferent, CN III는 efferent다.",
+        "왼쪽 direct는 되는데 오른쪽 consensual이 안 되면 오른쪽 CN III 쪽을 의심한다.",
+        "CN III/IV는 midbrain, CN VI는 pontomedullary junction과 pons 주변 localization을 같이 본다."
+      ],
+      "common_traps": [
+        "optic nerve 손상과 oculomotor efferent 문제를 모두 '안 보인다'로 뭉개는 실수",
+        "direct reflex와 consensual reflex를 해석할 때 어느 쪽 눈이 실제로 수축하는지 놓치는 실수",
+        "CN VI nerve lesion과 CN VI nucleus/PPRF lesion을 같은 것으로 처리하는 실수"
+      ],
+      "takeaways": [
+        "시야장애는 lesion 위치를 그림으로, 반사장애는 afferent/efferent 화살표로 외워야 한다.",
+        "혼수 환자 동공 문제는 brainstem localization 문제와 자주 이어진다.",
+        "복시 문제는 방향, 동공, convergence 보존 여부를 함께 봐야 한다."
+      ],
+      "recall_prompts": [
+        {
+          "prompt": "pituitary tumor에서 왜 bitemporal hemianopia가 생기나?",
+          "answer": "optic chiasm 중앙의 교차 섬유가 눌려 양쪽 temporal visual field가 사라지기 때문이다."
+        },
+        {
+          "prompt": "왼쪽 direct는 되는데 오른쪽 consensual만 안 되는 경우 어느 경로가 문제인가?",
+          "answer": "오른쪽 CN III efferent 경로를 먼저 의심한다."
+        },
+        {
+          "prompt": "CN III, IV, VI의 뇌간 기시 부위를 말해보세요.",
+          "answer": "CN III와 IV는 midbrain, CN VI는 pontomedullary junction/pons 바닥 쪽과 연결해서 본다."
+        }
+      ],
+      "memory_hooks": [
+        "CN II in, CN III out",
+        "chiasm middle = bitemporal"
+      ],
+      "match_keywords": [
+        "뇌하수체",
+        "동공 반사",
+        "직접동공반사",
+        "복시",
+        "혼수상태"
+      ],
+      "related_question_ids": [39, 79, 80, 87],
+      "related_flashcard_ids": [363, 364, 365, 366],
+      "related_confusion_pair_ids": [],
+      "source_refs": [
+        {
+          "label": "강태천 교수님 특수감각기-2026",
+          "path": "폴더1_2024yapyeon_인체의구조/0. 수업자료/강태천 교수님/특수감각기-2026.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "2024 인체의구조 1텀 기출 해설",
+          "path": "폴더1_2024yapyeon_인체의구조/2. 기출 해설/1텀/2024 인체의구조 1텀 기출 해설.pdf",
+          "status": "file_detected"
+        }
+      ]
+    },
+    {
+      "id": "tu_motor_descending_localization",
+      "topic": "motor_pathway",
+      "title": "Descending tracts, posture, and corticobulbar localization",
+      "core_line": "motor pathway는 decorticate/decerebrate posture, corticospinal vs corticobulbar, vestibulospinal/reticulospinal balance를 같이 봐야 한다.",
+      "why_it_matters": "자세 이상, 억제/흥분성 tract, internal capsule genu localization을 묶어서 고빈도로 낸다.",
+      "exam_points": [
+        "decerebrate rigidity는 vestibulospinal tract 우세와 연결해서 본다.",
+        "corticobulbar tract는 internal capsule genu를 지나고 CN VII 하안면/CN XII는 반대측 지배가 중요하다.",
+        "몸통/축성근 조절은 anterior corticospinal, reticulospinal, tectospinal을 함께 본다.",
+        "혀 치우침, 목젖 치우침, 아래 얼굴 약화가 같이 나오면 corticobulbar localization을 먼저 본다.",
+        "lateral corticospinal tract 병변이 교차 전이면 반대쪽 distal limb weakness가 나온다는 점을 같이 묶어 외운다.",
+        "같은 쪽 CN VI/VII 단서와 반대쪽 팔다리 마비가 같이 나오면 pontine crossed finding으로 읽는다."
+      ],
+      "common_traps": [
+        "decorticate와 decerebrate posture를 상지/하지 패턴까지 구분하지 못하는 실수",
+        "corticobulbar의 양측 지배와 예외(CN VII 하안면, CN XII)를 놓치는 실수",
+        "tract 이름만 외우고 실제로 어떤 근육군/자세에 영향을 주는지 연결 못 하는 실수",
+        "혀 단서 하나에 끌려 medulla로 보내고 CN VI/VII가 가리키는 pontine level을 놓치는 실수"
+      ],
+      "takeaways": [
+        "motor 문제는 병변 위치보다 먼저 자세/증상을 보고 어떤 tract가 남아 있는지 판단하는 것이 빠르다.",
+        "내포 genu는 얼굴, 혀, 연구개가 같이 흔들릴 때 떠올리면 된다.",
+        "억제성/흥분성 tract는 '무엇을 굽히고 펴는가'까지 함께 말할 수 있어야 한다.",
+        "long tract sign에 ipsilateral cranial nerve sign이 붙으면 먼저 brainstem, 그중 CN VI/VII면 pons를 떠올린다."
+      ],
+      "recall_prompts": [
+        {
+          "prompt": "decerebrate rigidity에서 왜 vestibulospinal tract가 핵심인가?",
+          "answer": "상위 억제 경로가 끊긴 상태에서 vestibulospinal output이 상대적으로 우세해져 전신 신전 자세가 두드러지기 때문이다."
+        },
+        {
+          "prompt": "corticobulbar tract의 대표 예외 두 가지를 말해보세요.",
+          "answer": "CN VII 하안면과 CN XII는 주로 반대측 지배를 받아 병변 반대쪽 아래 얼굴 약화, 혀 편위가 나온다."
+        },
+        {
+          "prompt": "혀가 한쪽으로 치우치고 목젖도 같이 흔들리면 어디를 먼저 의심하나?",
+          "answer": "internal capsule genu 또는 corticobulbar pathway localization을 먼저 본다."
+        },
+        {
+          "prompt": "같은 쪽 안면근 약화와 abducens sign, 반대쪽 팔다리 마비가 같이 나오면 어느 수준을 먼저 떠올리나?",
+          "answer": "pons. CN VI/VII와 contralateral long tract sign이 섞인 pontine crossed finding으로 본다."
+        }
+      ],
+      "memory_hooks": [
+        "decorticate = 손이 코로, decerebrate = 전신 신전",
+        "genu = face, tongue, palate",
+        "CN VI/VII + 반대쪽 팔다리 = pons"
+      ],
+      "match_keywords": [
+        "decerebrate",
+        "억제성",
+        "genu of internal capsule",
+        "몸통과 머리",
+        "혀의 마비",
+        "abducent",
+        "안면근육마비",
+        "오른쪽 pons"
+      ],
+      "related_question_ids": [37, 72, 73, 76, 163, 325, 381, 406, 457, 482],
+      "related_flashcard_ids": [286, 288, 289, 291],
+      "related_confusion_pair_ids": ["cp_known_004", "cp_known_006"],
+      "source_refs": [
+        {
+          "label": "BRS Neuroanatomy 4th",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/5. 기타자료/강태천 교수님 문제은행/BRS Neuroanatomy 4th.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "강태천 교수님 Head-2026",
+          "path": "폴더1_2024yapyeon_인체의구조/0. 수업자료/강태천 교수님/Head-2026.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "2024 인체의구조 1텀 기출 해설",
+          "path": "폴더1_2024yapyeon_인체의구조/2. 기출 해설/1텀/2024 인체의구조 1텀 기출 해설.pdf",
+          "status": "file_detected"
+        }
+      ]
+    },
+    {
+      "id": "tu_sensory_ascending_localization",
+      "topic": "sensory_system",
+      "title": "Ascending sensory pathways, Brown-Sequard, and trigeminal pain",
+      "core_line": "감각로 문제는 무엇을 느끼는지, 어디서 교차하는지, 병변과 같은 쪽인지 반대쪽인지까지 한 번에 말할 수 있어야 한다.",
+      "why_it_matters": "통각과 온도, 고유감각, 두점식별, 얼굴 통증 경로를 섞어서 내면 modality와 decussation을 동시에 못 외운 학생이 가장 먼저 흔들린다.",
+      "exam_points": [
+        "dorsal column-medial lemniscus는 vibration, proprioception, fine touch를 올리고 medulla에서 교차한다.",
+        "lateral spinothalamic tract는 pain과 temperature를 전달하고 spinal cord에서 일찍 교차한다.",
+        "Brown-Sequard syndrome은 병변 쪽의 UMN sign와 proprioception loss, 반대쪽의 pain/temperature loss를 만든다.",
+        "얼굴 통증은 spinal trigeminal nucleus pars caudalis -> ventral trigeminothalamic tract -> VPM으로 이어진다."
+      ],
+      "common_traps": [
+        "척수 반절단에서 모든 감각이 한쪽으로 같이 사라진다고 착각하는 실수",
+        "cuneate fasciculus를 dorsal horn 같은 회색질 구조와 섞는 실수",
+        "몸의 통증 경로 spinothalamic과 얼굴 통증 경로 trigeminal pain pathway를 구분하지 못하는 실수"
+      ],
+      "takeaways": [
+        "감각로는 이름보다 modality, crossing level, 최종 relay nucleus를 같이 외워야 오래 간다.",
+        "병변 문제는 어디가 잘렸는지보다 먼저 어느 감각이 어느 쪽에서 사라졌는지를 표로 그리면 빨라진다.",
+        "고유감각은 conscious면 dorsal column-medial lemniscus, unconscious면 spinocerebellar tract를 먼저 떠올린다."
+      ],
+      "recall_prompts": [
+        {
+          "prompt": "Brown-Sequard syndrome의 전형적인 감각/운동 패턴을 말해보세요.",
+          "answer": "병변 쪽 UMN sign와 proprioception/fine touch 저하, 반대쪽 pain/temperature 저하가 핵심이다."
+        },
+        {
+          "prompt": "pain과 temperature는 어느 tract를 따라가고 어디서 교차하나?",
+          "answer": "lateral spinothalamic tract를 따라가며 spinal cord level에서 비교적 초기에 교차한다."
+        },
+        {
+          "prompt": "얼굴 통증의 relay nucleus는 어디인가?",
+          "answer": "spinal trigeminal nucleus pars caudalis에서 시작해 ventral trigeminothalamic tract를 거쳐 VPM으로 간다."
+        }
+      ],
+      "memory_hooks": [
+        "posterior column은 올라가서 medulla에서 꺾인다",
+        "Brown-Sequard = same side motor/proprioception, opposite side pain/temp"
+      ],
+      "match_keywords": [
+        "Brown-Sequard",
+        "spinothalamic",
+        "cuneate",
+        "two point",
+        "trigeminal neuralgia",
+        "고유감각"
+      ],
+      "related_question_ids": [41, 83, 84, 93, 96, 168, 207, 245],
+      "related_flashcard_ids": [],
+      "related_confusion_pair_ids": [],
+      "source_refs": [
+        {
+          "label": "General sensory system by 교동셰르파",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/0. 작년 야마/21학번/4텀/11. General sensory system by 교동셰르파.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "BRS Neuroanatomy 4th",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/5. 기타자료/강태천 교수님 문제은행/BRS Neuroanatomy 4th.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "신경해부학 도판 모음",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/4. 땡시험/3. 해부땡/2. 참고 자료/신경해부 도판 사진/신경해부학 도판 모음.pdf",
+          "status": "file_detected"
+        }
+      ]
+    },
+    {
+      "id": "tu_higher_language_dominant_parietal",
+      "topic": "higher_cns_functions",
+      "title": "Broca, angular gyrus, and dominant hemisphere language clues",
+      "core_line": "고등기능 문제는 '말을 못하나', '말은 되는데 못 쓰나', '들어도 이해를 못하나'를 먼저 나누면 dominant hemisphere localization이 정리된다.",
+      "why_it_matters": "Broca, Wernicke, angular gyrus, dominant hemisphere 증상을 섞어서 내면 증상은 비슷해 보여도 손상 위치는 전혀 다르다.",
+      "exam_points": [
+        "Broca area는 주로 BA 44/45이고 비유창성 언어장애와 연결된다.",
+        "말은 되는데 못 쓰는 agraphia는 angular gyrus를 먼저 떠올린다.",
+        "dominant hemisphere language lesion은 말하기, 이해, 반복, 쓰기 중 무엇이 무너졌는지로 구분한다.",
+        "몸의 감각은 VPL, 얼굴 감각은 VPM이라는 relay도 언어/감각 연합 문제에서 자주 엮인다."
+      ],
+      "common_traps": [
+        "Broca와 Wernicke를 모두 '실어증'으로만 묶어서 증상 패턴을 놓치는 실수",
+        "agraphia를 손 운동 문제로 착각하고 premotor lesion으로 보내는 실수",
+        "dominant hemisphere를 무시하고 좌우만 보고 답을 고르는 실수"
+      ],
+      "takeaways": [
+        "언어 문제는 fluent vs nonfluent, comprehension 보존 여부, writing 보존 여부를 먼저 체크한다.",
+        "angular gyrus는 Gerstmann syndrome과 agraphia를 같이 묶어 기억하면 시험장에서 빨리 떠오른다.",
+        "증상 서술형 문제는 뇌영역 이름보다 기능 블록으로 분해하면 훨씬 덜 흔들린다."
+      ],
+      "recall_prompts": [
+        {
+          "prompt": "말은 정상인데 글을 못 쓰면 가장 먼저 떠올릴 구조는?",
+          "answer": "dominant angular gyrus. agraphia의 대표적 위치다."
+        },
+        {
+          "prompt": "운동언어영역을 물으면 어느 BA를 먼저 떠올리나?",
+          "answer": "Broca area, 주로 BA 44/45."
+        },
+        {
+          "prompt": "얼굴 감각 relay와 몸 감각 relay를 각각 말해보세요.",
+          "answer": "얼굴은 VPM, 몸은 VPL."
+        }
+      ],
+      "memory_hooks": [
+        "Broca = broken speech",
+        "angular gyrus = 말은 되는데 쓰기가 무너진다"
+      ],
+      "match_keywords": [
+        "운동언어",
+        "Broca",
+        "agraphia",
+        "angular gyrus",
+        "말은 정상",
+        "말을 이해"
+      ],
+      "related_question_ids": [59, 60, 69, 90, 182, 183, 184, 209, 259, 260, 261, 397, 473],
+      "related_flashcard_ids": [],
+      "related_confusion_pair_ids": [],
+      "source_refs": [
+        {
+          "label": "Higher functions of CNS by 삶은딱복",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/0. 작년 야마/21학번/4텀/15. Higher functions of CNS_Neuroanatomy for psychiatry by 삶은딱복.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "BRS Neuroanatomy 4th",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/5. 기타자료/강태천 교수님 문제은행/BRS Neuroanatomy 4th.pdf",
+          "status": "file_detected"
+        }
+      ]
+    },
+    {
+      "id": "tu_higher_visual_praxis_association",
+      "topic": "higher_cns_functions",
+      "title": "Visual association cortex, spatial stream, and premotor praxis",
+      "core_line": "고등기능의 시각/행동 문제는 '무엇인지', '어디 있는지', '배운 동작을 수행할 수 있는지'를 나눠서 association cortex를 잡아야 한다.",
+      "why_it_matters": "Balint syndrome, visual stream, precuneus, premotor apraxia는 질문 문장이 길어도 결국 seeing, locating, doing 중 어디가 무너졌는지 보는 문제다.",
+      "exam_points": [
+        "움직이는 물체를 구분하지 못하고 시각조화운동이 깨지면 visual association cortex, 특히 BA 19를 떠올린다.",
+        "where stream과 위치 해석 단서는 precuneus/parietal association 쪽으로 연결한다.",
+        "근육마비는 없는데 배운 동작을 수행 못 하면 premotor area 6의 apraxia를 먼저 본다.",
+        "글자를 보고 따라 쓰기 어려운 visual disconnection 문제는 posterior association과 callosal 연결 이상을 같이 본다."
+      ],
+      "common_traps": [
+        "visual association 장애를 1차 시각피질 BA 17 손상으로 바로 보내는 실수",
+        "apraxia를 근력저하나 corticospinal lesion으로 착각하는 실수",
+        "공간 위치 해석과 사물 의미 해석을 같은 stream으로 외우는 실수"
+      ],
+      "takeaways": [
+        "association cortex 문제는 감각이 들어오는지보다 그 감각을 해석하고 행동으로 바꾸는 단계가 망가졌는지를 본다.",
+        "보기 전에 움직임, 위치, 의미, 행동 네 축으로 증상을 나누면 visual pathway 문제와 덜 섞인다.",
+        "premotor area 6는 마비가 아닌 learned movement failure라는 점을 꼭 분리해야 한다."
+      ],
+      "recall_prompts": [
+        {
+          "prompt": "움직이는 물체 구분과 시각조화운동 장애가 같이 나오면 어느 BA를 먼저 떠올리나?",
+          "answer": "visual association cortex, 대표적으로 BA 19."
+        },
+        {
+          "prompt": "근육마비는 없는데 연필을 잡거나 배운 동작 수행이 안 되면 어디를 먼저 보나?",
+          "answer": "premotor area 6. praxis planning 문제를 먼저 생각한다."
+        },
+        {
+          "prompt": "위치 해석 단서는 어느 association 영역과 연결해서 외우나?",
+          "answer": "parietal association cortex와 precuneus의 spatial/where 기능으로 묶는다."
+        }
+      ],
+      "memory_hooks": [
+        "BA 19 = visual association motion clue",
+        "premotor 6 = can move, cannot perform learned act"
+      ],
+      "match_keywords": [
+        "움직이는 물체",
+        "시각조화운동",
+        "Balint",
+        "precuneus",
+        "연필",
+        "premotor"
+      ],
+      "related_question_ids": [62, 63, 71, 178, 180, 186],
+      "related_flashcard_ids": [],
+      "related_confusion_pair_ids": [],
+      "source_refs": [
+        {
+          "label": "Higher functions of CNS by 삶은딱복",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/0. 작년 야마/21학번/4텀/15. Higher functions of CNS_Neuroanatomy for psychiatry by 삶은딱복.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "강태천 교수님 특수감각기-2026",
+          "path": "폴더1_2024yapyeon_인체의구조/0. 수업자료/강태천 교수님/특수감각기-2026.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "BRS Neuroanatomy 4th",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/5. 기타자료/강태천 교수님 문제은행/BRS Neuroanatomy 4th.pdf",
+          "status": "file_detected"
+        }
+      ]
+    },
+    {
+      "id": "tu_dev_pharyngeal_arch_derivatives",
+      "topic": "dev_head_neck",
+      "title": "Pharyngeal arches: muscle, cartilage, and nerve patterns",
+      "core_line": "인두궁 문제는 arch 번호만 외우지 말고 CN, 대표 근육, hyoid/larynx derivative를 한 세트로 연결해야 반복문항을 안정적으로 맞힌다.",
+      "why_it_matters": "masseter, tensor tympani, stylopharyngeus, lesser horn of hyoid, intrinsic laryngeal muscles, internal laryngeal nerve처럼 자주 바꾸어 내는 구조들을 arch와 섞어서 반복 출제한다.",
+      "exam_points": [
+        "1st arch는 CN V3와 muscles of mastication, tensor tympani처럼 '씹는 계열'로 먼저 묶는다.",
+        "2nd arch는 CN VII와 facial expression 계열, stylohyoid, posterior belly of digastric, lesser horn of hyoid 쪽 단서를 같이 본다.",
+        "3rd arch의 대표 근육은 stylopharyngeus이고 CN IX와 연결한다.",
+        "4th arch는 superior laryngeal branch 계열과 pharyngeal/constrictor-cricothyroid 쪽, 6th arch는 recurrent laryngeal n.과 intrinsic muscles of larynx 쪽으로 구분한다."
+      ],
+      "common_traps": [
+        "stylopharyngeus를 4th arch 쪽 후두/인두 근육과 뒤섞는 실수",
+        "lesser horn of hyoid와 laryngeal cartilage derivative를 같은 arch로 외우는 실수",
+        "internal laryngeal nerve의 4th arch 단서와 intrinsic laryngeal muscle의 6th arch 단서를 바꾸는 실수"
+      ],
+      "takeaways": [
+        "인두궁은 arch 번호보다 CN과 대표 구조를 먼저 떠올리면 훨씬 빨리 풀린다.",
+        "문제가 근육을 물으면 지배신경, 연골/뼈를 물으면 hyoid-larynx derivative로 바로 연결하는 습관이 중요하다.",
+        "1, 2, 3, 4, 6 arch의 대표 구조를 말로 줄줄 설명할 수 있어야 변형에 안 흔들린다."
+      ],
+      "recall_prompts": [
+        {
+          "prompt": "1st pharyngeal arch를 보면 가장 먼저 떠올릴 근육과 신경은?",
+          "answer": "muscles of mastication와 tensor tympani, 그리고 CN V3."
+        },
+        {
+          "prompt": "stylopharyngeus는 몇 번째 arch이며 어떤 신경과 연결되나?",
+          "answer": "3rd arch, CN IX."
+        },
+        {
+          "prompt": "4th arch와 6th arch를 후두 쪽에서 어떻게 구분하나?",
+          "answer": "4th는 superior laryngeal 쪽과 cricothyroid/인두 계열, 6th는 recurrent laryngeal과 intrinsic muscles of larynx로 구분한다."
+        }
+      ],
+      "memory_hooks": [
+        "1st = chew, 2nd = smile, 3rd = stylopharyngeus, 4th/6th = larynx",
+        "4th = superior laryngeal, 6th = recurrent laryngeal"
+      ],
+      "match_keywords": [
+        "pharyngeal arch",
+        "masseter",
+        "tensor tympani",
+        "stylopharyngeus",
+        "lesser horn of hyoid",
+        "intrinsic m. of larynx"
+      ],
+      "related_question_ids": [328, 356, 431],
+      "related_flashcard_ids": [],
+      "related_confusion_pair_ids": [],
+      "source_refs": []
+    },
+    {
+      "id": "tu_cns_posterior_visual_network",
+      "topic": "cns_gross_1",
+      "title": "Precuneus, pulvinar, and posterior thalamic peduncle",
+      "core_line": "뒤쪽 시상-두정후두 연결 문제는 precuneus의 spatial clue, pulvinar/LP의 visual association, lateral geniculate body에서 posterior thalamic peduncle로 이어지는 시각 연결을 한 묶음으로 봐야 한다.",
+      "why_it_matters": "precuneus, LP thalamus, pulvinar, lateral geniculate body, posterior thalamic peduncle을 따로 외우면 헷갈리지만, 시험은 결국 '뒤쪽 시상-시각 연합-공간 해석' 연결을 반복해서 묻는다.",
+      "exam_points": [
+        "precuneus는 경험적 기억, 시공간 추상화, 사물 위치 해석 같은 where/spatial 단서와 연결한다.",
+        "LP thalamus와 pulvinar는 visual association cortex와 연관되어 시각을 포함한 감각-연합 처리 단서가 나오면 먼저 떠올린다.",
+        "lateral geniculate body는 시각 relay이고, posterior thalamic peduncle은 occipital cortex 쪽 시각 관련 연결을 먼저 생각하면 된다.",
+        "cuneus는 primary visual cortex 쪽, precuneus는 spatial association 쪽이라는 대비를 확실히 구분한다."
+      ],
+      "common_traps": [
+        "precuneus를 1차 시각피질 cuneus와 바꾸는 실수",
+        "posterior thalamic peduncle을 superior/inferior thalamic peduncle과 감각 종류만 보고 뒤섞는 실수",
+        "fusiform gyrus의 what/face 단서와 precuneus의 where/spatial 단서를 같은 것으로 외우는 실수"
+      ],
+      "takeaways": [
+        "시각 연합 문제는 primary visual cortex보다 association-relay-parietal connection을 먼저 본다.",
+        "precuneus는 공간, pulvinar/LP는 visual association, LGB/posterior peduncle은 시각 relay 연결로 나누면 오래 간다.",
+        "구조 이름을 따로 외우기보다 '뒤쪽 시상에서 occipital-parietal association으로 간다'는 흐름으로 기억하는 편이 시험장에서 빠르다."
+      ],
+      "recall_prompts": [
+        {
+          "prompt": "경험적 기억, 시공간 추상화, 사물 위치 해석이 나오면 어느 구조를 먼저 떠올리나?",
+          "answer": "precuneus. where/spatial association 단서로 묶는다."
+        },
+        {
+          "prompt": "LP thalamus, pulvinar, lateral geniculate body가 같이 나오면 어느 thalamic peduncle을 먼저 고르나?",
+          "answer": "posterior thalamic peduncle. 뒤쪽 시상-시각 연합-후두엽 연결로 본다."
+        },
+        {
+          "prompt": "cuneus와 precuneus를 어떻게 구분하나?",
+          "answer": "cuneus는 primary visual cortex 쪽, precuneus는 spatial association과 경험적 기억 단서로 구분한다."
+        }
+      ],
+      "memory_hooks": [
+        "precuneus = where / spatial",
+        "posterior peduncle = posterior thalamus to visual cortex"
+      ],
+      "match_keywords": [
+        "precuneus",
+        "pulvinar",
+        "LP thalamus",
+        "lat geniculate",
+        "posterior thalamic peduncle",
+        "시공간",
+        "사물 위치"
+      ],
+      "related_question_ids": [307, 309, 364, 366, 440, 442],
+      "related_flashcard_ids": [],
+      "related_confusion_pair_ids": [],
+      "source_refs": [
+        {
+          "label": "Higher functions of CNS by 삶은딱복",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/0. 작년 야마/21학번/4텀/15. Higher functions of CNS_Neuroanatomy for psychiatry by 삶은딱복.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "강태천 교수님 특수감각기-2026",
+          "path": "폴더1_2024yapyeon_인체의구조/0. 수업자료/강태천 교수님/특수감각기-2026.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "BRS Neuroanatomy 4th",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/5. 기타자료/강태천 교수님 문제은행/BRS Neuroanatomy 4th.pdf",
+          "status": "file_detected"
+        }
+      ]
+    },
+    {
+      "id": "tu_blood_supply_vascular_syndromes",
+      "topic": "blood_supply_brain",
+      "title": "ACA, PICA, AICA, and medial-lateral brainstem stroke patterns",
+      "core_line": "혈관 문제는 혈관 이름 자체보다 어떤 증상 조합이 어느 territory를 가리키는지 먼저 읽어야 한다.",
+      "why_it_matters": "ACA 다리/회음부, PICA lateral medulla, AICA pontocerebellar/inner ear, ASA medial medulla는 임상 줄글로 반복 출제되는 대표 패턴이다.",
+      "exam_points": [
+        "ACA infarct는 다리와 회음부 쪽 motor/sensory deficit, urinary incontinence 단서가 핵심이다.",
+        "PICA 또는 vertebral lesion은 lateral medullary syndrome으로 dizziness, ataxia, nystagmus, dysphagia/hoarseness, crossed sensory loss를 만든다.",
+        "AICA lesion은 facial nucleus/nerve, vestibulocochlear 쪽 증상과 함께 lateral pontine pattern을 만든다.",
+        "ASA occlusion은 medial medullary syndrome과 연결해서 tongue deviation, pyramidal sign, dorsal column/medial lemniscus 문제를 같이 본다."
+      ],
+      "common_traps": [
+        "PICA와 AICA를 모두 posterior circulation이라고만 외우고 CN VII/inner ear 단서를 놓치는 실수",
+        "ACA와 MCA를 둘 다 hemiplegia로만 외워서 다리 우세와 회음부/배뇨 단서를 놓치는 실수",
+        "lateral medullary와 medial medullary의 감각/혀 증상을 뒤섞는 실수"
+      ],
+      "takeaways": [
+        "혈관 문제는 증상 한 줄씩 읽지 말고 syndrome 단위로 묶어야 빨리 풀린다.",
+        "posterior circulation 문제는 ataxia, nystagmus, dysphagia, crossed findings를 먼저 찾는다.",
+        "tongue deviation이 보이면 medial medulla/ASA 쪽으로, hoarseness와 swallowing 문제가 보이면 lateral medulla/PICA 쪽으로 우선 생각한다."
+      ],
+      "recall_prompts": [
+        {
+          "prompt": "다리와 회음부 마비, 요실금이 같이 나오면 어느 혈관을 먼저 떠올리나?",
+          "answer": "ACA. medial frontal-paracentral territory를 먼저 생각한다."
+        },
+        {
+          "prompt": "dizziness, ataxia, nystagmus, hoarseness, crossed sensory loss가 나오면 어느 syndrome인가?",
+          "answer": "lateral medullary syndrome, 보통 PICA 또는 vertebral lesion."
+        },
+        {
+          "prompt": "AICA와 PICA를 구분할 때 가장 도움이 되는 임상 단서는?",
+          "answer": "AICA는 facial/inner ear 쪽, PICA는 nucleus ambiguus 기반 hoarseness-dysphagia와 lateral medulla 패턴을 더 강하게 본다."
+        }
+      ],
+      "memory_hooks": [
+        "ACA = leg and pee",
+        "PICA = lateral medulla with hoarseness"
+      ],
+      "match_keywords": [
+        "요실금",
+        "lateral medullary",
+        "PICA",
+        "AICA",
+        "dizziness",
+        "회음부"
+      ],
+      "related_question_ids": [57, 58, 191, 205, 316, 389, 463, 465],
+      "related_flashcard_ids": [],
+      "related_confusion_pair_ids": [],
+      "source_refs": [
+        {
+          "label": "Blood Supply of Brain by 차한대의여유",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/0. 작년 야마/21학번/4텀/16. Blood Supply of Brain by 차한대의여유.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "BRS Neuroanatomy 4th",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/5. 기타자료/강태천 교수님 문제은행/BRS Neuroanatomy 4th.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "Gross anatomy of CNS(2)",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/0. 작년 야마/21학번/4텀/8. Gross anatomy of CNS(2) by 토탈케어서비스.pdf",
+          "status": "file_detected"
+        }
+      ]
+    },
+    {
+      "id": "tu_cns_gross_gerstmann_left_parietal",
+      "topic": "cns_gross_1",
+      "title": "Left parietal angular gyrus and Gerstmann pattern",
+      "core_line": "왼손을 들라고 했는데 오른손을 드는 식의 좌우 혼동이 나오면 dominant angular gyrus가 있는 left parietal lobe를 먼저 떠올린다.",
+      "why_it_matters": "2018, 2021, 2022에 같은 stem이 반복되었다. 우측 몸 증상 + 좌우 혼동을 한 묶음으로 읽으면 바로 left parietal/angular gyrus로 좁혀진다.",
+      "exam_points": [
+        "angular gyrus lesion은 Gerstmann syndrome의 대표 요소인 left-right disorientation, agraphia, acalculia, finger agnosia와 연결된다.",
+        "오른쪽 사지 감각 단서는 보통 좌측 대뇌반구 이상을 먼저 시사한다.",
+        "이 stem의 핵심은 마비가 아니라 좌우를 개념적으로 헷갈리는 cortical sign이라는 점이다."
+      ],
+      "common_traps": [
+        "right parietal neglect와 left parietal left-right disorientation을 같은 것으로 보는 실수",
+        "temporal lobe 언어 문제와 angular gyrus의 dominant parietal 문제를 뒤섞는 실수",
+        "감각 단서만 보고 무조건 motor cortex나 internal capsule로 가는 실수"
+      ],
+      "takeaways": [
+        "좌우 혼동이라는 말이 보이면 일단 angular gyrus를 체크한다.",
+        "우측 몸 단서가 붙으면 left hemisphere를 남기고, 그중 parietal인지 temporal인지를 증상으로 나눈다.",
+        "Gerstmann은 글쓰기, 계산, 손가락, 좌우의 네 묶음으로 외우면 오래 간다."
+      ],
+      "recall_prompts": [
+        {
+          "prompt": "left-right disorientation이 대표적인 cortical sign인 구조는?",
+          "answer": "dominant angular gyrus, 즉 보통 left parietal lobe."
+        },
+        {
+          "prompt": "Gerstmann syndrome의 대표 네 요소를 말해보라.",
+          "answer": "agraphia, acalculia, finger agnosia, left-right disorientation."
+        },
+        {
+          "prompt": "우측 사지 증상과 좌우 혼동이 같이 나오면 어느 엽으로 먼저 좁히나?",
+          "answer": "left parietal lobe."
+        }
+      ],
+      "memory_hooks": [
+        "Gerstmann = 글, 계산, 손가락, 좌우",
+        "right body clue + left-right confusion = left parietal"
+      ],
+      "match_keywords": [
+        "왼손을 들라고",
+        "오른손을 들었다",
+        "좌우 혼동",
+        "angular gyrus",
+        "Gerstmann"
+      ],
+      "related_question_ids": [209, 397, 473],
+      "related_flashcard_ids": [139, 141, 178, 179],
+      "related_confusion_pair_ids": [],
+      "source_refs": [
+        {
+          "label": "Gross anatomy of CNS(3)",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/0. 작년 야마/21학번/4텀/9. Gross Anatomy of CNS(3) by 보리콘다.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "Higher functions of CNS by 삶은딱복",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/0. 작년 야마/21학번/4텀/15. Higher functions of CNS_Neuroanatomy for psychiatry by 삶은딱복.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "BRS Neuroanatomy 4th",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/5. 기타자료/강태천 교수님 문제은행/BRS Neuroanatomy 4th.pdf",
+          "status": "file_detected"
+        }
+      ]
+    },
+    {
+      "id": "tu_cns_gross_visual_association_precuneus",
+      "topic": "cns_gross_1",
+      "title": "Precuneus, lingual gyrus, and posterior visual association route",
+      "core_line": "precuneus, lingual gyrus, pulvinar-LGB, posterior thalamic peduncle는 뒤쪽 시각 association와 where/reading 기능으로 한 묶음으로 외운다.",
+      "why_it_matters": "2020-2022에 precuneus, lingual gyrus, posterior thalamic peduncle 문제가 반복됐다. 전부 뒤쪽 visual association 지도를 정확히 떠올리면 풀린다.",
+      "exam_points": [
+        "precuneus는 경험적 기억, 시공간 추상화, 사물 위치 해석과 연결된다.",
+        "lingual gyrus는 글자/문자 해독 쪽 단서와 연결되고, 수업 노트에서는 visual snow와 같이 외운다.",
+        "LP thalamus, pulvinar, lateral geniculate body는 posterior thalamic peduncle과 묶어서 occipital visual association route로 본다.",
+        "cuneus는 primary visual cortex, fusiform과 lateral occipitotemporal gyrus는 얼굴/색/분류 쪽이라 서로 다르다."
+      ],
+      "common_traps": [
+        "cuneus와 precuneus를 이름만 비슷하다고 바꾸는 실수",
+        "lingual gyrus와 fusiform gyrus를 둘 다 reading이라고만 외워서 섞는 실수",
+        "posterior thalamic peduncle과 superior thalamic peduncle를 뒤바꾸는 실수"
+      ],
+      "takeaways": [
+        "뒤쪽 시각 association는 what/where, reading, thalamic peduncle을 함께 그려야 잘 안 헷갈린다.",
+        "precuneus는 spatial/episodic, lingual은 문자 해독, fusiform은 얼굴/분류로 나눠 외운다.",
+        "pulvinar-LGB가 보이면 posterior thalamic peduncle과 occipital connection을 먼저 본다."
+      ],
+      "recall_prompts": [
+        {
+          "prompt": "경험적 기억, 시공간 추상화, 사물 위치 해석을 묻는 대표 구조는?",
+          "answer": "precuneus."
+        },
+        {
+          "prompt": "문자 해독과 visual snow를 같이 외우는 뒤쪽 구조는?",
+          "answer": "lingual gyrus."
+        },
+        {
+          "prompt": "LP thalamus, pulvinar, lateral geniculate body가 같이 나오면 어느 thalamic peduncle을 먼저 떠올리나?",
+          "answer": "posterior thalamic peduncle."
+        }
+      ],
+      "memory_hooks": [
+        "precuneus = where + episodic",
+        "lingual = reading clue",
+        "posterior peduncle = occipital visual route"
+      ],
+      "match_keywords": [
+        "경험적 기억",
+        "시공간 추상화",
+        "사물 위치해석",
+        "visual snow",
+        "lingual gyrus",
+        "pulvinar",
+        "lat geniculate",
+        "post. thalamic peduncle"
+      ],
+      "related_question_ids": [304, 307, 362, 364, 366, 440, 442],
+      "related_flashcard_ids": [162, 166, 167, 169],
+      "related_confusion_pair_ids": [],
+      "source_refs": [
+        {
+          "label": "Gross anatomy of CNS(2)",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/0. 작년 야마/21학번/4텀/8. Gross anatomy of CNS(2) by 토탈케어서비스.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "Gross anatomy of CNS(3)",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/0. 작년 야마/21학번/4텀/9. Gross Anatomy of CNS(3) by 보리콘다.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "Higher functions of CNS by 삶은딱복",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/0. 작년 야마/21학번/4텀/15. Higher functions of CNS_Neuroanatomy for psychiatry by 삶은딱복.pdf",
+          "status": "file_detected"
+        }
+      ]
+    },
+    {
+      "id": "tu_cns_gross_inferior_frontal_risk_language",
+      "topic": "cns_gross_1",
+      "title": "Inferior frontal gyrus for language output and risky-option inhibition",
+      "core_line": "inferior frontal gyrus는 좌측에서는 언어 산출, 우측에서는 risky choice 억제까지 같이 묻는 자리다.",
+      "why_it_matters": "2020, 2022에 같은 stem이 반복됐다. 언어적 해석과 단어 조합에만 꽂히지 말고 right inferior frontal의 inhibition signal까지 같이 외워야 한다.",
+      "exam_points": [
+        "left inferior frontal gyrus는 Broca 영역과 연결되어 운동언어 기능을 담당한다.",
+        "right inferior frontal gyrus는 risky option을 억제하는 inhibition signal과 연결해서 묻는다.",
+        "superior temporal gyrus는 primary auditory cortex이고, middle/inferior temporal은 거리감각·얼굴·형태 인식 쪽이다."
+      ],
+      "common_traps": [
+        "언어 단서만 보고 superior temporal gyrus를 고르는 실수",
+        "frontal이면 다 superior frontal이라고 뭉뚱그리는 실수",
+        "Broca를 외우면서 right inferior frontal의 inhibition 역할을 놓치는 실수"
+      ],
+      "takeaways": [
+        "inferior frontal gyrus는 left-right 기능이 다르게 반복된다.",
+        "문장 조합, 언어 산출, 위험 억제라는 키워드를 한 카드로 묶어야 한다.",
+        "superior temporal은 듣기, inferior frontal은 말하기로 먼저 자르고 세부 기능을 얹는다."
+      ],
+      "recall_prompts": [
+        {
+          "prompt": "단어 조합과 운동언어를 묻는 frontal 구조는?",
+          "answer": "inferior frontal gyrus."
+        },
+        {
+          "prompt": "risky option을 받아들이지 않도록 inhibition signal을 보내는 것으로 반복되는 구조는?",
+          "answer": "right inferior frontal gyrus."
+        },
+        {
+          "prompt": "superior temporal gyrus의 대표 기능은?",
+          "answer": "primary auditory cortex."
+        }
+      ],
+      "memory_hooks": [
+        "inferior frontal = speak and stop",
+        "superior temporal = hear"
+      ],
+      "match_keywords": [
+        "언어적 해석",
+        "단어의 조합",
+        "위험의 감수",
+        "inf. frontal gyrus"
+      ],
+      "related_question_ids": [306, 404, 439],
+      "related_flashcard_ids": [145, 147, 154, 155, 156, 556, 557],
+      "related_confusion_pair_ids": ["cp_known_014"],
+      "source_refs": [
+        {
+          "label": "Gross anatomy of CNS(3)",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/0. 작년 야마/21학번/4텀/9. Gross Anatomy of CNS(3) by 보리콘다.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "Higher functions of CNS by 삶은딱복",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/0. 작년 야마/21학번/4텀/15. Higher functions of CNS_Neuroanatomy for psychiatry by 삶은딱복.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "BRS Neuroanatomy 4th",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/5. 기타자료/강태천 교수님 문제은행/BRS Neuroanatomy 4th.pdf",
+          "status": "file_detected"
+        }
+      ]
+    },
+    {
+      "id": "tu_cns_gross_corticofugal_cerebellum",
+      "topic": "cns_gross_1",
+      "title": "Internal capsule corticofugal output and corticopontocerebellar dominance",
+      "core_line": "internal capsule의 corticofugal fiber는 하행로 전체 묶음이고, 그중 양이 가장 많은 것은 corticopontine 계열로 cerebellum 쪽 기능과 연결된다.",
+      "why_it_matters": "2021, 2022에 같은 stem이 반복됐다. corticospinal이 가장 유명하다고 해서 가장 많은 섬유라고 착각하면 틀린다.",
+      "exam_points": [
+        "corticofugal fiber는 thalamic radiation을 뺀 cortex의 원심성 섬유 묶음이다.",
+        "corticospinal은 spinal cord, corticobulbar는 cranial nerve nuclei, corticoreticular는 reticular formation으로 간다.",
+        "가장 많은 투사는 corticopontine 계열로 cerebellum과 기능적으로 연결된다."
+      ],
+      "common_traps": [
+        "가장 유명한 corticospinal tract를 자동으로 정답으로 찍는 실수",
+        "basal ganglia를 cortical descending target으로 오해하는 실수",
+        "corticopontine을 직접 cerebellum으로 안 가니 틀렸다고 생각하는 실수"
+      ],
+      "takeaways": [
+        "문제는 실제 종착지보다 가장 큰 functional projection을 묻는 경우가 있다.",
+        "internal capsule 하행로는 spinal cord, CN nuclei, reticular formation, cerebellum 네 축으로 정리한다.",
+        "운동 planning과 cerebellar coordination 연결이 보이면 corticopontine을 먼저 떠올린다."
+      ],
+      "recall_prompts": [
+        {
+          "prompt": "corticofugal fiber 중 가장 많이 투사하는 구조로 반복되는 정답은?",
+          "answer": "cerebellum."
+        },
+        {
+          "prompt": "corticoreticular fiber의 주요 표적은?",
+          "answer": "reticular formation."
+        },
+        {
+          "prompt": "corticobulbar fiber의 주요 표적은?",
+          "answer": "cranial nerve nuclei."
+        }
+      ],
+      "memory_hooks": [
+        "descending famous is not descending most",
+        "planning heavy = pontine to cerebellum"
+      ],
+      "match_keywords": [
+        "internal capsule",
+        "corticofugal fiber",
+        "cerebellum",
+        "corticopontine"
+      ],
+      "related_question_ids": [367, 443],
+      "related_flashcard_ids": [610],
+      "related_confusion_pair_ids": ["cp_known_004"],
+      "source_refs": [
+        {
+          "label": "Gross anatomy of CNS(2)",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/0. 작년 야마/21학번/4텀/8. Gross anatomy of CNS(2) by 토탈케어서비스.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "Gross anatomy of CNS(3)",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/0. 작년 야마/21학번/4텀/9. Gross Anatomy of CNS(3) by 보리콘다.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "BRS Neuroanatomy 4th",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/5. 기타자료/강태천 교수님 문제은행/BRS Neuroanatomy 4th.pdf",
+          "status": "file_detected"
+        }
+      ]
+    },
+    {
+      "id": "tu_cns_gross_amygdala_stria_terminalis",
+      "topic": "cns_gross_1",
+      "title": "Amygdala to hypothalamus via stria terminalis",
+      "core_line": "amygdala에서 hypothalamus ventromedial nucleus로 가는 대표 경로는 stria terminalis다.",
+      "why_it_matters": "2021, 2022에 그대로 반복됐다. 이 문제는 거의 암기형 짤기라서 다른 limbic tract와 비교해서 바로 골라야 한다.",
+      "exam_points": [
+        "amygdala -> stria terminalis -> hypothalamus는 정서와 자율반응 연결 축이다.",
+        "fornix는 hippocampus와 mammillary body 쪽 기억 회로에 더 가깝다.",
+        "mammillothalamic tract는 mammillary body와 anterior thalamic nucleus를 잇는 Papez 회로 일부다.",
+        "medial forebrain bundle은 넓은 hypothalamic-forebrain 연결이지만 이 exact stem의 정답은 아니다."
+      ],
+      "common_traps": [
+        "fornix를 limbic tract 대표라고만 외워서 아무 문제에나 넣는 실수",
+        "mammillothalamic tract와 stria terminalis를 둘 다 기억 회로로만 묶어 섞는 실수",
+        "amygdala-hypothalamus 연결을 medial forebrain bundle로 찍는 실수"
+      ],
+      "takeaways": [
+        "amygdala 문제는 공포/정서/자율반응 단서와 hypothalamus 연결을 같이 읽는다.",
+        "hippocampus면 fornix, amygdala면 stria terminalis로 먼저 자른다.",
+        "이 stem은 거의 그대로 반복되므로 보기 비교까지 같이 외워둔다."
+      ],
+      "recall_prompts": [
+        {
+          "prompt": "amygdala와 hypothalamus ventromedial nucleus를 잇는 대표 tract는?",
+          "answer": "stria terminalis."
+        },
+        {
+          "prompt": "hippocampus에서 mammillary body로 가는 대표 tract는?",
+          "answer": "fornix."
+        },
+        {
+          "prompt": "mammillary body에서 anterior thalamic nucleus로 가는 tract는?",
+          "answer": "mammillothalamic tract."
+        }
+      ],
+      "memory_hooks": [
+        "amygdala = stria terminalis",
+        "hippocampus = fornix"
+      ],
+      "match_keywords": [
+        "Amygdala",
+        "ventromedial nucleus",
+        "stria terminalis",
+        "hypothalamus"
+      ],
+      "related_question_ids": [369, 445],
+      "related_flashcard_ids": [445, 611, 645],
+      "related_confusion_pair_ids": [],
+      "source_refs": [
+        {
+          "label": "Gross anatomy of CNS(3)",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/0. 작년 야마/21학번/4텀/9. Gross Anatomy of CNS(3) by 보리콘다.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "Memory system by 블루베리맨하탄",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/0. 작년 야마/21학번/4텀/12. Memory system by 블루베리맨하탄.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "BRS Neuroanatomy 4th",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/5. 기타자료/강태천 교수님 문제은행/BRS Neuroanatomy 4th.pdf",
+          "status": "file_detected"
+        }
+      ]
+    },
+    {
+      "id": "tu_head1_lesser_petrosal_otic_route",
+      "topic": "head_1",
+      "title": "Lesser petrosal nerve, otic ganglion, and auriculotemporal route",
+      "core_line": "parotid의 부교감 preganglionic GVE는 CN IX에서 나와 lesser petrosal nerve를 타고 otic ganglion에 도착한 뒤, postganglionic fiber가 auriculotemporal nerve와 같이 간다.",
+      "why_it_matters": "2020, 2022에 같은 개념이 다시 나왔다. auriculotemporal과 같이 주행한다는 말에 끌려 postganglionic을 떠올리기 쉽지만, 문제는 preganglionic GVE를 묻고 있었다.",
+      "exam_points": [
+        "CN IX의 tympanic branch에서 시작한 부교감 preganglionic fiber는 lesser petrosal nerve를 타고 otic ganglion으로 간다.",
+        "otic ganglion 이후 parotid gland로 가는 postganglionic fiber는 auriculotemporal nerve(V3)를 hitchhike한다.",
+        "greater petrosal nerve는 lacrimal, nasal, palatal gland 쪽이고, deep petrosal nerve는 sympathetic이다.",
+        "nerve of pterygoid canal은 greater petrosal과 deep petrosal이 합쳐진 mixed fiber다."
+      ],
+      "common_traps": [
+        "auriculotemporal과 같이 가는 섬유를 보고 preganglionic까지 auriculotemporal이라고 착각하는 실수",
+        "greater petrosal과 lesser petrosal을 둘 다 petrosal이라고만 외워서 바꾸는 실수",
+        "deep petrosal sympathetic을 GVE parasympathetic과 혼동하는 실수"
+      ],
+      "takeaways": [
+        "parotid면 CN IX -> lesser petrosal -> otic ganglion -> auriculotemporal 순서를 통째로 외운다.",
+        "문제가 preganglionic인지 postganglionic인지 먼저 체크해야 한다.",
+        "lacrimal/palate면 greater petrosal, parotid면 lesser petrosal로 자른다."
+      ],
+      "recall_prompts": [
+        {
+          "prompt": "parotid gland로 가는 preganglionic parasympathetic GVE는 어느 신경을 타나?",
+          "answer": "lesser petrosal nerve."
+        },
+        {
+          "prompt": "otic ganglion 이후 parotid로 가는 postganglionic fiber는 어느 신경과 같이 가나?",
+          "answer": "auriculotemporal nerve."
+        },
+        {
+          "prompt": "greater petrosal nerve가 주로 연결되는 분비 기관은?",
+          "answer": "lacrimal gland와 nasal/palatal gland."
+        }
+      ],
+      "memory_hooks": [
+        "parotid = IX -> lesser -> otic -> auriculotemporal",
+        "greater = lacrimal, lesser = parotid"
+      ],
+      "match_keywords": [
+        "auriculotemporal",
+        "GVE",
+        "부교감 연접 이전",
+        "lesser petrosal",
+        "otic ganglion",
+        "parotid"
+      ],
+      "related_question_ids": [292, 411],
+      "related_flashcard_ids": [],
+      "related_confusion_pair_ids": [],
+      "source_refs": [
+        {
+          "label": "강태천 교수님 Head-2026",
+          "path": "폴더1_2024yapyeon_인체의구조/0. 수업자료/강태천 교수님/Head-2026.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "Head (1) by 박종호중구",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/0. 작년 야마/21학번/4텀/1. Head (1) by 박종호중구.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "Autonomic nervous system by 고라파덕",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/0. 작년 야마/21학번/4텀/14. Autonomic nervous system by 고라파덕.pdf",
+          "status": "file_detected"
+        }
+      ]
+    },
+    {
+      "id": "tu_memory_entorhinal_ba28",
+      "topic": "memory_system",
+      "title": "Entorhinal area BA 28 as the gateway into hippocampal memory circuit",
+      "core_line": "Brodmann area 28은 entorhinal area로, hippocampus로 들어가는 주요 입력문 역할을 하는 기억 회로의 입구다.",
+      "why_it_matters": "2017, 2019에 같은 stem이 반복되었다. 숫자를 외우는 것보다 parahippocampal gyrus 앞쪽에 있는 BA 28이라는 위치까지 묶어야 변형에도 버틴다.",
+      "exam_points": [
+        "entorhinal area는 parahippocampal gyrus의 전방부에 위치한다.",
+        "perforant pathway의 주요 기원으로 hippocampus에 입력을 보낸다.",
+        "기억 형성 문제에서 BA 28은 가장 직접적인 정답으로 반복된다."
+      ],
+      "common_traps": [
+        "21, 27, 29, 30처럼 근처 숫자를 그냥 외워서 섞는 실수",
+        "기억 관련이라고 해서 hippocampus 이름만 찾다가 BA 문제를 놓치는 실수",
+        "entorhinal area의 위치를 parahippocampal gyrus와 연결하지 않고 숫자만 외우는 실수"
+      ],
+      "takeaways": [
+        "memory BA 문제는 숫자만 외우지 말고 위치와 회로를 같이 묶는다.",
+        "BA 28 = entorhinal = hippocampus input gateway로 한 줄 정리한다.",
+        "같은 stem이 반복됐으므로 시험장에서는 거의 바로 떠올라야 한다."
+      ],
+      "recall_prompts": [
+        {
+          "prompt": "기억 형성에 중요한 BA 28의 이름은?",
+          "answer": "entorhinal area."
+        },
+        {
+          "prompt": "entorhinal area는 어느 gyrus의 앞쪽에 위치하나?",
+          "answer": "parahippocampal gyrus."
+        },
+        {
+          "prompt": "entorhinal area에서 hippocampus로 들어가는 대표 입력 경로는?",
+          "answer": "perforant pathway."
+        }
+      ],
+      "memory_hooks": [
+        "28 = entry gate",
+        "entorhinal = hippocampal input"
+      ],
+      "match_keywords": [
+        "기억력 손상",
+        "28",
+        "entorhinal",
+        "parahippocampal"
+      ],
+      "related_question_ids": [187, 265],
+      "related_flashcard_ids": [],
+      "related_confusion_pair_ids": [],
+      "source_refs": [
+        {
+          "label": "Memory system by 블루베리맨하탄",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/0. 작년 야마/21학번/4텀/12. Memory system by 블루베리맨하탄.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "Gross anatomy of CNS(3)",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/0. 작년 야마/21학번/4텀/9. Gross Anatomy of CNS(3) by 보리콘다.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "BRS Neuroanatomy 4th",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/5. 기타자료/강태천 교수님 문제은행/BRS Neuroanatomy 4th.pdf",
+          "status": "file_detected"
+        }
+      ]
+    },
+    {
+      "id": "tu_memory_cingulum_limbic_association",
+      "topic": "memory_system",
+      "title": "Cingulum as the limbic association fasciculus",
+      "core_line": "cingulum은 cingulate gyrus, parahippocampal gyrus, septal area를 잇는 limbic lobe의 대표 association fasciculus다.",
+      "why_it_matters": "2012, 2013에 같은 stem이 반복됐다. 다른 장연합섬유 이름들과 비교해서 묻는 전형적인 짤기라서 연결 범위를 정확히 외워야 한다.",
+      "exam_points": [
+        "cingulum은 limbic lobe 안쪽을 길게 잇는 association fasciculus다.",
+        "superior longitudinal fasciculus는 frontal-parietal-occipital-temporal을 넓게 잇는 별개 경로다.",
+        "inferior longitudinal fasciculus는 temporal-occipital, uncinate fasciculus는 frontal-temporal을 잇는다."
+      ],
+      "common_traps": [
+        "association fasciculus라고만 보고 superior longitudinal fasciculus를 찍는 실수",
+        "uncinate fasciculus와 cingulum을 둘 다 limbic이라고만 묶어서 섞는 실수",
+        "cingulate gyrus와 cingulum을 이름만 비슷하다고 구조와 tract를 구분 못하는 실수"
+      ],
+      "takeaways": [
+        "cingulum은 limbic lobe 내부 연결, uncinate는 frontal-temporal 외측 연결로 자른다.",
+        "연합섬유 문제는 연결하는 두 엽이나 gyrus를 먼저 떠올리면 빨리 풀린다.",
+        "cingulate gyrus, parahippocampal gyrus, septal area 세 구조를 한 장면으로 외운다."
+      ],
+      "recall_prompts": [
+        {
+          "prompt": "cingulate gyrus, parahippocampal gyrus, septal area를 잇는 tract는?",
+          "answer": "cingulum."
+        },
+        {
+          "prompt": "frontal lobe와 temporal lobe를 잇는 대표 association fasciculus는?",
+          "answer": "uncinate fasciculus."
+        },
+        {
+          "prompt": "temporal lobe와 occipital lobe를 잇는 대표 association fasciculus는?",
+          "answer": "inferior longitudinal fasciculus."
+        }
+      ],
+      "memory_hooks": [
+        "cingulum = limbic inner belt",
+        "uncinate = frontal-temporal hook"
+      ],
+      "match_keywords": [
+        "limbic lobe",
+        "association fasciculus",
+        "cingulate gyrus",
+        "parahippocampal gyrus",
+        "septal area",
+        "cingulum"
+      ],
+      "related_question_ids": [46, 91],
+      "related_flashcard_ids": [],
+      "related_confusion_pair_ids": [],
+      "source_refs": [
+        {
+          "label": "Memory system by 블루베리맨하탄",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/0. 작년 야마/21학번/4텀/12. Memory system by 블루베리맨하탄.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "Gross anatomy of CNS(3)",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/0. 작년 야마/21학번/4텀/9. Gross Anatomy of CNS(3) by 보리콘다.pdf",
+          "status": "file_detected"
+        },
+        {
+          "label": "BRS Neuroanatomy 4th",
+          "path": "폴더2_dinosaen1_인체의구조/야편 파일/5. 기타자료/강태천 교수님 문제은행/BRS Neuroanatomy 4th.pdf",
+          "status": "file_detected"
+        }
+      ]
+    }
+  ]
+}

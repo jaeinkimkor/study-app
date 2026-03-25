@@ -1,4 +1,4 @@
-const CACHE_NAME = 'anatomy4-v1';
+const CACHE_NAME = 'anatomy4-v2';
 
 self.addEventListener('install', event => {
   self.skipWaiting();
@@ -50,19 +50,24 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  // JSON data: stale-while-revalidate
+  // JSON data: network-first so updated teaching data is reflected immediately
   if (url.pathname.endsWith('.json')) {
     event.respondWith(
-      caches.match(event.request).then(cached => {
-        const fetchPromise = fetch(event.request).then(res => {
-          if (res && res.status === 200) {
-            const clone = res.clone();
-            caches.open(CACHE_NAME).then(c => c.put(event.request, clone));
-          }
-          return res;
-        }).catch(() => cached);
-        return cached || fetchPromise;
-      })
+      fetch(event.request).then(res => {
+        if (res && res.status === 200) {
+          const clone = res.clone();
+          caches.open(CACHE_NAME).then(c => c.put(event.request, clone));
+        }
+        return res;
+      }).catch(() =>
+        caches.match(event.request).then(cached => {
+          if (cached) return cached;
+          return new Response('{"error":"offline"}', {
+            status: 503,
+            headers: { 'Content-Type': 'application/json' }
+          });
+        })
+      )
     );
     return;
   }
